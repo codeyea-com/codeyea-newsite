@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { applyTemporaryIndustryFallbackMedia, attachLocalIndustryAssets } from '../src/content/industry-assets';
 import fallback from '../src/content/approved-industries-fallbacks.json';
 import { industryDetailSchema } from '../src/schemas/industry-detail';
+import type { IndustryDetailContent } from '../src/schemas/industry-detail';
 
 test('industry fallback keeps each approved media selection instead of replacing every photo with one industry alias', () => {
   const fallback = {
@@ -28,7 +29,7 @@ test('industry fallback still maps an unavailable uploaded asset to its local in
 });
 
 test('published temporary photos are replaced with the reviewed industry gallery', () => {
-  const source = structuredClone(fallback.details['restaurants-cafes-bakeries']);
+  const source = structuredClone(fallback.details['restaurants-cafes-bakeries'] as unknown as IndustryDetailContent);
   source.hero.media = { ...source.hero.media, mediaId: 'media_da347870-256b-48e0-bb16-865b0690a592', alt: 'Roofing professionals installing a roof' };
   for (const section of source.sections) {
     if (!section.temporaryMedia) continue;
