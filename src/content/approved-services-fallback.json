@@ -119,7 +119,7 @@
             "list": [],
             "label": "CODEYEA SERVICES",
             "media": {
-              "alt": "Temporary local image — image selection pending",
+              "alt": "Business operations workspace displayed on a computer screen",
               "width": 1200,
               "focalX": 50,
               "focalY": 50,
@@ -141,7 +141,7 @@
             "list": [],
             "label": "CODEYEA SERVICES",
             "media": {
-              "alt": "Temporary local image — image selection pending",
+              "alt": "Search analytics displayed on a laptop",
               "width": 1200,
               "focalX": 50,
               "focalY": 50,
@@ -163,7 +163,7 @@
             "list": [],
             "label": "CODEYEA SERVICES",
             "media": {
-              "alt": "Temporary local image — image selection pending",
+              "alt": "Web development code shown on a computer display",
               "width": 1200,
               "focalX": 50,
               "focalY": 50,
@@ -185,7 +185,7 @@
             "list": [],
             "label": "CODEYEA SERVICES",
             "media": {
-              "alt": "Temporary local image — image selection pending",
+              "alt": "Online store product catalogue displayed on a screen",
               "width": 1200,
               "focalX": 50,
               "focalY": 50,
@@ -642,7 +642,7 @@
         "destination": "https://codeyea.com/contact/"
       }
     ],
-    "imageStatus": "temporary — image selection pending",
+    "imageStatus": "available",
     "schemaVersion": 1
   }
 }
