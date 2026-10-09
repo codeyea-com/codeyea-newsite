@@ -66,7 +66,7 @@ export function HomepageHeader({content,activeHref,homeHref='#top',light=false}:
               height="47"
               alt="CODEYEA"
             />
-            <img className="hp-logo-light" src="/brand/logo-animated-dark.svg" width="205" height="47" alt="" />
+            <img className="hp-logo-light" src="/brand/logo-animated-light.svg" width="205" height="47" alt="" />
           </a>
           <nav className="hp-desktop-nav" aria-label="Main navigation">
             {preview?approved.navigation:<Navigation content={content} activeHref={activeHref}/>}

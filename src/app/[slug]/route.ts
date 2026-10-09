@@ -1,7 +1,7 @@
 import { db } from '@/server/db';
 import { documentPath } from '@/content/site-routes';
 import { documentContent } from '@/server/site-editing';
-import { documentRobots, renderDocument } from '@/server/site-documents';
+import { documentRobots, renderDocument, templateContent, templatePageDraft } from '@/server/site-documents';
 import { noStore } from '@/server/http';
 import { documentAlternates } from '@/server/site-public-urls';
 import { z } from 'zod';
@@ -14,7 +14,12 @@ export async function GET(_request: Request, { params }: { params: Promise<{ slu
   const path = documentPath(slug, 'en');
   if (!path) return new Response('Not found', { status: 404, headers: noStore });
   const doc = await db.siteDocument.findUnique({ where: { slug_locale: { slug, locale: 'en' } } });
-  if (!doc || doc.kind !== 'page' || !doc.template || !doc.published) return new Response('Not found', { status: 404, headers: noStore });
+  if (!doc || doc.kind !== 'page' || !doc.template || !doc.published) {
+    const {title,content}=templatePageDraft(slug,await templateContent(slug));
+    return new Response(await renderDocument(slug,content,'en',title,{public:true}),{
+      headers:{...noStore,'Content-Type':'text/html; charset=utf-8','X-Robots-Tag':documentRobots(content,true),'X-Content-Type-Options':'nosniff'},
+    });
+  }
   const published = publication.safeParse(doc.published);
   if (!published.success) return new Response('Page is temporarily unavailable', { status: 503, headers: { ...noStore, 'Retry-After': '60', 'X-Robots-Tag': 'noindex, nofollow' } });
   const { title, content } = published.data;

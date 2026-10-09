@@ -1,15 +1,17 @@
 import {accordionFixtures,flowFixtures,hostingFixtures,industryFixtures,serviceFixtures} from './homepage-review';
 import {homepageEditorSchema,type EditorObject} from '../schemas/homepage-editor';
-const contact='https://codeyea.com/contact/';
+const contact='/contact/';
 export const iconKeys=['development','commerce','automation','hosting','growth','creative','support','strategy'];
 export function defaultHomepage(localeId='en',marketId='global'){
  const item=(id:string,position:number,value:EditorObject):EditorObject=>({id,localeId,marketId,position,enabled:true,...value});
  const image=(mediaId:string,alt='',decorative=true):EditorObject=>({mediaId,alt,decorative,focalX:50,focalY:50});
  const words=(values:string[])=>values.map((title,i)=>item('word-'+i,i,{title}));
  const cta=(ctaLabel:string,ctaHref=contact)=>({ctaLabel,ctaHref});
- const nav=[['About Us','#about'],['Services','#services'],['Hosting','#hosting'],['Industries','#industries'],['Work','#work']].map(([title,href],i)=>item('nav-'+i,i,{title,href,parentId:''}));
- serviceFixtures.forEach((s,i)=>nav.push(item('nav-service-'+i,10+i,{title:s.title,href:'#'+s.id,parentId:'nav-1'})));
- industryFixtures.forEach((s,i)=>nav.push(item('nav-industry-'+i,20+i,{title:s.title,href:'#industry-list',parentId:'nav-3'})));
+ const nav=[['About Us','/about/'],['Services','/services/'],['Hosting','/website-hosting/'],['Industries','/industries/'],['Work','/#work']].map(([title,href],i)=>item('nav-'+i,i,{title,href,parentId:''}));
+ const servicePaths=['/web-mobile-apps/','/ecommerce/','/ai-automation/','/website-hosting/','/seo-geo/','/brand-design/','/technical-support/','/services/'];
+ serviceFixtures.forEach((s,i)=>nav.push(item('nav-service-'+i,10+i,{title:s.title,href:servicePaths[i],parentId:'nav-1'})));
+ const industryPaths=['healthcare','construction','real-estate','e-commerce','legal','oil-and-gas','roofing','small-business'];
+ industryFixtures.forEach((s,i)=>nav.push(item('nav-industry-'+i,20+i,{title:s.title,href:'/industries/'+industryPaths[i]+'/',parentId:'nav-3'})));
  const labels=['NVMe SSD Storage','Premium Bandwidth','Sub Domains','SSL Certificate','cPGuard Protection','One Click App Installer','Mail Accounts','Uptime','Malware scanner','DDoS protection','Weekly Backup'];
  const features=labels.map((title,i)=>item('feature-'+i,i,{title}));
  const data={schemaVersion:1,localeId,marketId,seo:{title:'Website Design, SEO & Digital Services | CODEYEA',description:'CODEYEA builds websites, apps, e-commerce experiences and digital growth systems for businesses worldwide.'},

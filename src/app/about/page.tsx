@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
 import { db } from "@/server/db";
 import { snapshotSchema } from "@/schemas/content";
 import { AboutPage } from "@/components/sections/about-page";
 import { PublicTracking } from "@/components/cms/public-tracking";
-import { aboutMetadata } from "@/content/about-defaults";
+import { aboutMetadata, defaultAbout } from "@/content/about-defaults";
+import { defaultHomepage } from "@/content/homepage-defaults";
 import {publicRobots} from "@/content/seo";
 import {pageMetadata,publicPageSchema} from '@/content/structured-data';
 import {JsonLd} from '@/components/json-ld';
@@ -29,15 +29,14 @@ export async function generateMetadata(): Promise<Metadata> {
   return {...pageMetadata('/about/',seo.title,seo.description,seo),robots:publicRobots(!!about,seo)};
 }
 export default async function About() {
-  const about = await publishedAbout();
-  if (!about) notFound();
+  const about = (await publishedAbout()) ?? defaultAbout();
   const shared = await db.page.findUnique({
     where: { id: "homepage" },
     select: { publishedSnapshot: true },
   });
   const homepage = shared?.publishedSnapshot
     ? snapshotSchema.parse(shared.publishedSnapshot).homepage
-    : undefined;
+    : defaultHomepage();
   const seo=about.seo??aboutMetadata;
   return <><JsonLd data={publicPageSchema('/about/',seo.title,seo.description,'AboutPage')}/><AboutPage content={about} shared={homepage} /><PublicTracking /></>;
 }

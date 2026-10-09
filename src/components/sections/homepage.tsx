@@ -7,17 +7,15 @@ import { EditorialCopy } from "./homepage-editorial-copy";
 import { HomepageFooter } from "./homepage-footer";
 import "@/styles/homepage-editorial.css";
 import { HomepageHeader } from "./homepage-header";
-import { HomepageHeroExperience } from "./homepage-hero-experience";
-import { createHeroServiceSlides } from "./homepage-hero-model";
 import { SiteUtility } from "./site-utility";
 import { HomepageHosting } from "./homepage-hosting";
 import {
   Carousel,
   ServiceFlow,
   HomepageMotion,
+  WordRotator,
 } from "./homepage-interactions";
 import type { Snapshot } from "@/schemas/content";
-import "@/styles/homepage-morph-hero.css";
 import {
   accordionFixtures,
   flowFixtures,
@@ -86,19 +84,19 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
       <SiteUtility />
       <HomepageHeader content={home.header} />
       <main id="main">
-        {hero.enabled !== false && <HomepageHeroExperience
-          slides={createHeroServiceSlides(services)}
-          ctaLabel={str(hero.ctaLabel)}
-          ctaHref={str(hero.ctaHref)}
-        />}
-        <aside className="hp-review hp-container">
-          <strong>Homepage design review</strong>
-          <span>
-            Published positioning appears below. Other copy, pricing and project
-            examples await approval. Photography is recovered from the existing
-            site. Client marks below require relationship approval.
-          </span>
-        </aside>
+        {hero.enabled !== false && <section id="top" className="hp-hero">
+          <div className="hp-container hp-hero-inner">
+            <div className="hp-hero-copy">
+              <p className="hp-eyebrow">CODEYEA · DIGITAL INNOVATION AGENCY</p>
+              <h1>{str(hero.prefix)}{" "}<WordRotator words={enabledItems(hero.words).map(word => str(word.title))} /></h1>
+              <p>{str(hero.body)}</p>
+              <a className="hp-button hp-button-light" href={str(hero.ctaHref)}>{str(hero.ctaLabel)} <span aria-hidden="true">→</span></a>
+            </div>
+            <div className="hp-hero-art">
+              <img {...mediaProps(hero.media)} width="1600" height="750" fetchPriority="high" />
+            </div>
+          </div>
+        </section>}
         {home.logos.enabled !== false && <section
           className="hp-clients hp-container"
           aria-label="Existing site logos; client relationships awaiting confirmation"

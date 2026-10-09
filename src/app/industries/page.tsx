@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
 import { db } from "@/server/db";
 import { snapshotSchema } from "@/schemas/content";
 import { IndustriesPage } from "@/components/sections/industries-page";
@@ -8,6 +7,8 @@ import {publicRobots,resolveSeoText} from "@/content/seo";
 import {pageMetadata,publicPageSchema} from '@/content/structured-data';
 import {JsonLd} from '@/components/json-ld';
 import {publishedSitePaths} from "@/content/site-routes";
+import {defaultIndustries} from "@/content/industries-defaults";
+import {defaultHomepage} from "@/content/homepage-defaults";
 const industriesMetadata = {title:"Industries We Serve | CODEYEA",description:"Digital solutions shaped around your industry, customers and workflows."};
 import "@/styles/homepage.css";
 import "@/styles/homepage-interactions.css";
@@ -31,19 +32,19 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 export default async function Industries() {
   const industries = await publishedIndustries();
-  if (!industries) notFound();
+  const pageContent=industries??defaultIndustries('en','global');
   const shared = await db.page.findUnique({
     where: { id: "homepage" },
     select: { publishedSnapshot: true },
   });
   const homepage = shared?.publishedSnapshot
     ? snapshotSchema.parse(shared.publishedSnapshot).homepage
-    : undefined;
+    : defaultHomepage();
   const [publishedDetails,publishedDocuments]=await Promise.all([db.page.findMany({
     where:{deletedAt:null,publishedAt:{not:null}},
     select:{id:true,publishedSnapshot:true,publishedAt:true,deletedAt:true},
   }),db.siteDocument.findMany({where:{kind:'page'},select:{slug:true,locale:true,kind:true,published:true}})]);
   const availablePaths=publishedSitePaths({pages:publishedDetails,documents:publishedDocuments});
-  const seo=resolveSeoText(industries.seo,industriesMetadata);
-  return <><JsonLd data={publicPageSchema('/industries/',seo.title,seo.description,'CollectionPage')}/><IndustriesPage content={industries} shared={homepage} availablePaths={availablePaths}/><PublicTracking /></>;
+  const seo=resolveSeoText(pageContent.seo,industriesMetadata);
+  return <><JsonLd data={publicPageSchema('/industries/',seo.title,seo.description,'CollectionPage')}/><IndustriesPage content={pageContent} shared={homepage} availablePaths={availablePaths}/><PublicTracking /></>;
 }
