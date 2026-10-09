@@ -7,6 +7,7 @@ import {EditorialMotion} from '../motion/editorial-motion';
 import {FixedImageMotion} from '../motion/fixed-image-motion';
 import {OrderedPath} from '../motion/ordered-path';
 import {industryPageDestination,servicePageDestinationForText} from '@/content/service-destinations';
+import {publicDestination} from '@/content/public-destination';
 import '@/styles/approved-motion.css';
 
 function Paragraphs({text}:{text:string}) {return <>{text.split(/\n\s*\n/).filter(Boolean).map((p,i)=><p key={i}>{p}</p>)}</>}
@@ -15,7 +16,7 @@ function AnimatedTitle({text}:{text:string}) {return <h2 aria-label={text}>{text
 export function RoofingHubBody({content,industryItems,availablePaths,preview,contact}:{content:IndustryDetailContent;industryItems:IndustryItem[];availablePaths:string[];preview:boolean;contact:string}) {
  const sections=content.sections;
  const overview=sections.find(s=>s.type==='overview');
- const resolve=(value:string)=>{if(value==='https://codeyea.com/contact/'||value===contact||value==='#contact')return value;if(!availablePaths.includes(value))return undefined;return preview?value.startsWith('/industries/')&&value!=='/industries/'?'/preview'+value.replace(/\/$/,''):value==='/industries/'?'/preview/industries':value==='/about/'?'/preview/about':value:value};
+ const resolve=(value:string)=>{const normalized=publicDestination(value);if(normalized==='/contact/#contact-form'||value===contact||value==='#contact')return preview?'/preview/pages/contact#contact-form':'/contact/#contact-form';if(!availablePaths.includes(value))return undefined;return preview?value.startsWith('/industries/')&&value!=='/industries/'?'/preview'+value.replace(/\/$/,''):value==='/industries/'?'/preview/industries':value==='/about/'?'/preview/about':value:value};
  const action=(s:DetailSection,cls='rf-text-action motion-text-link')=>{const href=resolve(s.destination);return href?<a className={cls} href={href}>{s.actionLabel}{cls.includes("motion-text-link")&&<span aria-hidden="true">↗</span>}</a>:<button type="button" aria-disabled="true" className={cls}>{s.actionLabel}</button>};
  return <div className="rf-body"><RoofingReferenceMotion/><EditorialMotion scope=".rf-body" groups={[".rf-story-grid",".rf-needs-copy",".rf-needs-media figcaption",".rf-pillars article",".rf-growth .rf-kicker",".rf-growth li h3",".rf-growth li p",".rf-faq-copy",".rf-accordion summary",".rf-industry-grid",".rf-cta-content"]}/><EditorialMotion scope=".rf-services" groups={[".rf-service-heading",".rf-service-paragraphs",".rf-service-lists"]} when="(max-width:1023px), (hover:none), (pointer:coarse)"/><FixedImageMotion selector=".rf-image-break,.rf-needs-media .motion-contained-image"/><OrderedPath selector=".rf-growth"/>{sections.filter(s=>s.enabled).map(s=>{
   if(s.type==='overview')return <section id={s.id} key={s.id} className="rf-overview rf-section" aria-labelledby={s.id+'-title'}>
