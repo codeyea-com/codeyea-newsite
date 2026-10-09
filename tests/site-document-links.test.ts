@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { approvedTemplates, applyTemplateImageOverrides, rewritePublicDocumentLinks, templateContent, templatePageDraft } from '../src/server/site-documents';
+import { approvedTemplates, applyTemplateImageOverrides, extractTemplateMediaIds, rewritePublicDocumentLinks, templateContent, templatePageDraft } from '../src/server/site-documents';
 import {documentPath,existingPageIds,pagePath} from '../src/content/site-routes';
 
 test('public template links resolve review navigation to real English routes', () => {
@@ -62,4 +62,10 @@ test('a selected CMS image replaces the original srcset and carries safe alt tex
   assert.match(result,/alt="New image"/);
   assert.doesNotMatch(result,/srcset=/);
   assert.doesNotMatch(result,/old-small|old-large/);
+});
+
+test('public templates expose only the media IDs embedded in their approved image markup', async () => {
+  const ids = extractTemplateMediaIds(await templateContent('website-hosting'));
+  assert.equal(ids.has('media_144cde21-93c7-4a91-87b1-0b8fe5ad799e'), true);
+  assert.equal(ids.has('media_not-used-by-any-public-template'), false);
 });

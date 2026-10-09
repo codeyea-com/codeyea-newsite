@@ -133,17 +133,22 @@ function removeMarkedElements(html: string, classes: string[]) {
   for (const [start, end] of merged.reverse()) html = html.slice(0, start) + html.slice(end);
   return html;
 }
+function removeScriptsContaining(html: string, marker: string) {
+  return html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, (script) =>
+    script.includes(marker) ? "" : script,
+  );
+}
 /** Keep draft-only portfolio, testimonial and sample-brand content out of public templates. */
 export function sanitizeUnapprovedPublicContent(html: string, contactHref = "/contact/") {
   html = removeMarkedElements(html, ["b-logos", "b-testimonials", "b-proof-stack", "ai-stories", "ai-story-logos", "ai-logo-note"]);
   // The deleted story carousel has a dedicated initializer that assumes its DOM exists.
-  html = html.replace(/<script\b[^>]*>[\s\S]*?function storiesMotion\(\)[\s\S]*?<\/script>/gi, "");
+  html = removeScriptsContaining(html, "function storiesMotion()");
   html = html.replace(/<section\b(?=[^>]*\bid=["']ds-testimonials["'])[^>]*>[\s\S]*?<\/section>/gi, "");
   // These projects are explicitly unapproved placeholders; keep the surrounding service design intact.
   if (/Project content pending|Approved project material pending/i.test(html)) {
     html = removeMarkedElements(html, ["ds-works"]);
     // This enhancement also assumes that the draft-only portfolio section is present.
-    html = html.replace(/<script\b[^>]*>[\s\S]*?function worksMotion\(\)[\s\S]*?<\/script>/gi, "");
+    html = removeScriptsContaining(html, "function worksMotion()");
   }
   html = html.replace(/\balt=(["'])Temporary local image\s*[—–-]\s*image selection pending\1/gi, 'alt=""');
   return html.replace(/<form\b(?=[^>]*\bclass=["'][^"']*\bhp-footer-v2-form\b[^"']*["'])[^>]*>[\s\S]*?<\/form>/i,
@@ -180,6 +185,11 @@ export function extractImages(html:string){
   images.push({key:'image-'+images.length,alt:alt.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'")});
  }
  return images;
+}
+export function extractTemplateMediaIds(html: string) {
+ const ids = new Set<string>();
+ for (const match of html.matchAll(/\/api\/media\/(media_[a-z\d_-]+)(?:\/[^"'?#]*)?(?:[?#][^"']*)?["']/gi)) ids.add(match[1]);
+ return ids;
 }
 export function templatePageDraft(slug:string,html:string){
  const title=templatePageTitles[slug];
