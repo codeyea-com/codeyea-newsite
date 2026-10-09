@@ -10,7 +10,7 @@ export async function GET(req: Request, { params }: { params: Promise<{ asset: s
     const { asset } = await params;
     const relative = asset.join('/');
     if (!/^(quote-review|shared-navigation|[a-z-]+-review|digital-service-template-preview)\/[a-zA-Z0-9_./-]+\.(css|js|png|jpg|jpeg|webp|svg|woff2)$/.test(relative) || asset.some(part => part === '..' || part === '.' || part.includes('\\'))) return new Response('Not found', { status: 404 });
-    const root = path.resolve('docs');
+    const root = path.resolve('site-templates');
     const file = path.resolve(root, ...asset);
     if (!file.startsWith(root + path.sep)) return new Response('Not found', { status: 404 });
 

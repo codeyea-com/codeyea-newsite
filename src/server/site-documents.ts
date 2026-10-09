@@ -68,7 +68,7 @@ export function bindTemplate(html:string,content:DocumentContent):DocumentConten
 export async function templateContent(slug: string) {
   if (!approvedTemplates[slug]) throw Error("Unknown template");
   return fs.readFile(
-    path.join(process.cwd(), "docs", approvedTemplates[slug]),
+    path.join(process.cwd(), "site-templates", approvedTemplates[slug]),
     "utf8",
   );
 }
