@@ -1,0 +1,5 @@
+export const industrySlugs = ['roofing', 'healthcare', 'construction', 'e-commerce', 'small-business', 'event-coordinators', 'legal', 'online-magazine', 'oil-and-gas', 'real-estate', 'fashion-and-lifestyle', 'beauty-skincare-med-spa', 'restaurants-cafes-bakeries', 'solar-energy'] as const;
+export type IndustrySlug = typeof industrySlugs[number];
+export const industryNames: Record<IndustrySlug, string> = { roofing: 'Roofing', healthcare: 'Healthcare', construction: 'Construction', 'e-commerce': 'E-Commerce', 'small-business': 'Small Business', 'event-coordinators': 'Event Coordinators', legal: 'Legal', 'online-magazine': 'Online Magazine', 'oil-and-gas': 'Oil and Gas', 'real-estate': 'Real Estate', 'fashion-and-lifestyle': 'Fashion and Lifestyle', 'beauty-skincare-med-spa': 'Beauty, Skincare & Med Spa', 'restaurants-cafes-bakeries': 'Restaurants, Cafés & Bakeries', 'solar-energy': 'Solar Energy' };
+export function isIndustrySlug(value: string): value is IndustrySlug { return (industrySlugs as readonly string[]).includes(value); }
+export const cmsPageIds = ['homepage', 'about', 'industries', 'services', ...industrySlugs] as const;

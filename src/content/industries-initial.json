@@ -1,0 +1,723 @@
+{
+  "schemaVersion": 1,
+  "localeId": "en",
+  "marketId": "global",
+  "hero": {
+    "id": "industries-hero",
+    "title": "Industries",
+    "media": {
+      "mediaId": "office",
+      "alt": "Office workspace",
+      "decorative": false,
+      "focalX": 50,
+      "focalY": 50,
+      "tabletFocalX": 50,
+      "tabletFocalY": 50,
+      "mobileFocalX": 50,
+      "mobileFocalY": 50
+    },
+    "temporaryMedia": true
+  },
+  "items": [
+    {
+      "id": "industry-roofing",
+      "position": 0,
+      "enabled": true,
+      "label": "INDUSTRY",
+      "title": "Roofing",
+      "body": "Roofing is highly local and highly competitive. A strong site needs to show service areas, completed work, reviews, insurance and warranty information where relevant, and an easy way to request help. The goal is not just traffic. It is qualified local inquiries.",
+      "ctaLabel": "Explore Roofing",
+      "destination": "",
+      "images": [
+        {
+          "mediaId": "roofing",
+          "alt": "Roofing work on a house",
+          "decorative": false,
+          "focalX": 20,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        },
+        {
+          "mediaId": "roofing",
+          "alt": "Roofing work on a house",
+          "decorative": false,
+          "focalX": 75,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        }
+      ],
+      "temporaryMedia": true,
+      "highlights": [
+        {
+          "id": "highlight-1",
+          "title": "Roofing websites",
+          "body": "Estimate request forms."
+        },
+        {
+          "id": "highlight-2",
+          "title": "Service and location pages",
+          "body": "Local SEO."
+        },
+        {
+          "id": "highlight-3",
+          "title": "Before and after project galleries",
+          "body": "Google Business support."
+        }
+      ]
+    },
+    {
+      "id": "industry-healthcare",
+      "position": 1,
+      "enabled": true,
+      "label": "INDUSTRY",
+      "title": "Healthcare",
+      "body": "Healthcare and aesthetic businesses compete on trust, reputation, convenience, and visibility. Patients often discover a clinic through search, social media, or a recommendation, then visit the website to understand services, doctors, treatments, location, and how to book. For aesthetic clinics in particular, the digital experience is often part of the brand experience. The website needs to look polished while still making information easy to understand and actions easy to complete.",
+      "ctaLabel": "Explore Healthcare",
+      "destination": "",
+      "images": [
+        {
+          "mediaId": "healthcare",
+          "alt": "Healthcare consultation",
+          "decorative": false,
+          "focalX": 20,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        },
+        {
+          "mediaId": "healthcare",
+          "alt": "Healthcare consultation",
+          "decorative": false,
+          "focalX": 75,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        }
+      ],
+      "temporaryMedia": true,
+      "highlights": [
+        {
+          "id": "highlight-1",
+          "title": "Clinic and treatment websites",
+          "body": ""
+        },
+        {
+          "id": "highlight-2",
+          "title": "Online booking or appointment request flows",
+          "body": ""
+        },
+        {
+          "id": "highlight-3",
+          "title": "WhatsApp and contact integrations",
+          "body": ""
+        },
+        {
+          "id": "highlight-4",
+          "title": "Treatment and service pages",
+          "body": ""
+        },
+        {
+          "id": "highlight-5",
+          "title": "Doctor and practitioner profiles",
+          "body": ""
+        },
+        {
+          "id": "highlight-6",
+          "title": "Before and after galleries with appropriate consent workflows",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "id": "industry-construction",
+      "position": 2,
+      "enabled": true,
+      "label": "INDUSTRY",
+      "title": "Construction",
+      "body": "Construction companies often win work through reputation, relationships, and proof of experience. A strong digital presence supports all three by making projects, capabilities, certifications, locations, and contact information easy to verify. The website can also become part of the lead and project workflow instead of being only an online brochure.",
+      "ctaLabel": "Explore Construction",
+      "destination": "",
+      "images": [
+        {
+          "mediaId": "construction",
+          "alt": "Construction site",
+          "decorative": false,
+          "focalX": 20,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        },
+        {
+          "mediaId": "construction",
+          "alt": "Construction site",
+          "decorative": false,
+          "focalX": 75,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        }
+      ],
+      "temporaryMedia": true,
+      "highlights": [
+        {
+          "id": "highlight-1",
+          "title": "Construction and contractor websites",
+          "body": ""
+        },
+        {
+          "id": "highlight-2",
+          "title": "Project portfolio and case study systems",
+          "body": ""
+        },
+        {
+          "id": "highlight-3",
+          "title": "Lead capture forms",
+          "body": ""
+        },
+        {
+          "id": "highlight-4",
+          "title": "Service-area pages",
+          "body": ""
+        },
+        {
+          "id": "highlight-5",
+          "title": "Local SEO",
+          "body": ""
+        },
+        {
+          "id": "highlight-6",
+          "title": "Hosting and business email",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "id": "industry-e-commerce",
+      "position": 3,
+      "enabled": true,
+      "label": "INDUSTRY",
+      "title": "E-Commerce",
+      "body": "eCommerce is growing quickly in Iraq and remains highly competitive in the US and global markets. The businesses that stand out make it easy to find products, trust the store, complete a purchase, and get support after the order. We help build and improve the systems behind that experience.",
+      "ctaLabel": "Explore E-Commerce",
+      "destination": "",
+      "images": [
+        {
+          "mediaId": "ecommerce",
+          "alt": "Online shopping and commerce",
+          "decorative": false,
+          "focalX": 20,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        },
+        {
+          "mediaId": "ecommerce",
+          "alt": "Online shopping and commerce",
+          "decorative": false,
+          "focalX": 75,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        }
+      ],
+      "temporaryMedia": true,
+      "highlights": [
+        {
+          "id": "highlight-1",
+          "title": "WooCommerce and Shopify stores",
+          "body": ""
+        },
+        {
+          "id": "highlight-2",
+          "title": "Custom product catalogs",
+          "body": ""
+        },
+        {
+          "id": "highlight-3",
+          "title": "Payment gateway integration",
+          "body": ""
+        },
+        {
+          "id": "highlight-4",
+          "title": "Shipping and delivery setup",
+          "body": ""
+        },
+        {
+          "id": "highlight-5",
+          "title": "Product search and filtering",
+          "body": ""
+        },
+        {
+          "id": "highlight-6",
+          "title": "Store hosting and performance",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "id": "industry-small-business",
+      "position": 4,
+      "enabled": true,
+      "label": "INDUSTRY",
+      "title": "Small Business",
+      "body": "Small businesses need professional technology, but they also need it to stay manageable. A website that requires constant developer help, an automation nobody understands, or a marketing plan that costs more than it returns is not useful. We focus on practical foundations that can grow with the business.",
+      "ctaLabel": "Explore Small Business",
+      "destination": "",
+      "images": [
+        {
+          "mediaId": "small-business",
+          "alt": "Small business owner",
+          "decorative": false,
+          "focalX": 20,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        },
+        {
+          "mediaId": "small-business",
+          "alt": "Small business owner",
+          "decorative": false,
+          "focalX": 75,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        }
+      ],
+      "temporaryMedia": true,
+      "highlights": [
+        {
+          "id": "highlight-1",
+          "title": "Business websites",
+          "body": "Simple eCommerce."
+        },
+        {
+          "id": "highlight-2",
+          "title": "Web hosting and business email",
+          "body": "Forms and booking."
+        },
+        {
+          "id": "highlight-3",
+          "title": "Local SEO",
+          "body": "Basic workflow automation."
+        }
+      ]
+    },
+    {
+      "id": "industry-event-coordinators",
+      "position": 5,
+      "enabled": true,
+      "label": "INDUSTRY",
+      "title": "Event Coordinators",
+      "body": "Event businesses sell trust, style, organization, and experience. The website should show that quickly through past work, service packages, testimonials, and a clear inquiry process. It can also reduce administrative work by collecting the right details before the first call.",
+      "ctaLabel": "Explore Event Coordinators",
+      "destination": "",
+      "images": [
+        {
+          "mediaId": "team",
+          "alt": "Team working together",
+          "decorative": false,
+          "focalX": 20,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        },
+        {
+          "mediaId": "team",
+          "alt": "Team working together",
+          "decorative": false,
+          "focalX": 75,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        }
+      ],
+      "temporaryMedia": true,
+      "highlights": [
+        {
+          "id": "highlight-1",
+          "title": "Portfolio websites",
+          "body": ""
+        },
+        {
+          "id": "highlight-2",
+          "title": "Event galleries",
+          "body": ""
+        },
+        {
+          "id": "highlight-3",
+          "title": "Inquiry and booking forms",
+          "body": ""
+        },
+        {
+          "id": "highlight-4",
+          "title": "Calendar integrations",
+          "body": ""
+        },
+        {
+          "id": "highlight-5",
+          "title": "Service pages",
+          "body": ""
+        },
+        {
+          "id": "highlight-6",
+          "title": "Local SEO",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "id": "industry-legal",
+      "position": 6,
+      "enabled": true,
+      "label": "INDUSTRY",
+      "title": "Legal",
+      "body": "Legal clients usually arrive with a specific problem and a high need for trust. The website should make practice areas, attorney experience, location, contact options, and next steps easy to understand. We focus on clarity, professionalism, and technically strong foundations for search and lead intake.",
+      "ctaLabel": "Explore Legal",
+      "destination": "",
+      "images": [
+        {
+          "mediaId": "legal",
+          "alt": "Scales of justice",
+          "decorative": false,
+          "focalX": 20,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        },
+        {
+          "mediaId": "legal",
+          "alt": "Scales of justice",
+          "decorative": false,
+          "focalX": 75,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        }
+      ],
+      "temporaryMedia": true,
+      "highlights": [
+        {
+          "id": "highlight-1",
+          "title": "Law firm websites",
+          "body": ""
+        },
+        {
+          "id": "highlight-2",
+          "title": "Practice area pages",
+          "body": ""
+        },
+        {
+          "id": "highlight-3",
+          "title": "Attorney profiles",
+          "body": ""
+        },
+        {
+          "id": "highlight-4",
+          "title": "Local SEO",
+          "body": ""
+        },
+        {
+          "id": "highlight-5",
+          "title": "Contact and consultation forms",
+          "body": ""
+        },
+        {
+          "id": "highlight-6",
+          "title": "Hosting and maintenance",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "id": "industry-online-magazine",
+      "position": 7,
+      "enabled": true,
+      "label": "INDUSTRY",
+      "title": "Online Magazine",
+      "body": "Online magazines depend on publishing speed, discoverability, reader experience, and reliable infrastructure. A site can look good at launch and still become difficult to manage once hundreds or thousands of articles, categories, media files, and contributors are involved. We focus on structure and performance from the start.",
+      "ctaLabel": "Explore Online Magazine",
+      "destination": "",
+      "images": [
+        {
+          "mediaId": "commerce",
+          "alt": "Digital commerce workspace",
+          "decorative": false,
+          "focalX": 20,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        },
+        {
+          "mediaId": "commerce",
+          "alt": "Digital commerce workspace",
+          "decorative": false,
+          "focalX": 75,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        }
+      ],
+      "temporaryMedia": true,
+      "highlights": [
+        {
+          "id": "highlight-1",
+          "title": "WordPress publishing platforms",
+          "body": ""
+        },
+        {
+          "id": "highlight-2",
+          "title": "Content architecture",
+          "body": ""
+        },
+        {
+          "id": "highlight-3",
+          "title": "Performance optimization",
+          "body": ""
+        },
+        {
+          "id": "highlight-4",
+          "title": "SEO and structured data",
+          "body": ""
+        },
+        {
+          "id": "highlight-5",
+          "title": "Advertising integrations",
+          "body": ""
+        },
+        {
+          "id": "highlight-6",
+          "title": "Subscription and membership tools",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "id": "industry-oil-and-gas",
+      "position": 8,
+      "enabled": true,
+      "label": "INDUSTRY",
+      "title": "Oil and Gas",
+      "body": "Oil and gas companies often need to communicate with several audiences at once, including clients, partners, contractors, employees, and investors. A strong digital presence should explain capabilities clearly while supporting the operational information people need. Depending on the project, that may be a corporate website, internal dashboard, data integration, document portal, hosting environment, or a combination.",
+      "ctaLabel": "Explore Oil and Gas",
+      "destination": "",
+      "images": [
+        {
+          "mediaId": "oil-gas",
+          "alt": "Oil and gas equipment",
+          "decorative": false,
+          "focalX": 20,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        },
+        {
+          "mediaId": "oil-gas",
+          "alt": "Oil and gas equipment",
+          "decorative": false,
+          "focalX": 75,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        }
+      ],
+      "temporaryMedia": true,
+      "highlights": [
+        {
+          "id": "highlight-1",
+          "title": "Corporate and service websites",
+          "body": "API and data integrations."
+        },
+        {
+          "id": "highlight-2",
+          "title": "Project and capability pages",
+          "body": "Document portals."
+        },
+        {
+          "id": "highlight-3",
+          "title": "Dashboards and reporting interfaces",
+          "body": "Hosting and infrastructure support."
+        }
+      ]
+    },
+    {
+      "id": "industry-real-estate",
+      "position": 9,
+      "enabled": true,
+      "label": "INDUSTRY",
+      "title": "Real Estate",
+      "body": "Real estate websites need to do more than display property photos. Visitors want to search, filter, compare, contact an agent, understand the area, and trust the business behind the listing. We build and improve digital experiences around those actions, then connect them to the tools the team uses to manage leads and properties.",
+      "ctaLabel": "Explore Real Estate",
+      "destination": "",
+      "images": [
+        {
+          "mediaId": "real-estate",
+          "alt": "Residential property",
+          "decorative": false,
+          "focalX": 20,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        },
+        {
+          "mediaId": "real-estate",
+          "alt": "Residential property",
+          "decorative": false,
+          "focalX": 75,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        }
+      ],
+      "temporaryMedia": true,
+      "highlights": [
+        {
+          "id": "highlight-1",
+          "title": "Real estate websites and portals",
+          "body": ""
+        },
+        {
+          "id": "highlight-2",
+          "title": "Property listing systems",
+          "body": ""
+        },
+        {
+          "id": "highlight-3",
+          "title": "Advanced search and filters",
+          "body": ""
+        },
+        {
+          "id": "highlight-4",
+          "title": "Agent and office profiles",
+          "body": ""
+        },
+        {
+          "id": "highlight-5",
+          "title": "Lead capture and routing",
+          "body": ""
+        },
+        {
+          "id": "highlight-6",
+          "title": "CRM integrations",
+          "body": ""
+        }
+      ]
+    },
+    {
+      "id": "industry-fashion-and-lifestyle",
+      "position": 10,
+      "enabled": true,
+      "label": "INDUSTRY",
+      "title": "Fashion and Lifestyle",
+      "body": "Fashion and lifestyle customers respond to visual identity, product presentation, social proof, and convenience. The website needs to support the brand without making navigation or checkout harder. We combine creative work with eCommerce and technical performance so the experience stays both attractive and usable.",
+      "ctaLabel": "Explore Fashion and Lifestyle",
+      "destination": "",
+      "images": [
+        {
+          "mediaId": "branding",
+          "alt": "Creative brand design work",
+          "decorative": false,
+          "focalX": 20,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        },
+        {
+          "mediaId": "branding",
+          "alt": "Creative brand design work",
+          "decorative": false,
+          "focalX": 75,
+          "focalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50
+        }
+      ],
+      "temporaryMedia": true,
+      "highlights": [
+        {
+          "id": "highlight-1",
+          "title": "Fashion eCommerce stores",
+          "body": ""
+        },
+        {
+          "id": "highlight-2",
+          "title": "Lookbooks and collection pages",
+          "body": ""
+        },
+        {
+          "id": "highlight-3",
+          "title": "Brand identity",
+          "body": ""
+        },
+        {
+          "id": "highlight-4",
+          "title": "Product photography layout systems",
+          "body": ""
+        },
+        {
+          "id": "highlight-5",
+          "title": "Shopify and WooCommerce development",
+          "body": ""
+        },
+        {
+          "id": "highlight-6",
+          "title": "SEO and product structure",
+          "body": ""
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "id": "industries-cta",
+    "enabled": true,
+    "label": "LET’S WORK TOGETHER",
+    "heading": "Tell us what your industry needs.",
+    "body": "Every industry has different customers, workflows, regulations, and growth priorities. Tell us what you are trying to build, improve, or connect, and we will help define a practical digital approach around it.",
+    "actionLabel": "Start a Conversation"
+  }
+}

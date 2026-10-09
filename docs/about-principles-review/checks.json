@@ -1,0 +1,88 @@
+{
+  "baseline": [
+    {
+      "heading": "rgb(18, 18, 18)",
+      "transition": "color 0.3s",
+      "paragraph": "rgb(83, 94, 101)",
+      "icon": "rgb(255, 0, 72)",
+      "rects": [
+        [
+          150,
+          455.4375,
+          380,
+          225
+        ],
+        [
+          165,
+          476.4375,
+          300,
+          34.21875
+        ],
+        [
+          165,
+          530.65625,
+          300,
+          144.453125
+        ]
+      ]
+    },
+    {
+      "heading": "rgb(18, 18, 18)",
+      "transition": "color 0.3s",
+      "paragraph": "rgb(83, 94, 101)",
+      "icon": "rgb(255, 0, 72)",
+      "rects": [
+        [
+          530,
+          455.4375,
+          380,
+          225
+        ],
+        [
+          545,
+          476.4375,
+          300,
+          68.4375
+        ],
+        [
+          545,
+          564.875,
+          297,
+          86.671875
+        ]
+      ]
+    },
+    {
+      "heading": "rgb(18, 18, 18)",
+      "transition": "color 0.3s",
+      "paragraph": "rgb(83, 94, 101)",
+      "icon": "rgb(255, 0, 72)",
+      "rects": [
+        [
+          910,
+          455.4375,
+          380,
+          225
+        ],
+        [
+          925,
+          476.4375,
+          350,
+          68.4375
+        ],
+        [
+          925,
+          564.875,
+          350,
+          115.5625
+        ]
+      ]
+    }
+  ],
+  "stationary": true,
+  "keyboard": true,
+  "reducedMotion": true,
+  "touchContentVisible": true,
+  "ownerContentUnchanged": true,
+  "errors": []
+}

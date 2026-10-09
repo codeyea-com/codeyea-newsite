@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "columns": 3,
+      "allTitlesVisible": true,
+      "reducedMotion": true,
+      "keyboardOrTouch": true,
+      "finalHeight": 499.90625
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "columns": 3,
+      "allTitlesVisible": true,
+      "reducedMotion": true,
+      "keyboardOrTouch": true,
+      "finalHeight": 730.03125
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "columns": 3,
+      "allTitlesVisible": true,
+      "reducedMotion": true,
+      "keyboardOrTouch": true,
+      "finalHeight": 969.21875
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "columns": 3,
+      "allTitlesVisible": true,
+      "reducedMotion": true,
+      "keyboardOrTouch": true,
+      "finalHeight": 1142.5625
+    }
+  ],
+  "normalProjectInteraction": true,
+  "principleFocusColor": "rgb(16, 170, 188)",
+  "normalSliderDuration": "1s"
+}

@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.next-*/
+.superpowers/
+.env
+.env.*
+!.env.example
+.local/
+playwright-report/
+test-results/
+*.tsbuildinfo
+docs/recordings/raw/
+src/generated/
+.npm-cache/
+.next-test

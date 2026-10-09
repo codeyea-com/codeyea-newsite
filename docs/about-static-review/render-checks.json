@@ -1,0 +1,63 @@
+{
+  "h1": [
+    "About Us"
+  ],
+  "width": 1440,
+  "scrollWidth": 1440,
+  "sections": [
+    {
+      "id": "about-hero",
+      "y": 131,
+      "h": 534.84375
+    },
+    {
+      "id": "about-who",
+      "y": 665.84375,
+      "h": 663.390625
+    },
+    {
+      "id": "about-experience",
+      "y": 1329.234375,
+      "h": 1036.671875
+    },
+    {
+      "id": "about-projectReference",
+      "y": 2365.90625,
+      "h": 700
+    },
+    {
+      "id": "about-principles",
+      "y": 3065.90625,
+      "h": 733.734375
+    },
+    {
+      "id": "about-showcase",
+      "y": 3799.640625,
+      "h": 1000
+    },
+    {
+      "id": "about-awards",
+      "y": 4799.640625,
+      "h": 415.453125
+    }
+  ],
+  "images": [
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:3000/api/media/media_bcca22c8-dcb3-4913-9f46-4829ee96e155/large"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:3000/api/media/media_bcdd21d0-4cbf-4057-a144-a35c64620f8e/large"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:3000/api/media/media_ea77d13f-f5f7-4478-bdeb-4814b70d7380/medium"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:3000/api/media/media_2aee73ae-0fa2-44ac-a2d5-447cc7cbc2b3/large"
+    }
+  ],
+  "motion": 0
+}

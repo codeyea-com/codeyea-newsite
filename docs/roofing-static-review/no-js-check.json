@@ -1,0 +1,9 @@
+{
+  "sections": 9,
+  "h1": "Roofing",
+  "heroTop": 163,
+  "headerBottom": 163,
+  "faqQuestions": 6,
+  "overflow": false,
+  "footerBackground": "url(\"http://127.0.0.1:3000/homepage/footer.webp\")"
+}

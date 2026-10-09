@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "healthcare",
+    "javaScript": false,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "construction",
+    "javaScript": false,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "e-commerce",
+    "javaScript": false,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "small-business",
+    "javaScript": false,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "event-coordinators",
+    "javaScript": false,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "legal",
+    "javaScript": false,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "online-magazine",
+    "javaScript": false,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "oil-and-gas",
+    "javaScript": false,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "real-estate",
+    "javaScript": false,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "javaScript": false,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "healthcare",
+    "javaScript": true,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "construction",
+    "javaScript": true,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "e-commerce",
+    "javaScript": true,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "small-business",
+    "javaScript": true,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "event-coordinators",
+    "javaScript": true,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "legal",
+    "javaScript": true,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "online-magazine",
+    "javaScript": true,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "oil-and-gas",
+    "javaScript": true,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "real-estate",
+    "javaScript": true,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "javaScript": true,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "healthcare",
+    "reducedMotion": true,
+    "keyboard": true,
+    "focusIndicator": "solid",
+    "contactDestination": true
+  },
+  {
+    "slug": "construction",
+    "reducedMotion": true,
+    "keyboard": true,
+    "focusIndicator": "solid",
+    "contactDestination": true
+  },
+  {
+    "slug": "e-commerce",
+    "reducedMotion": true,
+    "keyboard": true,
+    "focusIndicator": "solid",
+    "contactDestination": true
+  },
+  {
+    "slug": "small-business",
+    "reducedMotion": true,
+    "keyboard": true,
+    "focusIndicator": "solid",
+    "contactDestination": true
+  },
+  {
+    "slug": "event-coordinators",
+    "reducedMotion": true,
+    "keyboard": true,
+    "focusIndicator": "solid",
+    "contactDestination": true
+  },
+  {
+    "slug": "legal",
+    "reducedMotion": true,
+    "keyboard": true,
+    "focusIndicator": "solid",
+    "contactDestination": true
+  },
+  {
+    "slug": "online-magazine",
+    "reducedMotion": true,
+    "keyboard": true,
+    "focusIndicator": "solid",
+    "contactDestination": true
+  },
+  {
+    "slug": "oil-and-gas",
+    "reducedMotion": true,
+    "keyboard": true,
+    "focusIndicator": "solid",
+    "contactDestination": true
+  },
+  {
+    "slug": "real-estate",
+    "reducedMotion": true,
+    "keyboard": true,
+    "focusIndicator": "solid",
+    "contactDestination": true
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "reducedMotion": true,
+    "keyboard": true,
+    "focusIndicator": "solid",
+    "contactDestination": true
+  }
+]

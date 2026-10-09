@@ -1,0 +1,20 @@
+{
+  "beforeVersion": 4,
+  "afterVersion": 5,
+  "onlyChangedField": "about.sections[showcase].items",
+  "homepageUnchanged": true,
+  "aboutPublicSnapshotUnchanged": true,
+  "otherAboutSectionsUnchanged": true,
+  "save": "Authenticated normal CMS PATCH with expectedVersion",
+  "revision": "cmu5qewpa0002koi1hw6h6bl3",
+  "audit": "page.draft_saved",
+  "mobileReference": {
+    "activated": 0,
+    "dots": []
+  },
+  "images": [
+    "https://codeyea.com/wp-content/uploads/2024/01/website-responsive-min.png",
+    "https://codeyea.com/wp-content/uploads/2024/01/ss-2.jpg",
+    "https://codeyea.com/wp-content/uploads/2024/01/ss-3.jpg"
+  ]
+}

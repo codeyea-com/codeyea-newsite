@@ -1,0 +1,21 @@
+{
+  "previewOnly": true,
+  "cmsUnchanged": true,
+  "externalProviderRequests": 0,
+  "newExternalImports": 0,
+  "aiGeneratedImages": 0,
+  "externalRequests": 0,
+  "imagery": "temporary — image selection pending",
+  "checks": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "h1": 1
+    }
+  ]
+}

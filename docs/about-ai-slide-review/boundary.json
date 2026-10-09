@@ -1,0 +1,28 @@
+{
+  "beforeVersion": 5,
+  "afterVersion": 6,
+  "changedField": "about.sections[showcase].items[3]",
+  "otherSlidesAndSectionsUnchanged": true,
+  "homepageUnchanged": true,
+  "publishedSnapshotUnchanged": true,
+  "normalExpectedVersionSave": true,
+  "temporaryImage": {
+    "mediaId": "media_65f622ab-fc90-4d6c-98c1-317a4915bf26",
+    "width": 1100,
+    "height": 1117,
+    "alt": "Temporary AI slide placeholder: technical work at a computer; replace with approved AI imagery.",
+    "decorative": false,
+    "focalX": 50,
+    "focalY": 50,
+    "tabletFocalX": 50,
+    "tabletFocalY": 50,
+    "mobileFocalX": 50,
+    "mobileFocalY": 50
+  },
+  "previousHeights": {
+    "320": 907.46875,
+    "390": 960.6875,
+    "768": 1286.96875,
+    "1440": 1000
+  }
+}

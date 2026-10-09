@@ -1,0 +1,16 @@
+{
+  "homepageBefore": {
+    "version": 18,
+    "draft": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d",
+    "published": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d"
+  },
+  "homepageAfter": {
+    "version": 18,
+    "draft": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d",
+    "published": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d"
+  },
+  "aboutBefore": 2,
+  "aboutAfter": 3,
+  "aboutPublished": false,
+  "save": "Normal authenticated CMS PATCH with expected version; revision and audit recorded"
+}

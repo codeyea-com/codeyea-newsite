@@ -1,0 +1,122 @@
+[
+  {
+    "width": 1440,
+    "route": "/preview",
+    "errors": [],
+    "layoutShiftScore": 0.0018976856674382716
+  },
+  {
+    "width": 1440,
+    "route": "/preview/about",
+    "errors": [],
+    "layoutShiftScore": 0.0037898003472222217
+  },
+  {
+    "width": 1440,
+    "route": "/preview/industries",
+    "errors": [],
+    "layoutShiftScore": 0.004743742766203703
+  },
+  {
+    "width": 1440,
+    "route": "/preview/industries/roofing",
+    "errors": [],
+    "layoutShiftScore": 0.030906112557870367
+  },
+  {
+    "width": 1024,
+    "route": "/preview",
+    "errors": [],
+    "layoutShiftScore": 0.000620187759399414
+  },
+  {
+    "width": 1024,
+    "route": "/preview/about",
+    "errors": [],
+    "layoutShiftScore": 0.0038691759109497075
+  },
+  {
+    "width": 1024,
+    "route": "/preview/industries",
+    "errors": [],
+    "layoutShiftScore": 0.003299045562744141
+  },
+  {
+    "width": 1024,
+    "route": "/preview/industries/roofing",
+    "errors": [],
+    "layoutShiftScore": 0.042040681838989256
+  },
+  {
+    "width": 768,
+    "route": "/preview",
+    "errors": [],
+    "layoutShiftScore": 0.00064873046875
+  },
+  {
+    "width": 768,
+    "route": "/preview/about",
+    "errors": [],
+    "layoutShiftScore": 0.0033868749999999997
+  },
+  {
+    "width": 768,
+    "route": "/preview/industries",
+    "errors": [],
+    "layoutShiftScore": 0.0036829882812499997
+  },
+  {
+    "width": 768,
+    "route": "/preview/industries/roofing",
+    "errors": [],
+    "layoutShiftScore": 0.0033057812499999997
+  },
+  {
+    "width": 390,
+    "route": "/preview",
+    "errors": [],
+    "layoutShiftScore": 0.0041134959935897435
+  },
+  {
+    "width": 390,
+    "route": "/preview/about",
+    "errors": [],
+    "layoutShiftScore": 0.0029705641025641024
+  },
+  {
+    "width": 390,
+    "route": "/preview/industries",
+    "errors": [],
+    "layoutShiftScore": 0.003695379487179487
+  },
+  {
+    "width": 390,
+    "route": "/preview/industries/roofing",
+    "errors": [],
+    "layoutShiftScore": 0.0018262820512820511
+  },
+  {
+    "width": 320,
+    "route": "/preview",
+    "errors": [],
+    "layoutShiftScore": 0.001340145703125
+  },
+  {
+    "width": 320,
+    "route": "/preview/about",
+    "errors": [],
+    "layoutShiftScore": 0.041849058593749995
+  },
+  {
+    "width": 320,
+    "route": "/preview/industries",
+    "errors": [],
+    "layoutShiftScore": 0.00325396875
+  },
+  {
+    "width": 320,
+    "route": "/preview/industries/roofing",
+    "errors": [],
+    "layoutShiftScore": 0.0017587500000000001
+  }
+]

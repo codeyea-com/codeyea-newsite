@@ -1,0 +1,62 @@
+import {assertTestEnvironment} from '../scripts/test-environment';
+assertTestEnvironment();
+import {test,expect} from '@playwright/test';
+import {randomUUID,randomBytes} from 'node:crypto';
+import {hashPassword} from 'better-auth/crypto';
+import {db} from '../src/server/db';
+import {defaultAbout} from '../src/content/about-defaults';
+import type {AboutSection} from '../src/schemas/about';
+const id='about-static-'+randomUUID(),email=id+'@example.test',password=randomBytes(24).toString('base64url');
+test('static About saves privately, fits desktop/tablet/mobile without body motion, and preserves CMS controls',async({page,request})=>{
+ test.setTimeout(90000);
+ const home=await db.page.findUniqueOrThrow({where:{id:'homepage'}});
+ expect(await db.page.findUnique({where:{id:'about'}})).toBeNull();
+ await db.user.create({data:{id,name:'Static reviewer',email,emailVerified:true,roles:{create:{roleId:'administrator'}},accounts:{create:{id:randomUUID(),providerId:'credential',accountId:id,password:await hashPassword(password)}}}});
+ try{
+  await page.setViewportSize({width:1440,height:1000});
+  await page.goto('/login');await page.getByLabel('Email address').fill(email);await page.getByLabel('Password',{exact:true}).fill(password);await page.getByRole('button',{name:'Sign in',exact:true}).click();
+  await expect(page.getByRole('navigation',{name:'Homepage sections'})).toBeVisible();
+  const headers={origin:process.env.BETTER_AUTH_URL!};
+  expect((await page.request.post('/api/cms',{headers,data:{pageId:'about'}})).ok()).toBeTruthy();
+  const about=defaultAbout();about.schemaVersion=2;
+  const types=['hero','who','experience','projectReference','principles','showcase','awards'] as const;
+  about.sections=types.map((type,position):AboutSection=>({id:'about-'+type,type,position,enabled:true,visibility:'all',label:'Reference label',heading:type==='hero'?'About Us':type,body:'Static test copy',items:[],...(['hero','experience','projectReference','showcase'].includes(type)?{media:defaultAbout().sections[0].media}:{})}));
+  about.sections.find(s=>s.type==='projectReference')!.items=['Interior Design','Construction','Residential','City planning'].map((title,position)=>({id:'about-reference-category-'+position,position,title,body:'',enabled:true}));
+  const body={pageId:'about',expectedVersion:1,title:'About',sections:[],about};
+  expect((await page.request.patch('/api/cms',{headers,data:body})).ok()).toBeTruthy();
+  expect((await page.request.patch('/api/cms',{headers,data:body})).status()).toBe(409);
+  await page.goto('/preview/about');
+  await expect(page.locator('h1')).toHaveText('About Us');
+  expect(await page.locator('.about-section').evaluateAll(es=>es.map(e=>e.id))).toEqual(types.map(t=>'about-'+t));
+  await expect(page.locator('main [data-about-reveal],main .pin-spacer,main .about-capabilities-track')).toHaveCount(0);
+  expect(await page.locator('main').evaluate(e=>e.getAnimations({subtree:true}).length)).toBe(0);
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(1440);
+  for(const width of [768,390,375,320]){
+   await page.setViewportSize({width,height:1000});
+   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(width);
+   const layout=await page.locator('main').evaluate(e=>({fonts:[...new Set([...e.querySelectorAll('h1,h2,h3,p,li')].map(n=>getComputedStyle(n).fontFamily))],motion:e.getAnimations({subtree:true}).length,columns:getComputedStyle(e.querySelector('.about-principles-grid')!).gridTemplateColumns}));
+   expect(layout.fonts.every(f=>f.includes('Josefin Sans'))).toBeTruthy();expect(layout.motion).toBe(0);expect(layout.columns.split(' ')).toHaveLength(1);
+  }
+  await page.setViewportSize({width:1440,height:1000});
+  const categories=page.locator('.about-project-labels button');
+  await categories.nth(1).hover();await expect(categories.nth(1)).toHaveAttribute('aria-pressed','true');
+  await expect(page.locator('.about-project-slide.is-active img')).toHaveAttribute('src','/about-project-reference/construction.jpg');
+  await categories.nth(2).focus();await page.keyboard.press('Enter');await expect(categories.nth(2)).toHaveAttribute('aria-pressed','true');
+  await page.emulateMedia({reducedMotion:'reduce'});await categories.nth(3).click();
+  await expect(page.locator('.about-project-pointer')).toBeHidden();
+  expect(await page.locator('.about-project-frame').evaluate(e=>e.getAnimations({subtree:true}).length)).toBe(0);
+  await expect(page.locator('.about-project-slide.is-active')).toHaveCSS('opacity','1');
+  await expect(page.locator('.about-project-slide.is-active img')).toHaveAttribute('src','/about-project-reference/city-planning.jpg');
+  expect((await request.get('/about/')).status()).toBe(404);
+  expect((await request.get('/preview/about',{maxRedirects:0})).status()).toBe(307);
+  await page.goto('/admin');await page.getByLabel('Page',{exact:true}).selectOption('about');
+  const nav=page.getByRole('navigation',{name:'About sections'});await expect(nav).toBeVisible();
+  await nav.getByRole('button',{name:/Experience/}).click();
+  await expect(page.getByLabel('Device visibility',{exact:true})).toBeVisible();
+  await expect(page.getByRole('button',{name:'Choose image',exact:true})).toBeVisible();
+  expect((await db.page.findUniqueOrThrow({where:{id:'about'}})).publishedSnapshot).toBeNull();
+  expect(await db.pageRevision.count({where:{pageId:'about'}})).toBe(1);
+  expect(await db.auditLog.count({where:{entityId:'about',actorId:id}})).toBe(2);
+  expect(await db.page.findUniqueOrThrow({where:{id:'homepage'}})).toEqual(home);
+ }finally{await db.auditLog.deleteMany({where:{actorId:id}});await db.page.deleteMany({where:{id:'about'}});await db.user.deleteMany({where:{id}});await db.$disconnect();}
+});

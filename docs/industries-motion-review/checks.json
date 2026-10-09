@@ -1,0 +1,474 @@
+{
+  "draftVersion": 4,
+  "published": false,
+  "sharedSnapshotsAndHeroUnchanged": true,
+  "normalMotion": {
+    "entering": {
+      "opacity": 0.1388,
+      "transform": "matrix(1, 0, 0, 1, 0, 30.1419)"
+    },
+    "parallax": [
+      {
+        "y": -98.5282,
+        "covers": true
+      },
+      {
+        "y": -12.5067,
+        "covers": true
+      },
+      {
+        "y": 52.0094,
+        "covers": true
+      }
+    ],
+    "accordion": {
+      "closed": 170.5,
+      "during": 229.453125,
+      "opened": 292.875
+    },
+    "button": {
+      "resting": "rgb(7, 36, 72)",
+      "hover": {
+        "fill": "1",
+        "shadow": "rgba(7, 36, 72, 0.15) 0px 10px 24px 0px",
+        "transform": "matrix(1, 0, 0, 1, 0, -2)"
+      }
+    }
+  },
+  "noJavaScript": true,
+  "shortHeightParallaxDisabled": true,
+  "results": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "imagesPerSection": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "introOrder": "industries-introduction",
+      "headings": [
+        "Different Industries. Different Priorities. One Connected Approach.",
+        "Help homeowners find your work and request an estimate.",
+        "Make finding care and requesting an appointment simpler.",
+        "Turn project experience into clearer business inquiries.",
+        "Make buying easier from discovery to delivery.",
+        "Build digital foundations your team can manage.",
+        "Turn interest in your events into useful planning conversations.",
+        "Help prospective clients understand your practice and next steps.",
+        "Keep publishing clear and fast as your audience grows.",
+        "Make complex capabilities and operational information easier to use.",
+        "Connect property discovery with a clearer next step.",
+        "Bring your brand into an easier shopping experience.",
+        "Tell us what your industry needs."
+      ],
+      "imagesLoaded": true,
+      "parallax": false,
+      "bodyTransforms": true,
+      "dividers": [
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        }
+      ],
+      "overflowing": [],
+      "keyboard": true,
+      "touch": false,
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "imagesPerSection": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "introOrder": "industries-introduction",
+      "headings": [
+        "Different Industries. Different Priorities. One Connected Approach.",
+        "Help homeowners find your work and request an estimate.",
+        "Make finding care and requesting an appointment simpler.",
+        "Turn project experience into clearer business inquiries.",
+        "Make buying easier from discovery to delivery.",
+        "Build digital foundations your team can manage.",
+        "Turn interest in your events into useful planning conversations.",
+        "Help prospective clients understand your practice and next steps.",
+        "Keep publishing clear and fast as your audience grows.",
+        "Make complex capabilities and operational information easier to use.",
+        "Connect property discovery with a clearer next step.",
+        "Bring your brand into an easier shopping experience.",
+        "Tell us what your industry needs."
+      ],
+      "imagesLoaded": true,
+      "parallax": false,
+      "bodyTransforms": true,
+      "dividers": [
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        }
+      ],
+      "overflowing": [],
+      "keyboard": true,
+      "touch": true,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "imagesPerSection": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "introOrder": "industries-introduction",
+      "headings": [
+        "Different Industries. Different Priorities. One Connected Approach.",
+        "Help homeowners find your work and request an estimate.",
+        "Make finding care and requesting an appointment simpler.",
+        "Turn project experience into clearer business inquiries.",
+        "Make buying easier from discovery to delivery.",
+        "Build digital foundations your team can manage.",
+        "Turn interest in your events into useful planning conversations.",
+        "Help prospective clients understand your practice and next steps.",
+        "Keep publishing clear and fast as your audience grows.",
+        "Make complex capabilities and operational information easier to use.",
+        "Connect property discovery with a clearer next step.",
+        "Bring your brand into an easier shopping experience.",
+        "Tell us what your industry needs."
+      ],
+      "imagesLoaded": true,
+      "parallax": false,
+      "bodyTransforms": true,
+      "dividers": [
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        },
+        {
+          "content": "\"\"",
+          "display": "block",
+          "width": "4px"
+        }
+      ],
+      "overflowing": [],
+      "keyboard": true,
+      "touch": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "imagesPerSection": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "introOrder": "industries-introduction",
+      "headings": [
+        "Different Industries. Different Priorities. One Connected Approach.",
+        "Help homeowners find your work and request an estimate.",
+        "Make finding care and requesting an appointment simpler.",
+        "Turn project experience into clearer business inquiries.",
+        "Make buying easier from discovery to delivery.",
+        "Build digital foundations your team can manage.",
+        "Turn interest in your events into useful planning conversations.",
+        "Help prospective clients understand your practice and next steps.",
+        "Keep publishing clear and fast as your audience grows.",
+        "Make complex capabilities and operational information easier to use.",
+        "Connect property discovery with a clearer next step.",
+        "Bring your brand into an easier shopping experience.",
+        "Tell us what your industry needs."
+      ],
+      "imagesLoaded": true,
+      "parallax": false,
+      "bodyTransforms": true,
+      "dividers": [
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        }
+      ],
+      "overflowing": [],
+      "keyboard": true,
+      "touch": true,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "imagesPerSection": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "introOrder": "industries-introduction",
+      "headings": [
+        "Different Industries. Different Priorities. One Connected Approach.",
+        "Help homeowners find your work and request an estimate.",
+        "Make finding care and requesting an appointment simpler.",
+        "Turn project experience into clearer business inquiries.",
+        "Make buying easier from discovery to delivery.",
+        "Build digital foundations your team can manage.",
+        "Turn interest in your events into useful planning conversations.",
+        "Help prospective clients understand your practice and next steps.",
+        "Keep publishing clear and fast as your audience grows.",
+        "Make complex capabilities and operational information easier to use.",
+        "Connect property discovery with a clearer next step.",
+        "Bring your brand into an easier shopping experience.",
+        "Tell us what your industry needs."
+      ],
+      "imagesLoaded": true,
+      "parallax": false,
+      "bodyTransforms": true,
+      "dividers": [
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        }
+      ],
+      "overflowing": [],
+      "keyboard": true,
+      "touch": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "imagesPerSection": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "introOrder": "industries-introduction",
+      "headings": [
+        "Different Industries. Different Priorities. One Connected Approach.",
+        "Help homeowners find your work and request an estimate.",
+        "Make finding care and requesting an appointment simpler.",
+        "Turn project experience into clearer business inquiries.",
+        "Make buying easier from discovery to delivery.",
+        "Build digital foundations your team can manage.",
+        "Turn interest in your events into useful planning conversations.",
+        "Help prospective clients understand your practice and next steps.",
+        "Keep publishing clear and fast as your audience grows.",
+        "Make complex capabilities and operational information easier to use.",
+        "Connect property discovery with a clearer next step.",
+        "Bring your brand into an easier shopping experience.",
+        "Tell us what your industry needs."
+      ],
+      "imagesLoaded": true,
+      "parallax": false,
+      "bodyTransforms": true,
+      "dividers": [
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        },
+        {
+          "content": "\"\"",
+          "display": "none",
+          "width": "2px"
+        }
+      ],
+      "overflowing": [],
+      "keyboard": true,
+      "touch": true,
+      "errors": []
+    }
+  ]
+}

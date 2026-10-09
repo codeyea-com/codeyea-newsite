@@ -1,0 +1,286 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "hero": 534.84375,
+    "agencyLeft": 165,
+    "titleLeft": 165,
+    "captionHeight": 468,
+    "captionWidth": 18,
+    "imageHeight": 490,
+    "scrollCount": 0,
+    "sections": [
+      {
+        "id": "about-hero",
+        "height": 534.84375
+      },
+      {
+        "id": "about-who",
+        "height": 564.75
+      },
+      {
+        "id": "about-experience",
+        "height": 1018.75
+      },
+      {
+        "id": "about-projectReference",
+        "height": 700
+      },
+      {
+        "id": "about-principles",
+        "height": 690.59375
+      },
+      {
+        "id": "about-showcase",
+        "height": 1000
+      },
+      {
+        "id": "about-awards",
+        "height": 415.453125
+      }
+    ],
+    "heightDifferences": [
+      {
+        "id": "about-hero",
+        "delta": 0
+      },
+      {
+        "id": "about-who",
+        "delta": 0
+      },
+      {
+        "id": "about-experience",
+        "delta": 0
+      },
+      {
+        "id": "about-projectReference",
+        "delta": 0
+      },
+      {
+        "id": "about-principles",
+        "delta": 0
+      },
+      {
+        "id": "about-showcase",
+        "delta": 0
+      },
+      {
+        "id": "about-awards",
+        "delta": 0
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "hero": 689.53125,
+    "agencyLeft": 15,
+    "titleLeft": 15,
+    "captionHeight": 46.5,
+    "captionWidth": 309,
+    "imageHeight": 348.859375,
+    "scrollCount": 0,
+    "sections": [
+      {
+        "id": "about-hero",
+        "height": 689.53125
+      },
+      {
+        "id": "about-who",
+        "height": 710.25
+      },
+      {
+        "id": "about-experience",
+        "height": 1084.96875
+      },
+      {
+        "id": "about-projectReference",
+        "height": 700
+      },
+      {
+        "id": "about-principles",
+        "height": 930.296875
+      },
+      {
+        "id": "about-showcase",
+        "height": 1359.9375
+      },
+      {
+        "id": "about-awards",
+        "height": 472.234375
+      }
+    ],
+    "heightDifferences": [
+      {
+        "id": "about-hero",
+        "delta": 0
+      },
+      {
+        "id": "about-who",
+        "delta": 0
+      },
+      {
+        "id": "about-experience",
+        "delta": 0
+      },
+      {
+        "id": "about-projectReference",
+        "delta": 0
+      },
+      {
+        "id": "about-principles",
+        "delta": 0
+      },
+      {
+        "id": "about-showcase",
+        "delta": 0
+      },
+      {
+        "id": "about-awards",
+        "delta": 0
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "hero": 664.59375,
+    "agencyLeft": 15,
+    "titleLeft": 15,
+    "captionHeight": 46.5,
+    "captionWidth": 360,
+    "imageHeight": 406.4375,
+    "scrollCount": 0,
+    "sections": [
+      {
+        "id": "about-hero",
+        "height": 664.59375
+      },
+      {
+        "id": "about-who",
+        "height": 1027.484375
+      },
+      {
+        "id": "about-experience",
+        "height": 1807.359375
+      },
+      {
+        "id": "about-projectReference",
+        "height": 700
+      },
+      {
+        "id": "about-principles",
+        "height": 1179.703125
+      },
+      {
+        "id": "about-showcase",
+        "height": 1127.265625
+      },
+      {
+        "id": "about-awards",
+        "height": 1002.859375
+      }
+    ],
+    "heightDifferences": [
+      {
+        "id": "about-hero",
+        "delta": 0
+      },
+      {
+        "id": "about-who",
+        "delta": 0
+      },
+      {
+        "id": "about-experience",
+        "delta": 0
+      },
+      {
+        "id": "about-projectReference",
+        "delta": 0
+      },
+      {
+        "id": "about-principles",
+        "delta": 0
+      },
+      {
+        "id": "about-showcase",
+        "delta": 0
+      },
+      {
+        "id": "about-awards",
+        "delta": 0
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "hero": 615.828125,
+    "agencyLeft": 15,
+    "titleLeft": 15,
+    "captionHeight": 46.5,
+    "captionWidth": 290,
+    "imageHeight": 327.40625,
+    "scrollCount": 0,
+    "sections": [
+      {
+        "id": "about-hero",
+        "height": 615.828125
+      },
+      {
+        "id": "about-who",
+        "height": 1175.546875
+      },
+      {
+        "id": "about-experience",
+        "height": 1996.203125
+      },
+      {
+        "id": "about-projectReference",
+        "height": 700
+      },
+      {
+        "id": "about-principles",
+        "height": 1247.828125
+      },
+      {
+        "id": "about-showcase",
+        "height": 1133.265625
+      },
+      {
+        "id": "about-awards",
+        "height": 1002.859375
+      }
+    ],
+    "heightDifferences": [
+      {
+        "id": "about-hero",
+        "delta": 0
+      },
+      {
+        "id": "about-who",
+        "delta": 0
+      },
+      {
+        "id": "about-experience",
+        "delta": 0
+      },
+      {
+        "id": "about-projectReference",
+        "delta": 0
+      },
+      {
+        "id": "about-principles",
+        "delta": 0
+      },
+      {
+        "id": "about-showcase",
+        "delta": 0
+      },
+      {
+        "id": "about-awards",
+        "delta": 0
+      }
+    ]
+  }
+]

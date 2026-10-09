@@ -1,0 +1,239 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "fonts": [
+        "\"Josefin Sans\", \"Segoe UI\", sans-serif"
+      ],
+      "sections": [
+        {
+          "id": "about-hero",
+          "height": 534.84375
+        },
+        {
+          "id": "about-who",
+          "height": 663.390625
+        },
+        {
+          "id": "about-experience",
+          "height": 1036.671875
+        },
+        {
+          "id": "about-projectReference",
+          "height": 700
+        },
+        {
+          "id": "about-principles",
+          "height": 733.734375
+        },
+        {
+          "id": "about-showcase",
+          "height": 1000
+        },
+        {
+          "id": "about-awards",
+          "height": 415.453125
+        }
+      ],
+      "h1": 1,
+      "bodyAnimations": 0,
+      "images": true,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "overflow": [],
+      "fonts": [
+        "\"Josefin Sans\", \"Segoe UI\", sans-serif"
+      ],
+      "sections": [
+        {
+          "id": "about-hero",
+          "height": 534.84375
+        },
+        {
+          "id": "about-who",
+          "height": 815.109375
+        },
+        {
+          "id": "about-experience",
+          "height": 1172.359375
+        },
+        {
+          "id": "about-projectReference",
+          "height": 700
+        },
+        {
+          "id": "about-principles",
+          "height": 957.890625
+        },
+        {
+          "id": "about-showcase",
+          "height": 1143.625
+        },
+        {
+          "id": "about-awards",
+          "height": 472.234375
+        }
+      ],
+      "h1": 1,
+      "bodyAnimations": 0,
+      "images": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "fonts": [
+        "\"Josefin Sans\", \"Segoe UI\", sans-serif"
+      ],
+      "sections": [
+        {
+          "id": "about-hero",
+          "height": 524.1875
+        },
+        {
+          "id": "about-who",
+          "height": 1241.765625
+        },
+        {
+          "id": "about-experience",
+          "height": 1941.875
+        },
+        {
+          "id": "about-projectReference",
+          "height": 700
+        },
+        {
+          "id": "about-principles",
+          "height": 1370.1875
+        },
+        {
+          "id": "about-showcase",
+          "height": 894.859375
+        },
+        {
+          "id": "about-awards",
+          "height": 1001.359375
+        }
+      ],
+      "h1": 1,
+      "bodyAnimations": 0,
+      "images": true,
+      "errors": []
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "overflow": [],
+      "fonts": [
+        "\"Josefin Sans\", \"Segoe UI\", sans-serif"
+      ],
+      "sections": [
+        {
+          "id": "about-hero",
+          "height": 519.140625
+        },
+        {
+          "id": "about-who",
+          "height": 1263.40625
+        },
+        {
+          "id": "about-experience",
+          "height": 1915.34375
+        },
+        {
+          "id": "about-projectReference",
+          "height": 700
+        },
+        {
+          "id": "about-principles",
+          "height": 1348.25
+        },
+        {
+          "id": "about-showcase",
+          "height": 876.234375
+        },
+        {
+          "id": "about-awards",
+          "height": 1001.359375
+        }
+      ],
+      "h1": 1,
+      "bodyAnimations": 0,
+      "images": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "overflow": [],
+      "fonts": [
+        "\"Josefin Sans\", \"Segoe UI\", sans-serif"
+      ],
+      "sections": [
+        {
+          "id": "about-hero",
+          "height": 500.640625
+        },
+        {
+          "id": "about-who",
+          "height": 1429.265625
+        },
+        {
+          "id": "about-experience",
+          "height": 1977.453125
+        },
+        {
+          "id": "about-projectReference",
+          "height": 700
+        },
+        {
+          "id": "about-principles",
+          "height": 1356.3125
+        },
+        {
+          "id": "about-showcase",
+          "height": 830
+        },
+        {
+          "id": "about-awards",
+          "height": 1001.359375
+        }
+      ],
+      "h1": 1,
+      "bodyAnimations": 0,
+      "images": true,
+      "errors": []
+    }
+  ],
+  "before": {
+    "homepage": {
+      "version": 18,
+      "draft": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d",
+      "published": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d"
+    },
+    "about": {
+      "version": 3,
+      "draft": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127",
+      "published": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    }
+  },
+  "after": {
+    "homepage": {
+      "version": 18,
+      "draft": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d",
+      "published": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d"
+    },
+    "about": {
+      "version": 3,
+      "draft": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127",
+      "published": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    }
+  },
+  "ownerContentUnchanged": true
+}

@@ -1,0 +1,287 @@
+generator client {
+  provider = "prisma-client"
+  output = "../src/generated/prisma"
+}
+datasource db {
+  provider = "postgresql"
+}
+model User {
+  id String @id
+  name String
+  email String @unique
+  emailVerified Boolean @default(false)
+  image String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  sessions Session[]
+  accounts Account[]
+  roles UserRole[]
+  revisions PageRevision[]
+  publications PagePublication[]
+  audit AuditLog[]
+  mediaAssets MediaAsset[]
+}
+model Session {
+  id String @id
+  expiresAt DateTime
+  token String @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  ipAddress String?
+  userAgent String?
+  userId String
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+  @@index([userId])
+}
+model Account {
+  id String @id
+  accountId String
+  providerId String
+  userId String
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+  accessToken String?
+  refreshToken String?
+  idToken String?
+  accessTokenExpiresAt DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope String?
+  password String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@unique([providerId,accountId])
+  @@index([userId])
+}
+model Verification {
+  id String @id
+  identifier String
+  value String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@index([identifier])
+}
+model RateLimit {
+  id String @id
+  key String @unique
+  count Int
+  lastRequest BigInt
+}
+model Role {
+  id String @id
+  name String @unique
+  permissions RolePermission[]
+  users UserRole[]
+}
+model Permission {
+  id String @id
+  description String
+  roles RolePermission[]
+}
+model RolePermission {
+  roleId String
+  permissionId String
+  role Role @relation(fields:[roleId],references:[id],onDelete:Cascade)
+  permission Permission @relation(fields:[permissionId],references:[id],onDelete:Cascade)
+  @@id([roleId,permissionId])
+}
+model UserRole {
+  userId String
+  roleId String
+  user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+  role Role @relation(fields:[roleId],references:[id],onDelete:Cascade)
+  @@id([userId,roleId])
+}
+model Locale {
+  id String @id
+  name String
+  direction String @default("ltr")
+  pages Page[]
+}
+model Market {
+  id String @id
+  name String
+  pages Page[]
+}
+enum PublicationStatus {
+  DRAFT
+  PUBLISHED
+  SCHEDULED
+}
+model Page {
+  id String @id @default(cuid())
+  slug String
+  title String
+  version Int @default(1)
+  status PublicationStatus @default(DRAFT)
+  localeId String
+  locale Locale @relation(fields:[localeId],references:[id])
+  marketId String
+  market Market @relation(fields:[marketId],references:[id])
+  draftSnapshot Json?
+  publishedSnapshot Json?
+  publishedAt DateTime?
+  scheduledAt DateTime?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  createdBy String?
+  updatedBy String?
+  deletedAt DateTime?
+  sections PageSection[]
+  revisions PageRevision[]
+  publications PagePublication[]
+  @@unique([slug,localeId,marketId])
+}
+model PageSection {
+  id String @id @default(cuid())
+  pageId String
+  page Page @relation(fields:[pageId],references:[id],onDelete:Cascade)
+  type String
+  heading String
+  body String
+  position Int
+  enabled Boolean @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@unique([pageId,position])
+}
+model PageRevision {
+  id String @id @default(cuid())
+  pageId String
+  page Page @relation(fields:[pageId],references:[id],onDelete:Cascade)
+  version Int
+  snapshot Json
+  reason String
+  actorId String
+  actor User @relation(fields:[actorId],references:[id],onDelete:Restrict)
+  createdAt DateTime @default(now())
+  @@unique([pageId,version])
+}
+model AuditLog {
+  id String @id @default(cuid())
+  actorId String?
+  actor User? @relation(fields:[actorId],references:[id],onDelete:Restrict)
+  actorKind String @default("USER")
+  actorLabel String?
+  entityType String @default("Page")
+  action String
+  entityId String
+  before Json?
+  after Json?
+  createdAt DateTime @default(now())
+  @@index([entityId,createdAt])
+}
+
+
+// Immutable snapshots of each explicit publication; prior seeded snapshots are preserved too.
+model PagePublication {
+  id String @id @default(cuid())
+  pageId String
+  page Page @relation(fields:[pageId],references:[id],onDelete:Cascade)
+  version Int
+  snapshot Json
+  previousSnapshot Json?
+  previousPublishedAt DateTime?
+  publishedAt DateTime @default(now())
+  actorId String
+  actor User @relation(fields:[actorId],references:[id],onDelete:Restrict)
+  @@unique([pageId,version])
+}
+
+// Private media bytes are served only to CMS users or through a published snapshot.
+model MediaAsset {
+ id String @id
+ filename String
+ mimeType String
+ width Int
+ height Int
+ size Int
+ alt String @default("")
+ focalX Int @default(50)
+ focalY Int @default(50)
+ variants Json
+ source Json?
+ fileHash String? @unique
+ stockIdentity String? @unique
+ state String @default("PENDING")
+ version Int @default(1)
+ archivedAt DateTime?
+ creatorId String
+ creator User @relation(fields:[creatorId],references:[id],onDelete:Restrict,map:"MediaAsset_creator_fkey")
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+ @@index([state,archivedAt,createdAt])
+}
+model MediaUploadQuota {
+ actorId String @id
+ windowStart DateTime
+ count Int
+}
+
+// Server-only provider cache. Download URLs are never serialized to the browser.
+model StockSearchCache {
+ id String @id
+ response Json
+ expiresAt DateTime
+ @@index([expiresAt])
+}
+
+model SiteDocument {
+ id String @id @default(cuid())
+ slug String
+ locale String @default("en")
+ kind String @default("page")
+ title String
+ template String?
+ draft Json
+ published Json?
+ version Int @default(1)
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+ @@unique([slug,locale])
+}
+model SiteDocumentRevision {
+ id String @id @default(cuid())
+ documentId String
+ version Int
+ snapshot Json
+ actorId String
+ createdAt DateTime @default(now())
+ @@unique([documentId,version])
+}
+model Lead {
+ id String @id @default(cuid())
+ submissionId String @unique
+ kind String
+ name String
+ email String
+ payload Json
+ status String @default("NEW")
+ emailStatus String @default("PENDING")
+ emailError String?
+ providerId String?
+ attempts Int @default(0)
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+}
+model LeadThrottle {
+ key String @id
+ count Int @default(1)
+ windowStart DateTime @default(now())
+}
+model AgentProposal {
+ id String @id @default(cuid())
+ documentId String
+ instruction String
+ status String @default("QUEUED")
+ proposedChanges Json?
+ baseVersion Int
+ createdBy String
+ createdAt DateTime @default(now())
+}
+
+model IntegrationSettings {
+ id String @id
+ value Json
+ version Int @default(1)
+ updatedAt DateTime @updatedAt
+}

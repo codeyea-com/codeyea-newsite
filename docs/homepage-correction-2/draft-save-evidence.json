@@ -1,0 +1,69 @@
+{
+  "beforeVersion": 13,
+  "afterVersion": 14,
+  "publishedSnapshotSha256": "74acb4aac9c0db9c2d54106d1a19659cbe2868444ef9a8b6dfdb9a3ea521d8ca",
+  "publishedSnapshotUnchanged": true,
+  "revisionId": "cmu40n4lh000114i1f3gg5yd5",
+  "auditId": "cmu40n4lq000214i1tftjs7eb",
+  "flowDestinations": [
+    {
+      "id": "technical-support",
+      "ctaHref": ""
+    },
+    {
+      "id": "branding",
+      "ctaHref": ""
+    },
+    {
+      "id": "ecommerce",
+      "ctaHref": ""
+    }
+  ],
+  "wordCounts": {
+    "technical-support": 124,
+    "branding": 124,
+    "ecommerce": 122
+  },
+  "finalVerifiedVersion": 14,
+  "finalPublicHashUnchanged": true,
+  "editorialWordCounts": {
+    "introduction": 63,
+    "services": [
+      {
+        "title": "Web & App Development",
+        "words": 48
+      },
+      {
+        "title": "eCommerce Solutions",
+        "words": 39
+      },
+      {
+        "title": "AI & Automation",
+        "words": 39
+      },
+      {
+        "title": "Hosting & Infrastructure",
+        "words": 39
+      },
+      {
+        "title": "SEO & Digital Growth",
+        "words": 38
+      },
+      {
+        "title": "Branding & Creative",
+        "words": 37
+      },
+      {
+        "title": "Technical Support",
+        "words": 36
+      },
+      {
+        "title": "Digital Strategy",
+        "words": 37
+      }
+    ],
+    "about": 99,
+    "experience": 53,
+    "footer": 34
+  }
+}

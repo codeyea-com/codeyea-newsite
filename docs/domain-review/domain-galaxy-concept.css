@@ -1,0 +1,10 @@
+.d-hero{isolation:isolate;background:radial-gradient(ellipse 80% 55% at 50% 105%,#392366 0%,#211b40 48%,transparent 87%),radial-gradient(ellipse 70% 45% at 50% 92%,#40317a40,transparent 80%),#101218}
+.d-hero:before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.56;background-image:radial-gradient(1px 1px at 5% 19%,#fff9 99%,transparent),radial-gradient(1px 1px at 17% 38%,#cfc6ff8c 99%,transparent),radial-gradient(2px 2px at 31% 10%,#fff7 99%,transparent),radial-gradient(1px 1px at 42% 27%,#d3ceff8a 99%,transparent),radial-gradient(1px 1px at 57% 12%,#fff8 99%,transparent),radial-gradient(2px 2px at 68% 35%,#d6d0ff9c 99%,transparent),radial-gradient(1px 1px at 81% 16%,#fff8 99%,transparent),radial-gradient(1px 1px at 94% 31%,#d6d0ff99 99%,transparent),radial-gradient(1px 1px at 9% 60%,#fff7 99%,transparent),radial-gradient(1px 1px at 72% 57%,#fff7 99%,transparent);background-size:430px 370px,510px 420px,630px 530px,460px 390px,550px 440px,700px 500px,400px 340px,600px 430px,350px 330px,480px 360px}
+.d-hero:after{z-index:0}
+.d-hero .d-globe{display:none}
+.domain-cosmos{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.domain-cosmos svg{position:absolute;inset:0;width:100%;height:100%}
+.d-hero .d-hero-content{position:relative;z-index:2}
+.d-hero .d-tld-strip a{background:#ffffff0d;border-color:#ffffff32;backdrop-filter:blur(5px)}
+.d-hero .d-tld-strip a:hover,.d-hero .d-tld-strip a:focus-visible{background:#8a70c043;border-color:#b29be4}
+@media(max-width:600px){.domain-cosmos svg{width:900px;max-width:none;left:50%;transform:translateX(-50%)}.d-hero:before{opacity:.45}}

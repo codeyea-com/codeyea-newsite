@@ -1,0 +1,54 @@
+{
+  "previewOnly": true,
+  "cmsUnchanged": true,
+  "externalRequests": 0,
+  "externalProviderRequests": 0,
+  "newExternalImports": 0,
+  "aiGeneratedImages": 0,
+  "prices": "Owner-authorized illustrative values, not current offers",
+  "imagery": "existing local temporary media only",
+  "checks": [
+    {
+      "page": "website-hosting",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "page": "website-hosting",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "page": "wordpress-hosting",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "page": "wordpress-hosting",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "page": "cloud-hosting",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    },
+    {
+      "page": "cloud-hosting",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "broken": 0
+    }
+  ]
+}

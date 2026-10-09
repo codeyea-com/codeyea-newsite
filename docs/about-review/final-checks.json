@@ -1,0 +1,29 @@
+{
+  "homepageUnchanged": true,
+  "homepage": {
+    "version": 18,
+    "draft": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d",
+    "published": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d"
+  },
+  "aboutVersion": 2,
+  "aboutPublished": false,
+  "revisionVersions": [
+    1
+  ],
+  "aboutAuditActions": [
+    "page.draft_saved",
+    "page.draft_initialized"
+  ],
+  "publicStatus": 404,
+  "sitemapExcludesPrivateAbout": true,
+  "reducedMotion": {
+    "inline": true,
+    "running": 0
+  },
+  "serverRendering": {
+    "singleH1": true,
+    "fourSteps": true,
+    "approvedIntroduction": true
+  },
+  "unsupportedCopyAbsent": true
+}

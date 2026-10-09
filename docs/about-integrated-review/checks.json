@@ -1,0 +1,912 @@
+{
+  "checks": [
+    {
+      "label": "1440 project category 0",
+      "passed": true
+    },
+    {
+      "label": "1440 stable project height",
+      "passed": true
+    },
+    {
+      "label": "1440 project category 1",
+      "passed": true
+    },
+    {
+      "label": "1440 stable project height",
+      "passed": true
+    },
+    {
+      "label": "1440 project category 2",
+      "passed": true
+    },
+    {
+      "label": "1440 stable project height",
+      "passed": true
+    },
+    {
+      "label": "1440 project category 3",
+      "passed": true
+    },
+    {
+      "label": "1440 stable project height",
+      "passed": true
+    },
+    {
+      "label": "1440 project category 0",
+      "passed": true
+    },
+    {
+      "label": "1440 stable project height",
+      "passed": true
+    },
+    {
+      "label": "Principles keyboard heading accent",
+      "passed": true
+    },
+    {
+      "label": "Principles visible focus",
+      "passed": true
+    },
+    {
+      "label": "Principles stationary on focus",
+      "passed": true
+    },
+    {
+      "label": "Principles Tab order",
+      "passed": true
+    },
+    {
+      "label": "Showcase pink hover",
+      "passed": true
+    },
+    {
+      "label": "Showcase button stationary",
+      "passed": true
+    },
+    {
+      "label": "Showcase button focus",
+      "passed": true
+    },
+    {
+      "label": "1440 Showcase slide 1",
+      "passed": true
+    },
+    {
+      "label": "1440 stable Showcase height",
+      "passed": true
+    },
+    {
+      "label": "1440 Showcase slide 2",
+      "passed": true
+    },
+    {
+      "label": "1440 stable Showcase height",
+      "passed": true
+    },
+    {
+      "label": "1440 Showcase slide 0",
+      "passed": true
+    },
+    {
+      "label": "1440 stable Showcase height",
+      "passed": true
+    },
+    {
+      "label": "Showcase arrow keyboard",
+      "passed": true
+    },
+    {
+      "label": "1440 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "1440 one h1",
+      "passed": true
+    },
+    {
+      "label": "1440 all About images loaded",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/api/media/media_bcca22c8-dcb3-4913-9f46-4829ee96e155/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_bcdd21d0-4cbf-4057-a144-a35c64620f8e/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_ea77d13f-f5f7-4478-bdeb-4814b70d7380/large",
+          "loaded": true
+        },
+        {
+          "src": "/about-project-reference/construction.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/about-project-reference/residential.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/about-project-reference/city-planning.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_2aee73ae-0fa2-44ac-a2d5-447cc7cbc2b3/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_d688c5c2-ea82-4040-9ea6-7e1b258f7529/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_64797f88-f49a-4cbc-b1e0-8e21c424aa49/large",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "1440 no runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "label": "1440 paragraph readability measurements",
+      "detail": [
+        {
+          "font": "90px",
+          "lineHeight": "76.5px",
+          "width": 1110
+        },
+        {
+          "font": "14px",
+          "lineHeight": "23.8px",
+          "width": 445
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 635
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 635
+        },
+        {
+          "font": "14px",
+          "lineHeight": "23.8px",
+          "width": 540
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 540
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 540
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 540
+        },
+        {
+          "font": "18px",
+          "lineHeight": "27px",
+          "width": 451.171875
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 300
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 297
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 350
+        },
+        {
+          "font": "18px",
+          "lineHeight": "30.6px",
+          "width": 330
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 330
+        }
+      ]
+    },
+    {
+      "label": "390 project category 0",
+      "passed": true
+    },
+    {
+      "label": "390 stable project height",
+      "passed": true
+    },
+    {
+      "label": "390 project category 1",
+      "passed": true
+    },
+    {
+      "label": "390 stable project height",
+      "passed": true
+    },
+    {
+      "label": "390 project category 2",
+      "passed": true
+    },
+    {
+      "label": "390 stable project height",
+      "passed": true
+    },
+    {
+      "label": "390 project category 3",
+      "passed": true
+    },
+    {
+      "label": "390 stable project height",
+      "passed": true
+    },
+    {
+      "label": "390 project category 0",
+      "passed": true
+    },
+    {
+      "label": "390 stable project height",
+      "passed": true
+    },
+    {
+      "label": "390 Showcase slide 1",
+      "passed": true
+    },
+    {
+      "label": "390 stable Showcase height",
+      "passed": true
+    },
+    {
+      "label": "390 Showcase slide 2",
+      "passed": true
+    },
+    {
+      "label": "390 stable Showcase height",
+      "passed": true
+    },
+    {
+      "label": "390 Showcase slide 0",
+      "passed": true
+    },
+    {
+      "label": "390 stable Showcase height",
+      "passed": true
+    },
+    {
+      "label": "390 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "390 one h1",
+      "passed": true
+    },
+    {
+      "label": "390 all About images loaded",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/api/media/media_bcca22c8-dcb3-4913-9f46-4829ee96e155/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_bcdd21d0-4cbf-4057-a144-a35c64620f8e/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_ea77d13f-f5f7-4478-bdeb-4814b70d7380/large",
+          "loaded": true
+        },
+        {
+          "src": "/about-project-reference/construction.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/about-project-reference/residential.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/about-project-reference/city-planning.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_2aee73ae-0fa2-44ac-a2d5-447cc7cbc2b3/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_d688c5c2-ea82-4040-9ea6-7e1b258f7529/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_64797f88-f49a-4cbc-b1e0-8e21c424aa49/large",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "390 no runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "label": "390 paragraph readability measurements",
+      "detail": [
+        {
+          "font": "66.3px",
+          "lineHeight": "60.996px",
+          "width": 360
+        },
+        {
+          "font": "13px",
+          "lineHeight": "20.8px",
+          "width": 360
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 360
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 360
+        },
+        {
+          "font": "13px",
+          "lineHeight": "20.8px",
+          "width": 360
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 360
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 360
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 360
+        },
+        {
+          "font": "16px",
+          "lineHeight": "25.6px",
+          "width": 350
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 360
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 360
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 360
+        },
+        {
+          "font": "16px",
+          "lineHeight": "25.6px",
+          "width": 330
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 330
+        }
+      ]
+    },
+    {
+      "label": "768 project category 0",
+      "passed": true
+    },
+    {
+      "label": "768 stable project height",
+      "passed": true
+    },
+    {
+      "label": "768 project category 1",
+      "passed": true
+    },
+    {
+      "label": "768 stable project height",
+      "passed": true
+    },
+    {
+      "label": "768 project category 2",
+      "passed": true
+    },
+    {
+      "label": "768 stable project height",
+      "passed": true
+    },
+    {
+      "label": "768 project category 3",
+      "passed": true
+    },
+    {
+      "label": "768 stable project height",
+      "passed": true
+    },
+    {
+      "label": "768 project category 0",
+      "passed": true
+    },
+    {
+      "label": "768 stable project height",
+      "passed": true
+    },
+    {
+      "label": "768 Showcase slide 1",
+      "passed": true
+    },
+    {
+      "label": "768 stable Showcase height",
+      "passed": true
+    },
+    {
+      "label": "768 Showcase slide 2",
+      "passed": true
+    },
+    {
+      "label": "768 stable Showcase height",
+      "passed": true
+    },
+    {
+      "label": "768 Showcase slide 0",
+      "passed": true
+    },
+    {
+      "label": "768 stable Showcase height",
+      "passed": true
+    },
+    {
+      "label": "768 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "768 one h1",
+      "passed": true
+    },
+    {
+      "label": "768 all About images loaded",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/api/media/media_bcca22c8-dcb3-4913-9f46-4829ee96e155/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_bcdd21d0-4cbf-4057-a144-a35c64620f8e/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_ea77d13f-f5f7-4478-bdeb-4814b70d7380/large",
+          "loaded": true
+        },
+        {
+          "src": "/about-project-reference/construction.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/about-project-reference/residential.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/about-project-reference/city-planning.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_2aee73ae-0fa2-44ac-a2d5-447cc7cbc2b3/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_d688c5c2-ea82-4040-9ea6-7e1b258f7529/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_64797f88-f49a-4cbc-b1e0-8e21c424aa49/large",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "768 no runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "label": "768 paragraph readability measurements",
+      "detail": [
+        {
+          "font": "90px",
+          "lineHeight": "76.5px",
+          "width": 738
+        },
+        {
+          "font": "14px",
+          "lineHeight": "23.8px",
+          "width": 290
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 418
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 418
+        },
+        {
+          "font": "14px",
+          "lineHeight": "23.8px",
+          "width": 354
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 354
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 354
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 354
+        },
+        {
+          "font": "18px",
+          "lineHeight": "27px",
+          "width": 728
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 738
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 738
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 738
+        },
+        {
+          "font": "18px",
+          "lineHeight": "30.6px",
+          "width": 668
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 668
+        }
+      ]
+    },
+    {
+      "label": "320 project category 0",
+      "passed": true
+    },
+    {
+      "label": "320 stable project height",
+      "passed": true
+    },
+    {
+      "label": "320 project category 1",
+      "passed": true
+    },
+    {
+      "label": "320 stable project height",
+      "passed": true
+    },
+    {
+      "label": "320 project category 2",
+      "passed": true
+    },
+    {
+      "label": "320 stable project height",
+      "passed": true
+    },
+    {
+      "label": "320 project category 3",
+      "passed": true
+    },
+    {
+      "label": "320 stable project height",
+      "passed": true
+    },
+    {
+      "label": "320 project category 0",
+      "passed": true
+    },
+    {
+      "label": "320 stable project height",
+      "passed": true
+    },
+    {
+      "label": "320 Showcase slide 1",
+      "passed": true
+    },
+    {
+      "label": "320 stable Showcase height",
+      "passed": true
+    },
+    {
+      "label": "320 Showcase slide 2",
+      "passed": true
+    },
+    {
+      "label": "320 stable Showcase height",
+      "passed": true
+    },
+    {
+      "label": "320 Showcase slide 0",
+      "passed": true
+    },
+    {
+      "label": "320 stable Showcase height",
+      "passed": true
+    },
+    {
+      "label": "320 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "320 one h1",
+      "passed": true
+    },
+    {
+      "label": "320 all About images loaded",
+      "passed": true,
+      "detail": [
+        {
+          "src": "/api/media/media_bcca22c8-dcb3-4913-9f46-4829ee96e155/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_bcdd21d0-4cbf-4057-a144-a35c64620f8e/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_ea77d13f-f5f7-4478-bdeb-4814b70d7380/large",
+          "loaded": true
+        },
+        {
+          "src": "/about-project-reference/construction.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/about-project-reference/residential.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/about-project-reference/city-planning.jpg",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_2aee73ae-0fa2-44ac-a2d5-447cc7cbc2b3/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_d688c5c2-ea82-4040-9ea6-7e1b258f7529/large",
+          "loaded": true
+        },
+        {
+          "src": "/api/media/media_64797f88-f49a-4cbc-b1e0-8e21c424aa49/large",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "label": "320 no runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "label": "320 paragraph readability measurements",
+      "detail": [
+        {
+          "font": "54.4px",
+          "lineHeight": "50.048px",
+          "width": 290
+        },
+        {
+          "font": "13px",
+          "lineHeight": "20.8px",
+          "width": 290
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 290
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 290
+        },
+        {
+          "font": "13px",
+          "lineHeight": "20.8px",
+          "width": 290
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 290
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 290
+        },
+        {
+          "font": "17px",
+          "lineHeight": "30.26px",
+          "width": 290
+        },
+        {
+          "font": "16px",
+          "lineHeight": "25.6px",
+          "width": 280
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 290
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 290
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 290
+        },
+        {
+          "font": "16px",
+          "lineHeight": "25.6px",
+          "width": 260
+        },
+        {
+          "font": "17px",
+          "lineHeight": "28.9px",
+          "width": 260
+        }
+      ]
+    },
+    {
+      "label": "1440 reduced pointer hidden",
+      "passed": true
+    },
+    {
+      "label": "1440 reduced project no motion",
+      "passed": true
+    },
+    {
+      "label": "1440 reduced slider immediate",
+      "passed": true
+    },
+    {
+      "label": "1440 reduced cover hidden",
+      "passed": true
+    },
+    {
+      "label": "1440 reduced principles immediate",
+      "passed": true
+    },
+    {
+      "label": "390 reduced pointer hidden",
+      "passed": true
+    },
+    {
+      "label": "390 reduced project no motion",
+      "passed": true
+    },
+    {
+      "label": "390 reduced slider immediate",
+      "passed": true
+    },
+    {
+      "label": "390 reduced cover hidden",
+      "passed": true
+    },
+    {
+      "label": "390 reduced principles immediate",
+      "passed": true
+    },
+    {
+      "label": "Owner About and homepage draft/public snapshots unchanged",
+      "passed": true,
+      "detail": {
+        "before": {
+          "about": {
+            "version": 5,
+            "draft": "78ba939baee139aa05949c832134690ef41aaa687b1a4312dd8695d0ec5c8c40",
+            "published": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127"
+          },
+          "homepage": {
+            "version": 18,
+            "draft": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d",
+            "published": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d"
+          }
+        },
+        "after": {
+          "about": {
+            "version": 5,
+            "draft": "78ba939baee139aa05949c832134690ef41aaa687b1a4312dd8695d0ec5c8c40",
+            "published": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127"
+          },
+          "homepage": {
+            "version": 18,
+            "draft": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d",
+            "published": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d"
+          }
+        }
+      }
+    },
+    {
+      "label": "All application source unchanged",
+      "passed": true
+    }
+  ],
+  "findings": [],
+  "before": {
+    "about": {
+      "version": 5,
+      "draft": "78ba939baee139aa05949c832134690ef41aaa687b1a4312dd8695d0ec5c8c40",
+      "published": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127"
+    },
+    "homepage": {
+      "version": 18,
+      "draft": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d",
+      "published": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d"
+    }
+  },
+  "after": {
+    "about": {
+      "version": 5,
+      "draft": "78ba939baee139aa05949c832134690ef41aaa687b1a4312dd8695d0ec5c8c40",
+      "published": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127"
+    },
+    "homepage": {
+      "version": 18,
+      "draft": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d",
+      "published": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d"
+    }
+  },
+  "sourceUnchanged": true
+}

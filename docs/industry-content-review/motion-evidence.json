@@ -1,0 +1,1386 @@
+[
+  {
+    "slug": "healthcare",
+    "width": 1440,
+    "frames": [
+      {
+        "top": 3011.109375,
+        "height": 551,
+        "frameTransform": "none",
+        "y": -5.688318401102691,
+        "covered": true,
+        "scale": "1.00126"
+      },
+      {
+        "top": 3011.109375,
+        "height": 551,
+        "frameTransform": "none",
+        "y": -22.228635423845617,
+        "covered": true,
+        "scale": "1.04594"
+      },
+      {
+        "top": 3011.109375,
+        "height": 551,
+        "frameTransform": "none",
+        "y": -38.76895244658854,
+        "covered": true,
+        "scale": "1.06675"
+      },
+      {
+        "top": 3011.109375,
+        "height": 551,
+        "frameTransform": "none",
+        "y": -55.3092694693315,
+        "covered": true,
+        "scale": "1.07257"
+      },
+      {
+        "top": 3011.109375,
+        "height": 551,
+        "frameTransform": "none",
+        "y": -38.76895244658854,
+        "covered": true,
+        "scale": "1.07438"
+      },
+      {
+        "top": 3011.109375,
+        "height": 551,
+        "frameTransform": "none",
+        "y": -22.228635423845617,
+        "covered": true,
+        "scale": "1.0749"
+      },
+      {
+        "top": 3011.109375,
+        "height": 551,
+        "frameTransform": "none",
+        "y": -5.688318401102691,
+        "covered": true,
+        "scale": "1.02736"
+      }
+    ]
+  },
+  {
+    "slug": "healthcare",
+    "width": 1440,
+    "sequence": [
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          17.3312,
+          206.5,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          7.0712,
+          206.5,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          3.063,
+          206.5,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          0.7988,
+          206.5,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          0.2048,
+          206.5,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          0.0145,
+          206.5,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          0.0001,
+          206.5,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          178.033,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          117.824,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          75.1322,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          38.2775,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          21.3847,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          8.6986,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          3.1181,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          0.7988,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          0.2177,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          0.0358,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          0.0005,
+          206.5
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          178.033
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          116.814
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          63.2325
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          38.6917
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          17.5512
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          9.0834
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          3.1739
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          1.1455
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          0.2111
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          0.0358
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          0.0019
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "healthcare",
+    "width": 390,
+    "frames": [
+      {
+        "top": 3909.53125,
+        "height": 320,
+        "frameTransform": "none",
+        "y": 0,
+        "covered": true,
+        "scale": "none"
+      },
+      {
+        "top": 3909.53125,
+        "height": 320,
+        "frameTransform": "none",
+        "y": 0,
+        "covered": true,
+        "scale": "none"
+      },
+      {
+        "top": 3909.53125,
+        "height": 320,
+        "frameTransform": "none",
+        "y": 0,
+        "covered": true,
+        "scale": "none"
+      },
+      {
+        "top": 3909.53125,
+        "height": 320,
+        "frameTransform": "none",
+        "y": 0,
+        "covered": true,
+        "scale": "none"
+      },
+      {
+        "top": 3909.53125,
+        "height": 320,
+        "frameTransform": "none",
+        "y": 0,
+        "covered": true,
+        "scale": "none"
+      },
+      {
+        "top": 3909.53125,
+        "height": 320,
+        "frameTransform": "none",
+        "y": 0,
+        "covered": true,
+        "scale": "none"
+      },
+      {
+        "top": 3909.53125,
+        "height": 320,
+        "frameTransform": "none",
+        "y": 0,
+        "covered": true,
+        "scale": "none"
+      }
+    ]
+  },
+  {
+    "slug": "healthcare",
+    "width": 390,
+    "sequence": [
+      {
+        "active": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          243.828,
+          243.828,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          163.408,
+          243.828,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          91.2479,
+          243.828,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          55.2398,
+          243.828,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          31.9857,
+          243.828,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          13.9909,
+          243.828,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          5.1065,
+          243.828,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          2.0522,
+          243.828,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          0.6894,
+          243.828,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          0.0875,
+          243.828,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          0.0028,
+          243.828,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          243.828,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          163.408,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          105.762,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          65.67,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          32.3568,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          17.5458,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          8.7347,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          2.9053,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          1.0347,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          0.1596,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          0.0221,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "remaining": [
+          0,
+          0.0007,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          243.828
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          142.752
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          77.6193
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          47.1787
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          26.497
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          13.9909
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          5.1922
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          2.0522
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          0.6894
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          0.0875
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          0.0088
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "active": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "remaining": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  }
+]

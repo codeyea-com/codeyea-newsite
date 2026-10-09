@@ -1,0 +1,484 @@
+[
+  {
+    "slug": "healthcare",
+    "width": 390,
+    "nativeWidth": 390,
+    "nativeHeight": 10272,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_6ce65ef5-a80c-4172-b84c-01a9c4b5664f/large",
+      "/api/media/media_5df97550-86f5-475f-82e0-414ae5bbcb60/large",
+      "/api/media/media_4a901452-cf94-4fc8-be5b-f75ca0657b5e/large",
+      "/api/media/media_5be789d8-8384-40f3-a0b1-c0b701ff00d4/large",
+      "/api/media/media_092f5cd0-1303-4b3e-87d7-3e7c38c00772/large",
+      "/api/media/media_906a7a09-c53b-4b40-9362-99076f0b1e96/large",
+      "/api/media/media_798fa542-3fc6-4f2b-8a08-8189572e0b01/large",
+      "/api/media/media_b8b41b7e-540f-4745-8af8-46374ded2602/large"
+    ],
+    "seo": {
+      "title": "Private industry draft preview",
+      "description": "CODEYEA content management prototype",
+      "robots": "noindex, nofollow",
+      "structured": []
+    }
+  },
+  {
+    "slug": "e-commerce",
+    "width": 390,
+    "nativeWidth": 390,
+    "nativeHeight": 9967,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_71158c8a-b796-428f-b237-b796fc9fe3ef/large"
+    ],
+    "seo": {
+      "title": "Digital Services for E-Commerce | CODEYEA",
+      "description": "Explore CODEYEA’s practical website, content, branding and digital workflow services for E-Commerce businesses.",
+      "ogTitle": "Digital Services for E-Commerce | CODEYEA",
+      "ogDescription": "Explore CODEYEA’s practical website, content, branding and digital workflow services for E-Commerce businesses.",
+      "robots": "noindex, nofollow",
+      "structured": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "E-Commerce",
+          "description": "Explore CODEYEA’s practical website, content, branding and digital workflow services for E-Commerce businesses.",
+          "url": "https://codeyea.com/industries/e-commerce/"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "oil-and-gas",
+    "width": 390,
+    "nativeWidth": 390,
+    "nativeHeight": 10223,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_1f6a775e-61a1-43ae-aaa7-d7e46f3f9f4c/large"
+    ],
+    "seo": {
+      "title": "Digital Services for Oil and Gas | CODEYEA",
+      "description": "Websites, approved corporate information, brand communication, search visibility and presentations for Oil and Gas businesses and commercial inquiries.",
+      "ogTitle": "Digital Services for Oil and Gas | CODEYEA",
+      "ogDescription": "Websites, approved corporate information, brand communication, search visibility and presentations for Oil and Gas businesses and commercial inquiries.",
+      "robots": "noindex, nofollow",
+      "structured": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Oil and Gas",
+          "description": "Websites, approved corporate information, brand communication, search visibility and presentations for Oil and Gas businesses and commercial inquiries.",
+          "url": "https://codeyea.com/industries/oil-and-gas/"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "online-magazine",
+    "width": 390,
+    "nativeWidth": 390,
+    "nativeHeight": 9928,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_f209f124-418a-4aab-b45e-dc82196693c7/large"
+    ],
+    "seo": {
+      "title": "Private industry draft preview",
+      "description": "CODEYEA content management prototype",
+      "robots": "noindex, nofollow",
+      "structured": []
+    }
+  },
+  {
+    "slug": "construction",
+    "width": 390,
+    "nativeWidth": 390,
+    "nativeHeight": 9986,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_73909ad3-652f-4943-81b3-51bd88d8e980/large",
+      "/api/media/media_73909ad3-652f-4943-81b3-51bd88d8e980/large",
+      "/api/media/media_73909ad3-652f-4943-81b3-51bd88d8e980/large",
+      "/api/media/media_73909ad3-652f-4943-81b3-51bd88d8e980/large",
+      "/api/media/media_73909ad3-652f-4943-81b3-51bd88d8e980/large",
+      "/api/media/media_73909ad3-652f-4943-81b3-51bd88d8e980/large",
+      "/api/media/media_73909ad3-652f-4943-81b3-51bd88d8e980/large",
+      "/api/media/media_0ba83035-8910-4265-9952-fe7daf8d3532/large"
+    ],
+    "seo": {
+      "title": "Private industry draft preview",
+      "description": "CODEYEA content management prototype",
+      "robots": "noindex, nofollow",
+      "structured": []
+    }
+  },
+  {
+    "slug": "small-business",
+    "width": 390,
+    "nativeWidth": 390,
+    "nativeHeight": 9880,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_41c44eed-1b9d-49fa-9ff0-373d5fb61140/large",
+      "/api/media/media_41c44eed-1b9d-49fa-9ff0-373d5fb61140/large",
+      "/api/media/media_41c44eed-1b9d-49fa-9ff0-373d5fb61140/large",
+      "/api/media/media_41c44eed-1b9d-49fa-9ff0-373d5fb61140/large",
+      "/api/media/media_41c44eed-1b9d-49fa-9ff0-373d5fb61140/large",
+      "/api/media/media_41c44eed-1b9d-49fa-9ff0-373d5fb61140/large",
+      "/api/media/media_41c44eed-1b9d-49fa-9ff0-373d5fb61140/large",
+      "/api/media/media_849646f2-02bb-43ca-b43a-9038d7d2a26b/large"
+    ],
+    "seo": {
+      "title": "Private industry draft preview",
+      "description": "CODEYEA content management prototype",
+      "robots": "noindex, nofollow",
+      "structured": []
+    }
+  },
+  {
+    "slug": "event-coordinators",
+    "width": 390,
+    "nativeWidth": 390,
+    "nativeHeight": 9813,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_b6c09a97-921a-4b28-8e0f-dfd35d2c1d38/large",
+      "/api/media/media_b6c09a97-921a-4b28-8e0f-dfd35d2c1d38/large",
+      "/api/media/media_b6c09a97-921a-4b28-8e0f-dfd35d2c1d38/large",
+      "/api/media/media_b6c09a97-921a-4b28-8e0f-dfd35d2c1d38/large",
+      "/api/media/media_b6c09a97-921a-4b28-8e0f-dfd35d2c1d38/large",
+      "/api/media/media_b6c09a97-921a-4b28-8e0f-dfd35d2c1d38/large",
+      "/api/media/media_b6c09a97-921a-4b28-8e0f-dfd35d2c1d38/large",
+      "/api/media/media_5813da0f-7635-4919-aa2f-efca45006c10/large"
+    ],
+    "seo": {
+      "title": "Private industry draft preview",
+      "description": "CODEYEA content management prototype",
+      "robots": "noindex, nofollow",
+      "structured": []
+    }
+  },
+  {
+    "slug": "legal",
+    "width": 390,
+    "nativeWidth": 390,
+    "nativeHeight": 9816,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_a4746476-87a4-40d6-9665-4d2a3844726c/large",
+      "/api/media/media_a4746476-87a4-40d6-9665-4d2a3844726c/large",
+      "/api/media/media_a4746476-87a4-40d6-9665-4d2a3844726c/large",
+      "/api/media/media_a4746476-87a4-40d6-9665-4d2a3844726c/large",
+      "/api/media/media_a4746476-87a4-40d6-9665-4d2a3844726c/large",
+      "/api/media/media_a4746476-87a4-40d6-9665-4d2a3844726c/large",
+      "/api/media/media_a4746476-87a4-40d6-9665-4d2a3844726c/large",
+      "/api/media/media_a4746476-87a4-40d6-9665-4d2a3844726c/large"
+    ],
+    "seo": {
+      "title": "Private industry draft preview",
+      "description": "CODEYEA content management prototype",
+      "robots": "noindex, nofollow",
+      "structured": []
+    }
+  },
+  {
+    "slug": "real-estate",
+    "width": 390,
+    "nativeWidth": 390,
+    "nativeHeight": 9856,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_d8a5b82a-030e-4464-b972-b847c37b3f79/large",
+      "/api/media/media_d8a5b82a-030e-4464-b972-b847c37b3f79/large",
+      "/api/media/media_d8a5b82a-030e-4464-b972-b847c37b3f79/large",
+      "/api/media/media_d8a5b82a-030e-4464-b972-b847c37b3f79/large",
+      "/api/media/media_d8a5b82a-030e-4464-b972-b847c37b3f79/large",
+      "/api/media/media_d8a5b82a-030e-4464-b972-b847c37b3f79/large",
+      "/api/media/media_d8a5b82a-030e-4464-b972-b847c37b3f79/large",
+      "/api/media/media_b2761617-2bd9-4549-966c-140f92a6fef6/large"
+    ],
+    "seo": {
+      "title": "Private industry draft preview",
+      "description": "CODEYEA content management prototype",
+      "robots": "noindex, nofollow",
+      "structured": []
+    }
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "width": 390,
+    "nativeWidth": 390,
+    "nativeHeight": 10059,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_0126cc1c-69d8-4db3-863f-45ecbb6d99b4/large",
+      "/api/media/media_0126cc1c-69d8-4db3-863f-45ecbb6d99b4/large",
+      "/api/media/media_0126cc1c-69d8-4db3-863f-45ecbb6d99b4/large",
+      "/api/media/media_0126cc1c-69d8-4db3-863f-45ecbb6d99b4/large",
+      "/api/media/media_0126cc1c-69d8-4db3-863f-45ecbb6d99b4/large",
+      "/api/media/media_0126cc1c-69d8-4db3-863f-45ecbb6d99b4/large",
+      "/api/media/media_0126cc1c-69d8-4db3-863f-45ecbb6d99b4/large",
+      "/api/media/media_c542519b-b8ac-4847-83d4-5720dd436255/large"
+    ],
+    "seo": {
+      "title": "Private industry draft preview",
+      "description": "CODEYEA content management prototype",
+      "robots": "noindex, nofollow",
+      "structured": []
+    }
+  },
+  {
+    "slug": "healthcare",
+    "width": 1440,
+    "nativeWidth": 1440,
+    "nativeHeight": 6986,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_6ce65ef5-a80c-4172-b84c-01a9c4b5664f/large",
+      "/api/media/media_5df97550-86f5-475f-82e0-414ae5bbcb60/large",
+      "/api/media/media_4a901452-cf94-4fc8-be5b-f75ca0657b5e/large",
+      "/api/media/media_5be789d8-8384-40f3-a0b1-c0b701ff00d4/large",
+      "/api/media/media_092f5cd0-1303-4b3e-87d7-3e7c38c00772/large",
+      "/api/media/media_906a7a09-c53b-4b40-9362-99076f0b1e96/large",
+      "/api/media/media_798fa542-3fc6-4f2b-8a08-8189572e0b01/large",
+      "/api/media/media_b8b41b7e-540f-4745-8af8-46374ded2602/large"
+    ],
+    "seo": {
+      "title": "Private industry draft preview",
+      "description": "CODEYEA content management prototype",
+      "robots": "noindex, nofollow",
+      "structured": []
+    }
+  },
+  {
+    "slug": "online-magazine",
+    "width": 1440,
+    "nativeWidth": 1440,
+    "nativeHeight": 6818,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_6367dd12-c175-45e6-a6ee-ea69cb881d33/large",
+      "/api/media/media_f209f124-418a-4aab-b45e-dc82196693c7/large"
+    ],
+    "seo": {
+      "title": "Private industry draft preview",
+      "description": "CODEYEA content management prototype",
+      "robots": "noindex, nofollow",
+      "structured": []
+    }
+  },
+  {
+    "slug": "e-commerce",
+    "width": 1440,
+    "nativeWidth": 1440,
+    "nativeHeight": 6845,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52/large",
+      "/api/media/media_71158c8a-b796-428f-b237-b796fc9fe3ef/large"
+    ],
+    "seo": {
+      "title": "Digital Services for E-Commerce | CODEYEA",
+      "description": "Explore CODEYEA’s practical website, content, branding and digital workflow services for E-Commerce businesses.",
+      "ogTitle": "Digital Services for E-Commerce | CODEYEA",
+      "ogDescription": "Explore CODEYEA’s practical website, content, branding and digital workflow services for E-Commerce businesses.",
+      "robots": "noindex, nofollow",
+      "structured": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "E-Commerce",
+          "description": "Explore CODEYEA’s practical website, content, branding and digital workflow services for E-Commerce businesses.",
+          "url": "https://codeyea.com/industries/e-commerce/"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "oil-and-gas",
+    "width": 1440,
+    "nativeWidth": 1440,
+    "nativeHeight": 6875,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_22d66e85-93a7-4e3a-95a2-03ede342bbae/large",
+      "/api/media/media_1f6a775e-61a1-43ae-aaa7-d7e46f3f9f4c/large"
+    ],
+    "seo": {
+      "title": "Digital Services for Oil and Gas | CODEYEA",
+      "description": "Websites, approved corporate information, brand communication, search visibility and presentations for Oil and Gas businesses and commercial inquiries.",
+      "ogTitle": "Digital Services for Oil and Gas | CODEYEA",
+      "ogDescription": "Websites, approved corporate information, brand communication, search visibility and presentations for Oil and Gas businesses and commercial inquiries.",
+      "robots": "noindex, nofollow",
+      "structured": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Oil and Gas",
+          "description": "Websites, approved corporate information, brand communication, search visibility and presentations for Oil and Gas businesses and commercial inquiries.",
+          "url": "https://codeyea.com/industries/oil-and-gas/"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "healthcare",
+    "width": 1024,
+    "nativeWidth": 1024,
+    "nativeHeight": 7080,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_6ce65ef5-a80c-4172-b84c-01a9c4b5664f/large",
+      "/api/media/media_5df97550-86f5-475f-82e0-414ae5bbcb60/large",
+      "/api/media/media_4a901452-cf94-4fc8-be5b-f75ca0657b5e/large",
+      "/api/media/media_5be789d8-8384-40f3-a0b1-c0b701ff00d4/large",
+      "/api/media/media_092f5cd0-1303-4b3e-87d7-3e7c38c00772/large",
+      "/api/media/media_906a7a09-c53b-4b40-9362-99076f0b1e96/large",
+      "/api/media/media_798fa542-3fc6-4f2b-8a08-8189572e0b01/large",
+      "/api/media/media_b8b41b7e-540f-4745-8af8-46374ded2602/large"
+    ],
+    "seo": {
+      "title": "Private industry draft preview",
+      "description": "CODEYEA content management prototype",
+      "robots": "noindex, nofollow",
+      "structured": []
+    }
+  },
+  {
+    "slug": "healthcare",
+    "width": 768,
+    "nativeWidth": 768,
+    "nativeHeight": 7851,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_6ce65ef5-a80c-4172-b84c-01a9c4b5664f/large",
+      "/api/media/media_5df97550-86f5-475f-82e0-414ae5bbcb60/large",
+      "/api/media/media_4a901452-cf94-4fc8-be5b-f75ca0657b5e/large",
+      "/api/media/media_5be789d8-8384-40f3-a0b1-c0b701ff00d4/large",
+      "/api/media/media_092f5cd0-1303-4b3e-87d7-3e7c38c00772/large",
+      "/api/media/media_906a7a09-c53b-4b40-9362-99076f0b1e96/large",
+      "/api/media/media_798fa542-3fc6-4f2b-8a08-8189572e0b01/large",
+      "/api/media/media_b8b41b7e-540f-4745-8af8-46374ded2602/large"
+    ],
+    "seo": {
+      "title": "Private industry draft preview",
+      "description": "CODEYEA content management prototype",
+      "robots": "noindex, nofollow",
+      "structured": []
+    }
+  },
+  {
+    "slug": "healthcare",
+    "width": 320,
+    "nativeWidth": 320,
+    "nativeHeight": 11121,
+    "h1": 1,
+    "overflow": false,
+    "broken": 0,
+    "clipped": [],
+    "sourceImages": [
+      "/api/media/media_6ce65ef5-a80c-4172-b84c-01a9c4b5664f/large",
+      "/api/media/media_5df97550-86f5-475f-82e0-414ae5bbcb60/large",
+      "/api/media/media_4a901452-cf94-4fc8-be5b-f75ca0657b5e/large",
+      "/api/media/media_5be789d8-8384-40f3-a0b1-c0b701ff00d4/large",
+      "/api/media/media_092f5cd0-1303-4b3e-87d7-3e7c38c00772/large",
+      "/api/media/media_906a7a09-c53b-4b40-9362-99076f0b1e96/large",
+      "/api/media/media_798fa542-3fc6-4f2b-8a08-8189572e0b01/large",
+      "/api/media/media_b8b41b7e-540f-4745-8af8-46374ded2602/large"
+    ],
+    "seo": {
+      "title": "Private industry draft preview",
+      "description": "CODEYEA content management prototype",
+      "robots": "noindex, nofollow",
+      "structured": []
+    }
+  }
+]

@@ -1,0 +1,197 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": [],
+      "fonts": [
+        "\"Josefin Sans\", \"Segoe UI\", sans-serif"
+      ],
+      "sections": [
+        {
+          "id": "about-hero",
+          "height": 534.84375
+        },
+        {
+          "id": "about-who",
+          "height": 625.25
+        },
+        {
+          "id": "about-experience",
+          "height": 1018.75
+        },
+        {
+          "id": "about-projectReference",
+          "height": 700
+        },
+        {
+          "id": "about-principles",
+          "height": 690.59375
+        },
+        {
+          "id": "about-showcase",
+          "height": 1000
+        },
+        {
+          "id": "about-awards",
+          "height": 415.453125
+        }
+      ],
+      "h1": 1,
+      "bodyAnimations": 0,
+      "images": true,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "overflow": [],
+      "fonts": [
+        "\"Josefin Sans\", \"Segoe UI\", sans-serif"
+      ],
+      "sections": [
+        {
+          "id": "about-hero",
+          "height": 534.84375
+        },
+        {
+          "id": "about-who",
+          "height": 770.75
+        },
+        {
+          "id": "about-experience",
+          "height": 1042.484375
+        },
+        {
+          "id": "about-projectReference",
+          "height": 700
+        },
+        {
+          "id": "about-principles",
+          "height": 930.296875
+        },
+        {
+          "id": "about-showcase",
+          "height": 1150.203125
+        },
+        {
+          "id": "about-awards",
+          "height": 472.234375
+        }
+      ],
+      "h1": 1,
+      "bodyAnimations": 0,
+      "images": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": [],
+      "fonts": [
+        "\"Josefin Sans\", \"Segoe UI\", sans-serif"
+      ],
+      "sections": [
+        {
+          "id": "about-hero",
+          "height": 524.1875
+        },
+        {
+          "id": "about-who",
+          "height": 1075.046875
+        },
+        {
+          "id": "about-experience",
+          "height": 1767.234375
+        },
+        {
+          "id": "about-projectReference",
+          "height": 700
+        },
+        {
+          "id": "about-principles",
+          "height": 1179.703125
+        },
+        {
+          "id": "about-showcase",
+          "height": 854.78125
+        },
+        {
+          "id": "about-awards",
+          "height": 1002.859375
+        }
+      ],
+      "h1": 1,
+      "bodyAnimations": 0,
+      "images": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "overflow": [],
+      "fonts": [
+        "\"Josefin Sans\", \"Segoe UI\", sans-serif"
+      ],
+      "sections": [
+        {
+          "id": "about-hero",
+          "height": 500.640625
+        },
+        {
+          "id": "about-who",
+          "height": 1237.359375
+        },
+        {
+          "id": "about-experience",
+          "height": 1867.703125
+        },
+        {
+          "id": "about-projectReference",
+          "height": 700
+        },
+        {
+          "id": "about-principles",
+          "height": 1247.828125
+        },
+        {
+          "id": "about-showcase",
+          "height": 807.90625
+        },
+        {
+          "id": "about-awards",
+          "height": 1002.859375
+        }
+      ],
+      "h1": 1,
+      "bodyAnimations": 0,
+      "images": true,
+      "errors": []
+    }
+  ],
+  "before": {
+    "homepage": {
+      "version": 18,
+      "draft": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d",
+      "published": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d"
+    },
+    "about": {
+      "version": 4,
+      "draft": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127",
+      "published": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127"
+    }
+  },
+  "after": {
+    "homepage": {
+      "version": 18,
+      "draft": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d",
+      "published": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d"
+    },
+    "about": {
+      "version": 4,
+      "draft": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127",
+      "published": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127"
+    }
+  },
+  "ownerContentUnchanged": true
+}

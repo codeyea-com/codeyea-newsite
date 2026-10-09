@@ -1,0 +1,1727 @@
+[
+  {
+    "slug": "roofing",
+    "width": 1440,
+    "top": 293.5,
+    "imageTop": 332.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 286.5,
+        "bottom": 377.5,
+        "left": 165,
+        "right": 487.78125
+      }
+    ],
+    "viewport": 1440,
+    "imageBottom": 695.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      1110
+    ],
+    "image": [
+      1440,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "restaurants-cafes-bakeries",
+    "width": 1440,
+    "top": 293.5,
+    "imageTop": 332.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 2,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 286.5,
+        "bottom": 377.5,
+        "left": 165,
+        "right": 682.34375
+      },
+      {
+        "top": 286.5,
+        "bottom": 377.5,
+        "left": 711.453125,
+        "right": 950.34375
+      },
+      {
+        "top": 286.5,
+        "bottom": 377.5,
+        "left": 979.4375,
+        "right": 1045.984375
+      },
+      {
+        "top": 363.84375,
+        "bottom": 454.84375,
+        "left": 165,
+        "right": 517.71875
+      }
+    ],
+    "viewport": 1440,
+    "imageBottom": 695.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      1110
+    ],
+    "image": [
+      1440,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "width": 1440,
+    "top": 293.5,
+    "imageTop": 332.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 286.5,
+        "bottom": 377.5,
+        "left": 165,
+        "right": 485.6875
+      },
+      {
+        "top": 286.5,
+        "bottom": 377.5,
+        "left": 514.796875,
+        "right": 675.96875
+      },
+      {
+        "top": 286.5,
+        "bottom": 377.5,
+        "left": 705.078125,
+        "right": 1061
+      }
+    ],
+    "viewport": 1440,
+    "imageBottom": 695.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      1110
+    ],
+    "image": [
+      1440,
+      363,
+      "55% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "beauty-skincare-med-spa",
+    "width": 1440,
+    "top": 293.5,
+    "imageTop": 332.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 2,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 286.5,
+        "bottom": 377.5,
+        "left": 165,
+        "right": 475.140625
+      },
+      {
+        "top": 286.5,
+        "bottom": 377.5,
+        "left": 504.234375,
+        "right": 859.15625
+      },
+      {
+        "top": 286.5,
+        "bottom": 377.5,
+        "left": 888.265625,
+        "right": 954.796875
+      },
+      {
+        "top": 286.5,
+        "bottom": 377.5,
+        "left": 983.90625,
+        "right": 1172.5625
+      },
+      {
+        "top": 363.84375,
+        "bottom": 454.84375,
+        "left": 165,
+        "right": 327.359375
+      }
+    ],
+    "viewport": 1440,
+    "imageBottom": 695.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      1110
+    ],
+    "image": [
+      1440,
+      363,
+      "60% 40%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "solar-energy",
+    "width": 1440,
+    "top": 293.5,
+    "imageTop": 332.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 286.5,
+        "bottom": 377.5,
+        "left": 165,
+        "right": 382.5
+      },
+      {
+        "top": 286.5,
+        "bottom": 377.5,
+        "left": 411.609375,
+        "right": 707.640625
+      }
+    ],
+    "viewport": 1440,
+    "imageBottom": 695.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      1110
+    ],
+    "image": [
+      1440,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "about",
+    "width": 1440,
+    "top": 201.5,
+    "imageTop": 240.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 2,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 194.5,
+        "bottom": 285.5,
+        "left": 165,
+        "right": 450.75
+      },
+      {
+        "top": 194.5,
+        "bottom": 285.5,
+        "left": 479.859375,
+        "right": 921.03125
+      },
+      {
+        "top": 271.84375,
+        "bottom": 362.84375,
+        "left": 165,
+        "right": 472.21875
+      }
+    ],
+    "viewport": 1440,
+    "imageBottom": 603.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      1110
+    ],
+    "image": [
+      1440,
+      363,
+      "50% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "industries",
+    "width": 1440,
+    "top": 201.5,
+    "imageTop": 240.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 194.5,
+        "bottom": 285.5,
+        "left": 165,
+        "right": 570.875
+      }
+    ],
+    "viewport": 1440,
+    "imageBottom": 603.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      1110
+    ],
+    "image": [
+      1440,
+      363,
+      "50% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "roofing",
+    "width": 1024,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 337.78125
+      }
+    ],
+    "viewport": 1024,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      994
+    ],
+    "image": [
+      1024,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "restaurants-cafes-bakeries",
+    "width": 1024,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 2,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 532.34375
+      },
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 561.453125,
+        "right": 800.34375
+      },
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 829.4375,
+        "right": 895.984375
+      },
+      {
+        "top": 315.84375,
+        "bottom": 406.84375,
+        "left": 15,
+        "right": 367.71875
+      }
+    ],
+    "viewport": 1024,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      994
+    ],
+    "image": [
+      1024,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "width": 1024,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 335.6875
+      },
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 364.796875,
+        "right": 525.96875
+      },
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 555.078125,
+        "right": 911
+      }
+    ],
+    "viewport": 1024,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      994
+    ],
+    "image": [
+      1024,
+      363,
+      "55% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "beauty-skincare-med-spa",
+    "width": 1024,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 2,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 325.140625
+      },
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 354.234375,
+        "right": 709.15625
+      },
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 738.265625,
+        "right": 804.796875
+      },
+      {
+        "top": 315.84375,
+        "bottom": 406.84375,
+        "left": 15,
+        "right": 203.65625
+      },
+      {
+        "top": 315.84375,
+        "bottom": 406.84375,
+        "left": 232.75,
+        "right": 395.109375
+      }
+    ],
+    "viewport": 1024,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      994
+    ],
+    "image": [
+      1024,
+      363,
+      "60% 40%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "solar-energy",
+    "width": 1024,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 232.5
+      },
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 261.609375,
+        "right": 557.640625
+      }
+    ],
+    "viewport": 1024,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      994
+    ],
+    "image": [
+      1024,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "about",
+    "width": 1024,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 2,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 300.75
+      },
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 329.859375,
+        "right": 771.03125
+      },
+      {
+        "top": 315.84375,
+        "bottom": 406.84375,
+        "left": 15,
+        "right": 322.21875
+      }
+    ],
+    "viewport": 1024,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      994
+    ],
+    "image": [
+      1024,
+      363,
+      "50% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "industries",
+    "width": 1024,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 420.875
+      }
+    ],
+    "viewport": 1024,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      994
+    ],
+    "image": [
+      1024,
+      363,
+      "50% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "roofing",
+    "width": 768,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 337.78125
+      }
+    ],
+    "viewport": 768,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      738
+    ],
+    "image": [
+      768,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "restaurants-cafes-bakeries",
+    "width": 768,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 2,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 532.34375
+      },
+      {
+        "top": 315.84375,
+        "bottom": 406.84375,
+        "left": 15,
+        "right": 253.875
+      },
+      {
+        "top": 315.84375,
+        "bottom": 406.84375,
+        "left": 282.984375,
+        "right": 349.53125
+      },
+      {
+        "top": 315.84375,
+        "bottom": 406.84375,
+        "left": 378.625,
+        "right": 731.359375
+      }
+    ],
+    "viewport": 768,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      738
+    ],
+    "image": [
+      768,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "width": 768,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 2,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 335.6875
+      },
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 364.796875,
+        "right": 525.96875
+      },
+      {
+        "top": 315.84375,
+        "bottom": 406.84375,
+        "left": 15,
+        "right": 370.90625
+      }
+    ],
+    "viewport": 768,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      738
+    ],
+    "image": [
+      768,
+      363,
+      "55% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "beauty-skincare-med-spa",
+    "width": 768,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 2,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 325.140625
+      },
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 354.234375,
+        "right": 709.15625
+      },
+      {
+        "top": 315.84375,
+        "bottom": 406.84375,
+        "left": 15,
+        "right": 81.53125
+      },
+      {
+        "top": 315.84375,
+        "bottom": 406.84375,
+        "left": 110.640625,
+        "right": 299.296875
+      },
+      {
+        "top": 315.84375,
+        "bottom": 406.84375,
+        "left": 328.390625,
+        "right": 490.75
+      }
+    ],
+    "viewport": 768,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      738
+    ],
+    "image": [
+      768,
+      363,
+      "60% 40%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "solar-energy",
+    "width": 768,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 232.5
+      },
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 261.609375,
+        "right": 557.640625
+      }
+    ],
+    "viewport": 768,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      738
+    ],
+    "image": [
+      768,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "about",
+    "width": 768,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 3,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 300.75
+      },
+      {
+        "top": 315.84375,
+        "bottom": 406.84375,
+        "left": 15,
+        "right": 456.171875
+      },
+      {
+        "top": 393.1875,
+        "bottom": 484.1875,
+        "left": 15,
+        "right": 322.21875
+      }
+    ],
+    "viewport": 768,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      738
+    ],
+    "image": [
+      768,
+      363,
+      "50% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "industries",
+    "width": 768,
+    "top": 245.5,
+    "imageTop": 284.171875,
+    "lineHeight": 77.35,
+    "ratio": 0.49995959922430516,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 238.5,
+        "bottom": 329.5,
+        "left": 15,
+        "right": 420.875
+      }
+    ],
+    "viewport": 768,
+    "imageBottom": 647.171875,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "91px",
+      "600",
+      "77.35px",
+      "normal",
+      "normal",
+      "manual",
+      "anywhere",
+      738
+    ],
+    "image": [
+      768,
+      363,
+      "50% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "roofing",
+    "width": 390,
+    "top": 221.984375,
+    "imageTop": 257.078125,
+    "lineHeight": 70.2,
+    "ratio": 0.4999109686609686,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 220.984375,
+        "bottom": 291.984375,
+        "left": 15,
+        "right": 263.96875
+      }
+    ],
+    "viewport": 390,
+    "imageBottom": 620.078125,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "70.2px",
+      "600",
+      "70.2px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      350
+    ],
+    "image": [
+      390,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "restaurants-cafes-bakeries",
+    "width": 390,
+    "top": 237.984375,
+    "imageTop": 265.28125,
+    "lineHeight": 54.6,
+    "ratio": 0.49994276556776557,
+    "lines": 3,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 236.984375,
+        "bottom": 291.984375,
+        "left": 15,
+        "right": 325.40625
+      },
+      {
+        "top": 291.578125,
+        "bottom": 346.578125,
+        "left": 15,
+        "right": 158.328125
+      },
+      {
+        "top": 291.578125,
+        "bottom": 346.578125,
+        "left": 175.796875,
+        "right": 215.71875
+      },
+      {
+        "top": 346.171875,
+        "bottom": 401.171875,
+        "left": 15,
+        "right": 226.640625
+      }
+    ],
+    "viewport": 390,
+    "imageBottom": 628.28125,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "54.6px",
+      "600",
+      "54.6px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      350
+    ],
+    "image": [
+      390,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "width": 390,
+    "top": 221.984375,
+    "imageTop": 257.078125,
+    "lineHeight": 70.2,
+    "ratio": 0.4999109686609686,
+    "lines": 3,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 220.984375,
+        "bottom": 291.984375,
+        "left": 15,
+        "right": 262.359375
+      },
+      {
+        "top": 291.1875,
+        "bottom": 362.1875,
+        "left": 15,
+        "right": 139.3125
+      },
+      {
+        "top": 361.390625,
+        "bottom": 432.390625,
+        "left": 15,
+        "right": 289.515625
+      }
+    ],
+    "viewport": 390,
+    "imageBottom": 620.078125,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "70.2px",
+      "600",
+      "70.2px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      350
+    ],
+    "image": [
+      390,
+      363,
+      "55% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "beauty-skincare-med-spa",
+    "width": 390,
+    "top": 237.984375,
+    "imageTop": 273.078125,
+    "lineHeight": 70.2,
+    "ratio": 0.4999109686609686,
+    "lines": 3,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 236.984375,
+        "bottom": 307.984375,
+        "left": 15,
+        "right": 254.21875
+      },
+      {
+        "top": 307.1875,
+        "bottom": 378.1875,
+        "left": 15,
+        "right": 288.75
+      },
+      {
+        "top": 307.1875,
+        "bottom": 378.1875,
+        "left": 311.1875,
+        "right": 362.515625
+      },
+      {
+        "top": 377.390625,
+        "bottom": 448.390625,
+        "left": 15,
+        "right": 160.515625
+      },
+      {
+        "top": 377.390625,
+        "bottom": 448.390625,
+        "left": 182.953125,
+        "right": 308.1875
+      }
+    ],
+    "viewport": 390,
+    "imageBottom": 636.078125,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "70.2px",
+      "600",
+      "70.2px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      350
+    ],
+    "image": [
+      390,
+      363,
+      "60% 40%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "solar-energy",
+    "width": 390,
+    "top": 221.984375,
+    "imageTop": 257.078125,
+    "lineHeight": 70.2,
+    "ratio": 0.4999109686609686,
+    "lines": 2,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 220.984375,
+        "bottom": 291.984375,
+        "left": 15,
+        "right": 182.765625
+      },
+      {
+        "top": 291.1875,
+        "bottom": 362.1875,
+        "left": 15,
+        "right": 243.328125
+      }
+    ],
+    "viewport": 390,
+    "imageBottom": 620.078125,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "70.2px",
+      "600",
+      "70.2px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      350
+    ],
+    "image": [
+      390,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "about",
+    "width": 390,
+    "top": 221.984375,
+    "imageTop": 249.28125,
+    "lineHeight": 54.6,
+    "ratio": 0.49994276556776557,
+    "lines": 3,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 220.984375,
+        "bottom": 275.984375,
+        "left": 15,
+        "right": 186.453125
+      },
+      {
+        "top": 275.578125,
+        "bottom": 330.578125,
+        "left": 15,
+        "right": 279.703125
+      },
+      {
+        "top": 330.171875,
+        "bottom": 385.171875,
+        "left": 15,
+        "right": 199.34375
+      }
+    ],
+    "viewport": 390,
+    "imageBottom": 612.28125,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "54.6px",
+      "600",
+      "54.6px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      350
+    ],
+    "image": [
+      390,
+      363,
+      "50% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "industries",
+    "width": 390,
+    "top": 221.984375,
+    "imageTop": 249.28125,
+    "lineHeight": 54.6,
+    "ratio": 0.49994276556776557,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 220.984375,
+        "bottom": 275.984375,
+        "left": 15,
+        "right": 258.53125
+      }
+    ],
+    "viewport": 390,
+    "imageBottom": 612.28125,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "54.6px",
+      "600",
+      "54.6px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      350
+    ],
+    "image": [
+      390,
+      363,
+      "50% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "roofing",
+    "width": 320,
+    "top": 211.046875,
+    "imageTop": 239.84375,
+    "lineHeight": 57.6,
+    "ratio": 0.4999457465277778,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 211.046875,
+        "bottom": 268.046875,
+        "left": 15,
+        "right": 219.3125
+      }
+    ],
+    "viewport": 320,
+    "imageBottom": 602.84375,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "57.6px",
+      "600",
+      "57.6px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      280
+    ],
+    "image": [
+      320,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "restaurants-cafes-bakeries",
+    "width": 320,
+    "top": 227.046875,
+    "imageTop": 249.4375,
+    "lineHeight": 44.8,
+    "ratio": 0.4997907366071429,
+    "lines": 3,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 226.046875,
+        "bottom": 271.046875,
+        "left": 15,
+        "right": 269.703125
+      },
+      {
+        "top": 270.84375,
+        "bottom": 315.84375,
+        "left": 15,
+        "right": 132.609375
+      },
+      {
+        "top": 270.84375,
+        "bottom": 315.84375,
+        "left": 146.921875,
+        "right": 179.6875
+      },
+      {
+        "top": 315.640625,
+        "bottom": 360.640625,
+        "left": 15,
+        "right": 188.65625
+      }
+    ],
+    "viewport": 320,
+    "imageBottom": 612.4375,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "44.8px",
+      "600",
+      "44.8px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      280
+    ],
+    "image": [
+      320,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "width": 320,
+    "top": 227.046875,
+    "imageTop": 255.84375,
+    "lineHeight": 57.6,
+    "ratio": 0.4999457465277778,
+    "lines": 3,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 227.046875,
+        "bottom": 284.046875,
+        "left": 15,
+        "right": 217.984375
+      },
+      {
+        "top": 284.640625,
+        "bottom": 341.640625,
+        "left": 15,
+        "right": 117.015625
+      },
+      {
+        "top": 342.234375,
+        "bottom": 399.234375,
+        "left": 15,
+        "right": 240.28125
+      }
+    ],
+    "viewport": 320,
+    "imageBottom": 618.84375,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "57.6px",
+      "600",
+      "57.6px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      280
+    ],
+    "image": [
+      320,
+      363,
+      "55% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "beauty-skincare-med-spa",
+    "width": 320,
+    "top": 227.046875,
+    "imageTop": 255.84375,
+    "lineHeight": 57.6,
+    "ratio": 0.4999457465277778,
+    "lines": 4,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 227.046875,
+        "bottom": 284.046875,
+        "left": 15,
+        "right": 211.3125
+      },
+      {
+        "top": 284.640625,
+        "bottom": 341.640625,
+        "left": 15,
+        "right": 239.640625
+      },
+      {
+        "top": 342.234375,
+        "bottom": 399.234375,
+        "left": 15,
+        "right": 57.109375
+      },
+      {
+        "top": 342.234375,
+        "bottom": 399.234375,
+        "left": 75.53125,
+        "right": 194.953125
+      },
+      {
+        "top": 399.828125,
+        "bottom": 456.828125,
+        "left": 15,
+        "right": 117.765625
+      }
+    ],
+    "viewport": 320,
+    "imageBottom": 618.84375,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "57.6px",
+      "600",
+      "57.6px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      280
+    ],
+    "image": [
+      320,
+      363,
+      "60% 40%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "solar-energy",
+    "width": 320,
+    "top": 211.046875,
+    "imageTop": 239.84375,
+    "lineHeight": 57.6,
+    "ratio": 0.4999457465277778,
+    "lines": 2,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 211.046875,
+        "bottom": 268.046875,
+        "left": 15,
+        "right": 152.671875
+      },
+      {
+        "top": 268.640625,
+        "bottom": 325.640625,
+        "left": 15,
+        "right": 202.375
+      }
+    ],
+    "viewport": 320,
+    "imageBottom": 602.84375,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "57.6px",
+      "600",
+      "57.6px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      280
+    ],
+    "image": [
+      320,
+      363,
+      "60% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "about",
+    "width": 320,
+    "top": 211.046875,
+    "imageTop": 233.4375,
+    "lineHeight": 44.8,
+    "ratio": 0.4997907366071429,
+    "lines": 3,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 210.046875,
+        "bottom": 255.046875,
+        "left": 15,
+        "right": 155.6875
+      },
+      {
+        "top": 254.84375,
+        "bottom": 299.84375,
+        "left": 15,
+        "right": 232.203125
+      },
+      {
+        "top": 299.640625,
+        "bottom": 344.640625,
+        "left": 15,
+        "right": 166.25
+      }
+    ],
+    "viewport": 320,
+    "imageBottom": 596.4375,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "44.8px",
+      "600",
+      "44.8px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      280
+    ],
+    "image": [
+      320,
+      363,
+      "50% 50%"
+    ],
+    "h1": 1
+  },
+  {
+    "slug": "industries",
+    "width": 320,
+    "top": 211.046875,
+    "imageTop": 233.4375,
+    "lineHeight": 44.8,
+    "ratio": 0.4997907366071429,
+    "lines": 1,
+    "broken": [],
+    "overflow": false,
+    "rects": [
+      {
+        "top": 210.046875,
+        "bottom": 255.046875,
+        "left": 15,
+        "right": 214.8125
+      }
+    ],
+    "viewport": 320,
+    "imageBottom": 596.4375,
+    "z": "1",
+    "typography": [
+      "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "44.8px",
+      "600",
+      "44.8px",
+      "normal",
+      "normal",
+      "none",
+      "normal",
+      280
+    ],
+    "image": [
+      320,
+      363,
+      "50% 50%"
+    ],
+    "h1": 1
+  }
+]

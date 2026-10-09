@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "h1": 1
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "h1": 1
+    }
+  ],
+  "billingToggle": true,
+  "mobilePlans": true,
+  "faq": true,
+  "pageErrors": [],
+  "providerRequests": 0,
+  "newImports": 0,
+  "aiImages": 0
+}

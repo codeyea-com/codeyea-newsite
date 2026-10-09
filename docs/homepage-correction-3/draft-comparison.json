@@ -1,0 +1,57 @@
+{
+  "beforeVersion": 15,
+  "afterVersion": 16,
+  "sourceRevisionVersion": 13,
+  "revisionId": "cmu43pqh50004p0i19uw5hn33",
+  "auditId": "cmu43pqhn0005p0i167l21a76",
+  "publishedSnapshotSha256": "6000145995b6c0f809e7fb6f0ef802563dfe833bbb2761177b467f5a9f6a3d30",
+  "publishedSnapshotUnchanged": true,
+  "unrelatedHomepageFieldsUnchanged": true,
+  "changes": [
+    {
+      "field": "homepage.services.items[service-1].body",
+      "before": "A good website or web app should feel clear to the customer and manageable to the business behind it. We design and develop websites, portals and digital platforms that balance appearance, performance, functionality and long-term maintainability, whether you need a new build or improvements to an existing platform.",
+      "after": "Websites and applications shaped around the people who use them."
+    },
+    {
+      "field": "homepage.services.items[service-2].body",
+      "before": "Make online shopping easier for your customers and easier to manage for your team. We build and improve stores with product discovery, checkout, payments and order workflows in mind, helping connect a clear customer journey with practical day-to-day operations.",
+      "after": "Thoughtful shopping journeys, from product discovery to checkout."
+    },
+    {
+      "field": "homepage.services.items[service-3].body",
+      "before": "Use AI and automation to improve a real process. We help connect existing tools, reduce repetitive tasks and make information easier to find, from inquiry workflows and scheduled reports to internal knowledge assistants, with human review where it matters.",
+      "after": "Practical automation that connects tools and simplifies everyday work."
+    },
+    {
+      "field": "homepage.services.items[service-4].body",
+      "before": "Bring hosting, business email, domains and technical support together. We help with migrations, DNS, SSL and backup support, matching the setup to your website and giving your team a straightforward way to manage the foundations behind its online presence.",
+      "after": "A considered foundation for your website and digital operations."
+    },
+    {
+      "field": "homepage.services.items[service-5].body",
+      "before": "Help the right people find your business through technical SEO, local search, useful content and clear site structure. We review current visibility, identify priorities and measure meaningful inquiries, sales or business actions as the work develops over time.",
+      "after": "Search, content and measurement working toward your next stage of growth."
+    },
+    {
+      "field": "homepage.services.items[service-6].body",
+      "before": "Create a visual identity that feels consistent wherever customers meet your business. From logos, colour and typography to website interfaces, presentations and marketing assets, we build practical design systems your team can reuse across digital and print.",
+      "after": "A distinctive identity across your brand’s digital and printed touchpoints."
+    },
+    {
+      "field": "homepage.services.items[service-7].body",
+      "before": "Keep your website and online systems working with practical troubleshooting and ongoing maintenance. We investigate WordPress, plugin, performance, hosting and integration issues, explain what changed, and recommend preventive steps where they can help avoid recurring problems.",
+      "after": "Help maintaining, improving and troubleshooting your digital presence."
+    },
+    {
+      "field": "homepage.services.items[service-8].body",
+      "before": "Make the next digital decision with a clearer plan. We review your goals, current systems and pain points, then weigh the options for development, automation, hosting and growth so the first phase addresses a useful business priority.",
+      "after": "A clear direction for the technology, content and experiences you build next."
+    },
+    {
+      "field": "sections[homepage-positioning].body",
+      "before": "Whether you are launching something new, improving an existing business or looking for better ways to work, CODEYEA brings development, technology, creative thinking and digital growth together in one place. We scope the work around what needs to happen, then recommend a practical path forward. You can work with us on one focused project or build a longer-term relationship as your needs grow.",
+      "after": "Your gateway to a high-level online presence that captures, converts, and launches your business."
+    }
+  ]
+}

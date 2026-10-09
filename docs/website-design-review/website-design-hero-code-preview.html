@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CODEYEA — Hero code animation preview</title>
+  <style>html,body{margin:0;min-height:100%;background:#f2eee5}iframe{display:block;width:100%;height:100vh;border:0}</style>
+</head>
+<body>
+  <iframe title="CODEYEA website design preview" src="website-design-hero-concept.html"></iframe>
+  <script>
+    const frame = document.querySelector('iframe');
+    frame.addEventListener('load', () => {
+      const doc = frame.contentDocument;
+      const code = doc.querySelector('.art-code code');
+      if (!code) return;
+      code.replaceChildren();
+      const rows = [
+        [['const', '#eeca83'], [' experience = {', '']],
+        [['  idea: ', ''], ["'bold'", '#f3a5a3'], [',', '']],
+        [['  detail: ', ''], ["'everywhere'", '#f3a5a3'], [',', '']],
+        [['  impact: ', ''], ['true', '#f3a5a3']],
+        [['};', '']]
+      ];
+      const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
+      (async function typeCode() {
+        while (true) {
+          code.replaceChildren();
+          for (const row of rows) {
+            const line = doc.createElement('span');
+            line.className = 'hero-code-line';
+            code.appendChild(line);
+            for (const [text, color] of row) {
+              const part = doc.createElement('span');
+              if (color) part.style.color = color;
+              line.appendChild(part);
+              for (const character of text) {
+                part.textContent += character;
+                await pause(42);
+              }
+            }
+          }
+          await pause(1300);
+        }
+      })();
+      const style = doc.createElement('style');
+      style.textContent = '.art-code{left:-4%!important;right:auto!important;top:9%!important;z-index:9!important}.art-code code{white-space:pre!important}.art-code code .hero-code-line{display:block!important;clear:both;min-height:1em}@keyframes hero-code-caret{50%{opacity:0}}.art-code code:after{content:"";display:inline-block;height:1em;border-right:2px solid #eeca83;vertical-align:bottom;animation:hero-code-caret .8s steps(1,end) infinite}@media(max-width:700px){.art-code{left:-2%!important;top:5%!important;width:175px!important}.art-code code{font-size:9px!important}}';
+      doc.head.appendChild(style);
+    });
+  </script>
+</body>
+</html>

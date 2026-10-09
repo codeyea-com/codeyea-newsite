@@ -1,0 +1,9 @@
+import {snapshotSchema} from '@/schemas/content';
+import {pagePath} from '@/content/site-routes';
+type PageRecord={id:string;publishedSnapshot:unknown;publishedAt:Date|null;deletedAt?:Date|null};
+export function publishedSitemap(pages:PageRecord[],origin='https://codeyea.com'){
+ return pages.flatMap(page=>{if(page.deletedAt||!page.publishedAt||!page.publishedSnapshot)return [];const pathname=pagePath(page.id),parsed=snapshotSchema.safeParse(page.publishedSnapshot);if(!pathname||!parsed.success)return [];const data=parsed.data;
+ const hasPage=page.id==='homepage'?!!data.homepage||data.sections.length===1:page.id==='about'?!!data.about:page.id==='services'?!!data.servicesPage:page.id==='industries'?!!data.industriesPage:!!data.industryDetail&&data.industryDetail.slug===page.id;
+ return hasPage?[{url:new URL(pathname,origin).href,lastModified:page.publishedAt}]:[];
+ });
+}

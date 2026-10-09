@@ -1,0 +1,12 @@
+{
+  "desktopThreePlans": true,
+  "arrowsReachAllPlans": true,
+  "monthlyAnnual": true,
+  "mobileOnePlan": true,
+  "mobileTap": true,
+  "hoverLift": true,
+  "keyboardFocus": true,
+  "reducedMotion": true,
+  "noOverflow": true,
+  "pageErrors": []
+}

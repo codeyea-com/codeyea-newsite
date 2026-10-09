@@ -1,0 +1,18 @@
+[
+  {
+    "mode": "desktop",
+    "iconHoverOnly": true,
+    "wideShadow": true,
+    "stableLayout": true,
+    "keyboardEquivalent": true
+  },
+  {
+    "mode": "mobile",
+    "touchReadable": true,
+    "noPointerDependency": true
+  },
+  {
+    "mode": "reduced",
+    "noCardTravel": true
+  }
+]

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CODEYEA — Email Hosting hero preview</title>
+  <style>html,body,iframe{width:100%;height:100%;margin:0;border:0}body{overflow:hidden}</style>
+</head>
+<body>
+  <iframe id="preview" title="Email Hosting hero preview" src="email-hosting-interactive.html"></iframe>
+  <script>
+    const frame=document.getElementById('preview');
+    frame.addEventListener('load',()=>{
+      const doc=frame.contentDocument;
+      const css=doc.createElement('link');css.rel='stylesheet';css.href='email-hosting-hero-concept.css?v=1';doc.head.append(css);
+      const js=doc.createElement('script');js.src='email-hosting-hero-concept.js?v=1';doc.body.append(js);
+    },{once:true});
+  </script>
+</body>
+</html>

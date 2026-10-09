@@ -1,0 +1,172 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "images": true,
+    "backgrounds": [
+      "rgba(0, 0, 0, 0)",
+      "rgba(0, 0, 0, 0)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "frames": [
+      {
+        "class": "rf-needs-media",
+        "width": 434,
+        "height": 490
+      },
+      {
+        "class": "rf-image-break",
+        "width": 1440,
+        "height": 551
+      },
+      {
+        "class": "rf-cta rf-section",
+        "width": 1440,
+        "height": 388
+      }
+    ],
+    "path": [
+      "M 76 26 H 282.5",
+      "M 370.5 26 H 577",
+      "M 665 26 H 871.5"
+    ],
+    "link": "https://codeyea.com/contact/"
+  },
+  {
+    "width": 1024,
+    "overflow": false,
+    "h1": 1,
+    "images": true,
+    "backgrounds": [
+      "rgba(0, 0, 0, 0)",
+      "rgba(0, 0, 0, 0)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "frames": [
+      {
+        "class": "rf-needs-media",
+        "width": 381.59375,
+        "height": 440
+      },
+      {
+        "class": "rf-image-break",
+        "width": 1024,
+        "height": 440
+      },
+      {
+        "class": "rf-cta rf-section",
+        "width": 1024,
+        "height": 388
+      }
+    ],
+    "path": [
+      "M 76 26 H 236",
+      "M 324 26 H 484",
+      "M 572 26 H 732"
+    ],
+    "link": "https://codeyea.com/contact/"
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "h1": 1,
+    "images": true,
+    "backgrounds": [
+      "rgba(0, 0, 0, 0)",
+      "rgba(0, 0, 0, 0)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "frames": [
+      {
+        "class": "rf-needs-media",
+        "width": 279.1875,
+        "height": 400
+      },
+      {
+        "class": "rf-image-break",
+        "width": 768,
+        "height": 440
+      },
+      {
+        "class": "rf-cta rf-section",
+        "width": 768,
+        "height": 388
+      }
+    ],
+    "path": [
+      "M 76 26 H 356",
+      "M 360 26 H -12 V 274.46875 H -8",
+      "M 76 274.46875 H 356"
+    ],
+    "link": "https://codeyea.com/contact/"
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "images": true,
+    "backgrounds": [
+      "rgba(0, 0, 0, 0)",
+      "rgba(0, 0, 0, 0)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "frames": [
+      {
+        "class": "rf-needs-media",
+        "width": 350,
+        "height": 422.75
+      },
+      {
+        "class": "rf-image-break",
+        "width": 390,
+        "height": 320
+      },
+      {
+        "class": "rf-cta rf-section",
+        "width": 390,
+        "height": 400
+      }
+    ],
+    "path": [
+      "M -8 26 H -12 V 289.875 H -8",
+      "M -8 289.875 H -12 V 525.703125 H -8",
+      "M -8 525.703125 H -12 V 789.578125 H -8"
+    ],
+    "link": "https://codeyea.com/contact/"
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "h1": 1,
+    "images": true,
+    "backgrounds": [
+      "rgba(0, 0, 0, 0)",
+      "rgba(0, 0, 0, 0)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "frames": [
+      {
+        "class": "rf-needs-media",
+        "width": 280,
+        "height": 343.71875
+      },
+      {
+        "class": "rf-image-break",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "class": "rf-cta rf-section",
+        "width": 320,
+        "height": 400
+      }
+    ],
+    "path": [
+      "M -8 26 H -12 V 289.875 H -8",
+      "M -8 289.875 H -12 V 553.75 H -8",
+      "M -8 553.75 H -12 V 845.671875 H -8"
+    ],
+    "link": "https://codeyea.com/contact/"
+  }
+]

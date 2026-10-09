@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CODEYEA — Digital Marketing hero preview</title>
+  <style>html,body,iframe{width:100%;height:100%;margin:0;border:0}body{overflow:hidden}</style>
+</head>
+<body>
+  <iframe id="preview" title="Digital Marketing hero design preview" src="digital-marketing-interactive.html"></iframe>
+  <script>
+    const frame = document.getElementById('preview');
+    frame.addEventListener('load', () => {
+      const doc = frame.contentDocument;
+      const css = doc.createElement('link');
+      css.rel = 'stylesheet';
+      css.href = 'digital-marketing-hero-concept.css?v=1';
+      doc.head.append(css);
+      const js = doc.createElement('script');
+      js.src = 'digital-marketing-hero-concept.js?v=1';
+      doc.body.append(js);
+    }, { once: true });
+  </script>
+</body>
+</html>

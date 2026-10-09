@@ -1,0 +1,15 @@
+{
+  "scriptsValid": true,
+  "faqCount": 10,
+  "clientsRemoved": true,
+  "proofUpdated": true,
+  "quoteCTA": true,
+  "storyPresent": true,
+  "collageImages": [
+    "product-page.png",
+    "inventory-page.png",
+    "checkout-page.png"
+  ],
+  "missingAssets": [],
+  "browserVisualCheck": false
+}

@@ -1,0 +1,562 @@
+[
+  {
+    "slug": "healthcare",
+    "version": 2,
+    "status": "DRAFT",
+    "published": false,
+    "media": [
+      {
+        "id": "media_6ce65ef5-a80c-4172-b84c-01a9c4b5664f",
+        "filename": "pixabay-4099432.jpg",
+        "width": 1280,
+        "height": 854,
+        "source": {
+          "alt": "treatment, hospital, clinic, medicine, laboratory, diagnosis, patient, healthcare, hospital, hospital, hospital, hospital, hospital, patient, patient, patient, healthcare, healthcare, healthcare",
+          "query": "healthcare medical professional",
+          "width": 6016,
+          "height": 4016,
+          "provider": "pixabay",
+          "importedAt": "2026-09-20T15:16:10.695Z",
+          "providerId": "4099432",
+          "contributor": "fernandozhiminaicela",
+          "licenseLabel": "Pixabay Content License — temporary stock, owner approval pending",
+          "importedWidth": 1280,
+          "originalWidth": 6016,
+          "sourcePageUrl": "https://pixabay.com/photos/treatment-hospital-clinic-medicine-4099432/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://pixabay.com/users/fernandozhiminaicela-6246704/",
+          "importedHeight": 854,
+          "originalHeight": 4016
+        }
+      },
+      {
+        "id": "media_906a7a09-c53b-4b40-9362-99076f0b1e96",
+        "filename": "pexels-5214963.jpg",
+        "width": 1880,
+        "height": 1253,
+        "source": {
+          "alt": "Confident female doctor standing with stethoscope in a bright clinic setting.",
+          "query": "healthcare medical professional",
+          "width": 4000,
+          "height": 2667,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:26:23.069Z",
+          "providerId": "5214963",
+          "contributor": "Antoni Shkraba",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 4000,
+          "sourcePageUrl": "https://www.pexels.com/photo/a-woman-in-a-white-coat-5214963/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@shkrabaanthony",
+          "importedHeight": 1253,
+          "originalHeight": 2667
+        }
+      },
+      {
+        "id": "media_b8b41b7e-540f-4745-8af8-46374ded2602",
+        "filename": "pexels-4094199.jpg",
+        "width": 1733,
+        "height": 1300,
+        "source": {
+          "alt": "Black and white poorly lit empty wide corridor of hospital with doors on both sides and exit sign on ceiling",
+          "query": "hospital dark corridor",
+          "width": 4032,
+          "height": 3024,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:40:42.282Z",
+          "providerId": "4094199",
+          "contributor": "Sandy Torchon",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1733,
+          "originalWidth": 4032,
+          "sourcePageUrl": "https://www.pexels.com/photo/empty-long-corridor-of-modern-hospital-4094199/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@sandy-torchon-2229511",
+          "importedHeight": 1300,
+          "originalHeight": 3024
+        }
+      }
+    ]
+  },
+  {
+    "slug": "construction",
+    "version": 2,
+    "status": "DRAFT",
+    "published": false,
+    "media": [
+      {
+        "id": "media_73909ad3-652f-4943-81b3-51bd88d8e980",
+        "filename": "pexels-8961260.jpg",
+        "width": 1880,
+        "height": 1253,
+        "source": {
+          "alt": "Two workers discussing plans on a sandy construction site, wearing safety gear.",
+          "query": "construction workers building site safety",
+          "width": 7715,
+          "height": 5144,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:26:23.877Z",
+          "providerId": "8961260",
+          "contributor": "Mikael Blomkvist",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 7715,
+          "sourcePageUrl": "https://www.pexels.com/photo/people-with-hard-hard-standing-on-the-construction-site-8961260/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@mikael-blomkvist",
+          "importedHeight": 1253,
+          "originalHeight": 5144
+        }
+      },
+      {
+        "id": "media_0ba83035-8910-4265-9952-fe7daf8d3532",
+        "filename": "pexels-7168444.jpg",
+        "width": 1880,
+        "height": 1058,
+        "source": {
+          "alt": "Illuminated tower cranes at a construction site captured during nighttime.",
+          "query": "construction site night",
+          "width": 3840,
+          "height": 2160,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:40:43.079Z",
+          "providerId": "7168444",
+          "contributor": "Tima Miroshnichenko",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 3840,
+          "sourcePageUrl": "https://www.pexels.com/photo/a-building-under-construction-at-night-7168444/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@tima-miroshnichenko",
+          "importedHeight": 1058,
+          "originalHeight": 2160
+        }
+      }
+    ]
+  },
+  {
+    "slug": "e-commerce",
+    "version": 2,
+    "status": "DRAFT",
+    "published": false,
+    "media": [
+      {
+        "id": "media_59e374ca-6139-40ce-9ec0-b1a8a70d2e52",
+        "filename": "pexels-7857553.jpg",
+        "width": 1880,
+        "height": 1255,
+        "source": {
+          "alt": "Woman packing online shop orders at home. Features boxes, clothing rack, and a laptop.",
+          "query": "small business packing online orders",
+          "width": 5592,
+          "height": 3733,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:26:24.373Z",
+          "providerId": "7857553",
+          "contributor": "Kampus Production",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 5592,
+          "sourcePageUrl": "https://www.pexels.com/photo/woman-standing-next-to-a-desk-with-a-laptop-and-cardboard-boxes-and-writing-on-paper-7857553/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@kampus",
+          "importedHeight": 1255,
+          "originalHeight": 3733
+        }
+      },
+      {
+        "id": "media_71158c8a-b796-428f-b237-b796fc9fe3ef",
+        "filename": "pexels-27111449.jpg",
+        "width": 1880,
+        "height": 1253,
+        "source": {
+          "alt": "Interior view of a warehouse with stacked cardboard boxes on high shelves, showcasing storage and logistics.",
+          "query": "warehouse dark shelves",
+          "width": 6720,
+          "height": 4480,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:40:43.950Z",
+          "providerId": "27111449",
+          "contributor": "Ryan Klaus",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 6720,
+          "sourcePageUrl": "https://www.pexels.com/photo/low-angle-shot-of-boxes-standing-on-the-shelves-in-a-warehouse-27111449/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@ryank",
+          "importedHeight": 1253,
+          "originalHeight": 4480
+        }
+      }
+    ]
+  },
+  {
+    "slug": "small-business",
+    "version": 2,
+    "status": "DRAFT",
+    "published": false,
+    "media": [
+      {
+        "id": "media_41c44eed-1b9d-49fa-9ff0-373d5fb61140",
+        "filename": "pixabay-4863393.jpg",
+        "width": 1280,
+        "height": 848,
+        "source": {
+          "alt": "workshop, carpenter, crafts, artisan, drink, work, tool, vintage, workshop, workshop, workshop, workshop, workshop, carpenter, carpenter",
+          "query": "small business artisan workshop owner",
+          "width": 4928,
+          "height": 3264,
+          "provider": "pixabay",
+          "importedAt": "2026-09-20T15:26:25.129Z",
+          "providerId": "4863393",
+          "contributor": "ThMilherou",
+          "licenseLabel": "Pixabay Content License — temporary stock, owner approval pending",
+          "importedWidth": 1280,
+          "originalWidth": 4928,
+          "sourcePageUrl": "https://pixabay.com/photos/workshop-carpenter-crafts-artisan-4863393/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://pixabay.com/users/ThMilherou-5808126/",
+          "importedHeight": 848,
+          "originalHeight": 3264
+        }
+      },
+      {
+        "id": "media_849646f2-02bb-43ca-b43a-9038d7d2a26b",
+        "filename": "pexels-7019373.jpg",
+        "width": 1880,
+        "height": 1253,
+        "source": {
+          "alt": "A detailed view of assorted tools and wrenches in a dimly lit workshop environment.",
+          "query": "workshop dark tools",
+          "width": 6000,
+          "height": 4000,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:40:44.551Z",
+          "providerId": "7019373",
+          "contributor": "cottonbro studio",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 6000,
+          "sourcePageUrl": "https://www.pexels.com/photo/close-up-photo-of-wrenches-7019373/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@cottonbro",
+          "importedHeight": 1253,
+          "originalHeight": 4000
+        }
+      }
+    ]
+  },
+  {
+    "slug": "event-coordinators",
+    "version": 2,
+    "status": "DRAFT",
+    "published": false,
+    "media": [
+      {
+        "id": "media_b6c09a97-921a-4b28-8e0f-dfd35d2c1d38",
+        "filename": "pexels-18777543.jpg",
+        "width": 1880,
+        "height": 1253,
+        "source": {
+          "alt": "Beautifully decorated indoor wedding reception with flowers and elegant table settings.",
+          "query": "event venue preparation tables flowers",
+          "width": 6174,
+          "height": 4116,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:26:25.825Z",
+          "providerId": "18777543",
+          "contributor": "Zeynep Sude  Emek",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 6174,
+          "sourcePageUrl": "https://www.pexels.com/photo/flowers-on-table-for-celebration-in-turkey-18777543/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@zeynep-sude-emek-193601188",
+          "importedHeight": 1253,
+          "originalHeight": 4116
+        }
+      },
+      {
+        "id": "media_5813da0f-7635-4919-aa2f-efca45006c10",
+        "filename": "pexels-12092991.jpg",
+        "width": 1880,
+        "height": 1253,
+        "source": {
+          "alt": "Moody stage lighting with smoke effect to add atmospheric drama.",
+          "query": "event lights dark",
+          "width": 6720,
+          "height": 4480,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:40:45.017Z",
+          "providerId": "12092991",
+          "contributor": "Filipe Braggio",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 6720,
+          "sourcePageUrl": "https://www.pexels.com/photo/line-up-spotlights-hanging-on-a-ceiling-12092991/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@filipe-braggio-57041688",
+          "importedHeight": 1253,
+          "originalHeight": 4480
+        }
+      }
+    ]
+  },
+  {
+    "slug": "legal",
+    "version": 1,
+    "status": "DRAFT",
+    "published": false,
+    "media": [
+      {
+        "id": "media_a4746476-87a4-40d6-9665-4d2a3844726c",
+        "filename": "pexels-6077091.jpg",
+        "width": 1880,
+        "height": 1253,
+        "source": {
+          "alt": "A classic study room with shelves of books, a gavel, and Lady Justice figurine on a green table.",
+          "query": "legal books law library workspace",
+          "width": 5427,
+          "height": 3618,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:26:26.389Z",
+          "providerId": "6077091",
+          "contributor": "KATRIN  BOLOVTSOVA",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 5427,
+          "sourcePageUrl": "https://www.pexels.com/photo/justice-figurine-on-table-6077091/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@ekaterina-bolovtsova",
+          "importedHeight": 1253,
+          "originalHeight": 3618
+        }
+      }
+    ]
+  },
+  {
+    "slug": "online-magazine",
+    "version": 2,
+    "status": "DRAFT",
+    "published": false,
+    "media": [
+      {
+        "id": "media_6367dd12-c175-45e6-a6ee-ea69cb881d33",
+        "filename": "pexels-4271613.jpg",
+        "width": 1880,
+        "height": 1253,
+        "source": {
+          "alt": "Minimalist image of an open magazine on a white table, ideal for literature topics.",
+          "query": "editorial magazine desk publishing",
+          "width": 5855,
+          "height": 3903,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:26:26.869Z",
+          "providerId": "4271613",
+          "contributor": "alleksana",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 5855,
+          "sourcePageUrl": "https://www.pexels.com/photo/a-stack-of-open-magazines-4271613/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@alleksana",
+          "importedHeight": 1253,
+          "originalHeight": 3903
+        }
+      },
+      {
+        "id": "media_f209f124-418a-4aab-b45e-dc82196693c7",
+        "filename": "pexels-32836051.jpg",
+        "width": 1880,
+        "height": 1253,
+        "source": {
+          "alt": "A classic black vintage typewriter in moody black and white on a wooden desk.",
+          "query": "typewriter dark desk",
+          "width": 6000,
+          "height": 4000,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:40:45.453Z",
+          "providerId": "32836051",
+          "contributor": "DΛVΞ GΛRCIΛ",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 6000,
+          "sourcePageUrl": "https://www.pexels.com/photo/black-and-white-vintage-typewriter-on-wooden-desk-32836051/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@davegarcia",
+          "importedHeight": 1253,
+          "originalHeight": 4000
+        }
+      }
+    ]
+  },
+  {
+    "slug": "oil-and-gas",
+    "version": 2,
+    "status": "DRAFT",
+    "published": false,
+    "media": [
+      {
+        "id": "media_22d66e85-93a7-4e3a-95a2-03ede342bbae",
+        "filename": "pexels-15893881.jpg",
+        "width": 1880,
+        "height": 1252,
+        "source": {
+          "alt": "A detailed view of a refinery's towers against a cloudy dusk sky, showcasing industrial architecture.",
+          "query": "oil gas refinery industrial pipes",
+          "width": 5518,
+          "height": 3676,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:26:27.297Z",
+          "providerId": "15893881",
+          "contributor": "Michael Pointner",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 5518,
+          "sourcePageUrl": "https://www.pexels.com/photo/refinery-tower-at-dusk-15893881/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@michael-pointner-134459625",
+          "importedHeight": 1252,
+          "originalHeight": 3676
+        }
+      },
+      {
+        "id": "media_1f6a775e-61a1-43ae-aaa7-d7e46f3f9f4c",
+        "filename": "pexels-12641124.jpg",
+        "width": 1880,
+        "height": 1253,
+        "source": {
+          "alt": "Stunning aerial view of a brightly lit refinery in El Dorado, Kansas showcasing industrial architecture.",
+          "query": "refinery night",
+          "width": 4621,
+          "height": 3079,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:40:45.957Z",
+          "providerId": "12641124",
+          "contributor": "Taylor Hunt",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 4621,
+          "sourcePageUrl": "https://www.pexels.com/photo/aerial-view-of-cityscape-12641124/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@taylor-hunt-605291",
+          "importedHeight": 1253,
+          "originalHeight": 3079
+        }
+      }
+    ]
+  },
+  {
+    "slug": "real-estate",
+    "version": 2,
+    "status": "DRAFT",
+    "published": false,
+    "media": [
+      {
+        "id": "media_d8a5b82a-030e-4464-b972-b847c37b3f79",
+        "filename": "pixabay-1867187.jpg",
+        "width": 1280,
+        "height": 873,
+        "source": {
+          "alt": "house, garage, driveway, architecture, building, property, home, residential, suburb, real estate, exterior, facade, house exterior, home exterior, street, neighborhood street, residential area, house, house, house, house, house, home, home, real estate",
+          "query": "residential architecture modern house exterior",
+          "width": 3352,
+          "height": 2286,
+          "provider": "pixabay",
+          "importedAt": "2026-09-20T15:26:27.972Z",
+          "providerId": "1867187",
+          "contributor": "Pexels",
+          "licenseLabel": "Pixabay Content License — temporary stock, owner approval pending",
+          "importedWidth": 1280,
+          "originalWidth": 3352,
+          "sourcePageUrl": "https://pixabay.com/photos/house-garage-driveway-architecture-1867187/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://pixabay.com/users/Pexels-2286921/",
+          "importedHeight": 873,
+          "originalHeight": 2286
+        }
+      },
+      {
+        "id": "media_b2761617-2bd9-4549-966c-140f92a6fef6",
+        "filename": "pexels-12689707.jpg",
+        "width": 1880,
+        "height": 1253,
+        "source": {
+          "alt": "A serene nighttime view of urban residential houses on a quiet street with soft lighting and gentle ambiance.",
+          "query": "house night dark",
+          "width": 5472,
+          "height": 3648,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:40:46.477Z",
+          "providerId": "12689707",
+          "contributor": "Erik Mclean",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 5472,
+          "sourcePageUrl": "https://www.pexels.com/photo/house-in-city-at-night-12689707/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@introspectivedsgn",
+          "importedHeight": 1253,
+          "originalHeight": 3648
+        }
+      }
+    ]
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "version": 2,
+    "status": "DRAFT",
+    "published": false,
+    "media": [
+      {
+        "id": "media_0126cc1c-69d8-4db3-863f-45ecbb6d99b4",
+        "filename": "pexels-36731322.jpg",
+        "width": 1880,
+        "height": 1058,
+        "source": {
+          "alt": "Fashion designer organizing sketches in a modern garment studio with tools and fabrics.",
+          "query": "fashion designer studio fabric clothing",
+          "width": 3800,
+          "height": 2138,
+          "provider": "pexels",
+          "importedAt": "2026-09-20T15:26:28.383Z",
+          "providerId": "36731322",
+          "contributor": "Vitaly Gariev",
+          "licenseLabel": "Pexels License — temporary stock, owner approval pending",
+          "importedWidth": 1880,
+          "originalWidth": 3800,
+          "sourcePageUrl": "https://www.pexels.com/photo/fashion-designer-arranging-sketches-in-studio-36731322/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://www.pexels.com/@silverkblack",
+          "importedHeight": 1058,
+          "originalHeight": 2138
+        }
+      },
+      {
+        "id": "media_c542519b-b8ac-4847-83d4-5720dd436255",
+        "filename": "pixabay-2346211.jpg",
+        "width": 1280,
+        "height": 853,
+        "source": {
+          "alt": "fabric, desktop backgrounds, macro, detail, nobody, horizontal, design, pattern, tissue, cool backgrounds, abstract pattern, studio, production, free wallpaper, laptop wallpaper, full hd wallpaper, vibrant color, 4k wallpaper 1920x1080, background, close up, no people, fashion, color image, clothes,",
+          "query": "fashion designer studio fabric clothing",
+          "width": 7680,
+          "height": 5120,
+          "provider": "pixabay",
+          "importedAt": "2026-09-20T15:40:47.394Z",
+          "providerId": "2346211",
+          "contributor": "Engin_Akyurt",
+          "licenseLabel": "Pixabay Content License — temporary stock, owner approval pending",
+          "importedWidth": 1280,
+          "originalWidth": 7680,
+          "sourcePageUrl": "https://pixabay.com/photos/fabric-macro-detail-nobody-2346211/",
+          "approvalStatus": "temporary-stock",
+          "contributorUrl": "https://pixabay.com/users/Engin_Akyurt-3656355/",
+          "importedHeight": 853,
+          "originalHeight": 5120
+        }
+      }
+    ]
+  }
+]

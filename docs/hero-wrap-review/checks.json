@@ -1,0 +1,2007 @@
+[
+  {
+    "slug": "healthcare",
+    "viewport": 1440,
+    "title": "Healthcare",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Healthcare",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 1110,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "construction",
+    "viewport": 1440,
+    "title": "Construction",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Construction",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 1110,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "e-commerce",
+    "viewport": 1440,
+    "title": "E-Commerce",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "E-Commerce",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 1110,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "small-business",
+    "viewport": 1440,
+    "title": "Small Business",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Small",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Business",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 1110,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "event-coordinators",
+    "viewport": 1440,
+    "title": "Event Coordinators",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Event",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Coordinators",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 1110,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "legal",
+    "viewport": 1440,
+    "title": "Legal",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Legal",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 1110,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "online-magazine",
+    "viewport": 1440,
+    "title": "Online Magazine",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Online",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Magazine",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 1110,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "oil-and-gas",
+    "viewport": 1440,
+    "title": "Oil and Gas",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Oil",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "and",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Gas",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 1110,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "real-estate",
+    "viewport": 1440,
+    "title": "Real Estate",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Real",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Estate",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 1110,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "viewport": 1440,
+    "title": "Fashion and Lifestyle",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Fashion",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "and",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Lifestyle",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 1110,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "roofing",
+    "viewport": 1440,
+    "title": "Roofing",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Roofing",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 1110,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "about",
+    "viewport": 1440,
+    "title": "Digital Innovation Agency",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Digital",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Innovation",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Agency",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 1110,
+    "titleHeight": 154.6875,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "industries",
+    "viewport": 1440,
+    "title": "Industries",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Industries",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 1110,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "healthcare",
+    "viewport": 1024,
+    "title": "Healthcare",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Healthcare",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 994,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "construction",
+    "viewport": 1024,
+    "title": "Construction",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Construction",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 994,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "e-commerce",
+    "viewport": 1024,
+    "title": "E-Commerce",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "E-Commerce",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 994,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "small-business",
+    "viewport": 1024,
+    "title": "Small Business",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Small",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Business",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 994,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "event-coordinators",
+    "viewport": 1024,
+    "title": "Event Coordinators",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Event",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Coordinators",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 994,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "legal",
+    "viewport": 1024,
+    "title": "Legal",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Legal",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 994,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "online-magazine",
+    "viewport": 1024,
+    "title": "Online Magazine",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Online",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Magazine",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 994,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "oil-and-gas",
+    "viewport": 1024,
+    "title": "Oil and Gas",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Oil",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "and",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Gas",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 994,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "real-estate",
+    "viewport": 1024,
+    "title": "Real Estate",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Real",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Estate",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 994,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "viewport": 1024,
+    "title": "Fashion and Lifestyle",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Fashion",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "and",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Lifestyle",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 994,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "roofing",
+    "viewport": 1024,
+    "title": "Roofing",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Roofing",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 994,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "about",
+    "viewport": 1024,
+    "title": "Digital Innovation Agency",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Digital",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Innovation",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Agency",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 994,
+    "titleHeight": 154.6875,
+    "heroHeight": 612.1875,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "industries",
+    "viewport": 1024,
+    "title": "Industries",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Industries",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 994,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "healthcare",
+    "viewport": 768,
+    "title": "Healthcare",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Healthcare",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 738,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "construction",
+    "viewport": 768,
+    "title": "Construction",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Construction",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 738,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "e-commerce",
+    "viewport": 768,
+    "title": "E-Commerce",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "E-Commerce",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 738,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "small-business",
+    "viewport": 768,
+    "title": "Small Business",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Small",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Business",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 738,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "event-coordinators",
+    "viewport": 768,
+    "title": "Event Coordinators",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Event",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Coordinators",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 738,
+    "titleHeight": 154.6875,
+    "heroHeight": 612.1875,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "legal",
+    "viewport": 768,
+    "title": "Legal",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Legal",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 738,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "online-magazine",
+    "viewport": 768,
+    "title": "Online Magazine",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Online",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Magazine",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 738,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "oil-and-gas",
+    "viewport": 768,
+    "title": "Oil and Gas",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Oil",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "and",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Gas",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 738,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "real-estate",
+    "viewport": 768,
+    "title": "Real Estate",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Real",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Estate",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 738,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "viewport": 768,
+    "title": "Fashion and Lifestyle",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Fashion",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "and",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Lifestyle",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 738,
+    "titleHeight": 154.6875,
+    "heroHeight": 612.1875,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "roofing",
+    "viewport": 768,
+    "title": "Roofing",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Roofing",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 738,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "about",
+    "viewport": 768,
+    "title": "Digital Innovation Agency",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Digital",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Innovation",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Agency",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 738,
+    "titleHeight": 232.03125,
+    "heroHeight": 689.53125,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "industries",
+    "viewport": 768,
+    "title": "Industries",
+    "fontSize": "91px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "77.35px",
+    "wordBreak": "normal",
+    "overflowWrap": "anywhere",
+    "hyphens": "manual",
+    "words": [
+      {
+        "word": "Industries",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 738,
+    "titleHeight": 77.34375,
+    "heroHeight": 534.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": true
+  },
+  {
+    "slug": "healthcare",
+    "viewport": 390,
+    "title": "Healthcare",
+    "fontSize": "54.6px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "54.6px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Healthcare",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 350,
+    "titleHeight": 54.59375,
+    "heroHeight": 508.578125,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "construction",
+    "viewport": 390,
+    "title": "Construction",
+    "fontSize": "54.6px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "54.6px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Construction",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 350,
+    "titleHeight": 54.59375,
+    "heroHeight": 508.578125,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "e-commerce",
+    "viewport": 390,
+    "title": "E-Commerce",
+    "fontSize": "54.6px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "54.6px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "E-Commerce",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 350,
+    "titleHeight": 54.59375,
+    "heroHeight": 508.578125,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "small-business",
+    "viewport": 390,
+    "title": "Small Business",
+    "fontSize": "70.2px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "70.2px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Small",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Business",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 350,
+    "titleHeight": 140.40625,
+    "heroHeight": 594.390625,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "event-coordinators",
+    "viewport": 390,
+    "title": "Event Coordinators",
+    "fontSize": "54.6px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "54.6px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Event",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Coordinators",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 350,
+    "titleHeight": 109.1875,
+    "heroHeight": 563.171875,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "legal",
+    "viewport": 390,
+    "title": "Legal",
+    "fontSize": "70.2px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "70.2px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Legal",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 350,
+    "titleHeight": 70.203125,
+    "heroHeight": 524.1875,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "online-magazine",
+    "viewport": 390,
+    "title": "Online Magazine",
+    "fontSize": "70.2px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "70.2px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Online",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Magazine",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 350,
+    "titleHeight": 140.40625,
+    "heroHeight": 594.390625,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "oil-and-gas",
+    "viewport": 390,
+    "title": "Oil and Gas",
+    "fontSize": "70.2px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "70.2px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Oil",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "and",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Gas",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 350,
+    "titleHeight": 140.40625,
+    "heroHeight": 594.390625,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "real-estate",
+    "viewport": 390,
+    "title": "Real Estate",
+    "fontSize": "70.2px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "70.2px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Real",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Estate",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 350,
+    "titleHeight": 140.40625,
+    "heroHeight": 594.390625,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "viewport": 390,
+    "title": "Fashion and Lifestyle",
+    "fontSize": "70.2px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "70.2px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Fashion",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "and",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Lifestyle",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 350,
+    "titleHeight": 210.609375,
+    "heroHeight": 664.59375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "roofing",
+    "viewport": 390,
+    "title": "Roofing",
+    "fontSize": "70.2px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "70.2px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Roofing",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 350,
+    "titleHeight": 70.203125,
+    "heroHeight": 524.1875,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "about",
+    "viewport": 390,
+    "title": "Digital Innovation Agency",
+    "fontSize": "54.6px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "54.6px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Digital",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Innovation",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Agency",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 350,
+    "titleHeight": 163.78125,
+    "heroHeight": 617.765625,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "industries",
+    "viewport": 390,
+    "title": "Industries",
+    "fontSize": "54.6px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "54.6px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Industries",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 350,
+    "titleHeight": 54.59375,
+    "heroHeight": 508.578125,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "healthcare",
+    "viewport": 320,
+    "title": "Healthcare",
+    "fontSize": "44.8px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "44.8px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Healthcare",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 280,
+    "titleHeight": 44.796875,
+    "heroHeight": 487.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "construction",
+    "viewport": 320,
+    "title": "Construction",
+    "fontSize": "44.8px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "44.8px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Construction",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 280,
+    "titleHeight": 44.796875,
+    "heroHeight": 487.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "e-commerce",
+    "viewport": 320,
+    "title": "E-Commerce",
+    "fontSize": "44.8px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "44.8px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "E-Commerce",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 280,
+    "titleHeight": 44.796875,
+    "heroHeight": 487.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "small-business",
+    "viewport": 320,
+    "title": "Small Business",
+    "fontSize": "57.6px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "57.6px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Small",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Business",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 280,
+    "titleHeight": 115.1875,
+    "heroHeight": 558.234375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "event-coordinators",
+    "viewport": 320,
+    "title": "Event Coordinators",
+    "fontSize": "44.8px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "44.8px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Event",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Coordinators",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 280,
+    "titleHeight": 89.59375,
+    "heroHeight": 532.640625,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "legal",
+    "viewport": 320,
+    "title": "Legal",
+    "fontSize": "57.6px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "57.6px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Legal",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 280,
+    "titleHeight": 57.59375,
+    "heroHeight": 500.640625,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "online-magazine",
+    "viewport": 320,
+    "title": "Online Magazine",
+    "fontSize": "57.6px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "57.6px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Online",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Magazine",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 280,
+    "titleHeight": 115.1875,
+    "heroHeight": 558.234375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "oil-and-gas",
+    "viewport": 320,
+    "title": "Oil and Gas",
+    "fontSize": "57.6px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "57.6px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Oil",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "and",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Gas",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 280,
+    "titleHeight": 115.1875,
+    "heroHeight": 558.234375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "real-estate",
+    "viewport": 320,
+    "title": "Real Estate",
+    "fontSize": "57.6px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "57.6px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Real",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Estate",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 280,
+    "titleHeight": 115.1875,
+    "heroHeight": 558.234375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "viewport": 320,
+    "title": "Fashion and Lifestyle",
+    "fontSize": "57.6px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "57.6px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Fashion",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "and",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Lifestyle",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 280,
+    "titleHeight": 172.78125,
+    "heroHeight": 615.828125,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "roofing",
+    "viewport": 320,
+    "title": "Roofing",
+    "fontSize": "57.6px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "57.6px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Roofing",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 280,
+    "titleHeight": 57.59375,
+    "heroHeight": 500.640625,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "about",
+    "viewport": 320,
+    "title": "Digital Innovation Agency",
+    "fontSize": "44.8px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "44.8px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Digital",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Innovation",
+        "lines": 1,
+        "inside": true
+      },
+      {
+        "word": "Agency",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 280,
+    "titleHeight": 134.390625,
+    "heroHeight": 577.4375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  },
+  {
+    "slug": "industries",
+    "viewport": 320,
+    "title": "Industries",
+    "fontSize": "44.8px",
+    "fontFamily": "\"Josefin Sans\", \"Segoe UI\", sans-serif",
+    "fontWeight": "600",
+    "lineHeight": "44.8px",
+    "wordBreak": "normal",
+    "overflowWrap": "normal",
+    "hyphens": "none",
+    "words": [
+      {
+        "word": "Industries",
+        "lines": 1,
+        "inside": true
+      }
+    ],
+    "titleWidth": 280,
+    "titleHeight": 44.796875,
+    "heroHeight": 487.84375,
+    "overflow": false,
+    "titleOverflow": false,
+    "opacity": "1",
+    "heroImageHeight": 363,
+    "exactDesktop": null
+  }
+]

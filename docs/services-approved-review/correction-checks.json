@@ -1,0 +1,18 @@
+{
+  "states": [
+    {
+      "title": "Digital Growth\nStrategy",
+      "nextHidden": true
+    },
+    {
+      "title": "Connected Digital\nExperiences",
+      "nextHidden": true
+    },
+    {
+      "title": "Your Digital Growth Partner",
+      "nextHidden": false
+    }
+  ],
+  "transform": "matrix3d(0.992115, 0, 0.125333, 0, 0.0139708, 0.993768, -0.11059, 0, -0.124552, 0.111469, 0.985932, 0, 3.6, -3.2, 0, 1)",
+  "externalRequests": 0
+}

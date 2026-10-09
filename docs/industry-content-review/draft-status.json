@@ -1,0 +1,86 @@
+[
+  {
+    "id": "homepage",
+    "version": 18,
+    "published": true,
+    "changed": false
+  },
+  {
+    "id": "about",
+    "version": 10,
+    "published": true,
+    "changed": false
+  },
+  {
+    "id": "industries",
+    "version": 6,
+    "published": false,
+    "changed": false
+  },
+  {
+    "id": "roofing",
+    "version": 5,
+    "published": false,
+    "changed": false
+  },
+  {
+    "id": "healthcare",
+    "version": 3,
+    "published": false,
+    "changed": true
+  },
+  {
+    "id": "e-commerce",
+    "version": 3,
+    "published": false,
+    "changed": true
+  },
+  {
+    "id": "oil-and-gas",
+    "version": 3,
+    "published": false,
+    "changed": true
+  },
+  {
+    "id": "online-magazine",
+    "version": 2,
+    "published": false,
+    "changed": false
+  },
+  {
+    "id": "construction",
+    "version": 2,
+    "published": false,
+    "changed": false
+  },
+  {
+    "id": "small-business",
+    "version": 2,
+    "published": false,
+    "changed": false
+  },
+  {
+    "id": "event-coordinators",
+    "version": 2,
+    "published": false,
+    "changed": false
+  },
+  {
+    "id": "legal",
+    "version": 1,
+    "published": false,
+    "changed": false
+  },
+  {
+    "id": "real-estate",
+    "version": 2,
+    "published": false,
+    "changed": false
+  },
+  {
+    "id": "fashion-and-lifestyle",
+    "version": 2,
+    "published": false,
+    "changed": false
+  }
+]

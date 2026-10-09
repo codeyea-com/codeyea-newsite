@@ -1,0 +1,802 @@
+{
+  "draft": 5,
+  "onlyContentChanges": "11 industry heading fields",
+  "published": false,
+  "sharedUnchanged": true,
+  "motion": [
+    {
+      "panel": -75.4074,
+      "image": "none",
+      "figureHeight": 673.9999389648438,
+      "panelHeight": 673.9999389648438
+    },
+    {
+      "panel": -6.79241,
+      "image": "none",
+      "figureHeight": 674,
+      "panelHeight": 674
+    },
+    {
+      "panel": 69.4465,
+      "image": "none",
+      "figureHeight": 674,
+      "panelHeight": 674
+    }
+  ],
+  "results": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "sections": [
+        {
+          "heading": "Roofing",
+          "headingBottom": -7548.359375,
+          "imageTop": -7660.453125,
+          "imageBottom": -6986.453125,
+          "copyTop": -7524.359375,
+          "copyHeight": 545.1875,
+          "imageHeight": 674,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Healthcare",
+          "headingBottom": -6749.03125,
+          "imageTop": -6879.171875,
+          "imageBottom": -6319.171875,
+          "copyTop": -6725.03125,
+          "copyHeight": 395.0625,
+          "imageHeight": 560,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Construction",
+          "headingBottom": -6099.8125,
+          "imageTop": -6219.171875,
+          "imageBottom": -5358.9375,
+          "copyTop": -6075.8125,
+          "copyHeight": 716.875,
+          "imageHeight": 860.234375,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "E-Commerce",
+          "headingBottom": -5115.203125,
+          "imageTop": -5258.9375,
+          "imageBottom": -4698.9375,
+          "copyTop": -5091.203125,
+          "copyHeight": 367.875,
+          "imageHeight": 560,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Small Business",
+          "headingBottom": -4479.578125,
+          "imageTop": -4578.078125,
+          "imageBottom": -3904.078125,
+          "copyTop": -4455.578125,
+          "copyHeight": 572.375,
+          "imageHeight": 674,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Event Coordinators",
+          "headingBottom": -3625.875,
+          "imageTop": -3783.203125,
+          "imageBottom": -3223.203125,
+          "copyTop": -3601.875,
+          "copyHeight": 340.6875,
+          "imageHeight": 560,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Legal",
+          "headingBottom": -3003.84375,
+          "imageTop": -3123.203125,
+          "imageBottom": -2262.96875,
+          "copyTop": -2979.84375,
+          "copyHeight": 716.875,
+          "imageHeight": 860.234375,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Online Magazine",
+          "headingBottom": -2032.828125,
+          "imageTop": -2162.96875,
+          "imageBottom": -1602.96875,
+          "copyTop": -2008.828125,
+          "copyHeight": 395.0625,
+          "imageHeight": 560,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Oil and Gas",
+          "headingBottom": -1383.609375,
+          "imageTop": -1468.515625,
+          "imageBottom": -794.515625,
+          "copyTop": -1359.609375,
+          "copyHeight": 599.5625,
+          "imageHeight": 674,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Real Estate",
+          "headingBottom": -516.3125,
+          "imageTop": -660.046875,
+          "imageBottom": -100.046875,
+          "copyTop": -492.3125,
+          "copyHeight": 367.875,
+          "imageHeight": 560,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Fashion and Lifestyle",
+          "headingBottom": 119.3125,
+          "imageTop": -0.046875,
+          "imageBottom": 908.1875,
+          "copyTop": 143.3125,
+          "copyHeight": 764.875,
+          "imageHeight": 908.234375,
+          "imageCount": 1,
+          "transform": "none"
+        }
+      ],
+      "keyboard": true,
+      "touch": false
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "sections": [
+        {
+          "heading": "Roofing",
+          "headingBottom": -10540.359375,
+          "imageTop": -10516.359375,
+          "imageBottom": -10036.359375,
+          "copyTop": -10006.359375,
+          "copyHeight": 433.625,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Healthcare",
+          "headingBottom": -9404.40625,
+          "imageTop": -9380.40625,
+          "imageBottom": -8900.40625,
+          "copyTop": -8870.40625,
+          "copyHeight": 256.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Construction",
+          "headingBottom": -8445.765625,
+          "imageTop": -8421.765625,
+          "imageBottom": -7941.765625,
+          "copyTop": -7911.765625,
+          "copyHeight": 533.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "E-Commerce",
+          "headingBottom": -7210.125,
+          "imageTop": -7186.125,
+          "imageBottom": -6706.125,
+          "copyTop": -6676.125,
+          "copyHeight": 256.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Small Business",
+          "headingBottom": -6251.484375,
+          "imageTop": -6227.484375,
+          "imageBottom": -5747.484375,
+          "copyTop": -5717.484375,
+          "copyHeight": 433.625,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Event Coordinators",
+          "headingBottom": -5115.53125,
+          "imageTop": -5091.53125,
+          "imageBottom": -4611.53125,
+          "copyTop": -4581.53125,
+          "copyHeight": 256.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Legal",
+          "headingBottom": -4156.890625,
+          "imageTop": -4132.890625,
+          "imageBottom": -3652.890625,
+          "copyTop": -3622.890625,
+          "copyHeight": 533.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Online Magazine",
+          "headingBottom": -2921.25,
+          "imageTop": -2897.25,
+          "imageBottom": -2417.25,
+          "copyTop": -2387.25,
+          "copyHeight": 256.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Oil and Gas",
+          "headingBottom": -1962.609375,
+          "imageTop": -1938.609375,
+          "imageBottom": -1458.609375,
+          "copyTop": -1428.609375,
+          "copyHeight": 488,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Real Estate",
+          "headingBottom": -772.28125,
+          "imageTop": -748.28125,
+          "imageBottom": -268.28125,
+          "copyTop": -238.28125,
+          "copyHeight": 256.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Fashion and Lifestyle",
+          "headingBottom": 186.359375,
+          "imageTop": 210.359375,
+          "imageBottom": 690.359375,
+          "copyTop": 720.359375,
+          "copyHeight": 533.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        }
+      ],
+      "keyboard": true,
+      "touch": true
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "sections": [
+        {
+          "heading": "Roofing",
+          "headingBottom": -10540.40625,
+          "imageTop": -10516.40625,
+          "imageBottom": -10036.40625,
+          "copyTop": -10006.40625,
+          "copyHeight": 433.625,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Healthcare",
+          "headingBottom": -9404.453125,
+          "imageTop": -9380.453125,
+          "imageBottom": -8900.453125,
+          "copyTop": -8870.453125,
+          "copyHeight": 256.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Construction",
+          "headingBottom": -8445.8125,
+          "imageTop": -8421.8125,
+          "imageBottom": -7941.8125,
+          "copyTop": -7911.8125,
+          "copyHeight": 533.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "E-Commerce",
+          "headingBottom": -7210.171875,
+          "imageTop": -7186.171875,
+          "imageBottom": -6706.171875,
+          "copyTop": -6676.171875,
+          "copyHeight": 256.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Small Business",
+          "headingBottom": -6251.53125,
+          "imageTop": -6227.53125,
+          "imageBottom": -5747.53125,
+          "copyTop": -5717.53125,
+          "copyHeight": 433.625,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Event Coordinators",
+          "headingBottom": -5115.578125,
+          "imageTop": -5091.578125,
+          "imageBottom": -4611.578125,
+          "copyTop": -4581.578125,
+          "copyHeight": 256.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Legal",
+          "headingBottom": -4156.9375,
+          "imageTop": -4132.9375,
+          "imageBottom": -3652.9375,
+          "copyTop": -3622.9375,
+          "copyHeight": 533.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Online Magazine",
+          "headingBottom": -2921.296875,
+          "imageTop": -2897.296875,
+          "imageBottom": -2417.296875,
+          "copyTop": -2387.296875,
+          "copyHeight": 256.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Oil and Gas",
+          "headingBottom": -1962.65625,
+          "imageTop": -1938.65625,
+          "imageBottom": -1458.65625,
+          "copyTop": -1428.65625,
+          "copyHeight": 488,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Real Estate",
+          "headingBottom": -772.328125,
+          "imageTop": -748.328125,
+          "imageBottom": -268.328125,
+          "copyTop": -238.328125,
+          "copyHeight": 256.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Fashion and Lifestyle",
+          "headingBottom": 186.3125,
+          "imageTop": 210.3125,
+          "imageBottom": 690.3125,
+          "copyTop": 720.3125,
+          "copyHeight": 581.3125,
+          "imageHeight": 480,
+          "imageCount": 1,
+          "transform": "none"
+        }
+      ],
+      "keyboard": true,
+      "touch": true
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "sections": [
+        {
+          "heading": "Roofing",
+          "headingBottom": -11431.453125,
+          "imageTop": -11407.453125,
+          "imageBottom": -11047.453125,
+          "copyTop": -11017.453125,
+          "copyHeight": 635.109375,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Healthcare",
+          "headingBottom": -10241.734375,
+          "imageTop": -10217.734375,
+          "imageBottom": -9857.734375,
+          "copyTop": -9827.734375,
+          "copyHeight": 486.703125,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Construction",
+          "headingBottom": -9200.421875,
+          "imageTop": -9176.421875,
+          "imageBottom": -8816.421875,
+          "copyTop": -8786.421875,
+          "copyHeight": 899.609375,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "E-Commerce",
+          "headingBottom": -7746.203125,
+          "imageTop": -7722.203125,
+          "imageBottom": -7362.203125,
+          "copyTop": -7332.203125,
+          "copyHeight": 430.609375,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Small Business",
+          "headingBottom": -6760.984375,
+          "imageTop": -6736.984375,
+          "imageBottom": -6376.984375,
+          "copyTop": -6346.984375,
+          "copyHeight": 660.609375,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Event Coordinators",
+          "headingBottom": -5545.765625,
+          "imageTop": -5521.765625,
+          "imageBottom": -5161.765625,
+          "copyTop": -5131.765625,
+          "copyHeight": 430.609375,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Legal",
+          "headingBottom": -4560.546875,
+          "imageTop": -4536.546875,
+          "imageBottom": -4176.546875,
+          "copyTop": -4146.546875,
+          "copyHeight": 951.65625,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Online Magazine",
+          "headingBottom": -3054.28125,
+          "imageTop": -3030.28125,
+          "imageBottom": -2670.28125,
+          "copyTop": -2640.28125,
+          "copyHeight": 486.703125,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Oil and Gas",
+          "headingBottom": -2012.96875,
+          "imageTop": -1988.96875,
+          "imageBottom": -1628.96875,
+          "copyTop": -1598.96875,
+          "copyHeight": 719.25,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Real Estate",
+          "headingBottom": -739.109375,
+          "imageTop": -715.109375,
+          "imageBottom": -355.109375,
+          "copyTop": -325.109375,
+          "copyHeight": 430.609375,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Fashion and Lifestyle",
+          "headingBottom": 246.109375,
+          "imageTop": 270.109375,
+          "imageBottom": 630.109375,
+          "copyTop": 660.109375,
+          "copyHeight": 975.65625,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        }
+      ],
+      "keyboard": true,
+      "touch": true
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "sections": [
+        {
+          "heading": "Roofing",
+          "headingBottom": -11567.5,
+          "imageTop": -11543.5,
+          "imageBottom": -11183.5,
+          "copyTop": -11153.5,
+          "copyHeight": 635.109375,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Healthcare",
+          "headingBottom": -10377.78125,
+          "imageTop": -10353.78125,
+          "imageBottom": -9993.78125,
+          "copyTop": -9963.78125,
+          "copyHeight": 486.703125,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Construction",
+          "headingBottom": -9336.46875,
+          "imageTop": -9312.46875,
+          "imageBottom": -8952.46875,
+          "copyTop": -8922.46875,
+          "copyHeight": 951.65625,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "E-Commerce",
+          "headingBottom": -7830.203125,
+          "imageTop": -7806.203125,
+          "imageBottom": -7446.203125,
+          "copyTop": -7416.203125,
+          "copyHeight": 458.65625,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Small Business",
+          "headingBottom": -6816.9375,
+          "imageTop": -6792.9375,
+          "imageBottom": -6432.9375,
+          "copyTop": -6402.9375,
+          "copyHeight": 660.609375,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Event Coordinators",
+          "headingBottom": -5601.71875,
+          "imageTop": -5577.71875,
+          "imageBottom": -5217.71875,
+          "copyTop": -5187.71875,
+          "copyHeight": 458.65625,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Legal",
+          "headingBottom": -4588.453125,
+          "imageTop": -4564.453125,
+          "imageBottom": -4204.453125,
+          "copyTop": -4174.453125,
+          "copyHeight": 951.65625,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Online Magazine",
+          "headingBottom": -3082.1875,
+          "imageTop": -3058.1875,
+          "imageBottom": -2698.1875,
+          "copyTop": -2668.1875,
+          "copyHeight": 486.703125,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Oil and Gas",
+          "headingBottom": -2040.875,
+          "imageTop": -2016.875,
+          "imageBottom": -1656.875,
+          "copyTop": -1626.875,
+          "copyHeight": 719.25,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Real Estate",
+          "headingBottom": -767.015625,
+          "imageTop": -743.015625,
+          "imageBottom": -383.015625,
+          "copyTop": -353.015625,
+          "copyHeight": 458.65625,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Fashion and Lifestyle",
+          "headingBottom": 246.25,
+          "imageTop": 270.25,
+          "imageBottom": 630.25,
+          "copyTop": 660.25,
+          "copyHeight": 1003.703125,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        }
+      ],
+      "keyboard": true,
+      "touch": true
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "sections": [
+        {
+          "heading": "Roofing",
+          "headingBottom": -12752.171875,
+          "imageTop": -12728.171875,
+          "imageBottom": -12368.171875,
+          "copyTop": -12338.171875,
+          "copyHeight": 795.75,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Healthcare",
+          "headingBottom": -11404.171875,
+          "imageTop": -11380.171875,
+          "imageBottom": -11020.171875,
+          "copyTop": -10990.171875,
+          "copyHeight": 598.890625,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Construction",
+          "headingBottom": -10253.03125,
+          "imageTop": -10229.03125,
+          "imageBottom": -9869.03125,
+          "copyTop": -9839.03125,
+          "copyHeight": 1083.796875,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "E-Commerce",
+          "headingBottom": -8616.984375,
+          "imageTop": -8592.984375,
+          "imageBottom": -8232.984375,
+          "copyTop": -8202.984375,
+          "copyHeight": 514.75,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Small Business",
+          "headingBottom": -7549.984375,
+          "imageTop": -7525.984375,
+          "imageBottom": -7165.984375,
+          "copyTop": -7135.984375,
+          "copyHeight": 798.296875,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Event Coordinators",
+          "headingBottom": -6199.4375,
+          "imageTop": -6175.4375,
+          "imageBottom": -5815.4375,
+          "copyTop": -5785.4375,
+          "copyHeight": 542.796875,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Legal",
+          "headingBottom": -5104.390625,
+          "imageTop": -5080.390625,
+          "imageBottom": -4720.390625,
+          "copyTop": -4690.390625,
+          "copyHeight": 1135.84375,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Online Magazine",
+          "headingBottom": -3416.296875,
+          "imageTop": -3392.296875,
+          "imageBottom": -3032.296875,
+          "copyTop": -3002.296875,
+          "copyHeight": 598.890625,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Oil and Gas",
+          "headingBottom": -2265.15625,
+          "imageTop": -2241.15625,
+          "imageBottom": -1881.15625,
+          "copyTop": -1851.15625,
+          "copyHeight": 854.390625,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Real Estate",
+          "headingBottom": -858.515625,
+          "imageTop": -834.515625,
+          "imageBottom": -474.515625,
+          "copyTop": -444.515625,
+          "copyHeight": 514.75,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        },
+        {
+          "heading": "Fashion and Lifestyle",
+          "headingBottom": 246.234375,
+          "imageTop": 270.234375,
+          "imageBottom": 630.234375,
+          "copyTop": 660.234375,
+          "copyHeight": 1183.84375,
+          "imageHeight": 360,
+          "imageCount": 1,
+          "transform": "none"
+        }
+      ],
+      "keyboard": true,
+      "touch": true
+    }
+  ]
+}

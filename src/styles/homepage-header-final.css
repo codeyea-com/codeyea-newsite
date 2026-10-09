@@ -1,0 +1,37 @@
+/* Desktop-only refinement: the approved mobile drawer keeps its own layout. */
+@media (min-width:1200px) {
+  /* Frost only the decorative layer: a filtered header would trap the mega panel's backdrop. */
+  .hp .hp-header,.hp .hp-header.is-scrolled {background:transparent;-webkit-backdrop-filter:none;backdrop-filter:none}
+  .hp .hp-header::before {content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:rgb(7 36 72 / 48%);-webkit-backdrop-filter:blur(26px) saturate(120%);backdrop-filter:blur(26px) saturate(120%);transition:background var(--motion-ui)}
+  .hp .hp-header.is-scrolled::before {background:rgb(255 255 255 / 83%)}
+  .hp .hp-header-row,.hp .hp-header .hp-desktop-nav {position:relative}
+  .hp .hp-header .hp-nav-item,.hp .hp-header .hp-nav-item details {position:static}
+  .hp .hp-header .hp-nav-item {min-height:94px;gap:4px}
+  .hp .hp-header .hp-nav-item > a,.hp .hp-header .hp-nav-item summary {background:transparent;box-shadow:none;opacity:1;transition:color 220ms,opacity 220ms}
+  .hp .hp-header .hp-nav-item > a {font-size:18px}
+  .hp .hp-header .hp-nav-item summary {min-height:44px;min-width:28px;justify-content:center}
+  .hp .hp-header .hp-desktop-nav:has(>.hp-nav-item:hover,>.hp-nav-item:focus-within,>.hp-nav-item details[open]) > .hp-nav-item:not(:hover):not(:focus-within):not(:has(details[open])) > a,
+  .hp .hp-header .hp-desktop-nav:has(>.hp-nav-item:hover,>.hp-nav-item:focus-within,>.hp-nav-item details[open]) > .hp-nav-item:not(:hover):not(:focus-within):not(:has(details[open])) summary {opacity:.55}
+  .hp .hp-header .hp-desktop-nav > .hp-nav-item:is(:hover,:focus-within,:has(details[open])) > a,
+  .hp .hp-header .hp-desktop-nav > .hp-nav-item:is(:hover,:focus-within,:has(details[open])) summary {color:var(--brand-primary);background:transparent;box-shadow:none;text-decoration:none}
+  .hp .hp-header .hp-desktop-nav details::details-content {transform:none;transition:opacity var(--motion-ui),content-visibility var(--motion-ui) allow-discrete}
+  .hp .hp-header .hp-dropdown.hp-mega-panel {inset-inline-start:50%;inset-inline-end:auto;top:100%;width:900px;max-width:calc(100vw - 64px);transform:translateX(-50%);display:grid;grid-template-columns:.8fr 1fr 1fr;gap:28px;padding:28px 30px 30px;border-radius:0;background:rgb(255 255 255 / 94%);color:var(--brand-blue);border:1px solid rgb(7 36 72 / 12%);box-shadow:0 16px 36px rgb(7 36 72 / 14%);-webkit-backdrop-filter:blur(32px) saturate(120%);backdrop-filter:blur(32px) saturate(120%);white-space:normal;max-height:calc(100dvh - 130px);overflow:auto}
+  .hp .hp-header .hp-mega-panel::before {content:"";position:absolute;inset-inline:0;top:-8px;height:8px}
+  .hp .hp-header .hp-mega-eyebrow {display:block;font-size:11px;letter-spacing:.13em;text-transform:uppercase;line-height:1.5;margin-block-end:14px;color:var(--brand-blue)}
+  .hp .hp-header .hp-mega-intro {padding-inline-end:20px;border-inline-end:1px solid rgb(7 36 72 / 14%)}
+  .hp .hp-header .hp-mega-intro strong {display:block;font-size:31px;font-weight:500;line-height:1.2;margin-block-end:16px}
+  .hp .hp-header .hp-mega-panel a {color:inherit;background:transparent;box-shadow:none;font-size:16px;line-height:1.45;min-height:44px;padding-block:9px;opacity:1;transition:color 220ms,opacity 220ms;text-decoration:none}
+  .hp .hp-header .hp-mega-panel a small {display:block;font-size:12px;line-height:1.6;margin-block-start:5px}
+  .hp .hp-header .hp-mega-panel a.hp-mega-industry-link {display:grid;grid-template-columns:44px minmax(0,1fr);align-items:center;column-gap:14px;text-align:start}
+  .hp .hp-header .hp-mega-panel a.hp-mega-industry-link > span:last-child {min-width:0}
+  .hp .hp-header .hp-mega-panel a:is(:hover,:focus-visible) {color:var(--brand-primary);background:transparent;box-shadow:none;text-decoration:none}
+  .hp .hp-header .hp-mega-group > div:has(a:is(:hover,:focus-visible)) > a:not(:hover):not(:focus-visible) {opacity:.55}
+  .hp .hp-header details[open] .hp-mega-group {animation:hp-mega-enter var(--motion-ui) var(--motion-ease) both;animation-delay:calc(var(--mega-order) * 35ms)}
+  .hp .hp-header details[open] .hp-mega-group a {animation:hp-mega-enter var(--motion-ui) var(--motion-ease) backwards;animation-delay:calc(var(--mega-order) * 35ms + var(--mega-link-order) * 22ms)}
+}
+@keyframes hp-mega-enter {from {opacity:0;transform:translateY(7px)}to {opacity:1;transform:translateY(0)}}
+/* Open links must enter the tab order immediately, not after a discrete visibility transition. */
+.hp .hp-header .hp-desktop-nav details[open]::details-content {content-visibility:visible;transition-property:opacity,transform}
+@media (prefers-reduced-motion:reduce) {
+  .hp .hp-header .hp-mega-panel,.hp .hp-header .hp-mega-panel * {animation:none!important;transition:none!important}
+}

@@ -1,0 +1,50 @@
+{
+  "beforeVersion": 16,
+  "afterVersion": 17,
+  "revisionId": "cmu483u9e000000i194op8cjj",
+  "auditId": "cmu483u9p000100i1kqiyic44",
+  "publishedSnapshotUnchanged": true,
+  "titleSubtitleAndOtherFieldsUnchanged": true,
+  "changes": [
+    {
+      "field": "homepage.services.items[service-1].body",
+      "before": "Websites and applications shaped around the people who use them.",
+      "after": "Websites and applications shaped around the people who use them. Built to balance clear design, useful functionality and straightforward day-to-day management."
+    },
+    {
+      "field": "homepage.services.items[service-2].body",
+      "before": "Thoughtful shopping journeys, from product discovery to checkout.",
+      "after": "Thoughtful shopping journeys, from product discovery to checkout. Connect product discovery, payments and order workflows in one clear customer experience."
+    },
+    {
+      "field": "homepage.services.items[service-3].body",
+      "before": "Practical automation that connects tools and simplifies everyday work.",
+      "after": "Practical automation that connects tools and simplifies everyday work. Reduce repetitive tasks and keep information moving, with human review where needed."
+    },
+    {
+      "field": "homepage.services.items[service-4].body",
+      "before": "A considered foundation for your website and digital operations.",
+      "after": "A considered foundation for your website and digital operations. Bring domains, business email, migrations and backup support into a manageable setup."
+    },
+    {
+      "field": "homepage.services.items[service-5].body",
+      "before": "Search, content and measurement working toward your next stage of growth.",
+      "after": "Search, content and measurement working toward your next stage of growth. Improve visibility through technical SEO, useful content and a clearer site structure."
+    },
+    {
+      "field": "homepage.services.items[service-6].body",
+      "before": "A distinctive identity across your brand’s digital and printed touchpoints.",
+      "after": "A distinctive identity across your brand’s digital and printed touchpoints. Bring logos, typography and marketing materials together in a consistent visual identity."
+    },
+    {
+      "field": "homepage.services.items[service-7].body",
+      "before": "Help maintaining, improving and troubleshooting your digital presence.",
+      "after": "Help maintaining, improving and troubleshooting your digital presence. Resolve performance, plugin and integration issues, with clear explanations and practical maintenance."
+    },
+    {
+      "field": "homepage.services.items[service-8].body",
+      "before": "A clear direction for the technology, content and experiences you build next.",
+      "after": "A clear direction for the technology, content and experiences you build next. Review your goals and existing systems, then prioritise a practical first phase."
+    }
+  ]
+}

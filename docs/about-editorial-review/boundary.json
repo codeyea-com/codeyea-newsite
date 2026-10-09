@@ -1,0 +1,17 @@
+{
+  "beforeVersion": 6,
+  "afterVersion": 7,
+  "changedSections": [
+    "hero",
+    "who",
+    "experience"
+  ],
+  "otherSectionsUnchanged": true,
+  "homepageUnchanged": true,
+  "publishedSnapshotUnchanged": true,
+  "mediaAndPositionsUnchanged": true,
+  "save": "Normal expected-version CMS draft save with revision/audit",
+  "openingStatementLocation": "Existing Experience image caption",
+  "paragraphLocations": "Experience paragraph 1 beside image; paragraphs 2 and 3 in existing lower columns",
+  "scopeNote": "Legacy awards and reference claims outside these three sections remain unchanged per the explicit content scope."
+}

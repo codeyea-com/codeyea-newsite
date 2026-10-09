@@ -1,0 +1,50 @@
+:root {
+  --font-body: "Josefin Sans", "Segoe UI", sans-serif;
+  --color-navy: #072448;
+  --color-cyan: #10aabc;
+  --color-pink: #e0144c;
+  --color-yellow: #ffcb00;
+  --color-body: #535e65;
+  --color-ink: #191e32;
+  --color-paper: #ffffff;
+  --color-surface: #f6f8fa;
+  --color-line: #dce3e8;
+  --ink: var(--color-ink);
+  --paper: var(--color-paper);
+  --surface: var(--color-surface);
+  --line: var(--color-line);
+  --space-unit: var(--space-1);
+  --navy: var(--color-navy);
+  --cyan: var(--color-cyan);
+  --body: var(--color-body);
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-8: 64px;
+  --space-12: 96px;
+  --container-content: 1200px;
+  --container-reading: 75ch;
+  --radius: 4px;
+  --radius-panel: 8px;
+  --border-subtle: 1px solid #dce3e8;
+  --shadow-panel: 0 12px 40px rgb(7 36 72 / 8%);
+  --layer-header: 20;
+  --layer-drawer: 40;
+  --layer-dialog: 50;
+  --motion-state: 400ms;
+  --motion-logo: 300ms;
+  --motion-dropdown: 850ms;
+  --ease-standard: ease-in-out;
+  --ease-dropdown: cubic-bezier(0.19, 1, 0.22, 1);
+}
+/* Reference desktop switch: 1200px. CMS-only layout breakpoints: 760px / 1100px.
+   Homepage responsive geometry remains pending its approved static milestone. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-state: 0ms;
+    --motion-logo: 0ms;
+    --motion-dropdown: 0ms;
+  }
+}

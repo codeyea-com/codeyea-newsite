@@ -1,0 +1,7 @@
+# Homepage media completion — active
+Scope: dropdown hover correction; private provider-independent raster uploads/library; collection/revision usability; isolated verification and walkthrough. No owner publication or deployment.
+Implementation: immutable sanitized WebP derivatives behind checked media routes; MediaAsset records with recoverable archive and durable failed-cleanup state; manage_media with exact origin and per-account quota. Shared transaction lock protects save/publish/archive reference races. Recovered files stay read-only; footer excluded. Metadata is copied into draft references, never propagated into published snapshots.
+Limits chosen: JPEG/PNG/WebP input only, 8 MiB, 16–8192 pixels per side, 24 megapixels, no animation. Derivatives 320/640/1280/1920 without upscaling. Ten attempts per account per ten minutes. These are local-review bounds, not a paid storage decision.
+Verification: focused tests during work; full suites/typecheck/build once at completion. Subtasks delegated per subagent-driven-development skill: dropdown; collection/revision usability; image processing/storage. Root owns API, reference validation, media UI, integration and final review.
+
+Completed 2026-09-15. Review: HOMEPAGE_MEDIA_REVIEW.md; checkpoint: HOMEPAGE_CMS_CHECKPOINT.md. Reviewer identified stale picker requests; fixed via sequence gating. Final browser regressions corrected and focused checks passed. Stop for owner review.

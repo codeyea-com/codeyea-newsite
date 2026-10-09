@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CODEYEA — Web &amp; Mobile Apps hero preview</title>
+  <style>html,body,iframe{width:100%;height:100%;margin:0;border:0}body{overflow:hidden}</style>
+</head>
+<body>
+  <iframe id="preview" title="Web and Mobile Apps hero design preview" src="web-mobile-apps-interactive.html"></iframe>
+  <script>
+    const frame = document.getElementById('preview');
+    frame.addEventListener('load', () => {
+      const doc = frame.contentDocument;
+      const css = doc.createElement('link');
+      css.rel = 'stylesheet';
+      css.href = 'web-mobile-apps-hero-concept.css?v=11';
+      doc.head.append(css);
+      const js = doc.createElement('script');
+      js.src = 'web-mobile-apps-hero-concept.js?v=8';
+      doc.body.append(js);
+    }, { once: true });
+  </script>
+</body>
+</html>
+
+
+
+
+
+

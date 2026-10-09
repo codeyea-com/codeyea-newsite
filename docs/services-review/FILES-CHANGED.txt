@@ -1,0 +1,20 @@
+src/schemas/services-page.ts
+src/schemas/content.ts
+src/content/services-defaults.ts
+src/content/industry-registry.ts
+src/server/content.ts
+src/app/api/cms/route.ts
+src/app/admin/page.tsx
+src/app/preview/services/page.tsx
+src/app/services/page.tsx
+src/components/cms/services-editor.tsx
+src/components/cms/types.ts
+src/components/cms/revision-list.tsx
+src/components/sections/services-page.tsx
+src/components/sections/services-interactions.tsx
+src/styles/services.css
+tests/services.test.ts
+
+Review-only files: docs/services-review/*
+Local verification helpers: .local/services/{reference,interaction-reference,initialize,verify,cms-check,record,package}.mjs
+No database migration, shared component, existing asset or provider configuration was changed.

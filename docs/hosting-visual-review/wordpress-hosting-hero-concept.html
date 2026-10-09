@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CODEYEA — WordPress Hosting hero preview</title>
+  <style>html,body,iframe{width:100%;height:100%;margin:0;border:0}body{overflow:hidden}</style>
+</head>
+<body>
+  <iframe id="preview" title="WordPress Hosting hero preview" src="wordpress-hosting-interactive.html"></iframe>
+  <script>
+    const frame=document.getElementById('preview');
+    frame.addEventListener('load',()=>{
+      const doc=frame.contentDocument;
+      const css=doc.createElement('link');css.rel='stylesheet';css.href='wordpress-hosting-hero-clean.css?v=4';doc.head.append(css);
+      const js=doc.createElement('script');js.src='wordpress-hosting-hero-clean.js?v=5';doc.body.append(js);
+    },{once:true});
+  </script>
+</body>
+</html>

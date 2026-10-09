@@ -1,0 +1,14 @@
+[
+  {
+    "mode": "desktop",
+    "cardReadable": true
+  },
+  {
+    "mode": "mobile",
+    "cardReadable": true
+  },
+  {
+    "mode": "reduced",
+    "cardReadable": true
+  }
+]

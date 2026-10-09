@@ -1,0 +1,92 @@
+[
+  {
+    "width": 1440,
+    "javaScript": true,
+    "ratio": 0.49995959922430516,
+    "overflow": false,
+    "text": "Restaurants, Cafés & Bakeries",
+    "opacity": "1",
+    "faq": true
+  },
+  {
+    "width": 1440,
+    "javaScript": false,
+    "ratio": 0.49995959922430516,
+    "overflow": false,
+    "text": "Restaurants, Cafés & Bakeries",
+    "opacity": "1",
+    "faq": true
+  },
+  {
+    "width": 1024,
+    "javaScript": true,
+    "ratio": 0.49995959922430516,
+    "overflow": false,
+    "text": "Restaurants, Cafés & Bakeries",
+    "opacity": "1",
+    "faq": true
+  },
+  {
+    "width": 1024,
+    "javaScript": false,
+    "ratio": 0.49995959922430516,
+    "overflow": false,
+    "text": "Restaurants, Cafés & Bakeries",
+    "opacity": "1",
+    "faq": true
+  },
+  {
+    "width": 768,
+    "javaScript": true,
+    "ratio": 0.49995959922430516,
+    "overflow": false,
+    "text": "Restaurants, Cafés & Bakeries",
+    "opacity": "1",
+    "faq": true
+  },
+  {
+    "width": 768,
+    "javaScript": false,
+    "ratio": 0.49995959922430516,
+    "overflow": false,
+    "text": "Restaurants, Cafés & Bakeries",
+    "opacity": "1",
+    "faq": true
+  },
+  {
+    "width": 390,
+    "javaScript": true,
+    "ratio": 0.49994276556776557,
+    "overflow": false,
+    "text": "Restaurants, Cafés & Bakeries",
+    "opacity": "1",
+    "faq": true
+  },
+  {
+    "width": 390,
+    "javaScript": false,
+    "ratio": 0.49994276556776557,
+    "overflow": false,
+    "text": "Restaurants, Cafés & Bakeries",
+    "opacity": "1",
+    "faq": true
+  },
+  {
+    "width": 320,
+    "javaScript": true,
+    "ratio": 0.4997907366071429,
+    "overflow": false,
+    "text": "Restaurants, Cafés & Bakeries",
+    "opacity": "1",
+    "faq": true
+  },
+  {
+    "width": 320,
+    "javaScript": false,
+    "ratio": 0.4997907366071429,
+    "overflow": false,
+    "text": "Restaurants, Cafés & Bakeries",
+    "opacity": "1",
+    "faq": true
+  }
+]

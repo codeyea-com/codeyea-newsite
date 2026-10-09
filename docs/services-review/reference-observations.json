@@ -1,0 +1,653 @@
+[
+  {
+    "url": "https://creativeservicespro.liquid-themes.com/case-studies/",
+    "headings": [
+      "Skip links",
+      "Contact us",
+      "  Case Studies",
+      " Creative digital media and design agency based by the valley in Palo Alto.",
+      " Tailor made digital products and creative solutions for businesses.",
+      "Search Engine Opt.",
+      "Web Development",
+      "Branding Strategy",
+      "Motion Design",
+      " Product Strategy",
+      " Design Systems",
+      " International Awards",
+      " This is what we do best.",
+      "Application Design",
+      "Search Engine Opt.",
+      "User Interface",
+      "Social Media",
+      "App Development",
+      "Branding Strategy",
+      " So, how we do it. The process.",
+      " Design",
+      " Develop",
+      " Promote",
+      " Hub wire",
+      " Let’s talk.",
+      " Hub Shop",
+      " Products",
+      " Need help?",
+      " Need support?",
+      " Follow Us"
+    ],
+    "entries": [
+      {
+        "tag": "SPAN",
+        "cls": "ld-fh-txt split-text-applied ca-initvalues-applied",
+        "text": "Case Studies",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\".lqd-chars > .split-inner\",\"duration\":\"1800\",\"delay\":\"80\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": []
+      },
+      {
+        "tag": "DIV",
+        "cls": "wpb_wrapper vc_custom_1607605789134 ca-initvalues-applied",
+        "text": ".ld_fancy_heading_603e58b5a2e14 h6{color:rgb(255, 255, 255);background:rgb(196, 19, 19);}.ld_fancy_h",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\"all-childs\",\"duration\":\"1800\",\"startDelay\":\"800\",\"delay\":\"180\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"y\":60,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"y\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "box-shadow 0.3s, transform 0.65s cubic-bezier(0.23, 1, 0.32, 1)",
+        "children": [
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "lqd-counter lqd-counter-default ld_counter_603e58b5b1bc6 will-change",
+        "text": "9\n\t\n\t\t0\n\t\t1\n\t\t2\n\t\t3\n\t\t4\n\t\t5\n\t\t6\n\t\t7\n\t\t8\n\t\t9\n\t\n.8\n\t\n\t\t0\n\t\t1\n\t\t2\n\t\t3\n\t\t4\n\t\t5\n\t\t6\n\t\t7\n\t\t8\n\t\t9\n\t\n1\n\t\n\t\t0",
+        "animation": null,
+        "parallax": null,
+        "transition": "none",
+        "children": []
+      },
+      {
+        "tag": "DIV",
+        "cls": "lqd-counter lqd-counter-default mb-0 ld_counter_603e58b5b623d will-change",
+        "text": "1\n\t\n\t\t0\n\t\t1\n\t\t2\n\t\t3\n\t\t4\n\t\t5\n\t\t6\n\t\t7\n\t\t8\n\t\t9\n\t\nk+\n\nWeb and mobile",
+        "animation": null,
+        "parallax": null,
+        "transition": "none",
+        "children": []
+      },
+      {
+        "tag": "DIV",
+        "cls": "wpb_wrapper ca-initvalues-applied",
+        "text": ".vc_accordion_634e67b060d2d .accordion-title{font-size:21px;line-height:1.15em;}.vc_accordion_634e67",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\"all-childs\",\"duration\":\"1800\",\"startDelay\":\"1100\",\"delay\":\"180\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"y\":30,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"y\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "box-shadow 0.3s, transform 0.65s cubic-bezier(0.23, 1, 0.32, 1)",
+        "children": [
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "accordion accordion-xs vc_accordion_634e67b060d2d",
+        "text": "Branding Strategy\n\n\n\n\n\n\n\n.ld_fancy_heading_603e58b5b6e9b p {font-size:16px; } .ld_fancy_heading_603e",
+        "animation": null,
+        "parallax": null,
+        "transition": "all",
+        "children": [
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "SECTION",
+        "cls": "vc_row wpb_row vc_row-fluid vc_custom_1607605855778 row-has-padding-bottom liquid-row-responsive-603e58b5b7e3d liquid-row-shadowbox-603e58b5b7e58 vc_row-o-content-bottom vc_row-flex ca-initvalues-applied lqd-animations-done",
+        "text": ".ld_fancy_heading_603e58b5b847c h6{color:rgb(0, 0, 0);background:rgb(230, 230, 230);}.ld_fancy_headi",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\".wpb_column\",\"duration\":\"1800\",\"delay\":\"180\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"x\":30,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"x\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": [
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "SECTION",
+        "cls": "vc_row wpb_row vc_row-fluid liquid-row-shadowbox-603e58b5b9524 vc_column-gap-0 ca-initvalues-applied",
+        "text": ".ld_content_box_603e58b5b9aec h2{font-size:25px;}\n\n\n\n\n\n\n\n\n\t\t\t\t\tFOR DEVELOPERS AND STARTUPS\nSearch En",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\".wpb_column\",\"duration\":\"1800\",\"delay\":\"180\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"x\":60,\"scaleX\":0.85,\"scaleY\":0.85,\"rotationY\":35,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"x\":0,\"scaleX\":1,\"scaleY\":1,\"rotationY\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"-180px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": [
+          {
+            "cls": "lqd-fb-bg lqd-overlay",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "lqd-fb-content lqd-overlay align-items-end",
+            "transition": "transform 0.65s cubic-bezier(0.23, 1, 0.32, 1)",
+            "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1)"
+          },
+          {
+            "cls": "my-0 mb-3 font-weight-bold",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "lqd-fb-bg lqd-overlay",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "lqd-fb-content lqd-overlay align-items-end",
+            "transition": "transform 0.65s cubic-bezier(0.23, 1, 0.32, 1)",
+            "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1)"
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "lqd-fb round h-pt-125 lqd-fb-style-6 pos-rel ld_content_box_603e58b5b9aec",
+        "text": "FOR DEVELOPERS AND STARTUPS\nSearch Engine Opt.",
+        "animation": null,
+        "parallax": null,
+        "transition": "transform 0.65s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.65s cubic-bezier(0.23, 1, 0.32, 1)",
+        "children": [
+          {
+            "cls": "lqd-fb-bg lqd-overlay",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "lqd-fb-content lqd-overlay align-items-end",
+            "transition": "transform 0.65s cubic-bezier(0.23, 1, 0.32, 1)",
+            "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1)"
+          },
+          {
+            "cls": "my-0 mb-3 font-weight-bold",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "lqd-fb round h-pt-125 lqd-fb-style-6 pos-rel ld_content_box_603e58b5be973",
+        "text": "FOR DEVELOPERS AND STARTUPS\nWeb Development",
+        "animation": null,
+        "parallax": null,
+        "transition": "transform 0.65s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.65s cubic-bezier(0.23, 1, 0.32, 1)",
+        "children": [
+          {
+            "cls": "lqd-fb-bg lqd-overlay",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "lqd-fb-content lqd-overlay align-items-end",
+            "transition": "transform 0.65s cubic-bezier(0.23, 1, 0.32, 1)",
+            "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1)"
+          },
+          {
+            "cls": "my-0 mb-3 font-weight-bold",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "lqd-fb round h-pt-125 lqd-fb-style-6 pos-rel ld_content_box_603e58b5c2fc6",
+        "text": "FOR DEVELOPERS AND STARTUPS\nBranding Strategy",
+        "animation": null,
+        "parallax": null,
+        "transition": "transform 0.65s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.65s cubic-bezier(0.23, 1, 0.32, 1)",
+        "children": [
+          {
+            "cls": "lqd-fb-bg lqd-overlay",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "lqd-fb-content lqd-overlay align-items-end",
+            "transition": "transform 0.65s cubic-bezier(0.23, 1, 0.32, 1)",
+            "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1)"
+          },
+          {
+            "cls": "my-0 mb-3 font-weight-bold",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "lqd-fb round h-pt-125 lqd-fb-style-6 pos-rel ld_content_box_603e58b5c7047",
+        "text": "FOR DEVELOPERS AND STARTUPS\nMotion Design",
+        "animation": null,
+        "parallax": null,
+        "transition": "transform 0.65s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.65s cubic-bezier(0.23, 1, 0.32, 1)",
+        "children": [
+          {
+            "cls": "lqd-fb-bg lqd-overlay",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "lqd-fb-content lqd-overlay align-items-end",
+            "transition": "transform 0.65s cubic-bezier(0.23, 1, 0.32, 1)",
+            "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1)"
+          },
+          {
+            "cls": "my-0 mb-3 font-weight-bold",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "SECTION",
+        "cls": "vc_row wpb_row vc_row-fluid vc_custom_1607606014899 row-has-padding-top row-has-padding-bottom liquid-row-responsive-603e58b5d4bad liquid-row-shadowbox-603e58b5d4bcd vc_row-has-fill vc_row-has-bg vc_row-o-content-bottom vc_row-flex ca-initvalues-applied",
+        "text": ".ld_fancy_heading_603e58b5d5352 p{color:rgb(0, 0, 0);background:rgb(255, 218, 1);}.ld_fancy_heading_",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\".wpb_column\",\"duration\":\"1800\",\"delay\":\"180\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"x\":30,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"x\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": [
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "",
+            "transition": "color 0.3s, background 0.3s",
+            "transform": "none"
+          },
+          {
+            "cls": "",
+            "transition": "color 0.3s, background 0.3s",
+            "transform": "none"
+          },
+          {
+            "cls": "",
+            "transition": "color 0.3s, background 0.3s",
+            "transform": "none"
+          },
+          {
+            "cls": "",
+            "transition": "color 0.3s, background 0.3s",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "SECTION",
+        "cls": "vc_row wpb_row vc_row-fluid vc_custom_1607606042946 row-has-padding-top row-has-padding-bottom liquid-row-responsive-603e58b5dafaa liquid-row-shadowbox-603e58b5dafc5 ca-initvalues-applied",
+        "text": ".ld_fancy_heading_603e58b5db5a2 .lqd-highlight-inner{height:0.275em;bottom:0px;}\n So, how we do it. ",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\".wpb_column\",\"duration\":\"1800\",\"delay\":\"180\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"y\":35,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"y\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": [
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://asymmetric-agencypro.liquid-themes.com/our-approach/",
+    "headings": [
+      "Skip links",
+      "Contact us",
+      "  Beyond Hub",
+      "  We create world-class digital products materials that communicate clearly.",
+      "Branding Strategy",
+      "Branding Strategy",
+      "Web Development",
+      "Mobile Apps",
+      "  Product Strategy",
+      "  Wireframe Design.",
+      "  Web App Development",
+      "  Launch and maintain.",
+      "  Beyond conventional agencies.",
+      "  Hub wire",
+      "  Let’s talk.",
+      "  Hub Shop",
+      "  Products",
+      "  Need help?",
+      "  Need support?",
+      "  Follow Us"
+    ],
+    "entries": [
+      {
+        "tag": "DIV",
+        "cls": "wpb_wrapper ca-initvalues-applied lqd-animations-done",
+        "text": ".ld_fancy_heading_634d026912596 h1{color:rgb(255, 255, 255);}.ld_fancy_heading_634d026912596 h1 {fon",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\"all-childs\",\"duration\":\"1800\",\"delay\":\"180\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"y\":120,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"y\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": []
+      },
+      {
+        "tag": "DIV",
+        "cls": "wpb_wrapper ca-initvalues-applied",
+        "text": ".ld_fancy_heading_634d02691337d h6{color:rgb(255, 255, 255);background:rgb(196, 19, 19);}.ld_fancy_h",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\"all-childs\",\"duration\":\"1800\",\"startDelay\":\"800\",\"delay\":\"180\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"y\":60,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"y\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": [
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "wpb_wrapper ca-initvalues-applied",
+        "text": ".ld_fancy_heading_634d02691410e p{color:rgb(0, 0, 0);}.ld_fancy_heading_634d02691410e p {font-size:1",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\"all-childs\",\"duration\":\"1800\",\"startDelay\":\"1100\",\"delay\":\"180\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"y\":30,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"y\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": []
+      },
+      {
+        "tag": "SECTION",
+        "cls": "vc_row vc_custom_1607679325047 liquid-row-responsive-634d0269142be liquid-row-shadowbox-634d0269142cf ca-initvalues-applied",
+        "text": "@media (min-width: 768px) { .liquid-column-responsive-634d026914441 > .vc_column-inner {border-right",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\".wpb_column\",\"duration\":\"1800\",\"startDelay\":\"1100\",\"delay\":\"160\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"x\":30,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"x\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": [
+          {
+            "cls": "",
+            "transition": "color 0.3s, background 0.3s",
+            "transform": "none"
+          },
+          {
+            "cls": "",
+            "transition": "color 0.3s, background 0.3s",
+            "transform": "none"
+          },
+          {
+            "cls": "",
+            "transition": "color 0.3s, background 0.3s",
+            "transform": "none"
+          },
+          {
+            "cls": "",
+            "transition": "color 0.3s, background 0.3s",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "SECTION",
+        "cls": "vc_row vc_custom_1607610468098 liquid-row-shadowbox-634d026916020 ca-initvalues-applied",
+        "text": "@media (min-width: 992px) { .liquid-column-responsive-634d02691618e > .vc_column-inner {margin-botto",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\".wpb_column\",\"duration\":\"1800\",\"delay\":\"180\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"y\":35,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"y\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": [
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "lqd-imggrp-container ld_images_group_container_634d026917935 ca-initvalues-applied",
+        "text": ".ld_images_group_element_634d026917a49{position:absolute;}.ld_images_group_element_634d026917a49 {to",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\".lqd-imggrp-single\",\"duration\":\"1800\",\"delay\":\"160\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"y\":65,\"scaleY\":1.1,\"opacity\":0},\"animations\":{\"y\":0,\"scaleY\":1,\"opacity\":1}}",
+        "parallax": null,
+        "transition": "opacity 0.3s, visibility 0.3s",
+        "children": []
+      },
+      {
+        "tag": "DIV",
+        "cls": "wpb_wrapper ca-initvalues-applied",
+        "text": ".ld_fancy_heading_634d02691be13 p{color:rgb(0, 0, 0);}.ld_fancy_heading_634d02691be13 p {font-size:1",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\"all-childs\",\"duration\":\"1800\",\"startDelay\":\"450\",\"delay\":\"160\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"y\":30,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"y\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": [
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "SECTION",
+        "cls": "vc_row vc_custom_1607670702514 liquid-row-responsive-634d02691d6f4 liquid-row-shadowbox-634d02691d712",
+        "text": "@media (min-width: 1200px) { .liquid-column-responsive-634d02691d8d4 > .vc_column-inner {padding-rig",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\".wpb_column\",\"duration\":\"1800\",\"delay\":\"160\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"x\":30,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"x\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": [
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "wpb_column vc_column_container vc_col-sm-8 vc_col-md-offset-6 vc_col-md-6 vc_col-sm-offset-4 liquid-column-634d02691f782 liquid-column-responsive-634d02691f784 vc_col-has-fill",
+        "text": ".ld_fancy_heading_634d02691fd11 h6{color:rgb(255, 255, 255);background:rgb(240, 58, 34);}.ld_fancy_h",
+        "animation": null,
+        "parallax": "{\"ease\":\"linear\",\"start\":\"top bottom\"}",
+        "transition": "all",
+        "children": []
+      },
+      {
+        "tag": "DIV",
+        "cls": "lqd-counter lqd-counter-default mb-0 ld_counter_634d026920950",
+        "text": "7\n\t\n\t\t0\n\t\t1\n\t\t2\n\t\t3\n\t\t4\n\t\t5\n\t\t6\n\t\t7\n\t\t8\n\t\t9",
+        "animation": null,
+        "parallax": null,
+        "transition": "color 0.3s, border 0.3s",
+        "children": []
+      },
+      {
+        "tag": "SECTION",
+        "cls": "vc_row vc_custom_1607678038644 liquid-row-shadowbox-634d0269213bb",
+        "text": ".ld_counter_634d0269216b4 .lqd-counter-element{font-size:50px;line-height:1.15em;margin-bottom:2px;}",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\".wpb_column\",\"duration\":\"1800\",\"delay\":\"150\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"scaleX\":0.75,\"scaleY\":0.7,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"scaleX\":1,\"scaleY\":1,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": []
+      },
+      {
+        "tag": "DIV",
+        "cls": "lqd-counter lqd-counter-default ld_counter_634d0269216b4",
+        "text": "9\n\t\n\t\t0\n\t\t1\n\t\t2\n\t\t3\n\t\t4\n\t\t5\n\t\t6\n\t\t7\n\t\t8\n\t\t9\n\t\n.8\n\t\n\t\t0\n\t\t1\n\t\t2\n\t\t3\n\t\t4\n\t\t5\n\t\t6\n\t\t7\n\t\t8\n\t\t9\n\t\n1\n\t\n\t\t0",
+        "animation": null,
+        "parallax": null,
+        "transition": "color 0.3s, border 0.3s",
+        "children": []
+      },
+      {
+        "tag": "DIV",
+        "cls": "lqd-counter lqd-counter-default mb-0 ld_counter_634d026922832",
+        "text": "2\n\t\n\t\t0\n\t\t1\n\t\t2\n\t\t3\n\t\t4\n\t\t5\n\t\t6\n\t\t7\n\t\t8\n\t\t9\n\t\n1\n\t\n\t\t0\n\t\t1\n\t\t2\n\t\t3\n\t\t4\n\t\t5\n\t\t6\n\t\t7\n\t\t8\n\t\t9\n\t\nm\n\nInsta",
+        "animation": null,
+        "parallax": null,
+        "transition": "color 0.3s, border 0.3s",
+        "children": []
+      },
+      {
+        "tag": "DIV",
+        "cls": "lqd-counter lqd-counter-default mb-0 ld_counter_634d026923405",
+        "text": "1\n\t\n\t\t0\n\t\t1\n\t\t2\n\t\t3\n\t\t4\n\t\t5\n\t\t6\n\t\t7\n\t\t8\n\t\t9\n\t\nm+\n\nMonthly views",
+        "animation": null,
+        "parallax": null,
+        "transition": "color 0.3s, border 0.3s",
+        "children": []
+      },
+      {
+        "tag": "DIV",
+        "cls": "lqd-counter lqd-counter-default mb-0 ld_counter_634d0269239db",
+        "text": "6\n\t\n\t\t0\n\t\t1\n\t\t2\n\t\t3\n\t\t4\n\t\t5\n\t\t6\n\t\t7\n\t\t8\n\t\t9\n\t\n8\n\t\n\t\t0\n\t\t1\n\t\t2\n\t\t3\n\t\t4\n\t\t5\n\t\t6\n\t\t7\n\t\t8\n\t\t9\n\t\nk\n\nMinut",
+        "animation": null,
+        "parallax": null,
+        "transition": "color 0.3s, border 0.3s",
+        "children": []
+      },
+      {
+        "tag": "SECTION",
+        "cls": "vc_row vc_custom_1607610468098 liquid-row-shadowbox-634d026923dc6",
+        "text": "@media (min-width: 768px) { .liquid-column-responsive-634d02692401d > .vc_column-inner {margin-botto",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\".wpb_column\",\"duration\":\"1800\",\"delay\":\"180\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"y\":35,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"y\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": [
+          {
+            "cls": "ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "wpb_wrapper",
+        "text": ".vc_accordion_634d026925b93 .accordion-title{font-size:17px;line-height:1.5em;}.vc_accordion_634d026",
+        "animation": "{\"triggerHandler\":\"inview\",\"animationTarget\":\"all-childs\",\"duration\":\"1800\",\"delay\":\"160\",\"ease\":\"power4.out\",\"direction\":\"forward\",\"initValues\":{\"y\":30,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":0},\"animations\":{\"y\":0,\"transformOriginX\":50,\"transformOriginY\":50,\"transformOriginZ\":\"0px\",\"opacity\":1}}",
+        "parallax": null,
+        "transition": "all",
+        "children": [
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "cls": "accordion accordion-md accordion-title-underlined vc_accordion_634d026925b93",
+        "text": "Branding Strategy\n\n\n\n\n\n\n\n.ld_fancy_heading_634d02692556d p {font-size:16px; } .ld_fancy_heading_634d",
+        "animation": null,
+        "parallax": null,
+        "transition": "all",
+        "children": [
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          },
+          {
+            "cls": "accordion-content",
+            "transition": "all",
+            "transform": "none"
+          }
+        ]
+      }
+    ]
+  }
+]

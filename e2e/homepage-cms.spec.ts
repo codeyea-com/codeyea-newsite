@@ -1,0 +1,37 @@
+import {assertTestEnvironment} from '../scripts/test-environment';
+assertTestEnvironment();
+import {test,expect} from '@playwright/test';
+import {randomUUID,randomBytes} from 'node:crypto';
+import {hashPassword} from 'better-auth/crypto';
+import {mkdirSync} from 'node:fs';
+import {db} from '../src/server/db';
+import {Prisma} from '../src/generated/prisma/client';
+const id='homepage-review-'+randomUUID(),email=id+'@example.test',password=randomBytes(24).toString('base64url');
+let original:Awaited<ReturnType<typeof db.page.findUniqueOrThrow>>;
+let sections:{id:string;heading:string;body:string}[];
+test.beforeAll(async()=>{mkdirSync('docs/homepage-cms-review',{recursive:true});await db.rateLimit.deleteMany();original=await db.page.findUniqueOrThrow({where:{id:'homepage'}});sections=await db.pageSection.findMany({where:{pageId:'homepage'},select:{id:true,heading:true,body:true}});await db.user.create({data:{id,name:'Isolated homepage reviewer',email,emailVerified:true,roles:{create:{roleId:'administrator'}},accounts:{create:{id:randomUUID(),providerId:'credential',accountId:id,password:await hashPassword(password)}}}});});
+test.afterAll(async()=>{if(original)await db.$transaction(async tx=>{await tx.page.update({where:{id:'homepage'},data:{title:original.title,status:original.status,draftSnapshot:original.draftSnapshot??Prisma.DbNull,publishedSnapshot:original.publishedSnapshot??Prisma.DbNull,publishedAt:original.publishedAt,version:original.version,updatedBy:original.updatedBy,updatedAt:original.updatedAt}});for(const s of sections)await tx.pageSection.update({where:{id:s.id},data:{heading:s.heading,body:s.body}});});await db.auditLog.deleteMany({where:{actorId:id}});await db.pageRevision.deleteMany({where:{actorId:id}});await db.pagePublication.deleteMany({where:{actorId:id}});await db.user.deleteMany({where:{id}});await db.$disconnect();});
+test('complete homepage editor, stable collection operations, media and responsive saved preview',async({browser,request})=>{
+ test.setTimeout(120000);
+ const context=await browser.newContext({baseURL:process.env.BETTER_AUTH_URL,viewport:{width:1440,height:1000},recordVideo:{dir:'docs/homepage-cms-review/raw',size:{width:1440,height:1000}}});const page=await context.newPage();
+ try {
+ await page.goto('/login');await page.getByLabel('Email address').fill(email);await page.getByLabel('Password',{exact:true}).fill(password);await page.getByRole('button',{name:'Sign in',exact:true}).click();await expect(page.getByRole('navigation',{name:'Homepage sections'})).toBeVisible();
+ const shot=async(name:string)=>{await page.waitForTimeout(1600);return page.screenshot({path:'docs/homepage-cms-review/'+name+'.png',fullPage:name==='sections'});};
+ await shot('sections');const before=await(await request.get('/api/public-page')).json();
+ await page.getByRole('navigation',{name:'Homepage sections'}).getByRole('button',{name:/Hero/}).click();
+ await page.getByLabel('Heading prefix',{exact:true}).fill('Complete homepage review');await expect(page.getByRole('button',{name:'Preview',exact:true})).toBeDisabled();await expect(page.getByRole('button',{name:'Publish',exact:true})).toBeDisabled();await shot('simple-editor');
+ await page.getByLabel('CTA destination',{exact:true}).fill('javascript:alert(1)');await page.getByRole('button',{name:'Save draft',exact:true}).click();await expect(page.locator('.cms-field-error')).not.toHaveCount(0);await page.getByLabel('CTA destination',{exact:true}).fill('#contact');
+ await page.getByRole('button',{name:'Choose image',exact:true}).click();await expect(page.getByRole('dialog',{name:'Media library'})).toBeVisible();await shot('media-picker');await page.getByLabel('Find image').fill('office');await page.getByRole('dialog').getByRole('button',{name:'office.webp',exact:true}).click();
+ await page.getByRole('navigation',{name:'Homepage sections'}).getByRole('button',{name:/Services/}).click();await page.getByLabel('Find in services').fill('Web & App');await expect(page.locator('.cms-collection-item')).toHaveCount(1);const first=page.locator('.cms-collection-item').first();await first.locator('summary').click();await first.getByRole('button',{name:/Move .* down/}).click();await page.getByLabel('Find in services').fill('');await shot('collection-editor');
+ // A new optional footer link exercises stable-ID add/remove without changing commercial content.
+ await page.getByRole('navigation',{name:'Homepage sections'}).getByRole('button',{name:/Footer/}).click();const groups=page.locator('.cms-collection').filter({has:page.getByRole('heading',{name:'Link groups',exact:true})});const group=groups.locator(':scope > .cms-collection-item').first();await group.locator(':scope > summary').click();await group.getByRole('button',{name:'Add links',exact:true}).click();const added=group.locator('.cms-collection-item').last();await added.getByLabel('Title',{exact:true}).fill('Review link');await added.getByLabel('Destination',{exact:true}).fill('#contact');await added.getByLabel('Visible',{exact:true}).uncheck();
+ await page.getByRole('button',{name:'Save draft',exact:true}).click();await expect(page.getByRole('status').filter({hasText:'Draft saved'})).toContainText('Draft saved');
+ const saved=await(await page.request.get('/api/cms')).json();expect(saved.page.homepage.hero.prefix).toBe('Complete homepage review');expect(await(await request.get('/api/public-page')).json()).toEqual(before);
+ await page.getByRole('button',{name:'Preview',exact:true}).click();const frame=page.frameLocator('iframe[title="Complete private homepage preview"]');await expect(frame.locator('h1')).toContainText('Complete homepage review');await shot('preview-desktop');
+ for(const name of ['Tablet','Mobile','Desktop']){await page.getByRole('button',{name,exact:true}).click();await expect(frame.locator('body')).toBeVisible();expect(await frame.locator('html').evaluate(el=>el.scrollWidth<=el.clientWidth)).toBe(true);if(name==='Mobile')await shot('preview-mobile');}
+ await page.getByRole('button',{name:'Close preview',exact:true}).click();await page.getByRole('button',{name:'Revisions',exact:true}).click();await page.getByRole('button',{name:/Preview version/}).first().click();await expect(page.locator('.comparison-table')).toContainText('Complete homepage review');await shot('revision-comparison');await expect(page.locator('summary').filter({hasText:'unchanged fields'})).toBeVisible();await page.locator('summary').filter({hasText:'Recovery details: original full snapshot'}).click();await expect(page.locator('.revision-preview pre')).toContainText('sections');
+ const publicView=await context.newPage();await publicView.emulateMedia({reducedMotion:'reduce'});await publicView.goto('/');for(const width of [1440,768,390]){await publicView.setViewportSize({width,height:900});const footer=publicView.locator('.hp-footer');await footer.scrollIntoViewIfNeeded();await expect(footer).toHaveCSS('background-image',/footer.webp/);await publicView.waitForTimeout(500);await footer.screenshot({animations:'disabled',style:'.hp-header,.hp-scroll-progress{visibility:hidden!important}',path:'docs/homepage-cms-review/footer-'+width+'.png'});}await publicView.close();
+ // Private preview is inaccessible without a session.
+ const denied=await request.get('/preview',{maxRedirects:0});expect([302,303,307]).toContain(denied.status());
+ }finally{await context.close();await page.video()?.saveAs('docs/homepage-cms-review/walkthrough.webm');}
+});

@@ -1,0 +1,230 @@
+[
+  {
+    "width": 1440,
+    "route": "/preview/industries/roofing",
+    "shifts": [
+      {
+        "time": 171.69999998807907,
+        "value": 0.003128334780092592,
+        "recent": false,
+        "sources": [
+          {
+            "previous": {
+              "x": 165,
+              "y": 271.5,
+              "width": 1110,
+              "height": 91,
+              "top": 271.5,
+              "right": 1275,
+              "bottom": 362.5,
+              "left": 165
+            },
+            "current": {
+              "x": 165,
+              "y": 286.5,
+              "width": 1110,
+              "height": 91,
+              "top": 286.5,
+              "right": 1275,
+              "bottom": 377.5,
+              "left": 165
+            }
+          },
+          {
+            "previous": {
+              "x": 165,
+              "y": 195,
+              "width": 1110,
+              "height": 91,
+              "top": 195,
+              "right": 1275,
+              "bottom": 286,
+              "left": 165
+            },
+            "current": {
+              "x": 165,
+              "y": 209,
+              "width": 1110,
+              "height": 91,
+              "top": 209,
+              "right": 1275,
+              "bottom": 300,
+              "left": 165
+            }
+          },
+          {
+            "previous": {
+              "x": 720,
+              "y": 351.328125,
+              "width": 590,
+              "height": 122,
+              "top": 351.328125,
+              "right": 1310,
+              "bottom": 473.328125,
+              "left": 720
+            },
+            "current": {
+              "x": 720,
+              "y": 355.328125,
+              "width": 590,
+              "height": 122,
+              "top": 355.328125,
+              "right": 1310,
+              "bottom": 477.328125,
+              "left": 720
+            }
+          },
+          {
+            "node": "hp-desktop-nav",
+            "previous": {
+              "x": 475.46875,
+              "y": 68,
+              "width": 492.953125,
+              "height": 94,
+              "top": 68,
+              "right": 968.421875,
+              "bottom": 162,
+              "left": 475.46875
+            },
+            "current": {
+              "x": 470.65625,
+              "y": 68,
+              "width": 496.25,
+              "height": 94,
+              "top": 68,
+              "right": 966.90625,
+              "bottom": 162,
+              "left": 470.65625
+            }
+          },
+          {
+            "previous": {
+              "x": 120,
+              "y": 347.3125,
+              "width": 462,
+              "height": 64,
+              "top": 347.3125,
+              "right": 582,
+              "bottom": 411.3125,
+              "left": 120
+            },
+            "current": {
+              "x": 120,
+              "y": 358.3125,
+              "width": 462,
+              "height": 64,
+              "top": 358.3125,
+              "right": 582,
+              "bottom": 422.3125,
+              "left": 120
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "route": "/preview/about",
+    "shifts": [
+      {
+        "time": 139.0999999642372,
+        "value": 0.041849058593749995,
+        "recent": false,
+        "sources": [
+          {
+            "node": "internal-hero-media",
+            "previous": {
+              "x": 0,
+              "y": 417.421875,
+              "width": 320,
+              "height": 363,
+              "top": 417.421875,
+              "right": 320,
+              "bottom": 780.421875,
+              "left": 0
+            },
+            "current": {
+              "x": 0,
+              "y": 359.828125,
+              "width": 320,
+              "height": 363,
+              "top": 359.828125,
+              "right": 320,
+              "bottom": 722.828125,
+              "left": 0
+            }
+          },
+          {
+            "node": "about-section about-who about-visible-all",
+            "previous": {
+              "x": 0,
+              "y": 780.421875,
+              "width": 320,
+              "height": 219.578125,
+              "top": 780.421875,
+              "right": 320,
+              "bottom": 1000,
+              "left": 0
+            },
+            "current": {
+              "x": 0,
+              "y": 722.828125,
+              "width": 320,
+              "height": 277.171875,
+              "top": 722.828125,
+              "right": 320,
+              "bottom": 1000,
+              "left": 0
+            }
+          },
+          {
+            "node": "internal-hero-title-line",
+            "previous": {
+              "x": 15,
+              "y": 373.828125,
+              "width": 280,
+              "height": 76,
+              "top": 373.828125,
+              "right": 295,
+              "bottom": 449.828125,
+              "left": 15
+            },
+            "current": {
+              "x": 15,
+              "y": 325.234375,
+              "width": 280,
+              "height": 58.59375,
+              "top": 325.234375,
+              "right": 295,
+              "bottom": 383.828125,
+              "left": 15
+            }
+          },
+          {
+            "previous": {
+              "x": 15,
+              "y": 149,
+              "width": 280,
+              "height": 55,
+              "top": 149,
+              "right": 295,
+              "bottom": 204,
+              "left": 15
+            },
+            "current": {
+              "x": 15,
+              "y": 158,
+              "width": 280,
+              "height": 55,
+              "top": 158,
+              "right": 295,
+              "bottom": 213,
+              "left": 15
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

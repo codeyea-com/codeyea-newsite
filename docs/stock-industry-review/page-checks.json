@@ -1,0 +1,1202 @@
+[
+  {
+    "slug": "healthcare",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 490,
+        "width": 434
+      },
+      {
+        "height": 551,
+        "width": 1440
+      },
+      {
+        "height": 388,
+        "width": 1440
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "construction",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 490,
+        "width": 434
+      },
+      {
+        "height": 551,
+        "width": 1440
+      },
+      {
+        "height": 388,
+        "width": 1440
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "e-commerce",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 490,
+        "width": 434
+      },
+      {
+        "height": 551,
+        "width": 1440
+      },
+      {
+        "height": 388,
+        "width": 1440
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "small-business",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 490,
+        "width": 434
+      },
+      {
+        "height": 551,
+        "width": 1440
+      },
+      {
+        "height": 388,
+        "width": 1440
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "event-coordinators",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 490,
+        "width": 434
+      },
+      {
+        "height": 551,
+        "width": 1440
+      },
+      {
+        "height": 388,
+        "width": 1440
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "legal",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 490,
+        "width": 434
+      },
+      {
+        "height": 551,
+        "width": 1440
+      },
+      {
+        "height": 388,
+        "width": 1440
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "online-magazine",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 490,
+        "width": 434
+      },
+      {
+        "height": 551,
+        "width": 1440
+      },
+      {
+        "height": 388,
+        "width": 1440
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "oil-and-gas",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 490,
+        "width": 434
+      },
+      {
+        "height": 551,
+        "width": 1440
+      },
+      {
+        "height": 388,
+        "width": 1440
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "real-estate",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 490,
+        "width": 434
+      },
+      {
+        "height": 551,
+        "width": 1440
+      },
+      {
+        "height": 388,
+        "width": 1440
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 490,
+        "width": 434
+      },
+      {
+        "height": 551,
+        "width": 1440
+      },
+      {
+        "height": 388,
+        "width": 1440
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "healthcare",
+    "width": 1024,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 440,
+        "width": 381.59375
+      },
+      {
+        "height": 440,
+        "width": 1024
+      },
+      {
+        "height": 388,
+        "width": 1024
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "construction",
+    "width": 1024,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 440,
+        "width": 381.59375
+      },
+      {
+        "height": 440,
+        "width": 1024
+      },
+      {
+        "height": 388,
+        "width": 1024
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "e-commerce",
+    "width": 1024,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 440,
+        "width": 381.59375
+      },
+      {
+        "height": 440,
+        "width": 1024
+      },
+      {
+        "height": 388,
+        "width": 1024
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "small-business",
+    "width": 1024,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 440,
+        "width": 381.59375
+      },
+      {
+        "height": 440,
+        "width": 1024
+      },
+      {
+        "height": 388,
+        "width": 1024
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "event-coordinators",
+    "width": 1024,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 440,
+        "width": 381.59375
+      },
+      {
+        "height": 440,
+        "width": 1024
+      },
+      {
+        "height": 388,
+        "width": 1024
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "legal",
+    "width": 1024,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 440,
+        "width": 381.59375
+      },
+      {
+        "height": 440,
+        "width": 1024
+      },
+      {
+        "height": 388,
+        "width": 1024
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "online-magazine",
+    "width": 1024,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 440,
+        "width": 381.59375
+      },
+      {
+        "height": 440,
+        "width": 1024
+      },
+      {
+        "height": 388,
+        "width": 1024
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "oil-and-gas",
+    "width": 1024,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 440,
+        "width": 381.59375
+      },
+      {
+        "height": 440,
+        "width": 1024
+      },
+      {
+        "height": 388,
+        "width": 1024
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "real-estate",
+    "width": 1024,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 440,
+        "width": 381.59375
+      },
+      {
+        "height": 440,
+        "width": 1024
+      },
+      {
+        "height": 388,
+        "width": 1024
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "width": 1024,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 440,
+        "width": 381.59375
+      },
+      {
+        "height": 440,
+        "width": 1024
+      },
+      {
+        "height": 388,
+        "width": 1024
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "healthcare",
+    "width": 768,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 400,
+        "width": 279.1875
+      },
+      {
+        "height": 440,
+        "width": 768
+      },
+      {
+        "height": 388,
+        "width": 768
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "construction",
+    "width": 768,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 400,
+        "width": 279.1875
+      },
+      {
+        "height": 440,
+        "width": 768
+      },
+      {
+        "height": 388,
+        "width": 768
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "e-commerce",
+    "width": 768,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 400,
+        "width": 279.1875
+      },
+      {
+        "height": 440,
+        "width": 768
+      },
+      {
+        "height": 388,
+        "width": 768
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "small-business",
+    "width": 768,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 400,
+        "width": 279.1875
+      },
+      {
+        "height": 440,
+        "width": 768
+      },
+      {
+        "height": 388,
+        "width": 768
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "event-coordinators",
+    "width": 768,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 400,
+        "width": 279.1875
+      },
+      {
+        "height": 440,
+        "width": 768
+      },
+      {
+        "height": 388,
+        "width": 768
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "legal",
+    "width": 768,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 400,
+        "width": 279.1875
+      },
+      {
+        "height": 440,
+        "width": 768
+      },
+      {
+        "height": 388,
+        "width": 768
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "online-magazine",
+    "width": 768,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 400,
+        "width": 279.1875
+      },
+      {
+        "height": 440,
+        "width": 768
+      },
+      {
+        "height": 388,
+        "width": 768
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "oil-and-gas",
+    "width": 768,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 400,
+        "width": 279.1875
+      },
+      {
+        "height": 440,
+        "width": 768
+      },
+      {
+        "height": 388,
+        "width": 768
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "real-estate",
+    "width": 768,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 400,
+        "width": 279.1875
+      },
+      {
+        "height": 440,
+        "width": 768
+      },
+      {
+        "height": 388,
+        "width": 768
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "width": 768,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 400,
+        "width": 279.1875
+      },
+      {
+        "height": 440,
+        "width": 768
+      },
+      {
+        "height": 388,
+        "width": 768
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "healthcare",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 395.15625,
+        "width": 350
+      },
+      {
+        "height": 320,
+        "width": 390
+      },
+      {
+        "height": 400,
+        "width": 390
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "construction",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 395.15625,
+        "width": 350
+      },
+      {
+        "height": 320,
+        "width": 390
+      },
+      {
+        "height": 400,
+        "width": 390
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "e-commerce",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 395.15625,
+        "width": 350
+      },
+      {
+        "height": 320,
+        "width": 390
+      },
+      {
+        "height": 400,
+        "width": 390
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "small-business",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 395.15625,
+        "width": 350
+      },
+      {
+        "height": 320,
+        "width": 390
+      },
+      {
+        "height": 400,
+        "width": 390
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "event-coordinators",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 395.15625,
+        "width": 350
+      },
+      {
+        "height": 320,
+        "width": 390
+      },
+      {
+        "height": 400,
+        "width": 390
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "legal",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 395.15625,
+        "width": 350
+      },
+      {
+        "height": 320,
+        "width": 390
+      },
+      {
+        "height": 400,
+        "width": 390
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "online-magazine",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 395.15625,
+        "width": 350
+      },
+      {
+        "height": 320,
+        "width": 390
+      },
+      {
+        "height": 400,
+        "width": 390
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "oil-and-gas",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 395.15625,
+        "width": 350
+      },
+      {
+        "height": 320,
+        "width": 390
+      },
+      {
+        "height": 400,
+        "width": 390
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "real-estate",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 395.15625,
+        "width": 350
+      },
+      {
+        "height": 320,
+        "width": 390
+      },
+      {
+        "height": 400,
+        "width": 390
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 395.15625,
+        "width": 350
+      },
+      {
+        "height": 320,
+        "width": 390
+      },
+      {
+        "height": 400,
+        "width": 390
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "healthcare",
+    "width": 320,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 316.125,
+        "width": 280
+      },
+      {
+        "height": 320,
+        "width": 320
+      },
+      {
+        "height": 400,
+        "width": 320
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "construction",
+    "width": 320,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 316.125,
+        "width": 280
+      },
+      {
+        "height": 320,
+        "width": 320
+      },
+      {
+        "height": 400,
+        "width": 320
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "e-commerce",
+    "width": 320,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 316.125,
+        "width": 280
+      },
+      {
+        "height": 320,
+        "width": 320
+      },
+      {
+        "height": 400,
+        "width": 320
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "small-business",
+    "width": 320,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 316.125,
+        "width": 280
+      },
+      {
+        "height": 320,
+        "width": 320
+      },
+      {
+        "height": 400,
+        "width": 320
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "event-coordinators",
+    "width": 320,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 316.125,
+        "width": 280
+      },
+      {
+        "height": 320,
+        "width": 320
+      },
+      {
+        "height": 400,
+        "width": 320
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "legal",
+    "width": 320,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 316.125,
+        "width": 280
+      },
+      {
+        "height": 320,
+        "width": 320
+      },
+      {
+        "height": 400,
+        "width": 320
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "online-magazine",
+    "width": 320,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 316.125,
+        "width": 280
+      },
+      {
+        "height": 320,
+        "width": 320
+      },
+      {
+        "height": 400,
+        "width": 320
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "oil-and-gas",
+    "width": 320,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 316.125,
+        "width": 280
+      },
+      {
+        "height": 320,
+        "width": 320
+      },
+      {
+        "height": 400,
+        "width": 320
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "real-estate",
+    "width": 320,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 316.125,
+        "width": 280
+      },
+      {
+        "height": 320,
+        "width": 320
+      },
+      {
+        "height": 400,
+        "width": 320
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "width": 320,
+    "overflow": false,
+    "h1": 1,
+    "broken": 0,
+    "hidden": 0,
+    "frames": [
+      {
+        "height": 316.125,
+        "width": 280
+      },
+      {
+        "height": 320,
+        "width": 320
+      },
+      {
+        "height": 400,
+        "width": 320
+      }
+    ],
+    "steps": 4,
+    "errors": []
+  }
+]

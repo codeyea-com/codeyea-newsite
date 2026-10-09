@@ -1,0 +1,8 @@
+{
+  "url": "https://codeyea.com/codeyea-about-us/",
+  "duration": "1s",
+  "easing": "ease",
+  "property": "transform",
+  "slides": 3,
+  "mobile": "Slider not initialized at 390px; no confirmed swipe. Local mobile uses requested numbered controls."
+}

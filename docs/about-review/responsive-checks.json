@@ -1,0 +1,74 @@
+[
+  {
+    "width": 1440,
+    "height": 1000,
+    "overflow": false,
+    "h1": 1,
+    "brokenVisibleImages": [],
+    "unrequestedHiddenImages": 0,
+    "gridStroke": ".5px"
+  },
+  {
+    "width": 1280,
+    "height": 900,
+    "overflow": false,
+    "h1": 1,
+    "brokenVisibleImages": [],
+    "unrequestedHiddenImages": 0,
+    "gridStroke": ".5px"
+  },
+  {
+    "width": 1024,
+    "height": 900,
+    "overflow": false,
+    "h1": 1,
+    "brokenVisibleImages": [],
+    "unrequestedHiddenImages": 0,
+    "gridStroke": ".5px"
+  },
+  {
+    "width": 768,
+    "height": 1000,
+    "overflow": false,
+    "h1": 1,
+    "brokenVisibleImages": [],
+    "unrequestedHiddenImages": 0,
+    "gridStroke": ".5px"
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "h1": 1,
+    "brokenVisibleImages": [],
+    "unrequestedHiddenImages": 0,
+    "gridStroke": ".5px"
+  },
+  {
+    "width": 375,
+    "height": 812,
+    "overflow": false,
+    "h1": 1,
+    "brokenVisibleImages": [],
+    "unrequestedHiddenImages": 0,
+    "gridStroke": ".5px"
+  },
+  {
+    "width": 320,
+    "height": 740,
+    "overflow": false,
+    "h1": 1,
+    "brokenVisibleImages": [],
+    "unrequestedHiddenImages": 0,
+    "gridStroke": ".5px"
+  },
+  {
+    "width": 812,
+    "height": 375,
+    "overflow": false,
+    "h1": 1,
+    "brokenVisibleImages": [],
+    "unrequestedHiddenImages": 0,
+    "gridStroke": ".5px"
+  }
+]

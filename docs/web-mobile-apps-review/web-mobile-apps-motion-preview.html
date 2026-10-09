@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web &amp; Mobile Apps — Motion Preview</title>
+  <style>html,body{margin:0;min-height:100%;background:#fff}iframe{display:block;width:100%;height:100vh;border:0}</style>
+</head>
+<body>
+  <iframe title="Web and mobile applications service page" src="web-mobile-apps-interactive.html"></iframe>
+  <script>
+    const frame = document.querySelector('iframe');
+    frame.addEventListener('load', () => {
+      const doc = frame.contentDocument;
+      const media = doc.querySelector('.internal-hero-media');
+      if (!media) return;
+      const phone = doc.createElement('div');
+      phone.className = 'app-motion-phone';
+      phone.setAttribute('aria-hidden', 'true');
+      phone.innerHTML = '<div class="app-motion-top"><i></i><i></i><i></i><span>9:41</span></div><div class="app-motion-window"><div class="app-motion-track"><section class="app-motion-screen"><small>YOUR WORKSPACE</small><b>Good morning</b><p>Here’s your day at a glance.</p><div class="app-motion-stat"><i>↗</i><span>Projects</span><b>08</b></div><div class="app-motion-stat"><i>◷</i><span>Tasks today</span><b>12</b></div><div class="app-motion-action">Open dashboard <b>↗</b></div></section><section class="app-motion-screen"><small>TEAM SCHEDULE</small><b>Today</b><p>Keep every next step in view.</p><div class="app-motion-event"><strong>09:30</strong><span>Product review<small>Design team</small></span></div><div class="app-motion-event"><strong>11:00</strong><span>Client check-in<small>Project Alpha</small></span></div><div class="app-motion-action">View calendar <b>↗</b></div></section><section class="app-motion-screen"><small>PROJECT PULSE</small><b>Moving forward</b><p>Updates from your team.</p><div class="app-motion-progress"><span>Website refresh</span><b>72%</b><i><em></em></i></div><div class="app-motion-progress"><span>Mobile release</span><b>48%</b><i><em></em></i></div><div class="app-motion-action">See progress <b>↗</b></div></section><section class="app-motion-screen"><small>YOUR WORKSPACE</small><b>Good morning</b><p>Here’s your day at a glance.</p><div class="app-motion-stat"><i>↗</i><span>Projects</span><b>08</b></div><div class="app-motion-stat"><i>◷</i><span>Tasks today</span><b>12</b></div><div class="app-motion-action">Open dashboard <b>↗</b></div></section></div></div><div class="app-motion-home"></div>';
+      media.appendChild(phone);
+      const style = doc.createElement('style');
+      style.textContent = '.internal-hero-media{overflow:hidden}.app-motion-phone{position:absolute;z-index:6;right:8%;top:8%;width:174px;height:294px;padding:9px;background:#102d4b;border:3px solid #102d4b;border-radius:25px;box-shadow:0 18px 38px #102d4b45;box-sizing:border-box;color:#17334e;transform:rotate(4deg)}.app-motion-top{height:23px;display:flex;align-items:center;gap:4px;color:#fff}.app-motion-top i{width:4px;height:4px;border-radius:50%;background:#f0bb79}.app-motion-top span{margin-left:auto;font:600 8px Arial}.app-motion-window{height:calc(100% - 44px);overflow:hidden;background:#f8f6ef;border-radius:13px;perspective:600px}.app-motion-track{height:400%;animation:appScreensRise 10s linear infinite;transform-style:preserve-3d}.app-motion-screen{height:25%;box-sizing:border-box;padding:17px 12px;background:#f8f6ef;display:flex;flex-direction:column;gap:8px;backface-visibility:hidden}.app-motion-screen small{font:700 6px Arial;letter-spacing:.14em;color:#178da7}.app-motion-screen>b{font:600 15px Arial;letter-spacing:-.04em;color:#132d4a}.app-motion-screen>p{font:9px Arial;color:#73808b;margin:0 0 5px}.app-motion-stat{display:grid;grid-template-columns:18px 1fr auto;align-items:center;gap:5px;padding:8px 6px;background:#fff;border:1px solid #e3e7e5;font:8px Arial}.app-motion-stat i{font-style:normal;color:#009db0}.app-motion-stat b{font-size:9px;color:#162f4c}.app-motion-event{display:flex;align-items:center;gap:10px;padding:7px 6px;background:#fff;border:1px solid #e3e7e5;font:8px Arial}.app-motion-event>strong{font-size:8px;color:#1394a9}.app-motion-event span{font-weight:600}.app-motion-event small{display:block;margin-top:4px;color:#7a858e;font-size:7px}.app-motion-progress{font:8px Arial;display:grid;grid-template-columns:1fr auto;gap:6px;padding:7px 6px;background:#fff;border:1px solid #e3e7e5}.app-motion-progress>b{color:#18899e}.app-motion-progress>i{grid-column:1/3;height:4px;background:#e3e9e6}.app-motion-progress em{display:block;width:72%;height:100%;background:#10a6b5}.app-motion-progress:nth-of-type(4) em{width:48%}.app-motion-action{margin-top:auto;padding:8px;background:#17344f;color:#fff;font:8px Arial;display:flex;justify-content:space-between}.app-motion-home{width:40px;height:4px;border-radius:3px;background:#fff;margin:8px auto 0}@keyframes appScreensRise{to{transform:translateY(-75%) rotateX(-1deg)}}@media(max-width:700px){.app-motion-phone{width:140px;height:246px;right:5%;top:9%;padding:7px}.app-motion-screen{padding:12px 8px;gap:6px}.app-motion-screen>b{font-size:13px}.app-motion-stat,.app-motion-event,.app-motion-progress{padding:6px 4px}}@media(prefers-reduced-motion:reduce){.app-motion-track{animation:none;transform:translateY(-25%)}}';
+      doc.head.appendChild(style);
+    });
+  </script>
+</body>
+</html>

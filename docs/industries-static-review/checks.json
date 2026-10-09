@@ -1,0 +1,165 @@
+{
+  "draftVersion": 3,
+  "published": false,
+  "sharedSnapshotsUnchanged": true,
+  "publicRoute404": true,
+  "privatePreviewProtected": true,
+  "results": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headings": [
+        "Roofing",
+        "Healthcare",
+        "Construction",
+        "E-Commerce",
+        "Small Business",
+        "Event Coordinators",
+        "Legal",
+        "Online Magazine",
+        "Oil and Gas",
+        "Real Estate",
+        "Fashion and Lifestyle",
+        "Tell us what your industry needs."
+      ],
+      "images": true,
+      "layouts": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "1",
+        "2",
+        "3",
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "h1": [
+        "Industries"
+      ],
+      "readingOrder": false,
+      "keyboard": true,
+      "placeholderDoesNotNavigate": true,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "headings": [
+        "Roofing",
+        "Healthcare",
+        "Construction",
+        "E-Commerce",
+        "Small Business",
+        "Event Coordinators",
+        "Legal",
+        "Online Magazine",
+        "Oil and Gas",
+        "Real Estate",
+        "Fashion and Lifestyle",
+        "Tell us what your industry needs."
+      ],
+      "images": true,
+      "layouts": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "1",
+        "2",
+        "3",
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "h1": [
+        "Industries"
+      ],
+      "readingOrder": true,
+      "keyboard": true,
+      "placeholderDoesNotNavigate": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "headings": [
+        "Roofing",
+        "Healthcare",
+        "Construction",
+        "E-Commerce",
+        "Small Business",
+        "Event Coordinators",
+        "Legal",
+        "Online Magazine",
+        "Oil and Gas",
+        "Real Estate",
+        "Fashion and Lifestyle",
+        "Tell us what your industry needs."
+      ],
+      "images": true,
+      "layouts": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "1",
+        "2",
+        "3",
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "h1": [
+        "Industries"
+      ],
+      "readingOrder": true,
+      "keyboard": true,
+      "placeholderDoesNotNavigate": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "headings": [
+        "Roofing",
+        "Healthcare",
+        "Construction",
+        "E-Commerce",
+        "Small Business",
+        "Event Coordinators",
+        "Legal",
+        "Online Magazine",
+        "Oil and Gas",
+        "Real Estate",
+        "Fashion and Lifestyle",
+        "Tell us what your industry needs."
+      ],
+      "images": true,
+      "layouts": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "1",
+        "2",
+        "3",
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "h1": [
+        "Industries"
+      ],
+      "readingOrder": true,
+      "keyboard": true,
+      "placeholderDoesNotNavigate": true,
+      "errors": []
+    }
+  ]
+}

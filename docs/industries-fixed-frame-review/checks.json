@@ -1,0 +1,749 @@
+{
+  "draft": 6,
+  "contentUnchanged": true,
+  "textEntranceUnchanged": true,
+  "sharedUnchanged": true,
+  "noJavaScript": true,
+  "touchStatic": true,
+  "noCatchup": true,
+  "samples": [
+    {
+      "scroll": 562,
+      "documentTop": 1561.546875,
+      "width": 768.953125,
+      "height": 674,
+      "frameTransform": "none",
+      "imageY": 119.935,
+      "dividerTransform": "none",
+      "dividerLeft": "215.297px",
+      "covers": true,
+      "willChange": "auto"
+    },
+    {
+      "scroll": 962,
+      "documentTop": 1561.546875,
+      "width": 768.953125,
+      "height": 674,
+      "frameTransform": "none",
+      "imageY": 62.5874,
+      "dividerTransform": "none",
+      "dividerLeft": "215.297px",
+      "covers": true,
+      "willChange": "auto"
+    },
+    {
+      "scroll": 1412,
+      "documentTop": 1561.546875,
+      "width": 768.953125,
+      "height": 674,
+      "frameTransform": "none",
+      "imageY": -1.92876,
+      "dividerTransform": "none",
+      "dividerLeft": "215.297px",
+      "covers": true,
+      "willChange": "auto"
+    },
+    {
+      "scroll": 1862,
+      "documentTop": 1561.546875,
+      "width": 768.953125,
+      "height": 674,
+      "frameTransform": "none",
+      "imageY": -66.4449,
+      "dividerTransform": "none",
+      "dividerLeft": "215.297px",
+      "covers": true,
+      "willChange": "auto"
+    },
+    {
+      "scroll": 2236,
+      "documentTop": 1561.546875,
+      "width": 768.953125,
+      "height": 674,
+      "frameTransform": "none",
+      "imageY": -120,
+      "dividerTransform": "none",
+      "dividerLeft": "215.297px",
+      "covers": true,
+      "willChange": "auto"
+    },
+    {
+      "scroll": 1862,
+      "documentTop": 1561.546875,
+      "width": 768.953125,
+      "height": 674,
+      "frameTransform": "none",
+      "imageY": -66.4449,
+      "dividerTransform": "none",
+      "dividerLeft": "215.297px",
+      "covers": true,
+      "willChange": "auto"
+    },
+    {
+      "scroll": 1412,
+      "documentTop": 1561.546875,
+      "width": 768.953125,
+      "height": 674,
+      "frameTransform": "none",
+      "imageY": -1.92876,
+      "dividerTransform": "none",
+      "dividerLeft": "215.297px",
+      "covers": true,
+      "willChange": "auto"
+    },
+    {
+      "scroll": 962,
+      "documentTop": 1561.546875,
+      "width": 768.953125,
+      "height": 674,
+      "frameTransform": "none",
+      "imageY": 62.5874,
+      "dividerTransform": "none",
+      "dividerLeft": "215.297px",
+      "covers": true,
+      "willChange": "auto"
+    }
+  ],
+  "results": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "sizes": [
+        {
+          "layout": "1",
+          "title": "Roofing",
+          "width": 768.953125,
+          "height": 674,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": false,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Healthcare",
+          "width": 768.953125,
+          "height": 560,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": false,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Construction",
+          "width": 768.953125,
+          "height": 560,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": false,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "4",
+          "title": "E-Commerce",
+          "width": 768.953125,
+          "height": 560,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": false,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "1",
+          "title": "Small Business",
+          "width": 768.953125,
+          "height": 674,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": false,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Event Coordinators",
+          "width": 768.953125,
+          "height": 560,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": false,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Legal",
+          "width": 768.953125,
+          "height": 560,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": false,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "4",
+          "title": "Online Magazine",
+          "width": 768.953125,
+          "height": 560,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": false,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "1",
+          "title": "Oil and Gas",
+          "width": 768.953125,
+          "height": 674,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": false,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Real Estate",
+          "width": 768.953125,
+          "height": 560,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": false,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Fashion and Lifestyle",
+          "width": 768.953125,
+          "height": 560,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": false,
+          "overflow": "hidden"
+        }
+      ],
+      "accordionDoesNotResize": true
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "sizes": [
+        {
+          "layout": "1",
+          "title": "Roofing",
+          "width": 1024,
+          "height": 768,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Healthcare",
+          "width": 1024,
+          "height": 768,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Construction",
+          "width": 1024,
+          "height": 768,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "4",
+          "title": "E-Commerce",
+          "width": 1024,
+          "height": 768,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "1",
+          "title": "Small Business",
+          "width": 1024,
+          "height": 768,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Event Coordinators",
+          "width": 1024,
+          "height": 768,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Legal",
+          "width": 1024,
+          "height": 768,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "4",
+          "title": "Online Magazine",
+          "width": 1024,
+          "height": 768,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "1",
+          "title": "Oil and Gas",
+          "width": 1024,
+          "height": 768,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Real Estate",
+          "width": 1024,
+          "height": 768,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Fashion and Lifestyle",
+          "width": 1024,
+          "height": 768,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        }
+      ],
+      "accordionDoesNotResize": true
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "sizes": [
+        {
+          "layout": "1",
+          "title": "Roofing",
+          "width": 768,
+          "height": 576,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Healthcare",
+          "width": 768,
+          "height": 576,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Construction",
+          "width": 768,
+          "height": 576,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "4",
+          "title": "E-Commerce",
+          "width": 768,
+          "height": 576,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "1",
+          "title": "Small Business",
+          "width": 768,
+          "height": 576,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Event Coordinators",
+          "width": 768,
+          "height": 576,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Legal",
+          "width": 768,
+          "height": 576,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "4",
+          "title": "Online Magazine",
+          "width": 768,
+          "height": 576,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "1",
+          "title": "Oil and Gas",
+          "width": 768,
+          "height": 576,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Real Estate",
+          "width": 768,
+          "height": 576,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Fashion and Lifestyle",
+          "width": 768,
+          "height": 576,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        }
+      ],
+      "accordionDoesNotResize": true
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "sizes": [
+        {
+          "layout": "1",
+          "title": "Roofing",
+          "width": 390,
+          "height": 292.5,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Healthcare",
+          "width": 390,
+          "height": 292.5,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Construction",
+          "width": 390,
+          "height": 292.5,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "4",
+          "title": "E-Commerce",
+          "width": 390,
+          "height": 292.5,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "1",
+          "title": "Small Business",
+          "width": 390,
+          "height": 292.5,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Event Coordinators",
+          "width": 390,
+          "height": 292.5,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Legal",
+          "width": 390,
+          "height": 292.5,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "4",
+          "title": "Online Magazine",
+          "width": 390,
+          "height": 292.5,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "1",
+          "title": "Oil and Gas",
+          "width": 390,
+          "height": 292.5,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Real Estate",
+          "width": 390,
+          "height": 292.5,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Fashion and Lifestyle",
+          "width": 390,
+          "height": 292.5,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        }
+      ],
+      "accordionDoesNotResize": true
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "sizes": [
+        {
+          "layout": "1",
+          "title": "Roofing",
+          "width": 320,
+          "height": 240,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Healthcare",
+          "width": 320,
+          "height": 240,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Construction",
+          "width": 320,
+          "height": 240,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "4",
+          "title": "E-Commerce",
+          "width": 320,
+          "height": 240,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "1",
+          "title": "Small Business",
+          "width": 320,
+          "height": 240,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Event Coordinators",
+          "width": 320,
+          "height": 240,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Legal",
+          "width": 320,
+          "height": 240,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "4",
+          "title": "Online Magazine",
+          "width": 320,
+          "height": 240,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "1",
+          "title": "Oil and Gas",
+          "width": 320,
+          "height": 240,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "2",
+          "title": "Real Estate",
+          "width": 320,
+          "height": 240,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        },
+        {
+          "layout": "3",
+          "title": "Fashion and Lifestyle",
+          "width": 320,
+          "height": 240,
+          "frameTransform": "none",
+          "imageTransform": "none",
+          "images": 1,
+          "order": true,
+          "overflow": "hidden"
+        }
+      ],
+      "accordionDoesNotResize": true
+    }
+  ]
+}

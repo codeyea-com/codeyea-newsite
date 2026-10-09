@@ -1,0 +1,40 @@
+{
+  "before": {
+    "about": {
+      "version": 4,
+      "draft": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127",
+      "published": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127"
+    },
+    "homepage": {
+      "version": 18,
+      "draft": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d",
+      "published": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d"
+    }
+  },
+  "after": {
+    "about": {
+      "version": 4,
+      "draft": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127",
+      "published": "c75f4520de7b5823ff9629e6aaebf1121e903e1f3fd7bccbae9329cc7d7e1127"
+    },
+    "homepage": {
+      "version": 18,
+      "draft": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d",
+      "published": "263ce41eae1f19ad58eb92cdbb17c7569698837929a148cb9603e561d254b41d"
+    }
+  },
+  "cursor": {
+    "width": "390px",
+    "height": "390px",
+    "color": "rgb(224, 20, 76)",
+    "opacity": "1",
+    "blend": "multiply",
+    "backdrop": "blur(8px) brightness(1.17)"
+  },
+  "desktop": true,
+  "mobile": true,
+  "keyboard": true,
+  "reducedMotion": true,
+  "overflow": false,
+  "errors": []
+}

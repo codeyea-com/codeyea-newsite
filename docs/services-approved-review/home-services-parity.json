@@ -1,0 +1,80 @@
+{
+  "matches": true,
+  "grid": "264px 264px 264px 264px",
+  "gap": "58px 48px",
+  "padding": "55px 0px 105px",
+  "items": [
+    {
+      "title": "Web & App Development\nWeb & App Development",
+      "body": "Websites and applications shaped around the people who use them. Built to balance clear design, useful functionality and straightforward day-to-day management.\nWebsites and applications shaped around the people who use them. Built to balance clear design, useful functionality and straightforward day-to-day management.",
+      "width": 264,
+      "height": 372.21875,
+      "font": "600 24px / 27.6px \"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "line": "26.25px",
+      "icon": "M3 4h18v14H3zM3 8h18M9 11l-3 2 3 2m6-4 3 2-3 2M8 22h8m-4-4v4"
+    },
+    {
+      "title": "eCommerce Solutions\neCommerce Solutions",
+      "body": "Thoughtful shopping journeys, from product discovery to checkout. Connect product discovery, payments and order workflows in one clear customer experience.\nThoughtful shopping journeys, from product discovery to checkout. Connect product discovery, payments and order workflows in one clear customer experience.",
+      "width": 264,
+      "height": 372.21875,
+      "font": "600 24px / 27.6px \"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "line": "26.25px",
+      "icon": "M3 3h2l3 13h11l2-10H6M9 21a1 1 0 1 0 0-2 1 1 0 0 0 0 2m9 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2M10 10h7"
+    },
+    {
+      "title": "AI & Automation\nAI & Automation",
+      "body": "Practical automation that connects tools and simplifies everyday work. Reduce repetitive tasks and keep information moving, with human review where needed.\nPractical automation that connects tools and simplifies everyday work. Reduce repetitive tasks and keep information moving, with human review where needed.",
+      "width": 264,
+      "height": 372.21875,
+      "font": "600 24px / 27.6px \"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "line": "26.25px",
+      "icon": "M7 7h10v10H7zM10 10h4v4h-4zM9 3v4m6-4v4M9 17v4m6-4v4M3 9h4m-4 6h4m10-6h4m-4 6h4"
+    },
+    {
+      "title": "Hosting & Infrastructure\nHosting & Infrastructure",
+      "body": "A considered foundation for your website and digital operations. Bring domains, business email, migrations and backup support into a manageable setup.\nA considered foundation for your website and digital operations. Bring domains, business email, migrations and backup support into a manageable setup.",
+      "width": 264,
+      "height": 372.21875,
+      "font": "600 24px / 27.6px \"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "line": "26.25px",
+      "icon": "M3 3h18v7H3zm0 11h18v7H3zM6 6.5h.01M6 17.5h.01M11 6.5h7M11 17.5h7"
+    },
+    {
+      "title": "SEO & Digital Growth\nSEO & Digital Growth",
+      "body": "Search, content and measurement working toward your next stage of growth. Improve visibility through technical SEO, useful content and a clearer site structure.\nSearch, content and measurement working toward your next stage of growth. Improve visibility through technical SEO, useful content and a clearer site structure.",
+      "width": 264,
+      "height": 370.875,
+      "font": "600 24px / 27.6px \"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "line": "26.25px",
+      "icon": "M3 3v18h18M6 16l5-5 4 3 6-8m-6 0h6v6"
+    },
+    {
+      "title": "Branding & Creative\nBranding & Creative",
+      "body": "A distinctive identity across your brand’s digital and printed touchpoints. Bring logos, typography and marketing materials together in a consistent visual identity.\nA distinctive identity across your brand’s digital and printed touchpoints. Bring logos, typography and marketing materials together in a consistent visual identity.",
+      "width": 264,
+      "height": 370.875,
+      "font": "600 24px / 27.6px \"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "line": "26.25px",
+      "icon": "M4 20l1-6L16 3l5 5-11 11-6 1zm8-13 5 5M5 14l5 5M4 20l4-4"
+    },
+    {
+      "title": "Technical Support\nTechnical Support",
+      "body": "Help maintaining, improving and troubleshooting your digital presence. Resolve performance, plugin and integration issues, with clear explanations and practical maintenance.\nHelp maintaining, improving and troubleshooting your digital presence. Resolve performance, plugin and integration issues, with clear explanations and practical maintenance.",
+      "width": 264,
+      "height": 370.875,
+      "font": "600 24px / 27.6px \"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "line": "26.25px",
+      "icon": "M4 14v-3a8 8 0 0 1 16 0v3M4 11H2v7h4v-7H4m16 0h2v7h-4v-7h2m0 7v3h-7"
+    },
+    {
+      "title": "Digital Strategy\nDigital Strategy",
+      "body": "A clear direction for the technology, content and experiences you build next. Review your goals and existing systems, then prioritise a practical first phase.\nA clear direction for the technology, content and experiences you build next. Review your goals and existing systems, then prioritise a practical first phase.",
+      "width": 264,
+      "height": 370.875,
+      "font": "600 24px / 27.6px \"Josefin Sans\", \"Segoe UI\", sans-serif",
+      "line": "26.25px",
+      "icon": "M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20M16 8l-2 6-6 2 2-6 6-2z"
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+[
+  {
+    "width": 1440,
+    "selector": ".rf-image-break",
+    "frameTop": 2881.3125,
+    "height": 551,
+    "covered": true,
+    "y": "119.8936170212766px",
+    "transform": "none"
+  },
+  {
+    "width": 1440,
+    "selector": ".rf-image-break",
+    "frameTop": 2881.3125,
+    "height": 551,
+    "covered": true,
+    "y": "-0.02901353965182807px",
+    "transform": "none"
+  },
+  {
+    "width": 1440,
+    "selector": ".rf-image-break",
+    "frameTop": 2881.3125,
+    "height": 551,
+    "covered": true,
+    "y": "-119.79690522243715px",
+    "transform": "none"
+  },
+  {
+    "width": 1440,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1917.09375,
+    "height": 490,
+    "covered": true,
+    "y": "119.85402684563758px",
+    "transform": "none"
+  },
+  {
+    "width": 1440,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1917.09375,
+    "height": 490,
+    "covered": true,
+    "y": "0.015100671140942268px",
+    "transform": "none"
+  },
+  {
+    "width": 1440,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1917.09375,
+    "height": 490,
+    "covered": true,
+    "y": "-119.82382550335572px",
+    "transform": "none"
+  },
+  {
+    "width": 1440,
+    "focus": {
+      "display": "inline-flex",
+      "color": "rgb(224, 20, 76)",
+      "background": "rgba(0, 0, 0, 0)",
+      "gap": "15px",
+      "outline": "solid",
+      "line": "matrix(1, 0, 0, 1, 0, 0)",
+      "href": "https://codeyea.com/contact/"
+    }
+  },
+  {
+    "width": 1024,
+    "selector": ".rf-image-break",
+    "frameTop": 2893.8125,
+    "height": 440,
+    "covered": true,
+    "y": "119.80208333333333px",
+    "transform": "none"
+  },
+  {
+    "width": 1024,
+    "selector": ".rf-image-break",
+    "frameTop": 2893.8125,
+    "height": 440,
+    "covered": true,
+    "y": "-0.03125px",
+    "transform": "none"
+  },
+  {
+    "width": 1024,
+    "selector": ".rf-image-break",
+    "frameTop": 2893.8125,
+    "height": 440,
+    "covered": true,
+    "y": "-119.86458333333334px",
+    "transform": "none"
+  },
+  {
+    "width": 1024,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1929.59375,
+    "height": 440,
+    "covered": true,
+    "y": "119.765625px",
+    "transform": "none"
+  },
+  {
+    "width": 1024,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1929.59375,
+    "height": 440,
+    "covered": true,
+    "y": "-0.0677083333333286px",
+    "transform": "none"
+  },
+  {
+    "width": 1024,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1929.59375,
+    "height": 440,
+    "covered": true,
+    "y": "-119.90104166666666px",
+    "transform": "none"
+  },
+  {
+    "width": 1024,
+    "focus": {
+      "display": "inline-flex",
+      "color": "rgb(224, 20, 76)",
+      "background": "rgba(0, 0, 0, 0)",
+      "gap": "15px",
+      "outline": "solid",
+      "line": "matrix(1, 0, 0, 1, 0, 0)",
+      "href": "https://codeyea.com/contact/"
+    }
+  },
+  {
+    "width": 768,
+    "selector": ".rf-image-break",
+    "frameTop": 2887.8125,
+    "height": 440,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 768,
+    "selector": ".rf-image-break",
+    "frameTop": 2887.8125,
+    "height": 440,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 768,
+    "selector": ".rf-image-break",
+    "frameTop": 2887.8125,
+    "height": 440,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 768,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1916.171875,
+    "height": 400,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 768,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1916.171875,
+    "height": 400,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 768,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1916.171875,
+    "height": 400,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 768,
+    "focus": {
+      "display": "inline-flex",
+      "color": "rgb(224, 20, 76)",
+      "background": "rgba(0, 0, 0, 0)",
+      "gap": "15px",
+      "outline": "solid",
+      "line": "matrix(1, 0, 0, 1, 0, 0)",
+      "href": "https://codeyea.com/contact/"
+    }
+  },
+  {
+    "width": 390,
+    "selector": ".rf-image-break",
+    "frameTop": 3650.125,
+    "height": 320,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 390,
+    "selector": ".rf-image-break",
+    "frameTop": 3650.125,
+    "height": 320,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 390,
+    "selector": ".rf-image-break",
+    "frameTop": 3650.125,
+    "height": 320,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 390,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1877.140625,
+    "height": 395.15625,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 390,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1877.140625,
+    "height": 395.15625,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 390,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1877.140625,
+    "height": 395.15625,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 390,
+    "focus": {
+      "display": "inline-flex",
+      "color": "rgb(224, 20, 76)",
+      "background": "rgba(0, 0, 0, 0)",
+      "gap": "15px",
+      "outline": "solid",
+      "line": "matrix(1, 0, 0, 1, 0, 0)",
+      "href": "https://codeyea.com/contact/"
+    }
+  },
+  {
+    "width": 320,
+    "selector": ".rf-image-break",
+    "frameTop": 3786.03125,
+    "height": 320,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 320,
+    "selector": ".rf-image-break",
+    "frameTop": 3786.03125,
+    "height": 320,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 320,
+    "selector": ".rf-image-break",
+    "frameTop": 3786.03125,
+    "height": 320,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 320,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1979.890625,
+    "height": 316.125,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 320,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1979.890625,
+    "height": 316.125,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 320,
+    "selector": ".rf-needs-media .motion-contained-image",
+    "frameTop": 1979.890625,
+    "height": 316.125,
+    "covered": true,
+    "y": "",
+    "transform": "none"
+  },
+  {
+    "width": 320,
+    "focus": {
+      "display": "inline-flex",
+      "color": "rgb(224, 20, 76)",
+      "background": "rgba(0, 0, 0, 0)",
+      "gap": "15px",
+      "outline": "solid",
+      "line": "matrix(1, 0, 0, 1, 0, 0)",
+      "href": "https://codeyea.com/contact/"
+    }
+  }
+]

@@ -1,0 +1,820 @@
+{
+  "draftVersion": 2,
+  "published": false,
+  "otherPagesUnchanged": true,
+  "privatePreviewProtected": true,
+  "results": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": [
+        "Roofing"
+      ],
+      "sections": [
+        "roofing-overview",
+        "roofing-needs",
+        "roofing-services",
+        "roofing-growth",
+        "roofing-process",
+        "roofing-outcomes",
+        "roofing-faq",
+        "roofing-related",
+        "roofing-cta"
+      ],
+      "headings": [
+        {
+          "level": "H1",
+          "text": "Roofing"
+        },
+        {
+          "level": "H2",
+          "text": "A stronger first impression, before the first estimate."
+        },
+        {
+          "level": "H2",
+          "text": "Make it easier to choose you with confidence."
+        },
+        {
+          "level": "H3",
+          "text": "Clear services and coverage"
+        },
+        {
+          "level": "H3",
+          "text": "Evidence people can evaluate"
+        },
+        {
+          "level": "H3",
+          "text": "A practical inquiry path"
+        },
+        {
+          "level": "H2",
+          "text": "The right digital tools for the work you do."
+        },
+        {
+          "level": "H3",
+          "text": "Roofing websites and service pages"
+        },
+        {
+          "level": "H3",
+          "text": "Local SEO and business profiles"
+        },
+        {
+          "level": "H3",
+          "text": "Project galleries and trust content"
+        },
+        {
+          "level": "H3",
+          "text": "Focused campaigns and landing pages"
+        },
+        {
+          "level": "H3",
+          "text": "Estimate requests and connected workflows"
+        },
+        {
+          "level": "H3",
+          "text": "Hosting, maintenance and technical support"
+        },
+        {
+          "level": "H2",
+          "text": "Connect discovery to the next conversation."
+        },
+        {
+          "level": "H3",
+          "text": "Attract"
+        },
+        {
+          "level": "H3",
+          "text": "Build Trust"
+        },
+        {
+          "level": "H3",
+          "text": "Convert"
+        },
+        {
+          "level": "H3",
+          "text": "Grow"
+        },
+        {
+          "level": "H2",
+          "text": "A clear process, built around your roofing business."
+        },
+        {
+          "level": "H3",
+          "text": "Discovery"
+        },
+        {
+          "level": "H3",
+          "text": "Strategy"
+        },
+        {
+          "level": "H3",
+          "text": "Design & Build"
+        },
+        {
+          "level": "H3",
+          "text": "Launch & Growth"
+        },
+        {
+          "level": "H2",
+          "text": "A more useful digital foundation for your roofing work."
+        },
+        {
+          "level": "H3",
+          "text": "Better-informed customers"
+        },
+        {
+          "level": "H3",
+          "text": "More useful inquiry context"
+        },
+        {
+          "level": "H3",
+          "text": "Easier ongoing improvement"
+        },
+        {
+          "level": "H2",
+          "text": "Questions worth answering before we begin."
+        },
+        {
+          "level": "H3",
+          "text": "Why does a roofing company need more than a basic website?"
+        },
+        {
+          "level": "H3",
+          "text": "How can digital work support roofing inquiries?"
+        },
+        {
+          "level": "H3",
+          "text": "Can the website include before-and-after roofing photographs?"
+        },
+        {
+          "level": "H3",
+          "text": "Can you help with our Google Business profile and service areas?"
+        },
+        {
+          "level": "H3",
+          "text": "Do we need to replace our existing roofing website?"
+        },
+        {
+          "level": "H3",
+          "text": "Can estimate requests connect to our existing tools?"
+        },
+        {
+          "level": "H2",
+          "text": "Explore the work behind your next step."
+        },
+        {
+          "level": "H3",
+          "text": "Web & App Development"
+        },
+        {
+          "level": "H3",
+          "text": "SEO & Digital Growth"
+        },
+        {
+          "level": "H3",
+          "text": "AI & Workflow Automation"
+        },
+        {
+          "level": "H3",
+          "text": "Construction"
+        },
+        {
+          "level": "H3",
+          "text": "Real Estate"
+        },
+        {
+          "level": "H3",
+          "text": "Small Business"
+        },
+        {
+          "level": "H2",
+          "text": "Let’s make your roofing business easier to find and understand."
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "alt": "A person on the metal roof of a timber house"
+        },
+        {
+          "loaded": true,
+          "alt": "A person on the metal roof of a timber house"
+        }
+      ],
+      "overflow": [],
+      "bodyMotion": false,
+      "mediaOrder": false,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "h1": [
+        "Roofing"
+      ],
+      "sections": [
+        "roofing-overview",
+        "roofing-needs",
+        "roofing-services",
+        "roofing-growth",
+        "roofing-process",
+        "roofing-outcomes",
+        "roofing-faq",
+        "roofing-related",
+        "roofing-cta"
+      ],
+      "headings": [
+        {
+          "level": "H1",
+          "text": "Roofing"
+        },
+        {
+          "level": "H2",
+          "text": "A stronger first impression, before the first estimate."
+        },
+        {
+          "level": "H2",
+          "text": "Make it easier to choose you with confidence."
+        },
+        {
+          "level": "H3",
+          "text": "Clear services and coverage"
+        },
+        {
+          "level": "H3",
+          "text": "Evidence people can evaluate"
+        },
+        {
+          "level": "H3",
+          "text": "A practical inquiry path"
+        },
+        {
+          "level": "H2",
+          "text": "The right digital tools for the work you do."
+        },
+        {
+          "level": "H3",
+          "text": "Roofing websites and service pages"
+        },
+        {
+          "level": "H3",
+          "text": "Local SEO and business profiles"
+        },
+        {
+          "level": "H3",
+          "text": "Project galleries and trust content"
+        },
+        {
+          "level": "H3",
+          "text": "Focused campaigns and landing pages"
+        },
+        {
+          "level": "H3",
+          "text": "Estimate requests and connected workflows"
+        },
+        {
+          "level": "H3",
+          "text": "Hosting, maintenance and technical support"
+        },
+        {
+          "level": "H2",
+          "text": "Connect discovery to the next conversation."
+        },
+        {
+          "level": "H3",
+          "text": "Attract"
+        },
+        {
+          "level": "H3",
+          "text": "Build Trust"
+        },
+        {
+          "level": "H3",
+          "text": "Convert"
+        },
+        {
+          "level": "H3",
+          "text": "Grow"
+        },
+        {
+          "level": "H2",
+          "text": "A clear process, built around your roofing business."
+        },
+        {
+          "level": "H3",
+          "text": "Discovery"
+        },
+        {
+          "level": "H3",
+          "text": "Strategy"
+        },
+        {
+          "level": "H3",
+          "text": "Design & Build"
+        },
+        {
+          "level": "H3",
+          "text": "Launch & Growth"
+        },
+        {
+          "level": "H2",
+          "text": "A more useful digital foundation for your roofing work."
+        },
+        {
+          "level": "H3",
+          "text": "Better-informed customers"
+        },
+        {
+          "level": "H3",
+          "text": "More useful inquiry context"
+        },
+        {
+          "level": "H3",
+          "text": "Easier ongoing improvement"
+        },
+        {
+          "level": "H2",
+          "text": "Questions worth answering before we begin."
+        },
+        {
+          "level": "H3",
+          "text": "Why does a roofing company need more than a basic website?"
+        },
+        {
+          "level": "H3",
+          "text": "How can digital work support roofing inquiries?"
+        },
+        {
+          "level": "H3",
+          "text": "Can the website include before-and-after roofing photographs?"
+        },
+        {
+          "level": "H3",
+          "text": "Can you help with our Google Business profile and service areas?"
+        },
+        {
+          "level": "H3",
+          "text": "Do we need to replace our existing roofing website?"
+        },
+        {
+          "level": "H3",
+          "text": "Can estimate requests connect to our existing tools?"
+        },
+        {
+          "level": "H2",
+          "text": "Explore the work behind your next step."
+        },
+        {
+          "level": "H3",
+          "text": "Web & App Development"
+        },
+        {
+          "level": "H3",
+          "text": "SEO & Digital Growth"
+        },
+        {
+          "level": "H3",
+          "text": "AI & Workflow Automation"
+        },
+        {
+          "level": "H3",
+          "text": "Construction"
+        },
+        {
+          "level": "H3",
+          "text": "Real Estate"
+        },
+        {
+          "level": "H3",
+          "text": "Small Business"
+        },
+        {
+          "level": "H2",
+          "text": "Let’s make your roofing business easier to find and understand."
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "alt": "A person on the metal roof of a timber house"
+        },
+        {
+          "loaded": true,
+          "alt": "A person on the metal roof of a timber house"
+        }
+      ],
+      "overflow": [],
+      "bodyMotion": false,
+      "mediaOrder": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": [
+        "Roofing"
+      ],
+      "sections": [
+        "roofing-overview",
+        "roofing-needs",
+        "roofing-services",
+        "roofing-growth",
+        "roofing-process",
+        "roofing-outcomes",
+        "roofing-faq",
+        "roofing-related",
+        "roofing-cta"
+      ],
+      "headings": [
+        {
+          "level": "H1",
+          "text": "Roofing"
+        },
+        {
+          "level": "H2",
+          "text": "A stronger first impression, before the first estimate."
+        },
+        {
+          "level": "H2",
+          "text": "Make it easier to choose you with confidence."
+        },
+        {
+          "level": "H3",
+          "text": "Clear services and coverage"
+        },
+        {
+          "level": "H3",
+          "text": "Evidence people can evaluate"
+        },
+        {
+          "level": "H3",
+          "text": "A practical inquiry path"
+        },
+        {
+          "level": "H2",
+          "text": "The right digital tools for the work you do."
+        },
+        {
+          "level": "H3",
+          "text": "Roofing websites and service pages"
+        },
+        {
+          "level": "H3",
+          "text": "Local SEO and business profiles"
+        },
+        {
+          "level": "H3",
+          "text": "Project galleries and trust content"
+        },
+        {
+          "level": "H3",
+          "text": "Focused campaigns and landing pages"
+        },
+        {
+          "level": "H3",
+          "text": "Estimate requests and connected workflows"
+        },
+        {
+          "level": "H3",
+          "text": "Hosting, maintenance and technical support"
+        },
+        {
+          "level": "H2",
+          "text": "Connect discovery to the next conversation."
+        },
+        {
+          "level": "H3",
+          "text": "Attract"
+        },
+        {
+          "level": "H3",
+          "text": "Build Trust"
+        },
+        {
+          "level": "H3",
+          "text": "Convert"
+        },
+        {
+          "level": "H3",
+          "text": "Grow"
+        },
+        {
+          "level": "H2",
+          "text": "A clear process, built around your roofing business."
+        },
+        {
+          "level": "H3",
+          "text": "Discovery"
+        },
+        {
+          "level": "H3",
+          "text": "Strategy"
+        },
+        {
+          "level": "H3",
+          "text": "Design & Build"
+        },
+        {
+          "level": "H3",
+          "text": "Launch & Growth"
+        },
+        {
+          "level": "H2",
+          "text": "A more useful digital foundation for your roofing work."
+        },
+        {
+          "level": "H3",
+          "text": "Better-informed customers"
+        },
+        {
+          "level": "H3",
+          "text": "More useful inquiry context"
+        },
+        {
+          "level": "H3",
+          "text": "Easier ongoing improvement"
+        },
+        {
+          "level": "H2",
+          "text": "Questions worth answering before we begin."
+        },
+        {
+          "level": "H3",
+          "text": "Why does a roofing company need more than a basic website?"
+        },
+        {
+          "level": "H3",
+          "text": "How can digital work support roofing inquiries?"
+        },
+        {
+          "level": "H3",
+          "text": "Can the website include before-and-after roofing photographs?"
+        },
+        {
+          "level": "H3",
+          "text": "Can you help with our Google Business profile and service areas?"
+        },
+        {
+          "level": "H3",
+          "text": "Do we need to replace our existing roofing website?"
+        },
+        {
+          "level": "H3",
+          "text": "Can estimate requests connect to our existing tools?"
+        },
+        {
+          "level": "H2",
+          "text": "Explore the work behind your next step."
+        },
+        {
+          "level": "H3",
+          "text": "Web & App Development"
+        },
+        {
+          "level": "H3",
+          "text": "SEO & Digital Growth"
+        },
+        {
+          "level": "H3",
+          "text": "AI & Workflow Automation"
+        },
+        {
+          "level": "H3",
+          "text": "Construction"
+        },
+        {
+          "level": "H3",
+          "text": "Real Estate"
+        },
+        {
+          "level": "H3",
+          "text": "Small Business"
+        },
+        {
+          "level": "H2",
+          "text": "Let’s make your roofing business easier to find and understand."
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "alt": "A person on the metal roof of a timber house"
+        },
+        {
+          "loaded": true,
+          "alt": "A person on the metal roof of a timber house"
+        }
+      ],
+      "overflow": [],
+      "bodyMotion": false,
+      "mediaOrder": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "h1": [
+        "Roofing"
+      ],
+      "sections": [
+        "roofing-overview",
+        "roofing-needs",
+        "roofing-services",
+        "roofing-growth",
+        "roofing-process",
+        "roofing-outcomes",
+        "roofing-faq",
+        "roofing-related",
+        "roofing-cta"
+      ],
+      "headings": [
+        {
+          "level": "H1",
+          "text": "Roofing"
+        },
+        {
+          "level": "H2",
+          "text": "A stronger first impression, before the first estimate."
+        },
+        {
+          "level": "H2",
+          "text": "Make it easier to choose you with confidence."
+        },
+        {
+          "level": "H3",
+          "text": "Clear services and coverage"
+        },
+        {
+          "level": "H3",
+          "text": "Evidence people can evaluate"
+        },
+        {
+          "level": "H3",
+          "text": "A practical inquiry path"
+        },
+        {
+          "level": "H2",
+          "text": "The right digital tools for the work you do."
+        },
+        {
+          "level": "H3",
+          "text": "Roofing websites and service pages"
+        },
+        {
+          "level": "H3",
+          "text": "Local SEO and business profiles"
+        },
+        {
+          "level": "H3",
+          "text": "Project galleries and trust content"
+        },
+        {
+          "level": "H3",
+          "text": "Focused campaigns and landing pages"
+        },
+        {
+          "level": "H3",
+          "text": "Estimate requests and connected workflows"
+        },
+        {
+          "level": "H3",
+          "text": "Hosting, maintenance and technical support"
+        },
+        {
+          "level": "H2",
+          "text": "Connect discovery to the next conversation."
+        },
+        {
+          "level": "H3",
+          "text": "Attract"
+        },
+        {
+          "level": "H3",
+          "text": "Build Trust"
+        },
+        {
+          "level": "H3",
+          "text": "Convert"
+        },
+        {
+          "level": "H3",
+          "text": "Grow"
+        },
+        {
+          "level": "H2",
+          "text": "A clear process, built around your roofing business."
+        },
+        {
+          "level": "H3",
+          "text": "Discovery"
+        },
+        {
+          "level": "H3",
+          "text": "Strategy"
+        },
+        {
+          "level": "H3",
+          "text": "Design & Build"
+        },
+        {
+          "level": "H3",
+          "text": "Launch & Growth"
+        },
+        {
+          "level": "H2",
+          "text": "A more useful digital foundation for your roofing work."
+        },
+        {
+          "level": "H3",
+          "text": "Better-informed customers"
+        },
+        {
+          "level": "H3",
+          "text": "More useful inquiry context"
+        },
+        {
+          "level": "H3",
+          "text": "Easier ongoing improvement"
+        },
+        {
+          "level": "H2",
+          "text": "Questions worth answering before we begin."
+        },
+        {
+          "level": "H3",
+          "text": "Why does a roofing company need more than a basic website?"
+        },
+        {
+          "level": "H3",
+          "text": "How can digital work support roofing inquiries?"
+        },
+        {
+          "level": "H3",
+          "text": "Can the website include before-and-after roofing photographs?"
+        },
+        {
+          "level": "H3",
+          "text": "Can you help with our Google Business profile and service areas?"
+        },
+        {
+          "level": "H3",
+          "text": "Do we need to replace our existing roofing website?"
+        },
+        {
+          "level": "H3",
+          "text": "Can estimate requests connect to our existing tools?"
+        },
+        {
+          "level": "H2",
+          "text": "Explore the work behind your next step."
+        },
+        {
+          "level": "H3",
+          "text": "Web & App Development"
+        },
+        {
+          "level": "H3",
+          "text": "SEO & Digital Growth"
+        },
+        {
+          "level": "H3",
+          "text": "AI & Workflow Automation"
+        },
+        {
+          "level": "H3",
+          "text": "Construction"
+        },
+        {
+          "level": "H3",
+          "text": "Real Estate"
+        },
+        {
+          "level": "H3",
+          "text": "Small Business"
+        },
+        {
+          "level": "H2",
+          "text": "Let’s make your roofing business easier to find and understand."
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "alt": "A person on the metal roof of a timber house"
+        },
+        {
+          "loaded": true,
+          "alt": "A person on the metal roof of a timber house"
+        }
+      ],
+      "overflow": [],
+      "bodyMotion": false,
+      "mediaOrder": true,
+      "keyboard": true,
+      "errors": []
+    }
+  ]
+}

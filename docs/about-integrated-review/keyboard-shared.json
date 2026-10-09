@@ -1,0 +1,772 @@
+{
+  "keyboardReachesHeaderMainFooter": true,
+  "noInactiveSlideFocus": true,
+  "footerContentAndImagesMatchHomepage": true,
+  "sequence": [
+    {
+      "tag": "A",
+      "text": "Skip to content",
+      "hidden": false,
+      "width": 155.75,
+      "height": 52.890625,
+      "outline": "solid",
+      "area": "other"
+    },
+    {
+      "tag": "A",
+      "text": "Contact",
+      "hidden": false,
+      "width": 70.1875,
+      "height": 30,
+      "outline": "solid",
+      "area": "other"
+    },
+    {
+      "tag": "A",
+      "text": "Support",
+      "hidden": false,
+      "width": 70.734375,
+      "height": 30,
+      "outline": "solid",
+      "area": "other"
+    },
+    {
+      "tag": "A",
+      "text": "Client Area",
+      "hidden": false,
+      "width": 90.5,
+      "height": 30,
+      "outline": "solid",
+      "area": "other"
+    },
+    {
+      "tag": "A",
+      "text": "CODEYEA home",
+      "hidden": false,
+      "width": 205,
+      "height": 46.515625,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "About Us",
+      "hidden": false,
+      "width": 75.578125,
+      "height": 30.59375,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Services",
+      "hidden": false,
+      "width": 64.96875,
+      "height": 30.59375,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "SUMMARY",
+      "text": "Open Services menu",
+      "hidden": false,
+      "width": 28,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Explore Services ↗",
+      "hidden": false,
+      "width": 202.421875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Web & App Development",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "eCommerce Solutions",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "AI & Automation",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Hosting & Infrastructure",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "SEO & Digital Growth",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Branding & Creative",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Technical Support",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Digital Strategy",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Hosting",
+      "hidden": false,
+      "width": 62.9375,
+      "height": 30.59375,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Industries",
+      "hidden": false,
+      "width": 77.765625,
+      "height": 30.59375,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "SUMMARY",
+      "text": "Open Industries menu",
+      "hidden": false,
+      "width": 28,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Explore Industries ↗",
+      "hidden": false,
+      "width": 202.421875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Construction",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Real Estate",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Oil & Gas",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Roofing",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Healthcare & Aesthetic Clinics",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "eCommerce",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Legal",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Small Business",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Work",
+      "hidden": false,
+      "width": 42,
+      "height": 30.59375,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Get Your Free Quote",
+      "hidden": false,
+      "width": 208.453125,
+      "height": 61.1875,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Interior Design",
+      "hidden": false,
+      "width": 302.390625,
+      "height": 700,
+      "outline": "solid",
+      "area": "main"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Construction",
+      "hidden": false,
+      "width": 302.40625,
+      "height": 700,
+      "outline": "solid",
+      "area": "main"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Residential",
+      "hidden": false,
+      "width": 302.390625,
+      "height": 700,
+      "outline": "solid",
+      "area": "main"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "City planning",
+      "hidden": false,
+      "width": 302.40625,
+      "height": 700,
+      "outline": "solid",
+      "area": "main"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "Strategy To Succeed_We combine research, insights, and data to understand consumer behavior better. ",
+      "hidden": false,
+      "width": 380,
+      "height": 225,
+      "outline": "solid",
+      "area": "main"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "Creative Vision Without The Limits_Urban design draws together the many strands of place-making, env",
+      "hidden": false,
+      "width": 380,
+      "height": 225,
+      "outline": "solid",
+      "area": "main"
+    },
+    {
+      "tag": "ARTICLE",
+      "text": "Unmatched Technical Prowess_Our wide range of skills makes us the one-stop shop for all digital solu",
+      "hidden": false,
+      "width": 380,
+      "height": 225,
+      "outline": "solid",
+      "area": "main"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Learn More ›",
+      "hidden": false,
+      "width": 221.015625,
+      "height": 57.1875,
+      "outline": "solid",
+      "area": "main"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Show slide 1: Social Media Management",
+      "hidden": false,
+      "width": 44,
+      "height": 44,
+      "outline": "solid",
+      "area": "main"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Show slide 2: Mobile Development",
+      "hidden": false,
+      "width": 44,
+      "height": 44,
+      "outline": "solid",
+      "area": "main"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Show slide 3: eCommerce Solutions",
+      "hidden": false,
+      "width": 44,
+      "height": 44,
+      "outline": "solid",
+      "area": "main"
+    },
+    {
+      "tag": "A",
+      "text": "Start a conversation→",
+      "hidden": false,
+      "width": 235.28125,
+      "height": 52.390625,
+      "outline": "solid",
+      "area": "footer"
+    },
+    {
+      "tag": "A",
+      "text": "About Us",
+      "hidden": false,
+      "width": 67.171875,
+      "height": 38,
+      "outline": "solid",
+      "area": "footer"
+    },
+    {
+      "tag": "A",
+      "text": "Services",
+      "hidden": false,
+      "width": 57.75,
+      "height": 38,
+      "outline": "solid",
+      "area": "footer"
+    },
+    {
+      "tag": "A",
+      "text": "Hosting",
+      "hidden": false,
+      "width": 55.9375,
+      "height": 38,
+      "outline": "solid",
+      "area": "footer"
+    },
+    {
+      "tag": "A",
+      "text": "Industries",
+      "hidden": false,
+      "width": 69.125,
+      "height": 38,
+      "outline": "solid",
+      "area": "footer"
+    },
+    {
+      "tag": "A",
+      "text": "Work",
+      "hidden": false,
+      "width": 37.328125,
+      "height": 38,
+      "outline": "solid",
+      "area": "footer"
+    },
+    {
+      "tag": "A",
+      "text": "Contact us",
+      "hidden": false,
+      "width": 77.140625,
+      "height": 38,
+      "outline": "solid",
+      "area": "footer"
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "hidden": false,
+      "width": 333.1875,
+      "height": 44,
+      "outline": "solid",
+      "area": "footer"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Submit email address",
+      "hidden": false,
+      "width": 44,
+      "height": 47.59375,
+      "outline": "solid",
+      "area": "footer"
+    },
+    {
+      "tag": "A",
+      "text": "Client portal",
+      "hidden": false,
+      "width": 90.609375,
+      "height": 38,
+      "outline": "solid",
+      "area": "footer"
+    },
+    {
+      "tag": "A",
+      "text": "Technical support",
+      "hidden": false,
+      "width": 125.46875,
+      "height": 38,
+      "outline": "solid",
+      "area": "footer"
+    },
+    {
+      "tag": "A",
+      "text": "Open content studio",
+      "hidden": false,
+      "width": 147.265625,
+      "height": 38,
+      "outline": "solid",
+      "area": "footer"
+    },
+    {
+      "tag": "BODY",
+      "text": "Private About draft · version 5 · Not publishedSkip to contentContactSupportClient AreaAbout UsServi",
+      "hidden": false,
+      "width": 1440,
+      "height": 5943.953125,
+      "outline": "none",
+      "area": "other"
+    },
+    {
+      "tag": "A",
+      "text": "Skip to content",
+      "hidden": false,
+      "width": 155.75,
+      "height": 52.890625,
+      "outline": "solid",
+      "area": "other"
+    },
+    {
+      "tag": "A",
+      "text": "Contact",
+      "hidden": false,
+      "width": 70.1875,
+      "height": 30,
+      "outline": "solid",
+      "area": "other"
+    },
+    {
+      "tag": "A",
+      "text": "Support",
+      "hidden": false,
+      "width": 70.734375,
+      "height": 30,
+      "outline": "solid",
+      "area": "other"
+    },
+    {
+      "tag": "A",
+      "text": "Client Area",
+      "hidden": false,
+      "width": 90.5,
+      "height": 30,
+      "outline": "solid",
+      "area": "other"
+    },
+    {
+      "tag": "A",
+      "text": "CODEYEA home",
+      "hidden": false,
+      "width": 205,
+      "height": 46.515625,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "About Us",
+      "hidden": false,
+      "width": 75.578125,
+      "height": 30.59375,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Services",
+      "hidden": false,
+      "width": 64.96875,
+      "height": 30.59375,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "SUMMARY",
+      "text": "Open Services menu",
+      "hidden": false,
+      "width": 28,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Explore Services ↗",
+      "hidden": false,
+      "width": 202.421875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Web & App Development",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "eCommerce Solutions",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "AI & Automation",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Hosting & Infrastructure",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "SEO & Digital Growth",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Branding & Creative",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Technical Support",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Digital Strategy",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Hosting",
+      "hidden": false,
+      "width": 62.9375,
+      "height": 30.59375,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Industries",
+      "hidden": false,
+      "width": 77.765625,
+      "height": 30.59375,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "SUMMARY",
+      "text": "Open Industries menu",
+      "hidden": false,
+      "width": 28,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Explore Industries ↗",
+      "hidden": false,
+      "width": 202.421875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Construction",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Real Estate",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Oil & Gas",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Roofing",
+      "hidden": false,
+      "width": 279.28125,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Healthcare & Aesthetic Clinics",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "eCommerce",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Legal",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Small Business",
+      "hidden": false,
+      "width": 279.296875,
+      "height": 44,
+      "outline": "solid",
+      "area": "header"
+    },
+    {
+      "tag": "A",
+      "text": "Work",
+      "hidden": false,
+      "width": 42,
+      "height": 30.59375,
+      "outline": "solid",
+      "area": "header"
+    }
+  ]
+}

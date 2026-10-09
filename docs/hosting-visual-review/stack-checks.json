@@ -1,0 +1,16 @@
+[
+  {
+    "width": 1440,
+    "fullWidth": true,
+    "scrollDimming": true,
+    "noOverflow": true,
+    "reducedMotion": true
+  },
+  {
+    "width": 390,
+    "fullWidth": true,
+    "scrollDimming": true,
+    "noOverflow": true,
+    "reducedMotion": true
+  }
+]

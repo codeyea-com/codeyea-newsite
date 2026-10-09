@@ -1,0 +1,71 @@
+[
+  {
+    "slug": "healthcare",
+    "javaScript": false,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "e-commerce",
+    "javaScript": false,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "oil-and-gas",
+    "javaScript": false,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "healthcare",
+    "javaScript": true,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "e-commerce",
+    "javaScript": true,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "oil-and-gas",
+    "javaScript": true,
+    "overflow": false,
+    "hidden": 0,
+    "imageTravel": "",
+    "faqTap": true
+  },
+  {
+    "slug": "healthcare",
+    "reducedMotion": true,
+    "keyboard": true,
+    "focusIndicator": "solid",
+    "contactDestination": true
+  },
+  {
+    "slug": "e-commerce",
+    "reducedMotion": true,
+    "keyboard": true,
+    "focusIndicator": "solid",
+    "contactDestination": true
+  },
+  {
+    "slug": "oil-and-gas",
+    "reducedMotion": true,
+    "keyboard": true,
+    "focusIndicator": "solid",
+    "contactDestination": true
+  }
+]

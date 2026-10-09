@@ -1,0 +1,19 @@
+{
+  "beforeVersion": 8,
+  "afterVersion": 9,
+  "slide04Unchanged": true,
+  "heroIntroductionExperienceUnchanged": true,
+  "homepageUnchanged": true,
+  "publishedUnchanged": true,
+  "noSchemaOrSourceChanges": true,
+  "missing": [
+    "Centered statement body exists in CMS but is not rendered",
+    "Final section label exists but is not rendered",
+    "Final column titles exist but are not rendered",
+    "Column 4 Partnership has no item slot: current collection maximum is three"
+  ],
+  "notSaved": {
+    "title": "Partnership",
+    "body": "Digital needs continue to change after launch. We remain available to improve, connect, repair, expand, and explain the systems that support the business as it evolves."
+  }
+}

@@ -1,0 +1,6 @@
+'use client';
+import {useState} from 'react';
+type Route={title:string;path:string|null;preview:string;status:string;available:boolean};
+export function RouteMap(){const [routes,setRoutes]=useState<Route[]>([]),[message,setMessage]=useState(''),[busy,setBusy]=useState(false),[loaded,setLoaded]=useState(false);
+async function load(){setBusy(true);try{const r=await fetch('/api/site-routes',{cache:'no-store'}),d=await r.json();if(!r.ok)throw Error(d.error);setRoutes(d.routes);setLoaded(true);setMessage(d.indexingEnabled?'The sitemap lists eligible published pages.':'The public sitemap is disabled until launch. Draft pages are excluded.')}catch(e){setMessage(String(e))}finally{setBusy(false)}}
+return <details className="site-report" onToggle={e=>{if(e.currentTarget.open&&!loaded&&!busy)load()}}><summary>Page routes & sitemap readiness</summary><p role="status">{busy?'Loading…':message}</p><div style={{overflowX:'auto'}}><table><thead><tr><th>Page</th><th>Planned URL</th><th>Status</th><th>Preview</th></tr></thead><tbody>{routes.map(r=><tr key={r.preview}><td>{r.title}</td><td>{r.path||'Not assigned'}</td><td>{r.status}</td><td><a href={r.preview} target="_blank" rel="noreferrer">Open draft ↗</a></td></tr>)}</tbody></table></div></details>}
