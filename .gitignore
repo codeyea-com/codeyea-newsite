@@ -2,6 +2,7 @@ node_modules/
 .next/
 .next-*/
 .superpowers/
+.worktrees/
 .env
 .env.*
 !.env.example
