@@ -39,6 +39,7 @@ html:not(.sv-js) .services-page .rp-card-detail{opacity:1;max-height:none;visibi
 .services-page .rp-service-heading h2{white-space:pre-line}
 .services-page .rp-card-icon .hp-service-icon{color:white}
 .hp.services-page .hp-header{margin-bottom:0}
+.services-page .about-hero{background-color:#f8f8f8;background-image:repeating-linear-gradient(90deg,transparent 0 87.5px,rgb(7 36 72 / 2%) 87.5px 88px);background-repeat:repeat-y}
 
 /* Each editorial panel owns its scroll entrance; the sticky image stays fixed. */
 @media(min-width:801px){.services-page .rp-strategy>div>article:not(:last-child){min-height:max(475px,65svh)}}
