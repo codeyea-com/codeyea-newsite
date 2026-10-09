@@ -222,7 +222,10 @@ export async function renderDocument(
       '"$2>',
   );
   // Keep approved templates server-side. Only allowlisted assets are exposed through the private asset route.
-  if(options.public)html=rewritePublicDocumentLinks(html,locale as 'en'|'ar');
+  if(options.public){
+    html=rewritePublicDocumentLinks(html,locale as 'en'|'ar');
+    html=html.replace(/<div\b(?=[^>]*\bclass=["'][^"']*\babout-preview-banner\b)[^>]*>[\s\S]*?<\/div>/i,'');
+  }
   html=applyTemplateImageOverrides(html,content.images);
   if(!options.public){
     html=html.replaceAll("/preview#services", "/preview/services");

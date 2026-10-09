@@ -57,6 +57,7 @@ test("every approved service template loads its new hero without replacing page 
       { public: true },
     );
     assert.ok(publicRendered.includes("surface=public"), `${slug}: public hero assets use public routes`);
+    assert.doesNotMatch(publicRendered, /Design preview only/i, `${slug}: hide the review banner publicly`);
   }
   assert.equal(Object.keys(concepts).length, 13);
 });
