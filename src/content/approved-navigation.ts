@@ -78,7 +78,7 @@ const descriptions: Record<string, string> = {
   Roofing: "Show your work and capture project enquiries.",
   "Small Business": "Build a stronger presence for your business.",
 };
-function industryHref(title: string, fallback: string) {
+function industryHref(title: string, fallback: string, surface: "preview" | "public") {
   const aliases: Record<string, string> = {
     "Healthcare & Aesthetic Clinics": "healthcare",
     eCommerce: "e-commerce",
@@ -86,9 +86,15 @@ function industryHref(title: string, fallback: string) {
   };
   const slug =
     aliases[title] || industrySlugs.find((s) => industryNames[s] === title);
-  return slug ? "/preview/industries/" + slug : fallback;
+  if (!slug) return fallback;
+  return surface === "public"
+    ? "/industries/" + slug + "/"
+    : "/preview/industries/" + slug;
 }
-export function approvedMenuContent(content: EditorObject): EditorObject {
+export function approvedMenuContent(
+  content: EditorObject,
+  surface: "preview" | "public" = "preview",
+): EditorObject {
   const source = enabledItems(content.items),
     roots = source.filter(
       (i) =>
@@ -104,12 +110,14 @@ export function approvedMenuContent(content: EditorObject): EditorObject {
       ...root,
       href:
         title === "About Us"
-          ? "/preview/about"
+          ? surface === "public" ? "/about/" : "/preview/about"
           : title === "Services"
-            ? "/preview/services"
+            ? surface === "public" ? "/services/" : "/preview/services"
             : title === "Industries"
-              ? "/preview/industries"
-              : root.href,
+              ? surface === "public" ? "/industries/" : "/preview/industries"
+              : title === "Hosting" && surface === "public"
+                ? "/website-hosting/"
+                : root.href,
     });
     if (title === "Hosting" || title === "Services") {
       (title === "Hosting" ? hosting : services).forEach(
@@ -119,7 +127,7 @@ export function approvedMenuContent(content: EditorObject): EditorObject {
             parentId: id,
             title: name,
             body,
-            href: "/preview/pages/" + slug,
+            href: surface === "public" ? "/" + slug + "/" : "/preview/pages/" + slug,
             icon,
             enabled: true,
             position: items.length,
@@ -129,7 +137,7 @@ export function approvedMenuContent(content: EditorObject): EditorObject {
         items.push({
           id: "approved-domains",
           title: "Domains",
-          href: "/preview/pages/domains",
+          href: surface === "public" ? "/domains/" : "/preview/pages/domains",
           enabled: true,
           position: items.length,
         });
@@ -137,7 +145,7 @@ export function approvedMenuContent(content: EditorObject): EditorObject {
       for (const child of source.filter((i) => i.parentId === id))
         items.push({
           ...child,
-          href: industryHref(str(child.title), str(child.href)),
+          href: industryHref(str(child.title), str(child.href), surface),
           body:
             descriptions[str(child.title)] ||
             str(child.body) ||

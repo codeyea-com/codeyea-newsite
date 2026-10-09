@@ -2,6 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { Script } from "node:vm";
 import { approvedMenuContent } from "../src/content/approved-navigation";
+import type { EditorObject } from "../src/schemas/homepage-editor";
 import { leadSchema, recipients } from "../src/schemas/lead";
 import {
   approvedTemplates,
@@ -66,7 +67,7 @@ test("approved templates retain entities and use private integrated assets", asy
     assert.ok(fields.length > 0, slug);
     const result = await renderDocument(
       slug,
-      { fields, description: "" },
+      { fields, description: "An approved page." },
       "en",
     );
     assert.ok(result.includes("noindex,nofollow"), slug);
@@ -126,6 +127,27 @@ test("approved navigation groups hosting support and places Domains directly aft
     links.find((i) => i.title === "Technical Support")?.href,
     "/preview/pages/technical-support",
   );
+});
+test("public approved navigation links point to public page routes", () => {
+  const items: EditorObject[] = [
+    { id: "services", title: "Services", href: "/preview#services", enabled: true, position: 0 },
+    { id: "hosting", title: "Hosting", href: "/preview#hosting", enabled: true, position: 1 },
+    { id: "industries", title: "Industries", href: "/preview/industries", enabled: true, position: 2 },
+    { id: "industry-healthcare", parentId: "industries", title: "Healthcare & Aesthetic Clinics", href: "/preview#industry-list", enabled: true, position: 3 },
+  ];
+  const links = (approvedMenuContent({ items }, "public").items as {
+    id: string;
+    parentId?: string;
+    title: string;
+    href: string;
+  }[]);
+  assert.equal(links.find((item) => item.title === "Services")?.href, "/services/");
+  assert.equal(links.find((item) => item.title === "Hosting")?.href, "/website-hosting/");
+  assert.equal(links.find((item) => item.title === "Industries")?.href, "/industries/");
+  assert.equal(links.find((item) => item.title === "Domains")?.href, "/domains/");
+  assert.equal(links.find((item) => item.title === "SEO & GEO")?.href, "/seo-geo/");
+  assert.equal(links.find((item) => item.title === "Technical Support")?.href, "/technical-support/");
+  assert.equal(links.find((item) => item.title === "Healthcare & Aesthetic Clinics")?.href, "/industries/healthcare/");
 });
 test("edited page content and titles cannot inject markup", async () => {
   const fields = extractFields(await templateContent("contact"));

@@ -5,6 +5,8 @@ import path from "node:path";
 import {
   approvedTemplates,
   extractFields,
+  isPublicTemplateAsset,
+  rewriteTemplateAssetCode,
   renderDocument,
 } from "../src/server/site-documents";
 
@@ -38,7 +40,7 @@ test("every approved service template loads its new hero without replacing page 
     assert.ok(main.length > 1000, `${slug}: preserve existing sections`);
     const rendered = await renderDocument(
       slug,
-      { fields: extractFields(html), description: "" },
+      { fields: extractFields(html), description: "An approved service page." },
       "en",
     );
     const assetPath = `/api/site-assets/${concept}.css`;
@@ -47,6 +49,14 @@ test("every approved service template loads its new hero without replacing page 
       rendered.includes(`/api/site-assets/${concept}-site.js`),
       `${slug}: serve the integrated hero in CMS preview`,
     );
+    const publicRendered = await renderDocument(
+      slug,
+      { fields: extractFields(html), description: "An approved service page." },
+      "en",
+      undefined,
+      { public: true },
+    );
+    assert.ok(publicRendered.includes("surface=public"), `${slug}: public hero assets use public routes`);
   }
   assert.equal(Object.keys(concepts).length, 13);
 });
@@ -63,4 +73,23 @@ test("site hero scripts do not hide the existing header, footer or page sections
   );
   assert.match(websiteScript, /source\.innerHTML/);
   assert.match(websiteScript, /sourceCta\.href/);
+});
+
+test("runtime assets remain public for templates that public routes can render", () => {
+  assert.equal(isPublicTemplateAsset("seo-geo-review/seo-geo-hero-concept.css"), true);
+  assert.equal(isPublicTemplateAsset("digital-service-template-preview/ai-automation-hero-concept-site.js"), true);
+  assert.equal(isPublicTemplateAsset("shared-navigation/hosting-menu.js"), true);
+  assert.equal(isPublicTemplateAsset("unapproved-template/private.js"), false);
+});
+
+test("public template scripts resolve links to public routes instead of preview routes", () => {
+  const result = rewriteTemplateAssetCode(
+    "shared-navigation/hosting-menu.js",
+    "'../seo-geo-review/seo-geo-interactive.html'; '/preview/services'; 'assets/menu.webp'",
+    "public",
+  );
+  assert.ok(result.includes("/seo-geo/"));
+  assert.ok(result.includes("/services/"));
+  assert.ok(result.includes("/api/site-assets/shared-navigation/assets/menu.webp"));
+  assert.ok(!result.includes("/preview/"));
 });

@@ -42,6 +42,37 @@ export type DocumentContent = {
   category?: string;
   tags?: string[];
 };
+/** Assets for these templates are intentionally public: public routes render the approved
+ * templates even before a CMS publication record exists. Keep the path allowlist narrow. */
+export function isPublicTemplateAsset(relative: string) {
+  if (relative.startsWith("shared-navigation/")) return true;
+  return Object.values(approvedTemplates).some((template) =>
+    relative.startsWith(path.posix.dirname(template) + "/"),
+  );
+}
+export function rewriteTemplateAssetCode(
+  relative: string,
+  source: string,
+  surface: "preview" | "public",
+  locale: "en" | "ar" = "en",
+) {
+  let text = source.replaceAll("../../public/", "/");
+  for (const [slug, template] of Object.entries(approvedTemplates)) {
+    const destination = surface === "public"
+      ? documentPath(slug, locale) ?? "/services/"
+      : "/preview/pages/" + slug + (locale === "ar" ? "?locale=ar" : "");
+    text = text.replaceAll("../" + template, destination);
+  }
+  if (surface === "public") {
+    text = text
+      .replaceAll("/preview/services", documentPath("services", locale) ?? "/services/")
+      .replaceAll("/preview/industries", documentPath("industries", locale) ?? "/industries/")
+      .replaceAll("/preview/about", documentPath("about", locale) ?? "/about/")
+      .replaceAll("/preview#services", documentPath("services", locale) ?? "/services/");
+  }
+  const base = path.posix.dirname(relative);
+  return text.replace(/(["'(])assets\//g, `$1/api/site-assets/${base}/assets/`);
+}
 export const templatePageTitles:Record<string,string>={
  'website-design':'Website Design','brand-design':'Brand Design',ecommerce:'eCommerce','seo-geo':'SEO & GEO',
  'digital-marketing':'Digital Marketing','web-mobile-apps':'Web & Mobile Apps','ai-automation':'AI & Automation',
@@ -229,10 +260,10 @@ export async function renderDocument(
       const resolved = path.posix.normalize(
         path.posix.join(path.posix.dirname(approvedTemplates[slug]), relative),
       );
-      return m.replace(
-        relative + suffix,
-        "/api/site-assets/" + resolved + suffix,
-      );
+      const assetSurface = options.public && /\.(?:css|js)$/i.test(relative)
+        ? (suffix ? "&" : "?") + "surface=public" + (locale === "ar" ? "&locale=ar" : "")
+        : "";
+      return m.replace(relative + suffix, "/api/site-assets/" + resolved + suffix + assetSurface);
     },
   );
   html = html.replace(

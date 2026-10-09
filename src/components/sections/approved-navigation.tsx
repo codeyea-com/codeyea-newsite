@@ -43,13 +43,16 @@ export function IndustryIcon({ title }: { title: string }) {
     </span>
   );
 }
-export function useApprovedNavigation(content: EditorObject) {
+export function useApprovedNavigation(
+  content: EditorObject,
+  surface: "preview" | "public" = "preview",
+) {
   const [active, setActive] = useState<string | null>(null),
     [current, setCurrent] = useState<string | null>(null),
     timer = useRef<ReturnType<typeof setTimeout> | null>(null),
     buttons = useRef<Record<string, HTMLButtonElement | null>>({}),
     panels = useRef<Record<string, HTMLDivElement | null>>({});
-  const menu = approvedMenuContent(content),
+  const menu = approvedMenuContent(content, surface),
     items = enabledItems(menu.items),
     roots = items.filter((i) => !i.parentId);
   const cancel = () => {
@@ -279,7 +282,7 @@ export function useApprovedNavigation(content: EditorObject) {
               )}
             </h3>
             <a
-              href={host ? "/preview/pages/technical-support" : str(item.href)}
+              href={host ? (surface === "public" ? "/technical-support/" : "/preview/pages/technical-support") : str(item.href)}
               className={current === feature ? "cy-current" : ""}
               {...linkProps(feature)}
             >

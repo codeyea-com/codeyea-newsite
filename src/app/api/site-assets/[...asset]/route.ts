@@ -1,9 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { approvedTemplates } from '@/server/site-documents';
-import { db } from '@/server/db';
-import { actor, failure, noStore } from '@/server/http';
-import { requirePermission } from '@/server/permissions';
+import { isPublicTemplateAsset, rewriteTemplateAssetCode } from '@/server/site-documents';
+import { failure, noStore } from '@/server/http';
 
 export async function GET(req: Request, { params }: { params: Promise<{ asset: string[] }> }) {
   try {
@@ -14,24 +12,15 @@ export async function GET(req: Request, { params }: { params: Promise<{ asset: s
     const file = path.resolve(root, ...asset);
     if (!file.startsWith(root + path.sep)) return new Response('Not found', { status: 404 });
 
-    const published = (await db.siteDocument.findMany({ where: { kind: 'page' }, select: { template: true, published: true } })).filter(doc => doc.published !== null);
-    const publicAsset = published.some(doc => {
-      const template = doc.template ? approvedTemplates[doc.template] : undefined;
-      return template ? relative.startsWith(path.posix.dirname(template) + '/') : false;
-    });
-    if (!publicAsset) {
-      const user = await actor(req);
-      await requirePermission(user?.id ?? null, 'view_admin');
-    }
+    if (!isPublicTemplateAsset(relative)) return new Response('Not found', { status: 404 });
 
     let body = await fs.readFile(file);
     const ext = path.extname(file);
     if (ext === '.css' || ext === '.js') {
-      let text = body.toString().replaceAll('../../public/', '/');
-      for (const [slug, template] of Object.entries(approvedTemplates)) text = text.replaceAll('../' + template, '/preview/pages/' + slug);
-      const base = path.posix.dirname(relative);
-      text = text.replace(/(["'(])assets\//g, `$1/api/site-assets/${base}/assets/`);
-      body = Buffer.from(text);
+      const url = new URL(req.url);
+      const surface = url.searchParams.get('surface') === 'public' ? 'public' : 'preview';
+      const locale = url.searchParams.get('locale') === 'ar' ? 'ar' : 'en';
+      body = Buffer.from(rewriteTemplateAssetCode(relative, body.toString(), surface, locale));
     }
     const types: Record<string, string> = { '.css': 'text/css', '.js': 'text/javascript', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.woff2': 'font/woff2' };
     return new Response(body, { headers: { ...noStore, 'Content-Type': types[ext], 'X-Content-Type-Options': 'nosniff' } });
