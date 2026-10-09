@@ -111,7 +111,7 @@ This milestone is a local review build, not a production launch. No WordPress cr
 - Email verification, password recovery delivery, MFA, user-management UI, media upload, SEO editor and AI tools remain deferred. No form pretends those integrations are connected.
 - `deepmerge-ts` and `mysql2` transitive overrides patch Prisma CLI advisory dependencies. The production build and migrations are verified with those overrides. Review/remove overrides when upstream adopts compatible patched versions.
 
-Deployment target: Netlify with Neon PostgreSQL. See [Netlify + Neon deployment checklist](docs/deployment/netlify-neon.md). Keep `DATABASE_URL` (pooled runtime connection) and `DIRECT_URL` (direct migration connection) in server-only environment settings. Do not deploy the `.local` development database/helper/access files. Production readiness work remains required before external exposure.
+Deployment target: Vercel with Neon PostgreSQL and private Vercel Blob storage. See [Vercel + Neon deployment checklist](docs/deployment/vercel-neon.md). Keep `DATABASE_URL` (pooled runtime connection) and `DIRECT_URL` (direct migration connection) in server-only environment settings. Do not deploy the `.local` development database/helper/access files. Production readiness work remains required before external exposure.
 
 Reference implementation guidance: [Better Auth options](https://better-auth.com/docs/reference/options), [Better Auth rate limiting](https://better-auth.com/docs/concepts/rate-limit), [Prisma and Better Auth](https://www.prisma.io/docs/guides/authentication/better-auth/nextjs).
 

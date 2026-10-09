@@ -1,6 +1,6 @@
 import { mkdir, open, lstat, unlink } from "node:fs/promises";
 import path from "node:path";
-import { getStore } from "@netlify/blobs";
+import { del, get, put } from "@vercel/blob";
 import { AppError } from "./errors";
 
 export interface MediaStorage {
@@ -53,31 +53,38 @@ export class LocalMediaStorage implements MediaStorage {
   }
 }
 
-/** Persistent CMS media for Netlify; deploy previews use a separate namespace. */
-export class NetlifyBlobsMediaStorage implements MediaStorage {
-  private store() {
-    const name = process.env.CONTEXT === "production" ? "codeyea-media-prod" : "codeyea-media-preview";
-    return getStore(name, { consistency: "strong" });
-  }
-
+/** CMS media stays private and is streamed through authenticated application routes. */
+export class VercelBlobMediaStorage implements MediaStorage {
   async put(key: string, data: Buffer) {
     validateKey(key);
     const copy = new Uint8Array(data.byteLength);
     copy.set(data);
-    const result = await this.store().set(key, copy.buffer, { onlyIfNew: true });
-    if (!result.modified) throw new AppError(409, "Media file already exists");
+    try {
+      await put(key, copy.buffer, {
+        access: "private",
+        allowOverwrite: false,
+        contentType: "image/webp",
+      });
+    } catch (error) {
+      if (error instanceof Error && error.message.toLowerCase().includes("already exists")) {
+        throw new AppError(409, "Media file already exists");
+      }
+      throw error;
+    }
   }
 
   async get(key: string) {
     validateKey(key);
-    const data = await this.store().get(key, { type: "arrayBuffer", consistency: "strong" });
-    if (!data) throw new AppError(404, "Media file not found");
-    return Buffer.from(data);
+    const result = await get(key, { access: "private" });
+    if (!result || result.statusCode !== 200 || !result.stream) {
+      throw new AppError(404, "Media file not found");
+    }
+    return Buffer.from(await new Response(result.stream).arrayBuffer());
   }
 
   async remove(key: string) {
     validateKey(key);
-    await this.store().delete(key);
+    await del(key);
   }
 }
 
@@ -85,6 +92,6 @@ const localMediaStorage = new LocalMediaStorage(
   path.join(process.cwd(), ".local", process.env.CODEYEA_ENV === "test" ? "test-media" : "media"),
 );
 
-export const mediaStorage: MediaStorage = process.env.CODEYEA_ENV !== "test" && process.env.NETLIFY === "true"
-  ? new NetlifyBlobsMediaStorage()
+export const mediaStorage: MediaStorage = process.env.CODEYEA_ENV !== "test" && process.env.VERCEL === "1"
+  ? new VercelBlobMediaStorage()
   : localMediaStorage;
