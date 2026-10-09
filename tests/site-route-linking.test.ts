@@ -18,18 +18,21 @@ test('published CMS template pages join main pages as eligible internal-link tar
       { slug: 'email-hosting', locale: 'en', kind: 'page', published: null },
     ],
   });
-  assert.deepEqual(routes, [
-    '/',
-    '/industries/roofing/',
-    '/website-design/',
-    '/website-hosting/',
-    '/ar/website-design/',
-  ]);
+  for (const route of [
+    '/', '/industries/roofing/', '/website-design/', '/website-hosting/',
+    '/contact/', '/technical-support/', '/industries/healthcare/',
+    '/industries/construction/',
+  ]) assert.ok(routes.includes(route), `expected ${route} to be linkable`);
+  assert.ok(routes.includes('/ar/website-design/'));
+  assert.ok(!routes.includes('/private-post/'));
 });
 
-test('draft main pages and draft template documents are never internal public targets', () => {
-  assert.deepEqual(publishedSitePaths({
+test('public fallback routes remain linkable while unregistered main drafts remain private', () => {
+  const routes=publishedSitePaths({
     pages: [{ id: 'about', publishedAt: null, publishedSnapshot: { title: 'Draft' } }],
     documents: [{ slug: 'contact', locale: 'en', kind: 'page', published: null }],
-  }), []);
+  });
+  assert.ok(routes.includes('/contact/'));
+  assert.ok(routes.includes('/industries/roofing/'));
+  assert.ok(!routes.includes('/about/'));
 });

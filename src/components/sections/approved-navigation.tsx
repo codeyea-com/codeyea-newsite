@@ -149,11 +149,14 @@ export function useApprovedNavigation(
         onPointerLeave={leave}
       >
         {children.length ? (
+          <span className="cy-nav-root">
+          <a className="cy-nav-root-link" href={str(item.href)}>{str(item.title)}</a>
           <button
             ref={(el) => {
               buttons.current[id] = el;
             }}
             className="cy-host-toggle"
+            aria-label={`Open ${str(item.title)} menu`}
             aria-expanded={active === id}
             aria-controls={"approved-" + id}
             onClick={() => (active === id ? close() : open(id))}
@@ -172,9 +175,9 @@ export function useApprovedNavigation(
                 leave();
             }}
           >
-            {str(item.title)}
             {arrow}
           </button>
+          </span>
         ) : (
           <a href={str(item.href)}>{str(item.title)}</a>
         )}

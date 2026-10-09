@@ -19,9 +19,11 @@ async function publishedAbout() {
     where: { id: "about", deletedAt: null },
     select: { publishedSnapshot: true },
   });
-  return page?.publishedSnapshot
-    ? snapshotSchema.parse(page.publishedSnapshot).about
-    : undefined;
+  if (!page?.publishedSnapshot) return undefined;
+  const about = snapshotSchema.parse(page.publishedSnapshot).about;
+  // Version 1 is the earlier generic About layout. The public fallback below
+  // uses the restored editorial design until the owner republishes version 2.
+  return about?.schemaVersion === 2 ? about : undefined;
 }
 export async function generateMetadata(): Promise<Metadata> {
   const about = await publishedAbout();

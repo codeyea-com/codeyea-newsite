@@ -1,0 +1,32 @@
+/* Subtle page-wide guide lines shared by the public HTML service templates. */
+.hp.public-surface main {
+  --page-grid-edge: max(56px, calc((100% - 1200px) / 2));
+  --page-grid-one: calc(var(--page-grid-edge) + (100% - 2 * var(--page-grid-edge)) / 3);
+  --page-grid-two: calc(var(--page-grid-edge) + (100% - 2 * var(--page-grid-edge)) * 2 / 3);
+  --page-grid-stroke: 0.5px;
+  --page-grid-line: rgb(7 36 72 / 7%);
+  background-image:
+    repeating-linear-gradient(0deg, transparent 0 87.5px, rgb(7 36 72 / 2%) 87.5px 88px),
+    linear-gradient(90deg, transparent var(--page-grid-edge), var(--page-grid-line) var(--page-grid-edge), var(--page-grid-line) calc(var(--page-grid-edge) + var(--page-grid-stroke)), transparent calc(var(--page-grid-edge) + var(--page-grid-stroke))),
+    linear-gradient(90deg, transparent var(--page-grid-one), var(--page-grid-line) var(--page-grid-one), var(--page-grid-line) calc(var(--page-grid-one) + var(--page-grid-stroke)), transparent calc(var(--page-grid-one) + var(--page-grid-stroke))),
+    linear-gradient(90deg, transparent var(--page-grid-two), var(--page-grid-line) var(--page-grid-two), var(--page-grid-line) calc(var(--page-grid-two) + var(--page-grid-stroke)), transparent calc(var(--page-grid-two) + var(--page-grid-stroke))),
+    linear-gradient(90deg, transparent calc(100% - var(--page-grid-edge) - var(--page-grid-stroke)), var(--page-grid-line) calc(100% - var(--page-grid-edge) - var(--page-grid-stroke)), var(--page-grid-line) calc(100% - var(--page-grid-edge)), transparent calc(100% - var(--page-grid-edge)));
+  background-position: 0 0;
+  background-repeat: repeat-y;
+}
+
+@media (max-width: 1199px) {
+  .hp.public-surface main {
+    --page-grid-edge: 32px;
+    --page-grid-one: 50%;
+    --page-grid-two: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .hp.public-surface main {
+    --page-grid-edge: 20px;
+    --page-grid-one: 50%;
+    --page-grid-two: 100%;
+  }
+}

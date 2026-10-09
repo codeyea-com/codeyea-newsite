@@ -45,7 +45,7 @@ export type DocumentContent = {
 /** Assets for these templates are intentionally public: public routes render the approved
  * templates even before a CMS publication record exists. Keep the path allowlist narrow. */
 export function isPublicTemplateAsset(relative: string) {
-  if (relative.startsWith("shared-navigation/")) return true;
+  if (relative.startsWith("shared-navigation/") || relative.startsWith("quote-review/")) return true;
   return Object.values(approvedTemplates).some((template) =>
     relative.startsWith(path.posix.dirname(template) + "/"),
   );
@@ -328,8 +328,33 @@ export async function renderDocument(
     "</body>",
     '<script src="/site/lead-forms.js"></script></body>',
   );
+  if(!html.includes('quote-panel.js')){
+    html=html.replace('</head>','<link rel="stylesheet" href="/api/site-assets/quote-review/quote-panel.css"><script>window.CODEYEA_LEADS_ENABLED=true</script></head>');
+    html=html.replace('</body>','<script src="/api/site-assets/quote-review/quote-panel.js?surface=public"></script></body>');
+  }
+  const contactHref=publicRoute('contact');
+  html=html.replace(/<a\b[^>]*\bhp-header-quote\b[^>]*>/gi,tag=>tag.replace(/\bhref="[^"]*"/i,'href="'+contactHref+'#contact-form"'));
+  html=html.replace(/<form\b(?=[^>]*\bclass="[^"]*\bct-form\b)[^>]*>/i,tag=>/\bid=/.test(tag)?tag:tag.replace(/>$/,' id="contact-form">'));
+  const navigationPatterns=[
+    {pattern:/(<nav\b(?=[^>]*class="[^"]*\bhp-desktop-nav\b[^"]*")[^>]*>)([\s\S]*?)(<\/nav>)/i,contact:'<span class="hp-nav-item"><a href="'+contactHref+'">Contact</a></span>'},
+    {pattern:/(<nav\b(?=[^>]*aria-label="Mobile navigation")[^>]*>)([\s\S]*?)(<\/nav>)/i,contact:'<a href="'+contactHref+'">Contact</a>'},
+  ];
+  for(const {pattern,contact} of navigationPatterns){
+    html=html.replace(pattern,(_all,start,body,end)=>{
+      const withoutWork=body.replace(/<span\b(?=[^>]*class="[^"]*\bhp-nav-item\b[^"]*")[^>]*>\s*<a\b[^>]*>\s*Work\s*<\/a>\s*<\/span>/gi,'').replace(/<a\b[^>]*>\s*Work\s*<\/a>/gi,'');
+      return start+(/\bContact\b/i.test(withoutWork)?withoutWork:withoutWork+contact)+end;
+    });
+  }
+  html=html.replace(/(<nav\b(?=[^>]*aria-label="Footer navigation")[^>]*>)([\s\S]*?)(<\/nav>)/i,(_all,start,body,end)=>start+body.replace(/<a\b[^>]*>\s*Work\s*<\/a>/gi,'')+end);
+  if(/<script\b(?=[^>]*\bdata-integrated-hero\b)(?=[^>]*\bsrc=)[^>]*><\/script>/i.test(html)){
+    const markHero=(className:string)=>{const pattern=new RegExp(`<section\\b(?=[^>]*\\bclass=["'][^"']*\\b${className}\\b[^"']*["'])[^>]*>`,'i');html=html.replace(pattern,tag=>/\bdata-hero-upgrade-pending\b/.test(tag)?tag:tag.replace(/>$/,' data-hero-upgrade-pending>'))};
+    markHero('about-hero');
+    markHero('b-hero');
+    const reveal='<style>[data-hero-upgrade-pending]{visibility:hidden!important}</style><script>(function(){var done=false;function reveal(){if(done)return;done=true;document.querySelectorAll("[data-hero-upgrade-pending]").forEach(function(node){node.removeAttribute("data-hero-upgrade-pending")})}function isUpgrade(event){return event.target instanceof HTMLScriptElement&&event.target.matches("script[data-integrated-hero][src]")}window.addEventListener("load",function(event){if(isUpgrade(event))requestAnimationFrame(reveal)},true);window.addEventListener("error",function(event){if(isUpgrade(event))reveal()},true)})()</script>';
+    html=html.replace('</head>',reveal+'</head>');
+  }
   html=html.replaceAll('/brand/logo-dark.png','/brand/logo-animated-dark.svg').replaceAll('/brand/logo-light.png','/brand/logo-animated-light.svg');
-  html=html.replace(/<img\b[^>]*class="[^"]*hp-logo-light[^"]*"[^>]*>/g,tag=>tag.replace('/brand/logo-animated-light.svg','/brand/logo-animated-dark.svg'));
+  html=html.replace('</head>','<link rel="stylesheet" href="/site/page-texture.css"></head>');
   return html;
 }
 function slugTitle(slug:string){return slug.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ')}

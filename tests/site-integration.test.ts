@@ -86,6 +86,40 @@ test("approved templates retain entities and use private integrated assets", asy
     }
   }
 });
+test("public shared navigation removes Work and sends quote actions to the contact form", async () => {
+  const source = await templateContent("contact");
+  const html = await renderDocument(
+    "contact",
+    { fields: extractFields(source), description: "Contact CODEYEA." },
+    "en",
+    "Contact",
+    { public: true },
+  );
+  assert.match(html, /class="[^"]*\bhp-header-quote\b[^"]*" href="\/contact\/#contact-form"/);
+  assert.match(html, /<form class="ct-form" id="contact-form">/);
+  const desktopNav = html.match(/<nav[^>]*class="[^"]*hp-desktop-nav[^"]*"[^>]*>[\s\S]*?<\/nav>/)?.[0] ?? "";
+  const mobileNav = html.match(/<nav[^>]*aria-label="Mobile navigation"[^>]*>[\s\S]*?<\/nav>/)?.[0] ?? "";
+  assert.doesNotMatch(desktopNav, />\s*Work\s*</i);
+  assert.doesNotMatch(mobileNav, />\s*Work\s*</i);
+  assert.match(desktopNav, /href="\/contact\/">Contact<\/a>/);
+});
+test("integrated service heroes never flash the legacy hero and retain both animated logo variants", async () => {
+  for (const slug of ["website-design", "web-mobile-apps", "ecommerce", "brand-design"]) {
+    const source = await templateContent(slug);
+    const html = await renderDocument(
+      slug,
+      { fields: extractFields(source), description: "An approved service page." },
+      "en",
+      undefined,
+      { public: true },
+    );
+    assert.match(html, /class="hp-logo-dark" src="\/brand\/logo-animated-dark\.svg"/, slug);
+    assert.match(html, /class="hp-logo-light" src="\/brand\/logo-animated-light\.svg"/, slug);
+    assert.match(html, /data-hero-upgrade-pending/, slug);
+    assert.match(html, /script\.onerror|addEventListener\(["']error["']/, slug);
+    assert.match(html, /\/site\/page-texture\.css/, slug);
+  }
+});
 test("approved navigation groups hosting support and places Domains directly after Hosting", () => {
   const items = [
     {
@@ -119,7 +153,7 @@ test("approved navigation groups hosting support and places Domains directly aft
     }[];
   assert.deepEqual(
     links.filter((i) => !i.parentId).map((i) => i.title),
-    ["Services", "Hosting", "Domains"],
+    ["Services", "Hosting", "Domains", "Contact"],
   );
   assert.equal(links.filter((i) => i.parentId === "hosting").length, 5);
   assert.equal(links.filter((i) => i.parentId === "services").length, 7);
@@ -148,6 +182,8 @@ test("public approved navigation links point to public page routes", () => {
   assert.equal(links.find((item) => item.title === "SEO & GEO")?.href, "/seo-geo/");
   assert.equal(links.find((item) => item.title === "Technical Support")?.href, "/technical-support/");
   assert.equal(links.find((item) => item.title === "Healthcare & Aesthetic Clinics")?.href, "/industries/healthcare/");
+  assert.equal(links.find((item) => item.title === "Contact")?.href, "/contact/");
+  assert.ok(!links.some((item) => item.title.toLowerCase() === "work"));
 });
 test("edited page content and titles cannot inject markup", async () => {
   const fields = extractFields(await templateContent("contact"));

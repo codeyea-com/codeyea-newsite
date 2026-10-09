@@ -100,7 +100,8 @@ export function approvedMenuContent(
       (i) =>
         !i.parentId &&
         str(i.title) !== "Domains" &&
-        str(i.title) !== "Technical Support",
+        str(i.title) !== "Technical Support" &&
+        str(i.title).trim().toLowerCase() !== "work",
     ),
     items: EditorObject[] = [];
   for (const root of roots) {
@@ -152,6 +153,15 @@ export function approvedMenuContent(
             "Explore our approach for your industry.",
           icon: "◇",
         });
+  }
+  const contactTitle = "Contact";
+  const contactHref = surface === "public" ? "/contact/" : "/preview/pages/contact";
+  if (!items.some((item) => str(item.title).trim().toLowerCase() === "contact")) {
+    items.push({ id: "approved-contact", title: contactTitle, href: contactHref, enabled: true, position: items.length });
+  } else {
+    for (const item of items) {
+      if (str(item.title).trim().toLowerCase() === "contact") item.href = contactHref;
+    }
   }
   return {
     ...content,

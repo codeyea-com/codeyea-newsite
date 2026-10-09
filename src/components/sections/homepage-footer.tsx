@@ -16,7 +16,7 @@ export function HomepageFooter({ content }: { content: EditorObject }) {
   const menuLinks = [
     ...(menu ? enabledItems(menu.links) : []),
     ...otherLinks.filter((link) => str(link.id) === "footer-contact"),
-  ];
+  ].filter((link) => str(link.title).trim().toLowerCase() !== "work");
   const portalOrder = ["footer-client", "footer-support", "footer-cms"];
   const portalLinks = otherLinks
     .filter((link) => str(link.id) !== "footer-contact")

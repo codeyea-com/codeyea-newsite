@@ -7,7 +7,9 @@ import {publicRobots,resolveSeoText} from "@/content/seo";
 import {pageMetadata,publicPageSchema} from '@/content/structured-data';
 import {JsonLd} from '@/components/json-ld';
 import {publishedSitePaths} from "@/content/site-routes";
-import {defaultIndustries} from "@/content/industries-defaults";
+import {industriesPageSchema} from "@/schemas/industries-page";
+import fallback from "@/content/approved-industries-fallbacks.json";
+import {attachLocalIndustryAssets,industrySlugForName} from "@/content/industry-assets";
 import {defaultHomepage} from "@/content/homepage-defaults";
 const industriesMetadata = {title:"Industries We Serve | CODEYEA",description:"Digital solutions shaped around your industry, customers and workflows."};
 import "@/styles/homepage.css";
@@ -32,7 +34,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 export default async function Industries() {
   const industries = await publishedIndustries();
-  const pageContent=industries??defaultIndustries('en','global');
+  const pageContent=industries??approvedIndustryDirectory();
   const shared = await db.page.findUnique({
     where: { id: "homepage" },
     select: { publishedSnapshot: true },
@@ -47,4 +49,13 @@ export default async function Industries() {
   const availablePaths=publishedSitePaths({pages:publishedDetails,documents:publishedDocuments});
   const seo=resolveSeoText(pageContent.seo,industriesMetadata);
   return <><JsonLd data={publicPageSchema('/industries/',seo.title,seo.description,'CollectionPage')}/><IndustriesPage content={pageContent} shared={homepage} availablePaths={availablePaths}/><PublicTracking /></>;
+}
+function approvedIndustryDirectory(){
+  const content=structuredClone(fallback.industriesPage);
+  content.hero=attachLocalIndustryAssets(content.hero,"roofing");
+  content.items=content.items.map((item)=>{
+    const slug=industrySlugForName(item.title);
+    return slug?attachLocalIndustryAssets(item,slug):item;
+  });
+  return industriesPageSchema.parse(content);
 }
