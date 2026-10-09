@@ -1,5 +1,6 @@
 import { industryNames, type IndustrySlug } from "./industry-registry";
 import { approvedMedia } from "./approved-media";
+import type { IndustryDetailContent } from "../schemas/industry-detail";
 
 const industryMedia: Record<IndustrySlug, string> = {
   roofing: "roofing",
@@ -44,4 +45,33 @@ export function attachLocalIndustryAssets<T>(value: T, slug: IndustrySlug): T {
     );
   };
   return visit(value) as T;
+}
+
+/** Replace media still marked temporary with the reviewed fallback for this industry. */
+export function applyTemporaryIndustryFallbackMedia(
+  saved: IndustryDetailContent,
+  fallback: IndustryDetailContent,
+): IndustryDetailContent {
+  const fallbackSections = new Map(fallback.sections.map((section) => [section.id, section]));
+  return {
+    ...saved,
+    hero: saved.hero.temporaryMedia
+      ? { ...saved.hero, media: fallback.hero.media }
+      : saved.hero,
+    sections: saved.sections.map((section) => {
+      if (!section.temporaryMedia) return section;
+      const source = fallbackSections.get(section.id);
+      if (!source) return section;
+      const sourceItems = new Map(source.items.map((item) => [item.id, item]));
+      return {
+        ...section,
+        ...(source.media ? { media: source.media } : {}),
+        ...(source.pillarMedia ? { pillarMedia: source.pillarMedia } : {}),
+        items: section.items.map((item) => {
+          const sourceItem = sourceItems.get(item.id);
+          return sourceItem?.media ? { ...item, media: sourceItem.media } : item;
+        }),
+      };
+    }),
+  };
 }
