@@ -103,6 +103,52 @@ export async function templateContent(slug: string) {
     "utf8",
   );
 }
+function removeMarkedElements(html: string, classes: string[]) {
+  const ranges: Array<[number, number]> = [];
+  for (const className of classes) {
+    const escaped = className.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const opening = new RegExp(`<([a-z][\\w:-]*)\\b(?=[^>]*\\bclass=["'][^"']*\\b${escaped}\\b[^"']*["'])[^>]*>`, "gi");
+    for (const match of html.matchAll(opening)) {
+      const tag = match[1];
+      const tokens = new RegExp(`<\\/?${tag}\\b[^>]*>`, "gi");
+      tokens.lastIndex = match.index!;
+      let depth = 0;
+      let end = -1;
+      let token: RegExpExecArray | null;
+      while ((token = tokens.exec(html))) {
+        if (/^<\//.test(token[0])) depth--;
+        else if (!/\/>$/.test(token[0])) depth++;
+        if (depth === 0) { end = tokens.lastIndex; break; }
+      }
+      if (end > match.index!) ranges.push([match.index!, end]);
+    }
+  }
+  ranges.sort((a, b) => a[0] - b[0] || b[1] - a[1]);
+  const merged: Array<[number, number]> = [];
+  for (const range of ranges) {
+    const previous = merged[merged.length - 1];
+    if (previous && range[0] <= previous[1]) previous[1] = Math.max(previous[1], range[1]);
+    else merged.push([...range]);
+  }
+  for (const [start, end] of merged.reverse()) html = html.slice(0, start) + html.slice(end);
+  return html;
+}
+/** Keep draft-only portfolio, testimonial and sample-brand content out of public templates. */
+export function sanitizeUnapprovedPublicContent(html: string, contactHref = "/contact/") {
+  html = removeMarkedElements(html, ["b-logos", "b-testimonials", "b-proof-stack", "ai-stories", "ai-story-logos", "ai-logo-note"]);
+  // The deleted story carousel has a dedicated initializer that assumes its DOM exists.
+  html = html.replace(/<script\b[^>]*>[\s\S]*?function storiesMotion\(\)[\s\S]*?<\/script>/gi, "");
+  html = html.replace(/<section\b(?=[^>]*\bid=["']ds-testimonials["'])[^>]*>[\s\S]*?<\/section>/gi, "");
+  // These projects are explicitly unapproved placeholders; keep the surrounding service design intact.
+  if (/Project content pending|Approved project material pending/i.test(html)) {
+    html = removeMarkedElements(html, ["ds-works"]);
+    // This enhancement also assumes that the draft-only portfolio section is present.
+    html = html.replace(/<script\b[^>]*>[\s\S]*?function worksMotion\(\)[\s\S]*?<\/script>/gi, "");
+  }
+  html = html.replace(/\balt=(["'])Temporary local image\s*[—–-]\s*image selection pending\1/gi, 'alt=""');
+  return html.replace(/<form\b(?=[^>]*\bclass=["'][^"']*\bhp-footer-v2-form\b[^"']*["'])[^>]*>[\s\S]*?<\/form>/i,
+    '<a class="hp-footer-v2-action" href="' + contactHref + '#contact-form"><span>Contact the team</span><span aria-hidden="true">→</span></a>');
+}
 function mapMain(html: string, fn: (text: string, index: number) => string) {
   let i = 0;
   return html.replace(/<main\b[\s\S]*?<\/main>/, (main) =>
@@ -333,6 +379,9 @@ export async function renderDocument(
     html=html.replace('</body>','<script src="/api/site-assets/quote-review/quote-panel.js?surface=public"></script></body>');
   }
   const contactHref=publicRoute('contact');
+  if (options.public) {
+    html = sanitizeUnapprovedPublicContent(html, contactHref);
+  }
   html=html.replace(/<a\b[^>]*\bhp-header-quote\b[^>]*>/gi,tag=>tag.replace(/\bhref="[^"]*"/i,'href="'+contactHref+'#contact-form"'));
   html=html.replace(/<form\b(?=[^>]*\bclass="[^"]*\bct-form\b)[^>]*>/i,tag=>/\bid=/.test(tag)?tag:tag.replace(/>$/,' id="contact-form">'));
   const navigationPatterns=[

@@ -2,6 +2,7 @@ import type {ServicesContent,ServiceItem} from '@/schemas/services-page';
 import type {HomepageContent,EditorObject} from '@/schemas/homepage-editor';
 import {resolveHomepage,iconKeys} from '@/content/homepage-defaults';
 import {servicePageDestination} from '@/content/service-destinations';
+import {publicDestination} from '@/content/public-destination';
 import {HomepageHeader} from './homepage-header';
 import {HomepageFooter} from './homepage-footer';
 import {SiteUtility} from './site-utility';
@@ -43,7 +44,7 @@ function ServiceIcon({ index }: { index: number }) {
 export function ServicesPage({content,shared,preview=false,availablePaths=[]}:{content:ServicesContent;shared?:HomepageContent;preview?:boolean;availablePaths?:string[]}){
  const home=resolveHomepage(shared),[intro,priority,strategy,complete,process,growth,faq,cta]=content.sections;
  const active=(items:ServiceItem[])=>items.filter(i=>i.enabled!==false);
- const target=(path:string|null,id?:string)=>{const destination=path|| (id?servicePageDestination(id):undefined);return destination&&(destination==='https://codeyea.com/contact/'||availablePaths.includes(destination))?destination:undefined};
+ const target=(path:string|null,id?:string)=>{const destination=path|| (id?servicePageDestination(id):undefined);if(!destination)return undefined;const normalized=publicDestination(destination);return normalized==='/contact/#contact-form'||availablePaths.includes(destination)?normalized:undefined};
  const Link=({item}:{item:{id:string;destination:string|null;actionLabel:string}})=>{const href=target(item.destination,item.id);return href?<a className="rp-link" href={href}>{item.actionLabel}<span aria-hidden="true">↗</span></a>:null};
  return <div className="public-surface hp about-page services-page"><a className="hp-skip" href="#main">Skip to content</a><SiteUtility/><HomepageHeader light content={sharedLinks(home.header,preview) as EditorObject} activeHref={preview?'/preview#services':'/#services'} homeHref={preview?'/preview':'/'}/><main id="main">
  <section className="about-hero"><InternalPageHero title={content.hero.title} media={content.hero.media}/></section>

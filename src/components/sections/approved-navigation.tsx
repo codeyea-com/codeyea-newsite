@@ -217,6 +217,7 @@ export function useApprovedNavigation(
               close();
           }}
         >
+          <div className="cy-host-panel-inner">
           <div
             className="cy-host-links"
             style={
@@ -293,6 +294,7 @@ export function useApprovedNavigation(
               <span aria-hidden="true">↗</span>
             </a>
           </aside>
+          </div>
         </div>
       );
     });

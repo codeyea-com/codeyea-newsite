@@ -1,6 +1,18 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { industryPageDestination, servicePageDestination, servicePageDestinationForText } from '../src/content/service-destinations';
+import { homepageServiceDestination, industryPageDestination, servicePageDestination, servicePageDestinationForText } from '../src/content/service-destinations';
+import { industryNames, industrySlugs } from '../src/content/industry-registry';
+import { publicDestination } from '../src/content/public-destination';
+
+test('homepage service cards and industry carousel cards resolve to live page routes', () => {
+  assert.equal(homepageServiceDestination('service-1'), '/web-mobile-apps/');
+  assert.equal(homepageServiceDestination('service-2'), '/ecommerce/');
+  assert.equal(homepageServiceDestination('service-8'), '/services/');
+  assert.equal(homepageServiceDestination('unknown'), undefined);
+  assert.equal(industryPageDestination('Healthcare & Aesthetic Clinics'), '/industries/healthcare/');
+  assert.equal(industryPageDestination('eCommerce'), '/industries/e-commerce/');
+  assert.equal(industryPageDestination('Oil & Gas'), '/industries/oil-and-gas/');
+});
 
 test('known service cards link to their corresponding approved page templates', () => {
   assert.equal(servicePageDestination('sv-service-website'), '/website-design/');
@@ -20,4 +32,13 @@ test('industry service copy resolves to relevant service pages and related indus
   assert.equal(servicePageDestinationForText('roofing-service-campaigns','Focused campaigns and landing pages','Explore Digital Strategy'), '/digital-marketing/');
   assert.equal(industryPageDestination('Construction'), '/industries/construction/');
   assert.equal(industryPageDestination('Real Estate'), '/industries/real-estate/');
+});
+
+test('every registered industry has a public route and contact links target the inquiry form', () => {
+  for (const slug of industrySlugs) {
+    assert.equal(industryPageDestination(industryNames[slug]), `/industries/${slug}/`);
+  }
+  assert.equal(publicDestination('#contact'), '/contact/#contact-form');
+  assert.equal(publicDestination('https://codeyea.com/contact/'), '/contact/#contact-form');
+  assert.equal(publicDestination('/services/'), '/services/');
 });

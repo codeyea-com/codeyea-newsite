@@ -16,6 +16,8 @@ import {
   WordRotator,
 } from "./homepage-interactions";
 import type { Snapshot } from "@/schemas/content";
+import { homepageServiceDestination, industryPageDestination } from "@/content/service-destinations";
+import { publicDestination } from "@/content/public-destination";
 import {
   accordionFixtures,
   flowFixtures,
@@ -49,25 +51,6 @@ function ServiceIcon({ index }: { index: number }) {
     </svg>
   );
 }
-const nav = [
-  { title: "About Us", href: "#about" },
-  { title: "Services", href: "#services" },
-  { title: "Hosting", href: "#hosting" },
-  { title: "Industries", href: "#industries" },
-  { title: "Work", href: "#work" },
-];
-function Navigation() {
-  return (
-    <>
-      {nav.map((item) => (
-        <a key={item.href} href={item.href}>
-          {str(item.title)}
-        </a>
-      ))}
-    </>
-  );
-}
-
 export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
   const home = resolveHomepage(snapshot?.homepage);
   const services = enabledItems(home.services.items),
@@ -90,18 +73,18 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
               <p className="hp-eyebrow">CODEYEA · DIGITAL INNOVATION AGENCY</p>
               <h1>{str(hero.prefix)}{" "}<WordRotator words={enabledItems(hero.words).map(word => str(word.title))} /></h1>
               <p>{str(hero.body)}</p>
-              <a className="hp-button hp-button-light" href={str(hero.ctaHref)}>{str(hero.ctaLabel)} <span aria-hidden="true">→</span></a>
+              <a className="hp-button hp-button-light" href={publicDestination(str(hero.ctaHref))}>{str(hero.ctaLabel)} <span aria-hidden="true">→</span></a>
             </div>
             <div className="hp-hero-art">
               <img {...mediaProps(hero.media)} width="1600" height="750" fetchPriority="high" />
             </div>
           </div>
         </section>}
-        {home.logos.enabled !== false && <section
+        {home.logos.enabled !== false && enabledItems(home.logos.items).some(logo => logo.approved === true) && <section
           className="hp-clients hp-container"
           aria-label="Existing site logos; client relationships awaiting confirmation"
         >
-          {enabledItems(home.logos.items).map((logo) => {
+          {enabledItems(home.logos.items).filter(logo => logo.approved === true).map((logo) => {
             const image = (
               <img
                 key={str(logo.id)}
@@ -124,25 +107,18 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
             );
           })}
         </section>}
-        <section
+        {snapshot?.sections.some(section => section.enabled !== false && section.heading.trim() && section.body.trim() && !/no positioning content has been published yet/i.test(section.body)) && <section
           id="positioning"
           className="hp-positioning hp-container"
           aria-labelledby="positioning-title"
         >
-          {snapshot ? (
-            snapshot.sections.filter(section=>section.enabled!==false).map((section) => (
+          {snapshot.sections.filter(section=>section.enabled!==false && section.heading.trim() && section.body.trim() && !/no positioning content has been published yet/i.test(section.body)).map((section) => (
               <div key={section.id}>
                 <h2 id="positioning-title">{section.heading}</h2>
                 <p className="hp-positioning-body">{section.body}</p>
               </div>
-            ))
-          ) : (
-            <>
-              <h2 id="positioning-title">Digital Innovation Agency</h2>
-              <p>No positioning content has been published yet.</p>
-            </>
-          )}
-        </section>
+            ))}
+        </section>}
         {home.services.enabled !== false && <section
           id="services"
           className="hp-services hp-container"
@@ -167,8 +143,8 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
               </p>
               <a
                 className="hp-service-link"
-                href={str(service.ctaHref)}
-                aria-label={"Discuss " + str(service.title)}
+                href={homepageServiceDestination(str(service.id)) ?? str(service.ctaHref)}
+                aria-label={"Explore " + str(service.title)}
               >
                 {str(service.ctaLabel)} <span aria-hidden="true">→</span>
               </a>
@@ -207,12 +183,12 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
                 </details>
               ))}
             </div>
-            <a className="hp-button" href={str(about.ctaHref)}>
+            <a className="hp-button" href={publicDestination(str(about.ctaHref))}>
               {str(about.ctaLabel)}
             </a>
           </div>
         </section>}
-        {experience.enabled !== false && <section
+        {experience.enabled !== false && experience.approved === true && <section
           className="hp-experience"
           aria-labelledby="experience-title"
           style={{
@@ -241,9 +217,6 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
                 {Number(experience.value)}
               </strong>
               <span>{str(experience.unit)}</span>
-              {!experience.approved && (
-                <small>Reference claim · verification pending</small>
-              )}
             </div>
           </div>
         </section>}
@@ -274,8 +247,8 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
             }))}
           />
         </section>}
-        {home.hosting.enabled !== false && <HomepageHosting content={home.hosting} />}
-        {home.projects.enabled !== false && <section
+        {home.hosting.enabled !== false && home.hosting.approved === true && <HomepageHosting content={home.hosting} />}
+        {home.projects.enabled !== false && enabledItems(home.projects.items).some(item => item.approved === true) && <section
           id="work"
           className="hp-portfolio"
           aria-labelledby="work-title"
@@ -285,7 +258,7 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
             variant="project"
             filterable
             intro={home.projects}
-            items={enabledItems(home.projects.items)
+            items={enabledItems(home.projects.items).filter(item => item.approved === true)
               .sort((a, b) => Number(b.featured) - Number(a.featured))
               .map((item) => ({
                 id: str(item.id),
@@ -308,7 +281,7 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
           <div className="hp-container hp-industries-intro">
             <h2 id="industries-title">{str(home.industries.heading)}</h2>
             <p>{str(home.industries.body)}</p>
-            <a href={str(home.industries.ctaHref)}>
+            <a href="/industries/">
               {str(home.industries.ctaLabel)} <span aria-hidden="true">→</span>
             </a>
           </div>
@@ -326,7 +299,7 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
                 srcSet: mediaProps(item.media).srcSet,
                 alt: mediaProps(item.media).alt,
                 focal: mediaProps(item.media).style.objectPosition,
-                href: str(item.href),
+                href: industryPageDestination(str(item.title)) ?? str(item.href),
               }))}
             />
           </div>

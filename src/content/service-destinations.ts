@@ -1,3 +1,9 @@
+import {industryNames,industrySlugs} from './industry-registry';
+const homepageServiceDestinations:Readonly<Record<string,string>>={
+ 'service-1':'/web-mobile-apps/','service-2':'/ecommerce/','service-3':'/ai-automation/','service-4':'/website-hosting/',
+ 'service-5':'/seo-geo/','service-6':'/brand-design/','service-7':'/technical-support/','service-8':'/services/',
+};
+export function homepageServiceDestination(id:string){return homepageServiceDestinations[id]}
 const approvedServiceDestinations:Readonly<Record<string,string>>={
  'sv-priority-ai':'/ai-automation/',
  'sv-priority-seo':'/seo-geo/',
@@ -41,4 +47,3 @@ export function industryPageDestination(title:string){
  const slug=industrySlugs.find(id=>industryNames[id].toLocaleLowerCase('en').replace(/&/g,'and').replace(/\s+/g,' ')===normalized);
  return slug?`/industries/${slug}/`:undefined;
 }
-import {industryNames,industrySlugs} from './industry-registry';
