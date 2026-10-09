@@ -33,6 +33,7 @@ Set values under server-side environment variables, not client-exposed variables
 - Required to build and run: `DATABASE_URL`, `DIRECT_URL`, `BETTER_AUTH_SECRET` (at least 32 characters), and `BETTER_AUTH_URL` (the final HTTPS site origin).
 - Lead email: `RESEND_API_KEY` and `RESEND_FROM`; verify the sender and recipient routing before opening forms to the public.
 - Form protection: `TURNSTILE_SITE_KEY` and `TURNSTILE_SECRET_KEY`; the server verifies every production lead token with Cloudflare Siteverify. Optionally set `TURNSTILE_ALLOWED_HOSTNAMES` to the exact comma-separated production hostnames, including `www` only if that hostname serves the site. Do not expose the secret key.
+- Optional CMS writing assistant: `AI_API_URL`, `AI_MODEL` and `AI_API_KEY` for a compatible text-generation provider. Without these values, the assistant clearly reports that it is not configured. Keep the key server-side.
 - Search and analytics integrations: add their credentials only when the related Google properties and tokens are ready. Visitor analytics remain gated by the site's consent choice.
 - Leave `SITE_INDEXING_ENABLED=false` until canonical URLs, redirects, robots rules, sitemap contents, real page copy and form delivery have passed the pre-launch check.
 
@@ -42,6 +43,7 @@ Keep deploy previews isolated from production: use a separate Neon branch and no
 
 - Review the production-hardening list in `docs/CORRECTION_REVIEW.md`: MFA/recovery, backup/restore test, managed secret rotation, CSP nonce policy, append-only audit permissions, trusted-proxy login limits and lower-role draft visibility.
 - Replace the temporary media and unconfirmed copy/prices listed in `docs/MILESTONE_2_ASSETS.md` and confirm every public form, CTA and service destination.
+- In the CMS page catalog, connect the approved English page templates to create private drafts, review copy and replacement images, then publish only pages that are ready. Arabic route entries stay blocked for human-written translation and RTL review.
 - Exercise lead receipt and editable PDF delivery using the real verified sender; confirm retention, access control and deletion expectations for submitted personal data.
 - Create a Turnstile widget limited to the final site hostnames, add its site and secret keys to Netlify, then submit valid, missing and expired-token test requests before enabling public forms.
 - Run the full test suite and production build in CI after the local runtime is healthy; verify Netlify deploy previews, responsive pages, keyboard/reduced-motion behavior and the final domain/SEO settings.

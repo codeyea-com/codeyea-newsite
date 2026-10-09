@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { stableId } from "./contract-primitives";
 import { editorMediaSchema } from "./homepage-editor";
+import {seoTextSchema} from './seo-text';
 
 export const aboutSectionTypes = [
   "hero",
@@ -138,12 +139,7 @@ export const aboutSchema = z
     localeId: stableId,
     marketId: stableId,
     sharedSourcePageId: z.literal("homepage"),
-    seo: z
-      .object({
-        title: z.string().trim().min(1).max(120),
-        description: z.string().trim().max(320),
-      })
-      .strict(),
+    seo: seoTextSchema,
     sections: z.array(aboutSectionSchema).min(7).max(10),
   })
   .strict()

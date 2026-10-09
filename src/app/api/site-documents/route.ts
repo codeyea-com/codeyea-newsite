@@ -2,7 +2,7 @@ import { saveSiteDraft } from "@/server/site-editing";
 import { z } from "zod";
 import { db } from "@/server/db";
 import { actor, failure, jsonInput, noStore, sameOrigin } from "@/server/http";
-import { requirePermission } from "@/server/permissions";
+import { permissionsFor, requirePermission } from "@/server/permissions";
 import { AppError } from "@/server/errors";
 import {bindTemplate,templateContent,type DocumentContent} from '@/server/site-documents';
 export async function GET(req: Request) {
@@ -14,7 +14,7 @@ export async function GET(req: Request) {
       const doc = await db.siteDocument.findUnique({ where: { id } });
       if(!doc)throw new AppError(404,'Page not found');
       if(doc.template)doc.draft=bindTemplate(await templateContent(doc.template),doc.draft as DocumentContent) as typeof doc.draft;
-      return Response.json({ document: doc }, { headers: noStore });
+      return Response.json({ document: doc, permissions: await permissionsFor(user?.id ?? null) }, { headers: noStore });
     }
     return Response.json(
       {
@@ -30,6 +30,7 @@ export async function GET(req: Request) {
           },
           orderBy: [{ kind: "asc" }, { title: "asc" }],
         }),
+        permissions: await permissionsFor(user?.id ?? null),
       },
       { headers: noStore },
     );

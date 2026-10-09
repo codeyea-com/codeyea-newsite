@@ -1,6 +1,8 @@
 import type {Metadata} from 'next';
 import {canonical} from './seo';
 import {documentPath} from './site-routes';
+import type {SeoText} from '@/schemas/seo-text';
+import {assetUrl} from './homepage-assets';
 
 const siteName='CODEYEA';
 const organization={
@@ -10,13 +12,15 @@ const organization={
  url:canonical('/'),
 };
 
-export function pageMetadata(path:string,title:string,description:string):Metadata{
- const url=canonical(path);
+export function pageMetadata(path:string,title:string,description:string,seo?:Partial<SeoText>):Metadata{
+ const url=canonical(seo?.canonicalPath||path);
+ const socialTitle=seo?.socialTitle?.trim()||title,socialDescription=seo?.socialDescription?.trim()||description;
+ const image=seo?.socialImage?.mediaId?canonical(assetUrl(seo.socialImage.mediaId)):undefined;
  return {
   title,description,
   alternates:{canonical:url},
-  openGraph:{title,description,url,siteName,type:'website',locale:'en_US'},
-  twitter:{card:'summary',title,description},
+  openGraph:{title:socialTitle,description:socialDescription,url,siteName,type:'website',locale:'en_US',...(image?{images:[{url:image,alt:seo?.socialImage?.alt||socialTitle}]}:{})},
+  twitter:{card:image?'summary_large_image':'summary',title:socialTitle,description:socialDescription,...(image?{images:[image]}:{})},
  };
 }
 

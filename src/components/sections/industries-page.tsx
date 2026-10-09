@@ -3,6 +3,7 @@ import type {IndustriesContent} from '@/schemas/industries-page';
 import type {HomepageContent,EditorObject} from '@/schemas/homepage-editor';
 import {resolveHomepage} from '@/content/homepage-defaults';
 import {industryDestination} from '@/content/industry-destinations';
+import {industryPageDestination} from '@/content/service-destinations';
 import {HomepageHeader} from './homepage-header';
 import {HomepageFooter} from './homepage-footer';
 import {SiteUtility} from './site-utility';
@@ -40,7 +41,7 @@ export function IndustriesPage({content,shared,preview=false,availablePaths=[]}:
    </section>}
    <IndustriesMotion/><EditorialMotion scope=".industries-page" groups={[".industries-introduction",".industries-final"]}/>
    <div className="industry-sections">{content.items.filter(i=>i.enabled).sort((a,b)=>a.position-b.position).map((item,index)=>{
-    const layout=index%4+1,href=industryDestination(item.destination,publishedPaths);
+    const layout=index%4+1,href=industryDestination(item.destination,publishedPaths)||industryDestination(industryPageDestination(item.heading)||industryPageDestination(item.title)||'',publishedPaths);
     return <section className={'industry-section industry-layout-'+layout} key={item.id} id={item.id} data-layout={layout}>
      <div className="industry-heading"><p className="industry-label">{item.label}</p><h2 className="industry-name">{href?<a href={href}>{item.heading}</a>:item.heading}</h2></div>
      <div className={'industry-images '+((layout===1||layout===3)?'industry-split':'industry-large')}>

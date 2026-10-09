@@ -26,7 +26,7 @@ async function publishedAbout() {
 export async function generateMetadata(): Promise<Metadata> {
   const about = await publishedAbout();
   const seo=about?.seo??aboutMetadata;
-  return {...pageMetadata('/about/',seo.title,seo.description),robots:publicRobots(!!about)};
+  return {...pageMetadata('/about/',seo.title,seo.description,seo),robots:publicRobots(!!about,seo)};
 }
 export default async function About() {
   const about = await publishedAbout();

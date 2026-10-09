@@ -4,6 +4,10 @@ import {createHash} from 'node:crypto';
 import {AppError} from './errors';
 import {documentStructuredSchema,jsonLdText} from '@/content/structured-data';
 import {documentPath} from '@/content/site-routes';
+import {seoTextSchema} from '@/schemas/seo-text';
+import {siteOrigin} from '@/content/seo';
+import {assetUrl} from '@/content/homepage-assets';
+import {isIndustrySlug} from '@/content/industry-registry';
 
 export const approvedTemplates: Record<string, string> = {
   "website-design": "website-design-review/website-design-interactive.html",
@@ -26,22 +30,40 @@ export const approvedTemplates: Record<string, string> = {
   "email-hosting": "email-hosting-review/email-hosting-interactive.html",
 };
 export type Field = { key: string; label: string; value: string };
+export type TemplateImage = { key: string; mediaId: string; alt: string; decorative: boolean };
 export type DocumentContent = {
   templateHash?: string;
   fields: Field[];
   description: string;
+  seo?: import('@/schemas/seo-text').SeoText;
   body?: string;
   image?: string;
+  images?: TemplateImage[];
   category?: string;
   tags?: string[];
 };
+export const templatePageTitles:Record<string,string>={
+ 'website-design':'Website Design','brand-design':'Brand Design',ecommerce:'eCommerce','seo-geo':'SEO & GEO',
+ 'digital-marketing':'Digital Marketing','web-mobile-apps':'Web & Mobile Apps','ai-automation':'AI & Automation',
+ 'technical-support':'Technical Support',contact:'Contact',domains:'Domains','website-hosting':'Website Hosting',
+ 'wordpress-hosting':'WordPress Hosting','cloud-hosting':'Cloud Hosting','email-hosting':'Email Hosting',
+};
+export function documentRobots(content: DocumentContent, isPublic: boolean) {
+  const enabled = isPublic && process.env.SITE_INDEXING_ENABLED === 'true';
+  const index = enabled && content.seo?.index !== false;
+  const follow = enabled && content.seo?.follow !== false;
+  return `${index ? 'index' : 'noindex'},${follow ? 'follow' : 'nofollow'}`;
+}
 export function templateHash(html:string){return createHash('sha256').update(html.match(/<main\b[\s\S]*?<\/main>/)?.[0]??html).digest('hex')}
 export function bindTemplate(html:string,content:DocumentContent):DocumentContent{
  const hash=templateHash(html);
  if(content.templateHash&&content.templateHash!==hash)throw new AppError(409,'The approved template changed. Review its content mapping before editing or previewing.');
  const expected=extractFields(html);
  if(expected.length!==content.fields.length||expected.some((f,i)=>f.key!==content.fields[i].key||(!content.templateHash&&f.label!==content.fields[i].label)))throw new AppError(409,'This draft does not match the approved template. Review the content mapping first.');
- return {...content,templateHash:hash};
+ const expectedImages=extractImages(html);
+ const images=content.images??expectedImages.map(image=>({key:image.key,mediaId:'',alt:image.alt,decorative:!image.alt.trim()}));
+ if(images.length!==expectedImages.length||images.some((image,index)=>image.key!==expectedImages[index].key))throw new AppError(409,'The approved template image map changed. Review image mappings before editing.');
+ return {...content,templateHash:hash,images};
 }
 export async function templateContent(slug: string) {
   if (!approvedTemplates[slug]) throw Error("Unknown template");
@@ -73,13 +95,70 @@ export function extractFields(html: string) {
   });
   return fields;
 }
+export function extractImages(html:string){
+ const main=html.match(/<main\b[\s\S]*?<\/main>/)?.[0]??'';
+ const images:Omit<TemplateImage,'mediaId'|'decorative'>[]=[];
+ for(const tag of main.matchAll(/<img\b[^>]*>/gi)){
+  const alt=tag[0].match(/\balt=["']([^"']*)["']/i)?.[1]??'';
+  images.push({key:'image-'+images.length,alt:alt.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'")});
+ }
+ return images;
+}
+export function templatePageDraft(slug:string,html:string){
+ const title=templatePageTitles[slug];
+ const description=html.match(/<meta\s+name=["']description["']\s+content=["']([^"']*)["']/i)?.[1]?.trim()||`Explore ${title||slugTitle(slug)} from CODEYEA.`;
+ const path=documentPath(slug,'en');
+ if(!title||!path)throw new AppError(400,'This template has no registered English page route.');
+ const content=bindTemplate(html,{fields:extractFields(html),description,seo:{title:`${title} | CODEYEA`,description,canonicalPath:path,index:false,follow:true}});
+ return {title,content};
+}
+/** Replace private design-review destinations with registered public site routes. */
+export function rewritePublicDocumentLinks(html:string,locale:'en'|'ar'){
+ const prefix=locale==='ar'?'/ar':'';
+ const route=(target:string)=>target?`${prefix}/${target.replace(/^\/+|\/+$/g,'')}/`:(prefix||'/');
+ html=html.replace(/href="\/preview#industry-list"([^>]*)>([^<]+)<\/a>/g,(all,attributes,label)=>{
+  const industries:Record<string,string>={'Healthcare &amp; Aesthetic Clinics':'healthcare',Construction:'construction','Real Estate':'real-estate',eCommerce:'e-commerce',Legal:'legal','Oil &amp; Gas':'oil-and-gas',Roofing:'roofing','Small Business':'small-business'};
+  const target=industries[label.trim()];
+  return target?'href="'+route('industries/'+target)+'"'+attributes+'>'+label+'</a>':all;
+ });
+ html=html.replace(/href="\/preview\/industries\/([a-z0-9-]+)"/g,(_all,target:string)=>isIndustrySlug(target)?'href="'+route('industries/'+target)+'"':'href="'+route('industries')+'"');
+ html=html.replace(/href="\/preview(?:\/pages)?\/([a-z0-9-]+)(?:\?locale=(?:en|ar))?"/g,(_all,target:string)=>{
+  if(target==='about'||target==='services'||target==='industries')return 'href="'+route(target)+'"';
+  if(target==='website-hosting')return 'href="'+route(target)+'"';
+  return (documentPath(target,locale)&&approvedTemplates[target])?'href="'+route(target)+'"':'href="'+route('services')+'"';
+ });
+ html=html.replace(/href="\/preview#services"/g,'href="'+route('services')+'"');
+ html=html.replace(/href="\/preview#service-(\d+)"/g,(_all,n:string)=>'href="'+prefix+'/#service-'+n+'"');
+ html=html.replace(/href="\/preview#hosting"/g,'href="'+route('website-hosting')+'"');
+ html=html.replace(/href="\/preview#work"/g,'href="'+route('about')+'#work"');
+ html=html.replace(/href="\/preview(?:\/)?"/g,'href="'+route('')+'"');
+ html=html.replace(/href="https:\/\/codeyea\.com\/contact\/"/g,'href="'+route('contact')+'"');
+ html=html.replace(/<a\b[^>]*href=["']\/admin(?:[?#][^"']*)?["'][^>]*>[\s\S]*?<\/a>/gi,'');
+ return html;
+}
+export function applyTemplateImageOverrides(html:string,images:TemplateImage[]=[]){
+ let index=0;
+ return html.replace(/<main\b[\s\S]*?<\/main>/,main=>main.replace(/<img\b[^>]*>/gi,tag=>{
+  const override=images[index++];
+  if(!override?.mediaId)return tag;
+  let updated=tag.replace(/\bsrc=(['"])[^'"]*\1/i,'src="'+escapeHtml(assetUrl(override.mediaId))+'"').replace(/\s+srcset=(['"])[^'"]*\1/i,'');
+  if(!/\bsrc=/i.test(updated))updated=updated.replace(/<img\b/i,'<img src="'+escapeHtml(assetUrl(override.mediaId))+'"');
+  const alt=override.decorative?'':override.alt;
+  if(/\balt=(['"])[^'"]*\1/i.test(updated))updated=updated.replace(/\balt=(['"])[^'"]*\1/i,'alt="'+escapeHtml(alt)+'"');
+  else updated=updated.replace(/<img\b/i,'<img alt="'+escapeHtml(alt)+'"');
+  return updated;
+ }));
+}
 export async function renderDocument(
   slug: string,
   content: DocumentContent,
   locale: string,
   title?: string,
+  options: { public?: boolean; alternates?: Partial<Record<'en'|'ar', string>> } = {},
 ) {
   let html = await templateContent(slug);
+  const publicLocalePrefix = locale === 'ar' ? '/ar' : '';
+  const publicRoute = (target: string) => options.public ? `${publicLocalePrefix}/${target.replace(/^\/+|\/+$/g, '')}/` : `/preview/pages/${target.replace(/^\/+|\/+$/g, '')}${locale === 'ar' ? '?locale=ar' : ''}`;
   content=bindTemplate(html,content);
   const values = new Map(content.fields.map((f) => [f.key, f.value]));
   const original = new Map(extractFields(html).map((f) => [f.key, f.value]));
@@ -112,11 +191,12 @@ export async function renderDocument(
       '"$2>',
   );
   // Keep approved templates server-side. Only allowlisted assets are exposed through the private asset route.
-  html = html.replaceAll(
-    "https://codeyea.com/contact/",
-    "/preview/pages/contact",
-  );
-  html = html.replaceAll("/preview#services", "/preview/services");
+  if(options.public)html=rewritePublicDocumentLinks(html,locale as 'en'|'ar');
+  html=applyTemplateImageOverrides(html,content.images);
+  if(!options.public){
+    html=html.replaceAll("/preview#services", "/preview/services");
+    html=html.replace(/href="\/preview\/(?:pages\/)?([a-z0-9-]+)(?:\?locale=(?:en|ar))?"/g, (_all, target: string) => 'href="' + publicRoute(target) + '"');
+  }
   const industries: Record<string, string> = {
     "Healthcare &amp; Aesthetic Clinics": "healthcare",
     Construction: "construction",
@@ -127,24 +207,22 @@ export async function renderDocument(
     Roofing: "roofing",
     "Small Business": "small-business",
   };
-  html = html.replace(
+  if(!options.public)html = html.replace(
     /href="\/preview#industry-list"([^>]*)>([^<]+)<\/a>/g,
-    (all, attributes, label) =>
-      industries[label.trim()]
-        ? 'href="/preview/industries/' +
-          industries[label.trim()] +
-          '"' +
-          attributes +
-          ">" +
-          label +
-          "</a>"
-        : all,
+    (all, attributes, label) => {
+      const target = industries[label.trim()];
+      if (!target) return all;
+      const destination = options.public
+        ? `${publicLocalePrefix}/industries/${target}/`
+        : `/preview/industries/${target}`;
+      return 'href="' + destination + '"' + attributes + '>' + label + '</a>';
+    },
   );
   html = html
     .replaceAll("../../public/", "/")
     .replaceAll("http://127.0.0.1:3002/", "/");
   for (const [id, file] of Object.entries(approvedTemplates))
-    html = html.replaceAll("../" + file, "/preview/pages/" + id);
+    html = html.replaceAll("../" + file, publicRoute(id));
   html = html.replace(
     /(?:src|href)="(\.\.\/[^"?#]+)([?#][^"]*)?"/g,
     (m, relative, suffix = "") => {
@@ -166,24 +244,42 @@ export async function renderDocument(
       asset +
       '"',
   );
+  const pageTitle = content.seo?.title?.trim() || (title ? title + ' | CODEYEA' : slugTitle(slug) + ' | CODEYEA');
+  const description = content.seo?.description?.trim() || content.description;
+  const publicPath = documentPath(slug, locale);
+  const robots = documentRobots(content, options.public === true);
+  const seo = seoTextSchema.parse(content.seo ?? { title: pageTitle.replace(/ \| CODEYEA$/, ''), description });
+  const canonicalUrl = new URL(publicPath || '/', siteOrigin).href;
+  const socialTitle = seo.socialTitle?.trim() || pageTitle;
+  const socialDescription = seo.socialDescription?.trim() || description;
+  const socialImageUrl = seo.socialImage?.mediaId ? new URL(assetUrl(seo.socialImage.mediaId), siteOrigin).href : '';
   if (title)
     html = html.replace(
       /<title>[^]*?<\/title>/,
-      "<title>" + escapeHtml(title) + " | CODEYEA</title>",
+      "<title>" + escapeHtml(pageTitle) + "</title>",
     );
-  const pageTitle=title?title+' | CODEYEA':slugTitle(slug)+' | CODEYEA';
-  html = replaceNamedMeta(html,'robots','<meta name="robots" content="noindex,nofollow">');
-  html = replaceNamedMeta(html,'description','<meta name="description" content="'+escapeHtml(content.description)+'">');
-  html=replacePropertyMeta(html,'og:title','<meta property="og:title" content="'+escapeHtml(pageTitle)+'">');
-  html=replacePropertyMeta(html,'og:description','<meta property="og:description" content="'+escapeHtml(content.description)+'">');
+  html = replaceNamedMeta(html,'robots','<meta name="robots" content="'+robots+'">');
+  html = replaceNamedMeta(html,'description','<meta name="description" content="'+escapeHtml(description)+'">');
+  const canonicalTag='<link rel="canonical" href="'+escapeHtml(canonicalUrl)+'">';
+  html=/<link\b(?=[^>]*\brel=["']canonical["'])[^>]*>/i.test(html)?html.replace(/<link\b(?=[^>]*\brel=["']canonical["'])[^>]*>/i,canonicalTag):html.replace('</head>',canonicalTag+'</head>');
+  if (options.public && options.alternates) {
+    const alternateTags = Object.entries(options.alternates).map(([language, url]) => '<link rel="alternate" hreflang="' + language + '" href="' + escapeHtml(url) + '">').join('');
+    const defaultUrl = options.alternates.en ? '<link rel="alternate" hreflang="x-default" href="' + escapeHtml(options.alternates.en) + '">' : '';
+    html = html.replace('</head>', alternateTags + defaultUrl + '</head>');
+  }
+  html=replacePropertyMeta(html,'og:title','<meta property="og:title" content="'+escapeHtml(socialTitle)+'">');
+  html=replacePropertyMeta(html,'og:description','<meta property="og:description" content="'+escapeHtml(socialDescription)+'">');
   html=replacePropertyMeta(html,'og:type','<meta property="og:type" content="website">');
   html=replacePropertyMeta(html,'og:site_name','<meta property="og:site_name" content="CODEYEA">');
-  const publicPath=documentPath(slug,locale);
-  if(publicPath)html=replacePropertyMeta(html,'og:url','<meta property="og:url" content="https://codeyea.com'+publicPath+'">');
+  if(publicPath)html=replacePropertyMeta(html,'og:url','<meta property="og:url" content="'+escapeHtml(canonicalUrl)+'">');
+  if(socialImageUrl)html=replacePropertyMeta(html,'og:image','<meta property="og:image" content="'+escapeHtml(socialImageUrl)+'">');
   html=replaceNamedMeta(html,'twitter:card','<meta name="twitter:card" content="summary">');
   html=replaceNamedMeta(html,'twitter:title','<meta name="twitter:title" content="'+escapeHtml(pageTitle)+'">');
-  html=replaceNamedMeta(html,'twitter:description','<meta name="twitter:description" content="'+escapeHtml(content.description)+'">');
-  const schema=documentStructuredSchema(slug,pageTitle,content.description,locale);
+  html=replaceNamedMeta(html,'twitter:description','<meta name="twitter:description" content="'+escapeHtml(socialDescription)+'">');
+  if(socialImageUrl)html=replaceNamedMeta(html,'twitter:card','<meta name="twitter:card" content="summary_large_image">');
+  if(socialImageUrl)html=replaceNamedMeta(html,'twitter:image','<meta name="twitter:image" content="'+escapeHtml(socialImageUrl)+'">');
+  html=replaceNamedMeta(html,'twitter:title','<meta name="twitter:title" content="'+escapeHtml(socialTitle)+'">');
+  const schema=documentStructuredSchema(slug,pageTitle,description,locale);
   if(schema){
    const script='<script type="application/ld+json">'+jsonLdText(schema)+'</script>';
    const existing=/<script\b(?=[^>]*type=["']application\/ld\+json["'])[^>]*>[\s\S]*?<\/script>/i;

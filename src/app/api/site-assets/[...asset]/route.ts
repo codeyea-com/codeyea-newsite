@@ -1,2 +1,39 @@
-import fs from 'node:fs/promises';import path from 'node:path';import {actor,failure,noStore} from '@/server/http';import {requirePermission} from '@/server/permissions';
-export async function GET(req:Request,{params}:{params:Promise<{asset:string[]}>}){try{const user=await actor(req);await requirePermission(user?.id??null,'view_admin');const {asset}=await params;const relative=asset.join('/');if(!/^(quote-review|shared-navigation|[a-z-]+-review|digital-service-template-preview)\/[a-zA-Z0-9_./-]+\.(css|js|png|jpg|jpeg|webp|svg|woff2)$/.test(relative)||asset.some(s=>s==='..'||s==='.'||s.includes('\\')))return new Response('Not found',{status:404});const root=path.resolve('docs');const file=path.resolve(root,...asset);if(!file.startsWith(root+path.sep))return new Response('Not found',{status:404});let body=await fs.readFile(file);const ext=path.extname(file);if(ext==='.css'||ext==='.js'){let text=body.toString().replaceAll('../../public/','/');const {approvedTemplates}=await import('@/server/site-documents');for(const [slug,f] of Object.entries(approvedTemplates))text=text.replaceAll('../'+f,'/preview/pages/'+slug);const base=path.posix.dirname(relative);text=text.replace(/([\"'(])assets\//g,`$1/api/site-assets/${base}/assets/`);body=Buffer.from(text)}const types:Record<string,string>={'.css':'text/css','.js':'text/javascript','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.svg':'image/svg+xml','.woff2':'font/woff2'};return new Response(body,{headers:{...noStore,'Content-Type':types[ext],'X-Content-Type-Options':'nosniff'}})}catch(e){return failure(e)}}
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { approvedTemplates } from '@/server/site-documents';
+import { db } from '@/server/db';
+import { actor, failure, noStore } from '@/server/http';
+import { requirePermission } from '@/server/permissions';
+
+export async function GET(req: Request, { params }: { params: Promise<{ asset: string[] }> }) {
+  try {
+    const { asset } = await params;
+    const relative = asset.join('/');
+    if (!/^(quote-review|shared-navigation|[a-z-]+-review|digital-service-template-preview)\/[a-zA-Z0-9_./-]+\.(css|js|png|jpg|jpeg|webp|svg|woff2)$/.test(relative) || asset.some(part => part === '..' || part === '.' || part.includes('\\'))) return new Response('Not found', { status: 404 });
+    const root = path.resolve('docs');
+    const file = path.resolve(root, ...asset);
+    if (!file.startsWith(root + path.sep)) return new Response('Not found', { status: 404 });
+
+    const published = (await db.siteDocument.findMany({ where: { kind: 'page' }, select: { template: true, published: true } })).filter(doc => doc.published !== null);
+    const publicAsset = published.some(doc => {
+      const template = doc.template ? approvedTemplates[doc.template] : undefined;
+      return template ? relative.startsWith(path.posix.dirname(template) + '/') : false;
+    });
+    if (!publicAsset) {
+      const user = await actor(req);
+      await requirePermission(user?.id ?? null, 'view_admin');
+    }
+
+    let body = await fs.readFile(file);
+    const ext = path.extname(file);
+    if (ext === '.css' || ext === '.js') {
+      let text = body.toString().replaceAll('../../public/', '/');
+      for (const [slug, template] of Object.entries(approvedTemplates)) text = text.replaceAll('../' + template, '/preview/pages/' + slug);
+      const base = path.posix.dirname(relative);
+      text = text.replace(/(["'(])assets\//g, `$1/api/site-assets/${base}/assets/`);
+      body = Buffer.from(text);
+    }
+    const types: Record<string, string> = { '.css': 'text/css', '.js': 'text/javascript', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.woff2': 'font/woff2' };
+    return new Response(body, { headers: { ...noStore, 'Content-Type': types[ext], 'X-Content-Type-Options': 'nosniff' } });
+  } catch (error) { return failure(error); }
+}

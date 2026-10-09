@@ -6,6 +6,7 @@ import '@/styles/roofing-hub.css';
 import {EditorialMotion} from '../motion/editorial-motion';
 import {FixedImageMotion} from '../motion/fixed-image-motion';
 import {OrderedPath} from '../motion/ordered-path';
+import {industryPageDestination,servicePageDestinationForText} from '@/content/service-destinations';
 import '@/styles/approved-motion.css';
 
 function Paragraphs({text}:{text:string}) {return <>{text.split(/\n\s*\n/).filter(Boolean).map((p,i)=><p key={i}>{p}</p>)}</>}
@@ -33,11 +34,11 @@ export function RoofingHubBody({content,industryItems,availablePaths,preview,con
    <div className="rf-service-count"><strong>{s.items.length}</strong><span>{s.actionLabel}</span></div>
    <div className="rf-service-content"><header className="rf-service-heading"><p className="rf-badge">{s.label}</p><AnimatedTitle text={s.heading}/></header>
     <div className="rf-service-paragraphs">{paras.map((p,i)=><p data-rf-paragraph={i} key={i}>{p}</p>)}</div>
-    <div className="rf-service-lists">{[s.items.slice(0,mid),s.items.slice(mid)].map((list,col)=><div data-rf-list={col} key={col}><h3>{s.listLabel||'OUR SERVICES'}</h3><ul>{list.map(i=>{const href=resolve(i.destination);return <li key={i.id}>{href?<a href={href}>{i.title}</a>:<span>{i.title}</span>}</li>})}</ul></div>)}</div>
+    <div className="rf-service-lists">{[s.items.slice(0,mid),s.items.slice(mid)].map((list,col)=><div data-rf-list={col} key={col}><h3>{s.listLabel||'OUR SERVICES'}</h3><ul>{list.map(i=>{const href=resolve(i.destination||servicePageDestinationForText(i.id,i.title)||'');return <li key={i.id}>{href?<a href={href}>{i.title}</a>:<span>{i.title}</span>}</li>})}</ul></div>)}</div>
    </div></div></section>}
   if(s.type==='growth')return <section id={s.id} key={s.id} className="rf-growth rf-section" aria-labelledby={s.id+'-title'}><div className="rf-container"><h2 className="rf-kicker" id={s.id+'-title'}>{s.heading}</h2><ol>{s.items.map((i,n)=><li key={i.id}><span className="rf-stage-number" aria-hidden="true">{String(n+1).padStart(2,'0')}</span><h3>{i.title}</h3><p>{i.body}</p></li>)}</ol></div></section>;
   if(s.type==='faq')return <section id={s.id} key={s.id} className="rf-faq rf-section" aria-labelledby={s.id+'-title'}><div className="rf-container rf-faq-grid"><div className="rf-faq-copy"><h2 id={s.id+'-title'}>{s.heading}</h2><Paragraphs text={s.body}/>{action(s)}</div><RoofingAccordion items={s.items}/></div></section>;
-  if(s.type==='related'){const groups=[0,1,2].map(n=>industryItems.slice(n*Math.ceil(industryItems.length/3),(n+1)*Math.ceil(industryItems.length/3)));return <section id={s.id} key={s.id} className="rf-industries rf-section" aria-labelledby={s.id+'-title'}><div className="rf-container rf-industry-grid"><h2 id={s.id+'-title'}>{s.heading}</h2><div className="rf-industry-lists">{groups.map((group,n)=><ul key={n}>{group.map(i=>{const current=i.title===content.hero.title,href=current?undefined:resolve(i.destination);return <li key={i.id}>{href?<a href={href}>{i.title}</a>:<span aria-current={current?'page':undefined}>{i.title}</span>}</li>})}</ul>)}</div></div></section>}
+  if(s.type==='related'){const groups=[0,1,2].map(n=>industryItems.slice(n*Math.ceil(industryItems.length/3),(n+1)*Math.ceil(industryItems.length/3)));return <section id={s.id} key={s.id} className="rf-industries rf-section" aria-labelledby={s.id+'-title'}><div className="rf-container rf-industry-grid"><h2 id={s.id+'-title'}>{s.heading}</h2><div className="rf-industry-lists">{groups.map((group,n)=><ul key={n}>{group.map(i=>{const current=i.title===content.hero.title,href=current?undefined:resolve(i.destination||industryPageDestination(i.title)||'');return <li key={i.id}>{href?<a href={href}>{i.title}</a>:<span aria-current={current?'page':undefined}>{i.title}</span>}</li>})}</ul>)}</div></div></section>}
   if(s.type==='cta')return <section id={s.id} key={s.id} className="rf-cta rf-section" aria-labelledby={s.id+'-title'}><div className="rf-cta-media"><AboutImage media={s.media} sizes="100vw"/></div><div className="rf-container rf-cta-content"><h2 id={s.id+'-title'}>{s.heading}</h2>{action(s,'rf-corporate-button')}</div></section>;
   return null;
  })}</div>;

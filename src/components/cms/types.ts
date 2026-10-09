@@ -3,6 +3,7 @@ export type Section = {
   type: string;
   heading: string;
   body: string;
+  enabled?: boolean;
 };
 export type Page = {
   id: string;

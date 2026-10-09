@@ -3,11 +3,10 @@ import {RouteMap} from "@/components/cms/route-map";
 import { DocumentHistory } from "@/components/cms/document-history";
 import { IntegrationSettings } from "@/components/cms/integration-settings";
 import { AnalyticsPanel } from "@/components/cms/analytics-dashboard";
-import {
-  cmsPageIds,
-  industryNames,
-  isIndustrySlug,
-} from "@/content/industry-registry";
+import { SeoEditor } from "@/components/cms/seo-editor";
+import {TemplateImageEditor} from '@/components/cms/template-image-editor';
+import type { SeoText } from "@/schemas/seo-text";
+import { documentPath } from "@/content/site-routes";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 type Field = { key: string; label: string; value: string };
@@ -18,6 +17,7 @@ type Doc = {
   kind: string;
   locale: string;
   version: number;
+  published: unknown;
   draft: {
     templateHash?: string;
     fields: Field[];
@@ -25,6 +25,8 @@ type Doc = {
     body?: string;
     category?: string;
     tags?: string[];
+    seo?: SeoText;
+    images?: import('@/server/site-documents').TemplateImage[];
   };
 };
 type Lead = {
@@ -50,7 +52,8 @@ export default function SiteStudio() {
       proposals: { id: string; instruction: string; status: string }[];
     } | null>(null),
     [lead, setLead] = useState<Lead | null>(null),
-    [query, setQuery] = useState("");
+    [query, setQuery] = useState(""),
+    [permissions, setPermissions] = useState<string[]>([]);
   async function api(url: string, init?: RequestInit) {
     const r = await fetch(url, {
       ...init,
@@ -66,13 +69,23 @@ export default function SiteStudio() {
   }
   async function load() {
     try {
-      setDocs((await api("/api/site-documents")).documents);
+      const result = await api("/api/site-documents");
+      setDocs(result.documents);
+      setPermissions(result.permissions ?? []);
     } catch (e) {
       setMessage(String(e));
     }
   }
   useEffect(() => {
     load();
+  }, []);
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const documentId = params.get("document");
+    if (params.get("section") === "Pages" && documentId) {
+      setSection("Pages");
+      choose(documentId);
+    }
   }, []);
   useEffect(() => {
     const warn = (e: BeforeUnloadEvent) => {
@@ -84,7 +97,9 @@ export default function SiteStudio() {
   async function choose(id: string) {
     if (dirty && !confirm("Discard unsaved changes?")) return;
     try {
-      setSelected((await api("/api/site-documents?id=" + id)).document);
+      const result = await api("/api/site-documents?id=" + id);
+      setSelected(result.document);
+      setPermissions(result.permissions ?? permissions);
       setDirty(false);
       setMessage("");
     } catch (e) {
@@ -128,6 +143,19 @@ export default function SiteStudio() {
     } finally {
       setBusy(false);
     }
+  }
+  async function publication(action: "publish" | "unpublish") {
+    if (!selected || dirty) return;
+    setBusy(true);
+    try {
+      await api("/api/site-documents/publish", { method: "POST", body: JSON.stringify({ id: selected.id, version: selected.version, action }) });
+      const result = await api("/api/site-documents?id=" + selected.id);
+      setSelected(result.document);
+      setPermissions(result.permissions ?? permissions);
+      await load();
+      setMessage(action === "publish" ? "Page is live. Search indexing still follows the site's global SEO setting." : "Page removed from its public route.");
+    } catch (e) { setMessage(String(e)); }
+    finally { setBusy(false); }
   }
   function update(d: Doc) {
     setSelected(d);
@@ -181,12 +209,12 @@ export default function SiteStudio() {
                 details.
               </p>
               {section === "Pages" && <RouteMap/>}
-              <input
-                aria-label="Search pages"
-                placeholder="Search…"
+              {section === "Posts" && <input
+                aria-label="Search posts"
+                placeholder="Search posts…"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-              />
+              />}
               {section === "Posts" && (
                 <form
                   onSubmit={async (e) => {
@@ -226,37 +254,11 @@ export default function SiteStudio() {
                   <button disabled={busy}>Create draft</button>
                 </form>
               )}
-              <div className="site-page-list">
-                {section === "Pages" &&
-                  cmsPageIds
-                    .filter((id) =>
-                      (isIndustrySlug(id) ? industryNames[id] : id)
-                        .toLowerCase()
-                        .includes(query.toLowerCase()),
-                    )
-                    .map((id) => (
-                      <Link
-                        className="site-page-link"
-                        key={id}
-                        href={"/admin/editor?page=" + id}
-                      >
-                        <strong>
-                          {isIndustrySlug(id)
-                            ? industryNames[id]
-                            : {
-                                homepage: "Homepage",
-                                about: "About Us",
-                                services: "Services",
-                                industries: "Industries",
-                              }[id] || id}
-                        </strong>
-                        <span>Page details →</span>
-                      </Link>
-                    ))}
+              {section === "Posts" && <div className="site-page-list">
                 {docs
                   .filter(
                     (d) =>
-                      d.kind === (section === "Pages" ? "page" : "post") &&
+                      d.kind === "post" &&
                       d.title.toLowerCase().includes(query.toLowerCase()),
                   )
                   .map((d) => (
@@ -267,15 +269,7 @@ export default function SiteStudio() {
                       </span>
                     </button>
                   ))}
-              </div>
-              {section === "Pages" && (
-                <p>
-                  <Link href="/admin/editor">
-                    Homepage, About, Services and Industry pages — open existing
-                    editors →
-                  </Link>
-                </p>
-              )}
+              </div>}
             </>
           )}
           {selected && (
@@ -305,9 +299,19 @@ export default function SiteStudio() {
                     Preview approved design ↗
                   </a>
                 )}
+                {selected.kind==='page'&&Boolean(selected.published)&&documentPath(selected.slug,selected.locale)&&<a href={documentPath(selected.slug,selected.locale)!} target="_blank" rel="noreferrer">Open live page ↗</a>}
                 <button onClick={save} disabled={busy || !dirty}>
                   Save draft
                 </button>
+                {selected.kind === "page" && permissions.includes("publish_pages") ? (
+                  <>
+                    <button onClick={() => void publication("publish")} disabled={busy || dirty}>
+                      {selected.published ? "Update live page" : "Publish page"}
+                    </button>
+                    {Boolean(selected.published) && <button onClick={() => void publication("unpublish")} disabled={busy || dirty}>Unpublish</button>}
+                  </>
+                ) : null}
+                {selected.kind === "page" && <span>{selected.published ? "Live" : "Private draft"}</span>}
               </div>
               <DocumentHistory
                 id={selected.id}
@@ -336,19 +340,8 @@ export default function SiteStudio() {
                 {selected.locale === "ar" ? "Arabic / RTL" : "English / LTR"} ·
                 Version {selected.version}
               </p>
-              <label className="site-field">
-                SEO description
-                <textarea
-                  value={selected.draft.description}
-                  maxLength={320}
-                  onChange={(e) =>
-                    update({
-                      ...selected,
-                      draft: { ...selected.draft, description: e.target.value },
-                    })
-                  }
-                />
-              </label>
+              {selected.kind === "page" && <SeoEditor value={selected.draft.seo ?? { title: selected.title + " | CODEYEA", description: selected.draft.description || `Explore ${selected.title} services and digital solutions from CODEYEA.` }} path={documentPath(selected.slug,selected.locale) ?? `/${selected.slug}/`} onChange={seo=>update({...selected,draft:{...selected.draft,description:seo.description,seo}})} />}
+              {selected.kind==='page'&&<TemplateImageEditor value={selected.draft.images??[]} onChange={images=>update({...selected,draft:{...selected.draft,images}})}/>}
               {selected.kind === "post" ? (
                 <>
                   <label className="site-field">

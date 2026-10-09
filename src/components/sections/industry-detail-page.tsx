@@ -3,6 +3,7 @@ import type {IndustryItem} from '@/schemas/industries-page';
 import type {IndustryDetailContent,DetailSection} from '@/schemas/industry-detail';
 import type {HomepageContent,EditorObject} from '@/schemas/homepage-editor';
 import {resolveHomepage} from '@/content/homepage-defaults';
+import {industryPageDestination,servicePageDestinationForText} from '@/content/service-destinations';
 import {HomepageHeader} from './homepage-header';import {HomepageFooter} from './homepage-footer';import {SiteUtility} from './site-utility';import {InternalPageHero} from './internal-page-hero';import {AboutImage} from './about-image';import {EditorialMotion} from '../motion/editorial-motion';
 import '@/styles/homepage-final.css';import '@/styles/homepage-editorial.css';import '@/styles/about.css';import '@/styles/industry-detail.css';
 import '@fontsource/josefin-sans/latin-200.css';import '@fontsource/josefin-sans/latin-300.css';import '@fontsource/josefin-sans/latin-700.css';
@@ -14,10 +15,10 @@ export function IndustryDetailPage({content,shared,preview=false,availablePaths=
  function Action({label,destination,filled=false}:{label:string;destination:string;filled?:boolean}){if(!label)return null;const to=href(destination),cls=filled?'hp-button':'detail-action';return to?<a className={cls} href={to}>{label}{!filled&&<span aria-hidden="true">↗</span>}</a>:<button className={cls} type="button" aria-disabled="true">{label}{!filled&&<span aria-hidden="true">↗</span>}</button>}
  function Items({s}:{s:DetailSection}){
   if(!s.items.length)return null;
-  return <div className={'detail-items detail-items-'+s.type}>{s.items.map((item,n)=><article className="detail-item" key={item.id}>
+  return <div className={'detail-items detail-items-'+s.type}>{s.items.map((item,n)=>{const inferred=s.type==='services'?servicePageDestinationForText(item.id,item.title,item.actionLabel):s.type==='related'?(industryPageDestination(item.title)||servicePageDestinationForText(item.id,item.title,item.actionLabel)):undefined;const label=item.actionLabel||((s.type==='services'||s.type==='related')&&inferred?`Explore ${item.title}`:'');return <article className="detail-item" key={item.id}>
    {(s.type==='growth'||s.type==='process')&&<span className="detail-step" aria-hidden="true">{String(n+1).padStart(2,'0')}</span>}
-   <h3>{item.title}</h3><Paragraphs text={item.body}/><Action label={item.actionLabel} destination={item.destination}/>
-  </article>)}</div>;
+   <h3>{item.title}</h3><Paragraphs text={item.body}/><Action label={label} destination={item.destination||inferred||''}/>
+  </article>})}</div>;
  }
  return <div className="public-surface hp about-page industry-detail-page"><a className="hp-skip" href="#main">Skip to content</a><SiteUtility/><HomepageHeader light content={sharedLinks(home.header,preview) as EditorObject} activeHref={preview?'/preview/industries':'/industries/'} homeHref={preview?'/preview':'/'}/><main id="main">
   <EditorialMotion scope=".industry-detail-page" groups={[".detail-heading",".detail-copy",".detail-items",".detail-section-action",".detail-media"]} includeFigures/>

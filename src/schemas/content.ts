@@ -8,6 +8,7 @@ export const sectionSchema = z
   .object({
     id: z.string().min(1).max(100),
     type: z.literal("positioning"),
+    enabled: z.boolean().optional(),
     heading: z.string().trim().min(1).max(180),
     body: z.string().trim().max(2000),
   })

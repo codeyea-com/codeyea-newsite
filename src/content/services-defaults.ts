@@ -1,5 +1,6 @@
 import {servicesPageSchema,type ServiceItem,type ServiceSection} from '../schemas/services-page';
 import type {AboutMedia} from '../schemas/about';
+import {servicePageDestination} from './service-destinations';
 
 export function defaultServices(localeId:string,marketId:string,media:AboutMedia,cardMedia:AboutMedia[]=[],contact='https://codeyea.com/contact/'){
  const item=(id:string,title:string,body:string,label='',list:string[]=[]):ServiceItem=>({id,title,body,label,list:list.map((text,n)=>({id:`${id}-line-${n+1}`,text})),destination:null,actionLabel:''});
@@ -15,7 +16,7 @@ export function defaultServices(localeId:string,marketId:string,media:AboutMedia
  item('sv-priority-seo','SEO & GEO','Search Engine Optimization and Generative Engine Optimization that improve how businesses are discovered across traditional search and AI-powered platforms.'),
  item('sv-priority-development','Web & App Development','Custom websites, web applications, mobile applications and AI-enabled platforms created around specific business requirements.'),
  item('sv-priority-commerce','E-Commerce Solutions','Online stores and connected commerce experiences designed to simplify shopping, management, integrations and customer journeys.')]);
- priority.items=priority.items.map((i,n)=>({...i,actionLabel:'Learn More',media:structuredClone(cardMedia[n]??media)}));
+ priority.items=priority.items.map((i,n)=>({...i,actionLabel:'Learn More',destination:servicePageDestination(i.id)??null,media:structuredClone(cardMedia[n]??media)}));
  const strategy=section('services-strategy','','Digital Growth Strategy','',[
  item('sv-strategy-roadmap','Turn business goals into a connected digital roadmap.','We connect your audience, brand, marketing channels and technology requirements into a practical strategy that defines what should be built, how it should work and how it can support growth.','Digital Growth Strategy',['Brand and audience positioning','Website and e-commerce planning','SEO and digital marketing direction','GEO and AI-search readiness','AI and automation opportunities','Application and integration planning','Growth measurement']),
  item('sv-strategy-experiences','Build every customer touchpoint as one consistent system.','CODEYEA combines brand design, user experience, development, content structure and digital marketing so the website, application, online store and marketing channels work together instead of operating as separate pieces.','Connected Digital Experiences')]);strategy.media=structuredClone(media);
@@ -27,7 +28,8 @@ export function defaultServices(localeId:string,marketId:string,media:AboutMedia
  item('sv-service-website','Website Design & Development','Responsive websites that combine purposeful design, clear content and reliable development.'),
  item('sv-service-marketing','Digital Marketing','Coordinated digital channels and campaigns designed to reach and engage relevant audiences.'),
  item('sv-service-brand','Brand Design','Visual identities and brand systems that improve consistency, recognition and credibility.'),
- item('sv-service-graphic','Graphic Design','Professional digital and print materials that communicate the brand clearly.')]);complete.items=complete.items.map(i=>({...i,actionLabel:'Learn More'}));
+ item('sv-service-graphic','Graphic Design','Professional digital and print materials that communicate the brand clearly.')]);
+ complete.items=complete.items.map(i=>({...i,actionLabel:'Learn More',destination:servicePageDestination(i.id)??null}));
  const process=section('services-process','HOW WE WORK','A clear process. A connected result.','',[
  item('sv-step-discover','Understand the business before building the solution.','We review your goals, audience, current digital presence, internal processes and technology to identify the challenges, opportunities and highest-impact priorities.','Discover & Diagnose',['Business and audience discovery','Website and brand review','SEO and GEO opportunities','Workflow and automation assessment','Technical requirements']),
  item('sv-step-build','Turn the strategy into a connected digital solution.','We define the roadmap, create the experience and build the required website, application, e-commerce platform, marketing foundation or AI-powered workflow.','Plan, Design & Build',['Strategy and project roadmap','UX and visual design','Content structure','Development and integrations','SEO and GEO foundations','AI and automation implementation']),

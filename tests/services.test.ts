@@ -5,7 +5,8 @@ after(async()=>db.$disconnect());
 test('Services contract preserves eight sections, bounded collections, unique IDs and nullable safe routes',()=>{
  const content=defaultServices('en','global',defaultIndustries('en','global').hero.media);
  assert.equal(content.sections.length,8);assert.deepEqual(content.sections.map(s=>s.items.length),[4,4,2,8,3,4,8,0]);assert.equal(content.sections[0].outcomes.length,4);
- assert.ok(content.sections[1].items.every(i=>i.destination===null));assert.ok(content.sections[3].items.every(i=>i.destination===null));
+ assert.deepEqual(content.sections[1].items.map(i=>i.destination),['/ai-automation/','/seo-geo/','/web-mobile-apps/','/ecommerce/']);
+ assert.deepEqual(content.sections[3].items.map(i=>i.destination),['/ai-automation/','/seo-geo/','/web-mobile-apps/','/ecommerce/','/website-design/','/digital-marketing/','/brand-design/',null]);
  const bad=structuredClone(content);bad.sections.reverse();assert.equal(servicesPageSchema.safeParse(bad).success,false);
  const duplicate=structuredClone(content);duplicate.sections[1].items[1].id=duplicate.sections[1].items[0].id;assert.equal(servicesPageSchema.safeParse(duplicate).success,false);
  const route=structuredClone(content);route.sections[1].items[0].destination='javascript:alert(1)';assert.equal(servicesPageSchema.safeParse(route).success,false);

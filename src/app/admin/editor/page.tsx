@@ -13,6 +13,10 @@ import { AboutEditor } from "@/components/cms/about-editor";
 import { RevisionList } from "@/components/cms/revision-list";
 import { Activity } from "@/components/cms/activity";
 import { BrandReference } from "@/components/cms/brand-reference";
+import {SeoEditor} from '@/components/cms/seo-editor';
+import { AiAssistant } from '@/components/cms/ai-assistant';
+import type {SeoText} from '@/schemas/seo-text';
+import {pagePath} from '@/content/site-routes';
 
 export default function Admin() {
   const router = useRouter();
@@ -149,9 +153,9 @@ export default function Admin() {
       setLoadingMore(false);
     }
   }
-  async function save(event: FormEvent) {
+  async function save(event: FormEvent, pageToSave = draft) {
     event.preventDefault();
-    if (!draft) return;
+    if (!pageToSave) return;
     setBusy(true);
     setError("");
     setNotice("");
@@ -160,15 +164,15 @@ export default function Admin() {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          pageId: draft.id,
-          expectedVersion: draft.version,
-          title: draft.title,
-          sections: draft.sections,
-          homepage: draft.homepage,
-          about: draft.about,
-          industriesPage: draft.industriesPage,
-          industryDetail: draft.industryDetail,
-          servicesPage: draft.servicesPage,
+          pageId: pageToSave.id,
+          expectedVersion: pageToSave.version,
+          title: pageToSave.title,
+          sections: pageToSave.sections,
+          homepage: pageToSave.homepage,
+          about: pageToSave.about,
+          industriesPage: pageToSave.industriesPage,
+          industryDetail: pageToSave.industryDetail,
+          servicesPage: pageToSave.servicesPage,
         }),
       });
       if (!response.ok) {
@@ -287,6 +291,8 @@ export default function Admin() {
     );
   const canEdit = data.permissions.includes("edit_pages");
   const canRestore = data.permissions.includes("edit_pages");
+  const seoValue = readPageSeo(draft);
+  function updateSeo(value:SeoText){setDraft(current=>current?writePageSeo(current,value):current);setNotice("");}
   return (
     <div className="studio">
       <aside className="sidebar">
@@ -325,7 +331,7 @@ export default function Admin() {
           </select>
         </label>
         <nav aria-label="Studio">
-          {["Content", "Revisions", "Audit log", "Brand & taxonomy"].map(
+          {["Content", "SEO", "Revisions", "Audit log", "Brand & taxonomy"].map(
             (item) => (
               <button
                 key={item}
@@ -436,6 +442,7 @@ export default function Admin() {
                 }}
               />
             )}
+            {!switching&&!missingAbout&&draft.id===pageId&&tab==="SEO"&&<><AiAssistant key={draft.id} page={draft} onApply={next=>{setDraft(next);setNotice('AI suggestions applied to this unsaved draft. Save changes to keep them.');}}/><form onSubmit={event=>void save(event,writePageSeo(draft,seoValue))} className="editor-fields"><SeoEditor value={seoValue} path={pagePath(pageId)??`/${pageId}/`} onChange={updateSeo}/><div className="cms-actions"><button className="button" disabled={!dirty||busy||!canEdit}>Save SEO draft</button><span>Draft metadata stays private until the page is published.</span></div></form></>}
           {!switching &&
             !missingAbout &&
             draft.id === pageId &&
@@ -464,6 +471,19 @@ export default function Admin() {
       </main>
     </div>
   );
+}
+function readPageSeo(page:Page):SeoText{
+ const value=page.homepage?.seo??page.about?.seo??page.servicesPage?.seo??page.industriesPage?.seo??page.industryDetail?.seo;
+ if(value&&typeof value==='object'&&'title' in value&&'description' in value)return value as SeoText;
+ return {title:`${page.title} | CODEYEA`,description:`Explore CODEYEA ${page.title.toLowerCase()} services and digital solutions.`};
+}
+function writePageSeo(page:Page,value:SeoText):Page{
+ if(page.homepage)return {...page,homepage:{...page.homepage,seo:value}};
+ if(page.about)return {...page,about:{...page.about,seo:value}};
+ if(page.servicesPage)return {...page,servicesPage:{...page.servicesPage,seo:value}};
+ if(page.industriesPage)return {...page,industriesPage:{...page.industriesPage,seo:value}};
+ if(page.industryDetail)return {...page,industryDetail:{...page.industryDetail,seo:value}};
+ return page;
 }
 function Editor(
   props: React.ComponentProps<typeof DraftEditor> & {

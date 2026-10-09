@@ -86,11 +86,11 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
       <SiteUtility />
       <HomepageHeader content={home.header} />
       <main id="main">
-        <HomepageHeroExperience
+        {hero.enabled !== false && <HomepageHeroExperience
           slides={createHeroServiceSlides(services)}
           ctaLabel={str(hero.ctaLabel)}
           ctaHref={str(hero.ctaHref)}
-        />
+        />}
         <aside className="hp-review hp-container">
           <strong>Homepage design review</strong>
           <span>
@@ -99,7 +99,7 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
             site. Client marks below require relationship approval.
           </span>
         </aside>
-        <section
+        {home.logos.enabled !== false && <section
           className="hp-clients hp-container"
           aria-label="Existing site logos; client relationships awaiting confirmation"
         >
@@ -125,14 +125,14 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
               image
             );
           })}
-        </section>
+        </section>}
         <section
           id="positioning"
           className="hp-positioning hp-container"
           aria-labelledby="positioning-title"
         >
           {snapshot ? (
-            snapshot.sections.map((section) => (
+            snapshot.sections.filter(section=>section.enabled!==false).map((section) => (
               <div key={section.id}>
                 <h2 id="positioning-title">{section.heading}</h2>
                 <p className="hp-positioning-body">{section.body}</p>
@@ -145,7 +145,7 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
             </>
           )}
         </section>
-        <section
+        {home.services.enabled !== false && <section
           id="services"
           className="hp-services hp-container"
           aria-label="Our eight services"
@@ -176,8 +176,8 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
               </a>
             </article>
           ))}
-        </section>
-        <section id="about" className="hp-about">
+        </section>}
+        {about.enabled !== false && <section id="about" className="hp-about">
           <img
             className="hp-about-media"
             {...mediaProps(about.media)}
@@ -213,8 +213,8 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
               {str(about.ctaLabel)}
             </a>
           </div>
-        </section>
-        <section
+        </section>}
+        {experience.enabled !== false && <section
           className="hp-experience"
           aria-labelledby="experience-title"
           style={{
@@ -248,8 +248,8 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
               )}
             </div>
           </div>
-        </section>
-        <section
+        </section>}
+        {home.flow.enabled !== false && <section
           id="service-flow"
           className="hp-flow-section"
           aria-label="Our approach"
@@ -275,9 +275,9 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
               ctaHref: str(item.ctaHref),
             }))}
           />
-        </section>
-        <HomepageHosting content={home.hosting} />
-        <section
+        </section>}
+        {home.hosting.enabled !== false && <HomepageHosting content={home.hosting} />}
+        {home.projects.enabled !== false && <section
           id="work"
           className="hp-portfolio"
           aria-labelledby="work-title"
@@ -301,8 +301,8 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
                 href: str(item.href),
               }))}
           />
-        </section>
-        <section
+        </section>}
+        {home.industries.enabled !== false && <section
           id="industries"
           className="hp-industries"
           aria-labelledby="industries-title"
@@ -332,7 +332,7 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
               }))}
             />
           </div>
-        </section>
+        </section>}
       </main>
       <HomepageFooter content={footer} />
     </div>

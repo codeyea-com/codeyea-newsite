@@ -29,7 +29,7 @@
 
 ### Task 1: Route-backed page selector
 
-**Files:** `src/content/site-routes.ts`, `src/server/site-index.ts`, `src/app/api/site-routes/route.ts`, `src/app/admin/page.tsx`, `src/components/cms/route-map.tsx`, `tests/site-index.test.ts`, `e2e/site-catalog.spec.ts` (create).
+**Files:** `src/content/site-routes.ts`, `src/content/page-catalog.ts` (create), `src/server/site-index.ts`, `src/app/api/site-routes/route.ts`, `src/app/admin/page.tsx`, `src/components/cms/route-map.tsx`, `tests/page-catalog.test.ts` (create), `e2e/site-catalog.spec.ts` (create).
 
 - [ ] Enumerate every public route from the existing route registry and CMS documents; mark routes with no editable document or locale counterpart.
 - [ ] Extend the authenticated route response with title, path, locale, publication/draft state, and update time; exclude `/admin`, `/api`, `/login`, and private preview routes.

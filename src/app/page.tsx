@@ -17,8 +17,8 @@ export async function generateMetadata():Promise<Metadata>{
  const page=await db.page.findFirst({where:{id:"homepage",deletedAt:null},select:{publishedSnapshot:true}});
  const parsed=page?.publishedSnapshot?snapshotSchema.safeParse(page.publishedSnapshot):undefined;
  const published=Boolean(parsed?.success);
- const {title,description}=resolveSeoText(parsed?.success?parsed.data.homepage?.seo:undefined,{title:"Website Design, SEO & Digital Services | CODEYEA",description:"CODEYEA builds websites, apps, e-commerce experiences and digital growth systems for businesses worldwide."});
- return {...pageMetadata('/',title,description),robots:publicRobots(published)};
+ const seo=resolveSeoText(parsed?.success?parsed.data.homepage?.seo:undefined,{title:"Website Design, SEO & Digital Services | CODEYEA",description:"CODEYEA builds websites, apps, e-commerce experiences and digital growth systems for businesses worldwide."});
+ return {...pageMetadata('/',seo.title,seo.description,seo),robots:publicRobots(published,seo)};
 }
 
 export default async function Home() {

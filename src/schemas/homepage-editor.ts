@@ -27,13 +27,17 @@ export const homepageEditorSections:{key:string;label:string;fields:Field[]}[]=[
  {key:'industries',label:'Industries',fields:[text('heading','Section heading'),copy(),...cta,collection('items','Industries',[title,text('eyebrow','Eyebrow'),copy(),media,link('href','Approved destination (optional)',false)],8,1)]},
  {key:'footer',label:'Footer',fields:[text('heading','Heading prefix'),text('suffix','Heading suffix'),collection('words','Rotating words',[title],8,1),text('supportHeading','Supporting heading'),copy(),...cta,collection('groups','Link groups',[title,collection('links','Links',[title,link()],8)],3,1),copy('contact','Contact details'),text('copyright','Copyright text',200)]}
 ];
+for(const section of homepageEditorSections){
+ if(['hero','logos','services','about','experience','flow','hosting','projects','industries'].includes(section.key))
+  section.fields.unshift({key:'enabled',label:'Show this section',type:'boolean'});
+}
 export const editorMediaSchema=mediaRef.safeExtend({width:z.number().int().min(16).max(8192).optional(),height:z.number().int().min(16).max(8192).optional(),focalX:z.number().min(0).max(100),focalY:z.number().min(0).max(100)}).refine(v=>homepageAssets.some(a=>a.id===v.mediaId)||/^media_[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(v.mediaId),'Choose a registered image');
 function fieldSchema(field:Field):z.ZodType{
  switch(field.type){
  case 'collection':return z.array(objectSchema(field.fields!,true)).min(field.min??0).max(field.max??12).refine(v=>new Set(v.map(i=>i.id)).size===v.length,'Duplicate item IDs').refine(v=>v.filter(i=>i.enabled).length>=(field.min??0),'Enable the minimum number of items').refine(v=>new Set(v.map(i=>i.position)).size===v.length,'Duplicate order positions');
  case 'media':return editorMediaSchema;
  case 'number':return z.number().int().min(field.min??0).max(field.max??999);
- case 'boolean':return z.boolean();
+ case 'boolean':return field.key==='enabled'?z.boolean().default(true):z.boolean();
  case 'select':return z.enum(field.options as [string,...string[]]);
  case 'link':return field.required?safeHref:z.union([z.literal(''),safeHref]);
  default:return z.string().trim().min(field.required?1:0).max(field.max??2000);

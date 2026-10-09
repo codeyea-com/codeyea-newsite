@@ -19,6 +19,7 @@ import {isIndustrySlug} from '../content/industry-registry';
 import {resolveHomepage} from '../content/homepage-defaults';
 import {safeHref} from '../schemas/contract-primitives';
 import {editorMediaSchema} from '../schemas/homepage-editor';
+import {pagePath} from '../content/site-routes';
 
 export function approvedAboutProjects(snapshot:unknown){
  const projects=(snapshot as {homepage?:{projects?:{items?:{id:string;enabled:boolean;approved?:boolean;title?:string;body?:string;href?:string;media?:unknown}[]}}}|null)?.homepage?.projects?.items??[];
@@ -26,6 +27,9 @@ export function approvedAboutProjects(snapshot:unknown){
 }
 
 export async function assertPageSnapshot(tx:Prisma.TransactionClient,page:{id:string;localeId:string;marketId:string},next:Snapshot,sharedSource:'draft'|'published'='draft'){
+ const seo=next.homepage?.seo??next.about?.seo??next.servicesPage?.seo??next.industriesPage?.seo??next.industryDetail?.seo;
+ const expectedPath=pagePath(page.id);
+ if(seo?.canonicalPath&&seo.canonicalPath!==expectedPath)throw new AppError(400,'Canonical path must match this page route.');
  if((page.id==='services')!==Boolean(next.servicesPage))throw new AppError(400,'Snapshot content must match its page.');
  if(next.servicesPage&&(next.servicesPage.localeId!==page.localeId||next.servicesPage.marketId!==page.marketId))throw new AppError(400,'Services locale and market cannot be changed.');
  if((page.id==='about')!==Boolean(next.about))throw new AppError(400,'Snapshot content must match its page.');

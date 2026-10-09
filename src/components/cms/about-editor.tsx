@@ -7,6 +7,7 @@ import {
   type AboutMedia,
 } from "@/schemas/about";
 import { MediaPicker } from "./media-picker";
+import {SeoEditor} from './seo-editor';
 import { assetUrl } from "@/content/homepage-assets";
 import type { Page } from "./types";
 type Props = {
@@ -234,6 +235,7 @@ export function AboutEditor({
                     update({ ...about, seo: { ...about.seo, description } })
                   }
                 />
+                <SeoEditor value={about.seo} path="/about/" onChange={seo=>update({...about,seo})}/>
               </>
             ) : (
               <>
