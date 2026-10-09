@@ -427,6 +427,13 @@ export async function renderDocument(
   }
   html=html.replaceAll('/brand/logo-dark.png','/brand/logo-animated-dark.svg').replaceAll('/brand/logo-light.png','/brand/logo-animated-light.svg');
   html=html.replace('</head>','<link rel="stylesheet" href="/site/page-texture.css"></head>');
+  // Bust the shared navigation asset cache when the shell styles change; static
+  // template pages otherwise keep an older menu/header layout after deployment.
+  if(options.public){
+    html=html
+      .replace('/api/site-assets/shared-navigation/hosting-menu.css?surface=public','/api/site-assets/shared-navigation/hosting-menu.css?surface=public&v=20261009-1')
+      .replace('/api/site-assets/shared-navigation/hosting-menu.js?surface=public','/api/site-assets/shared-navigation/hosting-menu.js?surface=public&v=20261009-1');
+  }
   return html;
 }
 function slugTitle(slug:string){return slug.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ')}
