@@ -15,6 +15,12 @@
   background-repeat: repeat-y;
 }
 
+/* Keep the process copy on the same page measure while the section background bleeds. */
+.hp.public-surface .rp-process {
+  padding-inline: max(24px, calc((100% - 1220px) / 2 + 35px)) !important;
+  background-color: #fff;
+}
+
 @media (max-width: 1199px) {
   .hp.public-surface main {
     --page-grid-edge: 32px;
