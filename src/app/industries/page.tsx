@@ -30,7 +30,7 @@ async function publishedIndustries() {
 export async function generateMetadata(): Promise<Metadata> {
   const industries = await publishedIndustries();
   const seo=resolveSeoText(industries?.seo,industriesMetadata);
-  return {...pageMetadata('/industries/',seo.title,seo.description,seo),robots:publicRobots(!!industries,seo)};
+  return {...pageMetadata('/industries/',seo.title,seo.description,seo),robots:publicRobots(true,seo)};
 }
 export default async function Industries() {
   const industries = await publishedIndustries();

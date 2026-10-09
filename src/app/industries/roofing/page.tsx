@@ -9,6 +9,6 @@ export async function generateMetadata():Promise<Metadata>{
  const data=await roofingPageData();
  const title=data?.detail.seo?.title??'Digital Services for Roofing Companies | CODEYEA';
  const description=data?.detail.seo?.description??'Websites, search visibility, project content and connected estimate workflows for roofing companies.';
- return {...pageMetadata('/industries/roofing/',title,description,data?.detail.seo),robots:publicRobots(!!data,data?.detail.seo)};
+ return {...pageMetadata('/industries/roofing/',title,description,data?.detail.seo),robots:publicRobots(true,data?.detail.seo)};
 }
 export default async function Roofing(){const data=await roofingPageData();if(!data)redirect('/industries/');const title=data.detail.seo?.title??'Digital Services for Roofing Companies | CODEYEA';const description=data.detail.seo?.description??'Websites, search visibility, project content and connected estimate workflows for roofing companies.';return <><JsonLd data={publicPageSchema('/industries/roofing/',title,description)}/><IndustryDetailPage content={data.detail} industryItems={data.industryItems} shared={data.shared} availablePaths={data.availablePaths}/></>}

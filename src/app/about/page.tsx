@@ -3,7 +3,9 @@ import { db } from "@/server/db";
 import { snapshotSchema } from "@/schemas/content";
 import { AboutPage } from "@/components/sections/about-page";
 import { PublicTracking } from "@/components/cms/public-tracking";
-import { aboutMetadata, defaultAbout } from "@/content/about-defaults";
+import { aboutMetadata } from "@/content/about-defaults";
+import approvedFallback from "@/content/approved-about-fallback.json";
+import { aboutSchema } from "@/schemas/about";
 import { defaultHomepage } from "@/content/homepage-defaults";
 import {publicRobots} from "@/content/seo";
 import {pageMetadata,publicPageSchema} from '@/content/structured-data';
@@ -27,11 +29,12 @@ async function publishedAbout() {
 }
 export async function generateMetadata(): Promise<Metadata> {
   const about = await publishedAbout();
-  const seo=about?.seo??aboutMetadata;
-  return {...pageMetadata('/about/',seo.title,seo.description,seo),robots:publicRobots(!!about,seo)};
+  const fallback=aboutSchema.parse(approvedFallback.about);
+  const seo=about?.seo??fallback.seo??aboutMetadata;
+  return {...pageMetadata('/about/',seo.title,seo.description,seo),robots:publicRobots(true,seo)};
 }
 export default async function About() {
-  const about = (await publishedAbout()) ?? defaultAbout();
+  const about = (await publishedAbout()) ?? aboutSchema.parse(approvedFallback.about);
   const shared = await db.page.findUnique({
     where: { id: "homepage" },
     select: { publishedSnapshot: true },

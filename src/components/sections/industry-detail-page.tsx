@@ -4,6 +4,7 @@ import type {IndustryDetailContent,DetailSection} from '@/schemas/industry-detai
 import type {HomepageContent,EditorObject} from '@/schemas/homepage-editor';
 import {resolveHomepage} from '@/content/homepage-defaults';
 import {industryPageDestination,servicePageDestinationForText} from '@/content/service-destinations';
+import {publicDestination} from '@/content/public-destination';
 import {HomepageHeader} from './homepage-header';import {HomepageFooter} from './homepage-footer';import {SiteUtility} from './site-utility';import {InternalPageHero} from './internal-page-hero';import {AboutImage} from './about-image';import {EditorialMotion} from '../motion/editorial-motion';
 import '@/styles/homepage-final.css';import '@/styles/homepage-editorial.css';import '@/styles/about.css';import '@/styles/industry-detail.css';
 import '@fontsource/josefin-sans/latin-200.css';import '@fontsource/josefin-sans/latin-300.css';import '@fontsource/josefin-sans/latin-700.css';
@@ -11,7 +12,7 @@ function sharedLinks(value:unknown,preview:boolean):unknown{if(Array.isArray(val
 function Paragraphs({text}:{text:string}){return <>{text.split(/\n\s*\n/).filter(Boolean).map((p,n)=><p key={n}>{p}</p>)}</>}
 export function IndustryDetailPage({content,shared,preview=false,availablePaths=[],industryItems=[]}:{industryItems?:IndustryItem[];content:IndustryDetailContent;shared?:HomepageContent;preview?:boolean;availablePaths?:string[]}){
  const home=resolveHomepage(shared);
- function href(destination:string){if(destination==='#contact'||destination===String(home.footer.ctaHref))return destination;if(!availablePaths.includes(destination))return undefined;return preview?destination==='/'?'/preview':destination==='/about/'?'/preview/about':destination==='/industries/'?'/preview/industries':destination==='/industries/roofing/'?'/preview/industries/roofing':destination:destination;}
+ function href(destination:string){const normalized=publicDestination(destination);if(normalized==='/contact/#contact-form'||destination==='#contact'||destination===String(home.footer.ctaHref))return preview?'/preview/pages/contact#contact-form':'/contact/#contact-form';if(!availablePaths.includes(destination))return undefined;return preview?destination==='/'?'/preview':destination==='/about/'?'/preview/about':destination==='/industries/'?'/preview/industries':destination==='/industries/roofing/'?'/preview/industries/roofing':destination:destination;}
  function Action({label,destination,filled=false}:{label:string;destination:string;filled?:boolean}){if(!label)return null;const to=href(destination),cls=filled?'hp-button':'detail-action';return to?<a className={cls} href={to}>{label}{!filled&&<span aria-hidden="true">↗</span>}</a>:<button className={cls} type="button" aria-disabled="true">{label}{!filled&&<span aria-hidden="true">↗</span>}</button>}
  function Items({s}:{s:DetailSection}){
   if(!s.items.length)return null;

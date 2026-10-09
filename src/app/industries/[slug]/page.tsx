@@ -12,6 +12,6 @@ export async function generateMetadata({params}:{params:Promise<{slug:string}>})
  const data=await industryPageData(slug);
  const title=data?.detail.seo?.title??`Digital Services for ${industryNames[slug]} | CODEYEA`;
  const description=data?.detail.seo?.description??`Practical websites, search visibility, branding and connected digital workflows for ${industryNames[slug].toLowerCase()} businesses.`;
- return {...pageMetadata(`/industries/${slug}/`,title,description,data?.detail.seo),robots:publicRobots(!!data,data?.detail.seo)};
+ return {...pageMetadata(`/industries/${slug}/`,title,description,data?.detail.seo),robots:publicRobots(true,data?.detail.seo)};
 }
 export default async function Industry({params}:{params:Promise<{slug:string}>}){const {slug}=await params;if(!isIndustrySlug(slug))notFound();const data=await industryPageData(slug);if(!data)redirect('/industries/');const identity=industryIdentitySeo(data.detail);const title=identity?.title??data.detail.seo?.title??`Digital Services for ${industryNames[slug]} | CODEYEA`;const description=identity?.description??data.detail.seo?.description??`Practical websites, search visibility, branding and connected digital workflows for ${industryNames[slug].toLowerCase()} businesses.`;return <><JsonLd data={publicPageSchema(`/industries/${slug}/`,title,description)}/><IndustryDetailPage content={data.detail} industryItems={data.industryItems} shared={data.shared} availablePaths={data.availablePaths}/><PublicTracking /></>}

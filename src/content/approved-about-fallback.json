@@ -1,0 +1,322 @@
+{
+  "about": {
+    "seo": {
+      "title": "About CODEYEA | Digital Innovation Agency",
+      "description": "Learn how CODEYEA combines web development, eCommerce, AI automation, hosting, SEO, creative work, and technical support to help businesses grow."
+    },
+    "localeId": "en",
+    "marketId": "global",
+    "sections": [
+      {
+        "id": "about-hero",
+        "body": "",
+        "type": "hero",
+        "items": [],
+        "label": "",
+        "media": {
+          "alt": "Office interior from the WordPress About reference",
+          "width": 2634,
+          "focalX": 50,
+          "focalY": 50,
+          "height": 1350,
+          "mediaId": "media_bcca22c8-dcb3-4913-9f46-4829ee96e155",
+          "decorative": false,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50
+        },
+        "enabled": true,
+        "heading": "Digital Innovation Agency",
+        "position": 0,
+        "visibility": "all"
+      },
+      {
+        "id": "about-who",
+        "body": "CODEYEA is a digital innovation agency for businesses that need more than an attractive website. We connect strategy, brand identity, design, development, eCommerce, AI automation, hosting, SEO, and technical support to create digital experiences that are clear to customers, practical for teams, and aligned with the way the business needs to grow.\n\nSome clients come to us with a new idea. Others already have websites, platforms, and business tools that no longer work well together. We study the existing experience, operational needs, audience, and goals before deciding what should be improved, replaced, or connected. The result may be a website, application, online store, automated workflow, stronger infrastructure, or a complete digital foundation built around a real business need.",
+        "type": "who",
+        "items": [],
+        "label": "— Where Technology, Creativity, and Strategy Connect",
+        "enabled": true,
+        "heading": "Building Useful Digital Experiences for Businesses Ready to Move Forward",
+        "position": 1,
+        "visibility": "all"
+      },
+      {
+        "id": "about-experience",
+        "body": "Strong digital work begins before design or development. It begins by understanding how the business operates, how customers discover and interact with it, where teams lose time, and which parts of the current process create unnecessary friction. This understanding allows us to make deliberate decisions instead of adding features, platforms, or technology without a clear purpose.",
+        "type": "experience",
+        "items": [
+          {
+            "id": "about-reference-experience-0",
+            "body": "Our approach brings creative and technical decisions into the same conversation. Brand direction supports the user experience. Development supports performance and maintainability. Hosting and infrastructure provide a dependable foundation. SEO, content, and analytics help the right audience find and understand the business. Automation connects repetitive tasks and systems so everyday work becomes easier to manage.",
+            "title": "Paragraph 1",
+            "enabled": true,
+            "position": 0
+          },
+          {
+            "id": "about-reference-experience-1",
+            "body": "We do not use technology simply because it is new, and we do not treat launch day as the end of the relationship. We focus on solutions that can be used, supported, measured, and improved over time. Whether CODEYEA is building something new or strengthening what already exists, the objective remains the same: create meaningful digital value without introducing unnecessary complexity.",
+            "title": "Paragraph 2",
+            "enabled": true,
+            "position": 1
+          }
+        ],
+        "label": "— Built Around the Business",
+        "media": {
+          "alt": "Meeting area from the WordPress About reference",
+          "width": 868,
+          "focalX": 50,
+          "focalY": 50,
+          "height": 980,
+          "mediaId": "media_bcdd21d0-4cbf-4057-a144-a35c64620f8e",
+          "decorative": false,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50
+        },
+        "enabled": true,
+        "heading": "One Connected Approach to Creating, Running, and Improving Your Digital Presence",
+        "ctaLabel": "Practical thinking is the foundation of every successful digital project.",
+        "position": 2,
+        "visibility": "all"
+      },
+      {
+        "id": "about-projectReference",
+        "body": "",
+        "type": "projectReference",
+        "items": [
+          {
+            "id": "about-reference-category-0",
+            "body": "",
+            "title": "DIGITAL STRATEGY",
+            "enabled": true,
+            "position": 0
+          },
+          {
+            "id": "about-reference-category-1",
+            "body": "",
+            "title": "WEB & APPLICATIONS",
+            "enabled": true,
+            "position": 1
+          },
+          {
+            "id": "about-reference-category-2",
+            "body": "",
+            "title": "ECOMMERCE & GROWTH",
+            "enabled": true,
+            "position": 2
+          },
+          {
+            "id": "about-reference-category-3",
+            "body": "",
+            "title": "INFRASTRUCTURE & AUTOMATION",
+            "enabled": true,
+            "position": 3
+          }
+        ],
+        "label": "One Connected View of the Work Behind Your Business",
+        "media": {
+          "alt": "Interior design reference project",
+          "width": 2634,
+          "focalX": 50,
+          "focalY": 50,
+          "height": 1350,
+          "mediaId": "media_ea77d13f-f5f7-4478-bdeb-4814b70d7380",
+          "decorative": false,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50
+        },
+        "enabled": true,
+        "heading": "Connected Digital Capabilities",
+        "position": 3,
+        "visibility": "all"
+      },
+      {
+        "id": "about-principles",
+        "body": "",
+        "type": "principles",
+        "items": [
+          {
+            "id": "about-reference-strategy",
+            "body": "We begin with the business, its customers, current systems, priorities, and constraints. Only then do we recommend the platforms, features, channels, and technical approach that genuinely fit the work.",
+            "title": "Strategy Before Tools",
+            "enabled": true,
+            "position": 0
+          },
+          {
+            "id": "about-reference-creative",
+            "body": "Design should make the business clearer, more recognizable, and easier to engage with. We connect brand direction, content, and user experience so creative work supports communication and action.",
+            "title": "Creativity With Purpose",
+            "enabled": true,
+            "position": 1
+          },
+          {
+            "id": "about-reference-technical",
+            "body": "We focus on performance, security, maintainability, and practical management after launch. The result should be dependable today and flexible enough to support future improvements without unnecessary complexity.",
+            "title": "Technology Built to Last",
+            "enabled": true,
+            "position": 2
+          }
+        ],
+        "label": "",
+        "enabled": true,
+        "heading": "Good Digital Work Should Solve Something",
+        "position": 4,
+        "visibility": "all"
+      },
+      {
+        "id": "about-showcase",
+        "body": "We combine SEO, content planning, analytics, and digital strategy to help the right audience discover and understand the business. The focus is not simply generating more traffic, but improving visibility around relevant services, products, locations, and customer needs while creating a clearer path from discovery to meaningful action.",
+        "type": "showcase",
+        "items": [
+          {
+            "id": "about-showcase-social",
+            "body": "We combine SEO, content planning, analytics, and digital strategy to help the right audience discover and understand the business. The focus is not simply generating more traffic, but improving visibility around relevant services, products, locations, and customer needs while creating a clearer path from discovery to meaningful action.",
+            "label": "Visibility Built Around Real Goals",
+            "media": {
+              "alt": "Responsive website displayed on multiple devices",
+              "width": 1000,
+              "focalX": 50,
+              "focalY": 50,
+              "height": 945,
+              "mediaId": "media_2aee73ae-0fa2-44ac-a2d5-447cc7cbc2b3",
+              "decorative": false,
+              "mobileFocalX": 50,
+              "mobileFocalY": 50,
+              "tabletFocalX": 50,
+              "tabletFocalY": 50
+            },
+            "title": "Digital Growth That Connects Attention With Action",
+            "enabled": true,
+            "ctaLabel": "Explore Digital Growth",
+            "position": 0
+          },
+          {
+            "id": "about-showcase-mobile",
+            "body": "We design and develop websites, applications, portals, and connected digital tools around the people who will use and manage them. Each experience balances visual quality, responsive behavior, accessibility, performance, content structure, and maintainable development so the finished product remains useful long after launch.",
+            "label": "Digital Products Built Around Real Use",
+            "media": {
+              "alt": "Mobile Development reference displayed on a white tablet",
+              "width": 973,
+              "focalX": 50,
+              "focalY": 50,
+              "height": 1008,
+              "mediaId": "media_d688c5c2-ea82-4040-9ea6-7e1b258f7529",
+              "decorative": false,
+              "mobileFocalX": 50,
+              "mobileFocalY": 50,
+              "tabletFocalX": 50,
+              "tabletFocalY": 50
+            },
+            "title": "Build Digital Experiences People Can Actually Use",
+            "enabled": true,
+            "ctaLabel": "Explore Web & App Development",
+            "position": 1
+          },
+          {
+            "id": "about-showcase-ecommerce",
+            "body": "We build and improve eCommerce experiences that connect product discovery, purchasing, payments, customer communication, and everyday store management. The objective is a storefront that feels consistent with the brand, removes unnecessary friction for customers, and gives the business a practical foundation for managing and expanding online sales.",
+            "label": "Connected Commerce From First Click to Fulfillment",
+            "media": {
+              "alt": "eCommerce Solutions reference displayed on two white laptops",
+              "width": 1060,
+              "focalX": 50,
+              "focalY": 50,
+              "height": 977,
+              "mediaId": "media_64797f88-f49a-4cbc-b1e0-8e21c424aa49",
+              "decorative": false,
+              "mobileFocalX": 50,
+              "mobileFocalY": 50,
+              "tabletFocalX": 50,
+              "tabletFocalY": 50
+            },
+            "title": "Make Buying Easier and Managing the Business Clearer",
+            "enabled": true,
+            "ctaLabel": "Explore eCommerce Solutions",
+            "position": 2
+          },
+          {
+            "id": "about-showcase-ai",
+            "body": "We design practical AI solutions around real business processes—from intelligent assistants and knowledge tools to document handling, lead routing, customer communication, and system integrations. Every workflow is built to reduce repetitive work while keeping human review, clear permissions, security, and long-term maintainability at the center.",
+            "label": "Practical AI for Real Business Work",
+            "media": {
+              "alt": "Temporary AI slide placeholder: technical work at a computer; replace with approved AI imagery.",
+              "width": 1100,
+              "focalX": 50,
+              "focalY": 50,
+              "height": 1117,
+              "mediaId": "media_65f622ab-fc90-4d6c-98c1-317a4915bf26",
+              "decorative": false,
+              "mobileFocalX": 50,
+              "mobileFocalY": 50,
+              "tabletFocalX": 50,
+              "tabletFocalY": 50
+            },
+            "title": "AI & Workflow Automation",
+            "enabled": true,
+            "ctaLabel": "Explore AI Solutions",
+            "position": 3
+          }
+        ],
+        "label": "Visibility Built Around Real Goals",
+        "media": {
+          "alt": "Responsive website displayed on multiple devices",
+          "width": 1000,
+          "focalX": 50,
+          "focalY": 50,
+          "height": 945,
+          "mediaId": "media_2aee73ae-0fa2-44ac-a2d5-447cc7cbc2b3",
+          "decorative": false,
+          "mobileFocalX": 50,
+          "mobileFocalY": 50,
+          "tabletFocalX": 50,
+          "tabletFocalY": 50
+        },
+        "enabled": true,
+        "heading": "Digital Growth That Connects Attention With Action",
+        "ctaLabel": "Explore Digital Growth",
+        "position": 5,
+        "visibility": "all"
+      },
+      {
+        "id": "about-awards",
+        "body": "",
+        "type": "awards",
+        "items": [
+          {
+            "id": "about-reference-awards-0",
+            "body": "Clear priorities, realistic requirements, and understandable decisions give every project a stronger foundation. We explain the work without hiding important details behind unnecessary technical language.",
+            "title": "Clarity Before Complexity",
+            "enabled": true,
+            "position": 0
+          },
+          {
+            "id": "about-reference-awards-1",
+            "body": "Thoughtful design, structured content, and careful implementation shape how the finished experience looks, feels, and performs across screens, platforms, and customer touchpoints.",
+            "title": "Craft That Supports Use",
+            "enabled": true,
+            "position": 1
+          },
+          {
+            "id": "about-reference-awards-2",
+            "body": "Performance, maintainability, security, and dependable infrastructure are considered throughout the project. As the business evolves, we remain available to improve, connect, repair, expand, and explain the systems behind its digital operation.",
+            "title": "Reliable Beyond Launch",
+            "enabled": true,
+            "position": 2
+          }
+        ],
+        "label": "HOW WE WORK",
+        "enabled": true,
+        "heading": "What We Bring to Every Project",
+        "position": 6,
+        "visibility": "all"
+      }
+    ],
+    "schemaVersion": 2,
+    "sharedSourcePageId": "homepage"
+  }
+}
