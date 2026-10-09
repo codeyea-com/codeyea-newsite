@@ -7,7 +7,7 @@ export function defaultHomepage(localeId='en',marketId='global'){
  const image=(mediaId:string,alt='',decorative=true):EditorObject=>({mediaId,alt,decorative,focalX:50,focalY:50});
  const words=(values:string[])=>values.map((title,i)=>item('word-'+i,i,{title}));
  const cta=(ctaLabel:string,ctaHref=contact)=>({ctaLabel,ctaHref});
- const nav=[['About Us','/about/'],['Services','/services/'],['Hosting','/website-hosting/'],['Industries','/industries/'],['Work','/#work']].map(([title,href],i)=>item('nav-'+i,i,{title,href,parentId:''}));
+ const nav=[['About Us','/about/'],['Services','/services/'],['Hosting','/website-hosting/'],['Industries','/industries/'],['Contact','/contact/']].map(([title,href],i)=>item('nav-'+i,i,{title,href,parentId:''}));
  const servicePaths=['/web-mobile-apps/','/ecommerce/','/ai-automation/','/website-hosting/','/seo-geo/','/brand-design/','/technical-support/','/services/'];
  serviceFixtures.forEach((s,i)=>nav.push(item('nav-service-'+i,10+i,{title:s.title,href:servicePaths[i],parentId:'nav-1'})));
  const industryPaths=['healthcare','construction','real-estate','e-commerce','legal','oil-and-gas','roofing','small-business'];

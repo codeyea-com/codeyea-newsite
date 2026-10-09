@@ -1,3 +1,3 @@
 /** Recovered local assets; paths are developer-owned. No upload endpoint. */
 export const homepageAssets = ['about.webp','branding.webp','client-1.svg','client-2.svg','client-3.svg','client-4.svg','client-5.svg','client-6.svg','commerce.webp','construction.webp','ecommerce.webp','healthcare.webp','hero.webp','legal.webp','office.webp','oil-gas.webp','project-brand.webp','project-mobile.webp','project-web.webp','real-estate.webp','roofing.webp','small-business.webp','support.webp','team.webp'].map(filename=>({id:filename.replace(/\.[^.]+$/,''),filename,src:'/homepage/'+filename}));
-export function assetUrl(id:string){if(/^media_[0-9a-f-]{36}$/.test(id))return '/api/media/'+id+'/large';return homepageAssets.find(asset=>asset.id===id)?.src ?? '';}
+export function assetUrl(id:string){if(/^media_[0-9a-f-]{36}$/.test(id))return '/site-image/'+id+'/large';return homepageAssets.find(asset=>asset.id===id)?.src ?? '';}

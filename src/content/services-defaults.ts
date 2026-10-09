@@ -21,14 +21,14 @@ export function defaultServices(localeId:string,marketId:string,media:AboutMedia
  item('sv-strategy-roadmap','Turn business goals into a connected digital roadmap.','We connect your audience, brand, marketing channels and technology requirements into a practical strategy that defines what should be built, how it should work and how it can support growth.','Digital Growth Strategy',['Brand and audience positioning','Website and e-commerce planning','SEO and digital marketing direction','GEO and AI-search readiness','AI and automation opportunities','Application and integration planning','Growth measurement']),
  item('sv-strategy-experiences','Build every customer touchpoint as one consistent system.','CODEYEA combines brand design, user experience, development, content structure and digital marketing so the website, application, online store and marketing channels work together instead of operating as separate pieces.','Connected Digital Experiences')]);strategy.media=structuredClone(media);
  const complete=section('services-complete','OUR SERVICES','Everything your business needs to move forward.','From artificial intelligence and search visibility to brand design and custom development, CODEYEA brings the essential digital services together within one connected strategy.',[
- item('sv-service-ai','AI Solutions & Business Automation','Practical AI systems and automated workflows that support teams, customers and business operations.'),
- item('sv-service-seo','SEO & GEO','Technical, content and entity-focused optimization for traditional search engines and AI-powered discovery.'),
- item('sv-service-app','Web & Mobile App Development','Custom applications, portals and digital platforms built around specific business requirements.'),
- item('sv-service-commerce','E-Commerce Solutions','Connected online shopping experiences designed for usability, management and growth.'),
- item('sv-service-website','Website Design & Development','Responsive websites that combine purposeful design, clear content and reliable development.'),
- item('sv-service-marketing','Digital Marketing','Coordinated digital channels and campaigns designed to reach and engage relevant audiences.'),
- item('sv-service-brand','Brand Design','Visual identities and brand systems that improve consistency, recognition and credibility.'),
- item('sv-service-graphic','Graphic Design','Professional digital and print materials that communicate the brand clearly.')]);
+ item('sv-service-ai','AI Solutions & Business Automation','Practical AI systems and automated workflows that support teams, customers and business operations.','automation'),
+ item('sv-service-seo','SEO & GEO','Technical, content and entity-focused optimization for traditional search engines and AI-powered discovery.','growth'),
+ item('sv-service-app','Web & Mobile App Development','Custom applications, portals and digital platforms built around specific business requirements.','development'),
+ item('sv-service-commerce','E-Commerce Solutions','Connected online shopping experiences designed for usability, management and growth.','commerce'),
+ item('sv-service-website','Website Design & Development','Responsive websites that combine purposeful design, clear content and reliable development.','development'),
+ item('sv-service-marketing','Digital Marketing','Coordinated digital channels and campaigns designed to reach and engage relevant audiences.','growth'),
+ item('sv-service-brand','Brand Design','Visual identities and brand systems that improve consistency, recognition and credibility.','creative'),
+ item('sv-service-graphic','Graphic Design','Professional digital and print materials that communicate the brand clearly.','creative')]);
  complete.items=complete.items.map(i=>({...i,actionLabel:'Learn More',destination:servicePageDestination(i.id)??null}));
  const process=section('services-process','HOW WE WORK','A clear process. A connected result.','',[
  item('sv-step-discover','Understand the business before building the solution.','We review your goals, audience, current digital presence, internal processes and technology to identify the challenges, opportunities and highest-impact priorities.','Discover & Diagnose',['Business and audience discovery','Website and brand review','SEO and GEO opportunities','Workflow and automation assessment','Technical requirements']),

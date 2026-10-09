@@ -15,9 +15,9 @@
   background-repeat: repeat-y;
 }
 
-/* Keep the process copy on the same page measure while the section background bleeds. */
+/* The section background bleeds; its inner wrapper supplies the page measure. */
 .hp.public-surface .rp-process {
-  padding-inline: max(24px, calc((100% - 1220px) / 2 + 35px)) !important;
+  padding-inline: 0 !important;
   background-color: #fff;
 }
 

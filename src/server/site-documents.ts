@@ -283,6 +283,7 @@ export async function renderDocument(
     html=html.replace(/<div\b(?=[^>]*\bclass=["'][^"']*\babout-preview-banner\b)[^>]*>[\s\S]*?<\/div>/i,'');
   }
   html=applyTemplateImageOverrides(html,content.images);
+  html=html.replaceAll('/api/media/','/site-image/');
   if(!options.public){
     html=html.replaceAll("/preview#services", "/preview/services");
     html=html.replace(/href="\/preview\/(?:pages\/)?([a-z0-9-]+)(?:\?locale=(?:en|ar))?"/g, (_all, target: string) => 'href="' + publicRoute(target) + '"');
@@ -410,7 +411,7 @@ export async function renderDocument(
     markHero('about-hero');
     markHero('b-hero');
     const reveal="document.querySelectorAll('[data-hero-upgrade-pending]').forEach(function(node){node.removeAttribute('data-hero-upgrade-pending')})";
-    html=html.replace(/<script\b(?=[^>]*\bdata-integrated-hero\b)(?=[^>]*\bsrc=)[^>]*>/i,tag=>tag.replace(/>$/,` onload="${reveal}" onerror="${reveal}">`));
+    html=html.replace(/<script\b(?=[^>]*\bdata-integrated-hero\b)(?=[^>]*\bsrc=)[^>]*>/i,tag=>tag.replace(/>$/,` onload="${reveal}">`));
     const revealStyle='<style>[data-hero-upgrade-pending]{visibility:hidden!important}</style>';
     html=html.replace('</head>',revealStyle+'</head>');
   }

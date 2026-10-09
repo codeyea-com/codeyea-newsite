@@ -16,6 +16,7 @@ const approvedServiceDestinations:Readonly<Record<string,string>>={
  'sv-service-website':'/website-design/',
  'sv-service-marketing':'/digital-marketing/',
  'sv-service-brand':'/brand-design/',
+ 'sv-service-graphic':'/brand-design/',
 };
 export function servicePageDestination(id:string){return approvedServiceDestinations[id]}
 const serviceTextRoutes:Array<[RegExp,string]>=[
