@@ -350,8 +350,10 @@ export async function renderDocument(
     const markHero=(className:string)=>{const pattern=new RegExp(`<section\\b(?=[^>]*\\bclass=["'][^"']*\\b${className}\\b[^"']*["'])[^>]*>`,'i');html=html.replace(pattern,tag=>/\bdata-hero-upgrade-pending\b/.test(tag)?tag:tag.replace(/>$/,' data-hero-upgrade-pending>'))};
     markHero('about-hero');
     markHero('b-hero');
-    const reveal='<style>[data-hero-upgrade-pending]{visibility:hidden!important}</style><script>(function(){var done=false;function reveal(){if(done)return;done=true;document.querySelectorAll("[data-hero-upgrade-pending]").forEach(function(node){node.removeAttribute("data-hero-upgrade-pending")})}function isUpgrade(event){return event.target instanceof HTMLScriptElement&&event.target.matches("script[data-integrated-hero][src]")}window.addEventListener("load",function(event){if(isUpgrade(event))requestAnimationFrame(reveal)},true);window.addEventListener("error",function(event){if(isUpgrade(event))reveal()},true)})()</script>';
-    html=html.replace('</head>',reveal+'</head>');
+    const reveal="document.querySelectorAll('[data-hero-upgrade-pending]').forEach(function(node){node.removeAttribute('data-hero-upgrade-pending')})";
+    html=html.replace(/<script\b(?=[^>]*\bdata-integrated-hero\b)(?=[^>]*\bsrc=)[^>]*>/i,tag=>tag.replace(/>$/,` onload="${reveal}" onerror="${reveal}">`));
+    const revealStyle='<style>[data-hero-upgrade-pending]{visibility:hidden!important}</style>';
+    html=html.replace('</head>',revealStyle+'</head>');
   }
   html=html.replaceAll('/brand/logo-dark.png','/brand/logo-animated-dark.svg').replaceAll('/brand/logo-light.png','/brand/logo-animated-light.svg');
   html=html.replace('</head>','<link rel="stylesheet" href="/site/page-texture.css"></head>');

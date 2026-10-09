@@ -116,7 +116,8 @@ test("integrated service heroes never flash the legacy hero and retain both anim
     assert.match(html, /class="hp-logo-dark" src="\/brand\/logo-animated-dark\.svg"/, slug);
     assert.match(html, /class="hp-logo-light" src="\/brand\/logo-animated-light\.svg"/, slug);
     assert.match(html, /data-hero-upgrade-pending/, slug);
-    assert.match(html, /script\.onerror|addEventListener\(["']error["']/, slug);
+    assert.match(html, /onload="document\.querySelectorAll\(/, slug);
+    assert.match(html, /onerror="document\.querySelectorAll\(/, slug);
     assert.match(html, /\/site\/page-texture\.css/, slug);
   }
 });
