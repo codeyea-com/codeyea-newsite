@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { approvedTemplates, applyTemplateImageOverrides, extractTemplateMediaIds, rewritePublicDocumentLinks, templateContent, templatePageDraft } from '../src/server/site-documents';
+import { readFile } from 'node:fs/promises';
+import { approvedTemplates, applyTemplateImageOverrides, extractTemplateMediaIds, replaceSharedSiteShell, rewritePublicDocumentLinks, templateContent, templatePageDraft } from '../src/server/site-documents';
 import {documentPath,existingPageIds,pagePath} from '../src/content/site-routes';
 
 test('public template links resolve review navigation to real English routes', () => {
@@ -14,6 +15,34 @@ test('public template links resolve review navigation to real English routes', (
   assert.match(result, /href="\/industries\/healthcare\/"/);
   assert.match(result, /href="\/contact\/"/);
   assert.doesNotMatch(result, /href="\/preview/);
+});
+
+test('hosting template links resolve nested HTML labels to their public pages', () => {
+  const html = '<a href="website-hosting-interactive.html">Website Hosting</a><a href="wordpress-hosting-interactive.html">WordPress Hosting</a><a href="cloud-hosting-interactive.html">Cloud Hosting</a>';
+  const result = rewritePublicDocumentLinks(html, 'en');
+  assert.match(result, /href="\/website-hosting\/"/);
+  assert.match(result, /href="\/wordpress-hosting\/"/);
+  assert.match(result, /href="\/cloud-hosting\/"/);
+});
+
+test('site documents receive the shared header and footer while preserving page content', () => {
+  const html = '<html><body><header>Old header</header><main><h1>Page content</h1></main><footer>Old footer</footer></body></html>';
+  const result = replaceSharedSiteShell(html, '<header>Shared header</header>', '<footer>Shared footer</footer>');
+  assert.match(result, /<header>Shared header<\/header>/);
+  assert.match(result, /<footer>Shared footer<\/footer>/);
+  assert.match(result, /<main><h1>Page content<\/h1><\/main>/);
+  assert.doesNotMatch(result, /Old header|Old footer/);
+});
+
+test('shared mega menus stay within the viewport and align below the visible header', async () => {
+  const [css, script] = await Promise.all([
+    readFile(new URL('../site-templates/shared-navigation/hosting-menu.css', import.meta.url), 'utf8'),
+    readFile(new URL('../site-templates/shared-navigation/hosting-menu.js', import.meta.url), 'utf8'),
+  ]);
+  assert.match(css, /position:fixed;top:var\(--cy-panel-top/);
+  assert.match(css, /left:50vw/);
+  assert.match(css, /width:min\(1220px,calc\(100vw - 48px\)\)/);
+  assert.match(script, /header\.getBoundingClientRect\(\)\.bottom/);
 });
 
 test('Arabic template links retain the Arabic locale prefix for localized pages', () => {
@@ -58,7 +87,7 @@ test('approved template initialization creates a private, noindex draft with edi
 test('a selected CMS image replaces the original srcset and carries safe alt text', () => {
   const html='<main><img src="old.webp" srcset="old-small.webp 640w, old-large.webp 1200w" sizes="100vw" alt="Old image"></main>';
   const result=applyTemplateImageOverrides(html,[{key:'image-0',mediaId:'media_12345678-1234-1234-1234-123456789abc',alt:'New image',decorative:false}]);
-  assert.match(result,/src="\/api\/media\/media_12345678-1234-1234-1234-123456789abc\/large"/);
+  assert.match(result,/src="\/asset\/media_12345678-1234-1234-1234-123456789abc"/);
   assert.match(result,/alt="New image"/);
   assert.doesNotMatch(result,/srcset=/);
   assert.doesNotMatch(result,/old-small|old-large/);

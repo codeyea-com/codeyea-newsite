@@ -39,18 +39,50 @@ function ShowcaseSlide({section}:{section:AboutSection}){
 
 export function AboutShowcase({section}:{section:AboutSection}) {
  const [active,setActive]=useState(0);
+ const slider=useRef<HTMLDivElement>(null);
  const controls=useRef<(HTMLButtonElement|null)[]>([]);
  const slides=section.items.length ? section.items.map(item=>({...section,heading:item.title,body:item.body,label:item.label!,ctaLabel:item.ctaLabel,media:item.media})) : [section];
- return <div className="about-showcase-slider">
+ useEffect(()=>{
+  const node=slider.current,stage=node?.closest<HTMLElement>('.about-showcase');
+  if(!node||!stage||slides.length<2)return;
+  const desktop=matchMedia('(min-width:1200px)');
+  const originalHeight=stage.style.height;
+  const syncLayout=()=>{stage.style.height=desktop.matches?`${slides.length*100}vh`:originalHeight;};
+  syncLayout();
+  let frame=0;
+  const update=()=>{
+   frame=0;
+   if(!desktop.matches)return;
+   const distance=stage.offsetHeight-window.innerHeight;
+   if(distance<=0)return;
+   const top=stage.getBoundingClientRect().top+window.scrollY;
+   const progress=Math.max(0,Math.min(1,(window.scrollY-top)/distance));
+   const next=Math.min(slides.length-1,Math.round(progress*(slides.length-1)));
+   setActive(current=>current===next?current:next);
+  };
+  const onScroll=()=>{if(!frame)frame=requestAnimationFrame(update)};
+  const onModeChange=()=>{syncLayout();onScroll()};
+  update();window.addEventListener('scroll',onScroll,{passive:true});window.addEventListener('resize',onScroll);desktop.addEventListener('change',onModeChange);
+  return()=>{window.removeEventListener('scroll',onScroll);window.removeEventListener('resize',onScroll);desktop.removeEventListener('change',onModeChange);if(frame)cancelAnimationFrame(frame);stage.style.height=originalHeight};
+ },[slides.length]);
+ const selectSlide=(index:number)=>{
+  setActive(index);
+  const stage=slider.current?.closest<HTMLElement>('.about-showcase');
+  if(stage&&matchMedia('(min-width:1200px)').matches&&slides.length>1){
+   const distance=stage.offsetHeight-window.innerHeight,top=stage.getBoundingClientRect().top+window.scrollY;
+   window.scrollTo({top:top+distance*(index/(slides.length-1)),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+  }
+ };
+ return <div ref={slider} className="about-showcase-slider">
   <div className="about-showcase-stage">
    {slides.map((slide,index)=><div key={section.items[index]?.id??section.id} className="about-showcase-slide" id={'showcase-slide-'+(index+1)} role="group" aria-roledescription="slide" aria-label={(index+1)+' of '+slides.length+': '+slide.heading} aria-hidden={index!==active} inert={index!==active} style={{transform:'translateY('+((index-active)*100)+'%)'}}>
     <ShowcaseSlide section={slide}/>
    </div>)}
   </div>
   {slides.length>1&&<nav className="about-reference-pagination" aria-label="Showcase slides">
-   {slides.map((slide,index)=><button key={section.items[index].id} type="button" ref={node=>{controls.current[index]=node}} aria-label={'Show slide '+(index+1)+': '+slide.heading} aria-controls={'showcase-slide-'+(index+1)} aria-pressed={active===index} onClick={()=>setActive(index)} onKeyDown={event=>{
+   {slides.map((slide,index)=><button key={section.items[index].id} type="button" ref={node=>{controls.current[index]=node}} aria-label={'Show slide '+(index+1)+': '+slide.heading} aria-controls={'showcase-slide-'+(index+1)} aria-pressed={active===index} onClick={()=>selectSlide(index)} onKeyDown={event=>{
     const next=event.key==='ArrowDown'||event.key==='ArrowRight'?Math.min(index+1,slides.length-1):event.key==='ArrowUp'||event.key==='ArrowLeft'?Math.max(index-1,0):event.key==='Home'?0:event.key==='End'?slides.length-1:undefined;
-    if(next!==undefined){event.preventDefault();setActive(next);controls.current[next]?.focus()}
+    if(next!==undefined){event.preventDefault();selectSlide(next);controls.current[next]?.focus()}
    }}>{String(index+1).padStart(2,'0')}</button>)}
   </nav>}
  </div>;

@@ -98,10 +98,13 @@ export function bindTemplate(html:string,content:DocumentContent):DocumentConten
 }
 export async function templateContent(slug: string) {
   if (!approvedTemplates[slug]) throw Error("Unknown template");
-  return fs.readFile(
-    path.join(process.cwd(), "site-templates", approvedTemplates[slug]),
-    "utf8",
-  );
+  const root = path.join(process.cwd(), "site-templates");
+  const [html, header, footer] = await Promise.all([
+    fs.readFile(path.join(root, approvedTemplates[slug]), "utf8"),
+    fs.readFile(path.join(root, "shared-navigation", "site-header.html"), "utf8"),
+    fs.readFile(path.join(root, "shared-navigation", "site-footer.html"), "utf8"),
+  ]);
+  return replaceSharedSiteShell(html, header, footer);
 }
 function removeMarkedElements(html: string, classes: string[]) {
   const ranges: Array<[number, number]> = [];
@@ -137,6 +140,10 @@ function removeScriptsContaining(html: string, marker: string) {
   return html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, (script) =>
     script.includes(marker) ? "" : script,
   );
+}
+export function replaceSharedSiteShell(html: string, header: string, footer: string) {
+  const withHeader = html.replace(/<header\b[\s\S]*?<\/header>/i, header.trim());
+  return withHeader.replace(/<footer\b[\s\S]*?<\/footer>/i, footer.trim());
 }
 /** Keep draft-only portfolio, testimonial and sample-brand content out of public templates. */
 export function sanitizeUnapprovedPublicContent(html: string, contactHref = "/contact/") {
@@ -203,6 +210,9 @@ export function templatePageDraft(slug:string,html:string){
 export function rewritePublicDocumentLinks(html:string,locale:'en'|'ar'){
  const prefix=locale==='ar'?'/ar':'';
  const route=(target:string)=>target?`${prefix}/${target.replace(/^\/+|\/+$/g,'')}/`:(prefix||'/');
+ for(const [filename,slug] of [['website-hosting-interactive.html','website-hosting'],['wordpress-hosting-interactive.html','wordpress-hosting'],['cloud-hosting-interactive.html','cloud-hosting']] as const){
+  html=html.replaceAll(`href="${filename}"`,`href="${route(slug)}"`);
+ }
  html=html.replace(/href="\/preview#industry-list"([^>]*)>([^<]+)<\/a>/g,(all,attributes,label)=>{
   const industries:Record<string,string>={'Healthcare &amp; Aesthetic Clinics':'healthcare',Construction:'construction','Real Estate':'real-estate',eCommerce:'e-commerce',Legal:'legal','Oil &amp; Gas':'oil-and-gas',Roofing:'roofing','Small Business':'small-business'};
   const target=industries[label.trim()];

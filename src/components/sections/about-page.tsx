@@ -1,6 +1,7 @@
 import {FixedImageMotion} from '../motion/fixed-image-motion';
 import '@/styles/approved-motion.css';
 import {EditorialMotion} from "../motion/editorial-motion";
+import type { CSSProperties } from 'react';
 import type { AboutContent } from "@/schemas/about";
 import type { HomepageContent, EditorObject } from "@/schemas/homepage-editor";
 import { resolveHomepage } from "@/content/homepage-defaults";
@@ -36,7 +37,7 @@ export function AboutPage({content,shared,preview=false}:{content:AboutContent;s
  {(!hero.enabled||hero.visibility!=="all")&&<h1 className="about-fallback-title">{hero.heading}</h1>}
  {content.sections.filter(s=>s.enabled).sort((a,b)=>a.position-b.position).map(s=>{
  const items=s.items.filter(i=>i.enabled).sort((a,b)=>a.position-b.position);
- return <section key={s.id} id={s.id} className={"about-section about-"+s.type+" about-visible-"+s.visibility}>
+ return <section key={s.id} id={s.id} className={"about-section about-"+s.type+" about-visible-"+s.visibility} style={s.type==='showcase'?{'--about-showcase-count':Math.max(items.length,1)} as CSSProperties:undefined}>
  {s.type==="hero"?<InternalPageHero title={s.heading} media={s.media} semanticTitle={hero.visibility==="all"} titleBreakBefore={s.heading==="Digital Innovation Agency"?"Agency":undefined}/>:
  s.type==="who"?<div className="about-reference-container about-intro-columns"><div>{content.schemaVersion===1&&<><Copy text={s.positioning??""}/><AboutImage media={s.media}/></>}<p className="about-label">{s.label}</p><h2>{s.heading}</h2></div><div className="about-intro-body"><Copy text={s.body}/></div></div>:
  s.type==="experience"?<div className="about-reference-container"><div className="about-experience-top"><figure><div className="motion-contained-image"><AboutImage media={s.media}/></div><figcaption>{s.ctaLabel}</figcaption></figure><div><p className="about-label">{s.label}</p><h2>{s.heading}</h2><Copy text={s.body}/></div></div><div className="about-experience-bottom">{items.map(i=><div key={i.id}><Copy text={i.body}/></div>)}</div></div>:

@@ -67,3 +67,7 @@
 @media(prefers-reduced-motion:reduce){.hero-art .art-browser,.hero-art .art-code,.hero-art .art-mobile{transition:none!important}}
 
 .art-rail{bottom:13%!important}@media(max-width:700px){.art-rail{bottom:14%!important}}
+
+.art-code-line{display:block;max-width:100%;white-space:pre;clip-path:inset(0 100% 0 0);animation:hero-code-type 420ms steps(var(--n),end) var(--d) both}
+@keyframes hero-code-type{to{clip-path:inset(0 0 0 0)}}
+@media(prefers-reduced-motion:reduce){.art-code-line{clip-path:none;animation:none!important}}

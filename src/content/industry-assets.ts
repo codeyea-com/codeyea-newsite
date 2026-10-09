@@ -1,4 +1,5 @@
 import { industryNames, type IndustrySlug } from "./industry-registry";
+import { approvedMedia } from "./approved-media";
 
 const industryMedia: Record<IndustrySlug, string> = {
   roofing: "roofing",
@@ -36,7 +37,7 @@ export function attachLocalIndustryAssets<T>(value: T, slug: IndustrySlug): T {
     return Object.fromEntries(
       Object.entries(record).map(([key, child]) => [
         key,
-        key === "mediaId" && typeof child === "string" && child.startsWith("media_")
+        key === "mediaId" && typeof child === "string" && child.startsWith("media_") && !approvedMedia[child]
           ? mediaId
           : visit(child),
       ]),

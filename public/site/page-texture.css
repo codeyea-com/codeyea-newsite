@@ -6,7 +6,7 @@
   --page-grid-stroke: 0.5px;
   --page-grid-line: rgb(7 36 72 / 7%);
   background-image:
-    repeating-linear-gradient(0deg, transparent 0 87.5px, rgb(7 36 72 / 2%) 87.5px 88px),
+    repeating-linear-gradient(90deg, transparent 0 87.5px, rgb(7 36 72 / 2%) 87.5px 88px),
     linear-gradient(90deg, transparent var(--page-grid-edge), var(--page-grid-line) var(--page-grid-edge), var(--page-grid-line) calc(var(--page-grid-edge) + var(--page-grid-stroke)), transparent calc(var(--page-grid-edge) + var(--page-grid-stroke))),
     linear-gradient(90deg, transparent var(--page-grid-one), var(--page-grid-line) var(--page-grid-one), var(--page-grid-line) calc(var(--page-grid-one) + var(--page-grid-stroke)), transparent calc(var(--page-grid-one) + var(--page-grid-stroke))),
     linear-gradient(90deg, transparent var(--page-grid-two), var(--page-grid-line) var(--page-grid-two), var(--page-grid-line) calc(var(--page-grid-two) + var(--page-grid-stroke)), transparent calc(var(--page-grid-two) + var(--page-grid-stroke))),

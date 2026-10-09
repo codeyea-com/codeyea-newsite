@@ -13,7 +13,7 @@ test('public Services fallback is the reviewed draft 6 with its approved composi
  assert.equal(page.sections[2].items[2].title,'Your Digital Growth Partner');
  assert.ok(page.hero.media.mediaId);
  assert.ok(page.sections[2].media?.mediaId);
- assert.equal(page.imageStatus,'temporary — image selection pending');
+ assert.equal(page.imageStatus,'available');
 });
 test('public About fallback contains the final reviewed draft 10 and preserves its three-column ending',()=>{
  const page=aboutSchema.parse(about.about);

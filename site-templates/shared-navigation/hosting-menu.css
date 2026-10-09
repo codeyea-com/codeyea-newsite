@@ -7,3 +7,6 @@
 .hp .hp-header .cy-nav-root{display:flex;align-items:center;gap:4px}.hp .hp-header .cy-nav-root-link{color:inherit;text-decoration:none}.hp .hp-header .cy-nav-root-link:hover{color:#e0144c}
 
 .cy-nav-root{display:inline-flex;align-items:center;gap:3px}.cy-nav-root-link{white-space:nowrap}.cy-nav-root .cy-host-toggle{display:inline-flex;align-items:center;justify-content:center;min-width:28px;min-height:44px;padding:0 5px;background:transparent;border:0;color:inherit;cursor:pointer}
+
+/* Anchor every mega menu to the viewport so nested template headers cannot clip it. */
+.hp .hp-header>.cy-host-panel{position:fixed;top:var(--cy-panel-top,94px);left:50vw;right:auto;inset-inline:auto;width:min(1220px,calc(100vw - 48px));max-width:1220px;max-height:calc(100dvh - var(--cy-panel-top,94px) - 16px);translate:-50% 0;box-sizing:border-box;overflow-x:hidden;overflow-y:auto}
