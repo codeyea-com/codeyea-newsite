@@ -283,7 +283,7 @@ export async function renderDocument(
     html=html.replace(/<div\b(?=[^>]*\bclass=["'][^"']*\babout-preview-banner\b)[^>]*>[\s\S]*?<\/div>/i,'');
   }
   html=applyTemplateImageOverrides(html,content.images);
-  html=html.replaceAll('/api/media/','/site-image/');
+  html=html.replace(/\/api\/media\/(media_[0-9a-f-]{36})\/(?:thumb|small|medium|large)/g,(_match,id:string)=>assetUrl(id));
   if(!options.public){
     html=html.replaceAll("/preview#services", "/preview/services");
     html=html.replace(/href="\/preview\/(?:pages\/)?([a-z0-9-]+)(?:\?locale=(?:en|ar))?"/g, (_all, target: string) => 'href="' + publicRoute(target) + '"');
