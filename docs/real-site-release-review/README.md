@@ -1,5 +1,13 @@
 # Actual site release — 2026-10-09
 
+## Pointer tracking and directory completion — 2026-10-10
+
+About pointer tracking now updates directly from section pointer events. Its position tweens survive the opacity/scale fade, and movement resumes after leaving and reentering. The approved 220px glass circle and fade timings remain intact.
+
+The Industries directory appends Beauty, Skincare & Med Spa; Restaurants, Cafés & Bakeries; and Solar Energy after its existing eleven entries. The four-layout cycle, previous entries, order, images and styles remain intact. New entries reuse the approved detail-page copy and local photographs. Their images are registered local CMS assets, independent of historical upload records. Existing CMS snapshots normalize these entries without database writes; normal private saves persist edits. Disabled entries remain disabled, with no duplicates or overwrite of edited content.
+
+Verification: 163 tests passed, including saving/restoring new CMS text and visibility; production build passed. Browser checks verify pointer x/y tracking, fade/reentry, 14 entries and linked destinations, repeated layout classes, local image loading, responsive widths, and new fields in the real CMS. No owner content saved or published during browser verification. See circle-directory-checks.json and circle-directory-review.html for measurements and side-by-side section review.
+
 ## Owner corrections — 2026-10-10
 
 About's glass pointer is now an explicitly permitted 220px circle, overriding only that pointer's sharp-corner reset. Its glass, color and motion remain unchanged. Services, Hosting and Industries labels navigate to their CMS destinations; separate chevrons preserve the approved mega menus. Mobile labels also navigate directly. Footer reveal now remains sticky on short screens and mobile, with a negative bottom offset for tall footers so their final links remain reachable. The production review server was rebuilt with these changes.

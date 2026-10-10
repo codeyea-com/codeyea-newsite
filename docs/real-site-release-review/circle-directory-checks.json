@@ -1,0 +1,148 @@
+{
+  "positions": [
+    {
+      "pointer": {
+        "x": 362.878125,
+        "y": 380.421875
+      },
+      "center": {
+        "x": 362.87811279296875,
+        "y": 380.4219055175781
+      },
+      "style": {
+        "opacity": "1",
+        "width": "220px",
+        "height": "220px",
+        "radius": "50%"
+      }
+    },
+    {
+      "pointer": {
+        "x": 725.75625,
+        "y": 450.421875
+      },
+      "center": {
+        "x": 725.7562255859375,
+        "y": 450.42189025878906
+      },
+      "style": {
+        "opacity": "1",
+        "width": "220px",
+        "height": "220px",
+        "radius": "50%"
+      }
+    },
+    {
+      "pointer": {
+        "x": 544.3171875,
+        "y": 520.421875
+      },
+      "center": {
+        "x": 544.3171997070312,
+        "y": 520.421875
+      },
+      "style": {
+        "opacity": "1",
+        "width": "220px",
+        "height": "220px",
+        "radius": "50%"
+      }
+    }
+  ],
+  "reentry": {
+    "x": 615.7562255859375,
+    "y": 340.4219055175781,
+    "width": 220,
+    "height": 219.99996948242188
+  },
+  "entries": [
+    {
+      "id": "industry-roofing",
+      "layout": "1",
+      "title": "Roofing",
+      "href": "/industries/roofing/"
+    },
+    {
+      "id": "industry-healthcare",
+      "layout": "2",
+      "title": "Healthcare",
+      "href": "/industries/healthcare/"
+    },
+    {
+      "id": "industry-construction",
+      "layout": "3",
+      "title": "Construction",
+      "href": "/industries/construction/"
+    },
+    {
+      "id": "industry-e-commerce",
+      "layout": "4",
+      "title": "E-Commerce",
+      "href": "/industries/e-commerce/"
+    },
+    {
+      "id": "industry-small-business",
+      "layout": "1",
+      "title": "Small Business",
+      "href": "/industries/small-business/"
+    },
+    {
+      "id": "industry-event-coordinators",
+      "layout": "2",
+      "title": "Event Coordinators",
+      "href": "/industries/event-coordinators/"
+    },
+    {
+      "id": "industry-legal",
+      "layout": "3",
+      "title": "Legal",
+      "href": "/industries/legal/"
+    },
+    {
+      "id": "industry-online-magazine",
+      "layout": "4",
+      "title": "Online Magazine",
+      "href": "/industries/online-magazine/"
+    },
+    {
+      "id": "industry-oil-and-gas",
+      "layout": "1",
+      "title": "Oil and Gas",
+      "href": "/industries/oil-and-gas/"
+    },
+    {
+      "id": "industry-real-estate",
+      "layout": "2",
+      "title": "Real Estate",
+      "href": "/industries/real-estate/"
+    },
+    {
+      "id": "industry-fashion-and-lifestyle",
+      "layout": "3",
+      "title": "Fashion and Lifestyle",
+      "href": "/industries/fashion-and-lifestyle/"
+    },
+    {
+      "id": "industry-beauty-skincare-med-spa",
+      "layout": "4",
+      "title": "Beauty, Skincare & Med Spa",
+      "href": "/industries/beauty-skincare-med-spa/"
+    },
+    {
+      "id": "industry-restaurants-cafes-bakeries",
+      "layout": "1",
+      "title": "Restaurants, Cafés & Bakeries",
+      "href": "/industries/restaurants-cafes-bakeries/"
+    },
+    {
+      "id": "industry-solar-energy",
+      "layout": "2",
+      "title": "Solar Energy",
+      "href": "/industries/solar-energy/"
+    }
+  ],
+  "cmsItems": 14,
+  "ownerContentSaved": false,
+  "ownerContentPublished": false,
+  "errors": []
+}

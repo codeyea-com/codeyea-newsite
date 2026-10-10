@@ -1,0 +1,128 @@
+[
+  {
+    "id": "industry-beauty-skincare-med-spa",
+    "position": 11,
+    "enabled": true,
+    "label": "INDUSTRY",
+    "title": "Beauty, Skincare & Med Spa",
+    "heading": "Beauty, Skincare & Med Spa",
+    "body": "Clients often discover beauty providers through local search, social content, referrals and online reviews. Before contacting a business, they want to understand its services, professional credentials, approach and available booking options.\n\nA clear digital presence should make approved service information easy to navigate, support informed inquiries and present visual work with appropriate consent and context.\n\nCODEYEA connects website design, content organization, local search visibility and brand consistency around each business’s approved services, policies and customer journey.",
+    "ctaLabel": "Explore Beauty, Skincare & Med Spa",
+    "destination": "/industries/beauty-skincare-med-spa/",
+    "media": {
+      "alt": "A skincare professional consulting with a client in a calm treatment setting",
+      "width": 1880,
+      "focalX": 60,
+      "focalY": 40,
+      "height": 1253,
+      "mediaId": "industry-beauty-skincare-med-spa-image",
+      "decorative": false,
+      "mobileFocalX": 60,
+      "mobileFocalY": 40,
+      "tabletFocalX": 60,
+      "tabletFocalY": 40
+    },
+    "temporaryMedia": true,
+    "highlights": [
+      {
+        "id": "beauty-skincare-med-spa-highlight-1",
+        "title": "Clear service information",
+        "body": "Organize approved services, providers and relevant preparation or aftercare information without making unsupported medical or treatment claims."
+      },
+      {
+        "id": "beauty-skincare-med-spa-highlight-2",
+        "title": "Trustworthy brand presentation",
+        "body": "Use consistent branding, verified credentials, consent-based imagery and clear business policies to support informed decisions."
+      },
+      {
+        "id": "beauty-skincare-med-spa-highlight-3",
+        "title": "Practical booking journeys",
+        "body": "Connect inquiries, consultations or appointments to the systems supported by the business without creating confusing or misleading steps."
+      }
+    ]
+  },
+  {
+    "id": "industry-restaurants-cafes-bakeries",
+    "position": 12,
+    "enabled": true,
+    "label": "INDUSTRY",
+    "title": "Restaurants, Cafés & Bakeries",
+    "heading": "Restaurants, Cafés & Bakeries",
+    "body": "Customers often choose where to eat or order through local search, maps, menus, reviews and social content. They expect accurate hours, locations, menu information and a clear way to reserve, order or contact the business.\n\nA useful digital presence should make this information easy to find on any device while reflecting the atmosphere and identity of the business.\n\nCODEYEA connects website design, content organization, local search visibility and brand consistency around each business’s approved menu, locations and customer journey.",
+    "ctaLabel": "Explore Restaurants, Cafés & Bakeries",
+    "destination": "/industries/restaurants-cafes-bakeries/",
+    "media": {
+      "alt": "A bakery employee standing behind a counter of prepared goods",
+      "width": 800,
+      "focalX": 60,
+      "focalY": 50,
+      "height": 576,
+      "mediaId": "industry-restaurants-cafes-bakeries-image",
+      "decorative": false,
+      "mobileFocalX": 60,
+      "mobileFocalY": 50,
+      "tabletFocalX": 60,
+      "tabletFocalY": 50
+    },
+    "temporaryMedia": true,
+    "highlights": [
+      {
+        "id": "restaurants-cafes-bakeries-highlight-1",
+        "title": "Clear menus and locations",
+        "body": "Present current menus, hours, addresses and service options in a format customers can scan easily."
+      },
+      {
+        "id": "restaurants-cafes-bakeries-highlight-2",
+        "title": "A recognizable brand",
+        "body": "Use consistent visuals, photography and messaging across the website and supporting digital materials."
+      },
+      {
+        "id": "restaurants-cafes-bakeries-highlight-3",
+        "title": "Practical customer journeys",
+        "body": "Connect reservations, ordering, catering inquiries or contact actions to the systems supported by the business."
+      }
+    ]
+  },
+  {
+    "id": "industry-solar-energy",
+    "position": 13,
+    "enabled": true,
+    "label": "INDUSTRY",
+    "title": "Solar Energy",
+    "heading": "Solar Energy",
+    "body": "Customers researching solar energy often compare providers, system types, project experience, service areas, warranties and available financing information before making an inquiry.\n\nA clear website should explain the company’s approved capabilities, distinguish residential and commercial services and make the next step easy to understand.\n\nCODEYEA connects website design, technical content organization, search visibility and brand consistency around each solar business’s verified services and project information.",
+    "ctaLabel": "Explore Solar Energy",
+    "destination": "/industries/solar-energy/",
+    "media": {
+      "alt": "A team working together around a meeting table",
+      "width": 1200,
+      "focalX": 60,
+      "focalY": 50,
+      "height": 801,
+      "mediaId": "industry-solar-energy-image",
+      "decorative": false,
+      "mobileFocalX": 60,
+      "mobileFocalY": 50,
+      "tabletFocalX": 60,
+      "tabletFocalY": 50
+    },
+    "temporaryMedia": true,
+    "highlights": [
+      {
+        "id": "solar-energy-highlight-1",
+        "title": "Clear capabilities",
+        "body": "Separate residential, commercial and other approved solar services with useful supporting information."
+      },
+      {
+        "id": "solar-energy-highlight-2",
+        "title": "Credible project evidence",
+        "body": "Present client-approved projects, system details and company credentials with accurate context."
+      },
+      {
+        "id": "solar-energy-highlight-3",
+        "title": "Qualified inquiries",
+        "body": "Use structured forms that collect the information required for an appropriate follow-up without promising an instant result."
+      }
+    ]
+  }
+]
