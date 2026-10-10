@@ -51,7 +51,7 @@ export function IndustriesPage({content,shared,preview=false,availablePaths=[]}:
       <figure><AboutImage media={item.media} sizes="(max-width:1199px) 100vw, 54vw"/></figure>
      </div>
      <div className="industry-copy"><p className="industry-summary">{item.body}</p>
-      {layout===1?<div className="industry-highlights">{item.highlights.slice(0,3).map(h=><details key={h.id} name={item.id+'-highlights'}><summary>{h.title}<span aria-hidden="true"/></summary><div className="industry-highlight-body"><p>{h.body}</p></div></details>)}</div>:layout===3?<ul className="industry-capabilities">{item.highlights.map(h=><li key={h.id}><strong>{h.title}</strong>{h.body&&<span>{h.body}</span>}</li>)}</ul>:null}
+      {layout===1||layout===3?<div className="industry-highlights">{(layout===1?item.highlights.slice(0,3):item.highlights).map(h=><details key={h.id} name={item.id+'-highlights'}><summary>{h.title}<span aria-hidden="true"/></summary><div className="industry-highlight-body"><p>{h.body}</p></div></details>)}</div>:null}
       {href?<a className="industry-action motion-text-link" href={href}>{item.ctaLabel}<span aria-hidden="true">↗</span></a>:<button className="industry-action motion-text-link" type="button" aria-disabled="true">{item.ctaLabel}<span aria-hidden="true">↗</span></button>}
      </div>
     </section>;

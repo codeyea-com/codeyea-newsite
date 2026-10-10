@@ -1,5 +1,9 @@
 # Actual site release — 2026-10-09
 
+## Industry points accordion — 2026-10-10
+
+The Construction, Legal, and Fashion and Lifestyle directory sections now render their existing capability points as initially collapsed native details/summary accordions, using the same styling and opening transitions as the existing directory highlights. One point opens at a time within each section. All text remains intact and editable through the same CMS fields; section layout, order, images and other content remain unchanged. This shared renderer applies to the actual website and CMS preview. Production build and TypeScript passed; browser verification covers all three sections, opening/closing, exclusive expansion, Enter-key control, retained full text and responsive widths. Side-by-side review: industry-accordion-review.html. Measurements: industry-accordion-checks.json.
+
 ## Pointer tracking and directory completion — 2026-10-10
 
 About pointer tracking now updates directly from section pointer events. Its position tweens survive the opacity/scale fade, and movement resumes after leaving and reentering. The approved 220px glass circle and fade timings remain intact.
