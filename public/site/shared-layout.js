@@ -93,17 +93,13 @@
   });
   const footer = document.querySelector('.hp-footer');
   if (!footer) return;
-  const desktop = matchMedia('(min-width:1200px)'), reduced = matchMedia('(prefers-reduced-motion:reduce)');
   const update = () => {
-    const reveal = desktop.matches && !reduced.matches && footer.getBoundingClientRect().height <= innerHeight;
-    footer.style.setProperty('position', reveal ? 'sticky' : 'relative', 'important');
-    footer.style.setProperty('bottom', '0');
+    footer.style.setProperty('position', 'sticky', 'important');
+    footer.style.setProperty('bottom', `${Math.min(0, innerHeight - footer.getBoundingClientRect().height)}px`);
     footer.style.setProperty('z-index', '0');
   };
   const observer = new ResizeObserver(update);
   observer.observe(footer);
   addEventListener('resize', update);
-  desktop.addEventListener('change', update);
-  reduced.addEventListener('change', update);
   update();
 })();

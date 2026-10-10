@@ -1,5 +1,13 @@
 # Actual site release — 2026-10-09
 
+## Owner corrections — 2026-10-10
+
+About's glass pointer is now an explicitly permitted 220px circle, overriding only that pointer's sharp-corner reset. Its glass, color and motion remain unchanged. Services, Hosting and Industries labels navigate to their CMS destinations; separate chevrons preserve the approved mega menus. Mobile labels also navigate directly. Footer reveal now remains sticky on short screens and mobile, with a negative bottom offset for tall footers so their final links remain reachable. The production review server was rebuilt with these changes.
+
+Verification: 12 footer scroll measurements across About, Domains, Web & Mobile Apps and Services at 1440x1000, 1440x768 and 390x844; actual root-link navigation, keyboard mega menus, mobile root links, and computed circle geometry/glass checked. No browser errors. The 150 backend tests, type check and production build passed. Evidence: owner-shell-fixes.json, about-circle-1440.png and owner-corrections.html.
+
+Backend readiness is partial: 18 CMS pages and 14 document mappings are present, and the missing additive document-publication-history migration was applied to the local owner database (all nine migrations now applied), without publishing content. This environment has no Turnstile keys, Resend sender/API key, Vercel Blob token, AI provider credentials, or analytics account settings in its environment. Production contact/quote submissions require Turnstile; email delivery requires Resend. Footer newsletter saving/delivery remains unimplemented. Local media storage exists; cloud storage requires configuration. No external delivery or production-host readiness is claimed. See backend-readiness.json for configuration presence only, with no secret values.
+
 Branch: codex/real-site-updates, based on origin/cms-seo-arabic (1c52c7c), including the newer public routes and Vercel configuration.
 
 The approved repairs now render on normal website routes. Shared header/footer views serve React pages and the 14 document templates; the Industries menu has 14 public destinations and preserves its approved opening/hover motion. Content uses the shared page width, photo heroes stay full width, and designed heroes keep their artwork boxed with full-width backgrounds. Services retains its approved composition and an opaque background.

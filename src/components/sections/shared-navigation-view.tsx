@@ -160,32 +160,35 @@ export function approvedNavigationView(
         onPointerLeave={leave}
       >
         {children.length ? (
-          <button
-            ref={(el) => {
-              buttons.current[id] = el;
-            }}
-            className="cy-host-toggle"
-            aria-expanded={active === id}
-            aria-controls={"approved-" + id}
-            onClick={() => (active === id ? close() : open(id))}
-            onKeyDown={(e) => {
-              keyboard(e, id);
-              if (e.key === "ArrowDown") {
-                e.preventDefault();
-                open(id);
-                requestAnimationFrame(() =>
-                  panels.current[id]?.querySelector("a")?.focus(),
-                );
-              }
-            }}
-            onBlur={(e) => {
-              if (!panels.current[id]?.contains(e.relatedTarget as Node))
-                leave();
-            }}
-          >
-            {str(item.title)}
-            {arrow}
-          </button>
+          <span className="cy-nav-root">
+            <a href={str(item.href)}>{str(item.title)}</a>
+            <button
+              ref={(el) => {
+                buttons.current[id] = el;
+              }}
+              className="cy-host-toggle"
+              aria-label={`Open ${str(item.title)} menu`}
+              aria-expanded={active === id}
+              aria-controls={"approved-" + id}
+              onClick={() => (active === id ? close() : open(id))}
+              onKeyDown={(e) => {
+                keyboard(e, id);
+                if (e.key === "ArrowDown") {
+                  e.preventDefault();
+                  open(id);
+                  requestAnimationFrame(() =>
+                    panels.current[id]?.querySelector("a")?.focus(),
+                  );
+                }
+              }}
+              onBlur={(e) => {
+                if (!panels.current[id]?.contains(e.relatedTarget as Node))
+                  leave();
+              }}
+            >
+              {arrow}
+            </button>
+          </span>
         ) : (
           <a href={str(item.href)}>{str(item.title)}</a>
         )}
@@ -209,7 +212,11 @@ export function approvedNavigationView(
           }}
           id={"approved-" + id}
           key={id}
-          className={"cy-host-panel" + (industry ? " cy-industry-panel" : "") + (current ? " cy-link-active" : "")}
+          className={
+            "cy-host-panel" +
+            (industry ? " cy-industry-panel" : "") +
+            (current ? " cy-link-active" : "")
+          }
           hidden={active !== id}
           onPointerEnter={cancel}
           onPointerLeave={() => {

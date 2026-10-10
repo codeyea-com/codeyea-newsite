@@ -142,7 +142,12 @@ export function SharedMobileView({
               items.some((child) => child.parentId === item.id) ? (
                 <details key={str(item.id)}>
                   <summary>
-                    {str(item.title)}
+                    <a
+                      href={str(item.href)}
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      {str(item.title)}
+                    </a>
                     <svg
                       className="hp-chevron"
                       viewBox="0 0 12 8"

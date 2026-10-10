@@ -43,6 +43,9 @@
 .hp.services-page { background-color: #fff !important; isolation: isolate; }
 .hp.services-page main { background-color: #fff !important; position: relative; z-index: 1; }
 .hp.public-surface * { border-radius: 0 !important; }
+/* Owner-approved circular glass pointer; all other design corners stay sharp. */
+.hp.public-surface .about-project-pointer { left: -110px; top: -110px; width: 220px; height: 220px; border-radius: 50% !important; }
+.hp.public-surface > main { position: relative; z-index: 1; background-color: #fff; }
 @media(max-width:1199px) {
   .hp.public-surface { --page-content-width: calc(100vw - 64px); }
 }

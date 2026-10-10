@@ -17,32 +17,22 @@ export function HomepageFooter({ content }: { content: EditorObject }) {
   useEffect(() => {
     const node = footer.current;
     if (!node) return;
-    const desktop = matchMedia("(min-width:1200px)"),
-      reduced = matchMedia("(prefers-reduced-motion:reduce)");
     const update = () => {
-      const reveal =
-        desktop.matches &&
-        !reduced.matches &&
-        node.getBoundingClientRect().height <= innerHeight;
+      node.style.setProperty("position", "sticky", "important");
+      // Tall footers reveal their top first, then scroll to the final links.
       node.style.setProperty(
-        "position",
-        reveal ? "sticky" : "relative",
-        "important",
+        "bottom",
+        `${Math.min(0, innerHeight - node.getBoundingClientRect().height)}px`,
       );
-      node.style.setProperty("bottom", "0");
       node.style.setProperty("z-index", "0");
     };
     const observer = new ResizeObserver(update);
     observer.observe(node);
     window.addEventListener("resize", update);
-    desktop.addEventListener("change", update);
-    reduced.addEventListener("change", update);
     update();
     return () => {
       observer.disconnect();
       window.removeEventListener("resize", update);
-      desktop.removeEventListener("change", update);
-      reduced.removeEventListener("change", update);
     };
   }, []);
   function submitEmail(event: FormEvent<HTMLFormElement>) {

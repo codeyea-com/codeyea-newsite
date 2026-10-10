@@ -1,0 +1,26 @@
+{
+  "configuration": {
+    "TURNSTILE_SITE_KEY": false,
+    "TURNSTILE_SECRET_KEY": false,
+    "AI_API_KEY": false,
+    "AI_MODEL": false,
+    "RESEND_API_KEY": false,
+    "RESEND_FROM": false,
+    "BLOB_READ_WRITE_TOKEN": false,
+    "GA4_PROPERTY_ID": false,
+    "GSC_SITE_URL": false,
+    "CLARITY_PROJECT_ID": false
+  },
+  "publicationHistoryTable": true,
+  "migrations": 9,
+  "newsletterConnected": false,
+  "cmsIntegrationSettings": {
+    "ga4MeasurementId": false,
+    "ga4PropertyId": false,
+    "gtmContainerId": false,
+    "clarityProjectId": false,
+    "gscSiteUrl": false,
+    "gscVerification": false,
+    "trackingEnabled": false
+  }
+}

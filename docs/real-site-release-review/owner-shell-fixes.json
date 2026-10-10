@@ -1,0 +1,157 @@
+{
+  "results": [
+    {
+      "route": "/about/",
+      "width": 1440,
+      "height": 1000,
+      "h": 796.0625,
+      "max": 7912,
+      "position": "sticky",
+      "bottom": 0,
+      "revealTop": 203.9375,
+      "nextRevealTop": 203.9375,
+      "endBottom": 999.96875
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "height": 768,
+      "h": 796.0625,
+      "max": 7216,
+      "position": "sticky",
+      "bottom": -28.0625,
+      "revealTop": 0,
+      "nextRevealTop": 0,
+      "endBottom": 767.96875
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "height": 844,
+      "h": 1430.390625,
+      "max": 8406,
+      "position": "sticky",
+      "bottom": -586.391,
+      "revealTop": 0,
+      "nextRevealTop": 0,
+      "endBottom": 844.328125
+    },
+    {
+      "route": "/domains/",
+      "width": 1440,
+      "height": 1000,
+      "h": 758.0625,
+      "max": 5617,
+      "position": "sticky",
+      "bottom": 0,
+      "revealTop": 241.9375,
+      "nextRevealTop": 241.9375,
+      "endBottom": 999.890625
+    },
+    {
+      "route": "/domains/",
+      "width": 1440,
+      "height": 768,
+      "h": 758.0625,
+      "max": 5849,
+      "position": "sticky",
+      "bottom": 0,
+      "revealTop": 9.9375,
+      "nextRevealTop": 9.9375,
+      "endBottom": 767.890625
+    },
+    {
+      "route": "/domains/",
+      "width": 390,
+      "height": 844,
+      "h": 1386.390625,
+      "max": 10303,
+      "position": "sticky",
+      "bottom": -542.391,
+      "revealTop": 0,
+      "nextRevealTop": 0,
+      "endBottom": 844
+    },
+    {
+      "route": "/web-mobile-apps/",
+      "width": 1440,
+      "height": 1000,
+      "h": 758.0625,
+      "max": 8786,
+      "position": "sticky",
+      "bottom": 0,
+      "revealTop": 241.9375,
+      "nextRevealTop": 241.9375,
+      "endBottom": 1000
+    },
+    {
+      "route": "/web-mobile-apps/",
+      "width": 1440,
+      "height": 768,
+      "h": 758.0625,
+      "max": 8705,
+      "position": "sticky",
+      "bottom": 0,
+      "revealTop": 9.9375,
+      "nextRevealTop": 9.9375,
+      "endBottom": 767.5
+    },
+    {
+      "route": "/web-mobile-apps/",
+      "width": 390,
+      "height": 844,
+      "h": 1386.390625,
+      "max": 11430,
+      "position": "sticky",
+      "bottom": -542.391,
+      "revealTop": 0,
+      "nextRevealTop": 0,
+      "endBottom": 844.09375
+    },
+    {
+      "route": "/services/",
+      "width": 1440,
+      "height": 1000,
+      "h": 796.0625,
+      "max": 8296,
+      "position": "sticky",
+      "bottom": 0,
+      "revealTop": 203.9375,
+      "nextRevealTop": 203.9375,
+      "endBottom": 999.75
+    },
+    {
+      "route": "/services/",
+      "width": 1440,
+      "height": 768,
+      "h": 796.0625,
+      "max": 8226,
+      "position": "sticky",
+      "bottom": -28.0625,
+      "revealTop": 0,
+      "nextRevealTop": 0,
+      "endBottom": 768.125
+    },
+    {
+      "route": "/services/",
+      "width": 390,
+      "height": 844,
+      "h": 1430.390625,
+      "max": 14498,
+      "position": "sticky",
+      "bottom": -586.391,
+      "revealTop": 0,
+      "nextRevealTop": 0,
+      "endBottom": 843.75
+    }
+  ],
+  "circle": {
+    "width": "220px",
+    "height": "220px",
+    "radius": "50%",
+    "opacity": "1",
+    "blend": "multiply",
+    "filter": "blur(8px) brightness(1.17)"
+  },
+  "errors": []
+}
