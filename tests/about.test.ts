@@ -10,6 +10,7 @@ import {defaultAbout} from '../src/content/about-defaults';
 import {defaultHomepage} from '../src/content/homepage-defaults';
 import {aboutSchema,type AboutSection} from '../src/schemas/about';
 import {snapshotSchema} from '../src/schemas/content';
+import {legacyAboutFixture} from './fixtures/about-v1';
 import {Prisma} from '../src/generated/prisma/client';
 after(async()=>{await db.$disconnect();});
 
@@ -41,7 +42,11 @@ test('About initialization, save and restore are isolated atomic private draft o
   assert.equal(page.status,'DRAFT');assert.equal(page.publishedSnapshot,null);assert.equal(page.publishedAt,null);
   const repeated=await initializeAbout(actorId);assert.equal(repeated.version,page.version);
   assert.equal(await db.auditLog.count({where:{entityId:'about',action:'page.draft_initialized'}}),1);
-  const saved=snapshotSchema.parse(page.draftSnapshot),changed=structuredClone(saved);
+  assert.equal(snapshotSchema.parse(page.draftSnapshot).about?.schemaVersion,2);
+  // Exercise historical v1 work approval and restore against an explicit legacy fixture.
+  const saved={...snapshotSchema.parse(page.draftSnapshot),about:legacyAboutFixture()};
+  await db.page.update({where:{id:"about"},data:{draftSnapshot:saved as Prisma.InputJsonValue}});
+  const changed=structuredClone(saved);
   changed.about!.sections[1].heading='Edited About heading';
   const updated=await saveDraft(actorId,{...changed,pageId:'about',expectedVersion:1});
   assert.equal(updated.version,2);assert.equal(updated.publishedSnapshot,null);

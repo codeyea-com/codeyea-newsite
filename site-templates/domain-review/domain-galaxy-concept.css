@@ -28,3 +28,5 @@
   .d .d-faq>.d-faq-label,.d .d-faq>h2,.d .d-faq>div {grid-column:1;grid-row:auto}
   .d .d-faq>h2 {margin:0 0 28px;font-size:clamp(32px,8vw,42px)}
 }
+
+.d-hero .d-hero-content>p{text-align:center!important;margin-inline:auto!important}

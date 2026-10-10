@@ -1,0 +1,54 @@
+/* The shared header defines the page's foreground width; backgrounds keep their own span. */
+.hp.public-surface {
+  --page-content-width: min(1200px, calc(100vw - 112px));
+}
+.hp.public-surface :is(.rp-container, .rp-cards, .about-reference-container, .hf-wrap, .v-wrap, .d-wrap, .ds-wrap, .b-wrap, .b-container, .d-container, .ct-container, .ct-hero-title, .hero-concept-layout, .internal-hero-copy) {
+  width: var(--page-content-width);
+  max-width: 100%;
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+.hp.public-surface .internal-hero-copy { width: var(--page-content-width) !important; max-width: none; }
+.hp.public-surface .internal-hero-media { width: 100% !important; margin-inline: 0 !important; }
+.hp.public-surface .internal-hero-media > .hero-art-box { width: var(--page-content-width) !important; max-width: none; margin-inline: auto; }
+.hp.public-surface .hero-art-box { height: 100%; position: relative; overflow: hidden; }
+.hp.public-surface .internal-hero-media > img { display: block; width: 100%; }
+.hp.public-surface :is(.brand-concept, .ecom-concept) { padding-inline: calc((100% - var(--page-content-width)) / 2) !important; }
+.hp.public-surface :is(.brand-stage, .ecom-stage) { max-width: 100%; }
+.hp.public-surface .industry-section, .hp.public-surface .industries-final { width: var(--page-content-width); margin-inline: auto; }
+.hp.public-surface :is(.detail-section, .industries-introduction) { padding-inline: calc((100% - var(--page-content-width)) / 2) !important; }
+/* Artwork stays boxed. Its existing background paints across the whole media band. */
+.hp.public-surface .web-mobile-journey .internal-hero-media { background: radial-gradient(ellipse at 79% 20%,#ffe7be 0,transparent 36%),linear-gradient(112deg,#e5f2ed 0%,#f4efe3 55%,#f5e5d4 100%); }
+.hp.public-surface .web-mobile-journey .internal-hero-media::before, .hp.public-surface .web-mobile-journey .internal-hero-media::after { content: none; }
+.hp.public-surface .web-mobile-journey .app-journey { background: none; }
+.hp.public-surface .web-mobile-journey .app-journey::before { left: calc((100% - 100vw) / 2); right: calc((100% - 100vw) / 2); }
+.hp.public-surface .automation-live-hero .internal-hero-media { background: linear-gradient(115deg,#f4e7d9 0%,#f7f3e9 49%,#dbece8 100%); }
+.hp.public-surface .support-live-hero .internal-hero-media { background: linear-gradient(115deg,#f0e8df 0%,#e8efeb 55%,#d7e5e1 100%); }
+.hp.public-surface .hosting-live-hero .internal-hero-media { background: linear-gradient(118deg,#e6efee 0%,#d2e6e4 44%,#afc9d0 100%); }
+.hp.public-surface .wp-live-hero .internal-hero-media { background: linear-gradient(118deg,#f3eae4 0%,#eee8e8 51%,#e5e3ef 100%); }
+.hp.public-surface .cloud-live-hero .internal-hero-media { background: linear-gradient(110deg,#213c50 0%,#1b3d51 45%,#375b67 100%); }
+.hp.public-surface .mail-live-hero .internal-hero-media { background: linear-gradient(113deg,#eee9e7 0%,#eee9e7 48%,#d7dee0 48%,#dce4e4 100%); }
+.hp.public-surface .internal-hero-media :is(.automation-scene,.support-scene,.hosting-scene,.wp-scene,.cloud-scene,.mail-scene) { background: none; }
+.hp.public-surface .hero-concept-copy { padding-inline-start: 0 !important; }
+.hp.public-surface .hp-header > .cy-host-panel { padding-inline: calc((100vw - var(--page-content-width)) / 2) !important; }
+.hp.public-surface :is(.hp-about, .hp-morph-layout) { width: var(--page-content-width); margin-inline: auto; }
+.hp.public-surface .hp-experience { padding-inline: calc((100% - var(--page-content-width)) / 2); }
+.hp.public-surface .hp-morph-art { margin-inline-end: 0; }
+.hp.public-surface .hp-morph-bottom { left: calc((100% - var(--page-content-width)) / 2); right: calc((100% - var(--page-content-width)) / 2); }
+.hp.public-surface .domain-cosmos { width: var(--page-content-width); margin-inline: auto; }
+.hp.public-surface :is(.rf-container,.rf-service-container) { width: var(--page-content-width) !important; max-width: none !important; margin-inline: auto !important; box-sizing: border-box; }
+.hp.public-surface .rp-process { display: block; width: 100%; max-width: none; padding: 0; }
+.hp.public-surface .rp-process-inner { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); width: var(--page-content-width); margin-inline: auto; padding-block: 110px 105px; }
+.hp.services-page .about-hero { background-color: #f8f8f8; background-image: repeating-linear-gradient(90deg,transparent 0 87.5px,rgb(7 36 72 / 2%) 87.5px 88px); background-repeat: repeat-y; }
+.hp.services-page { background-color: #fff !important; isolation: isolate; }
+.hp.services-page main { background-color: #fff !important; position: relative; z-index: 1; }
+.hp.public-surface * { border-radius: 0 !important; }
+@media(max-width:1199px) {
+  .hp.public-surface { --page-content-width: calc(100vw - 64px); }
+}
+@media(max-width:767px) {
+  .hp.public-surface { --page-content-width: calc(100vw - 40px); }
+}
+@media(max-width:800px) {
+  .hp.public-surface .rp-process-inner { grid-template-columns: 1fr; gap: 65px; padding-block: 75px; }
+}

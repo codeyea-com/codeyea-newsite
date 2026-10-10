@@ -1,0 +1,152 @@
+{
+  "pages": [
+    {
+      "id": "homepage",
+      "status": 200,
+      "version": 19
+    },
+    {
+      "id": "about",
+      "status": 200,
+      "version": 10
+    },
+    {
+      "id": "services",
+      "status": 200,
+      "version": 6
+    },
+    {
+      "id": "industries",
+      "status": 200,
+      "version": 7
+    },
+    {
+      "id": "roofing",
+      "status": 200,
+      "version": 5
+    },
+    {
+      "id": "healthcare",
+      "status": 200,
+      "version": 3
+    },
+    {
+      "id": "construction",
+      "status": 200,
+      "version": 2
+    },
+    {
+      "id": "e-commerce",
+      "status": 200,
+      "version": 3
+    },
+    {
+      "id": "small-business",
+      "status": 200,
+      "version": 2
+    },
+    {
+      "id": "event-coordinators",
+      "status": 200,
+      "version": 2
+    },
+    {
+      "id": "legal",
+      "status": 200,
+      "version": 1
+    },
+    {
+      "id": "online-magazine",
+      "status": 200,
+      "version": 3
+    },
+    {
+      "id": "oil-and-gas",
+      "status": 200,
+      "version": 3
+    },
+    {
+      "id": "real-estate",
+      "status": 200,
+      "version": 2
+    },
+    {
+      "id": "fashion-and-lifestyle",
+      "status": 200,
+      "version": 2
+    },
+    {
+      "id": "beauty-skincare-med-spa",
+      "status": 200,
+      "version": 3
+    },
+    {
+      "id": "restaurants-cafes-bakeries",
+      "status": 200,
+      "version": 1
+    },
+    {
+      "id": "solar-energy",
+      "status": 200,
+      "version": 1
+    }
+  ],
+  "documents": [
+    {
+      "slug": "ai-automation",
+      "status": 200
+    },
+    {
+      "slug": "brand-design",
+      "status": 200
+    },
+    {
+      "slug": "cloud-hosting",
+      "status": 200
+    },
+    {
+      "slug": "contact",
+      "status": 200
+    },
+    {
+      "slug": "digital-marketing",
+      "status": 200
+    },
+    {
+      "slug": "domains",
+      "status": 200
+    },
+    {
+      "slug": "ecommerce",
+      "status": 200
+    },
+    {
+      "slug": "email-hosting",
+      "status": 200
+    },
+    {
+      "slug": "seo-geo",
+      "status": 200
+    },
+    {
+      "slug": "technical-support",
+      "status": 200
+    },
+    {
+      "slug": "web-mobile-apps",
+      "status": 200
+    },
+    {
+      "slug": "website-design",
+      "status": 200
+    },
+    {
+      "slug": "website-hosting",
+      "status": 200
+    },
+    {
+      "slug": "wordpress-hosting",
+      "status": 200
+    }
+  ]
+}

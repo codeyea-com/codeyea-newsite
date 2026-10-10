@@ -1,0 +1,1907 @@
+{
+  "origin": "http://127.0.0.1:3004",
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/about",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/about",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/about",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/services",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/services",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/services",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/services",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/website-design",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/website-design",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/website-design",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/website-design",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/website-design",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/brand-design",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/brand-design",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/brand-design",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/brand-design",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/brand-design",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/ecommerce",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/ecommerce",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/ecommerce",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/ecommerce",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/ecommerce",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/seo-geo",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/seo-geo",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/seo-geo",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/seo-geo",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/seo-geo",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/digital-marketing",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/digital-marketing",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/digital-marketing",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/digital-marketing",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/digital-marketing",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/web-mobile-apps",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [
+        {
+          "radius": "24px",
+          "padding": "4px"
+        },
+        {
+          "radius": "24px",
+          "padding": "4px"
+        },
+        {
+          "radius": "24px",
+          "padding": "4px"
+        }
+      ],
+      "orbits": 0
+    },
+    {
+      "route": "/web-mobile-apps",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/web-mobile-apps",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/web-mobile-apps",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/web-mobile-apps",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/ai-automation",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/ai-automation",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/ai-automation",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/ai-automation",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/ai-automation",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/technical-support",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/technical-support",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/technical-support",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/technical-support",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/technical-support",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/contact",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/contact",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/contact",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/domains",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 7
+    },
+    {
+      "route": "/domains",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/domains",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/domains",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/domains",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/website-hosting",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/website-hosting",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/website-hosting",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/website-hosting",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/website-hosting",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/wordpress-hosting",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/wordpress-hosting",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/wordpress-hosting",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/wordpress-hosting",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/wordpress-hosting",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/cloud-hosting",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/cloud-hosting",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/cloud-hosting",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/cloud-hosting",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/cloud-hosting",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/email-hosting",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/email-hosting",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/email-hosting",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/email-hosting",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/email-hosting",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/roofing",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/roofing",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/roofing",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/roofing",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/roofing",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/healthcare",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/healthcare",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/healthcare",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/healthcare",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/healthcare",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/construction",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/construction",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/construction",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/construction",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/construction",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/e-commerce",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/e-commerce",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/e-commerce",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/e-commerce",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/e-commerce",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/small-business",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/small-business",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/small-business",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/small-business",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/small-business",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/event-coordinators",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/event-coordinators",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/event-coordinators",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/event-coordinators",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/event-coordinators",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/legal",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/legal",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/legal",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/legal",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/legal",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/online-magazine",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/online-magazine",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/online-magazine",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/online-magazine",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/online-magazine",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/oil-and-gas",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/oil-and-gas",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/oil-and-gas",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/oil-and-gas",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/oil-and-gas",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/real-estate",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/real-estate",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/real-estate",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/real-estate",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/real-estate",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/fashion-and-lifestyle",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/fashion-and-lifestyle",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/fashion-and-lifestyle",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/fashion-and-lifestyle",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/fashion-and-lifestyle",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/beauty-skincare-med-spa",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/beauty-skincare-med-spa",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/beauty-skincare-med-spa",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/beauty-skincare-med-spa",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/beauty-skincare-med-spa",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/restaurants-cafes-bakeries",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/restaurants-cafes-bakeries",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/restaurants-cafes-bakeries",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/restaurants-cafes-bakeries",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/restaurants-cafes-bakeries",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/solar-energy",
+      "status": 200,
+      "overflow": 0,
+      "headerCount": 1,
+      "footerCount": 1,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "industryLinks": [
+        "/industries/healthcare/",
+        "/industries/construction/",
+        "/industries/real-estate/",
+        "/industries/e-commerce/",
+        "/industries/legal/",
+        "/industries/oil-and-gas/",
+        "/industries/roofing/",
+        "/industries/small-business/",
+        "/industries/event-coordinators/",
+        "/industries/online-magazine/",
+        "/industries/fashion-and-lifestyle/",
+        "/industries/beauty-skincare-med-spa/",
+        "/industries/restaurants-cafes-bakeries/",
+        "/industries/solar-energy/"
+      ],
+      "privateLinks": [],
+      "images": [],
+      "phone": [],
+      "orbits": 0
+    },
+    {
+      "route": "/industries/solar-energy",
+      "width": 1024,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/solar-energy",
+      "width": 768,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/solar-energy",
+      "width": 390,
+      "overflow": 0,
+      "outside": []
+    },
+    {
+      "route": "/industries/solar-energy",
+      "width": 320,
+      "overflow": 0,
+      "outside": []
+    }
+  ],
+  "errors": []
+}

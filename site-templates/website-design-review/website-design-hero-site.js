@@ -1,4 +1,4 @@
-(()=>{const old=document.querySelector('main .b-hero');if(!old||document.querySelector('main .b-hero.hero-concept'))return;const template=document.createElement('template');template.innerHTML=`<section class="b-hero hero-concept" aria-labelledby="website-hero-title">
+(()=>{const privatePreview=location.pathname.startsWith('/preview/');const old=document.querySelector('main .b-hero');if(!old||document.querySelector('main .b-hero.hero-concept'))return;const template=document.createElement('template');template.innerHTML=`<section class="b-hero hero-concept" aria-labelledby="website-hero-title">
   <div class="hero-concept-grain" aria-hidden="true"></div>
   <div class="hero-concept-layout">
     <div class="b-hero-content hero-concept-copy">

@@ -21,8 +21,8 @@ test('known service cards link to their corresponding approved page templates', 
   assert.equal(servicePageDestination('sv-service-brand'), '/brand-design/');
 });
 
-test('services without a matching public page do not invent a destination', () => {
-  assert.equal(servicePageDestination('sv-service-graphic'), undefined);
+test('graphic design uses its implemented brand page while unknown services have no destination', () => {
+  assert.equal(servicePageDestination('sv-service-graphic'), '/brand-design/');
   assert.equal(servicePageDestination('unknown'), undefined);
 });
 

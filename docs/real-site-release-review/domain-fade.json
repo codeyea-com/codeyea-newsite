@@ -1,0 +1,45 @@
+{
+  "origin": "http://127.0.0.1:3004/domains",
+  "envelope": [
+    {
+      "phase": 0,
+      "opacity": 0
+    },
+    {
+      "phase": 0.1,
+      "opacity": 6.07695e-9
+    },
+    {
+      "phase": 0.15,
+      "opacity": 0.0214681
+    },
+    {
+      "phase": 0.25,
+      "opacity": 0.140172
+    },
+    {
+      "phase": 0.35,
+      "opacity": 0.16
+    },
+    {
+      "phase": 0.65,
+      "opacity": 0.16
+    },
+    {
+      "phase": 0.75,
+      "opacity": 0.0617809
+    },
+    {
+      "phase": 0.85,
+      "opacity": 0.00395133
+    },
+    {
+      "phase": 0.9,
+      "opacity": 0
+    },
+    {
+      "phase": 1,
+      "opacity": 0
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import { requirePermission } from "@/server/permissions";
 import { db } from "@/server/db";
 import { snapshotSchema } from "@/schemas/content";
 import { IndustriesPage } from "@/components/sections/industries-page";
+import {pagePath} from '@/content/site-routes';
 import "@/styles/homepage.css";
 import "@/styles/homepage-interactions.css";
 import "@/styles/homepage-motion.css";
@@ -32,12 +33,14 @@ export default async function PreviewIndustries() {
   const homepage = shared.draftSnapshot
     ? snapshotSchema.parse(shared.draftSnapshot).homepage
     : undefined;
+  const drafts=await db.page.findMany({where:{deletedAt:null},select:{id:true,draftSnapshot:true}});
+  const availablePaths=drafts.flatMap(page=>{const path=pagePath(page.id);return path&&page.draftSnapshot?[path]:[]});
   return (
     <>
       <div className="about-preview-banner">
         Private Industries draft · version {page.version} · Not published
       </div>
-      <IndustriesPage content={snapshot.industriesPage} shared={homepage} preview />
+      <IndustriesPage content={snapshot.industriesPage} shared={homepage} preview availablePaths={availablePaths}/>
     </>
   );
 }

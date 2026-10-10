@@ -78,7 +78,8 @@ const descriptions: Record<string, string> = {
   Roofing: "Show your work and capture project enquiries.",
   "Small Business": "Build a stronger presence for your business.",
 };
-function industryHref(title: string, fallback: string, surface: "preview" | "public") {
+function industryHref(title: string, fallback: string) {
+  if(fallback && !fallback.includes('#'))return fallback.startsWith('/industries/')?fallback.replace('/industries/','/preview/industries/'):fallback;
   const aliases: Record<string, string> = {
     "Healthcare & Aesthetic Clinics": "healthcare",
     eCommerce: "e-commerce",
@@ -86,22 +87,17 @@ function industryHref(title: string, fallback: string, surface: "preview" | "pub
   };
   const slug =
     aliases[title] || industrySlugs.find((s) => industryNames[s] === title);
-  if (!slug) return fallback;
-  return surface === "public"
-    ? "/industries/" + slug + "/"
-    : "/preview/industries/" + slug;
+  return slug ? "/preview/industries/" + slug : fallback;
 }
-export function approvedMenuContent(
-  content: EditorObject,
-  surface: "preview" | "public" = "preview",
-): EditorObject {
+export function approvedMenuContent(content: EditorObject, surface: boolean | "preview" | "public" = true): EditorObject {
+  const preview = surface === true || surface === "preview";
   const source = enabledItems(content.items),
     roots = source.filter(
       (i) =>
         !i.parentId &&
+        str(i.title) !== "Work" &&
         str(i.title) !== "Domains" &&
-        str(i.title) !== "Technical Support" &&
-        str(i.title).trim().toLowerCase() !== "work",
+        str(i.title) !== "Technical Support",
     ),
     items: EditorObject[] = [];
   for (const root of roots) {
@@ -111,24 +107,26 @@ export function approvedMenuContent(
       ...root,
       href:
         title === "About Us"
-          ? surface === "public" ? "/about/" : "/preview/about"
+          ? "/preview/about"
           : title === "Services"
-            ? surface === "public" ? "/services/" : "/preview/services"
+            ? "/preview/services"
             : title === "Industries"
-              ? surface === "public" ? "/industries/" : "/preview/industries"
-              : title === "Hosting" && surface === "public"
-                ? "/website-hosting/"
-                : root.href,
+              ? "/preview/industries"
+              : title === 'Hosting' ? '/preview/pages/website-hosting' : title === 'Contact' ? '/preview/pages/contact'
+              : root.href,
     });
     if (title === "Hosting" || title === "Services") {
-      (title === "Hosting" ? hosting : services).forEach(
+      const configured=source.filter(child=>child.parentId===id);
+      const saved=configured.length>0&&configured.every(child=>str(child.href).startsWith('/')&&!str(child.href).startsWith('/#'));
+      if(saved)for(const child of configured){const defaults=(title==='Hosting'?hosting:services).find(([name,,slug])=>name===str(child.title)||str(child.href).includes('/'+slug));items.push({...child,href:str(child.href).replace(/^\/(?!preview\/)/,'/preview/pages/'),body:str(child.body)||defaults?.[1]||'',icon:str(child.icon)||defaults?.[3]||'◇'});}
+      else (title === "Hosting" ? hosting : services).forEach(
         ([name, body, slug, icon], index) =>
           items.push({
             id: id + "-approved-" + index,
             parentId: id,
             title: name,
             body,
-            href: surface === "public" ? "/" + slug + "/" : "/preview/pages/" + slug,
+            href: "/preview/pages/" + slug,
             icon,
             enabled: true,
             position: items.length,
@@ -138,15 +136,19 @@ export function approvedMenuContent(
         items.push({
           id: "approved-domains",
           title: "Domains",
-          href: surface === "public" ? "/domains/" : "/preview/pages/domains",
+          href: "/preview/pages/domains",
           enabled: true,
           position: items.length,
         });
+    } else if (title === 'Industries') {
+      const children=source.filter(child=>child.parentId===id);
+      for(const child of children)items.push({...child,href:industryHref(str(child.title),str(child.href)),body:descriptions[str(child.title)]||str(child.body)||'Explore our approach for your industry.',icon:'◇'});
+      industrySlugs.filter(slug=>!items.some(item=>item.parentId===id&&item.href==='/preview/industries/'+slug)).forEach(slug=>items.push({id:id+'-industry-'+slug,parentId:id,title:industryNames[slug],href:'/preview/industries/'+slug,body:descriptions[industryNames[slug]] || 'Explore our approach for your industry.',icon:'◇',enabled:true,position:items.length}));
     } else
       for (const child of source.filter((i) => i.parentId === id))
         items.push({
           ...child,
-          href: industryHref(str(child.title), str(child.href), surface),
+          href: industryHref(str(child.title), str(child.href)),
           body:
             descriptions[str(child.title)] ||
             str(child.body) ||
@@ -154,17 +156,15 @@ export function approvedMenuContent(
           icon: "◇",
         });
   }
-  const contactTitle = "Contact";
-  const contactHref = surface === "public" ? "/contact/" : "/preview/pages/contact";
-  if (!items.some((item) => str(item.title).trim().toLowerCase() === "contact")) {
-    items.push({ id: "approved-contact", title: contactTitle, href: contactHref, enabled: true, position: items.length });
-  } else {
-    for (const item of items) {
-      if (str(item.title).trim().toLowerCase() === "contact") item.href = contactHref;
-    }
-  }
+  if (!items.some((i) => !i.parentId && str(i.title) === "Contact"))
+    items.push({id:"approved-contact",title:"Contact",href:"/preview/pages/contact",enabled:true,position:items.length});
   return {
     ...content,
-    items: items.map((i, position) => ({ ...i, position })),
+    items: items.map((i, position) => ({ ...i, position, href: preview ? i.href : publicHref(str(i.href)) })),
   };
+}
+
+function publicHref(href: string) {
+ const value = href.replace('/preview/pages/', '/').replace('/preview/', '/').replace(/^\/preview$/, '/');
+ return value.startsWith('/') && !value.includes('#') && !value.includes('?') ? value.replace(/\/$/, '') + '/' : value;
 }

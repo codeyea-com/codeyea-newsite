@@ -8,6 +8,7 @@ import {seoTextSchema} from '@/schemas/seo-text';
 import {siteOrigin} from '@/content/seo';
 import {assetUrl} from '@/content/homepage-assets';
 import {isIndustrySlug} from '@/content/industry-registry';
+import {renderSharedShell} from './shared-shell-render';
 
 export const approvedTemplates: Record<string, string> = {
   "website-design": "website-design-review/website-design-interactive.html",
@@ -158,8 +159,8 @@ export function sanitizeUnapprovedPublicContent(html: string, contactHref = "/co
     html = removeScriptsContaining(html, "function worksMotion()");
   }
   html = html.replace(/\balt=(["'])Temporary local image\s*[—–-]\s*image selection pending\1/gi, 'alt=""');
-  return html.replace(/<form\b(?=[^>]*\bclass=["'][^"']*\bhp-footer-v2-form\b[^"']*["'])[^>]*>[\s\S]*?<\/form>/i,
-    '<a class="hp-footer-v2-action" href="' + contactHref + '#contact-form"><span>Contact the team</span><span aria-hidden="true">→</span></a>');
+  // Keep the canonical footer composition on React and document routes alike.
+  return html.replace(/<address\b[^>]*>[\s\S]*?<\/address>/gi, block => /to be confirmed/i.test(block) ? '' : block);
 }
 function mapMain(html: string, fn: (text: string, index: number) => string) {
   let i = 0;
@@ -251,12 +252,18 @@ export async function renderDocument(
   content: DocumentContent,
   locale: string,
   title?: string,
-  options: { public?: boolean; alternates?: Partial<Record<'en'|'ar', string>> } = {},
+  options: { public?: boolean; alternates?: Partial<Record<'en'|'ar', string>>; shared?: unknown } = {},
 ) {
   let html = await templateContent(slug);
   const publicLocalePrefix = locale === 'ar' ? '/ar' : '';
   const publicRoute = (target: string) => options.public ? `${publicLocalePrefix}/${target.replace(/^\/+|\/+$/g, '')}/` : `/preview/pages/${target.replace(/^\/+|\/+$/g, '')}${locale === 'ar' ? '?locale=ar' : ''}`;
   content=bindTemplate(html,content);
+  if(slug==='contact')html=html.replaceAll('https://codeyea.com/wp-content/uploads/2021/06/tree-grass-architecture-house-perspective-building-1099275-pxhere.com@2x-1.jpg','/site/contact-hero-original.jpg');
+  const shell=await renderSharedShell(options.shared,!options.public);
+  html=html.replace(/<header\b[^>]*class="hp-header[^]*?<\/header>/,shell.header)
+    .replace(/<footer\b[^>]*class="[^"]*hp-footer[^]*?<\/footer>/,shell.footer);
+  // Frozen menu builders would otherwise replace the canonical header again.
+  html=html.replace(/<script\b[^>]*src="[^"]*shared-navigation\/hosting-menu\.js"[^>]*><\/script>/g,'');
   const values = new Map(content.fields.map((f) => [f.key, f.value]));
   const original = new Map(extractFields(html).map((f) => [f.key, f.value]));
   html = mapMain(html, (text, i) =>
@@ -323,7 +330,7 @@ export async function renderDocument(
     .replaceAll("../../public/", "/")
     .replaceAll("http://127.0.0.1:3002/", "/");
   for (const [id, file] of Object.entries(approvedTemplates))
-    html = html.replaceAll("../" + file, publicRoute(id));
+    html = html.replaceAll("../" + file, publicRoute(id)).replaceAll('href="'+path.posix.basename(file)+'"', 'href="'+publicRoute(id)+'"');
   html = html.replace(
     /(?:src|href)="(\.\.\/[^"?#]+)([?#][^"]*)?"/g,
     (m, relative, suffix = "") => {
@@ -346,7 +353,7 @@ export async function renderDocument(
       '"',
   );
   const pageTitle = content.seo?.title?.trim() || (title ? title + ' | CODEYEA' : slugTitle(slug) + ' | CODEYEA');
-  const description = content.seo?.description?.trim() || content.description;
+  const description = content.seo?.description?.trim() || content.description || `Explore ${slugTitle(slug)} from CODEYEA.`;
   const publicPath = documentPath(slug, locale);
   const robots = documentRobots(content, options.public === true);
   const seo = seoTextSchema.parse(content.seo ?? { title: pageTitle.replace(/ \| CODEYEA$/, ''), description });
@@ -389,11 +396,13 @@ export async function renderDocument(
   // The new quote panel owns submission on integrated previews; old local-preview handlers are intercepted.
   html = html.replace(
     "</head>",
-    "<script>window.CODEYEA_LEADS_ENABLED=true</script></head>",
+    '<link rel="stylesheet" href="/site/shared-layout.css"><link rel="stylesheet" href="/site/quote-panel.css"><script>window.CODEYEA_LEADS_ENABLED=true</script></head>',
   );
+  const shellStyles=await Promise.all(['homepage-header-final.css','approved-mega.css','homepage-footer.css'].map(file=>fs.readFile(path.join(process.cwd(),'src/styles',file),'utf8')));
+  html=html.replace('</head>','<style data-shared-shell>'+shellStyles.join('\n')+'</style></head>');
   html = html.replace(
     "</body>",
-    '<script src="/site/lead-forms.js"></script></body>',
+    (html.includes('quote-review/quote-panel.js') ? '' : '<script src="/api/site-assets/quote-review/quote-panel.js"></script>') + '<script src="/site/lead-forms.js"></script><script src="/site/shared-layout.js"></script></body>',
   );
   if(!html.includes('quote-panel.js')){
     html=html.replace('</head>','<link rel="stylesheet" href="/api/site-assets/quote-review/quote-panel.css"><script>window.CODEYEA_LEADS_ENABLED=true</script></head>');
@@ -421,7 +430,7 @@ export async function renderDocument(
     markHero('about-hero');
     markHero('b-hero');
     const reveal="document.querySelectorAll('[data-hero-upgrade-pending]').forEach(function(node){node.removeAttribute('data-hero-upgrade-pending')})";
-    html=html.replace(/<script\b(?=[^>]*\bdata-integrated-hero\b)(?=[^>]*\bsrc=)[^>]*>/i,tag=>tag.replace(/>$/,` onload="${reveal}">`));
+    html=html.replace(/<script\b(?=[^>]*\bdata-integrated-hero\b)(?=[^>]*\bsrc=)[^>]*>/i,tag=>tag.replace(/>$/,` onload="${reveal}" onerror="${reveal}">`));
     const revealStyle='<style>[data-hero-upgrade-pending]{visibility:hidden!important}</style>';
     html=html.replace('</head>',revealStyle+'</head>');
   }
@@ -434,6 +443,7 @@ export async function renderDocument(
       .replace('/api/site-assets/shared-navigation/hosting-menu.css?surface=public','/api/site-assets/shared-navigation/hosting-menu.css?surface=public&v=20261009-1')
       .replace('/api/site-assets/shared-navigation/hosting-menu.js?surface=public','/api/site-assets/shared-navigation/hosting-menu.js?surface=public&v=20261009-1');
   }
+  if(slug === "domains") html = html.replace("</body>", '<script src="/site/domain-orbits.js"></script></body>');
   return html;
 }
 function slugTitle(slug:string){return slug.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ')}
