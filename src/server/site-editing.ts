@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { pageAdditionsSchema } from "@/schemas/page-additions";
 import { db } from "./db";
 import { requirePermission } from "./permissions";
 import { AppError } from "./errors";
@@ -17,6 +18,7 @@ import { Prisma } from "@/generated/prisma/client";
 import { documentSlugs } from "@/content/site-routes";
 import { assertMediaReferences } from "./media-references";
 export const documentContent = z.object({
+  additions: pageAdditionsSchema.optional(),
   blog: blogMetadataSchema.optional(),
   controls: templateControlsSchema.optional(),
   templateHash: z
@@ -178,8 +180,12 @@ export async function saveSiteDraft(actorId: string | null, raw: unknown) {
     });
     if (!result.count)
       throw new AppError(409, "This page changed. Reload before saving.");
-    await tx.siteDocumentRevision.create({
-      data: {
+    await tx.siteDocumentRevision.upsert({
+      where: {
+        documentId_version: { documentId: doc.id, version: doc.version },
+      },
+      update: {},
+      create: {
         documentId: doc.id,
         version: doc.version,
         snapshot: snapshot.parse({ title: doc.title, draft: doc.draft }),
@@ -308,9 +314,14 @@ export async function restoreSiteDraft(actorId: string | null, raw: unknown) {
         "This older revision needs migration before restoration.",
       );
     if (doc.template) {
-      const html=await templateContent(doc.template);
-      restored.data.draft=bindTemplate(html,restored.data.draft);
-      if(restored.data.draft.controls) restored.data.draft=await bindDocumentControls(doc.template,html,restored.data.draft);
+      const html = await templateContent(doc.template);
+      restored.data.draft = bindTemplate(html, restored.data.draft);
+      if (restored.data.draft.controls)
+        restored.data.draft = await bindDocumentControls(
+          doc.template,
+          html,
+          restored.data.draft,
+        );
     }
     const changed = await tx.siteDocument.updateMany({
       where: { id: doc.id, version: input.version },
@@ -322,8 +333,12 @@ export async function restoreSiteDraft(actorId: string | null, raw: unknown) {
     });
     if (!changed.count)
       throw new AppError(409, "This draft changed. Reload before restoring.");
-    await tx.siteDocumentRevision.create({
-      data: {
+    await tx.siteDocumentRevision.upsert({
+      where: {
+        documentId_version: { documentId: doc.id, version: doc.version },
+      },
+      update: {},
+      create: {
         documentId: doc.id,
         version: doc.version,
         snapshot: snapshot.parse({ title: doc.title, draft: doc.draft }),

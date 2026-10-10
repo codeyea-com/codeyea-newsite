@@ -7,6 +7,7 @@ import { AnalyticsPanel } from "@/components/cms/analytics-dashboard";
 import { SeoEditor } from "@/components/cms/seo-editor";
 import { TemplateImageEditor } from "@/components/cms/template-image-editor";
 import { TemplateControlsEditor } from "@/components/cms/template-controls-editor";
+import { PageAdditionsEditor } from "@/components/cms/page-additions-editor";
 import { BlogDetailsEditor } from "@/components/cms/blog-details-editor";
 import { blogPostPath } from "@/schemas/blog";
 import type { SeoText } from "@/schemas/seo-text";
@@ -23,6 +24,7 @@ type Doc = {
   version: number;
   published: unknown;
   draft: {
+    additions?: import("@/schemas/page-additions").PageAdditions;
     templateHash?: string;
     fields: Field[];
     description: string;
@@ -429,6 +431,18 @@ export default function SiteStudio() {
                   }
                 />
               }
+              {selected.kind === "page" && (
+                <PageAdditionsEditor
+                  slug={selected.slug}
+                  value={selected.draft.additions}
+                  onChange={(additions) =>
+                    update({
+                      ...selected,
+                      draft: { ...selected.draft, additions },
+                    })
+                  }
+                />
+              )}
               {selected.kind === "page" && (
                 <TemplateImageEditor
                   value={selected.draft.images ?? []}

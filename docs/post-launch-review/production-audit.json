@@ -1,0 +1,88 @@
+[
+  {
+    "route": "/about/",
+    "status": 200,
+    "lang": "en",
+    "dir": "ltr",
+    "nav": 6,
+    "overflow": false,
+    "privateRobots": "noindex, nofollow"
+  },
+  {
+    "route": "/website-hosting/",
+    "status": 200,
+    "lang": "en",
+    "dir": "ltr",
+    "nav": 6,
+    "overflow": false,
+    "privateRobots": "noindex,nofollow"
+  },
+  {
+    "route": "/preview/ar/about",
+    "status": 200,
+    "lang": "ar",
+    "dir": "rtl",
+    "nav": 6,
+    "overflow": false,
+    "privateRobots": "noindex, nofollow"
+  },
+  {
+    "route": "/preview/ar/services",
+    "status": 200,
+    "lang": "ar",
+    "dir": "rtl",
+    "nav": 6,
+    "overflow": false,
+    "privateRobots": "noindex, nofollow"
+  },
+  {
+    "route": "/preview/pages/email-hosting?locale=ar",
+    "status": 200,
+    "lang": "ar",
+    "dir": "rtl",
+    "nav": 6,
+    "overflow": false,
+    "privateRobots": "noindex,nofollow"
+  },
+  {
+    "route": "/preview/pages/seo-geo?locale=ar",
+    "status": 200,
+    "lang": "ar",
+    "dir": "rtl",
+    "nav": 6,
+    "overflow": false,
+    "privateRobots": "noindex,nofollow"
+  },
+  {
+    "route": "/ar/about/",
+    "status": 404,
+    "lang": "ar",
+    "dir": "rtl",
+    "nav": 0,
+    "overflow": false,
+    "privateRobots": "noindex"
+  },
+  {
+    "country": "US",
+    "status": 200,
+    "language": {
+      "enabled": false
+    }
+  },
+  {
+    "country": "DE",
+    "status": 200,
+    "language": {
+      "enabled": false
+    }
+  },
+  {
+    "country": "IQ",
+    "status": 200,
+    "language": {
+      "enabled": false,
+      "href": "/ar/about/",
+      "label": "العربية"
+    }
+  }
+]

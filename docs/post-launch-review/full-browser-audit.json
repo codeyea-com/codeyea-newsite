@@ -1,0 +1,1367 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/about/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/services/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/roofing/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/healthcare/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/construction/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/e-commerce/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/small-business/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/event-coordinators/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/legal/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/online-magazine/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/oil-and-gas/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/real-estate/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/fashion-and-lifestyle/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/beauty-skincare-med-spa/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/restaurants-cafes-bakeries/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/industries/solar-energy/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/website-design/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/brand-design/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/ecommerce/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/seo-geo/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/digital-marketing/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/web-mobile-apps/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/ai-automation/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/technical-support/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/contact/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/domains/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/website-hosting/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/wordpress-hosting/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/cloud-hosting/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/email-hosting/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "About Us",
+        "Services",
+        "Hosting",
+        "Domains",
+        "Industries",
+        "Contact"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/about/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/services/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/roofing/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/healthcare/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/construction/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/e-commerce/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/small-business/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/event-coordinators/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/legal/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/online-magazine/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/oil-and-gas/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/real-estate/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/fashion-and-lifestyle/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/beauty-skincare-med-spa/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/restaurants-cafes-bakeries/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/solar-energy/",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/website-design?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/brand-design?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/ecommerce?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/seo-geo?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/digital-marketing?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/web-mobile-apps?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/ai-automation?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/technical-support?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/contact?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/domains?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/website-hosting?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/wordpress-hosting?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/cloud-hosting?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/email-hosting?locale=ar",
+      "status": 200,
+      "overflow": false,
+      "nav": [
+        "عن CODEYEA",
+        "الخدمات",
+        "الاستضافة",
+        "النطاقات",
+        "القطاعات",
+        "تواصل معنا"
+      ],
+      "badLinks": [],
+      "faqEmpty": 0,
+      "errors": []
+    }
+  ],
+  "responsive": [
+    {
+      "route": "/about/",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/services/",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/industries/",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/industries/legal/",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/domains/",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/website-hosting/",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/email-hosting/",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/seo-geo/",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/technical-support/",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/about",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/services",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/legal",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/website-hosting?locale=ar",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/seo-geo?locale=ar",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/services/",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/industries/",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/industries/legal/",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/domains/",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/website-hosting/",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/email-hosting/",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/seo-geo/",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/technical-support/",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/about",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/services",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/legal",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/website-hosting?locale=ar",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/seo-geo?locale=ar",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/services/",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/industries/",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/industries/legal/",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/domains/",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/website-hosting/",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/email-hosting/",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/seo-geo/",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/technical-support/",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/about",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/services",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/legal",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/website-hosting?locale=ar",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/seo-geo?locale=ar",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/about/",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/services/",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/industries/",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/industries/legal/",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/domains/",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/website-hosting/",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/email-hosting/",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/seo-geo/",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/technical-support/",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/about",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/services",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/ar/industries/legal",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/website-hosting?locale=ar",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "route": "/preview/pages/seo-geo?locale=ar",
+      "width": 1920,
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "failures": []
+}

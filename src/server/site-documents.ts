@@ -20,6 +20,11 @@ import {
   applyArtworkControls,
 } from "./template-controls";
 import type { TemplateControls } from "@/schemas/template-controls";
+import {
+  resolvePageAdditions,
+  type PageAdditions,
+} from "@/schemas/page-additions";
+import { renderPageAdditions } from "./page-additions-render";
 
 export const approvedTemplates: Record<string, string> = {
   "website-design": "website-design-review/website-design-interactive.html",
@@ -49,6 +54,7 @@ export type TemplateImage = {
   decorative: boolean;
 };
 export type DocumentContent = {
+  additions?: PageAdditions;
   controls?: TemplateControls;
   templateHash?: string;
   fields: Field[];
@@ -197,6 +203,7 @@ export async function bindDocumentControls(
 ) {
   return {
     ...content,
+    additions: resolvePageAdditions(slug, content.additions),
     controls: bindControls(
       await templateControlManifest(html, approvedTemplates[slug]),
       content.controls,
@@ -522,7 +529,11 @@ export async function renderDocument(
       "https://codeyea.com/wp-content/uploads/2021/06/tree-grass-architecture-house-perspective-building-1099275-pxhere.com@2x-1.jpg",
       "/site/contact-hero-original.jpg",
     );
-  const shell = await renderSharedShell(options.shared, !options.public);
+  const shell = await renderSharedShell(
+    options.shared,
+    !options.public,
+    locale,
+  );
   html = html
     .replace(/<header\b[^>]*class="hp-header[^]*?<\/header>/, shell.header)
     .replace(
@@ -556,6 +567,21 @@ export async function renderDocument(
     /(words=\[[^\]]+\],slot=heading.querySelector\('\.ai-rotator'\);)/,
     "$1words[0]=slot.textContent;heading.querySelector('.ai-sr-only').textContent=words.join(', ');",
   );
+  const arabicWords: Record<string, string[]> = {
+    "ai-automation": ["مترابطة", "واضحة", "عملية"],
+    "technical-support": ["بثقة", "بانتظام", "بسلاسة"],
+    "web-mobile-apps": ["مترابطة", "عملية", "مرنة"],
+    "digital-marketing": ["هدف", "أثر", "قيمة"],
+    "seo-geo": ["مفيدة", "واضحة", "موثوقة"],
+  };
+  const introWords =
+    content.additions?.introWords ??
+    (locale === "ar" ? arabicWords[slug] : undefined);
+  if (introWords)
+    html = html.replace(
+      /words=\[[^\]]+\](?=,slot=heading)/,
+      "words=" + JSON.stringify(introWords).replaceAll("<", "\\u003c"),
+    );
   html = html.replace(
     /<html([^>]*)lang="[^"]*"([^>]*)>/,
     '<html$1lang="' +
@@ -857,7 +883,9 @@ export async function renderDocument(
         .replace(/<a\b[^>]*>\s*Work\s*<\/a>/gi, "");
       return (
         start +
-        (/\bContact\b/i.test(withoutWork)
+        (/href="[^"]*\/contact(?:[/?#"])/.test(withoutWork) ||
+        /(?:Contact|تواصل معنا)<\/a>/.test(withoutWork) ||
+        withoutWork.includes(contactHref.replaceAll("&", "&amp;"))
           ? withoutWork
           : withoutWork + contact) +
         end
@@ -922,10 +950,38 @@ export async function renderDocument(
       "</body>",
       '<script src="/site/domain-orbits.js"></script></body>',
     );
+  html = renderPageAdditions(
+    html,
+    slug,
+    content.additions,
+    !options.public,
+    locale,
+  );
+  html = html.replace(
+    /(<div class="hp-utility"><div class="hp-container">)<a[^>]*>[\s\S]*?<\/a>/,
+    '$1<span class="cy-language-slot"></span>',
+  );
+  html = html
+    .replace(
+      "</head>",
+      '<link rel="stylesheet" href="/site/post-launch.css"></head>',
+    )
+    .replace("</body>", '<script src="/site/post-launch.js"></script></body>');
   html = applyAssetControls(html, content.controls);
   html = html.replace(
     /(\/(?:api\/site-assets)\/[^"'<>\s]+\.(?:js|css))([^"'<>\s]*)(?=["'])/g,
-    (all, url, suffix) => url.startsWith('/api/site-assets/'+path.posix.dirname(approvedTemplates[slug])+'/') ? url+suffix+(suffix.includes('?')?'&':'?')+'cms='+encodeURIComponent(slug)+'&locale='+encodeURIComponent(locale) : all,
+    (all, url, suffix) =>
+      url.startsWith(
+        "/api/site-assets/" + path.posix.dirname(approvedTemplates[slug]) + "/",
+      )
+        ? url +
+          suffix +
+          (suffix.includes("?") ? "&" : "?") +
+          "cms=" +
+          encodeURIComponent(slug) +
+          "&locale=" +
+          encodeURIComponent(locale)
+        : all,
   );
   html = html.replace(
     "</head>",

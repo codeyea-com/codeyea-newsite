@@ -5,12 +5,16 @@ import assert from "node:assert/strict";
 import { randomUUID } from "node:crypto";
 import { db } from "../src/server/db";
 import { saveSiteDraft, restoreSiteDraft } from "../src/server/site-editing";
-import {bindTemplate,extractFields,templateContent} from '../src/server/site-documents';
+import {
+  bindTemplate,
+  extractFields,
+  templateContent,
+} from "../src/server/site-documents";
 const suffix = randomUUID(),
   user = "site-editor-" + suffix,
   role = "site-role-" + suffix,
   id = "site-doc-" + suffix;
-const html = await templateContent('contact');
+const html = await templateContent("contact");
 const draft = bindTemplate(html, {
   fields: extractFields(html),
   description: "Original SEO",
@@ -46,6 +50,14 @@ test("imported page save and restore are authorized, versioned and never publish
   await assert.rejects(() =>
     saveSiteDraft(user, { ...input, draft: { ...draft, fields: [] } }),
   );
+  const initialRevision = await db.siteDocumentRevision.create({
+    data: {
+      documentId: id,
+      version: 1,
+      snapshot: { title: "Original", draft },
+      actorId: user,
+    },
+  });
   const results = await Promise.allSettled([
     saveSiteDraft(user, input),
     saveSiteDraft(user, input),
@@ -57,6 +69,8 @@ test("imported page save and restore are authorized, versioned and never publish
   const revision = await db.siteDocumentRevision.findUniqueOrThrow({
     where: { documentId_version: { documentId: id, version: 1 } },
   });
+  assert.equal(revision.id, initialRevision.id);
+  assert.deepEqual(revision.snapshot, initialRevision.snapshot);
   await restoreSiteDraft(user, { id, version: 2, revisionId: revision.id });
   const restored = await db.siteDocument.findUniqueOrThrow({ where: { id } });
   assert.equal(restored.version, 3);

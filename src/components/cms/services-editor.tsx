@@ -1,26 +1,344 @@
-'use client';
-import {useState,type FormEvent} from 'react';
-import type {Page} from './types';
-import {servicesPageSchema} from '@/schemas/services-page';
-import type {AboutMedia} from '@/schemas/about';
-import {MediaPicker} from './media-picker';
-import {assetUrl} from '@/content/homepage-assets';
-import {SeoEditor} from './seo-editor';
+"use client";
+import { useState, type FormEvent } from "react";
+import type { Page } from "./types";
+import { servicesPageSchema } from "@/schemas/services-page";
+import type { AboutMedia } from "@/schemas/about";
+import { MediaPicker } from "./media-picker";
+import { assetUrl } from "@/content/homepage-assets";
+import { SeoEditor } from "./seo-editor";
 
-function Fields({value,label,onChange}:{value:unknown;label:string;onChange:(value:unknown)=>void}){
- const [picker,setPicker]=useState(false);
- if(typeof value==='boolean')return <label className="field-label"><input type="checkbox" checked={value} onChange={e=>onChange(e.target.checked)}/>{label}</label>;
- if(value===null||typeof value==='string')return <label className="field-label">{label}{label==='destination'&&<small> Leave empty until the real page exists. Unavailable routes are not linked.</small>}{typeof value==='string'&&value.length>150?<textarea rows={5} value={value} onChange={e=>onChange(e.target.value)}/>:<input value={String(value??'')} onChange={e=>onChange(label==='destination'&&!e.target.value?null:e.target.value)}/>}</label>;
- if(Array.isArray(value))return <div>{value.map((v,n)=><details key={(v as {id:string}).id}><summary>{(v as {title?:string;text?:string}).title||(v as {text?:string}).text||`${label} ${n+1}`}</summary><Fields value={v} label={label} onChange={next=>onChange(value.map((i,k)=>k===n?next:i))}/></details>)}</div>;
- if(value&&typeof value==='object'){
-  if('mediaId' in value){const media=value as AboutMedia;return <div><p>{label} · temporary — image selection pending</p><img src={assetUrl(media.mediaId)} alt="Selected temporary image" style={{maxWidth:240}}/><button type="button" onClick={()=>setPicker(true)}>Choose local image</button><Fields value={media.alt} label="Image alt text" onChange={alt=>onChange({...media,alt})}/>{(['focalX','focalY','tabletFocalX','tabletFocalY','mobileFocalX','mobileFocalY'] as const).map(key=><label className="field-label" key={key}>{key}<input type="range" min="0" max="100" value={media[key]} onChange={e=>onChange({...media,[key]:Number(e.target.value)})}/></label>)}{picker&&<MediaPicker selected={media.mediaId} close={()=>setPicker(false)} choose={(mediaId,defaults)=>{onChange({...media,...defaults,mediaId});setPicker(false)}}/>}</div>}
-  return <>{Object.entries(value).filter(([k])=>k!=='id').map(([k,v])=><div key={k}><Fields value={v} label={k} onChange={next=>onChange({...value,[k]:next})}/></div>)}</>;
- }return null;
+function Fields({
+  value,
+  label,
+  onChange,
+}: {
+  value: unknown;
+  label: string;
+  onChange: (value: unknown) => void;
+}) {
+  const [picker, setPicker] = useState(false);
+  if (typeof value === "boolean")
+    return (
+      <label className="field-label">
+        <input
+          type="checkbox"
+          checked={value}
+          onChange={(e) => onChange(e.target.checked)}
+        />
+        {label}
+      </label>
+    );
+  if (value === null || typeof value === "string")
+    return (
+      <label className="field-label">
+        {label}
+        {label === "destination" && (
+          <small>
+            {" "}
+            Leave empty until the real page exists. Unavailable routes are not
+            linked.
+          </small>
+        )}
+        {typeof value === "string" && value.length > 150 ? (
+          <textarea
+            rows={5}
+            value={value}
+            onChange={(e) => onChange(e.target.value)}
+          />
+        ) : (
+          <input
+            value={String(value ?? "")}
+            onChange={(e) =>
+              onChange(
+                label === "destination" && !e.target.value
+                  ? null
+                  : e.target.value,
+              )
+            }
+          />
+        )}
+      </label>
+    );
+  if (Array.isArray(value))
+    return (
+      <div>
+        {value.map((v, n) => (
+          <details key={(v as { id: string }).id}>
+            <summary>
+              {(v as { title?: string; text?: string }).title ||
+                (v as { text?: string }).text ||
+                `${label} ${n + 1}`}
+            </summary>
+            <Fields
+              value={v}
+              label={label}
+              onChange={(next) =>
+                onChange(value.map((i, k) => (k === n ? next : i)))
+              }
+            />
+          </details>
+        ))}
+      </div>
+    );
+  if (value && typeof value === "object") {
+    if ("mediaId" in value) {
+      const media = value as AboutMedia;
+      return (
+        <div>
+          <p>{label} · temporary — image selection pending</p>
+          <img
+            src={assetUrl(media.mediaId)}
+            alt="Selected temporary image"
+            style={{ maxWidth: 240 }}
+          />
+          <button type="button" onClick={() => setPicker(true)}>
+            Choose local image
+          </button>
+          <Fields
+            value={media.alt}
+            label="Image alt text"
+            onChange={(alt) => onChange({ ...media, alt })}
+          />
+          {(
+            [
+              "focalX",
+              "focalY",
+              "tabletFocalX",
+              "tabletFocalY",
+              "mobileFocalX",
+              "mobileFocalY",
+            ] as const
+          ).map((key) => (
+            <label className="field-label" key={key}>
+              {key}
+              <input
+                type="range"
+                min="0"
+                max="100"
+                value={media[key]}
+                onChange={(e) =>
+                  onChange({ ...media, [key]: Number(e.target.value) })
+                }
+              />
+            </label>
+          ))}
+          {picker && (
+            <MediaPicker
+              selected={media.mediaId}
+              close={() => setPicker(false)}
+              choose={(mediaId, defaults) => {
+                onChange({ ...media, ...defaults, mediaId });
+                setPicker(false);
+              }}
+            />
+          )}
+        </div>
+      );
+    }
+    return (
+      <>
+        {Object.entries(value)
+          .filter(([k]) => k !== "id")
+          .map(([k, v]) => (
+            <div key={k}>
+              <Fields
+                value={v}
+                label={k}
+                onChange={(next) => onChange({ ...value, [k]: next })}
+              />
+            </div>
+          ))}
+      </>
+    );
+  }
+  return null;
 }
-export function ServicesEditor({draft,dirty,busy,canEdit,onChange,onSave}:{draft:Page;dirty:boolean;busy:boolean;canEdit:boolean;onChange:(p:Page)=>void;onSave:(e:FormEvent)=>void}){
- const content=draft.servicesPage!,[selected,setSelected]=useState('hero'),[error,setError]=useState('');
- const seo=content.seo??{title:'Website, SEO, Branding & AI Services | CODEYEA',description:'Explore CODEYEA services for website design, e-commerce, SEO and GEO, branding, digital marketing, apps, AI automation and technical support.'};
- const section=content.sections.find(s=>s.id===selected);
- function submit(e:FormEvent){const result=servicesPageSchema.safeParse(content);if(!result.success){e.preventDefault();setError(result.error.issues.map(i=>i.path.join('.')+': '+i.message).join(' · '));return}setError('');onSave(e)}
- return <form onSubmit={submit}><div className="editor-toolbar cms-sticky"><strong>{dirty?'Unsaved changes':'Private saved Services draft'} · v{draft.version}</strong><div className="cms-actions"><button className="button" disabled={!dirty||busy||!canEdit}>Save draft</button><a href="/preview/services" target="_blank" rel="noopener">Open saved private preview</a></div></div>{error&&<p role="alert">{error}</p>}<div className="editor-grid"><nav className="section-list" aria-label="Services sections"><h2>Services sections</h2><button type="button" className={'section-item '+(selected==='seo'?'selected':'')} onClick={()=>setSelected('seo')}>Search & sharing</button><button type="button" className={'section-item '+(selected==='hero'?'selected':'')} onClick={()=>setSelected('hero')}>Shared Hero</button>{content.sections.map(s=><button type="button" className={'section-item '+(selected===s.id?'selected':'')} key={s.id} onClick={()=>setSelected(s.id)}>{s.label||s.heading}</button>)}</nav><section className="editor-fields"><p>Content and local media only. Section order, stable IDs, shared design and motion are protected. All imagery: {content.imageStatus}.</p><fieldset className="cms-fields" disabled={busy||!canEdit}>{selected==='seo'?<><h2>Search title and description</h2><label className="field-label">Search title<input maxLength={120} value={seo.title} onChange={e=>onChange({...draft,servicesPage:{...content,seo:{...seo,title:e.target.value}}})}/></label><label className="field-label">Search description<textarea maxLength={320} rows={4} value={seo.description} onChange={e=>onChange({...draft,servicesPage:{...content,seo:{...seo,description:e.target.value}}})}/></label><SeoEditor value={seo} path="/services/" onChange={next=>onChange({...draft,servicesPage:{...content,seo:next}})}/></>:selected==='hero'?<Fields label="Hero" value={content.hero} onChange={hero=>onChange({...draft,servicesPage:{...content,hero:hero as typeof content.hero}})}/>:section&&<Fields label={section.heading} value={section} onChange={next=>onChange({...draft,servicesPage:{...content,sections:content.sections.map(s=>s.id===section.id?next as typeof section:s)}})}/>}</fieldset></section></div></form>;
+export function ServicesEditor({
+  draft,
+  dirty,
+  busy,
+  canEdit,
+  onChange,
+  onSave,
+}: {
+  draft: Page;
+  dirty: boolean;
+  busy: boolean;
+  canEdit: boolean;
+  onChange: (p: Page) => void;
+  onSave: (e: FormEvent) => void;
+}) {
+  const content = draft.servicesPage!,
+    [selected, setSelected] = useState("hero"),
+    [error, setError] = useState("");
+  const seo = content.seo ?? {
+    title: "Website, SEO, Branding & AI Services | CODEYEA",
+    description:
+      "Explore CODEYEA services for website design, e-commerce, SEO and GEO, branding, digital marketing, apps, AI automation and technical support.",
+  };
+  const section = content.sections.find((s) => s.id === selected);
+  function submit(e: FormEvent) {
+    const result = servicesPageSchema.safeParse(content);
+    if (!result.success) {
+      e.preventDefault();
+      setError(
+        result.error.issues
+          .map((i) => i.path.join(".") + ": " + i.message)
+          .join(" · "),
+      );
+      return;
+    }
+    setError("");
+    onSave(e);
+  }
+  return (
+    <form onSubmit={submit}>
+      <div className="editor-toolbar cms-sticky">
+        <strong>
+          {dirty ? "Unsaved changes" : "Private saved Services draft"} · v
+          {draft.version}
+        </strong>
+        <div className="cms-actions">
+          <button className="button" disabled={!dirty || busy || !canEdit}>
+            Save draft
+          </button>
+          <a
+            href={
+              content.localeId === "ar"
+                ? "/preview/ar/services"
+                : "/preview/services"
+            }
+            target="_blank"
+            rel="noopener"
+          >
+            Open saved private preview
+          </a>
+        </div>
+      </div>
+      {error && <p role="alert">{error}</p>}
+      <div className="editor-grid">
+        <nav className="section-list" aria-label="Services sections">
+          <h2>Services sections</h2>
+          <button
+            type="button"
+            className={"section-item " + (selected === "seo" ? "selected" : "")}
+            onClick={() => setSelected("seo")}
+          >
+            Search & sharing
+          </button>
+          <button
+            type="button"
+            className={
+              "section-item " + (selected === "hero" ? "selected" : "")
+            }
+            onClick={() => setSelected("hero")}
+          >
+            Shared Hero
+          </button>
+          {content.sections.map((s) => (
+            <button
+              type="button"
+              className={
+                "section-item " + (selected === s.id ? "selected" : "")
+              }
+              key={s.id}
+              onClick={() => setSelected(s.id)}
+            >
+              {s.label || s.heading}
+            </button>
+          ))}
+        </nav>
+        <section className="editor-fields">
+          <p>
+            Content and local media only. Section order, stable IDs, shared
+            design and motion are protected. All imagery: {content.imageStatus}.
+          </p>
+          <fieldset className="cms-fields" disabled={busy || !canEdit}>
+            {selected === "seo" ? (
+              <>
+                <h2>Search title and description</h2>
+                <label className="field-label">
+                  Search title
+                  <input
+                    maxLength={120}
+                    value={seo.title}
+                    onChange={(e) =>
+                      onChange({
+                        ...draft,
+                        servicesPage: {
+                          ...content,
+                          seo: { ...seo, title: e.target.value },
+                        },
+                      })
+                    }
+                  />
+                </label>
+                <label className="field-label">
+                  Search description
+                  <textarea
+                    maxLength={320}
+                    rows={4}
+                    value={seo.description}
+                    onChange={(e) =>
+                      onChange({
+                        ...draft,
+                        servicesPage: {
+                          ...content,
+                          seo: { ...seo, description: e.target.value },
+                        },
+                      })
+                    }
+                  />
+                </label>
+                <SeoEditor
+                  value={seo}
+                  path={
+                    content.localeId === "ar" ? "/ar/services/" : "/services/"
+                  }
+                  onChange={(next) =>
+                    onChange({
+                      ...draft,
+                      servicesPage: { ...content, seo: next },
+                    })
+                  }
+                />
+              </>
+            ) : selected === "hero" ? (
+              <Fields
+                label="Hero"
+                value={content.hero}
+                onChange={(hero) =>
+                  onChange({
+                    ...draft,
+                    servicesPage: {
+                      ...content,
+                      hero: hero as typeof content.hero,
+                    },
+                  })
+                }
+              />
+            ) : (
+              section && (
+                <Fields
+                  label={section.heading}
+                  value={section}
+                  onChange={(next) =>
+                    onChange({
+                      ...draft,
+                      servicesPage: {
+                        ...content,
+                        sections: content.sections.map((s) =>
+                          s.id === section.id ? (next as typeof section) : s,
+                        ),
+                      },
+                    })
+                  }
+                />
+              )
+            )}
+          </fieldset>
+        </section>
+      </div>
+    </form>
+  );
 }

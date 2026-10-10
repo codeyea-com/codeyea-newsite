@@ -7,7 +7,7 @@ import {
   type AboutMedia,
 } from "@/schemas/about";
 import { MediaPicker } from "./media-picker";
-import {SeoEditor} from './seo-editor';
+import { SeoEditor } from "./seo-editor";
 import { assetUrl } from "@/content/homepage-assets";
 import type { Page } from "./types";
 type Props = {
@@ -149,7 +149,13 @@ export function AboutEditor({
                 {name}
               </button>
             ))}
-            <a href="/preview/about" target="_blank" rel="noopener">
+            <a
+              href={
+                about.localeId === "ar" ? "/preview/ar/about" : "/preview/about"
+              }
+              target="_blank"
+              rel="noopener"
+            >
               Open private draft preview
             </a>
             <button type="button" onClick={() => setPreview(false)}>
@@ -161,7 +167,9 @@ export function AboutEditor({
             <iframe
               key={draft.version}
               title="Complete private About preview"
-              src="/preview/about"
+              src={
+                about.localeId === "ar" ? "/preview/ar/about" : "/preview/about"
+              }
               style={{ width, height: 800 }}
             />
           </div>
@@ -235,7 +243,11 @@ export function AboutEditor({
                     update({ ...about, seo: { ...about.seo, description } })
                   }
                 />
-                <SeoEditor value={about.seo} path="/about/" onChange={seo=>update({...about,seo})}/>
+                <SeoEditor
+                  value={about.seo}
+                  path={about.localeId === "ar" ? "/ar/about/" : "/about/"}
+                  onChange={(seo) => update({ ...about, seo })}
+                />
               </>
             ) : (
               <>
@@ -313,7 +325,10 @@ export function AboutEditor({
                   A device-only choice hides this section on every other device
                   size. Disabled sections stay hidden everywhere.
                 </p>
-                {(!["hero", "selectedWork", "showcase"].includes(section.type) || (section.type === "showcase" && !section.items.length)) && (
+                {(!["hero", "selectedWork", "showcase"].includes(
+                  section.type,
+                ) ||
+                  (section.type === "showcase" && !section.items.length)) && (
                   <Text
                     label="Section label"
                     value={section.label}
@@ -321,18 +336,21 @@ export function AboutEditor({
                     change={(label) => change({ ...section, label })}
                   />
                 )}
-                {(section.type !== "showcase" || !section.items.length) && <Text
-                  label="Heading"
-                  value={section.heading}
-                  max={240}
-                  change={(heading) => change({ ...section, heading })}
-                />}
+                {(section.type !== "showcase" || !section.items.length) && (
+                  <Text
+                    label="Heading"
+                    value={section.heading}
+                    max={240}
+                    change={(heading) => change({ ...section, heading })}
+                  />
+                )}
                 {section.type === "hero" && (
                   <p className="small">CODEYEA brand text is locked.</p>
                 )}
                 {(!["hero", "principles", "selectedWork", "showcase"].includes(
                   section.type,
-                ) || (section.type === "showcase" && !section.items.length)) && (
+                ) ||
+                  (section.type === "showcase" && !section.items.length)) && (
                   <Text
                     label="Supporting copy"
                     value={section.body}
@@ -352,43 +370,98 @@ export function AboutEditor({
                     }
                   />
                 )}
-                {(["hero", "who", "experience", "projectReference"].includes(section.type) || (section.type === "showcase" && !section.items.length)) && (
+                {(["hero", "who", "experience", "projectReference"].includes(
+                  section.type,
+                ) ||
+                  (section.type === "showcase" && !section.items.length)) && (
                   <AboutImage
                     value={section.media}
                     change={(media) => change({ ...section, media })}
                   />
                 )}
-                {(["cta", "experience"].includes(section.type) || (section.type === "showcase" && !section.items.length)) && (
+                {(["cta", "experience"].includes(section.type) ||
+                  (section.type === "showcase" && !section.items.length)) && (
                   <>
                     <Text
-                      label={section.type === "experience" ? "Image caption" : "Button label"}
+                      label={
+                        section.type === "experience"
+                          ? "Image caption"
+                          : "Button label"
+                      }
                       value={section.ctaLabel ?? ""}
                       max={80}
                       change={(ctaLabel) => change({ ...section, ctaLabel })}
                     />
                     <p className="small">
-                      {section.type === "cta" ? "The button uses the existing shared footer destination." : section.type === "experience" ? "Static vertical image caption." : "Static reference presentation; destination behavior is deferred."}
+                      {section.type === "cta"
+                        ? "The button uses the existing shared footer destination."
+                        : section.type === "experience"
+                          ? "Static vertical image caption."
+                          : "Static reference presentation; destination behavior is deferred."}
                     </p>
                   </>
                 )}
-                {section.type === "showcase" && <section className="cms-collection">
-                  <h3>Showcase — {section.items.length} fixed slides</h3>
-                  <p className="small">Edit each slide below. Stable identities and the approved order are locked. Button destinations remain deferred.</p>
-                  {section.items.map((item,index)=>{
-                    const update=(patch:Partial<typeof item>)=>change({...section,items:section.items.map(i=>i.id===item.id?{...i,...patch}:i)});
-                    return <details className="cms-collection-item" key={item.id}>
-                      <summary>{index+1}. {item.title}</summary>
-                      <div className="cms-item-fields">
-                        <Text label="Slide heading" value={item.title} max={180} change={title=>update({title})}/>
-                        <Text label="Slide kicker" value={item.label??""} max={100} change={label=>update({label})}/>
-                        <Text label="Slide copy" value={item.body} max={3000} multiline change={body=>update({body})}/>
-                        <Text label="Slide button label" value={item.ctaLabel??""} max={80} change={ctaLabel=>update({ctaLabel})}/>
-                        <AboutImage value={item.media} change={media=>update({media})}/>
-                      </div>
-                    </details>;
-                  })}
-                  {!section.items.length&&<p>This saved revision predates the Showcase collection.</p>}
-                </section>}
+                {section.type === "showcase" && (
+                  <section className="cms-collection">
+                    <h3>Showcase — {section.items.length} fixed slides</h3>
+                    <p className="small">
+                      Edit each slide below. Stable identities and the approved
+                      order are locked. Button destinations remain deferred.
+                    </p>
+                    {section.items.map((item, index) => {
+                      const update = (patch: Partial<typeof item>) =>
+                        change({
+                          ...section,
+                          items: section.items.map((i) =>
+                            i.id === item.id ? { ...i, ...patch } : i,
+                          ),
+                        });
+                      return (
+                        <details className="cms-collection-item" key={item.id}>
+                          <summary>
+                            {index + 1}. {item.title}
+                          </summary>
+                          <div className="cms-item-fields">
+                            <Text
+                              label="Slide heading"
+                              value={item.title}
+                              max={180}
+                              change={(title) => update({ title })}
+                            />
+                            <Text
+                              label="Slide kicker"
+                              value={item.label ?? ""}
+                              max={100}
+                              change={(label) => update({ label })}
+                            />
+                            <Text
+                              label="Slide copy"
+                              value={item.body}
+                              max={3000}
+                              multiline
+                              change={(body) => update({ body })}
+                            />
+                            <Text
+                              label="Slide button label"
+                              value={item.ctaLabel ?? ""}
+                              max={80}
+                              change={(ctaLabel) => update({ ctaLabel })}
+                            />
+                            <AboutImage
+                              value={item.media}
+                              change={(media) => update({ media })}
+                            />
+                          </div>
+                        </details>
+                      );
+                    })}
+                    {!section.items.length && (
+                      <p>
+                        This saved revision predates the Showcase collection.
+                      </p>
+                    )}
+                  </section>
+                )}
                 {section.type === "selectedWork" ? (
                   <section className="cms-collection">
                     <h3>Approved project references</h3>
@@ -475,9 +548,14 @@ export function AboutEditor({
                         </button>
                       ))}
                   </section>
-                ) : ["principles", "capabilities", "process", "experience", "projectReference", "awards"].includes(
-                    section.type,
-                  ) ? (
+                ) : [
+                    "principles",
+                    "capabilities",
+                    "process",
+                    "experience",
+                    "projectReference",
+                    "awards",
+                  ].includes(section.type) ? (
                   <section className="cms-collection">
                     <h3>Items</h3>
                     {section.items.map((item, index) => (
@@ -598,7 +676,11 @@ export function AboutEditor({
                       type="button"
                       disabled={
                         section.items.length >=
-                        (section.type === "experience" ? 2 : ["principles", "awards"].includes(section.type) ? 3 : 4)
+                        (section.type === "experience"
+                          ? 2
+                          : ["principles", "awards"].includes(section.type)
+                            ? 3
+                            : 4)
                       }
                       onClick={() =>
                         change({
@@ -619,8 +701,13 @@ export function AboutEditor({
                       Add item
                     </button>
                     <p className="small">
-                      Up to {section.type === "experience" ? 2 : ["principles", "awards"].includes(section.type) ? 3 : 4} items.
-                      Reordering preserves item identity.
+                      Up to{" "}
+                      {section.type === "experience"
+                        ? 2
+                        : ["principles", "awards"].includes(section.type)
+                          ? 3
+                          : 4}{" "}
+                      items. Reordering preserves item identity.
                     </p>
                   </section>
                 ) : null}
