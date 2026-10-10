@@ -1,28 +1,39 @@
 "use client";
-import {cmsPageIds,industrySlugs,industryNames,isIndustrySlug} from "@/content/industry-registry";
-import { useCallback, useEffect, useState, type FormEvent } from "react";
+import {
+  cmsPageIds,
+  industrySlugs,
+  industryNames,
+  isIndustrySlug,
+} from "@/content/industry-registry";
+import { useCallback, useEffect, useRef, useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { PagePicker } from "@/components/cms/page-picker";
 
 import type { Data, Page, Revision } from "@/components/cms/types";
 import { DraftEditor } from "@/components/cms/draft-editor";
-import {ServicesEditor} from "@/components/cms/services-editor";
+import { ServicesEditor } from "@/components/cms/services-editor";
 import { IndustriesEditor } from "@/components/cms/industries-editor";
 import { IndustryDetailEditor } from "@/components/cms/industry-detail-editor";
 import { AboutEditor } from "@/components/cms/about-editor";
 import { RevisionList } from "@/components/cms/revision-list";
 import { Activity } from "@/components/cms/activity";
 import { BrandReference } from "@/components/cms/brand-reference";
-import {SeoEditor} from '@/components/cms/seo-editor';
-import { AiAssistant } from '@/components/cms/ai-assistant';
-import type {SeoText} from '@/schemas/seo-text';
-import {pagePath} from '@/content/site-routes';
+import { SeoEditor } from "@/components/cms/seo-editor";
+import { AiAssistant } from "@/components/cms/ai-assistant";
+import type { SeoText } from "@/schemas/seo-text";
+import { pagePath } from "@/content/site-routes";
 
 export default function Admin() {
   const router = useRouter();
+  const loadSequence=useRef(0);
   const [data, setData] = useState<Data | null>(null);
   const [pageId, setPageId] = useState("homepage");
-  useEffect(()=>{const page=new URLSearchParams(window.location.search).get("page");if(page&&(cmsPageIds as readonly string[]).includes(page))setPageId(page)},[]);
+  useEffect(() => {
+    const page = new URLSearchParams(window.location.search).get("page");
+    if (page && (cmsPageIds as readonly string[]).includes(page))
+      setPageId(page);
+  }, []);
   const [missingAbout, setMissingAbout] = useState(false);
   const [switching, setSwitching] = useState(false);
   const [draft, setDraft] = useState<Page | null>(null);
@@ -32,9 +43,11 @@ export default function Admin() {
   const [error, setError] = useState("");
   const [notice, setNotice] = useState("");
   const load = useCallback(async () => {
+    const request=++loadSequence.current;
     const response = await fetch("/api/cms?pageId=" + pageId, {
       cache: "no-store",
     });
+    if(request!==loadSequence.current)return;
     if (response.status === 401) {
       router.replace("/login");
       return;
@@ -47,6 +60,7 @@ export default function Admin() {
     if (!response.ok)
       throw new Error("Unable to load the content studio. Please retry.");
     const result: Data = await response.json();
+    if(request!==loadSequence.current)return;
     setData(result);
     setDraft(structuredClone(result.page));
     setMissingAbout(false);
@@ -58,6 +72,7 @@ export default function Admin() {
       setError(e.message);
       setSwitching(false);
     });
+    return()=>{loadSequence.current++};
   }, [load]);
   const dirty =
     !missingAbout &&
@@ -292,7 +307,10 @@ export default function Admin() {
   const canEdit = data.permissions.includes("edit_pages");
   const canRestore = data.permissions.includes("edit_pages");
   const seoValue = readPageSeo(draft);
-  function updateSeo(value:SeoText){setDraft(current=>current?writePageSeo(current,value):current);setNotice("");}
+  function updateSeo(value: SeoText) {
+    setDraft((current) => (current ? writePageSeo(current, value) : current));
+    setNotice("");
+  }
   return (
     <div className="studio">
       <aside className="sidebar">
@@ -306,30 +324,11 @@ export default function Admin() {
           />
         </Link>
         <p className="studio-label">Content studio</p>
-        <label className="field-label">
-          Page
-          <select
-            aria-label="Page"
-            value={pageId}
-            disabled={busy || switching || loadingMore}
-            onChange={(event) => {
-              if (
-                dirty &&
-                !window.confirm("Switch pages and discard unsaved changes?")
-              )
-                return;
-              setSwitching(true);
-              setMissingAbout(false);
-              setError("");
-              setNotice("");
-              setTab("Content");
-              setPageId(event.target.value);
-            }}
-          >
-            <option value="homepage">Homepage</option>
-            <option value="services">Services</option><option value="about">About</option><option value="industries">Industries</option>{industrySlugs.map(id=><option key={id} value={id}>{industryNames[id]}</option>)}
-          </select>
-        </label>
+        <PagePicker
+          current={pageId}
+          dirty={dirty}
+          disabled={busy || switching || loadingMore}
+        />
         <nav aria-label="Studio">
           {["Content", "SEO", "Revisions", "Audit log", "Brand & taxonomy"].map(
             (item) => (
@@ -357,9 +356,26 @@ export default function Admin() {
       </aside>
       <main className="workspace">
         <header className="workspace-header">
-          <span>Website / {isIndustrySlug(pageId) ? industryNames[pageId] : pageId === "homepage" ? "Homepage" : pageId === "about" ? "About" : pageId === "services" ? "Services" : "Industries"}</span>
+          <span>
+            Website /{" "}
+            {isIndustrySlug(pageId)
+              ? industryNames[pageId]
+              : pageId === "homepage"
+                ? "Homepage"
+                : pageId === "about"
+                  ? "About"
+                  : pageId === "services"
+                    ? "Services"
+                    : "Industries"}
+          </span>
           <Link
-            href={isIndustrySlug(pageId)?'/industries/'+pageId+'/':pageId === "homepage" ? "/" : "/"+pageId}
+            href={
+              isIndustrySlug(pageId)
+                ? "/industries/" + pageId + "/"
+                : pageId === "homepage"
+                  ? "/"
+                  : "/" + pageId
+            }
             target="_blank"
             className="quiet-link"
           >
@@ -373,7 +389,11 @@ export default function Admin() {
                 {tab === "Content"
                   ? pageId === "about"
                     ? "Shape your About page."
-                    : isIndustrySlug(pageId) ? 'Shape your '+industryNames[pageId]+' page.' : pageId === "industries" ? "Shape your Industries page." : "Shape your homepage."
+                    : isIndustrySlug(pageId)
+                      ? "Shape your " + industryNames[pageId] + " page."
+                      : pageId === "industries"
+                        ? "Shape your Industries page."
+                        : "Shape your homepage."
                   : tab}
               </h1>
               <p>
@@ -408,10 +428,16 @@ export default function Admin() {
           {switching && <p role="status">Loading page…</p>}
           {!switching && missingAbout && (
             <section className="editor-fields">
-              <h2>{isIndustrySlug(pageId)?`Start a ${industryNames[pageId]} draft`:pageId==='about'?'Start an About draft':'Start an Industries draft'}</h2>
+              <h2>
+                {isIndustrySlug(pageId)
+                  ? `Start a ${industryNames[pageId]} draft`
+                  : pageId === "about"
+                    ? "Start an About draft"
+                    : "Start an Industries draft"}
+              </h2>
               <p>
-                This page has not been initialized. Create a private draft to review
-                its content. This does not publish a page.
+                This page has not been initialized. Create a private draft to
+                review its content. This does not publish a page.
               </p>
               <button
                 type="button"
@@ -419,7 +445,11 @@ export default function Admin() {
                 disabled={busy || !canEdit}
                 onClick={initializeAbout}
               >
-                {isIndustrySlug(pageId)?`Initialize ${industryNames[pageId]} draft`:pageId==='about'?'Initialize About draft':'Initialize Industries draft'}
+                {isIndustrySlug(pageId)
+                  ? `Initialize ${industryNames[pageId]} draft`
+                  : pageId === "about"
+                    ? "Initialize About draft"
+                    : "Initialize Industries draft"}
               </button>
             </section>
           )}
@@ -442,7 +472,46 @@ export default function Admin() {
                 }}
               />
             )}
-            {!switching&&!missingAbout&&draft.id===pageId&&tab==="SEO"&&<><AiAssistant key={draft.id} page={draft} onApply={next=>{setDraft(next);setNotice('AI suggestions applied to this unsaved draft. Save changes to keep them.');}}/><form onSubmit={event=>void save(event,writePageSeo(draft,seoValue))} className="editor-fields"><SeoEditor value={seoValue} path={pagePath(pageId)??`/${pageId}/`} onChange={updateSeo}/><div className="cms-actions"><button className="button" disabled={!dirty||busy||!canEdit}>Save SEO draft</button><span>Draft metadata stays private until the page is published.</span></div></form></>}
+          {!switching &&
+            !missingAbout &&
+            draft.id === pageId &&
+            tab === "SEO" && (
+              <>
+                <AiAssistant
+                  key={draft.id}
+                  page={draft}
+                  onApply={(next) => {
+                    setDraft(next);
+                    setNotice(
+                      "AI suggestions applied to this unsaved draft. Save changes to keep them.",
+                    );
+                  }}
+                />
+                <form
+                  onSubmit={(event) =>
+                    void save(event, writePageSeo(draft, seoValue))
+                  }
+                  className="editor-fields"
+                >
+                  <SeoEditor
+                    value={seoValue}
+                    path={pagePath(pageId) ?? `/${pageId}/`}
+                    onChange={updateSeo}
+                  />
+                  <div className="cms-actions">
+                    <button
+                      className="button"
+                      disabled={!dirty || busy || !canEdit}
+                    >
+                      Save SEO draft
+                    </button>
+                    <span>
+                      Draft metadata stays private until the page is published.
+                    </span>
+                  </div>
+                </form>
+              </>
+            )}
           {!switching &&
             !missingAbout &&
             draft.id === pageId &&
@@ -465,32 +534,65 @@ export default function Admin() {
         <footer className="workspace-footer">
           CODEYEA · Digital Innovation Agency{" "}
           <span>
-            {isIndustrySlug(pageId)?industryNames[pageId]:pageId === "homepage" ? "Homepage" : pageId === "about" ? "About" : pageId === "services" ? "Services" : "Industries"} CMS / Review workspace
+            {isIndustrySlug(pageId)
+              ? industryNames[pageId]
+              : pageId === "homepage"
+                ? "Homepage"
+                : pageId === "about"
+                  ? "About"
+                  : pageId === "services"
+                    ? "Services"
+                    : "Industries"}{" "}
+            CMS / Review workspace
           </span>
         </footer>
       </main>
     </div>
   );
 }
-function readPageSeo(page:Page):SeoText{
- const value=page.homepage?.seo??page.about?.seo??page.servicesPage?.seo??page.industriesPage?.seo??page.industryDetail?.seo;
- if(value&&typeof value==='object'&&'title' in value&&'description' in value)return value as SeoText;
- return {title:`${page.title} | CODEYEA`,description:`Explore CODEYEA ${page.title.toLowerCase()} services and digital solutions.`};
+function readPageSeo(page: Page): SeoText {
+  const value =
+    page.homepage?.seo ??
+    page.about?.seo ??
+    page.servicesPage?.seo ??
+    page.industriesPage?.seo ??
+    page.industryDetail?.seo;
+  if (
+    value &&
+    typeof value === "object" &&
+    "title" in value &&
+    "description" in value
+  )
+    return value as SeoText;
+  return {
+    title: `${page.title} | CODEYEA`,
+    description: `Explore CODEYEA ${page.title.toLowerCase()} services and digital solutions.`,
+  };
 }
-function writePageSeo(page:Page,value:SeoText):Page{
- if(page.homepage)return {...page,homepage:{...page.homepage,seo:value}};
- if(page.about)return {...page,about:{...page.about,seo:value}};
- if(page.servicesPage)return {...page,servicesPage:{...page.servicesPage,seo:value}};
- if(page.industriesPage)return {...page,industriesPage:{...page.industriesPage,seo:value}};
- if(page.industryDetail)return {...page,industryDetail:{...page.industryDetail,seo:value}};
- return page;
+function writePageSeo(page: Page, value: SeoText): Page {
+  if (page.homepage)
+    return { ...page, homepage: { ...page.homepage, seo: value } };
+  if (page.about) return { ...page, about: { ...page.about, seo: value } };
+  if (page.servicesPage)
+    return { ...page, servicesPage: { ...page.servicesPage, seo: value } };
+  if (page.industriesPage)
+    return { ...page, industriesPage: { ...page.industriesPage, seo: value } };
+  if (page.industryDetail)
+    return { ...page, industryDetail: { ...page.industryDetail, seo: value } };
+  return page;
 }
 function Editor(
   props: React.ComponentProps<typeof DraftEditor> & {
     approvedProjects?: { id: string; title: string }[];
   },
 ) {
-  return props.draft.servicesPage ? <ServicesEditor {...props}/> : Boolean(props.draft.industryDetail) ? <IndustryDetailEditor {...props}/> : props.draft.id === "industries" ? <IndustriesEditor {...props}/> : props.draft.id === "about" ? (
+  return props.draft.servicesPage ? (
+    <ServicesEditor {...props} />
+  ) : Boolean(props.draft.industryDetail) ? (
+    <IndustryDetailEditor {...props} />
+  ) : props.draft.id === "industries" ? (
+    <IndustriesEditor {...props} />
+  ) : props.draft.id === "about" ? (
     <AboutEditor {...props} />
   ) : (
     <DraftEditor {...props} />

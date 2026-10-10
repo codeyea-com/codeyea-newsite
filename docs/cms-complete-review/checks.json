@@ -1,0 +1,140 @@
+{
+  "editablePages": 32,
+  "selectorOptions": 33,
+  "seoPages": 32,
+  "templateControls": [
+    {
+      "slug": "ai-automation",
+      "draftBytes": 29905,
+      "fields": 189,
+      "sections": 11,
+      "links": 8,
+      "images": 10,
+      "artworkText": 50
+    },
+    {
+      "slug": "brand-design",
+      "draftBytes": 17198,
+      "fields": 137,
+      "sections": 14,
+      "links": 2,
+      "images": 7,
+      "artworkText": 12
+    },
+    {
+      "slug": "cloud-hosting",
+      "draftBytes": 95964,
+      "fields": 298,
+      "sections": 10,
+      "links": 13,
+      "images": 8,
+      "artworkText": 595
+    },
+    {
+      "slug": "contact",
+      "draftBytes": 2157,
+      "fields": 18,
+      "sections": 2,
+      "links": 0,
+      "images": 1,
+      "artworkText": 0
+    },
+    {
+      "slug": "digital-marketing",
+      "draftBytes": 26829,
+      "fields": 186,
+      "sections": 11,
+      "links": 8,
+      "images": 11,
+      "artworkText": 25
+    },
+    {
+      "slug": "domains",
+      "draftBytes": 21087,
+      "fields": 209,
+      "sections": 7,
+      "links": 13,
+      "images": 3,
+      "artworkText": 1
+    },
+    {
+      "slug": "ecommerce",
+      "draftBytes": 30325,
+      "fields": 210,
+      "sections": 17,
+      "links": 4,
+      "images": 5,
+      "artworkText": 41
+    },
+    {
+      "slug": "email-hosting",
+      "draftBytes": 70026,
+      "fields": 222,
+      "sections": 9,
+      "links": 14,
+      "images": 3,
+      "artworkText": 385
+    },
+    {
+      "slug": "seo-geo",
+      "draftBytes": 26997,
+      "fields": 186,
+      "sections": 11,
+      "links": 8,
+      "images": 11,
+      "artworkText": 22
+    },
+    {
+      "slug": "technical-support",
+      "draftBytes": 36507,
+      "fields": 236,
+      "sections": 11,
+      "links": 14,
+      "images": 12,
+      "artworkText": 45
+    },
+    {
+      "slug": "web-mobile-apps",
+      "draftBytes": 32188,
+      "fields": 186,
+      "sections": 11,
+      "links": 8,
+      "images": 13,
+      "artworkText": 83
+    },
+    {
+      "slug": "website-design",
+      "draftBytes": 30368,
+      "fields": 210,
+      "sections": 17,
+      "links": 4,
+      "images": 5,
+      "artworkText": 45
+    },
+    {
+      "slug": "website-hosting",
+      "draftBytes": 97013,
+      "fields": 282,
+      "sections": 10,
+      "links": 13,
+      "images": 6,
+      "artworkText": 623
+    },
+    {
+      "slug": "wordpress-hosting",
+      "draftBytes": 92344,
+      "fields": 278,
+      "sections": 10,
+      "links": 13,
+      "images": 6,
+      "artworkText": 563
+    }
+  ],
+  "providerStatus": "not_configured",
+  "indexInspection": "not_configured",
+  "browserErrors": [],
+  "stalePageLoadIgnored": true,
+  "googleDesktopMobilePreview": true,
+  "ownerContentSaved": false,
+  "ownerContentPublished": false
+}

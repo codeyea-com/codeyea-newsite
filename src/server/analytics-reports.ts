@@ -3,8 +3,24 @@ import { z } from "zod";
 export const reportQuery = z.object({
   source: z.enum(["ga4", "gsc", "clarity"]),
   group: z
-    .enum(["pages", "sources", "queries", "countries", "devices", "date", "overview"])
+    .enum([
+      "pages",
+      "sources",
+      "queries",
+      "countries",
+      "devices",
+      "date",
+      "overview",
+      "queryHistory",
+      "pageHistory",
+    ])
     .default("pages"),
+  path: z
+    .string()
+    .max(240)
+    .regex(/^\/(?!\/)[a-zA-Z0-9/_-]*$/)
+    .optional(),
+  previous: z.enum(["true", "false"]).default("false"),
   days: z.coerce.number().int().min(1).max(90).default(28),
 });
 export type Report = {
@@ -58,10 +74,16 @@ export function gaTable(raw: unknown) {
     ),
   };
 }
-export function gscTable(raw: unknown, dimension: string) {
+export function gscTable(raw: unknown, dimension: string | string[]) {
   const data = gscResponse.parse(raw);
   return {
-    columns: [dimension, "Clicks", "Impressions", "CTR", "Average position"],
+    columns: [
+      ...(Array.isArray(dimension) ? dimension : [dimension]),
+      "Clicks",
+      "Impressions",
+      "CTR",
+      "Average position",
+    ],
     rows: data.rows.map((r) => [
       ...r.keys,
       String(r.clicks),
@@ -141,7 +163,7 @@ async function loadReport(
     period:
       input.source === "clarity"
         ? "Previous 72 hours"
-        : `Previous ${input.days} days, excluding today`,
+        : `${input.previous === "true" ? "Comparison period: " : ""}Previous ${input.days} days${input.previous === "true" ? ", preceding selected period" : ", excluding today"}`,
   };
   const token =
     input.source === "clarity"
@@ -182,8 +204,11 @@ async function loadReport(
         devices: "deviceCategory",
         date: "date",
         overview: "date",
+        queryHistory: "date",
+        pageHistory: "date",
       }[input.group];
-      const dimensions = input.group === "overview" ? [] : [{ name: dimension }];
+      const dimensions =
+        input.group === "overview" ? [] : [{ name: dimension }];
       return {
         ...base,
         ...gaTable(
@@ -192,9 +217,25 @@ async function loadReport(
             token,
             {
               dateRanges: [
-                { startDate: `${input.days}daysAgo`, endDate: "yesterday" },
+                {
+                  startDate: `${input.days * (input.previous === "true" ? 2 : 1)}daysAgo`,
+                  endDate:
+                    input.previous === "true"
+                      ? `${input.days + 1}daysAgo`
+                      : "yesterday",
+                },
               ],
               ...(dimensions.length ? { dimensions } : {}),
+              ...(input.path
+                ? {
+                    dimensionFilter: {
+                      filter: {
+                        fieldName: "pagePath",
+                        stringFilter: { matchType: "EXACT", value: input.path },
+                      },
+                    },
+                  }
+                : {}),
               metrics: [
                 { name: "activeUsers" },
                 { name: "sessions" },
@@ -202,7 +243,10 @@ async function loadReport(
                 { name: "keyEvents" },
               ],
               limit: 100,
-              orderBys: [{ metric: { metricName: "sessions" }, desc: true }],
+              orderBys:
+                input.group === "date"
+                  ? [{ dimension: { dimensionName: "date" } }]
+                  : [{ metric: { metricName: "sessions" }, desc: true }],
             },
           ),
         ),
@@ -219,6 +263,8 @@ async function loadReport(
       devices: "device",
       date: "date",
       overview: "page",
+      queryHistory: "query",
+      pageHistory: "page",
     }[input.group];
     const date = (days: number) =>
       new Date(Date.now() - days * 86400000).toISOString().slice(0, 10);
@@ -229,14 +275,31 @@ async function loadReport(
           `https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(siteUrl!)}/searchAnalytics/query`,
           token,
           {
-            startDate: date(input.days),
-            endDate: date(1),
-            dimensions: [dimension],
-            rowLimit: 100,
+            startDate: date(input.days * (input.previous === "true" ? 2 : 1)),
+            endDate: date(input.previous === "true" ? input.days + 1 : 1),
+            dimensions: input.group.endsWith("History")
+              ? [dimension, "date"]
+              : [dimension],
+            ...(input.path
+              ? {
+                  dimensionFilterGroups: [
+                    {
+                      filters: [
+                        {
+                          dimension: "page",
+                          operator: "equals",
+                          expression: "https://codeyea.com" + input.path,
+                        },
+                      ],
+                    },
+                  ],
+                }
+              : {}),
+            rowLimit: input.group.endsWith("History") ? 25000 : 100,
             dataState: "final",
           },
         ),
-        dimension,
+        input.group.endsWith("History") ? [dimension, "date"] : dimension,
       ),
       status: "ready",
       message:
