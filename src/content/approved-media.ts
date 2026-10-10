@@ -1,4 +1,8 @@
 export const approvedMedia: Readonly<Record<string, string>> = {
+  // Bundled directory images are independent of historical upload records.
+  "industry-beauty-skincare-med-spa-image": "/approved-media/image-17.webp",
+  "industry-restaurants-cafes-bakeries-image": "/approved-media/image-25.webp",
+  "industry-solar-energy-image": "/approved-media/image-04.webp",
   "media_0126cc1c-69d8-4db3-863f-45ecbb6d99b4": "/approved-media/image-01.webp",
   "media_092f5cd0-1303-4b3e-87d7-3e7c38c00772": "/approved-media/image-02.webp",
   "media_0ba83035-8910-4265-9952-fe7daf8d3532": "/approved-media/image-03.webp",

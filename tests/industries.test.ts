@@ -17,15 +17,26 @@ test('Industries v1 revisions normalize purely to one media contract without ena
  assert.equal(migrated.items[0].media.mediaId,legacy.items[0].images[0].mediaId);assert.equal(migrated.items[0].heading,legacy.items[0].title);assert.ok(!('images' in migrated.items[0]));
  const invalid={...migrated,items:[{...migrated.items[0],images:legacy.items[0].images}]};assert.ok(!industriesPageSchema.safeParse(invalid).success);
  const current=defaultIndustries('en','global');assert.equal(current.introduction.paragraphs.length,3);
- for(const item of current.items){assert.ok(item.body.split(/\s+/).length>=60&&item.body.split(/\s+/).length<=90);assert.ok(item.highlights.every(h=>h.body.split(/\s+/).length>=20&&h.body.split(/\s+/).length<=40));}
+ for(const item of current.items.slice(0,11)){assert.ok(item.body.split(/\s+/).length>=60&&item.body.split(/\s+/).length<=90);assert.ok(item.highlights.every(h=>h.body.split(/\s+/).length>=20&&h.body.split(/\s+/).length<=40));}
 });
 test('Industries dynamic collection validates identities, destinations and isolated snapshots',()=>{
- const content=defaultIndustries('en','global');assert.equal(content.items.length,11);
+ const content=defaultIndustries('en','global');assert.equal(content.items.length,14);
  assert.ok(industriesPageSchema.safeParse({...content,items:content.items.slice(0,2)}).success);
  assert.ok(!industriesPageSchema.safeParse({...content,items:[content.items[0],content.items[0]]}).success);
  assert.ok(!snapshotSchema.safeParse({title:'Industries',industriesPage:content,sections:[{id:'x',type:'positioning',heading:'x',body:''}]}).success);
  const changed=structuredClone(content);changed.items[0].destination='/industries/roofing/';assert.ok(industriesPageSchema.safeParse(changed).success);assert.equal(industryDestination(changed.items[0].destination),undefined);
  changed.items[0].destination='https://invented.example';assert.ok(!industriesPageSchema.safeParse(changed).success);
+});
+test('Directory additions preserve edits, disabled entries, order and source revisions',()=>{
+ const source=defaultIndustries('en','global');
+ const old={...source,items:source.items.slice(0,11).map((item,n)=>({...item,position:n*2}))};
+ const before=JSON.stringify(old),completed=industriesPageSchema.parse(old);
+ assert.equal(JSON.stringify(old),before);
+ assert.deepEqual(completed.items.slice(0,11),old.items);
+ assert.deepEqual(completed.items.slice(11).map(i=>i.destination),['/industries/beauty-skincare-med-spa/','/industries/restaurants-cafes-bakeries/','/industries/solar-energy/']);
+ assert.deepEqual(completed.items.slice(11).map(i=>i.position),[21,22,23]);
+ completed.items[11].enabled=false;completed.items[11].heading='Owner heading';completed.items[11].body='Owner copy';
+ assert.deepEqual(industriesPageSchema.parse(completed),completed);
 });
 test('Industries initialization, versioned save, restore and audit preserve public and homepage snapshots',async()=>{
  const id='industries-editor-'+randomUUID(),roleId=id+'-role';
@@ -38,7 +49,11 @@ test('Industries initialization, versioned save, restore and audit preserve publ
   const same=await initializeIndustries(id);assert.equal(same.version,page.version);
   const saved=snapshotSchema.parse(page.draftSnapshot),changed=structuredClone(saved);
   changed.industriesPage!.items[0].enabled=false;
+  changed.industriesPage!.items[11].heading='Edited beauty heading';
+  changed.industriesPage!.items[11].body='Edited beauty directory summary';
+  changed.industriesPage!.items[12].enabled=false;
   const update=await saveDraft(id,{...changed,pageId:'industries',expectedVersion:page.version});assert.equal(update.version,page.version+1);assert.equal(update.publishedSnapshot,null);
+  assert.deepEqual(snapshotSchema.parse(update.draftSnapshot).industriesPage,changed.industriesPage);
   await assert.rejects(()=>saveDraft(id,{...saved,pageId:'industries',expectedVersion:page.version}),/changed/);
   await assert.rejects(()=>saveDraft(id,{...saved,pageId:'homepage',expectedVersion:home.version}),/match/);
   const revision=await db.pageRevision.findFirstOrThrow({where:{pageId:'industries',version:page.version}});

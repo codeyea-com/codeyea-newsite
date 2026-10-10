@@ -14,3 +14,4 @@ docs/recordings/raw/
 src/generated/
 .npm-cache/
 .next-test
+.vercel

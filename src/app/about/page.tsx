@@ -25,7 +25,10 @@ async function publishedAbout() {
   const about = snapshotSchema.parse(page.publishedSnapshot).about;
   // Version 1 is the earlier generic About layout. The public fallback below
   // uses the restored editorial design until the owner republishes version 2.
-  return about?.schemaVersion === 2 ? about : undefined;
+  const showcase = about?.sections.find(section => section.type === "showcase");
+  // Earlier v2 publications predate the approved four-slide showcase. Use the
+  // reviewed fallback until the CMS publishes its current complete snapshot.
+  return about?.schemaVersion === 2 && (!showcase?.enabled || showcase.items.length > 0) ? about : undefined;
 }
 export async function generateMetadata(): Promise<Metadata> {
   const about = await publishedAbout();

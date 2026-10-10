@@ -14,7 +14,7 @@ const cta=[text('ctaLabel','CTA label',80),link('ctaHref','CTA destination')];
 const title=text('title','Title',100);
 export const homepageEditorSections:{key:string;label:string;fields:Field[]}[]=[
  {key:'seo',label:'Search & sharing',fields:[text('title','Search title',120),{key:'description',label:'Search description',type:'copy',max:320}]},
- {key:'header',label:'Header & navigation',fields:[collection('items','Navigation',[title,link(),text('parentId','Parent navigation item',100,false)],24,1),collection('actions','Mobile secondary actions',[title,link()],3,0)]},
+ {key:'header',label:'Header & navigation',fields:[collection('items','Navigation',[title,link(),text('parentId','Parent navigation item',100,false)],48,1),collection('actions','Mobile secondary actions',[title,link()],3,0)]},
  {key:'hero',label:'Hero',fields:[text('prefix','Heading prefix',180),text('suffix','Heading suffix',80,false),collection('words','Rotating words',[title],8,1),copy(),...cta,media]},
  {key:'logos',label:'Client logos',fields:[collection('items','Logos',[text('title','Client name'),media,link('href','Approved destination (optional)',false),{key:'approved',label:'Client relationship and logo use approved',type:'boolean',required:false}],6)]},
  {key:'positioning',label:'Positioning',fields:[]},

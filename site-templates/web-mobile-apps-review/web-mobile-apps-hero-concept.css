@@ -1,4 +1,10 @@
 /* Three phone screens aligned to the approved CODEYEA hero hierarchy. */
+/* Owner requested iPhone-shaped hardware: these curves belong to the depicted
+   devices, while the website's buttons, cards and other frames stay sharp. */
+.hp.public-surface .web-mobile-journey .device{border-radius:24px!important;padding:4px}
+.hp.public-surface .web-mobile-journey .device .device-frame{border-radius:19px!important}
+.hp.public-surface .web-mobile-journey .device .device-island{border-radius:10px!important}
+.hp.public-surface .web-mobile-journey .device .device-home{border-radius:3px!important}
 .ai-general-hero.web-mobile-journey{background:#f8f8f8;padding-top:54px;overflow:hidden}
 .web-mobile-journey .internal-hero-copy{position:relative;z-index:2;width:1110px;max-width:calc(100% - 60px);margin:0 auto;padding:0}
 .web-mobile-journey .internal-hero-brand{font-size:90px;line-height:.85;font-weight:200;color:#181b31;margin:0}

@@ -39,50 +39,56 @@ function ShowcaseSlide({section}:{section:AboutSection}){
 
 export function AboutShowcase({section}:{section:AboutSection}) {
  const [active,setActive]=useState(0);
- const slider=useRef<HTMLDivElement>(null);
+ const root=useRef<HTMLDivElement>(null),selected=useRef(0);
  const controls=useRef<(HTMLButtonElement|null)[]>([]);
  const slides=section.items.length ? section.items.map(item=>({...section,heading:item.title,body:item.body,label:item.label!,ctaLabel:item.ctaLabel,media:item.media})) : [section];
+ const select=(index:number)=>{selected.current=index;setActive(index)};
  useEffect(()=>{
-  const node=slider.current,stage=node?.closest<HTMLElement>('.about-showcase');
-  if(!node||!stage||slides.length<2)return;
-  const desktop=matchMedia('(min-width:1200px)');
-  const originalHeight=stage.style.height;
-  const syncLayout=()=>{stage.style.height=desktop.matches?`${slides.length*100}vh`:originalHeight;};
-  syncLayout();
-  let frame=0;
-  const update=()=>{
-   frame=0;
-   if(!desktop.matches)return;
-   const distance=stage.offsetHeight-window.innerHeight;
-   if(distance<=0)return;
-   const top=stage.getBoundingClientRect().top+window.scrollY;
-   const progress=Math.max(0,Math.min(1,(window.scrollY-top)/distance));
-   const next=Math.min(slides.length-1,Math.round(progress*(slides.length-1)));
-   setActive(current=>current===next?current:next);
+  const node=root.current;if(!node||slides.length<2)return;
+  let accumulated=0,lastDirection=0,locked=false,touchY:number|null=null,touchConsumed=false;
+  let timer:ReturnType<typeof setTimeout>|undefined;
+  const reduced=matchMedia('(prefers-reduced-motion:reduce)');
+  const advance=(delta:number)=>{
+   const direction=Math.sign(delta),next=selected.current+direction;
+   if(!direction||next<0||next>=slides.length)return false;
+   if(locked)return true;
+   if(lastDirection!==direction)accumulated=0;
+   lastDirection=direction;accumulated+=Math.abs(delta);
+   if(accumulated<60)return true;
+   accumulated=0;locked=true;select(next);
+   timer=setTimeout(()=>{locked=false},reduced.matches?250:1000);
+   return true;
   };
-  const onScroll=()=>{if(!frame)frame=requestAnimationFrame(update)};
-  const onModeChange=()=>{syncLayout();onScroll()};
-  update();window.addEventListener('scroll',onScroll,{passive:true});window.addEventListener('resize',onScroll);desktop.addEventListener('change',onModeChange);
-  return()=>{window.removeEventListener('scroll',onScroll);window.removeEventListener('resize',onScroll);desktop.removeEventListener('change',onModeChange);if(frame)cancelAnimationFrame(frame);stage.style.height=originalHeight};
+  const wheel=(event:WheelEvent)=>{
+   if(event.ctrlKey||Math.abs(event.deltaX)>Math.abs(event.deltaY))return;
+   if((event.target as HTMLElement).closest('button,a,input,textarea,select'))return;
+   const delta=event.deltaY*(event.deltaMode===1?16:event.deltaMode===2?innerHeight:1);
+   if(advance(delta))event.preventDefault();
+  };
+  const start=(event:TouchEvent)=>{touchY=event.touches.length===1?event.touches[0].clientY:null;touchConsumed=false};
+  const move=(event:TouchEvent)=>{
+   if(touchY===null||event.touches.length!==1)return;
+   if(touchConsumed){event.preventDefault();return}
+   if((event.target as HTMLElement).closest('button,a,input,textarea,select'))return;
+   const delta=touchY-event.touches[0].clientY;
+   if(Math.abs(delta)<60)return;
+   if(advance(delta)){event.preventDefault();touchConsumed=true}
+  };
+  node.addEventListener('wheel',wheel,{passive:false});
+  node.addEventListener('touchstart',start,{passive:true});
+  node.addEventListener('touchmove',move,{passive:false});
+  return()=>{if(timer)clearTimeout(timer);node.removeEventListener('wheel',wheel);node.removeEventListener('touchstart',start);node.removeEventListener('touchmove',move)};
  },[slides.length]);
- const selectSlide=(index:number)=>{
-  setActive(index);
-  const stage=slider.current?.closest<HTMLElement>('.about-showcase');
-  if(stage&&matchMedia('(min-width:1200px)').matches&&slides.length>1){
-   const distance=stage.offsetHeight-window.innerHeight,top=stage.getBoundingClientRect().top+window.scrollY;
-   window.scrollTo({top:top+distance*(index/(slides.length-1)),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
-  }
- };
- return <div ref={slider} className="about-showcase-slider">
+ return <div ref={root} className="about-showcase-slider">
   <div className="about-showcase-stage">
    {slides.map((slide,index)=><div key={section.items[index]?.id??section.id} className="about-showcase-slide" id={'showcase-slide-'+(index+1)} role="group" aria-roledescription="slide" aria-label={(index+1)+' of '+slides.length+': '+slide.heading} aria-hidden={index!==active} inert={index!==active} style={{transform:'translateY('+((index-active)*100)+'%)'}}>
     <ShowcaseSlide section={slide}/>
    </div>)}
   </div>
   {slides.length>1&&<nav className="about-reference-pagination" aria-label="Showcase slides">
-   {slides.map((slide,index)=><button key={section.items[index].id} type="button" ref={node=>{controls.current[index]=node}} aria-label={'Show slide '+(index+1)+': '+slide.heading} aria-controls={'showcase-slide-'+(index+1)} aria-pressed={active===index} onClick={()=>selectSlide(index)} onKeyDown={event=>{
+   {slides.map((slide,index)=><button key={section.items[index].id} type="button" ref={node=>{controls.current[index]=node}} aria-label={'Show slide '+(index+1)+': '+slide.heading} aria-controls={'showcase-slide-'+(index+1)} aria-pressed={active===index} onClick={()=>select(index)} onKeyDown={event=>{
     const next=event.key==='ArrowDown'||event.key==='ArrowRight'?Math.min(index+1,slides.length-1):event.key==='ArrowUp'||event.key==='ArrowLeft'?Math.max(index-1,0):event.key==='Home'?0:event.key==='End'?slides.length-1:undefined;
-    if(next!==undefined){event.preventDefault();selectSlide(next);controls.current[next]?.focus()}
+    if(next!==undefined){event.preventDefault();select(next);controls.current[next]?.focus()}
    }}>{String(index+1).padStart(2,'0')}</button>)}
   </nav>}
  </div>;

@@ -23,6 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="stylesheet" href="/site/page-texture.css" />
+        <link rel="stylesheet" href="/site/shared-layout.css" />
       </head>
       <body>{children}</body>
     </html>

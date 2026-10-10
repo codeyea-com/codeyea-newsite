@@ -11,7 +11,7 @@ test("public service templates omit draft portfolio/story placeholders without o
   assert.doesNotMatch(html, /class="[^"]*\bai-stories\b/i);
   assert.doesNotMatch(html, /function (?:storiesMotion|worksMotion)\(\)/);
   assert.match(html, /alt=""/);
-  assert.match(html, /href="\/contact\/#contact-form"/);
+  assert.match(html, /class="hp-footer-v2-form"/);
   assert.match(html, /<main\b[\s\S]*<\/main>/);
 });
 

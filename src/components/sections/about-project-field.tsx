@@ -22,17 +22,15 @@ export function AboutProjectField({section}:{section:AboutSection}) {
  useEffect(()=>{
   const root=frame.current!,title=copy.current!,old=ghost.current!,cursor=circle.current!;
   const motion=matchMedia('(prefers-reduced-motion: reduce)'),fine=matchMedia('(hover: hover) and (pointer: fine)');
-  let inside=false,visible=true,running=false;
-  let x=0,y=0;
+  let inside=false,visible=true;
   const moveX=gsap.quickTo(cursor,'x',{duration:.1,ease:'power1.out'});
   const moveY=gsap.quickTo(cursor,'y',{duration:.1,ease:'power1.out'});
-  const tick=()=>{moveX(x);moveY(y)};
-  const stop=()=>{gsap.ticker.remove(tick);running=false;moveX.tween.pause();moveY.tween.pause()};
+  const stop=()=>{moveX.tween.pause();moveY.tween.pause()};
   const targets=[title,old,...title.children,...old.children];
   const resetCopy=()=>{gsap.killTweensOf(targets);gsap.set([title,...title.children],{opacity:1,xPercent:0});gsap.set(old,{opacity:0});};
   const hide=(immediate=false)=>{
    inside=false;
-   gsap.to(cursor,{scale:.15,opacity:0,duration:immediate?0:.65,ease:'expo.out',overwrite:true,onComplete:stop});
+   gsap.to(cursor,{scale:.15,opacity:0,duration:immediate?0:.65,ease:'expo.out',overwrite:'auto',onComplete:stop});
    if(immediate)stop();
   };
   const preferences=()=>{reduced.current=motion.matches;resetCopy();if(motion.matches||!fine.matches)hide(true)};
@@ -47,10 +45,12 @@ export function AboutProjectField({section}:{section:AboutSection}) {
   };
   const move=(event:PointerEvent)=>{
    if(event.pointerType==='touch'||reduced.current||!fine.matches||!visible||document.hidden)return;
-   x=event.clientX;y=event.clientY;
-   if(!inside){inside=true;gsap.set(cursor,{x,y});}
-   if(!running){gsap.ticker.add(tick);running=true;}
-   gsap.to(cursor,{scale:1,opacity:1,duration:.65,ease:'expo.out',overwrite:'auto'});
+   const x=event.clientX,y=event.clientY;
+   if(!inside){
+    inside=true;
+    moveX(x,x);moveY(y,y);
+    gsap.to(cursor,{scale:1,opacity:1,duration:.65,ease:'expo.out',overwrite:'auto'});
+   }else{moveX(x);moveY(y)}
   };
   const leave=()=>hide();
   const suspend=()=>{if(document.hidden){hide(true);resetCopy()}};

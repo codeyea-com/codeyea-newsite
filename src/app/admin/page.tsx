@@ -1,10 +1,14 @@
 "use client";
-import {RouteMap} from "@/components/cms/route-map";
+import { RouteMap } from "@/components/cms/route-map";
+import { PagePicker } from "@/components/cms/page-picker";
 import { DocumentHistory } from "@/components/cms/document-history";
 import { IntegrationSettings } from "@/components/cms/integration-settings";
 import { AnalyticsPanel } from "@/components/cms/analytics-dashboard";
 import { SeoEditor } from "@/components/cms/seo-editor";
-import {TemplateImageEditor} from '@/components/cms/template-image-editor';
+import { TemplateImageEditor } from "@/components/cms/template-image-editor";
+import { TemplateControlsEditor } from "@/components/cms/template-controls-editor";
+import { BlogDetailsEditor } from "@/components/cms/blog-details-editor";
+import { blogPostPath } from "@/schemas/blog";
 import type { SeoText } from "@/schemas/seo-text";
 import { documentPath } from "@/content/site-routes";
 import { useState, useEffect } from "react";
@@ -26,7 +30,9 @@ type Doc = {
     category?: string;
     tags?: string[];
     seo?: SeoText;
-    images?: import('@/server/site-documents').TemplateImage[];
+    images?: import("@/server/site-documents").TemplateImage[];
+    controls?: import("@/schemas/template-controls").TemplateControls;
+    blog?: import("@/schemas/blog").BlogMetadata;
   };
 };
 type Lead = {
@@ -82,8 +88,11 @@ export default function SiteStudio() {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const documentId = params.get("document");
-    if (params.get("section") === "Pages" && documentId) {
-      setSection("Pages");
+    if (
+      ["Pages", "Posts"].includes(params.get("section") ?? "") &&
+      documentId
+    ) {
+      setSection(params.get("section")!);
       choose(documentId);
     }
   }, []);
@@ -148,14 +157,28 @@ export default function SiteStudio() {
     if (!selected || dirty) return;
     setBusy(true);
     try {
-      await api("/api/site-documents/publish", { method: "POST", body: JSON.stringify({ id: selected.id, version: selected.version, action }) });
+      await api("/api/site-documents/publish", {
+        method: "POST",
+        body: JSON.stringify({
+          id: selected.id,
+          version: selected.version,
+          action,
+        }),
+      });
       const result = await api("/api/site-documents?id=" + selected.id);
       setSelected(result.document);
       setPermissions(result.permissions ?? permissions);
       await load();
-      setMessage(action === "publish" ? "Page is live. Search indexing still follows the site's global SEO setting." : "Page removed from its public route.");
-    } catch (e) { setMessage(String(e)); }
-    finally { setBusy(false); }
+      setMessage(
+        action === "publish"
+          ? "Page is live. Search indexing still follows the site's global SEO setting."
+          : "Page removed from its public route.",
+      );
+    } catch (e) {
+      setMessage(String(e));
+    } finally {
+      setBusy(false);
+    }
   }
   function update(d: Doc) {
     setSelected(d);
@@ -182,7 +205,14 @@ export default function SiteStudio() {
         <img src="/brand/logo-dark.png" alt="CODEYEA" width="190" />
         <p className="studio-label">Website management</p>
         <nav>
-          {["Pages", "Posts", "Leads", "Integrations", "AI Agent"].map((s) => (
+          {[
+            "Pages",
+            "Posts",
+            "SEO & Analytics",
+            "Leads",
+            "Integrations",
+            "AI Agent",
+          ].map((s) => (
             <button
               key={s}
               className={"nav-item " + (section === s ? "active" : "")}
@@ -192,7 +222,11 @@ export default function SiteStudio() {
             </button>
           ))}
         </nav>
-        <Link href="/admin/editor">Existing page editors & revisions ↗</Link>
+        <PagePicker
+          current={selected?.kind === "page" ? selected.id : undefined}
+          dirty={dirty}
+          disabled={busy}
+        />
       </aside>
       <main className="workspace">
         <header className="workspace-header">
@@ -208,13 +242,15 @@ export default function SiteStudio() {
                 Choose a {section === "Pages" ? "page" : "post"} to open its
                 details.
               </p>
-              {section === "Pages" && <RouteMap/>}
-              {section === "Posts" && <input
-                aria-label="Search posts"
-                placeholder="Search posts…"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-              />}
+              {section === "Pages" && <RouteMap />}
+              {section === "Posts" && (
+                <input
+                  aria-label="Search posts"
+                  placeholder="Search posts…"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                />
+              )}
               {section === "Posts" && (
                 <form
                   onSubmit={async (e) => {
@@ -254,22 +290,24 @@ export default function SiteStudio() {
                   <button disabled={busy}>Create draft</button>
                 </form>
               )}
-              {section === "Posts" && <div className="site-page-list">
-                {docs
-                  .filter(
-                    (d) =>
-                      d.kind === "post" &&
-                      d.title.toLowerCase().includes(query.toLowerCase()),
-                  )
-                  .map((d) => (
-                    <button key={d.id} onClick={() => choose(d.id)}>
-                      <strong>{d.title}</strong>
-                      <span>
-                        {d.locale.toUpperCase()} · Draft v{d.version} →
-                      </span>
-                    </button>
-                  ))}
-              </div>}
+              {section === "Posts" && (
+                <div className="site-page-list">
+                  {docs
+                    .filter(
+                      (d) =>
+                        d.kind === "post" &&
+                        d.title.toLowerCase().includes(query.toLowerCase()),
+                    )
+                    .map((d) => (
+                      <button key={d.id} onClick={() => choose(d.id)}>
+                        <strong>{d.title}</strong>
+                        <span>
+                          {d.locale.toUpperCase()} · Draft v{d.version} →
+                        </span>
+                      </button>
+                    ))}
+                </div>
+              )}
             </>
           )}
           {selected && (
@@ -299,19 +337,42 @@ export default function SiteStudio() {
                     Preview approved design ↗
                   </a>
                 )}
-                {selected.kind==='page'&&Boolean(selected.published)&&documentPath(selected.slug,selected.locale)&&<a href={documentPath(selected.slug,selected.locale)!} target="_blank" rel="noreferrer">Open live page ↗</a>}
+                {selected.kind === "page" &&
+                  Boolean(selected.published) &&
+                  documentPath(selected.slug, selected.locale) && (
+                    <a
+                      href={documentPath(selected.slug, selected.locale)!}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Open live page ↗
+                    </a>
+                  )}
                 <button onClick={save} disabled={busy || !dirty}>
                   Save draft
                 </button>
-                {selected.kind === "page" && permissions.includes("publish_pages") ? (
+                {selected.kind === "page" &&
+                permissions.includes("publish_pages") ? (
                   <>
-                    <button onClick={() => void publication("publish")} disabled={busy || dirty}>
+                    <button
+                      onClick={() => void publication("publish")}
+                      disabled={busy || dirty}
+                    >
                       {selected.published ? "Update live page" : "Publish page"}
                     </button>
-                    {Boolean(selected.published) && <button onClick={() => void publication("unpublish")} disabled={busy || dirty}>Unpublish</button>}
+                    {Boolean(selected.published) && (
+                      <button
+                        onClick={() => void publication("unpublish")}
+                        disabled={busy || dirty}
+                      >
+                        Unpublish
+                      </button>
+                    )}
                   </>
                 ) : null}
-                {selected.kind === "page" && <span>{selected.published ? "Live" : "Private draft"}</span>}
+                {selected.kind === "page" && (
+                  <span>{selected.published ? "Live" : "Private draft"}</span>
+                )}
               </div>
               <DocumentHistory
                 id={selected.id}
@@ -340,10 +401,80 @@ export default function SiteStudio() {
                 {selected.locale === "ar" ? "Arabic / RTL" : "English / LTR"} ·
                 Version {selected.version}
               </p>
-              {selected.kind === "page" && <SeoEditor value={selected.draft.seo ?? { title: selected.title + " | CODEYEA", description: selected.draft.description || `Explore ${selected.title} services and digital solutions from CODEYEA.` }} path={documentPath(selected.slug,selected.locale) ?? `/${selected.slug}/`} onChange={seo=>update({...selected,draft:{...selected.draft,description:seo.description,seo}})} />}
-              {selected.kind==='page'&&<TemplateImageEditor value={selected.draft.images??[]} onChange={images=>update({...selected,draft:{...selected.draft,images}})}/>}
+              {
+                <SeoEditor
+                  value={
+                    selected.draft.seo ?? {
+                      title: selected.title + " | CODEYEA",
+                      description:
+                        selected.draft.description ||
+                        `Explore ${selected.title} services and digital solutions from CODEYEA.`,
+                    }
+                  }
+                  path={
+                    selected.kind === "post"
+                      ? blogPostPath(selected.slug, selected.locale)!
+                      : (documentPath(selected.slug, selected.locale) ??
+                        `/${selected.slug}/`)
+                  }
+                  onChange={(seo) =>
+                    update({
+                      ...selected,
+                      draft: {
+                        ...selected.draft,
+                        description: seo.description,
+                        seo,
+                      },
+                    })
+                  }
+                />
+              }
+              {selected.kind === "page" && (
+                <TemplateImageEditor
+                  value={selected.draft.images ?? []}
+                  onChange={(images) =>
+                    update({
+                      ...selected,
+                      draft: { ...selected.draft, images },
+                    })
+                  }
+                />
+              )}
+              {selected.kind === "page" && selected.draft.controls && (
+                <TemplateControlsEditor
+                  value={selected.draft.controls}
+                  onChange={(controls) =>
+                    update({
+                      ...selected,
+                      draft: { ...selected.draft, controls },
+                    })
+                  }
+                />
+              )}
               {selected.kind === "post" ? (
                 <>
+                  <BlogDetailsEditor
+                    value={
+                      selected.draft.blog ?? {
+                        author: "",
+                        excerpt: "",
+                        categories: [],
+                      }
+                    }
+                    tags={selected.draft.tags ?? []}
+                    onChange={(blog) =>
+                      update({
+                        ...selected,
+                        draft: { ...selected.draft, blog },
+                      })
+                    }
+                    onTagsChange={(tags) =>
+                      update({
+                        ...selected,
+                        draft: { ...selected.draft, tags },
+                      })
+                    }
+                  />
                   <label className="site-field">
                     Article content
                     <textarea
@@ -403,6 +534,7 @@ export default function SiteStudio() {
               )}
             </>
           )}
+          {section === "SEO & Analytics" && <AnalyticsPanel />}
           {section === "Leads" && ops && (
             <div className="site-leads">
               <div>

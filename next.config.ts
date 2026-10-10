@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 const config: NextConfig = {
   poweredByHeader: false,
+  outputFileTracingIncludes: { "/*": ["./site-templates/**/*", "./src/styles/homepage-header-final.css", "./src/styles/approved-mega.css", "./src/styles/homepage-footer.css"] },
   skipTrailingSlashRedirect: true,
   distDir: process.env.CODEYEA_NEXT_DIST_DIR || (process.env.CODEYEA_ENV === "test" ? ".next-test" : ".next"),
   async headers() {

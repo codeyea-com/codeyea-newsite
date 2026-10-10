@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "route": "/",
+      "industryLinks": 14,
+      "panel": {
+        "x": 0,
+        "y": 130,
+        "width": 1440,
+        "height": 407
+      },
+      "font": "17px"
+    },
+    {
+      "route": "/web-mobile-apps",
+      "industryLinks": 14,
+      "panel": {
+        "x": 0,
+        "y": 130,
+        "width": 1440,
+        "height": 407
+      },
+      "font": "17px"
+    },
+    {
+      "route": "/contact",
+      "image": [
+        {
+          "src": "/site/contact-hero-original.jpg",
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "route": "/contact",
+      "industryLinks": 14,
+      "panel": {
+        "x": 0,
+        "y": 130,
+        "width": 1440,
+        "height": 407
+      },
+      "font": "17px"
+    },
+    {
+      "route": "/domains",
+      "industryLinks": 14,
+      "panel": {
+        "x": 0,
+        "y": 130,
+        "width": 1440,
+        "height": 407
+      },
+      "font": "17px"
+    },
+    {
+      "route": "/about",
+      "click": "02",
+      "scroll": "03"
+    }
+  ],
+  "errors": []
+}

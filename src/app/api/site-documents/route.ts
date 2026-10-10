@@ -4,7 +4,12 @@ import { db } from "@/server/db";
 import { actor, failure, jsonInput, noStore, sameOrigin } from "@/server/http";
 import { permissionsFor, requirePermission } from "@/server/permissions";
 import { AppError } from "@/server/errors";
-import {bindTemplate,templateContent,type DocumentContent} from '@/server/site-documents';
+import {
+  bindTemplate,
+  bindDocumentControls,
+  templateContent,
+  type DocumentContent,
+} from "@/server/site-documents";
 export async function GET(req: Request) {
   try {
     const user = await actor(req);
@@ -12,9 +17,19 @@ export async function GET(req: Request) {
     const id = new URL(req.url).searchParams.get("id");
     if (id) {
       const doc = await db.siteDocument.findUnique({ where: { id } });
-      if(!doc)throw new AppError(404,'Page not found');
-      if(doc.template)doc.draft=bindTemplate(await templateContent(doc.template),doc.draft as DocumentContent) as typeof doc.draft;
-      return Response.json({ document: doc, permissions: await permissionsFor(user?.id ?? null) }, { headers: noStore });
+      if (!doc) throw new AppError(404, "Page not found");
+      if (doc.template) {
+        const html = await templateContent(doc.template);
+        doc.draft = (await bindDocumentControls(
+          doc.template,
+          html,
+          bindTemplate(html, doc.draft as DocumentContent),
+        )) as typeof doc.draft;
+      }
+      return Response.json(
+        { document: doc, permissions: await permissionsFor(user?.id ?? null) },
+        { headers: noStore },
+      );
     }
     return Response.json(
       {
@@ -45,7 +60,7 @@ export async function POST(req: Request) {
     await requirePermission(user?.id ?? null, "edit_posts");
     const input = z
       .object({
-        title: z.string().min(1).max(200),
+        title: z.string().trim().min(1).max(200),
         slug: z
           .string()
           .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/)
@@ -63,6 +78,14 @@ export async function POST(req: Request) {
           body: "",
           category: "",
           tags: [],
+          blog: { author: "", excerpt: "", categories: [] },
+          seo: {
+            title: input.title.slice(0, 110) + " | CODEYEA",
+            description: `Read ${input.title} from CODEYEA.`,
+            index: false,
+            follow: true,
+            canonicalPath: `${input.locale === "ar" ? "/ar" : ""}/blog/${input.slug}/`,
+          },
         },
       },
     });

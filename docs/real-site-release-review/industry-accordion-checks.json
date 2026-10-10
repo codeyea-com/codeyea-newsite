@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "id": "industry-construction",
+      "closedHeight": 770.109375,
+      "items": 3,
+      "mouseToggle": true,
+      "exclusive": true,
+      "keyboardToggle": true
+    },
+    {
+      "id": "industry-legal",
+      "closedHeight": 770.109375,
+      "items": 3,
+      "mouseToggle": true,
+      "exclusive": true,
+      "keyboardToggle": true
+    },
+    {
+      "id": "industry-fashion-and-lifestyle",
+      "closedHeight": 795.609375,
+      "items": 3,
+      "mouseToggle": true,
+      "exclusive": true,
+      "keyboardToggle": true
+    }
+  ],
+  "errors": [],
+  "responsiveWidths": [
+    1440,
+    768,
+    390
+  ],
+  "cmsContentUnchanged": true
+}
