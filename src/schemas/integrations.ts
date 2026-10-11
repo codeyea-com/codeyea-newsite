@@ -1,4 +1,8 @@
 import { z } from "zod";
+import {
+  arabicTypographySchema,
+  defaultArabicTypography,
+} from "./arabic-typography";
 function identifier(pattern: RegExp, extract: RegExp, label: string) {
   return z
     .string()
@@ -17,6 +21,7 @@ function identifier(pattern: RegExp, extract: RegExp, label: string) {
     });
 }
 export const integrationSettingsSchema = z.object({
+  arabicTypography: arabicTypographySchema.default(defaultArabicTypography),
   ga4MeasurementId: identifier(/^G-[A-Z0-9]+$/, /\b(G-[A-Z0-9]+)\b/, "GA4"),
   ga4PropertyId: z
     .string()
@@ -61,6 +66,7 @@ export type IntegrationSettingsValue = z.infer<
   typeof integrationSettingsSchema
 >;
 export const emptyIntegrationSettings: IntegrationSettingsValue = {
+  arabicTypography: defaultArabicTypography,
   ga4MeasurementId: "",
   ga4PropertyId: "",
   gtmContainerId: "",

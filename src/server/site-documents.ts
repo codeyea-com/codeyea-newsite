@@ -1,3 +1,5 @@
+import { contextualLink } from "@/content/contextual-links";
+import arabicTemplateCopy from "@/content/arabic-template-copy.json";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { createHash } from "node:crypto";
@@ -590,6 +592,21 @@ export async function renderDocument(
       (locale === "ar" ? "rtl" : "ltr") +
       '"$2>',
   );
+  if (locale === "ar") {
+    const attributeCopy: Record<string, string> = {
+      ...arabicTemplateCopy,
+      "Full name": "الاسم الكامل",
+      "Phone number": "رقم الهاتف",
+      "New project": "مشروع جديد",
+    };
+    html = html.replace(
+      /\b(placeholder|aria-label)="([^"<>]*)"/g,
+      (match, attribute: string, value: string) =>
+        attributeCopy[value]
+          ? `${attribute}="${escapeHtml(attributeCopy[value])}"`
+          : match,
+    );
+  }
   // Keep approved templates server-side. Only allowlisted assets are exposed through the private asset route.
   if (options.public) {
     html = rewritePublicDocumentLinks(html, locale as "en" | "ar");
@@ -960,18 +977,20 @@ export async function renderDocument(
   // Render one FAQ indicator from the shared CSS, without a legacy text icon.
   html = html.replace(
     /<section\b[^>]*class="[^"]*faq[^"]*"[^>]*>[\s\S]*?<\/section>/gi,
-    (faq: string) => faq.replace(
-      /(<summary\b[^>]*>)([\s\S]*?)(<\/summary>)/gi,
-      (_all, start: string, body: string, end: string) => {
-        const question = start.includes('class="')
-          ? start.replace('class="', 'class="cy-faq-question ')
-          : start.replace("<summary", '<summary class="cy-faq-question"');
-        return question + body.replace(
-          /<span\b[^>]*>\s*[+−–-]\s*<\/span>/g,
-          "",
-        ) + end;
-      },
-    ),
+    (faq: string) =>
+      faq.replace(
+        /(<summary\b[^>]*>)([\s\S]*?)(<\/summary>)/gi,
+        (_all, start: string, body: string, end: string) => {
+          const question = start.includes('class="')
+            ? start.replace('class="', 'class="cy-faq-question ')
+            : start.replace("<summary", '<summary class="cy-faq-question"');
+          return (
+            question +
+            body.replace(/<span\b[^>]*>\s*[+−–-]\s*<\/span>/g, "") +
+            end
+          );
+        },
+      ),
   );
   // Keep the original accordion animation when its legacy span is absent.
   html = html.replace(
@@ -985,9 +1004,27 @@ export async function renderDocument(
   html = html
     .replace(
       "</head>",
-      '<link rel="stylesheet" href="/site/post-launch.css"></head>',
+      '<link rel="stylesheet" href="/site/post-launch.css"><link rel="stylesheet" href="/site/owner-review.css"><link rel="stylesheet" href="/api/site-typography"></head>',
     )
     .replace("</body>", '<script src="/site/post-launch.js"></script></body>');
+  html = html.replace(
+    /(<(?:script|style)\b[^>]*>[\s\S]*?<\/(?:script|style)>)|(<p\b[^>]*>)([^<>]+)(<\/p>)/gi,
+    (all, protectedBlock, start, text, end) => {
+      if (protectedBlock) return all;
+      const link = contextualLink(text);
+      return link
+        ? start +
+            link.before +
+            '<a class="cy-context-link" href="' +
+            link.href +
+            '">' +
+            link.label +
+            "</a>" +
+            link.after +
+            end
+        : all;
+    },
+  );
   html = applyAssetControls(html, content.controls);
   html = html.replace(
     /(\/(?:api\/site-assets)\/[^"'<>\s]+\.(?:js|css))([^"'<>\s]*)(?=["'])/g,
@@ -1007,6 +1044,43 @@ export async function renderDocument(
   html = html.replace(
     "</head>",
     '<style>[data-cms-hidden="true"]{display:none!important}</style></head>',
+  );
+  if (["brand-design", "website-design", "ecommerce"].includes(slug)) {
+    const image = [...html.matchAll(/<img\b[^>]*src="([^"]+)"[^>]*>/g)].find(
+      (match) => !match[1].includes("logo"),
+    );
+    const titles: Record<string, [string, string]> = {
+      "brand-design": [
+        "Brand capabilities and deliverables",
+        "قدرات الهوية ومخرجاتها",
+      ],
+      "website-design": [
+        "Website capabilities and deliverables",
+        "قدرات الموقع ومخرجاته",
+      ],
+      ecommerce: [
+        "Commerce capabilities and deliverables",
+        "قدرات المتجر ومخرجاته",
+      ],
+    };
+    html = html.replace(
+      /(<section\b[^>]*class="[^"]*b-capabilities[^"]*"[^>]*>)([\s\S]*?)(<\/section>)/,
+      (_all, start, body, end) =>
+        start +
+        `<h2 class="cy-cap-title">${titles[slug][locale === "ar" ? 1 : 0]}</h2>` +
+        body.replace(
+          /<p class="b-cap-lead">([\s\S]*?)<\/p>/,
+          (_p: string, text: string) =>
+            `<div class="cy-cap-intro">${image ? `<img class="cy-cap-image" src="${escapeHtml(image[1])}" alt="${locale === "ar" ? "صورة توضيحية للخدمة" : "Service illustration"}" loading="lazy">` : ""}<p class="b-cap-lead">${text}</p></div>`,
+        ) +
+        `<a class="b-btn cy-cap-cta" data-quote-open href="${escapeHtml(contactHref)}#contact-form"><span>${locale === "ar" ? "احصل على عرضك المجاني" : "Get Your Free Quote"}</span><span aria-hidden="true">${locale === "ar" ? "↖" : "↗"}</span></a>` +
+        end,
+    );
+  }
+  html = html.replace(
+    /(<(?:script|style)\b[^>]*>[\s\S]*?<\/(?:script|style)>)|([^<]+)|(<[^>]+>)/gi,
+    (all, protectedBlock, text, tag) =>
+      protectedBlock ? all : (text || tag).replaceAll("\u2014", ", "),
   );
   return html;
 }

@@ -1,0 +1,633 @@
+/* Owner review, October 10: shared controls and intentional Arabic composition. */
+.cy-back-top {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(75px);
+  box-shadow: 0 8px 20px #07244820;
+  transition:
+    opacity 0.4s,
+    transform 0.55s cubic-bezier(0.2, 0.8, 0.2, 1),
+    visibility 0.4s,
+    background 0.25s;
+}
+.cy-back-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  animation: cy-float 3.6s ease-in-out 0.55s infinite;
+}
+@keyframes cy-float {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 -5px;
+  }
+}
+.cy-language-float {
+  position: fixed;
+  inset-inline-start: 24px;
+  bottom: 24px;
+  z-index: 26;
+  padding: 12px 18px;
+  background: #121212;
+  color: #fff;
+  box-shadow: 0 8px 20px #07244820;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(60px);
+  transition:
+    opacity 0.3s,
+    transform 0.4s,
+    visibility 0.3s,
+    color 0.25s,
+    text-shadow 0.25s;
+}
+.cy-language-float.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+.cy-language-slot a,
+.cy-language-float {
+  display: inline-block;
+}
+.cy-language-slot a:is(:hover, :focus-visible),
+.cy-language-float:is(:hover, :focus-visible) {
+  color: #e0144c;
+  text-shadow: 0 3px 9px #e0144c50;
+  translate: 0 -2px;
+}
+.hp .hp-header .hp-logo img {
+  transition:
+    width 0.3s,
+    height 0.3s;
+}
+.hp .hp-header.cy-sticky .hp-logo img {
+  width: 185px;
+  height: auto;
+}
+.hp .hp-header.cy-sticky .hp-desktop-nav {
+  font-size: 15px;
+}
+.hp .cy-host-links a[aria-current="page"] {
+  color: #e0144c !important;
+}
+.cy-arrow-control {
+  gap: 18px !important;
+}
+.cy-button-arrow {
+  display: inline-block;
+  flex-shrink: 0;
+  margin-inline-start: 10px;
+  transform: rotate(0);
+  transition: transform 0.35s ease !important;
+}
+.cy-arrow-control:is(:hover, :focus-visible) .cy-button-arrow {
+  transform: translateX(4px) rotate(45deg);
+}
+html[lang="ar"] .cy-button-arrow {
+  transform: scaleX(-1);
+}
+html[lang="ar"] .cy-arrow-control:is(:hover, :focus-visible) .cy-button-arrow {
+  transform: scaleX(-1) translateX(4px) rotate(45deg);
+}
+.hp.public-surface :is(input, textarea, select) {
+  transition:
+    color 0.25s,
+    border-color 0.25s;
+}
+.hp.public-surface :is(input, textarea, select):is(:hover, :focus) {
+  color: #e0144c !important;
+  border-color: #e0144c !important;
+}
+.hp.public-surface :is(input, textarea):is(:hover, :focus)::placeholder {
+  color: #e0144c !important;
+}
+.hp.public-surface label:has(:is(input, textarea, select):is(:hover, :focus)) {
+  color: #e0144c !important;
+}
+.hp .b-capabilities {
+  width: 100%;
+  padding-inline: max(30px, calc((100% - 1220px) / 2));
+  display: block;
+}
+.hp .b-capabilities > div:last-of-type {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 8%;
+}
+.hp .b-cap-lead {
+  margin: 0;
+  max-width: none;
+}
+.rf-service-lists > h3 {
+  grid-column: 1/-1;
+}
+.rf-service-lists a {
+  display: inline-block;
+  transition:
+    color 0.25s,
+    transform 0.3s,
+    text-shadow 0.3s;
+}
+.rf-service-lists a:is(:hover, :focus-visible) {
+  color: #e0144c;
+  transform: translateY(-3px);
+  text-shadow: 0 3px 8px #e0144c30;
+}
+html[lang="ar"] .hp.public-surface {
+  --font-body: "Readex Pro", sans-serif;
+  text-align: right;
+  direction: rtl;
+}
+html[lang="ar"] .hp.public-surface :is(p, li, input, textarea, select) {
+  font-weight: 400;
+  line-height: 1.85;
+  font-size: 16px;
+  letter-spacing: 0 !important;
+}
+html[lang="ar"] .hp.public-surface :is(h1, h2) {
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: 0 !important;
+  text-wrap: pretty;
+}
+html[lang="ar"] .hp.public-surface h1 {
+  font-size: clamp(34px, 4.2vw, 58px);
+}
+html[lang="ar"] .hp.public-surface h2 {
+  font-size: clamp(27px, 3vw, 40px);
+}
+html[lang="ar"] .hp.public-surface h3 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.55;
+}
+html[lang="ar"]
+  .hp.public-surface
+  :is(.hp-eyebrow, .about-label, .rf-kicker, .v-label) {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0 !important;
+}
+html[lang="ar"] .hp .hp-desktop-nav {
+  font-size: 15px;
+  font-weight: 500;
+  gap: 24px;
+}
+html[lang="ar"] .hp .hp-header.cy-sticky .hp-desktop-nav {
+  font-size: 14px;
+}
+html[lang="ar"] .hp .hp-header-quote {
+  font-size: 14px;
+  font-weight: 500;
+}
+html[lang="ar"] .hp .hp-positioning h2 {
+  max-width: 900px;
+  font-size: clamp(34px, 4vw, 52px);
+  white-space: normal;
+}
+html[lang="ar"] .hp .hp-positioning .hp-positioning-body {
+  max-width: 860px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+html[lang="ar"] .hp .hp-about {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 6%;
+  align-items: start;
+}
+html[lang="ar"] .hp .hp-about-copy {
+  padding-inline: 0;
+}
+html[lang="ar"] .hp .hp-about h2 {
+  max-width: none;
+  font-size: clamp(28px, 2.6vw, 36px);
+}
+html[lang="ar"] .hp .hp-about-copy > p {
+  max-width: none;
+}
+html[lang="ar"] .hp .hp-carousel-track {
+  direction: rtl;
+}
+html[lang="ar"] .hp .hp-carousel-counter {
+  direction: ltr;
+}
+html[lang="ar"] .hp .about-project-copy {
+  left: auto;
+  right: clamp(24px, 6vw, 112px);
+  text-align: right;
+  max-width: 80%;
+}
+html[lang="ar"] .hp .about-project-copy h2,
+html[lang="ar"] .hp .about-project-ghost-title {
+  font-size: clamp(30px, 3.8vw, 52px);
+  line-height: 1.5;
+  font-weight: 500;
+}
+html[lang="ar"] .hp .about-experience-top figure {
+  margin: 0 60px 0 0;
+  justify-self: start;
+}
+html[lang="ar"] .hp .about-experience-top figcaption {
+  left: auto;
+  right: -36px;
+  font-size: 14px;
+  font-weight: 400;
+}
+html[lang="ar"] .hp .about-intro-columns {
+  gap: 6%;
+}
+html[lang="ar"]
+  .hp
+  :is(
+    .detail-overview h2,
+    .detail-services h2,
+    .detail-faq h2,
+    .detail-cta h2
+  ) {
+  padding-right: 0;
+  padding-inline-end: 12%;
+}
+html[lang="ar"] .hp :is(.detail-needs-copy, .detail-needs-heading) {
+  padding-left: 0;
+  padding-inline-start: 8%;
+}
+html[lang="ar"] .hp .v-copy li {
+  padding-left: 0;
+  padding-inline-start: 22px;
+}
+html[lang="ar"] .hp .v-copy li::before {
+  left: auto;
+  inset-inline-start: 0;
+}
+@media (min-width: 1200px) {
+  html[lang="ar"] .hp .about-showcase-layout {
+    padding: 28px 0 28px 65px;
+  }
+  html[lang="ar"] .hp .about-reference-pagination {
+    right: auto;
+    left: max(16px, calc((100vw - 1260px) / 2));
+  }
+  html[lang="ar"] .hp .about-showcase-layout h2 {
+    font-size: clamp(27px, 2.6vw, 38px);
+  }
+  html[lang="ar"] .hp .about-showcase-layout p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}
+@media (max-width: 767px) {
+  .hp .b-capabilities > div:last-of-type {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  html[lang="ar"] .hp .hp-about {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  html[lang="ar"] .hp .about-experience-top figure {
+    margin: 0 15px;
+    width: auto;
+  }
+  html[lang="ar"] .hp .about-experience-top figcaption {
+    position: static;
+    writing-mode: horizontal-tb;
+    transform: none;
+  }
+  html[lang="ar"] .hp .about-showcase-layout {
+    padding-inline: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cy-back-top,
+  .cy-language-float,
+  .cy-button-arrow {
+    animation: none !important;
+    transition: none !important;
+    translate: none !important;
+  }
+}
+
+.hp .hp-carousel--industry .hp-carousel-copy {
+  padding: 30px !important;
+}
+.hp .hp-carousel-count {
+  direction: ltr;
+}
+.about-project-interactive .about-project-labels a {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-bottom: 46px;
+  padding-inline-end: 45px;
+  color: white;
+  border-inline-end: 1px solid #ffffff50;
+  text-decoration: none;
+  min-width: 0;
+}
+.about-project-interactive .about-project-labels a::after {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  inset-inline-end: -1px;
+  width: 2px;
+  background: white;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.about-project-interactive
+  .about-project-labels
+  a:is(:hover, :focus-visible)::after {
+  transform: scaleY(1);
+}
+.about-project-interactive .about-project-labels a span {
+  margin: 0;
+  transition:
+    transform 0.5s,
+    translate 0.5s;
+}
+.about-project-interactive
+  .about-project-labels
+  a:is(:hover, :focus-visible)
+  span {
+  translate: 0 -12px;
+}
+.about-project-copy {
+  max-width: 75%;
+}
+.about-project-copy h2,
+.about-project-ghost-title {
+  font-size: clamp(34px, 4.2vw, 60px) !important;
+}
+.hp .about-project-description {
+  max-width: 660px;
+  color: white;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-top: 24px;
+}
+@media (max-width: 767px) {
+  .about-project-interactive .about-project-labels a {
+    padding-bottom: 30px;
+    padding-inline-end: 18px;
+  }
+  .about-project-interactive .about-project-labels a span {
+    margin: 0;
+    font-size: 12px;
+  }
+  .about-project-copy {
+    max-width: 90%;
+  }
+  .hp .about-project-description {
+    font-size: 14px;
+  }
+  .hp .hp-carousel--industry .hp-carousel-copy {
+    padding: 24px !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .about-project-labels a::after,
+  .about-project-labels a span {
+    transition: none !important;
+  }
+}
+
+.cy-context-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #e0144c60;
+  text-underline-offset: 4px;
+}
+.cy-context-link:is(:hover, :focus-visible) {
+  color: #e0144c;
+}
+
+/* Apply the glass to its decorative layer; fixed mega panels keep viewport positioning. */
+.hp.public-surface .hp-header.cy-sticky {
+  background: transparent !important;
+  color: #121212;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+.hp.public-surface .hp-header.cy-sticky::before {
+  background: rgb(255 255 255 / 70%) !important;
+  backdrop-filter: blur(18px) saturate(120%) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(120%) !important;
+}
+.hp.public-surface .hp-header.cy-sticky .hp-logo-dark {
+  opacity: 1 !important;
+}
+.hp.public-surface .hp-header.cy-sticky .hp-logo-light {
+  opacity: 0 !important;
+}
+.hp.public-surface
+  .hp-header.cy-sticky
+  :is(.cy-nav-root > a, .hp-nav-item > a, .hp-mobile-trigger) {
+  color: #121212;
+}
+.hp.public-surface
+  .hp-header.cy-sticky
+  :is(.cy-nav-root > a, .hp-nav-item > a) {
+  font-size: 16px !important;
+}
+.hp.public-surface .about-reference-button {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+html[lang="ar"] .hp.public-surface #services article {
+  padding: 20px 16px;
+}
+html[lang="ar"] .hp.public-surface #services :is(h3, p) {
+  text-align: right;
+  max-width: none;
+}
+html[lang="ar"] .hp.public-surface #services h3 {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.55;
+}
+html[lang="ar"] .hp.public-surface #services p {
+  font-size: 15px;
+  line-height: 1.9;
+}
+html[lang="ar"] .hp.public-surface .hp-positioning,
+html[lang="ar"] .hp.public-surface .hp-positioning :is(h2, p) {
+  text-align: right;
+  justify-items: start;
+}
+html[lang="ar"]
+  .hp.public-surface
+  .hp-header
+  :is(.cy-nav-root > a, .hp-nav-item > a) {
+  font-size: 15px !important;
+}
+html[lang="ar"]
+  .hp.public-surface
+  .hp-header.cy-sticky
+  :is(.cy-nav-root > a, .hp-nav-item > a) {
+  font-size: 14px !important;
+}
+html[lang="ar"] .hp.public-surface .about-intro-columns {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 6%;
+}
+html[lang="ar"] .hp.public-surface .about-intro-columns > div {
+  padding: 0;
+}
+html[lang="ar"] .hp.public-surface .about-intro-columns h2 {
+  max-width: none;
+  font-size: clamp(28px, 2.8vw, 38px);
+  font-weight: 500;
+  line-height: 1.5;
+}
+@media (max-width: 767px) {
+  html[lang="ar"] .hp.public-surface .about-intro-columns {
+    grid-template-columns: 1fr;
+  }
+  html[lang="ar"] .hp.public-surface #services article {
+    padding-inline: 8px;
+  }
+}
+
+.cy-button-arrow {
+  text-decoration: none !important;
+}
+#cq-dialog :is(input, textarea, select):is(:hover, :focus) {
+  border-color: #e0144c !important;
+  color: #e0144c !important;
+}
+.hp
+  form
+  :is(.field, .form-field, .cq-field):has(
+    :is(input, textarea, select):is(:hover, :focus)
+  )
+  label {
+  color: #e0144c;
+}
+
+.cy-language-float {
+  border-radius: 0;
+  font-family: "CODEYEA Josefin Sans", sans-serif;
+}
+.cy-language-float[lang="ar"] {
+  font-family: "Readex Pro", sans-serif;
+}
+/* Keep Arabic shaping intact and horizontal prose anchored to the right. */
+html[lang="ar"]
+  .hp.public-surface
+  :is(
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    li,
+    label,
+    summary,
+    input,
+    textarea,
+    select,
+    .hp-positioning-body
+  ) {
+  direction: rtl;
+  text-align: right;
+  letter-spacing: 0 !important;
+}
+html[lang="ar"]
+  .hp.public-surface
+  :is(
+    input[type="tel"],
+    input[type="email"],
+    input[type="url"],
+    input[type="number"]
+  ) {
+  direction: ltr;
+  text-align: right;
+  unicode-bidi: plaintext;
+}
+html[lang="ar"] .hp.public-surface input::placeholder {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: plaintext;
+}
+html[lang="ar"] .hp.public-surface .hp-positioning h2 {
+  white-space: pre-line;
+  line-height: 1.5;
+  max-width: none;
+}
+html[lang="ar"] .hp.public-surface .hp-positioning > div {
+  width: 100%;
+  justify-self: stretch;
+}
+html[lang="ar"] .hp.public-surface .rf-service-container {
+  grid-template-columns: minmax(0, 25%) minmax(0, 1fr);
+  column-gap: 4%;
+}
+html[lang="ar"] .hp.public-surface .rf-service-count {
+  padding: 0 0 0 30px;
+}
+html[lang="ar"] .hp.public-surface .rf-service-count strong {
+  letter-spacing: 0;
+  line-height: 1;
+}
+html[lang="ar"] .hp.public-surface .rf-service-heading h2 {
+  max-width: none;
+  line-height: 1.5;
+}
+html[lang="ar"] .hp.public-surface .rf-service-paragraphs {
+  gap: 35px;
+}
+html[lang="ar"] .hp.public-surface .rf-service-paragraphs p {
+  font-size: 16px;
+  line-height: 1.9;
+}
+html[lang="ar"] .hp.public-surface .rf-service-lists li {
+  font-size: 20px;
+  line-height: 1.8;
+}
+.hp.public-surface .cy-cap-title {
+  color: white;
+  font-size: clamp(28px, 3vw, 42px);
+  line-height: 1.3;
+  margin: 0 0 40px;
+}
+.hp.public-surface .cy-cap-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/8;
+  object-fit: cover;
+  margin: 0 0 25px;
+  border-radius: 0;
+}
+@media (max-width: 767px) {
+  html[lang="ar"] .hp.public-surface .rf-service-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  html[lang="ar"] .hp.public-surface .rf-service-count {
+    padding: 0;
+  }
+  .hp.public-surface .cy-cap-title {
+    margin-bottom: 28px;
+  }
+}
+.hp form :has(> :is(input, textarea, select):is(:hover, :focus)) > label {
+  color: #e0144c;
+}
+.hp.public-surface .b-capabilities .cy-cap-cta {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  margin-top: 40px;
+  padding: 24px 30px;
+  border-radius: 0;
+}

@@ -1,3 +1,4 @@
+import { ContextualCopy } from "./contextual-copy";
 import { RoofingHubBody } from "./roofing-hub-body";
 import type { IndustryItem } from "@/schemas/industries-page";
 import type {
@@ -56,7 +57,7 @@ function Paragraphs({ text }: { text: string }) {
         .split(/\n\s*\n/)
         .filter(Boolean)
         .map((p, n) => (
-          <p key={n}>{p}</p>
+          <p key={n}><ContextualCopy text={p}/></p>
         ))}
     </>
   );

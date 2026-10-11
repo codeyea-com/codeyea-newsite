@@ -1,3 +1,4 @@
+import { industryServiceCatalog } from "./industry-service-catalog";
 import { snapshotSchema, type Snapshot } from "../schemas/content";
 
 const slug = "beauty-skincare-med-spa" as const;
@@ -75,5 +76,6 @@ export function beautyIndustrySnapshot(roofingSnapshot: Snapshot): Snapshot {
   ].forEach(([title, body], index) => Object.assign(section("faq").items[index], { title, body, actionLabel: "", destination: "" }));
   Object.assign(section("related"), { label: "EXPLORE INDUSTRIES", heading: "EXPLORE INDUSTRIES", body: "", items: [], actionLabel: "", destination: "", temporaryMedia: false });
   Object.assign(section("cta"), { label: "LET’S TALK", heading: "Let’s talk beauty and aesthetics.", body: "", media: clinicInterior, temporaryMedia: true, actionLabel: "Start a Conversation", destination: "https://codeyea.com/contact/" });
+  section('services').items.forEach((item,index) => {item.title = industryServiceCatalog[index][0]; item.destination = industryServiceCatalog[index][2];});
   return snapshotSchema.parse({ title: name, sections: [], industryDetail: detail });
 }

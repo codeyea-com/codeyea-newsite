@@ -1,3 +1,4 @@
+import { ContextualCopy } from "./contextual-copy";
 import {EditorialMotion} from '../motion/editorial-motion';
 import type {IndustriesContent} from '@/schemas/industries-page';
 import type {HomepageContent,EditorObject} from '@/schemas/homepage-editor';
@@ -37,7 +38,7 @@ export function IndustriesPage({content,shared,preview=false,availablePaths=[]}:
     <div className="industries-introduction-heading">
      <svg className="industries-blueprint" viewBox="0 0 600 650" fill="none" aria-hidden="true" focusable="false"><g stroke="currentColor" strokeWidth="1.4"><path d="M-40 490 260 315 620 515M-40 525 260 350 620 550M-40 560 260 385 620 585M-40 595 260 420 620 620M60 420V220l140-80 140 80v200M60 220l140 80 140-80M200 300v200M90 245v130l80 45V290M230 290v130l80-45V245M370 355V155l80-45 100 58v205M370 155l100 58 80-45M470 213v220M390 185v115l58 34V220M240 120V65l80-45 80 45v55l-80 45zM240 65l80 45 80-45M320 110v55M30 470l70 40 65-35M350 465l65 38 70-40M185 555l85 48 90-50"/><path d="M-20 620 500 320M35 650 555 350M130 650 600 375M-20 385 500 685M-20 325 600 685" strokeDasharray="5 7"/><circle cx="100" cy="510" r="10"/><circle cx="270" cy="603" r="10"/><circle cx="415" cy="503" r="10"/></g></svg>
      <p className="industry-label">{content.introduction.label}</p><h2>{content.introduction.heading}</h2>
-    </div><div className="industries-introduction-copy">{content.introduction.paragraphs.map(p=><p key={p.id}>{p.body}</p>)}</div>
+    </div><div className="industries-introduction-copy">{content.introduction.paragraphs.map(p=><p key={p.id}><ContextualCopy text={p.body}/></p>)}</div>
    </section>}
    <IndustriesMotion/><EditorialMotion scope=".industries-page" groups={[".industries-introduction",".industries-final"]}/>
    <div className="industry-sections">{content.items.filter(i=>i.enabled).sort((a,b)=>a.position-b.position).map((item,index)=>{

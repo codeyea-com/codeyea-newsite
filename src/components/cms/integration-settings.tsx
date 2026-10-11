@@ -1,6 +1,11 @@
 "use client";
 import { useEffect, useState } from "react";
 import {
+  arabicTypographySchema,
+  defaultArabicTypography,
+  type ArabicTypography,
+} from "@/schemas/arabic-typography";
+import {
   emptyIntegrationSettings,
   type IntegrationSettingsValue,
 } from "@/schemas/integrations";
@@ -25,12 +30,14 @@ export function IntegrationSettings({
         const d = await r.json();
         if (!r.ok) throw Error(d.error);
         if (active) {
-          const loadedValue = d.value.ga4MeasurementId
-            ? d.value
-            : { ...d.value, ga4MeasurementId: "G-4KNM6TYC6D" };
-          setValue(loadedValue);
+          const loadedValue = d.value;
+          setValue({
+            ...loadedValue,
+            arabicTypography:
+              loadedValue.arabicTypography ?? defaultArabicTypography,
+          });
           setVersion(d.version);
-          setDirty(!d.value.ga4MeasurementId);
+          setDirty(false);
           setLoaded(true);
         }
       })
@@ -80,10 +87,59 @@ export function IntegrationSettings({
     <form onSubmit={save} className="site-integration-settings">
       <h2>Analytics and search integrations</h2>
       <p>
-        Add each service ID or paste its installation code. The CMS extracts
-        and saves only the recognised ID; it does not store or run pasted JavaScript.
+        Add each service ID or paste its installation code. The CMS extracts and
+        saves only the recognised ID; it does not store or run pasted
+        JavaScript.
       </p>
       <fieldset disabled={!loaded || busy}>
+        <section dir="rtl" aria-labelledby="arabic-font-settings">
+          <h3 id="arabic-font-settings">أوزان الخط العربي Readex Pro</h3>
+          <p>
+            تطبّق على جميع الصفحات العربية بعد حفظ الإعدادات. حجم الخط وترتيب
+            الأقسام يبقيان كما هما.
+          </p>
+          {(
+            Object.entries({
+              h1: "العنوان الرئيسي",
+              h2: "عناوين الأقسام",
+              h3: "العناوين الفرعية",
+              body: "النصوص والحقول",
+              navigation: "روابط القائمة",
+              buttons: "الأزرار",
+            }) as Array<[keyof ArabicTypography, string]>
+          ).map(([key, label]) => (
+            <label key={key} className="site-field">
+              {label}
+              <select
+                value={value.arabicTypography[key]}
+                onChange={(e) => {
+                  const typography = arabicTypographySchema.parse({
+                    ...value.arabicTypography,
+                    [key]: Number(e.target.value),
+                  });
+                  setValue((v) => ({ ...v, arabicTypography: typography }));
+                  setDirty(true);
+                }}
+              >
+                {([200, 300, 400, 500, 600, 700] as const).map((weight) => (
+                  <option key={weight} value={weight}>
+                    {weight}{" "}
+                    {
+                      {
+                        200: "خفيف جدًا",
+                        300: "خفيف",
+                        400: "عادي",
+                        500: "متوسط",
+                        600: "شبه عريض",
+                        700: "عريض",
+                      }[weight]
+                    }
+                  </option>
+                ))}
+              </select>
+            </label>
+          ))}
+        </section>
         <label className="site-field">
           Google Analytics 4 (GA4) — measurement ID or install code
           <textarea
@@ -91,7 +147,9 @@ export function IntegrationSettings({
             placeholder="G-XXXXXXXXXX"
             onChange={(e) => edit("ga4MeasurementId", e.target.value)}
           />
-          <small>Paste your gtag.js snippet or enter the G- measurement ID.</small>
+          <small>
+            Paste your gtag.js snippet or enter the G- measurement ID.
+          </small>
         </label>
         <label className="site-field">
           GA4 property ID — used by CMS reports
@@ -108,7 +166,9 @@ export function IntegrationSettings({
             placeholder="GTM-XXXXXXX"
             onChange={(e) => edit("gtmContainerId", e.target.value)}
           />
-          <small>Paste the GTM install snippet or enter the GTM- container ID.</small>
+          <small>
+            Paste the GTM install snippet or enter the GTM- container ID.
+          </small>
         </label>
         <label className="site-field">
           Google tag delivery preference
@@ -119,12 +179,19 @@ export function IntegrationSettings({
             <option value="gtm">Use GTM to manage Google tags</option>
             <option value="direct">Use the GA4 tag directly</option>
           </select>
-          <small>Choose one delivery path to avoid counting a visit twice.</small>
+          <small>
+            Choose one delivery path to avoid counting a visit twice.
+          </small>
           {value.googleDelivery === "gtm" && value.gtmContainerId && (
-            <small>Configure the GA4 tag inside GTM; the site loads only the GTM container.</small>
+            <small>
+              Configure the GA4 tag inside GTM; the site loads only the GTM
+              container.
+            </small>
           )}
           {value.googleDelivery === "gtm" && !value.gtmContainerId && (
-            <small>Without a GTM ID, the saved GA4 tag loads directly after consent.</small>
+            <small>
+              Without a GTM ID, the saved GA4 tag loads directly after consent.
+            </small>
           )}
         </label>
         <label className="site-field">
@@ -148,7 +215,9 @@ export function IntegrationSettings({
             value={value.clarityProjectId}
             onChange={(e) => edit("clarityProjectId", e.target.value)}
           />
-          <small>Paste the Clarity install snippet or enter its project ID.</small>
+          <small>
+            Paste the Clarity install snippet or enter its project ID.
+          </small>
         </label>
         <label>
           <input

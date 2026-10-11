@@ -1,3 +1,4 @@
+import { ContextualCopy } from "./contextual-copy";
 import {FixedImageMotion} from '../motion/fixed-image-motion';
 import '@/styles/approved-motion.css';
 import {EditorialMotion} from "../motion/editorial-motion";
@@ -27,7 +28,7 @@ function mapSharedLinks(value: unknown, preview: boolean): unknown {
  :mapSharedLinks(v,preview)]));
  return value;
 }
-function Copy({text}:{text:string}){return <>{text.split(/\n\s*\n/).filter(Boolean).map((p,i)=><p key={i}>{p}</p>)}</>}
+function Copy({text}:{text:string}){return <>{text.split(/\n\s*\n/).filter(Boolean).map((p,i)=><p key={i}><ContextualCopy text={p}/></p>)}</>}
 export function AboutPage({content,shared,preview=false}:{content:AboutContent;shared?:HomepageContent;preview?:boolean}){
  const home=resolveHomepage(shared),hero=content.sections.find(s=>s.type==="hero")!;
  return <div className="public-surface hp about-page">

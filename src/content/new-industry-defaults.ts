@@ -1,3 +1,4 @@
+import { industryServiceCatalog } from "./industry-service-catalog";
 import { snapshotSchema, type Snapshot } from '../schemas/content';
 import { industryNames } from './industry-registry';
 
@@ -110,5 +111,6 @@ export function newIndustrySnapshot(template: Snapshot, slug: keyof typeof newIn
   items('faq', copy.faq);
   Object.assign(section('related'), { label: 'EXPLORE INDUSTRIES', heading: 'EXPLORE INDUSTRIES', body: '', items: [], actionLabel: '', destination: '' });
   Object.assign(section('cta'), { label: 'LET’S TALK', heading: copy.cta, body: '', actionLabel: 'Start a Conversation', destination: 'https://codeyea.com/contact/' });
+  section('services').items.forEach((item,index) => {item.title = industryServiceCatalog[index][0]; item.destination = industryServiceCatalog[index][2];});
   return snapshotSchema.parse({ title: industryNames[slug], sections: [], industryDetail: detail });
 }
