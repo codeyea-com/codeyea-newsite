@@ -49,3 +49,15 @@ rejects non-local database hosts and preserves publication fields.
 - Industry content retains two paragraphs matching the English information structure.
 - Shared dark service sections have a heading, existing service image above the introduction, and a wide free quote CTA under the lists.
 - Six CMS Arabic font weight controls (200 to 700) save independently. An authenticated save applied body weight 300 in the browser; original settings were restored.
+
+## Production release
+
+- GitHub PR #5 merged as dac2e6609e238c3beb7abe37cdf2a41288c22fcc.
+- Vercel production deployment FtaQg5ZxN7sgZcT1hJU4sRyjwVJY reported success.
+- Live typography endpoint returned numeric CSS defaults without exposing integration credentials.
+- Published Arabic content updated with snapshot backups, version guards and audit records.
+- Live shared dark section has its requested title, image and working free quote panel CTA.
+- Live industry section has two Arabic paragraphs and eight linked services.
+- Live home intro has a connected Arabic heading with intentional line order.
+- Arabic Services returned 200 after restoring its internal schema identifier.
+- Live phone field is right aligned with LTR numerical entry and an Arabic placeholder.

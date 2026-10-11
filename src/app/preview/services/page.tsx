@@ -13,5 +13,5 @@ export default async function PreviewServices(){
  const page=await db.page.findFirst({where:{id:'services',deletedAt:null}});if(!page?.draftSnapshot)notFound();const content=snapshotSchema.parse(page.draftSnapshot).servicesPage;if(!content)notFound();
  const shared=await db.page.findUnique({where:{id:'homepage'},select:{draftSnapshot:true}});
  const published=await db.page.findMany({where:{deletedAt:null,publishedAt:{not:null}},select:{slug:true}});
- return <><div className="about-preview-banner">Private Services draft · version {page.version} · Not published · Images temporary — image selection pending</div><ServicesPage content={content} shared={shared?.draftSnapshot?snapshotSchema.parse(shared.draftSnapshot).homepage:undefined} preview availablePaths={published.map(p=>'/'+p.slug+'/')}/></>;
+ return <><div className="about-preview-banner">Private Services draft · version {page.version} · Not published · Images temporary, image selection pending</div><ServicesPage content={content} shared={shared?.draftSnapshot?snapshotSchema.parse(shared.draftSnapshot).homepage:undefined} preview availablePaths={published.map(p=>'/'+p.slug+'/')}/></>;
 }
