@@ -85,7 +85,7 @@ function Fields({
       const media = value as AboutMedia;
       return (
         <div>
-          <p>{label} · temporary — image selection pending</p>
+          <p>{label} · temporary, image selection pending</p>
           <img
             src={assetUrl(media.mediaId)}
             alt="Selected temporary image"
@@ -251,7 +251,7 @@ export function ServicesEditor({
         <section className="editor-fields">
           <p>
             Content and local media only. Section order, stable IDs, shared
-            design and motion are protected. All imagery: {content.imageStatus}.
+            design and motion are protected. All imagery: {content.imageStatus.replaceAll('\u2014', ',')}.
           </p>
           <fieldset className="cms-fields" disabled={busy || !canEdit}>
             {selected === "seo" ? (
