@@ -61,3 +61,7 @@ rejects non-local database hosts and preserves publication fields.
 - Live home intro has a connected Arabic heading with intentional line order.
 - Arabic Services returned 200 after restoring its internal schema identifier.
 - Live phone field is right aligned with LTR numerical entry and an Arabic placeholder.
+
+## Owner CTA placement correction
+
+The previous full-width section CTA was removed. A single quote CTA now sits inside the list column beneath both lists, following the owner green-marked reference. Each list has seven service-specific points in both languages. The existing section padding and column layout remain; the removed bottom CTA no longer adds a separate row.
