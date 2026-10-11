@@ -4,7 +4,13 @@ import { gsap } from "gsap";
 import type { AboutSection } from "@/schemas/about";
 import { AboutImage } from "./about-image";
 
-function ShowcaseSlide({ section }: { section: AboutSection }) {
+function ShowcaseSlide({
+  section,
+  destination,
+}: {
+  section: AboutSection;
+  destination: string;
+}) {
   const root = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const node = root.current!,
@@ -127,13 +133,13 @@ function ShowcaseSlide({ section }: { section: AboutSection }) {
               {p}
             </p>
           ))}
-        <button
-          type="button"
+        <a
+          href={destination}
           className="about-reference-button"
           data-showcase-copy
         >
-          {section.ctaLabel} <span aria-hidden="true">›</span>
-        </button>
+          {section.ctaLabel} <span aria-hidden="true">↗</span>
+        </a>
       </div>
     </div>
   );
@@ -152,6 +158,11 @@ export function AboutShowcase({ section }: { section: AboutSection }) {
         label: item.label!,
         ctaLabel: item.ctaLabel,
         media: item.media,
+        destination:
+          (/\p{Script=Arabic}/u.test(item.title) ? "/ar" : "") +
+          (["/seo-geo/", "/web-mobile-apps/", "/ecommerce/", "/ai-automation/"][
+            item.position
+          ] ?? "/services/"),
       }))
     : [section];
   const select = (index: number) => {
@@ -269,7 +280,16 @@ export function AboutShowcase({ section }: { section: AboutSection }) {
             inert={index !== active}
             style={{ transform: "translateY(" + (index - active) * 100 + "%)" }}
           >
-            <ShowcaseSlide section={slide} />
+            <ShowcaseSlide
+              section={slide}
+              destination={
+                "destination" in slide
+                  ? String(slide.destination)
+                  : /\p{Script=Arabic}/u.test(slide.heading)
+                    ? "/ar/services/"
+                    : "/services/"
+              }
+            />
           </div>
         ))}
       </div>

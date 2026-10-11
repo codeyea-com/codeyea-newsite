@@ -1,3 +1,5 @@
+import { industryServiceCatalog } from "./industry-service-catalog";
+import { arabicIndustryServiceCopy } from "./arabic-industry-service-copy";
 import templateCopy from "./arabic-template-copy.json";
 import { arabicIndustryProfiles } from "./arabic-industry-profiles";
 import type { Snapshot } from "@/schemas/content";
@@ -105,7 +107,7 @@ export function arabicIndustrySnapshot(source: Snapshot): Snapshot {
     strip: ["بيئة العمل", `حضور يعكس ${profile.name}`],
     needs: ["نهجنا", "ما يحتاجه نشاطك الرقمي"],
     imageBreak: ["خبرة واضحة", "معلومات مفيدة. خطوات أسهل."],
-    services: ["خدماتنا", "خدمات رقمية تتكامل حول نشاطك"],
+    services: ["خدماتنا", `خدمات رقمية لقطاع ${profile.name}`],
     growth: ["الظهور والنمو", "من الاكتشاف إلى تواصل مفيد"],
     faq: ["أسئلة شائعة", "إجابات تساعدك على التخطيط"],
     related: ["استكشف القطاعات", "قطاعات نخدمها"],
@@ -127,14 +129,20 @@ export function arabicIndustrySnapshot(source: Snapshot): Snapshot {
     section.heading = header[1];
     section.listLabel = "خدمات رقمية";
     section.actionLabel =
-      section.type === "cta" ? "ناقش مشروعك معنا" : "اكتشف الخدمة";
+      section.type === "cta"
+        ? "ناقش مشروعك معنا"
+        : section.type === "services"
+          ? "خدمات رقمية"
+          : "اكتشف الخدمة";
     section.destination = arabicPath(section.destination);
     section.body =
       section.type === "related"
         ? ""
         : section.type === "cta"
           ? `شاركنا أهدافك وأدواتك الحالية. نحدد معك نطاقًا عمليًا يربط التصميم والمحتوى والتقنية باحتياجات ${profile.name}.`
-          : profile.intro;
+          : section.type === "services"
+            ? arabicIndustryServiceCopy[detail.slug].join("\n\n")
+            : profile.intro;
     if (section.media) section.media.alt = `${profile.name} — صورة توضيحية`;
     if (section.pillarMedia)
       section.pillarMedia.alt = `خدمات ${profile.name} — صورة توضيحية`;
@@ -162,7 +170,8 @@ export function arabicIndustrySnapshot(source: Snapshot): Snapshot {
         ][i % 3];
       }
       if (section.type === "services") {
-        item.title = profile.services[i];
+        item.title = industryServiceCatalog[i][1];
+        item.destination = "/ar" + industryServiceCatalog[i][2];
         if (!item.title) throw new Error("Missing Arabic service");
         item.body = `نخطط ${item.title} وفق احتياجات نشاطك والمحتوى والأدوات المعتمدة. نحدد نطاق التنفيذ والصلاحيات وخطوات التسليم قبل بدء العمل.`;
       }

@@ -38,6 +38,7 @@ export function Carousel({
   autoplay = false,
   filterable = false,
   intro,
+  locale = "en",
 }: {
   items: CarouselItem[];
   label: string;
@@ -45,7 +46,9 @@ export function Carousel({
   autoplay?: boolean;
   filterable?: boolean;
   intro?: EditorObject;
+  locale?: string;
 }) {
+  const arabic = locale === "ar";
   const [filter, setFilter] = useState("All");
   const [expanded, setExpanded] = useState(false);
   const [dragging, setDragging] = useState(false);
@@ -82,6 +85,7 @@ export function Carousel({
     [filtered.length],
   );
   const [viewportRef, api] = useEmblaCarousel({
+    direction: arabic ? "rtl" : "ltr",
     align: variant === "industry" ? industryAlignment : "start",
     loop: false,
     containScroll: false,
@@ -210,11 +214,14 @@ export function Carousel({
     const schedule = () => {
       window.clearTimeout(timer);
       if (!canRun() || rewinding) return;
-      timer = window.setTimeout(() => {
-        if (!canRun()) return;
-        if (api.canScrollNext()) api.scrollNext();
-        else void rewind();
-      }, api.canScrollNext() ? 5000 : 6000);
+      timer = window.setTimeout(
+        () => {
+          if (!canRun()) return;
+          if (api.canScrollNext()) api.scrollNext();
+          else void rewind();
+        },
+        api.canScrollNext() ? 5000 : 6000,
+      );
     };
     const reinitialize = () => {
       cancel();
@@ -281,8 +288,12 @@ export function Carousel({
           label:
             variant === "project" &&
             !!target.closest("a.hp-carousel-card[href]")
-              ? "Explore"
-              : "Drag",
+              ? arabic
+                ? "استكشف"
+                : "Explore"
+              : arabic
+                ? "اسحب"
+                : "Drag",
         };
         if (pointerFrame.current) return;
         pointerFrame.current = requestAnimationFrame(() => {
@@ -385,14 +396,18 @@ export function Carousel({
           ref={viewportRef}
           className="hp-carousel-viewport"
           tabIndex={0}
-          aria-label={`${label}. Use left and right arrow keys to browse.`}
+          aria-label={
+            arabic
+              ? `${label}. استخدم سهمَي اليمين واليسار للتصفح.`
+              : `${label}. Use left and right arrow keys to browse.`
+          }
           onKeyDown={(event) => {
             if (event.target !== event.currentTarget) return;
-            if (event.key === "ArrowRight") {
+            if (event.key === (arabic ? "ArrowLeft" : "ArrowRight")) {
               event.preventDefault();
               api?.scrollNext(!allowed);
             }
-            if (event.key === "ArrowLeft") {
+            if (event.key === (arabic ? "ArrowRight" : "ArrowLeft")) {
               event.preventDefault();
               api?.scrollPrev(!allowed);
             }
@@ -451,7 +466,11 @@ export function Carousel({
                   key={item.id}
                   role="group"
                   aria-roledescription="slide"
-                  aria-label={`${index + 1} of ${filtered.length}`}
+                  aria-label={
+                    arabic
+                      ? `${index + 1} من ${filtered.length}`
+                      : `${index + 1} of ${filtered.length}`
+                  }
                 >
                   {item.href ? (
                     <a className="hp-carousel-card" href={item.href}>
@@ -482,7 +501,7 @@ export function Carousel({
                 }}
               />
             </span>
-            <span className="hp-interaction-sr">of </span>
+            <span className="hp-interaction-sr">{arabic ? "من " : "of "}</span>
             {String(filtered.length).padStart(2, "0")}
           </span>
           <div className="hp-carousel-buttons">
@@ -492,37 +511,49 @@ export function Carousel({
                 className="hp-carousel-pause"
                 onClick={() => setPaused((value) => !value)}
                 aria-label={
-                  paused
-                    ? `Resume ${label} autoplay`
-                    : `Pause ${label} autoplay`
+                  arabic
+                    ? paused
+                      ? "متابعة العرض التلقائي"
+                      : "إيقاف العرض التلقائي مؤقتًا"
+                    : paused
+                      ? `Resume ${label} autoplay`
+                      : `Pause ${label} autoplay`
                 }
               >
-                {paused ? "Play" : "Pause"}
+                {arabic
+                  ? paused
+                    ? "متابعة"
+                    : "إيقاف مؤقت"
+                  : paused
+                    ? "Play"
+                    : "Pause"}
               </button>
             )}
             <button
               type="button"
-              aria-label={`Previous ${label} slide`}
+              aria-label={
+                arabic ? "الشريحة السابقة" : `Previous ${label} slide`
+              }
               aria-controls={id}
               disabled={!prev}
               onClick={() => api?.scrollPrev(!allowed)}
             >
-              ←
+              {arabic ? "→" : "←"}
             </button>
             <button
               type="button"
-              aria-label={`Next ${label} slide`}
+              aria-label={arabic ? "الشريحة التالية" : `Next ${label} slide`}
               aria-controls={id}
               disabled={!next}
               onClick={() => api?.scrollNext(!allowed)}
             >
-              →
+              {arabic ? "←" : "→"}
             </button>
           </div>
         </div>
       </div>
       <span ref={cursor} className="hp-media-cursor" aria-hidden="true">
-        <span>Drag</span>
+        <span>{arabic ? "اسحب" : "Drag"}</span>
       </span>
       <span className="hp-interaction-sr" role="status">
         {announcement}

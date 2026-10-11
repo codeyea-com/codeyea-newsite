@@ -1,19 +1,38 @@
 (() => {
   const reduced = matchMedia("(prefers-reduced-motion:reduce)");
   const marked = new WeakSet();
-  if (document.querySelector('.hp.public-surface') && !document.querySelector('.cy-back-top')) {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'cy-back-top';
-    button.setAttribute('aria-label', document.documentElement.lang === 'ar' ? 'العودة إلى الأعلى' : 'Back to top');
-    button.textContent = '↑';
-    button.hidden = true;
-    button.addEventListener('click', () => {
-      scrollTo({ top: 0, behavior: reduced.matches ? 'instant' : 'smooth' });
+  const updateHeader = () =>
+    document
+      .querySelectorAll(".hp-header")
+      .forEach((header) => header.classList.toggle("cy-sticky", scrollY > 100));
+  addEventListener("scroll", updateHeader, { passive: true });
+  updateHeader();
+  if (
+    document.querySelector(".hp.public-surface") &&
+    !document.querySelector(".cy-back-top")
+  ) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "cy-back-top";
+    button.setAttribute(
+      "aria-label",
+      document.documentElement.lang === "ar"
+        ? "العودة إلى الأعلى"
+        : "Back to top",
+    );
+    button.textContent = "↑";
+    button.setAttribute("aria-hidden", "true");
+    button.addEventListener("click", () => {
+      scrollTo({ top: 0, behavior: reduced.matches ? "instant" : "smooth" });
     });
     document.body.append(button);
-    const update = () => { button.hidden = scrollY < 500; };
-    addEventListener('scroll', update, { passive: true });
+    const update = () => {
+      const visible = scrollY >= 500;
+      button.classList.toggle("is-visible", visible);
+      button.setAttribute("aria-hidden", String(!visible));
+      button.tabIndex = visible ? 0 : -1;
+    };
+    addEventListener("scroll", update, { passive: true });
     update();
   }
   if (
@@ -50,11 +69,34 @@
             : "تصفح الموقع بالعربية",
         );
         slot.append(link);
+        if (!document.querySelector(".cy-language-float")) {
+          const floating = link.cloneNode(true);
+          floating.className = "cy-language-float";
+          document.body.append(floating);
+          const update = () => {
+            const visible = scrollY > 160;
+            floating.classList.toggle("is-visible", visible);
+            floating.tabIndex = visible ? 0 : -1;
+            floating.setAttribute("aria-hidden", String(!visible));
+          };
+          addEventListener("scroll", update, { passive: true });
+          update();
+        }
       });
     } catch {}
   }
   const arabicUI = {
     "عن CODEYEA": "عن كوديا",
+    "Explore Details": "اكتشف التفاصيل",
+    "Full name": "الاسم الكامل",
+    "Email address": "بريدك الإلكتروني",
+    "Phone number": "رقم الهاتف",
+    "New project": "مشروع جديد",
+    "Tell us about your project": "حدثنا عن مشروعك",
+    Pause: "إيقاف مؤقت",
+    Play: "متابعة",
+    Drag: "اسحب",
+    "Technical support": "الدعم التقني",
     "Keep In Touch": "ابقَ على تواصل",
     "Enter your email address": "أدخل بريدك الإلكتروني",
     "Email delivery is not connected yet.": "إرسال البريد غير مفعّل حاليًا.",
@@ -90,6 +132,15 @@
       );
       let node;
       const copy = { ...arabicUI, ...window.CODEYEA_ARABIC_QUOTE_UI };
+      document
+        .querySelectorAll("[placeholder], [aria-label]")
+        .forEach((element) => {
+          for (const attribute of ["placeholder", "aria-label"]) {
+            const value = element.getAttribute(attribute);
+            if (value && copy[value])
+              element.setAttribute(attribute, copy[value]);
+          }
+        });
       while ((node = walker.nextNode())) {
         const text = node.textContent.trim();
         let translated = copy[text];
@@ -108,6 +159,10 @@
             .split(", ")
             .map((value) => copy[value] ?? value)
             .join("، ");
+        if (!translated && /^TECHNICAL SUPPORT \/ \d+$/.test(text))
+          translated = text.replace("TECHNICAL SUPPORT", "الدعم التقني");
+        if (!translated && /^Technical support —/.test(text))
+          translated = text.replace("Technical support", "الدعم التقني");
         if (!translated && /^SECOND SERVICE \/ \d+ OF 2$/.test(text))
           translated = text.replace(
             /^SECOND SERVICE \/ (\d+) OF 2$/,
@@ -120,7 +175,60 @@
           node.textContent = node.textContent.replace(text, translated);
       }
     }
+    const visibleText = document.createTreeWalker(
+      document.body,
+      NodeFilter.SHOW_TEXT,
+    );
+    let visibleNode;
+    while ((visibleNode = visibleText.nextNode())) {
+      if (
+        !visibleNode.parentElement?.closest("script,style,code,pre") &&
+        visibleNode.textContent.includes("\u2014")
+      )
+        visibleNode.textContent = visibleNode.textContent.replaceAll(
+          "\u2014",
+          ", ",
+        );
+    }
     void language();
+    document
+      .querySelectorAll(
+        ".hp.public-surface a, .hp.public-surface button, #cq-dialog a, #cq-dialog button",
+      )
+      .forEach((control) => {
+        if (
+          control.closest(
+            ".hp-carousel-buttons, .about-reference-pagination, .hp-desktop-nav",
+          ) ||
+          control.classList.contains("cy-back-top")
+        )
+          return;
+        [...control.childNodes].forEach((node) => {
+          if (
+            node.nodeType !== Node.TEXT_NODE ||
+            !/[↗→›]\s*$/.test(node.textContent)
+          )
+            return;
+          const arrow = document.createElement("span");
+          arrow.setAttribute("aria-hidden", "true");
+          arrow.textContent = "↗";
+          node.textContent =
+            node.textContent.replace(/[↗→›]\s*$/, "").trimEnd() + " ";
+          node.after(arrow);
+        });
+        control.querySelectorAll("span").forEach((span) => {
+          if (
+            !span.children.length &&
+            /^[↗→›]$/.test(span.textContent.trim()) &&
+            !span.classList.contains("cy-button-arrow")
+          ) {
+            span.textContent = "↗";
+            span.setAttribute("aria-hidden", "true");
+            span.classList.add("cy-button-arrow");
+            control.classList.add("cy-arrow-control");
+          }
+        });
+      });
     const routePath = (pathname) =>
       pathname
         .replace(/^\/preview(?=\/|$)/, "")
@@ -128,27 +236,59 @@
         .replace(/^\/pages(?=\/|$)/, "")
         .replace(/\/$/, "") || "/";
     const path = routePath(location.pathname);
-    document.querySelectorAll(".hp-desktop-nav a, .hp-mobile-panel nav a").forEach((link) => {
-      const href = routePath(new URL(link.href, location.href).pathname);
-      if (path === href) link.setAttribute("aria-current", "page");
-      else link.removeAttribute("aria-current");
-    });
-    document.querySelectorAll(".hp-desktop-nav > .hp-nav-item").forEach((item) => {
-      const root = item.querySelector(":scope > a, :scope > .cy-nav-root > a");
-      const toggle = item.querySelector("button[aria-controls]");
-      const panel = toggle && document.getElementById(toggle.getAttribute("aria-controls"));
-      if (!root || root.getAttribute("aria-current") === "page") return;
-      if (panel && [...panel.querySelectorAll(".cy-host-links a")].some((link) =>
-        routePath(new URL(link.href, location.href).pathname) === path
-      )) root.setAttribute("aria-current", "location");
-    });
-    document.querySelectorAll(".hp-mobile-panel nav > details").forEach((group) => {
-      const root = group.querySelector("summary a");
-      if (!root || root.getAttribute("aria-current") === "page") return;
-      if ([...group.querySelectorAll(".hp-mobile-submenu a")].some((link) =>
-        routePath(new URL(link.href, location.href).pathname) === path
-      )) root.setAttribute("aria-current", "location");
-    });
+    document
+      .querySelectorAll(
+        ".hp-desktop-nav a, .cy-host-links a, .hp-mobile-panel nav a",
+      )
+      .forEach((link) => {
+        const href = routePath(new URL(link.href, location.href).pathname);
+        if (path === href) link.setAttribute("aria-current", "page");
+        else link.removeAttribute("aria-current");
+      });
+    document
+      .querySelectorAll(".hp-desktop-nav > .hp-nav-item")
+      .forEach((item) => {
+        const root = item.querySelector(
+          ":scope > a, :scope > .cy-nav-root > a",
+        );
+        const toggle = item.querySelector("button[aria-controls]");
+        const panel =
+          toggle &&
+          document.getElementById(toggle.getAttribute("aria-controls"));
+        if (!root || root.getAttribute("aria-current") === "page") return;
+        if (
+          [
+            "/website-hosting",
+            "/cloud-hosting",
+            "/wordpress-hosting",
+            "/email-hosting",
+          ].includes(path) &&
+          routePath(new URL(root.href, location.href).pathname) !==
+            "/website-hosting"
+        )
+          return;
+        if (
+          panel &&
+          [...panel.querySelectorAll(".cy-host-links a")].some(
+            (link) =>
+              routePath(new URL(link.href, location.href).pathname) === path,
+          )
+        )
+          root.setAttribute("aria-current", "location");
+      });
+    document
+      .querySelectorAll(".hp-mobile-panel nav > details")
+      .forEach((group) => {
+        const root = group.querySelector("summary a");
+        if (!root || root.getAttribute("aria-current") === "page") return;
+        if (
+          [...group.querySelectorAll(".hp-mobile-submenu a")].some(
+            (link) =>
+              routePath(new URL(link.href, location.href).pathname) === path,
+          )
+        )
+          root.setAttribute("aria-current", "location");
+      });
     document
       .querySelectorAll(
         '[class*="faq"] summary,[class*="faq"] button[aria-expanded]',

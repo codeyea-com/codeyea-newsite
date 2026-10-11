@@ -143,7 +143,8 @@ export function approvedMenuContent(
         (child) =>
           child.parentId === id &&
           (title !== "Hosting" ||
-            !str(child.href).includes("technical-support")),
+            !str(child.href).includes("technical-support")) &&
+          (title !== "Services" || !/\/(?:website|cloud|wordpress|email)-hosting/.test(str(child.href))),
       );
       const saved =
         configured.length > 0 &&

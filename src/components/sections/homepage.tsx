@@ -1,3 +1,4 @@
+import { localizedHref } from "@/content/arabic-navigation";
 import { resolveHomepage, iconKeys } from "@/content/homepage-defaults";
 import "@/styles/homepage-final.css";
 import { enabledItems, type EditorObject } from "@/schemas/homepage-editor";
@@ -16,7 +17,10 @@ import {
   WordRotator,
 } from "./homepage-interactions";
 import type { Snapshot } from "@/schemas/content";
-import { homepageServiceDestination, industryPageDestination } from "@/content/service-destinations";
+import {
+  homepageServiceDestination,
+  industryPageDestination,
+} from "@/content/service-destinations";
 import { publicDestination } from "@/content/public-destination";
 import {
   accordionFixtures,
@@ -53,6 +57,17 @@ function ServiceIcon({ index }: { index: number }) {
 }
 export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
   const home = resolveHomepage(snapshot?.homepage);
+  const arabic = snapshot?.homepage?.localeId === "ar";
+  const destination = (href: string) =>
+    arabic ? localizedHref(publicDestination(href)) : publicDestination(href);
+  const positioning =
+    snapshot?.sections.filter(
+      (section) =>
+        section.enabled !== false &&
+        section.heading.trim() &&
+        section.body.trim() &&
+        !/no positioning content has been published yet/i.test(section.body),
+    ) ?? [];
   const services = enabledItems(home.services.items),
     about = home.about,
     experience = home.experience,
@@ -67,243 +82,335 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
       <SiteUtility />
       <HomepageHeader content={home.header} />
       <main id="main">
-        {hero.enabled !== false && <section id="top" className="hp-hero">
-          <div className="hp-container hp-hero-inner">
-            <div className="hp-hero-copy">
-              <p className="hp-eyebrow">CODEYEA · DIGITAL INNOVATION AGENCY</p>
-              <h1>{str(hero.prefix)}{" "}<WordRotator words={enabledItems(hero.words).map(word => str(word.title))} /></h1>
-              <p>{str(hero.body)}</p>
-              <a className="hp-button hp-button-light" href={publicDestination(str(hero.ctaHref))}>{str(hero.ctaLabel)} <span aria-hidden="true">→</span></a>
+        {hero.enabled !== false && (
+          <section id="top" className="hp-hero">
+            <div className="hp-container hp-hero-inner">
+              <div className="hp-hero-copy">
+                <p className="hp-eyebrow">
+                  CODEYEA · DIGITAL INNOVATION AGENCY
+                </p>
+                <h1>
+                  {str(hero.prefix)}{" "}
+                  <WordRotator
+                    words={enabledItems(hero.words).map((word) =>
+                      str(word.title),
+                    )}
+                  />
+                </h1>
+                <p>{str(hero.body)}</p>
+                <a
+                  className="hp-button hp-button-light"
+                  href={destination(str(hero.ctaHref))}
+                >
+                  {str(hero.ctaLabel)} <span aria-hidden="true">→</span>
+                </a>
+              </div>
+              <div className="hp-hero-art">
+                <img
+                  {...mediaProps(hero.media)}
+                  width="1600"
+                  height="750"
+                  fetchPriority="high"
+                />
+              </div>
             </div>
-            <div className="hp-hero-art">
-              <img {...mediaProps(hero.media)} width="1600" height="750" fetchPriority="high" />
-            </div>
-          </div>
-        </section>}
-        {home.logos.enabled !== false && enabledItems(home.logos.items).some(logo => logo.approved === true) && <section
-          className="hp-clients hp-container"
-          aria-label="Existing site logos; client relationships awaiting confirmation"
-        >
-          {enabledItems(home.logos.items).filter(logo => logo.approved === true).map((logo) => {
-            const image = (
-              <img
-                key={str(logo.id)}
-                {...mediaProps(logo.media)}
-                width="150"
-                height="65"
-                loading="lazy"
-              />
-            );
-            return logo.href ? (
-              <a
-                key={str(logo.id)}
-                href={str(logo.href)}
-                aria-label={str(logo.title)}
-              >
-                {image}
-              </a>
-            ) : (
-              image
-            );
-          })}
-        </section>}
-        {snapshot?.sections.some(section => section.enabled !== false && section.heading.trim() && section.body.trim() && !/no positioning content has been published yet/i.test(section.body)) && <section
-          id="positioning"
-          className="hp-positioning hp-container"
-          aria-labelledby="positioning-title"
-        >
-          {snapshot.sections.filter(section=>section.enabled!==false && section.heading.trim() && section.body.trim() && !/no positioning content has been published yet/i.test(section.body)).map((section) => (
+          </section>
+        )}
+        {home.logos.enabled !== false && (
+          <section
+            className="hp-clients hp-container"
+            aria-label={arabic ? "الشعارات" : "Logos"}
+          >
+            {enabledItems(home.logos.items).map((logo) => {
+              const image = (
+                <img
+                  key={str(logo.id)}
+                  {...mediaProps(logo.media)}
+                  width="150"
+                  height="65"
+                  loading="lazy"
+                />
+              );
+              return logo.href ? (
+                <a
+                  key={str(logo.id)}
+                  href={str(logo.href)}
+                  aria-label={str(logo.title)}
+                >
+                  {image}
+                </a>
+              ) : (
+                image
+              );
+            })}
+          </section>
+        )}
+        {
+          <section
+            id="positioning"
+            className="hp-positioning hp-container"
+            aria-labelledby="positioning-title"
+          >
+            {(positioning.length
+              ? positioning
+              : [
+                  {
+                    id: "positioning",
+                    heading: arabic
+                      ? "كوديا\nوكالة الابتكار الرقمي"
+                      : "CODEYEA\nDigital Innovation Agency",
+                    body: arabic
+                      ? "نبني حضورًا رقميًا يوضح قيمة أعمالك، ويسهّل التواصل مع عملائك، ويدعم نموك."
+                      : "A clear digital presence that connects your business with customers and supports your next stage of growth.",
+                  },
+                ]
+            ).map((section) => (
               <div key={section.id}>
-                <h2 id="positioning-title">{section.heading}</h2>
+                <h2 id="positioning-title" dir={arabic ? "rtl" : undefined}>
+                  {arabic
+                    ? str(section.heading)
+                        .replace(/CODEYEA/gi, "كوديا")
+                        .replace(/\s*\u2014\s*/g, "\n")
+                    : str(section.heading).replace(/\s*\u2014\s*/g, "\n")}
+                </h2>
                 <p className="hp-positioning-body">{section.body}</p>
               </div>
             ))}
-        </section>}
-        {home.services.enabled !== false && <section
-          id="services"
-          className="hp-services hp-container"
-          aria-label="Our eight services"
-        >
-          {services.map((service, i) => (
-            <article
-              id={str(service.id)}
-              key={str(service.id)}
-              data-motion-enter
-              style={{ transitionDelay: (i % 4) * 70 + "ms" }}
-            >
-              <ServiceIcon index={iconKeys.indexOf(str(service.icon))} />
-              <h3>
-                <ServiceWords text={str(service.title)} />
-              </h3>
-              <p>
-                <ServiceWords
-                  text={str(service.body)}
-                  offset={str(service.title).split(/\s+/).length}
-                />
-              </p>
-              <a
-                className="hp-service-link"
-                href={homepageServiceDestination(str(service.id)) ?? str(service.ctaHref)}
-                aria-label={"Explore " + str(service.title)}
+          </section>
+        }
+        {home.services.enabled !== false && (
+          <section
+            id="services"
+            className="hp-services hp-container"
+            aria-label="Our eight services"
+          >
+            {services.map((service, i) => (
+              <article
+                id={str(service.id)}
+                key={str(service.id)}
+                data-motion-enter
+                style={{ transitionDelay: (i % 4) * 70 + "ms" }}
               >
-                {str(service.ctaLabel)} <span aria-hidden="true">→</span>
-              </a>
-            </article>
-          ))}
-        </section>}
-        {about.enabled !== false && <section id="about" className="hp-about">
-          <img
-            className="hp-about-media"
-            {...mediaProps(about.media)}
-            width="1200"
-            height="801"
-            loading="lazy"
-          />
-          <div className="hp-about-copy">
-            <p className="hp-eyebrow">{str(about.eyebrow)}</p>
-            <h2>
-              {str(about.heading)
-                .split("Creativity")
-                .map((part, i) => (
-                  <span key={i}>
-                    {i > 0 && <mark>Creativity</mark>}
-                    {part}
-                  </span>
+                <ServiceIcon index={iconKeys.indexOf(str(service.icon))} />
+                <h3>
+                  <ServiceWords text={str(service.title)} />
+                </h3>
+                <p>
+                  <ServiceWords
+                    text={str(service.body)}
+                    offset={str(service.title).split(/\s+/).length}
+                  />
+                </p>
+                <a
+                  className="hp-service-link"
+                  href={destination(
+                    homepageServiceDestination(str(service.id)) ??
+                      str(service.ctaHref),
+                  )}
+                  aria-label={"Explore " + str(service.title)}
+                >
+                  {str(service.ctaLabel)} <span aria-hidden="true">→</span>
+                </a>
+              </article>
+            ))}
+          </section>
+        )}
+        {about.enabled !== false && (
+          <section id="about" className="hp-about">
+            <img
+              className="hp-about-media"
+              {...mediaProps(about.media)}
+              width="1200"
+              height="801"
+              loading="lazy"
+            />
+            <div className="hp-about-copy">
+              <p className="hp-eyebrow">{str(about.eyebrow)}</p>
+              <h2>
+                {str(about.heading)
+                  .split("Creativity")
+                  .map((part, i) => (
+                    <span key={i}>
+                      {i > 0 && <mark>Creativity</mark>}
+                      {part}
+                    </span>
+                  ))}
+              </h2>
+              <EditorialCopy text={str(about.body)} />
+              <div className="hp-accordions">
+                {enabledItems(about.items).map((item, i) => (
+                  <details
+                    key={str(item.id)}
+                    open={i === 0}
+                    name="about-values"
+                  >
+                    <summary>
+                      {str(item.title)}
+                      <span aria-hidden="true" />
+                    </summary>
+                    <p>{str(item.body)}</p>
+                  </details>
                 ))}
-            </h2>
-            <EditorialCopy text={str(about.body)} />
-            <div className="hp-accordions">
-              {enabledItems(about.items).map((item, i) => (
-                <details key={str(item.id)} open={i === 0} name="about-values">
-                  <summary>
-                    {str(item.title)}
-                    <span aria-hidden="true" />
-                  </summary>
-                  <p>{str(item.body)}</p>
-                </details>
-              ))}
-            </div>
-            <a className="hp-button" href={publicDestination(str(about.ctaHref))}>
-              {str(about.ctaLabel)}
-            </a>
-          </div>
-        </section>}
-        {experience.enabled !== false && experience.approved === true && <section
-          className="hp-experience"
-          aria-labelledby="experience-title"
-          style={{
-            backgroundImage: `url("${mediaProps(experience.media).src}")`,
-            backgroundPosition: mediaProps(experience.media).style
-              .objectPosition,
-          }}
-        >
-          {mediaProps(experience.media).alt && (
-            <span
-              className="hp-interaction-sr"
-              role="img"
-              aria-label={mediaProps(experience.media).alt}
-            />
-          )}
-          <div className="hp-experience-panel" data-motion-enter>
-            <div>
-              <h2 id="experience-title">{str(experience.heading)}</h2>
-              <EditorialCopy text={str(experience.body)} />
-              <a className="hp-text-action" href={str(experience.ctaHref)}>
-                {str(experience.ctaLabel)} <span aria-hidden="true">→</span>
+              </div>
+              <a className="hp-button" href={destination(str(about.ctaHref))}>
+                {str(about.ctaLabel)}
               </a>
             </div>
-            <div className="hp-experience-number">
-              <strong data-count-to={Number(experience.value)}>
-                {Number(experience.value)}
-              </strong>
-              <span>{str(experience.unit)}</span>
+          </section>
+        )}
+        {experience.enabled !== false && experience.approved === true && (
+          <section
+            className="hp-experience"
+            aria-labelledby="experience-title"
+            style={{
+              backgroundImage: `url("${mediaProps(experience.media).src}")`,
+              backgroundPosition: mediaProps(experience.media).style
+                .objectPosition,
+            }}
+          >
+            {mediaProps(experience.media).alt && (
+              <span
+                className="hp-interaction-sr"
+                role="img"
+                aria-label={mediaProps(experience.media).alt}
+              />
+            )}
+            <div className="hp-experience-panel" data-motion-enter>
+              <div>
+                <h2 id="experience-title">{str(experience.heading)}</h2>
+                <EditorialCopy text={str(experience.body)} />
+                <a className="hp-text-action" href={str(experience.ctaHref)}>
+                  {str(experience.ctaLabel)} <span aria-hidden="true">→</span>
+                </a>
+              </div>
+              <div className="hp-experience-number">
+                <strong data-count-to={Number(experience.value)}>
+                  {Number(experience.value)}
+                </strong>
+                <span>{str(experience.unit)}</span>
+              </div>
             </div>
-          </div>
-        </section>}
-        {home.flow.enabled !== false && <section
-          id="service-flow"
-          className="hp-flow-section"
-          aria-label="Our approach"
-        >
-          <ServiceFlow
-            panels={enabledItems(home.flow.items).map((item, i) => ({
-              id: str(item.id),
-              title: str(item.title),
-              body: str(item.body),
-              image: mediaProps(item.media).src,
-              srcSet: mediaProps(item.media).srcSet,
-              alt: mediaProps(item.media).alt,
-              focal: mediaProps(item.media).style.objectPosition,
-              kicker:
-                (
-                  {
-                    "technical-support": "Technical support",
-                    branding: "Branding & creative",
-                    ecommerce: "eCommerce solutions",
-                  } as Record<string, string>
-                )[str(item.id)] ?? str(item.title),
-              ctaLabel: str(item.ctaLabel),
-              ctaHref: str(item.ctaHref),
-            }))}
-          />
-        </section>}
-        {home.hosting.enabled !== false && home.hosting.approved === true && <HomepageHosting content={home.hosting} />}
-        {home.projects.enabled !== false && enabledItems(home.projects.items).some(item => item.approved === true) && <section
-          id="work"
-          className="hp-portfolio"
-          aria-labelledby="work-title"
-        >
-          <Carousel
-            label="Project previews"
-            variant="project"
-            filterable
-            intro={home.projects}
-            items={enabledItems(home.projects.items).filter(item => item.approved === true)
-              .sort((a, b) => Number(b.featured) - Number(a.featured))
-              .map((item) => ({
+          </section>
+        )}
+        {home.flow.enabled !== false && (
+          <section
+            id="service-flow"
+            className="hp-flow-section"
+            aria-label="Our approach"
+          >
+            <ServiceFlow
+              panels={enabledItems(home.flow.items).map((item, i) => ({
                 id: str(item.id),
                 title: str(item.title),
                 body: str(item.body),
-                category: str(item.categories),
                 image: mediaProps(item.media).src,
                 srcSet: mediaProps(item.media).srcSet,
                 alt: mediaProps(item.media).alt,
                 focal: mediaProps(item.media).style.objectPosition,
-                href: str(item.href),
-              }))}
-          />
-        </section>}
-        {home.industries.enabled !== false && <section
-          id="industries"
-          className="hp-industries"
-          aria-labelledby="industries-title"
-        >
-          <div className="hp-container hp-industries-intro">
-            <h2 id="industries-title">{str(home.industries.heading)}</h2>
-            <p>{str(home.industries.body)}</p>
-            <a href="/industries/">
-              {str(home.industries.ctaLabel)} <span aria-hidden="true">→</span>
-            </a>
-          </div>
-          <div id="industry-list">
-            <Carousel
-              label="Industries"
-              variant="industry"
-              autoplay
-              items={enabledItems(home.industries.items).map((item) => ({
-                id: str(item.id),
-                title: str(item.title),
-                body: str(item.body),
-                category: str(item.eyebrow),
-                image: mediaProps(item.media).src,
-                srcSet: mediaProps(item.media).srcSet,
-                alt: mediaProps(item.media).alt,
-                focal: mediaProps(item.media).style.objectPosition,
-                href: industryPageDestination(str(item.title)) ?? str(item.href),
+                kicker:
+                  (
+                    {
+                      "technical-support": arabic
+                        ? "الدعم التقني"
+                        : "Technical support",
+                      branding: arabic
+                        ? "الهوية والإبداع"
+                        : "Branding & creative",
+                      ecommerce: arabic
+                        ? "حلول التجارة الإلكترونية"
+                        : "eCommerce solutions",
+                    } as Record<string, string>
+                  )[str(item.id)] ?? str(item.title),
+                ctaLabel:
+                  str(item.ctaLabel) ||
+                  (arabic ? "اكتشف التفاصيل" : "Explore Details"),
+                ctaHref: destination(
+                  str(item.ctaHref) ||
+                    (
+                      {
+                        "technical-support": "/technical-support/",
+                        branding: "/brand-design/",
+                        ecommerce: "/ecommerce/",
+                      } as Record<string, string>
+                    )[str(item.id)] ||
+                    "/services/",
+                ),
               }))}
             />
-          </div>
-        </section>}
+          </section>
+        )}
+        {home.hosting.enabled !== false && home.hosting.approved === true && (
+          <HomepageHosting content={home.hosting} />
+        )}
+        {home.projects.enabled !== false &&
+          enabledItems(home.projects.items).some(
+            (item) => item.approved === true,
+          ) && (
+            <section
+              id="work"
+              className="hp-portfolio"
+              aria-labelledby="work-title"
+            >
+              <Carousel
+                locale={snapshot?.homepage?.localeId}
+                label="Project previews"
+                variant="project"
+                filterable
+                intro={home.projects}
+                items={enabledItems(home.projects.items)
+                  .filter((item) => item.approved === true)
+                  .sort((a, b) => Number(b.featured) - Number(a.featured))
+                  .map((item) => ({
+                    id: str(item.id),
+                    title: str(item.title),
+                    body: str(item.body),
+                    category: str(item.categories),
+                    image: mediaProps(item.media).src,
+                    srcSet: mediaProps(item.media).srcSet,
+                    alt: mediaProps(item.media).alt,
+                    focal: mediaProps(item.media).style.objectPosition,
+                    href: str(item.href),
+                  }))}
+              />
+            </section>
+          )}
+        {home.industries.enabled !== false && (
+          <section
+            id="industries"
+            className="hp-industries"
+            aria-labelledby="industries-title"
+          >
+            <div className="hp-container hp-industries-intro">
+              <h2 id="industries-title">{str(home.industries.heading)}</h2>
+              <p>{str(home.industries.body)}</p>
+              <a href={destination("/industries/")}>
+                {str(home.industries.ctaLabel)}{" "}
+                <span aria-hidden="true">→</span>
+              </a>
+            </div>
+            <div id="industry-list">
+              <Carousel
+                locale={snapshot?.homepage?.localeId}
+                label="Industries"
+                variant="industry"
+                autoplay
+                items={enabledItems(home.industries.items).map((item) => ({
+                  id: str(item.id),
+                  title: str(item.title),
+                  body: str(item.body),
+                  category: str(item.eyebrow),
+                  image: mediaProps(item.media).src,
+                  srcSet: mediaProps(item.media).srcSet,
+                  alt: mediaProps(item.media).alt,
+                  focal: mediaProps(item.media).style.objectPosition,
+                  href: destination(
+                    industryPageDestination(str(item.title)) ?? str(item.href),
+                  ),
+                }))}
+              />
+            </div>
+          </section>
+        )}
       </main>
       <HomepageFooter content={footer} />
     </div>

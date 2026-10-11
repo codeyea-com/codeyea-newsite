@@ -2,6 +2,11 @@ import { assertTestEnvironment } from "../scripts/test-environment";
 assertTestEnvironment();
 import { test, before, after } from "node:test";
 import assert from "node:assert/strict";
+import {
+  arabicTypographyCss,
+  arabicTypographySchema,
+  defaultArabicTypography,
+} from "../src/schemas/arabic-typography";
 import { randomUUID } from "node:crypto";
 import { db } from "../src/server/db";
 import {
@@ -72,13 +77,44 @@ test("platform settings require permissions and reject stale saves without losin
   const saved = await saveIntegrationSettings(user, initial.version, {
     ...emptyIntegrationSettings,
     ga4PropertyId: "123456",
+    arabicTypography: { ...defaultArabicTypography, body: 300, h1: 500 },
   });
   assert.equal(saved.version, initial.version + 1);
   assert.equal((await readIntegrationSettings()).value.ga4PropertyId, "123456");
+  assert.equal(
+    (await readIntegrationSettings()).value.arabicTypography.body,
+    300,
+  );
+  assert.equal(
+    (await readIntegrationSettings()).value.arabicTypography.h1,
+    500,
+  );
   await assert.rejects(() =>
     saveIntegrationSettings(user, initial.version, emptyIntegrationSettings),
   );
   assert.equal((await readIntegrationSettings()).value.ga4PropertyId, "123456");
+});
+test("Arabic font weights reject CSS injection and retain independent controls", () => {
+  assert.equal(
+    arabicTypographySchema.safeParse({
+      ...defaultArabicTypography,
+      body: "400; color:red",
+    }).success,
+    false,
+  );
+  assert.equal(
+    arabicTypographySchema.safeParse({ ...defaultArabicTypography, h1: 900 })
+      .success,
+    false,
+  );
+  const css = arabicTypographyCss({
+    ...defaultArabicTypography,
+    body: 200,
+    buttons: 700,
+  });
+  assert.ok(css.includes("--ar-body:200"));
+  assert.ok(css.includes("--ar-buttons:700"));
+  assert.ok(css.includes('html[lang="ar"]'));
 });
 after(async () => {
   if (original)

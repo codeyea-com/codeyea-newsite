@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {roofingHubFixture} from './fixtures/roofing-hub';
 import {newIndustryContracts,newIndustrySnapshot} from '../src/content/new-industry-defaults';
 import {industrySlugs} from '../src/content/industry-registry';
+import {documentSlugs} from '../src/content/site-routes';
 
 test('new industry contracts retain the frozen structure, local media and approved content',()=>{
  const detail=roofingHubFixture();
@@ -19,7 +20,9 @@ test('new industry contracts retain the frozen structure, local media and approv
   assert.deepEqual(result.sections.find(s=>s.type==='faq')!.items.map(i=>[i.title,i.body]),copy.faq);
   assert.deepEqual(result.sections.find(s=>s.type==='growth')!.items.map(i=>[i.title,i.body]),copy.growth);
   assert.deepEqual(result.seo,copy.seo);
-  assert.ok(result.sections.find(s=>s.type==='services')!.items.every(i=>i.destination===''));
+  const serviceItems=result.sections.find(s=>s.type==='services')!.items;
+  assert.equal(new Set(serviceItems.map(i=>i.destination)).size,8);
+  assert.ok(serviceItems.every(i=>documentSlugs.some(slug=>i.destination===`/${slug}/`)));
   for(const s of result.sections)if(s.media||s.items.some(i=>i.media))assert.equal(s.temporaryMedia,true);
  }
  assert.deepEqual(template,before);

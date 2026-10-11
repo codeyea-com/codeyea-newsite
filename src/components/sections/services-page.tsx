@@ -1,3 +1,4 @@
+import { ContextualCopy } from "./contextual-copy";
 import type { ServicesContent, ServiceItem } from "@/schemas/services-page";
 import type { HomepageContent, EditorObject } from "@/schemas/homepage-editor";
 import { resolveHomepage, iconKeys } from "@/content/homepage-defaults";
@@ -50,7 +51,7 @@ function Copy({ text }: { text: string }) {
         .split(/\n\s*\n/)
         .filter(Boolean)
         .map((p, n) => (
-          <p key={n}>{p}</p>
+          <p key={n}><ContextualCopy text={p}/></p>
         ))}
     </>
   );
