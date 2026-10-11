@@ -1,44 +1,774 @@
 "use client";
-import {MediaPicker} from "./media-picker";
-import {SeoEditor} from './seo-editor';
-import {useEffect,useRef,useState,type FormEvent} from 'react';
-import {homepageEditorSections,type Field,type EditorObject} from '@/schemas/homepage-editor';
-import {snapshotSchema} from '@/schemas/content';
-import {homepageAssets,assetUrl} from '@/content/homepage-assets';
-import type {Page} from './types';
-type Props={draft:Page;dirty:boolean;busy:boolean;canEdit:boolean;canPublish:boolean;onPublish:()=>void;onChange:(page:Page)=>void;onSave:(event:FormEvent)=>void};
-type Errors=Record<string,string>;
-export function DraftEditor(props:Props){const {draft,dirty,busy,canEdit,canPublish,onPublish,onChange,onSave}=props;const [selected,setSelected]=useState('positioning');const [errors,setErrors]=useState<Errors>({});const [preview,setPreview]=useState(false);const [width,setWidth]=useState(1440);const section=homepageEditorSections.find(s=>s.key===selected)!;
- useEffect(()=>{if(dirty)setPreview(false);},[dirty]);
- const change=(value:EditorObject)=>onChange({...draft,homepage:{...draft.homepage!,[selected]:value}});
- function submit(event:FormEvent){const parsed=snapshotSchema.safeParse({title:draft.title,sections:draft.sections,homepage:draft.homepage});if(!parsed.success){event.preventDefault();setErrors(Object.fromEntries(parsed.error.issues.map(i=>[i.path.join('.'),i.message])));const first=parsed.error.issues[0]?.path;setSelected(first?.[0]==='homepage'?String(first[1]):'positioning');return;}setErrors({});onSave(event);}
- const status=dirty?'Unsaved changes — save before preview or publishing':draft.hasUnpublishedChanges?(draft.publishedSnapshot?'Draft saved with unpublished changes':'Draft — never published'):'Published';
- return <form onSubmit={submit} noValidate><div className="editor-toolbar cms-sticky"><strong>{status}</strong><div className="cms-actions"><button className="button" disabled={busy||!canEdit||!dirty}>Save draft</button><button type="button" className="button secondary" disabled={busy||dirty} onClick={()=>setPreview(v=>!v)}>Preview</button>{canPublish&&<button type="button" className="button secondary" disabled={busy||dirty||!draft.hasUnpublishedChanges} onClick={onPublish}>Publish</button>}</div></div>
- {!canEdit&&<p className="feedback">Your role can review content. Editing requires additional access.</p>}
- {preview&&<section className="cms-preview" aria-label="Saved draft preview"><div className="cms-actions">{[['Desktop',1440],['Tablet',768],['Mobile',390]].map(([name,size])=><button key={name} type="button" aria-pressed={width===size} onClick={()=>setWidth(Number(size))}>{name}</button>)}<a href="/preview" target="_blank" rel="noopener">Open private draft preview</a><button type="button" onClick={()=>setPreview(false)}>Close preview</button></div><p>Saved draft only. Changes here are private until Publish.</p><div className="cms-preview-scroll"><iframe key={draft.version} title="Complete private homepage preview" src="/preview" style={{width,height:800}}/></div></section>}
- <div className="editor-grid cms-homepage-editor"><nav className="section-list" aria-label="Homepage sections"><h2>Homepage sections</h2>{homepageEditorSections.filter(s=>s.key!=='seo').map((s,i)=>{const invalid=Object.keys(errors).some(p=>p.startsWith('homepage.'+s.key)||s.key==='positioning'&&p.startsWith('sections'));return <button key={s.key} type="button" className={'section-item '+(selected===s.key?'selected':'')} aria-current={selected===s.key?'true':undefined} onClick={()=>setSelected(s.key)}><span className="section-number">{String(i+1).padStart(2,'0')}</span><span>{s.label}<small>{invalid?'Needs attention':dirty?'Editing draft':'Saved draft'}</small></span></button>;})}</nav>
- <section className="editor-fields"><h2>{section.label}</h2><p className="small">Content only. Layout, breakpoints and animation remain protected.</p><fieldset disabled={!canEdit||busy} className="cms-fields">
- {selected==='positioning'?<><label className="field-label"><input type="checkbox" checked={draft.sections[0].enabled!==false} onChange={e=>onChange({...draft,sections:[{...draft.sections[0],enabled:e.target.checked}]})}/> Show this section</label><label className="field-label" htmlFor="page-title">Page title</label><input id="page-title" value={draft.title} maxLength={120} onChange={e=>onChange({...draft,title:e.target.value})}/><FieldError errors={errors} path="title"/><label className="field-label" htmlFor="section-heading">Heading</label><input id="section-heading" value={draft.sections[0].heading} maxLength={180} onChange={e=>onChange({...draft,sections:[{...draft.sections[0],heading:e.target.value}]})}/><FieldError errors={errors} path="sections.0.heading"/><label className="field-label" htmlFor="section-body">Supporting copy</label><textarea id="section-body" rows={7} value={draft.sections[0].body} maxLength={2000} onChange={e=>onChange({...draft,sections:[{...draft.sections[0],body:e.target.value}]})}/><FieldError errors={errors} path="sections.0.body"/></>:selected==='seo'?<><ObjectFields fields={section.fields} value={draft.homepage?.seo as unknown as EditorObject} change={next=>onChange({...draft,homepage:{...draft.homepage!,seo:next}})} path="homepage.seo" errors={errors} locale={String(draft.homepage?.localeId)} market={String(draft.homepage?.marketId)} homepage={draft.homepage as unknown as EditorObject}/><SeoEditor value={draft.homepage!.seo as import('@/schemas/seo-text').SeoText} path="/" onChange={seo=>onChange({...draft,homepage:{...draft.homepage!,seo}})}/></>:<ObjectFields fields={section.fields} value={draft.homepage?.[selected] as EditorObject} change={change} path={'homepage.'+selected} errors={errors} locale={String(draft.homepage?.localeId)} market={String(draft.homepage?.marketId)} homepage={draft.homepage as unknown as EditorObject}/>}
- </fieldset>{selected==='experience'&&<p className="feedback">The current 18-year claim is unapproved until confirmed. Verify the claim before marking it approved.</p>}{selected==='footer'&&<p className="small">The original footer background and responsive crop are protected.</p>}</section></div></form>;
+import { MediaPicker } from "./media-picker";
+import { SeoEditor } from "./seo-editor";
+import { useEffect, useRef, useState, type FormEvent } from "react";
+import {
+  homepageEditorSections,
+  type Field,
+  type EditorObject,
+} from "@/schemas/homepage-editor";
+import { snapshotSchema } from "@/schemas/content";
+import { homepageAssets, assetUrl } from "@/content/homepage-assets";
+import type { Page } from "./types";
+type Props = {
+  draft: Page;
+  dirty: boolean;
+  busy: boolean;
+  canEdit: boolean;
+  canPublish: boolean;
+  onPublish: () => void;
+  onChange: (page: Page) => void;
+  onSave: (event: FormEvent) => void;
+};
+type Errors = Record<string, string>;
+export function DraftEditor(props: Props) {
+  const {
+    draft,
+    dirty,
+    busy,
+    canEdit,
+    canPublish,
+    onPublish,
+    onChange,
+    onSave,
+  } = props;
+  const [selected, setSelected] = useState("positioning");
+  const [errors, setErrors] = useState<Errors>({});
+  const [preview, setPreview] = useState(false);
+  const [width, setWidth] = useState(1440);
+  const section = homepageEditorSections.find((s) => s.key === selected)!;
+  useEffect(() => {
+    if (dirty) setPreview(false);
+  }, [dirty]);
+  const change = (value: EditorObject) =>
+    onChange({ ...draft, homepage: { ...draft.homepage!, [selected]: value } });
+  function submit(event: FormEvent) {
+    const parsed = snapshotSchema.safeParse({
+      title: draft.title,
+      sections: draft.sections,
+      homepage: draft.homepage,
+    });
+    if (!parsed.success) {
+      event.preventDefault();
+      setErrors(
+        Object.fromEntries(
+          parsed.error.issues.map((i) => [i.path.join("."), i.message]),
+        ),
+      );
+      const first = parsed.error.issues[0]?.path;
+      setSelected(first?.[0] === "homepage" ? String(first[1]) : "positioning");
+      return;
+    }
+    setErrors({});
+    onSave(event);
+  }
+  const status = dirty
+    ? "Unsaved changes — save before preview or publishing"
+    : draft.hasUnpublishedChanges
+      ? draft.publishedSnapshot
+        ? "Draft saved with unpublished changes"
+        : "Draft — never published"
+      : "Published";
+  return (
+    <form onSubmit={submit} noValidate>
+      <div className="editor-toolbar cms-sticky">
+        <strong>{status}</strong>
+        <div className="cms-actions">
+          <button className="button" disabled={busy || !canEdit || !dirty}>
+            Save draft
+          </button>
+          <button
+            type="button"
+            className="button secondary"
+            disabled={busy || dirty}
+            onClick={() => setPreview((v) => !v)}
+          >
+            Preview
+          </button>
+          {canPublish && (
+            <button
+              type="button"
+              className="button secondary"
+              disabled={busy || dirty || !draft.hasUnpublishedChanges}
+              onClick={onPublish}
+            >
+              Publish
+            </button>
+          )}
+        </div>
+      </div>
+      {!canEdit && (
+        <p className="feedback">
+          Your role can review content. Editing requires additional access.
+        </p>
+      )}
+      {preview && (
+        <section className="cms-preview" aria-label="Saved draft preview">
+          <div className="cms-actions">
+            {[
+              ["Desktop", 1440],
+              ["Tablet", 768],
+              ["Mobile", 390],
+            ].map(([name, size]) => (
+              <button
+                key={name}
+                type="button"
+                aria-pressed={width === size}
+                onClick={() => setWidth(Number(size))}
+              >
+                {name}
+              </button>
+            ))}
+            <a
+              href={
+                draft.homepage?.localeId === "ar" ? "/preview/ar/" : "/preview"
+              }
+              target="_blank"
+              rel="noopener"
+            >
+              Open private draft preview
+            </a>
+            <button type="button" onClick={() => setPreview(false)}>
+              Close preview
+            </button>
+          </div>
+          <p>Saved draft only. Changes here are private until Publish.</p>
+          <div className="cms-preview-scroll">
+            <iframe
+              key={draft.version}
+              title="Complete private homepage preview"
+              src={
+                draft.homepage?.localeId === "ar" ? "/preview/ar/" : "/preview"
+              }
+              style={{ width, height: 800 }}
+            />
+          </div>
+        </section>
+      )}
+      <div className="editor-grid cms-homepage-editor">
+        <nav className="section-list" aria-label="Homepage sections">
+          <h2>Homepage sections</h2>
+          {homepageEditorSections
+            .filter((s) => s.key !== "seo")
+            .map((s, i) => {
+              const invalid = Object.keys(errors).some(
+                (p) =>
+                  p.startsWith("homepage." + s.key) ||
+                  (s.key === "positioning" && p.startsWith("sections")),
+              );
+              return (
+                <button
+                  key={s.key}
+                  type="button"
+                  className={
+                    "section-item " + (selected === s.key ? "selected" : "")
+                  }
+                  aria-current={selected === s.key ? "true" : undefined}
+                  onClick={() => setSelected(s.key)}
+                >
+                  <span className="section-number">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span>
+                    {s.label}
+                    <small>
+                      {invalid
+                        ? "Needs attention"
+                        : dirty
+                          ? "Editing draft"
+                          : "Saved draft"}
+                    </small>
+                  </span>
+                </button>
+              );
+            })}
+        </nav>
+        <section className="editor-fields">
+          <h2>{section.label}</h2>
+          <p className="small">
+            Content only. Layout, breakpoints and animation remain protected.
+          </p>
+          <fieldset disabled={!canEdit || busy} className="cms-fields">
+            {selected === "positioning" ? (
+              <>
+                <label className="field-label">
+                  <input
+                    type="checkbox"
+                    checked={draft.sections[0].enabled !== false}
+                    onChange={(e) =>
+                      onChange({
+                        ...draft,
+                        sections: [
+                          { ...draft.sections[0], enabled: e.target.checked },
+                        ],
+                      })
+                    }
+                  />{" "}
+                  Show this section
+                </label>
+                <label className="field-label" htmlFor="page-title">
+                  Page title
+                </label>
+                <input
+                  id="page-title"
+                  value={draft.title}
+                  maxLength={120}
+                  onChange={(e) =>
+                    onChange({ ...draft, title: e.target.value })
+                  }
+                />
+                <FieldError errors={errors} path="title" />
+                <label className="field-label" htmlFor="section-heading">
+                  Heading
+                </label>
+                <input
+                  id="section-heading"
+                  value={draft.sections[0].heading}
+                  maxLength={180}
+                  onChange={(e) =>
+                    onChange({
+                      ...draft,
+                      sections: [
+                        { ...draft.sections[0], heading: e.target.value },
+                      ],
+                    })
+                  }
+                />
+                <FieldError errors={errors} path="sections.0.heading" />
+                <label className="field-label" htmlFor="section-body">
+                  Supporting copy
+                </label>
+                <textarea
+                  id="section-body"
+                  rows={7}
+                  value={draft.sections[0].body}
+                  maxLength={2000}
+                  onChange={(e) =>
+                    onChange({
+                      ...draft,
+                      sections: [
+                        { ...draft.sections[0], body: e.target.value },
+                      ],
+                    })
+                  }
+                />
+                <FieldError errors={errors} path="sections.0.body" />
+              </>
+            ) : selected === "seo" ? (
+              <>
+                <ObjectFields
+                  fields={section.fields}
+                  value={draft.homepage?.seo as unknown as EditorObject}
+                  change={(next) =>
+                    onChange({
+                      ...draft,
+                      homepage: { ...draft.homepage!, seo: next },
+                    })
+                  }
+                  path="homepage.seo"
+                  errors={errors}
+                  locale={String(draft.homepage?.localeId)}
+                  market={String(draft.homepage?.marketId)}
+                  homepage={draft.homepage as unknown as EditorObject}
+                />
+                <SeoEditor
+                  value={
+                    draft.homepage!.seo as import("@/schemas/seo-text").SeoText
+                  }
+                  path={draft.homepage?.localeId === "ar" ? "/ar/" : "/"}
+                  onChange={(seo) =>
+                    onChange({
+                      ...draft,
+                      homepage: { ...draft.homepage!, seo },
+                    })
+                  }
+                />
+              </>
+            ) : (
+              <ObjectFields
+                fields={section.fields}
+                value={draft.homepage?.[selected] as EditorObject}
+                change={change}
+                path={"homepage." + selected}
+                errors={errors}
+                locale={String(draft.homepage?.localeId)}
+                market={String(draft.homepage?.marketId)}
+                homepage={draft.homepage as unknown as EditorObject}
+              />
+            )}
+          </fieldset>
+          {selected === "experience" && (
+            <p className="feedback">
+              The current 18-year claim is unapproved until confirmed. Verify
+              the claim before marking it approved.
+            </p>
+          )}
+          {selected === "footer" && (
+            <p className="small">
+              The original footer background and responsive crop are protected.
+            </p>
+          )}
+        </section>
+      </div>
+    </form>
+  );
 }
-function FieldError({errors,path}:{errors:Errors;path:string}){return errors[path]?<p className="cms-field-error" id={path+'-error'}>{errors[path]}</p>:null;}
-function blank(fields:Field[],locale:string,market:string):EditorObject{return {id:crypto.randomUUID(),localeId:locale,marketId:market,position:0,enabled:true,...Object.fromEntries(fields.map(f=>[f.key,f.type==='collection'?[]:f.type==='media'?{mediaId:homepageAssets[0].id,alt:'',decorative:true,focalX:50,focalY:50}:f.type==='boolean'?false:f.type==='number'?f.min??0:f.type==='select'?f.options![0]:'']))};}
-function ObjectFields({fields,value,change,path,errors,locale,market,homepage}:{fields:Field[];value:EditorObject;change:(v:EditorObject)=>void;path:string;errors:Errors;locale:string;market:string;homepage:EditorObject}){
- return <>{fields.map(field=>{const id=path+'.'+field.key;const update=(next:EditorObject[string])=>change({...value,[field.key]:next});if(field.type==='collection')return <CollectionField key={id} field={field} value={value[field.key] as EditorObject[]} change={update} path={id} errors={errors} locale={locale} market={market} homepage={homepage}/>;if(field.type==='media')return <MediaField key={id} value={value[field.key] as EditorObject} change={update} path={id} errors={errors}/>;
- const options=field.key==='parentId'?((homepage.header as EditorObject).items as EditorObject[]).filter(i=>!i.parentId&&i.id!==value.id).map(i=>({value:String(i.id),label:String(i.title)})):field.key==='featureId'?((homepage.hosting as EditorObject).features as EditorObject[]).map(i=>({value:String(i.id),label:String(i.title)})):field.options?.map(v=>({value:v,label:v}));
- return <div key={id} className="cms-field"><label className="field-label" htmlFor={id}>{field.label}</label>{field.type==='boolean'?<input id={id} type="checkbox" checked={!!value[field.key]} onChange={e=>update(e.target.checked)}/>:options?<select id={id} value={String(value[field.key]??'')} onChange={e=>update(e.target.value)}><option value="">{field.key==='parentId'?'No parent':'Choose…'}</option>{options.map(o=><option key={o.value} value={o.value}>{o.label}</option>)}</select>:field.type==='copy'?<textarea id={id} rows={4} value={String(value[field.key]??'')} maxLength={field.max} onChange={e=>update(e.target.value)} aria-invalid={!!errors[id]} aria-describedby={errors[id]?id+'-error':undefined}/>:<input id={id} type={field.type==='number'?'number':'text'} min={field.min} max={field.max} maxLength={field.max} value={String(value[field.key]??'')} onChange={e=>update(field.type==='number'?Number(e.target.value):e.target.value)} aria-invalid={!!errors[id]} aria-describedby={errors[id]?id+'-error':undefined}/>}<FieldError errors={errors} path={id}/></div>;
- })}</>;
+function FieldError({ errors, path }: { errors: Errors; path: string }) {
+  return errors[path] ? (
+    <p className="cms-field-error" id={path + "-error"}>
+      {errors[path]}
+    </p>
+  ) : null;
 }
-function CollectionField({field,value,change,path,errors,locale,market,homepage}:{field:Field;value:EditorObject[];change:(v:EditorObject[])=>void;path:string;errors:Errors;locale:string;market:string;homepage:EditorObject}){
- const [newId,setNewId]=useState('');const [query,setQuery]=useState('');
- const title=(item:EditorObject)=>String(item.title||(item.featureId?((homepage.hosting as EditorObject).features as EditorObject[]).find(f=>f.id===item.featureId)?.title:'')||item.value||'New item');
- const description=(item:EditorObject)=>[item.monthlyPrice?String(item.monthlyPrice)+' '+String(item.monthlyUnit||''):'',item.categories,item.description,item.body,item.href,item.ctaLabel,item.featureId?item.value:''].filter(v=>typeof v==='string'&&v.trim()).map(String).join(' · ');
- const reorder=(from:number,to:number)=>{const next=[...value];const [entry]=next.splice(from,1);next.splice(to,0,entry);change(next.map((item,position)=>({...item,position})));};
- const shown=value.map((item,index)=>({item,index,invalid:Object.keys(errors).some(p=>p.startsWith(path+'.'+index+'.'))})).filter(({item,invalid})=>invalid||newId===item.id||(title(item)+' '+description(item)).toLowerCase().includes(query.trim().toLowerCase()));
- return <section className="cms-collection"><div className="section-heading"><h3>{field.label}</h3><span>{value.length} / {field.max}</span></div><FieldError errors={errors} path={path}/>
- {(value.length>=6||query)&&<div className="cms-collection-search"><label className="field-label" htmlFor={path+'-search'}>Find in {field.label.toLowerCase()}</label><input id={path+'-search'} type="search" value={query} onChange={e=>{setNewId('');setQuery(e.target.value);}} placeholder="Search titles and summaries"/><p className="small" role="status">{shown.length} of {value.length} items shown. Items needing attention stay visible.</p></div>}
- {shown.map(({item,index,invalid})=><details key={String(item.id)} className="cms-collection-item" open={newId===item.id||invalid?true:undefined}><summary><span className="cms-item-summary"><strong>{index+1}. {title(item)}</strong><span className="cms-item-excerpt">{description(item)||'Expand to edit this item'}</span></span><small>{invalid?'Needs attention':item.enabled?'Visible':'Hidden'}{item.featured?' · Featured':''}</small></summary><div className="cms-item-fields"><p className="small">ID: {String(item.id)}</p><div className="cms-actions"><button type="button" disabled={index===0} aria-label={'Move '+title(item)+' up'} onClick={()=>reorder(index,index-1)}>↑ Move up</button><button type="button" disabled={index===value.length-1} aria-label={'Move '+title(item)+' down'} onClick={()=>reorder(index,index+1)}>↓ Move down</button><button type="button" disabled={value.length<=(field.min??0)} onClick={()=>{if(confirm('Remove this item from the draft? It remains in revision history after saving.'))change(value.filter(i=>i.id!==item.id).map((i,position)=>({...i,position})));}}>Remove</button><label><input type="checkbox" checked={!!item.enabled} onChange={e=>change(value.map(i=>i.id===item.id?{...i,enabled:e.target.checked}:i))}/> Visible</label></div><ObjectFields fields={field.fields!} value={item} change={next=>change(value.map(i=>i.id===item.id?next:i))} path={path+'.'+index} errors={errors} locale={locale} market={market} homepage={homepage}/></div></details>)}
- {!shown.length&&<p>No items match your search.</p>}
- <button type="button" className="button secondary" disabled={value.length>=(field.max??12)} onClick={()=>{const item=blank(field.fields!,locale,market);item.position=value.length;setQuery('');setNewId(String(item.id));change([...value,item]);}}>Add {field.label.toLowerCase()}</button><p className="small">Minimum {field.min??0}; maximum {field.max}. Reordering preserves item identity.</p></section>;
+function blank(fields: Field[], locale: string, market: string): EditorObject {
+  return {
+    id: crypto.randomUUID(),
+    localeId: locale,
+    marketId: market,
+    position: 0,
+    enabled: true,
+    ...Object.fromEntries(
+      fields.map((f) => [
+        f.key,
+        f.type === "collection"
+          ? []
+          : f.type === "media"
+            ? {
+                mediaId: homepageAssets[0].id,
+                alt: "",
+                decorative: true,
+                focalX: 50,
+                focalY: 50,
+              }
+            : f.type === "boolean"
+              ? false
+              : f.type === "number"
+                ? (f.min ?? 0)
+                : f.type === "select"
+                  ? f.options![0]
+                  : "",
+      ]),
+    ),
+  };
 }
-function MediaField({value,change,path,errors}:{value:EditorObject;change:(v:EditorObject)=>void;path:string;errors:Errors}){const [open,setOpen]=useState(false);return <section className="cms-media"><label className="field-label">Image</label><div className="cms-media-current"><img src={assetUrl(String(value.mediaId))} alt="Selected asset thumbnail"/><div><p>{homepageAssets.find(a=>a.id===value.mediaId)?.filename??"Uploaded image"}</p><button type="button" className="button secondary" onClick={()=>setOpen(true)}>Choose image</button></div></div><FieldError errors={errors} path={path}/><FieldError errors={errors} path={path+'.mediaId'}/><label className="field-label" htmlFor={path+'.alt'}>Image alt text</label><input id={path+'.alt'} value={String(value.alt)} maxLength={300} onChange={e=>change({...value,alt:e.target.value})}/><FieldError errors={errors} path={path+'.alt'}/><label><input type="checkbox" checked={!!value.decorative} onChange={e=>change({...value,decorative:e.target.checked})}/> Decorative image</label>{['focalX','focalY'].map((key,i)=><label className="field-label" key={key}>Focal position {i===0?'horizontal':'vertical'}: {String(value[key])}%<input aria-label={'Focal position '+(i===0?'horizontal':'vertical')} type="range" min="0" max="100" value={Number(value[key])} onChange={e=>change({...value,[key]:Number(e.target.value)})}/></label>)}{open&&<MediaPicker selected={String(value.mediaId)} choose={(id,defaults)=>{change({...value,...defaults,mediaId:id});setOpen(false);}} close={()=>setOpen(false)}/>}</section>;}
+function ObjectFields({
+  fields,
+  value,
+  change,
+  path,
+  errors,
+  locale,
+  market,
+  homepage,
+}: {
+  fields: Field[];
+  value: EditorObject;
+  change: (v: EditorObject) => void;
+  path: string;
+  errors: Errors;
+  locale: string;
+  market: string;
+  homepage: EditorObject;
+}) {
+  return (
+    <>
+      {fields.map((field) => {
+        const id = path + "." + field.key;
+        const update = (next: EditorObject[string]) =>
+          change({ ...value, [field.key]: next });
+        if (field.type === "collection")
+          return (
+            <CollectionField
+              key={id}
+              field={field}
+              value={value[field.key] as EditorObject[]}
+              change={update}
+              path={id}
+              errors={errors}
+              locale={locale}
+              market={market}
+              homepage={homepage}
+            />
+          );
+        if (field.type === "media")
+          return (
+            <MediaField
+              key={id}
+              value={value[field.key] as EditorObject}
+              change={update}
+              path={id}
+              errors={errors}
+            />
+          );
+        const options =
+          field.key === "parentId"
+            ? ((homepage.header as EditorObject).items as EditorObject[])
+                .filter((i) => !i.parentId && i.id !== value.id)
+                .map((i) => ({ value: String(i.id), label: String(i.title) }))
+            : field.key === "featureId"
+              ? (
+                  (homepage.hosting as EditorObject).features as EditorObject[]
+                ).map((i) => ({ value: String(i.id), label: String(i.title) }))
+              : field.options?.map((v) => ({ value: v, label: v }));
+        return (
+          <div key={id} className="cms-field">
+            <label className="field-label" htmlFor={id}>
+              {field.label}
+            </label>
+            {field.type === "boolean" ? (
+              <input
+                id={id}
+                type="checkbox"
+                checked={!!value[field.key]}
+                onChange={(e) => update(e.target.checked)}
+              />
+            ) : options ? (
+              <select
+                id={id}
+                value={String(value[field.key] ?? "")}
+                onChange={(e) => update(e.target.value)}
+              >
+                <option value="">
+                  {field.key === "parentId" ? "No parent" : "Choose…"}
+                </option>
+                {options.map((o) => (
+                  <option key={o.value} value={o.value}>
+                    {o.label}
+                  </option>
+                ))}
+              </select>
+            ) : field.type === "copy" ? (
+              <textarea
+                id={id}
+                rows={4}
+                value={String(value[field.key] ?? "")}
+                maxLength={field.max}
+                onChange={(e) => update(e.target.value)}
+                aria-invalid={!!errors[id]}
+                aria-describedby={errors[id] ? id + "-error" : undefined}
+              />
+            ) : (
+              <input
+                id={id}
+                type={field.type === "number" ? "number" : "text"}
+                min={field.min}
+                max={field.max}
+                maxLength={field.max}
+                value={String(value[field.key] ?? "")}
+                onChange={(e) =>
+                  update(
+                    field.type === "number"
+                      ? Number(e.target.value)
+                      : e.target.value,
+                  )
+                }
+                aria-invalid={!!errors[id]}
+                aria-describedby={errors[id] ? id + "-error" : undefined}
+              />
+            )}
+            <FieldError errors={errors} path={id} />
+          </div>
+        );
+      })}
+    </>
+  );
+}
+function CollectionField({
+  field,
+  value,
+  change,
+  path,
+  errors,
+  locale,
+  market,
+  homepage,
+}: {
+  field: Field;
+  value: EditorObject[];
+  change: (v: EditorObject[]) => void;
+  path: string;
+  errors: Errors;
+  locale: string;
+  market: string;
+  homepage: EditorObject;
+}) {
+  const [newId, setNewId] = useState("");
+  const [query, setQuery] = useState("");
+  const title = (item: EditorObject) =>
+    String(
+      item.title ||
+        (item.featureId
+          ? (
+              (homepage.hosting as EditorObject).features as EditorObject[]
+            ).find((f) => f.id === item.featureId)?.title
+          : "") ||
+        item.value ||
+        "New item",
+    );
+  const description = (item: EditorObject) =>
+    [
+      item.monthlyPrice
+        ? String(item.monthlyPrice) + " " + String(item.monthlyUnit || "")
+        : "",
+      item.categories,
+      item.description,
+      item.body,
+      item.href,
+      item.ctaLabel,
+      item.featureId ? item.value : "",
+    ]
+      .filter((v) => typeof v === "string" && v.trim())
+      .map(String)
+      .join(" · ");
+  const reorder = (from: number, to: number) => {
+    const next = [...value];
+    const [entry] = next.splice(from, 1);
+    next.splice(to, 0, entry);
+    change(next.map((item, position) => ({ ...item, position })));
+  };
+  const shown = value
+    .map((item, index) => ({
+      item,
+      index,
+      invalid: Object.keys(errors).some((p) =>
+        p.startsWith(path + "." + index + "."),
+      ),
+    }))
+    .filter(
+      ({ item, invalid }) =>
+        invalid ||
+        newId === item.id ||
+        (title(item) + " " + description(item))
+          .toLowerCase()
+          .includes(query.trim().toLowerCase()),
+    );
+  return (
+    <section className="cms-collection">
+      <div className="section-heading">
+        <h3>{field.label}</h3>
+        <span>
+          {value.length} / {field.max}
+        </span>
+      </div>
+      <FieldError errors={errors} path={path} />
+      {(value.length >= 6 || query) && (
+        <div className="cms-collection-search">
+          <label className="field-label" htmlFor={path + "-search"}>
+            Find in {field.label.toLowerCase()}
+          </label>
+          <input
+            id={path + "-search"}
+            type="search"
+            value={query}
+            onChange={(e) => {
+              setNewId("");
+              setQuery(e.target.value);
+            }}
+            placeholder="Search titles and summaries"
+          />
+          <p className="small" role="status">
+            {shown.length} of {value.length} items shown. Items needing
+            attention stay visible.
+          </p>
+        </div>
+      )}
+      {shown.map(({ item, index, invalid }) => (
+        <details
+          key={String(item.id)}
+          className="cms-collection-item"
+          open={newId === item.id || invalid ? true : undefined}
+        >
+          <summary>
+            <span className="cms-item-summary">
+              <strong>
+                {index + 1}. {title(item)}
+              </strong>
+              <span className="cms-item-excerpt">
+                {description(item) || "Expand to edit this item"}
+              </span>
+            </span>
+            <small>
+              {invalid
+                ? "Needs attention"
+                : item.enabled
+                  ? "Visible"
+                  : "Hidden"}
+              {item.featured ? " · Featured" : ""}
+            </small>
+          </summary>
+          <div className="cms-item-fields">
+            <p className="small">ID: {String(item.id)}</p>
+            <div className="cms-actions">
+              <button
+                type="button"
+                disabled={index === 0}
+                aria-label={"Move " + title(item) + " up"}
+                onClick={() => reorder(index, index - 1)}
+              >
+                ↑ Move up
+              </button>
+              <button
+                type="button"
+                disabled={index === value.length - 1}
+                aria-label={"Move " + title(item) + " down"}
+                onClick={() => reorder(index, index + 1)}
+              >
+                ↓ Move down
+              </button>
+              <button
+                type="button"
+                disabled={value.length <= (field.min ?? 0)}
+                onClick={() => {
+                  if (
+                    confirm(
+                      "Remove this item from the draft? It remains in revision history after saving.",
+                    )
+                  )
+                    change(
+                      value
+                        .filter((i) => i.id !== item.id)
+                        .map((i, position) => ({ ...i, position })),
+                    );
+                }}
+              >
+                Remove
+              </button>
+              <label>
+                <input
+                  type="checkbox"
+                  checked={!!item.enabled}
+                  onChange={(e) =>
+                    change(
+                      value.map((i) =>
+                        i.id === item.id
+                          ? { ...i, enabled: e.target.checked }
+                          : i,
+                      ),
+                    )
+                  }
+                />{" "}
+                Visible
+              </label>
+            </div>
+            <ObjectFields
+              fields={field.fields!}
+              value={item}
+              change={(next) =>
+                change(value.map((i) => (i.id === item.id ? next : i)))
+              }
+              path={path + "." + index}
+              errors={errors}
+              locale={locale}
+              market={market}
+              homepage={homepage}
+            />
+          </div>
+        </details>
+      ))}
+      {!shown.length && <p>No items match your search.</p>}
+      <button
+        type="button"
+        className="button secondary"
+        disabled={value.length >= (field.max ?? 12)}
+        onClick={() => {
+          const item = blank(field.fields!, locale, market);
+          item.position = value.length;
+          setQuery("");
+          setNewId(String(item.id));
+          change([...value, item]);
+        }}
+      >
+        Add {field.label.toLowerCase()}
+      </button>
+      <p className="small">
+        Minimum {field.min ?? 0}; maximum {field.max}. Reordering preserves item
+        identity.
+      </p>
+    </section>
+  );
+}
+function MediaField({
+  value,
+  change,
+  path,
+  errors,
+}: {
+  value: EditorObject;
+  change: (v: EditorObject) => void;
+  path: string;
+  errors: Errors;
+}) {
+  const [open, setOpen] = useState(false);
+  return (
+    <section className="cms-media">
+      <label className="field-label">Image</label>
+      <div className="cms-media-current">
+        <img
+          src={assetUrl(String(value.mediaId))}
+          alt="Selected asset thumbnail"
+        />
+        <div>
+          <p>
+            {homepageAssets.find((a) => a.id === value.mediaId)?.filename ??
+              "Uploaded image"}
+          </p>
+          <button
+            type="button"
+            className="button secondary"
+            onClick={() => setOpen(true)}
+          >
+            Choose image
+          </button>
+        </div>
+      </div>
+      <FieldError errors={errors} path={path} />
+      <FieldError errors={errors} path={path + ".mediaId"} />
+      <label className="field-label" htmlFor={path + ".alt"}>
+        Image alt text
+      </label>
+      <input
+        id={path + ".alt"}
+        value={String(value.alt)}
+        maxLength={300}
+        onChange={(e) => change({ ...value, alt: e.target.value })}
+      />
+      <FieldError errors={errors} path={path + ".alt"} />
+      <label>
+        <input
+          type="checkbox"
+          checked={!!value.decorative}
+          onChange={(e) => change({ ...value, decorative: e.target.checked })}
+        />{" "}
+        Decorative image
+      </label>
+      {["focalX", "focalY"].map((key, i) => (
+        <label className="field-label" key={key}>
+          Focal position {i === 0 ? "horizontal" : "vertical"}:{" "}
+          {String(value[key])}%
+          <input
+            aria-label={
+              "Focal position " + (i === 0 ? "horizontal" : "vertical")
+            }
+            type="range"
+            min="0"
+            max="100"
+            value={Number(value[key])}
+            onChange={(e) =>
+              change({ ...value, [key]: Number(e.target.value) })
+            }
+          />
+        </label>
+      ))}
+      {open && (
+        <MediaPicker
+          selected={String(value.mediaId)}
+          choose={(id, defaults) => {
+            change({ ...value, ...defaults, mediaId: id });
+            setOpen(false);
+          }}
+          close={() => setOpen(false)}
+        />
+      )}
+    </section>
+  );
+}

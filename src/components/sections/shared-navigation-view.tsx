@@ -201,9 +201,9 @@ export function approvedNavigationView(
       const id = str(item.id),
         title = str(item.title),
         children = items.filter((c) => c.parentId === id),
-        host = title === "Hosting",
-        service = title === "Services",
-        industry = title === "Industries",
+        host = title === "Hosting" || title === "الاستضافة",
+        service = title === "Services" || title === "الخدمات",
+        industry = title === "Industries" || title === "القطاعات",
         feature = id + "-feature";
       return (
         <div
@@ -214,6 +214,7 @@ export function approvedNavigationView(
           key={id}
           className={
             "cy-host-panel" +
+            (host ? " cy-hosting-panel" : "") +
             (industry ? " cy-industry-panel" : "") +
             (current ? " cy-link-active" : "")
           }
@@ -263,7 +264,7 @@ export function approvedNavigationView(
           </div>
           <aside className="cy-host-feature">
             <span>
-              {host
+              {menu.language === "ar" ? (host ? "استضافة تحافظ على استمرارية أعمالك" : service ? "من الفكرة إلى تجربة متكاملة" : "حلول تناسب قطاع أعمالك") : host
                 ? "KEEP YOUR WEBSITE MOVING"
                 : service
                   ? "IDEAS INTO EXPERIENCES"
@@ -284,7 +285,9 @@ export function approvedNavigationView(
               }
             />
             <h3>
-              {host ? (
+              {menu.language === "ar" ? (
+                host ? <>استضافة تجمع احتياجاتك.<br />ودعم يرافق نموك.</> : service ? <>خدمات مترابطة.<br />واتجاه واضح لأعمالك.</> : <>نفهم نشاطك.<br />ونبني تجربة تناسبه.</>
+              ) : host ? (
                 <>
                   One place for hosting.
                   <br />
@@ -304,19 +307,11 @@ export function approvedNavigationView(
               )}
             </h3>
             <a
-              href={
-                host
-                  ? str(
-                      children.find(
-                        (child) => str(child.title) === "Technical Support",
-                      )?.href,
-                    )
-                  : str(item.href)
-              }
+              href={str(item.href)}
               className={current === feature ? "cy-current" : ""}
               {...linkProps(feature)}
             >
-              Explore {host ? "technical support" : title.toLowerCase()}{" "}
+              {menu.language === "ar" ? "استكشف " : "Explore "}{title.toLowerCase()}{" "}
               <span aria-hidden="true">↗</span>
             </a>
           </aside>

@@ -1,0 +1,322 @@
+[
+  {
+    "ar": false,
+    "slug": "website-hosting",
+    "slide": 1,
+    "top": 96.4375,
+    "contentTop": 172.265625,
+    "contentBottom": 692.59375,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "website-hosting",
+    "slide": 2,
+    "top": 96.4375,
+    "contentTop": 182.765625,
+    "contentBottom": 682.09375,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "website-hosting",
+    "slide": 3,
+    "top": 96.4375,
+    "contentTop": 172.265625,
+    "contentBottom": 692.59375,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "website-hosting",
+    "slide": 4,
+    "top": 96.4375,
+    "contentTop": 161.765625,
+    "contentBottom": 703.09375,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "wordpress-hosting",
+    "slide": 1,
+    "top": 96,
+    "contentTop": 171.80406188964844,
+    "contentBottom": 692.1321868896484,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "wordpress-hosting",
+    "slide": 2,
+    "top": 96,
+    "contentTop": 182.30406188964844,
+    "contentBottom": 681.6321868896484,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "wordpress-hosting",
+    "slide": 3,
+    "top": 96,
+    "contentTop": 171.80406188964844,
+    "contentBottom": 692.1321868896484,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "wordpress-hosting",
+    "slide": 4,
+    "top": 95.640625,
+    "contentTop": 160.96875,
+    "contentBottom": 702.296875,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "cloud-hosting",
+    "slide": 1,
+    "top": 96,
+    "contentTop": 182.30300903320312,
+    "contentBottom": 681.6311645507812,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "cloud-hosting",
+    "slide": 2,
+    "top": 96,
+    "contentTop": 182.30300903320312,
+    "contentBottom": 681.6311645507812,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "cloud-hosting",
+    "slide": 3,
+    "top": 96,
+    "contentTop": 171.80300903320312,
+    "contentBottom": 692.1311340332031,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "cloud-hosting",
+    "slide": 4,
+    "top": 95.625,
+    "contentTop": 160.953125,
+    "contentBottom": 702.28125,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "email-hosting",
+    "slide": 1,
+    "top": 96.359375,
+    "contentTop": 218.78125,
+    "contentBottom": 645.921875,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "email-hosting",
+    "slide": 2,
+    "top": 96.359375,
+    "contentTop": 208.28125,
+    "contentBottom": 656.421875,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "email-hosting",
+    "slide": 3,
+    "top": 96.359375,
+    "contentTop": 208.28125,
+    "contentBottom": 656.421875,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": false,
+    "slug": "email-hosting",
+    "slide": 4,
+    "top": 96.359375,
+    "contentTop": 208.28125,
+    "contentBottom": 656.421875,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "website-hosting",
+    "slide": 1,
+    "top": 96.25,
+    "contentTop": 182.578125,
+    "contentBottom": 681.90625,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "website-hosting",
+    "slide": 2,
+    "top": 96.25,
+    "contentTop": 193.078125,
+    "contentBottom": 671.40625,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "website-hosting",
+    "slide": 3,
+    "top": 96.25,
+    "contentTop": 182.578125,
+    "contentBottom": 681.90625,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "website-hosting",
+    "slide": 4,
+    "top": 96.25,
+    "contentTop": 193.078125,
+    "contentBottom": 671.40625,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "wordpress-hosting",
+    "slide": 1,
+    "top": 96.453125,
+    "contentTop": 182.78125,
+    "contentBottom": 682.109375,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "wordpress-hosting",
+    "slide": 2,
+    "top": 96.453125,
+    "contentTop": 193.28125,
+    "contentBottom": 671.609375,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "wordpress-hosting",
+    "slide": 3,
+    "top": 96.453125,
+    "contentTop": 182.78125,
+    "contentBottom": 682.109375,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "wordpress-hosting",
+    "slide": 4,
+    "top": 96.453125,
+    "contentTop": 193.28125,
+    "contentBottom": 671.609375,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "cloud-hosting",
+    "slide": 1,
+    "top": 96.4375,
+    "contentTop": 182.765625,
+    "contentBottom": 682.09375,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "cloud-hosting",
+    "slide": 2,
+    "top": 96.4375,
+    "contentTop": 193.265625,
+    "contentBottom": 671.59375,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "cloud-hosting",
+    "slide": 3,
+    "top": 96.4375,
+    "contentTop": 182.765625,
+    "contentBottom": 682.09375,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "cloud-hosting",
+    "slide": 4,
+    "top": 96.4375,
+    "contentTop": 193.265625,
+    "contentBottom": 671.59375,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "email-hosting",
+    "slide": 1,
+    "top": 96.359375,
+    "contentTop": 229.28125,
+    "contentBottom": 635.421875,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "email-hosting",
+    "slide": 2,
+    "top": 96.359375,
+    "contentTop": 208.28125,
+    "contentBottom": 656.421875,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "email-hosting",
+    "slide": 3,
+    "top": 96.359375,
+    "contentTop": 229.28125,
+    "contentBottom": 635.421875,
+    "viewport": 768,
+    "fit": true
+  },
+  {
+    "ar": true,
+    "slug": "email-hosting",
+    "slide": 4,
+    "top": 96.359375,
+    "contentTop": 218.78125,
+    "contentBottom": 645.921875,
+    "viewport": 768,
+    "fit": true
+  }
+]

@@ -5,13 +5,17 @@ import { approvedMenuContent } from "@/content/approved-navigation";
 import "@/styles/approved-mega.css";
 import { approvedNavigationView } from "./shared-navigation-view";
 export { IndustryIcon } from "./shared-navigation-view";
-export function useApprovedNavigation(content: EditorObject, preview = true) {
+export function useApprovedNavigation(
+  content: EditorObject,
+  preview = true,
+  locale = "en",
+) {
   const [active, setActive] = useState<string | null>(null),
     [current, setCurrent] = useState<string | null>(null),
     timer = useRef<ReturnType<typeof setTimeout> | null>(null),
     buttons = useRef<Record<string, HTMLButtonElement | null>>({}),
     panels = useRef<Record<string, HTMLDivElement | null>>({});
-  const menu = approvedMenuContent(content, preview);
+  const menu = approvedMenuContent(content, preview, locale);
   const cancel = () => {
     if (timer.current) clearTimeout(timer.current);
   };

@@ -1,0 +1,64 @@
+{
+  "spacing": [
+    {
+      "width": 1366,
+      "r": "/about/",
+      "header": 131,
+      "brand": 185,
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "width": 1366,
+      "r": "/services/",
+      "header": 131,
+      "brand": 185,
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "width": 1366,
+      "r": "/industries/",
+      "header": 131,
+      "brand": 185,
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "width": 1366,
+      "r": "/industries/legal/",
+      "header": 131,
+      "brand": 185,
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "width": 390,
+      "r": "/about/",
+      "header": 75,
+      "brand": 129,
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "width": 390,
+      "r": "/services/",
+      "header": 75,
+      "brand": 129,
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "width": 390,
+      "r": "/industries/",
+      "header": 75,
+      "brand": 129,
+      "background": "rgb(255, 255, 255)"
+    },
+    {
+      "width": 390,
+      "r": "/industries/legal/",
+      "header": 75,
+      "brand": 129,
+      "background": "rgb(255, 255, 255)"
+    }
+  ],
+  "shadows": {
+    "text": "rgba(0, 0, 0, 0.733) 0px 2px 8px, rgba(0, 0, 0, 0.533) 0px 8px 24px",
+    "card": "rgba(0, 0, 0, 0.3) 0px 70px 200px 0px"
+  }
+}

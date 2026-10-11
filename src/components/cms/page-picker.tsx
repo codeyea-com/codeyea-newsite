@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import type { PageCatalogItem } from "@/content/page-catalog";
+import { ArabicInitializeButton } from "./arabic-initialize-button";
 export function PagePicker({
   current,
   dirty = false,
@@ -27,10 +28,12 @@ export function PagePicker({
     return () => abort.abort();
   }, []);
   const available = pages.filter((page) => !page.id.startsWith("template:"));
-  const filtered = available.filter((page) =>
-    page.id===current || `${page.title} ${page.path} ${page.locale}`
-      .toLowerCase()
-      .includes(query.toLowerCase()),
+  const filtered = available.filter(
+    (page) =>
+      page.id === current ||
+      `${page.title} ${page.path} ${page.locale}`
+        .toLowerCase()
+        .includes(query.toLowerCase()),
   );
   return (
     <section className="cms-page-picker" aria-label="Switch page">
@@ -89,6 +92,7 @@ export function PagePicker({
         {filtered.length} of {available.length} editable pages
       </small>
       {error && <p role="alert">{error}</p>}
+      <ArabicInitializeButton disabled={disabled || dirty} />
     </section>
   );
 }

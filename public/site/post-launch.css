@@ -1,0 +1,569 @@
+@import url("/site/readex-pro.css");
+@import url("/site/brand-font.css");
+.cy-back-top {
+  position: fixed;
+  inset-inline-end: 24px;
+  bottom: 24px;
+  z-index: 25;
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 0;
+  background: #e0144c;
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  transition: background .25s ease;
+}
+.cy-back-top[hidden] { display: none; }
+.cy-back-top:is(:hover, :focus-visible) { background: #072448; }
+.cy-back-top:focus-visible { outline: 2px solid #072448; outline-offset: 4px; }
+/* Owner post-launch corrections: retain existing compositions and motion controllers. */
+.hp.public-surface {
+  --font-body: "CODEYEA Josefin Sans", "Segoe UI", sans-serif;
+  background-color: #fff !important;
+  font-family: var(--font-body);
+}
+.hp.public-surface main,
+.hp.public-surface .about-hero {
+  background-color: #fff !important;
+}
+.hp.public-surface
+  :is(
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    button,
+    input,
+    textarea,
+    select,
+    summary,
+    table,
+    label,
+    legend,
+    span,
+    strong,
+    small,
+    em
+  ) {
+  font-family: var(--font-body);
+}
+.hp.public-surface .hp-header.is-scrolled {
+  background: #fff !important;
+}
+.hp.public-surface .hp-header.is-scrolled::before {
+  background: #fff !important;
+  backdrop-filter: none !important;
+}
+/* Internal title heroes need the header's full space in normal flow. */
+.hp.public-surface:has(.internal-hero-copy) .hp-header {
+  margin-bottom: 0 !important;
+}
+.hp .hp-header .hp-nav-item {
+  transition: opacity 0.25s ease;
+}
+.hp .hp-header .hp-desktop-nav > .hp-nav-item,
+.hp .hp-header .hp-desktop-nav > .hp-nav-item:is(:hover, :focus-within) {
+  background: transparent !important;
+  box-shadow: none !important;
+  transform: none;
+}
+.hp .hp-header .hp-desktop-nav > .hp-nav-item > a,
+.hp .hp-header .hp-desktop-nav > .hp-nav-item > .cy-nav-root > a {
+  display: inline-block;
+  background: transparent !important;
+  box-shadow: none !important;
+  transition: color .25s ease, transform .25s ease, text-shadow .25s ease;
+}
+.hp .hp-header .hp-nav-item a:is([aria-current="page"], [aria-current="location"]) {
+  color: #e0144c !important;
+}
+@media (hover: hover) {
+  .hp
+    .hp-header
+    .hp-desktop-nav:has(> .hp-nav-item:is(:hover, :focus-within))
+    > .hp-nav-item:not(:hover):not(:focus-within) {
+    opacity: 0.42;
+  }
+  .hp .hp-header .hp-desktop-nav > .hp-nav-item:is(:hover, :focus-within) > a,
+  .hp .hp-header .hp-desktop-nav > .hp-nav-item:is(:hover, :focus-within) > .cy-nav-root > a {
+    transform: translateY(-3px);
+    text-shadow: 0 3px 8px rgb(224 20 76 / 24%);
+  }
+}
+/* Hosting's four entries form two compact rows beside the existing feature. */
+.hp .hp-header > .cy-hosting-panel {
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 30px;
+  padding-block: 26px;
+}
+.hp .hp-header .cy-hosting-panel .cy-host-links {
+  align-content: start;
+  align-items: start;
+  gap: 40px 30px;
+}
+.hp .hp-header .cy-hosting-panel .cy-host-desc {
+  padding-inline-start: 59px;
+  margin-top: 6px;
+}
+.hp .hp-header .cy-hosting-panel .cy-host-feature {
+  padding-inline-start: 24px;
+}
+.hp .hp-header .cy-hosting-panel .cy-host-feature img {
+  width: 100%;
+  max-width: none;
+  height: 128px;
+  margin-block: 8px;
+}
+.hp .hp-header .cy-hosting-panel .cy-host-feature h3 {
+  font-size: 20px;
+  line-height: 1.35;
+  margin-block: 8px;
+}
+.hp .hp-header .cy-hosting-panel .cy-host-feature a {
+  padding-block: 0;
+  min-height: 24px;
+}
+.hp .rp-work-rows h3 > span {
+  position: relative;
+  isolation: isolate;
+  display: inline-block;
+}
+.hp .rp-work-rows h3 > span:before {
+  content: "";
+  position: absolute;
+  inset: 48% -0.07em 3%;
+  z-index: -1;
+  background: #ffcb0066;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.55s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.hp .rp-work-rows article:nth-child(2) h3 > span:before {
+  background: #10aabc45;
+}
+.hp .rp-work-rows article:nth-child(3) h3 > span:before {
+  background: #e0144c30;
+}
+.hp .rp-work-rows article:is(:hover, :focus-within) h3 > span:before {
+  transform: scaleX(1);
+}
+.hp .rp-cards article:is(:hover, :focus-within) .rp-card-copy {
+  text-shadow:
+    0 2px 8px #000b,
+    0 8px 24px #0008;
+}
+.hp .industry-action {
+  padding: 12px 16px;
+  color: #e0144c !important;
+  background-image: linear-gradient(#121212, #121212);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition:
+    background-size 0.45s cubic-bezier(0.2, 0.7, 0.2, 1),
+    color 0.3s ease;
+}
+.hp .industry-action:is(:hover, :focus-visible) {
+  background-size: 100% 100%;
+  color: #fff !important;
+}
+.hp :is(.detail-related, .rf-industries) a {
+  display: inline-block;
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+.hp :is(.detail-related, .rf-industries) a:is(:hover, :focus-visible) {
+  color: #e0144c;
+  transform: translateX(5px);
+}
+.hp .hp-saving-note {
+  color: #e0144c;
+  filter: drop-shadow(0 2px 7px #e0144c15);
+  animation: cy-saving-float 3.4s ease-in-out infinite;
+}
+@keyframes cy-saving-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+.hp .cy-faq-question {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  list-style: none;
+  min-height: 76px;
+  padding: 24px 0 !important;
+  color: #191c31;
+  background: transparent;
+  font-size: clamp(18px, 1.7vw, 25px) !important;
+  line-height: 1.4;
+  font-weight: 500;
+  text-align: left;
+  border: 0;
+  width: 100%;
+  cursor: pointer;
+  transition: color 0.4s ease, padding-inline-start 0.5s ease;
+}
+.hp .cy-faq-question::-webkit-details-marker {
+  display: none;
+}
+.hp .cy-faq-question > span[aria-hidden="true"]:last-child {
+  display: none !important;
+}
+.hp .cy-faq-question:before {
+  content: none !important;
+}
+.hp .cy-faq-question:after {
+  content: "+" !important;
+  display: grid;
+  place-items: center;
+  flex: 0 0 48px;
+  position: static !important;
+  width: 48px;
+  height: 48px;
+  font: 400 30px/1 var(--font-body);
+  border: 1px solid #dedede;
+  background: #fff;
+  color: #121212;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease,
+    transform 0.35s ease;
+  transform: none !important;
+}
+.hp .cy-faq-question:is(:hover, :focus-visible) {
+  color: #e0144c !important;
+  padding-inline-start: 8px !important;
+}
+.hp .cy-faq-question:is(:hover, :focus-visible):after,
+.hp
+  :is(
+    details[open] > summary,
+    button[aria-expanded="true"]
+  ).cy-faq-question:after {
+  background: #121212;
+  color: #fff;
+  border-color: #121212;
+}
+.hp
+  :is(
+    details[open] > summary,
+    button[aria-expanded="true"]
+  ).cy-faq-question:after {
+  content: "−" !important;
+}
+.hp .cy-faq-item {
+  border-bottom: 1px solid #dce3e8 !important;
+}
+.hp .cy-faq-item > p,
+.hp .cy-faq-item .sv-answer p {
+  font-size: 17px !important;
+  line-height: 1.7 !important;
+  padding-bottom: 24px;
+  padding-right: 72px;
+}
+@media (min-width: 901px) {
+  .hp .v .v-showcases .v-show {
+    height: calc(100svh - 96px);
+    min-height: 560px;
+    max-height: none;
+    padding-block: 24px;
+    gap: 2%;
+  }
+  .hp .v-showcases .v-copy {
+    padding: 18px 24px;
+    min-width: 0;
+  }
+  .hp .v-showcases .v-copy h2 {
+    font-size: clamp(30px, 2.8vw, 46px);
+    line-height: 1.12;
+    margin-block: 12px 18px;
+  }
+  .hp .v-showcases .v-copy p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-block: 14px;
+  }
+  .hp .v-showcases .v-expanded-copy {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 16px;
+  }
+  .hp .v-showcases .v-stage {
+    height: min(55svh, 480px);
+    min-height: 0;
+  }
+}
+@media (min-width: 901px) and (max-height: 780px) {
+  .hp .v-showcases .v-copy h2 {
+    font-size: 32px;
+  }
+  .hp .v-showcases .v-copy p,
+  .hp .v-showcases .v-copy li {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .hp .v-showcases .v-expanded-copy {
+    font-size: 13px;
+  }
+  .hp .v-showcases .v-copy {
+    padding-block: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hp .hp-saving-note {
+    animation: none;
+  }
+  .hp .hp-nav-item,
+  .hp .industry-action,
+  .hp .detail-related a,
+  .hp .rp-work-rows h3 > span:before,
+  .hp .cy-faq-question,
+  .hp .cy-faq-question:after {
+    transition: none !important;
+    transform: none !important;
+  }
+}
+.hp .cy-support-promo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7%;
+  align-items: center;
+  padding-block: 100px;
+  border-top: 1px solid #dce3e8;
+}
+.hp .cy-support-promo figure {
+  margin: 0;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+.hp .cy-support-promo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hp .cy-support-promo h2 {
+  font-size: clamp(32px, 3.1vw, 48px);
+  line-height: 1.15;
+  margin: 18px 0 24px;
+  color: #191c31;
+}
+.hp .cy-support-promo p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #626872;
+  margin-bottom: 30px;
+}
+.hp .cy-search-services {
+  padding-block: 95px;
+}
+.hp .cy-search-services header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px 7%;
+}
+.hp .cy-search-services header > span {
+  grid-column: 1/-1;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+}
+.hp .cy-search-services h2 {
+  font-size: clamp(32px, 3.4vw, 52px);
+  font-weight: 500;
+  line-height: 1.12;
+  margin: 0;
+  color: #191c31;
+}
+.hp .cy-search-services p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #626872;
+}
+.hp .cy-search-services header > p {
+  margin: 0;
+}
+.hp .cy-search-service-rows {
+  margin: 55px 0 35px;
+  border-top: 1px solid #dce3e8;
+}
+.hp .cy-search-service-rows article {
+  display: grid;
+  grid-template-columns: 60px 1fr 1fr;
+  gap: 25px;
+  padding: 30px 0;
+  border-bottom: 1px solid #dce3e8;
+  align-items: start;
+}
+.hp .cy-search-service-rows article > span {
+  font-size: 14px;
+  color: #e0144c;
+}
+.hp .cy-search-service-rows h3 {
+  font-size: 27px;
+  line-height: 1.3;
+  font-weight: 500;
+  margin: 0;
+  color: #191c31;
+}
+.hp .cy-search-service-rows p {
+  margin: 0;
+  font-size: 17px;
+}
+.hp .cy-support-cta {
+  background: #072448 !important;
+  color: #fff;
+  position: relative;
+  border-top: 4px solid #e0144c;
+  padding-block: 80px !important;
+  align-items: center !important;
+}
+.hp .cy-support-cta h2 {
+  color: #fff !important;
+  font-family: var(--font-body) !important;
+  font-size: clamp(34px, 3.7vw, 56px) !important;
+  line-height: 1.12 !important;
+  font-weight: 500 !important;
+}
+.hp .cy-support-cta > div > span {
+  color: #ffcb00 !important;
+}
+.hp .cy-support-cta .b-btn {
+  min-height: 64px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+.hp .cy-support-cta .b-btn:is(:hover, :focus-visible) {
+  background: #121212;
+  transform: translateY(-3px);
+}
+@media (max-width: 800px) {
+  .hp .cy-support-promo,
+  .hp .cy-search-services header {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .hp .cy-support-promo,
+  .hp .cy-search-services {
+    padding-block: 60px;
+  }
+  .hp .cy-search-service-rows article {
+    grid-template-columns: 36px 1fr;
+    gap: 15px;
+  }
+  .hp .cy-search-service-rows article p {
+    grid-column: 2;
+  }
+  .hp .cy-support-cta {
+    padding-block: 60px !important;
+  }
+}
+.hp .hp-header .hp-nav-item :is(a, summary, .cy-host-toggle) {
+  opacity: 1 !important;
+}
+.hp
+  .hp-header
+  .hp-desktop-nav
+  > .hp-nav-item:is(:hover, :focus-within)
+  > .cy-nav-root
+  > a,
+.hp .hp-header .hp-desktop-nav > .hp-nav-item:is(:hover, :focus-within) > a {
+  color: #e0144c !important;
+}
+.hp.public-surface .cy-faq-question h3 {
+  font: inherit !important;
+  margin: 0 !important;
+  color: inherit !important;
+}
+.hp .cy-faq-question svg {
+  display: none;
+}
+/* Animated details remain open while closing; follow their announced state. */
+.hp.public-surface summary.cy-faq-question[aria-expanded="false"]:after {
+  content: "+" !important;
+}
+.hp summary.cy-faq-question[aria-expanded="false"]:not(:hover):not(:focus-visible):after {
+  background: #fff;
+  color: #121212;
+  border-color: #dedede;
+}
+.hp.public-surface .industry-action:is(:hover, :focus-visible) {
+  background-image: linear-gradient(#121212, #121212) !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+}
+.cy-arabic-surface {
+  direction: rtl;
+  text-align: right;
+}
+.cy-arabic-surface .hp :is(p, h1, h2, h3, h4, h5, h6, summary) {
+  letter-spacing: normal !important;
+}
+.cy-arabic-surface
+  .hp
+  :is(.cy-faq-question, .rf-accordion summary, .hp-flow-copy) {
+  text-align: right;
+}
+.cy-arabic-surface .about-showcase-heading {
+  line-height: 1.35;
+}
+.cy-arabic-surface .about-showcase-body {
+  line-height: 1.8;
+}
+.cy-arabic-surface .about-showcase-pagination {
+  right: auto;
+  left: max(16px, calc((100vw - 1260px) / 2));
+}
+.cy-arabic-surface .about-showcase-layout {
+  padding-inline: 0 65px;
+}
+.cy-arabic-surface .hp-word-window {
+  direction: rtl;
+}
+html[lang="ar"] .hp :is(p, h1, h2, h3, h4, h5, h6, summary) {
+  letter-spacing: normal !important;
+}
+html[lang="ar"] .hp .cy-faq-question {
+  text-align: right;
+}
+@media (max-width: 1199px) {
+  .cy-arabic-surface .about-showcase-layout {
+    padding-inline: 0;
+  }
+}
+#cq-dialog,
+#cq-dialog :is(h2, h3, p, label, legend, input, textarea, button) {
+  font-family: "CODEYEA Josefin Sans", "Segoe UI", sans-serif;
+}
+html[lang="ar"] #cq-dialog {
+  direction: rtl;
+  text-align: right;
+}
+html[lang="ar"] #cq-dialog :is(h2, h3, p, label, legend) {
+  letter-spacing: normal;
+}
+/* Owner-selected Arabic typeface; keep English brand typography unchanged. */
+html[lang="ar"] .hp.public-surface,
+.cy-arabic-surface .hp.public-surface {
+  --font-body: "Readex Pro", sans-serif;
+  font-family: var(--font-body);
+}
+html[lang="ar"] .hp :is(h1,h2,h3,h4,h5,h6,p,a,button,input,textarea,select,summary,table,label,legend,span,strong,small,em),
+.cy-arabic-surface .hp :is(h1,h2,h3,h4,h5,h6,p,a,button,input,textarea,select,summary,table,label,legend,span,strong,small,em),
+html[lang="ar"] #cq-dialog,
+html[lang="ar"] #cq-dialog :is(h2,h3,p,a,label,legend,input,textarea,select,button,span,strong,small,em) {
+  font-family: "Readex Pro", sans-serif !important;
+}
+
+.hp .hp-mobile-panel nav a:is([aria-current="page"],[aria-current="location"]) { color: #e0144c; background: rgb(255 255 255 / 8%); }

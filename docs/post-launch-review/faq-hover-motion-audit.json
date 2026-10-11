@@ -1,0 +1,146 @@
+[
+  {
+    "route": "/website-hosting/",
+    "before": {
+      "x": 599,
+      "padding": "0px",
+      "color": "rgb(25, 28, 49)",
+      "indicator": "48px"
+    },
+    "after": {
+      "x": 607,
+      "padding": "8px",
+      "color": "rgb(224, 20, 76)",
+      "indicator": "48px"
+    },
+    "delta": 8
+  },
+  {
+    "route": "/cloud-hosting/",
+    "before": {
+      "x": 599,
+      "padding": "0px",
+      "color": "rgb(25, 28, 49)",
+      "indicator": "48px"
+    },
+    "after": {
+      "x": 607,
+      "padding": "8px",
+      "color": "rgb(224, 20, 76)",
+      "indicator": "48px"
+    },
+    "delta": 8
+  },
+  {
+    "route": "/services/",
+    "before": {
+      "x": 740.5,
+      "padding": "0px",
+      "color": "rgb(25, 27, 48)",
+      "indicator": "48px"
+    },
+    "after": {
+      "x": 748.5,
+      "padding": "8px",
+      "color": "rgb(224, 20, 76)",
+      "indicator": "48px"
+    },
+    "delta": 8
+  },
+  {
+    "route": "/industries/legal/",
+    "before": {
+      "x": 780.5,
+      "padding": "0px",
+      "color": "rgb(7, 36, 72)",
+      "indicator": "48px"
+    },
+    "after": {
+      "x": 788.5,
+      "padding": "8px",
+      "color": "rgb(224, 20, 76)",
+      "indicator": "48px"
+    },
+    "delta": 8
+  },
+  {
+    "route": "/industries/roofing/",
+    "before": {
+      "x": 780.5,
+      "padding": "0px",
+      "color": "rgb(7, 36, 72)",
+      "indicator": "48px"
+    },
+    "after": {
+      "x": 788.5,
+      "padding": "8px",
+      "color": "rgb(224, 20, 76)",
+      "indicator": "48px"
+    },
+    "delta": 8
+  },
+  {
+    "route": "/technical-support/",
+    "before": {
+      "x": 669.359375,
+      "padding": "0px",
+      "color": "rgb(25, 28, 49)",
+      "indicator": "48px"
+    },
+    "after": {
+      "x": 677.359375,
+      "padding": "8px",
+      "color": "rgb(224, 20, 76)",
+      "indicator": "48px"
+    },
+    "delta": 8
+  },
+  {
+    "route": "/seo-geo/",
+    "before": {
+      "x": 669.359375,
+      "padding": "0px",
+      "color": "rgb(25, 28, 49)",
+      "indicator": "48px"
+    },
+    "after": {
+      "x": 677.359375,
+      "padding": "8px",
+      "color": "rgb(224, 20, 76)",
+      "indicator": "48px"
+    },
+    "delta": 8
+  },
+  {
+    "route": "/preview/ar/services",
+    "before": {
+      "x": 359.4375,
+      "padding": "0px",
+      "color": "rgb(25, 27, 48)",
+      "indicator": "48px"
+    },
+    "after": {
+      "x": 351.4375,
+      "padding": "8px",
+      "color": "rgb(224, 20, 76)",
+      "indicator": "48px"
+    },
+    "delta": -8
+  },
+  {
+    "route": "/preview/pages/website-hosting?locale=ar",
+    "before": {
+      "x": 384.484375,
+      "padding": "0px",
+      "color": "rgb(25, 28, 49)",
+      "indicator": "48px"
+    },
+    "after": {
+      "x": 376.484375,
+      "padding": "8px",
+      "color": "rgb(224, 20, 76)",
+      "indicator": "48px"
+    },
+    "delta": -8
+  }
+]

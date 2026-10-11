@@ -1,0 +1,470 @@
+[
+  {
+    "ar": false,
+    "height": 768,
+    "slide": 1,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 242.53125,
+        "bottom": 263.53125
+      },
+      {
+        "tag": "H2",
+        "top": 277.53125,
+        "bottom": 419.796875
+      },
+      {
+        "tag": "P",
+        "top": 435.796875,
+        "bottom": 551.734375
+      },
+      {
+        "tag": "BUTTON",
+        "top": 569.734375,
+        "bottom": 620.921875
+      }
+    ]
+  },
+  {
+    "ar": false,
+    "height": 768,
+    "slide": 2,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 266.25,
+        "bottom": 287.25
+      },
+      {
+        "tag": "H2",
+        "top": 301.25,
+        "bottom": 396.09375
+      },
+      {
+        "tag": "P",
+        "top": 412.09375,
+        "bottom": 528.03125
+      },
+      {
+        "tag": "BUTTON",
+        "top": 546.03125,
+        "bottom": 597.21875
+      }
+    ]
+  },
+  {
+    "ar": false,
+    "height": 768,
+    "slide": 3,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 242.53125,
+        "bottom": 263.53125
+      },
+      {
+        "tag": "H2",
+        "top": 277.53125,
+        "bottom": 419.796875
+      },
+      {
+        "tag": "P",
+        "top": 435.796875,
+        "bottom": 551.734375
+      },
+      {
+        "tag": "BUTTON",
+        "top": 569.734375,
+        "bottom": 620.921875
+      }
+    ]
+  },
+  {
+    "ar": false,
+    "height": 768,
+    "slide": 4,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 289.953125,
+        "bottom": 310.953125
+      },
+      {
+        "tag": "H2",
+        "top": 324.953125,
+        "bottom": 372.375
+      },
+      {
+        "tag": "P",
+        "top": 388.375,
+        "bottom": 504.3125
+      },
+      {
+        "tag": "BUTTON",
+        "top": 522.3125,
+        "bottom": 573.5
+      }
+    ]
+  },
+  {
+    "ar": false,
+    "height": 768,
+    "lastExit": 95.734375
+  },
+  {
+    "ar": false,
+    "height": 650,
+    "slide": 1,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 186.53125,
+        "bottom": 207.53125
+      },
+      {
+        "tag": "H2",
+        "top": 221.53125,
+        "bottom": 363.796875
+      },
+      {
+        "tag": "P",
+        "top": 379.796875,
+        "bottom": 495.734375
+      },
+      {
+        "tag": "BUTTON",
+        "top": 513.734375,
+        "bottom": 564.921875
+      }
+    ]
+  },
+  {
+    "ar": false,
+    "height": 650,
+    "slide": 2,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 210.25,
+        "bottom": 231.25
+      },
+      {
+        "tag": "H2",
+        "top": 245.25,
+        "bottom": 340.09375
+      },
+      {
+        "tag": "P",
+        "top": 356.09375,
+        "bottom": 472.03125
+      },
+      {
+        "tag": "BUTTON",
+        "top": 490.03125,
+        "bottom": 541.21875
+      }
+    ]
+  },
+  {
+    "ar": false,
+    "height": 650,
+    "slide": 3,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 186.53125,
+        "bottom": 207.53125
+      },
+      {
+        "tag": "H2",
+        "top": 221.53125,
+        "bottom": 363.796875
+      },
+      {
+        "tag": "P",
+        "top": 379.796875,
+        "bottom": 495.734375
+      },
+      {
+        "tag": "BUTTON",
+        "top": 513.734375,
+        "bottom": 564.921875
+      }
+    ]
+  },
+  {
+    "ar": false,
+    "height": 650,
+    "slide": 4,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 233.953125,
+        "bottom": 254.953125
+      },
+      {
+        "tag": "H2",
+        "top": 268.953125,
+        "bottom": 316.375
+      },
+      {
+        "tag": "P",
+        "top": 332.375,
+        "bottom": 448.3125
+      },
+      {
+        "tag": "BUTTON",
+        "top": 466.3125,
+        "bottom": 517.5
+      }
+    ]
+  },
+  {
+    "ar": false,
+    "height": 650,
+    "lastExit": 95.734375
+  },
+  {
+    "ar": true,
+    "height": 768,
+    "slide": 1,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 289.90625,
+        "bottom": 310.90625
+      },
+      {
+        "tag": "H2",
+        "top": 324.90625,
+        "bottom": 419.75
+      },
+      {
+        "tag": "P",
+        "top": 435.75,
+        "bottom": 505.3125
+      },
+      {
+        "tag": "BUTTON",
+        "top": 523.3125,
+        "bottom": 574.5
+      }
+    ]
+  },
+  {
+    "ar": true,
+    "height": 768,
+    "slide": 2,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 289.90625,
+        "bottom": 310.90625
+      },
+      {
+        "tag": "H2",
+        "top": 324.90625,
+        "bottom": 419.75
+      },
+      {
+        "tag": "P",
+        "top": 435.75,
+        "bottom": 505.3125
+      },
+      {
+        "tag": "BUTTON",
+        "top": 523.3125,
+        "bottom": 574.5
+      }
+    ]
+  },
+  {
+    "ar": true,
+    "height": 768,
+    "slide": 3,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 313.609375,
+        "bottom": 334.609375
+      },
+      {
+        "tag": "H2",
+        "top": 348.609375,
+        "bottom": 396.03125
+      },
+      {
+        "tag": "P",
+        "top": 412.03125,
+        "bottom": 481.59375
+      },
+      {
+        "tag": "BUTTON",
+        "top": 499.59375,
+        "bottom": 550.78125
+      }
+    ]
+  },
+  {
+    "ar": true,
+    "height": 768,
+    "slide": 4,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 289.90625,
+        "bottom": 310.90625
+      },
+      {
+        "tag": "H2",
+        "top": 324.90625,
+        "bottom": 419.75
+      },
+      {
+        "tag": "P",
+        "top": 435.75,
+        "bottom": 505.3125
+      },
+      {
+        "tag": "BUTTON",
+        "top": 523.3125,
+        "bottom": 574.5
+      }
+    ]
+  },
+  {
+    "ar": true,
+    "height": 768,
+    "lastExit": 96.203125
+  },
+  {
+    "ar": true,
+    "height": 650,
+    "slide": 1,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 233.90625,
+        "bottom": 254.90625
+      },
+      {
+        "tag": "H2",
+        "top": 268.90625,
+        "bottom": 363.75
+      },
+      {
+        "tag": "P",
+        "top": 379.75,
+        "bottom": 449.3125
+      },
+      {
+        "tag": "BUTTON",
+        "top": 467.3125,
+        "bottom": 518.5
+      }
+    ]
+  },
+  {
+    "ar": true,
+    "height": 650,
+    "slide": 2,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 233.90625,
+        "bottom": 254.90625
+      },
+      {
+        "tag": "H2",
+        "top": 268.90625,
+        "bottom": 363.75
+      },
+      {
+        "tag": "P",
+        "top": 379.75,
+        "bottom": 449.3125
+      },
+      {
+        "tag": "BUTTON",
+        "top": 467.3125,
+        "bottom": 518.5
+      }
+    ]
+  },
+  {
+    "ar": true,
+    "height": 650,
+    "slide": 3,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 257.609375,
+        "bottom": 278.609375
+      },
+      {
+        "tag": "H2",
+        "top": 292.609375,
+        "bottom": 340.03125
+      },
+      {
+        "tag": "P",
+        "top": 356.03125,
+        "bottom": 425.59375
+      },
+      {
+        "tag": "BUTTON",
+        "top": 443.59375,
+        "bottom": 494.78125
+      }
+    ]
+  },
+  {
+    "ar": true,
+    "height": 650,
+    "slide": 4,
+    "fit": true,
+    "bounds": [
+      {
+        "tag": "P",
+        "top": 233.90625,
+        "bottom": 254.90625
+      },
+      {
+        "tag": "H2",
+        "top": 268.90625,
+        "bottom": 363.75
+      },
+      {
+        "tag": "P",
+        "top": 379.75,
+        "bottom": 449.3125
+      },
+      {
+        "tag": "BUTTON",
+        "top": 467.3125,
+        "bottom": 518.5
+      }
+    ]
+  },
+  {
+    "ar": true,
+    "height": 650,
+    "lastExit": 96.203125
+  }
+]

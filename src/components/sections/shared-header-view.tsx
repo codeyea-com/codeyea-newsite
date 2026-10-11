@@ -44,10 +44,13 @@ export function SharedHeaderView({
         </nav>
         <a
           className="hp-button hp-header-quote"
+          data-quote-open
           href="#contact"
           onClick={quoteClick}
         >
-          Get Your Free Quote
+          {content.language === "ar"
+            ? "اطلب عرضك المجاني"
+            : "Get Your Free Quote"}
         </a>
         {mobile ?? <SharedMobileView content={content} />}
       </div>

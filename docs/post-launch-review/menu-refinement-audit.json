@@ -1,0 +1,34 @@
+{
+  "hover": {
+    "box": "none",
+    "background": "rgba(0, 0, 0, 0)",
+    "itemTransform": "none",
+    "textShadow": "rgba(224, 20, 76, 0.24) 0px 3px 8px",
+    "textTransform": "matrix(1, 0, 0, 1, 0, -3)",
+    "color": "rgb(224, 20, 76)"
+  },
+  "host": {
+    "height": 315.78125,
+    "rows": [
+      {
+        "top": 156,
+        "height": 74.09375
+      },
+      {
+        "top": 270.09375,
+        "height": 74.09375
+      },
+      {
+        "top": 156,
+        "height": 74.09375
+      },
+      {
+        "top": 270.09375,
+        "height": 74.09375
+      }
+    ],
+    "animation": "cy-menu-in",
+    "support": false
+  },
+  "errors": []
+}

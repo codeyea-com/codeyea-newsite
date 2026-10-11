@@ -29,7 +29,7 @@ export function RoofingAccordion({items}:{items:DetailSection['items']}) {
   const animation=answer.animate([{height:`${start}px`},{height:`${end}px`}],{duration:350,easing:'ease'});running.current.set(details,animation);
   animation.onfinish=()=>{details.open=open;running.current.delete(details);animation.cancel()};
  };
- return <div className="rf-accordion" ref={root}>{items.map((i,n)=><details key={i.id} open={n===0}><summary onClick={e=>{e.preventDefault();const d=e.currentTarget.parentElement as HTMLDetailsElement;const opening=!d.open;if(opening)root.current?.querySelectorAll<HTMLDetailsElement>('details[open]').forEach(other=>{if(other!==d)change(other,false)});change(d,opening)}}><h3>{i.title}</h3></summary><div className="rf-answer"><div className="rf-answer-inner"><p>{i.body}</p></div></div></details>)}</div>;
+ return <div className="rf-accordion" ref={root}>{items.map((i,n)=><details key={i.id} open={n===0}><summary className="cy-faq-question" onClick={e=>{e.preventDefault();const d=e.currentTarget.parentElement as HTMLDetailsElement;const opening=!d.open;if(opening)root.current?.querySelectorAll<HTMLDetailsElement>('details[open]').forEach(other=>{if(other!==d)change(other,false)});change(d,opening)}}><h3>{i.title}</h3></summary><div className="rf-answer"><div className="rf-answer-inner"><p>{i.body}</p></div></div></details>)}</div>;
 }
 
 /** Only motions observed on the adopted reference sections are enhanced. */

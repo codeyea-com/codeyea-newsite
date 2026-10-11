@@ -5,7 +5,13 @@ import {
   industryNames,
   isIndustrySlug,
 } from "@/content/industry-registry";
-import { useCallback, useEffect, useRef, useState, type FormEvent } from "react";
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  type FormEvent,
+} from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { PagePicker } from "@/components/cms/page-picker";
@@ -22,13 +28,14 @@ import { BrandReference } from "@/components/cms/brand-reference";
 import { SeoEditor } from "@/components/cms/seo-editor";
 import { AiAssistant } from "@/components/cms/ai-assistant";
 import type { SeoText } from "@/schemas/seo-text";
-import { pagePath } from "@/content/site-routes";
+import { basePageId, pagePath } from "@/content/site-routes";
 
 export default function Admin() {
   const router = useRouter();
-  const loadSequence=useRef(0);
+  const loadSequence = useRef(0);
   const [data, setData] = useState<Data | null>(null);
   const [pageId, setPageId] = useState("homepage");
+  const baseId = basePageId(pageId);
   useEffect(() => {
     const page = new URLSearchParams(window.location.search).get("page");
     if (page && (cmsPageIds as readonly string[]).includes(page))
@@ -43,11 +50,11 @@ export default function Admin() {
   const [error, setError] = useState("");
   const [notice, setNotice] = useState("");
   const load = useCallback(async () => {
-    const request=++loadSequence.current;
+    const request = ++loadSequence.current;
     const response = await fetch("/api/cms?pageId=" + pageId, {
       cache: "no-store",
     });
-    if(request!==loadSequence.current)return;
+    if (request !== loadSequence.current) return;
     if (response.status === 401) {
       router.replace("/login");
       return;
@@ -60,7 +67,7 @@ export default function Admin() {
     if (!response.ok)
       throw new Error("Unable to load the content studio. Please retry.");
     const result: Data = await response.json();
-    if(request!==loadSequence.current)return;
+    if (request !== loadSequence.current) return;
     setData(result);
     setDraft(structuredClone(result.page));
     setMissingAbout(false);
@@ -72,7 +79,9 @@ export default function Admin() {
       setError(e.message);
       setSwitching(false);
     });
-    return()=>{loadSequence.current++};
+    return () => {
+      loadSequence.current++;
+    };
   }, [load]);
   const dirty =
     !missingAbout &&
@@ -358,21 +367,21 @@ export default function Admin() {
         <header className="workspace-header">
           <span>
             Website /{" "}
-            {isIndustrySlug(pageId)
-              ? industryNames[pageId]
-              : pageId === "homepage"
+            {isIndustrySlug(baseId)
+              ? industryNames[baseId]
+              : baseId === "homepage"
                 ? "Homepage"
-                : pageId === "about"
+                : baseId === "about"
                   ? "About"
-                  : pageId === "services"
+                  : baseId === "services"
                     ? "Services"
                     : "Industries"}
           </span>
           <Link
             href={
-              isIndustrySlug(pageId)
+              isIndustrySlug(baseId)
                 ? "/industries/" + pageId + "/"
-                : pageId === "homepage"
+                : baseId === "homepage"
                   ? "/"
                   : "/" + pageId
             }
@@ -387,11 +396,11 @@ export default function Admin() {
             <div>
               <h1>
                 {tab === "Content"
-                  ? pageId === "about"
+                  ? baseId === "about"
                     ? "Shape your About page."
-                    : isIndustrySlug(pageId)
-                      ? "Shape your " + industryNames[pageId] + " page."
-                      : pageId === "industries"
+                    : isIndustrySlug(baseId)
+                      ? "Shape your " + industryNames[baseId] + " page."
+                      : baseId === "industries"
                         ? "Shape your Industries page."
                         : "Shape your homepage."
                   : tab}
@@ -429,9 +438,9 @@ export default function Admin() {
           {!switching && missingAbout && (
             <section className="editor-fields">
               <h2>
-                {isIndustrySlug(pageId)
-                  ? `Start a ${industryNames[pageId]} draft`
-                  : pageId === "about"
+                {isIndustrySlug(baseId)
+                  ? `Start a ${industryNames[baseId]} draft`
+                  : baseId === "about"
                     ? "Start an About draft"
                     : "Start an Industries draft"}
               </h2>
@@ -445,9 +454,9 @@ export default function Admin() {
                 disabled={busy || !canEdit}
                 onClick={initializeAbout}
               >
-                {isIndustrySlug(pageId)
-                  ? `Initialize ${industryNames[pageId]} draft`
-                  : pageId === "about"
+                {isIndustrySlug(baseId)
+                  ? `Initialize ${industryNames[baseId]} draft`
+                  : baseId === "about"
                     ? "Initialize About draft"
                     : "Initialize Industries draft"}
               </button>
@@ -534,13 +543,13 @@ export default function Admin() {
         <footer className="workspace-footer">
           CODEYEA · Digital Innovation Agency{" "}
           <span>
-            {isIndustrySlug(pageId)
-              ? industryNames[pageId]
-              : pageId === "homepage"
+            {isIndustrySlug(baseId)
+              ? industryNames[baseId]
+              : baseId === "homepage"
                 ? "Homepage"
-                : pageId === "about"
+                : baseId === "about"
                   ? "About"
-                  : pageId === "services"
+                  : baseId === "services"
                     ? "Services"
                     : "Industries"}{" "}
             CMS / Review workspace

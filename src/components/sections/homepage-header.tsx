@@ -19,15 +19,21 @@ export function HomepageHeader({
   homeHref?: string;
   light?: boolean;
 }) {
-  const preview = (usePathname() ?? "").startsWith("/preview");
-  const approved = useApprovedNavigation(content, preview);
+  const pathname = usePathname() ?? "";
+  const preview = pathname.startsWith("/preview");
+  const arabic = /^\/(?:preview\/)?ar(?:\/|$)/.test(pathname);
+  const approved = useApprovedNavigation(
+    content,
+    preview,
+    arabic ? "ar" : "en",
+  );
   return (
     <SharedHeaderView
       content={approved.content}
       navigation={approved.navigation}
       panels={approved.panels}
       mobile={<MobileMenu content={approved.content} activeHref={activeHref} />}
-      homeHref={homeHref}
+      homeHref={arabic ? (preview ? "/preview/ar/" : "/ar/") : homeHref}
       light={light}
       quote={!preview ? <PreviewQuote publicAssets /> : undefined}
       quoteClick={(event) => {

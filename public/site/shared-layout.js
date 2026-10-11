@@ -39,14 +39,15 @@
   document.querySelectorAll('.hp-desktop-nav .hp-nav-item, #mobile-navigation nav>a, .hp-footer nav a').forEach(item => {
     if (item.textContent.trim() === 'Work') item.remove();
   });
-  const contactHref = privatePreview ? '/preview/pages/contact' : (location.pathname.startsWith('/ar/') ? '/ar/contact/' : '/contact/');
+  const arabic=document.documentElement.lang==='ar';
+  const contactHref = privatePreview ? '/preview/pages/contact'+(arabic?'?locale=ar':'') : (arabic ? '/ar/contact/' : '/contact/');
   const nav = document.querySelector('.hp-desktop-nav');
-  if (nav && ![...nav.querySelectorAll('a')].some(a => a.textContent.trim() === 'Contact')) {
+  if (nav && ![...nav.querySelectorAll('a')].some(a => /\/contact(?:[/?#]|$)/.test(a.getAttribute('href')||''))) {
     const item = document.createElement('span');
     item.className = 'hp-nav-item';
     const link = document.createElement('a');
     link.href = contactHref;
-    link.textContent = 'Contact';
+    link.textContent = arabic?'تواصل معنا':'Contact';
     item.append(link);
     nav.append(item);
   }
