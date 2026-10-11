@@ -118,6 +118,14 @@ export function ServicesPage({
               return {
                 ...current,
                 ...item,
+                ...(content.localeId === "ar" && current
+                  ? {
+                      title: current.title,
+                      body: current.body,
+                      label: current.label,
+                      actionLabel: current.actionLabel,
+                    }
+                  : {}),
                 ...(current?.enabled === false ? { enabled: false } : {}),
               };
             }),
