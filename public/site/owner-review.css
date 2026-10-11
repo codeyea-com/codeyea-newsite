@@ -633,3 +633,6 @@ html[lang="ar"] .hp.public-surface .rf-service-lists li {
   padding: 24px 30px;
   border-radius: 0;
 }
+.hp.public-surface .b-work .b-view {
+  box-shadow: 0 10px 26px rgba(7, 36, 72, 0.28), 0 3px 8px rgba(0, 0, 0, 0.16);
+}
