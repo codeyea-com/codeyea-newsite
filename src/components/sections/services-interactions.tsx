@@ -7,7 +7,7 @@ import {motionQueries} from '@/components/motion/approved-patterns';
 export function ServicesAccordion({items}:{items:ServiceItem[]}){
  const [enhanced,setEnhanced]=useState(false),[open,setOpen]=useState<string|null>(items[0]?.id??null);
  useEffect(()=>setEnhanced(true),[]);
- return <div className="rp-accordion sv-accordion" data-enhanced={enhanced} data-motion-owner="services-accordion">{items.map(i=>{const expanded=!enhanced||open===i.id;return <article key={i.id}><h3><button id={i.id+'-button'} type="button" aria-expanded={expanded} aria-controls={i.id+'-panel'} onClick={()=>setOpen(open===i.id?null:i.id)}>{i.title}<span aria-hidden="true">{expanded?'−':'+'}</span></button></h3><div className="sv-answer" id={i.id+'-panel'} role="region" aria-labelledby={i.id+'-button'} aria-hidden={!expanded} inert={!expanded} data-open={expanded}><div><p>{i.body}</p></div></div></article>})}</div>;
+ return <div className="rp-accordion sv-accordion" data-enhanced={enhanced} data-motion-owner="services-accordion">{items.map(i=>{const expanded=!enhanced||open===i.id;return <article key={i.id}><h3><button id={i.id+'-button'} type="button" className="cy-faq-question" aria-expanded={expanded} aria-controls={i.id+'-panel'} onClick={()=>setOpen(open===i.id?null:i.id)}>{i.title}</button></h3><div className="sv-answer" id={i.id+'-panel'} role="region" aria-labelledby={i.id+'-button'} aria-hidden={!expanded} inert={!expanded} data-open={expanded}><div><p>{i.body}</p></div></div></article>})}</div>;
 }
 
 /** One controller owns only Services body entrances and card pointer transforms. */

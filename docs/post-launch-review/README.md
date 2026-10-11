@@ -62,3 +62,19 @@ No ranking or AI-citation guarantee, fabricated analytics or search-volume claim
 ## Release boundary
 
 No production deployment, merge, GitHub push or Arabic publication was performed for this change set. Existing owner untracked files in the original workspace were preserved. Test and local environment secrets are ignored and absent from the review files.
+
+## Owner correction review — 2026-10-10
+
+Points 4, 6 and 14 were checked on 64 English / private Arabic routes. The audit covers 336 FAQ questions: one square indicator, no legacy plus spans, red hover text, mouse and keyboard toggling. Service and Hosting detail pages retain their parent navigation active state. Technical Support appears once in Services and is absent from every link in the Hosting menu, including its feature link.
+
+The internal title hero now reserves the header's full height instead of overlapping it by 92 px. Desktop and mobile measurements on About, Services, Industries and Legal show a 54 px white gap beneath the header before CODEYEA. The existing Services card shadow and animation remain unchanged; the additional text shadow is applied on hover only. The gallery shows normal / hover / open FAQ states and a close view of hovered card text.
+
+Validation: 167 tests passed, production build passed, browser correction audit has zero failures. The final CSS spacing correction was verified on desktop and mobile. All changes remain local for owner review.
+
+## Latest menu refinement — owner review
+
+Removed the main navigation link background and box shadow. Only the link text rises by 3 px and gains a red text shadow on hover. Hosting's four links keep their order in two rows, with a 26 px row gap and descriptions aligned beneath their labels. The existing feature remains, in a compact side column. The existing menu entrance and pointer animation controllers were not changed. Browser checks passed at widths 1200, 1366 and 1920; private Arabic layout was also checked. TypeScript and diff checks passed. Reference and actual implementation are shown side by side in the gallery. No upload was performed.
+
+## FAQ text motion correction — owner review
+
+Restored Website Hosting's original 8 px hover movement and 0.5 second easing in the shared FAQ question style. Red color transition uses the original 0.4 second duration. The prior shared padding declaration suppressed this movement. The new padding-inline-start rule supports English and Arabic directions; the square indicator remains aligned. Browser text bounds confirmed +8 px on seven English routes and -8 px on two private Arabic routes. The gallery includes a recording of the actual page hover and refreshed normal / hover / open captures. No upload performed.

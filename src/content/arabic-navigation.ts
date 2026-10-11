@@ -1,5 +1,5 @@
 export const arabicNavigation: Record<string, string> = {
-  "About Us": "عن CODEYEA",
+  "About Us": "عن كوديا",
   Services: "الخدمات",
   Hosting: "الاستضافة",
   Domains: "النطاقات",

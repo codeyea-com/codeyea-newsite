@@ -957,6 +957,27 @@ export async function renderDocument(
     !options.public,
     locale,
   );
+  // Render one FAQ indicator from the shared CSS, without a legacy text icon.
+  html = html.replace(
+    /<section\b[^>]*class="[^"]*faq[^"]*"[^>]*>[\s\S]*?<\/section>/gi,
+    (faq: string) => faq.replace(
+      /(<summary\b[^>]*>)([\s\S]*?)(<\/summary>)/gi,
+      (_all, start: string, body: string, end: string) => {
+        const question = start.includes('class="')
+          ? start.replace('class="', 'class="cy-faq-question ')
+          : start.replace("<summary", '<summary class="cy-faq-question"');
+        return question + body.replace(
+          /<span\b[^>]*>\s*[+−–-]\s*<\/span>/g,
+          "",
+        ) + end;
+      },
+    ),
+  );
+  // Keep the original accordion animation when its legacy span is absent.
+  html = html.replace(
+    /summary\.querySelector\('span'\)\.textContent=([^;]+);/g,
+    "summary.querySelector('span')&&(summary.querySelector('span').textContent=$1);",
+  );
   html = html.replace(
     /(<div class="hp-utility"><div class="hp-container">)<a[^>]*>[\s\S]*?<\/a>/,
     '$1<span class="cy-language-slot"></span>',

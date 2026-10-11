@@ -2,6 +2,7 @@
 import { useEffect, useRef } from "react";
 import { localizedHref } from "@/content/arabic-navigation";
 const ui: Record<string, string> = {
+  "عن CODEYEA": "عن كوديا",
   "Keep In Touch": "ابقَ على تواصل",
   "Enter your email address": "أدخل بريدك الإلكتروني",
   "Email delivery is not connected yet.": "إرسال البريد غير مفعّل حاليًا.",

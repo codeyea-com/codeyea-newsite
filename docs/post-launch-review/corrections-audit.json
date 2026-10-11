@@ -1,0 +1,1059 @@
+{
+  "rows": [
+    {
+      "url": "/",
+      "active": [],
+      "navOkay": true,
+      "faqCount": 0,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "url": "/about/",
+      "active": [
+        "/about"
+      ],
+      "navOkay": true,
+      "faqCount": 0,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "url": "/services/",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 12,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 0,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "url": "/industries/roofing/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/healthcare/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/construction/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/e-commerce/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/small-business/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/event-coordinators/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/legal/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/online-magazine/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/oil-and-gas/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/real-estate/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/fashion-and-lifestyle/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/beauty-skincare-med-spa/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/restaurants-cafes-bakeries/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/industries/solar-energy/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/website-design/",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 10,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/brand-design/",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 0,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "url": "/ecommerce/",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 10,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/seo-geo/",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/digital-marketing/",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/web-mobile-apps/",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/ai-automation/",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/technical-support/",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/contact/",
+      "active": [
+        "/contact"
+      ],
+      "navOkay": true,
+      "faqCount": 0,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "url": "/domains/",
+      "active": [
+        "/domains"
+      ],
+      "navOkay": true,
+      "faqCount": 8,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/website-hosting/",
+      "active": [
+        "/website-hosting"
+      ],
+      "navOkay": true,
+      "faqCount": 8,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/wordpress-hosting/",
+      "active": [
+        "/website-hosting"
+      ],
+      "navOkay": true,
+      "faqCount": 8,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/cloud-hosting/",
+      "active": [
+        "/website-hosting"
+      ],
+      "navOkay": true,
+      "faqCount": 8,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/email-hosting/",
+      "active": [
+        "/website-hosting"
+      ],
+      "navOkay": true,
+      "faqCount": 9,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/",
+      "active": [],
+      "navOkay": true,
+      "faqCount": 0,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/about/",
+      "active": [
+        "/about"
+      ],
+      "navOkay": true,
+      "faqCount": 0,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/services/",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 12,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 0,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/roofing/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/healthcare/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/construction/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/e-commerce/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/small-business/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/event-coordinators/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/legal/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/online-magazine/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/oil-and-gas/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/real-estate/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/fashion-and-lifestyle/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/beauty-skincare-med-spa/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/restaurants-cafes-bakeries/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/ar/industries/solar-energy/",
+      "active": [
+        "/industries"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/website-design?locale=ar",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 10,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/brand-design?locale=ar",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 0,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/ecommerce?locale=ar",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 10,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/seo-geo?locale=ar",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/digital-marketing?locale=ar",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/web-mobile-apps?locale=ar",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/ai-automation?locale=ar",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/technical-support?locale=ar",
+      "active": [
+        "/services"
+      ],
+      "navOkay": true,
+      "faqCount": 5,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/contact?locale=ar",
+      "active": [
+        "/contact"
+      ],
+      "navOkay": true,
+      "faqCount": 0,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/domains?locale=ar",
+      "active": [
+        "/domains"
+      ],
+      "navOkay": true,
+      "faqCount": 8,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/website-hosting?locale=ar",
+      "active": [
+        "/website-hosting"
+      ],
+      "navOkay": true,
+      "faqCount": 8,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/wordpress-hosting?locale=ar",
+      "active": [
+        "/website-hosting"
+      ],
+      "navOkay": true,
+      "faqCount": 8,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/cloud-hosting?locale=ar",
+      "active": [
+        "/website-hosting"
+      ],
+      "navOkay": true,
+      "faqCount": 8,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    },
+    {
+      "url": "/preview/pages/email-hosting?locale=ar",
+      "active": [
+        "/website-hosting"
+      ],
+      "navOkay": true,
+      "faqCount": 9,
+      "legacy": 0,
+      "badShapes": 0,
+      "hostSupport": 0,
+      "serviceSupport": 1,
+      "overflow": false,
+      "hover": true,
+      "toggle": true,
+      "keyboard": true,
+      "errors": []
+    }
+  ],
+  "failures": []
+}

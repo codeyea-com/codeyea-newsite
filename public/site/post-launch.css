@@ -1,6 +1,26 @@
+@import url("/site/readex-pro.css");
+@import url("/site/brand-font.css");
+.cy-back-top {
+  position: fixed;
+  inset-inline-end: 24px;
+  bottom: 24px;
+  z-index: 25;
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 0;
+  background: #e0144c;
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  transition: background .25s ease;
+}
+.cy-back-top[hidden] { display: none; }
+.cy-back-top:is(:hover, :focus-visible) { background: #072448; }
+.cy-back-top:focus-visible { outline: 2px solid #072448; outline-offset: 4px; }
 /* Owner post-launch corrections: retain existing compositions and motion controllers. */
 .hp.public-surface {
-  --font-body: "Josefin Sans", "Segoe UI", sans-serif;
+  --font-body: "CODEYEA Josefin Sans", "Segoe UI", sans-serif;
   background-color: #fff !important;
   font-family: var(--font-body);
 }
@@ -23,7 +43,13 @@
     textarea,
     select,
     summary,
-    table
+    table,
+    label,
+    legend,
+    span,
+    strong,
+    small,
+    em
   ) {
   font-family: var(--font-body);
 }
@@ -34,17 +60,27 @@
   background: #fff !important;
   backdrop-filter: none !important;
 }
+/* Internal title heroes need the header's full space in normal flow. */
+.hp.public-surface:has(.internal-hero-copy) .hp-header {
+  margin-bottom: 0 !important;
+}
 .hp .hp-header .hp-nav-item {
-  transition:
-    opacity 0.25s ease,
-    transform 0.25s ease,
-    box-shadow 0.25s ease,
-    background 0.25s ease;
+  transition: opacity 0.25s ease;
 }
-.hp .hp-header .hp-nav-item:has(a[aria-current="page"]) {
-  background: rgb(255 255 255 / 8%);
+.hp .hp-header .hp-desktop-nav > .hp-nav-item,
+.hp .hp-header .hp-desktop-nav > .hp-nav-item:is(:hover, :focus-within) {
+  background: transparent !important;
+  box-shadow: none !important;
+  transform: none;
 }
-.hp .hp-header .hp-nav-item :is(a[aria-current="page"]) {
+.hp .hp-header .hp-desktop-nav > .hp-nav-item > a,
+.hp .hp-header .hp-desktop-nav > .hp-nav-item > .cy-nav-root > a {
+  display: inline-block;
+  background: transparent !important;
+  box-shadow: none !important;
+  transition: color .25s ease, transform .25s ease, text-shadow .25s ease;
+}
+.hp .hp-header .hp-nav-item a:is([aria-current="page"], [aria-current="location"]) {
   color: #e0144c !important;
 }
 @media (hover: hover) {
@@ -54,11 +90,44 @@
     > .hp-nav-item:not(:hover):not(:focus-within) {
     opacity: 0.42;
   }
-  .hp .hp-header .hp-desktop-nav > .hp-nav-item:is(:hover, :focus-within) {
+  .hp .hp-header .hp-desktop-nav > .hp-nav-item:is(:hover, :focus-within) > a,
+  .hp .hp-header .hp-desktop-nav > .hp-nav-item:is(:hover, :focus-within) > .cy-nav-root > a {
     transform: translateY(-3px);
-    box-shadow: 0 9px 18px #07244816;
-    background: rgb(255 255 255 / 8%);
+    text-shadow: 0 3px 8px rgb(224 20 76 / 24%);
   }
+}
+/* Hosting's four entries form two compact rows beside the existing feature. */
+.hp .hp-header > .cy-hosting-panel {
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 30px;
+  padding-block: 26px;
+}
+.hp .hp-header .cy-hosting-panel .cy-host-links {
+  align-content: start;
+  align-items: start;
+  gap: 40px 30px;
+}
+.hp .hp-header .cy-hosting-panel .cy-host-desc {
+  padding-inline-start: 59px;
+  margin-top: 6px;
+}
+.hp .hp-header .cy-hosting-panel .cy-host-feature {
+  padding-inline-start: 24px;
+}
+.hp .hp-header .cy-hosting-panel .cy-host-feature img {
+  width: 100%;
+  max-width: none;
+  height: 128px;
+  margin-block: 8px;
+}
+.hp .hp-header .cy-hosting-panel .cy-host-feature h3 {
+  font-size: 20px;
+  line-height: 1.35;
+  margin-block: 8px;
+}
+.hp .hp-header .cy-hosting-panel .cy-host-feature a {
+  padding-block: 0;
+  min-height: 24px;
 }
 .hp .rp-work-rows h3 > span {
   position: relative;
@@ -144,7 +213,7 @@
   border: 0;
   width: 100%;
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: color 0.4s ease, padding-inline-start 0.5s ease;
 }
 .hp .cy-faq-question::-webkit-details-marker {
   display: none;
@@ -174,7 +243,8 @@
   transform: none !important;
 }
 .hp .cy-faq-question:is(:hover, :focus-visible) {
-  color: #e0144c;
+  color: #e0144c !important;
+  padding-inline-start: 8px !important;
 }
 .hp .cy-faq-question:is(:hover, :focus-visible):after,
 .hp
@@ -411,13 +481,22 @@
 .hp .hp-header .hp-desktop-nav > .hp-nav-item:is(:hover, :focus-within) > a {
   color: #e0144c !important;
 }
-.hp .cy-faq-question h3 {
+.hp.public-surface .cy-faq-question h3 {
   font: inherit !important;
   margin: 0 !important;
   color: inherit !important;
 }
 .hp .cy-faq-question svg {
   display: none;
+}
+/* Animated details remain open while closing; follow their announced state. */
+.hp.public-surface summary.cy-faq-question[aria-expanded="false"]:after {
+  content: "+" !important;
+}
+.hp summary.cy-faq-question[aria-expanded="false"]:not(:hover):not(:focus-visible):after {
+  background: #fff;
+  color: #121212;
+  border-color: #dedede;
 }
 .hp.public-surface .industry-action:is(:hover, :focus-visible) {
   background-image: linear-gradient(#121212, #121212) !important;
@@ -465,7 +544,7 @@ html[lang="ar"] .hp .cy-faq-question {
 }
 #cq-dialog,
 #cq-dialog :is(h2, h3, p, label, legend, input, textarea, button) {
-  font-family: "Josefin Sans", "Segoe UI", sans-serif;
+  font-family: "CODEYEA Josefin Sans", "Segoe UI", sans-serif;
 }
 html[lang="ar"] #cq-dialog {
   direction: rtl;
@@ -474,3 +553,17 @@ html[lang="ar"] #cq-dialog {
 html[lang="ar"] #cq-dialog :is(h2, h3, p, label, legend) {
   letter-spacing: normal;
 }
+/* Owner-selected Arabic typeface; keep English brand typography unchanged. */
+html[lang="ar"] .hp.public-surface,
+.cy-arabic-surface .hp.public-surface {
+  --font-body: "Readex Pro", sans-serif;
+  font-family: var(--font-body);
+}
+html[lang="ar"] .hp :is(h1,h2,h3,h4,h5,h6,p,a,button,input,textarea,select,summary,table,label,legend,span,strong,small,em),
+.cy-arabic-surface .hp :is(h1,h2,h3,h4,h5,h6,p,a,button,input,textarea,select,summary,table,label,legend,span,strong,small,em),
+html[lang="ar"] #cq-dialog,
+html[lang="ar"] #cq-dialog :is(h2,h3,p,a,label,legend,input,textarea,select,button,span,strong,small,em) {
+  font-family: "Readex Pro", sans-serif !important;
+}
+
+.hp .hp-mobile-panel nav a:is([aria-current="page"],[aria-current="location"]) { color: #e0144c; background: rgb(255 255 255 / 8%); }

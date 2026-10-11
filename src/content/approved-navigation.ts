@@ -104,6 +104,7 @@ export function approvedMenuContent(
         ? {
             ...item,
             title:
+              (item.title === "عن CODEYEA" ? "About Us" : undefined) ??
               Object.keys(arabicNavigation).find(
                 (key) => arabicNavigation[key] === item.title,
               ) ?? item.title,

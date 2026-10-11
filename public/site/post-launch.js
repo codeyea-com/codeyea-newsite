@@ -1,6 +1,21 @@
 (() => {
   const reduced = matchMedia("(prefers-reduced-motion:reduce)");
   const marked = new WeakSet();
+  if (document.querySelector('.hp.public-surface') && !document.querySelector('.cy-back-top')) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'cy-back-top';
+    button.setAttribute('aria-label', document.documentElement.lang === 'ar' ? 'العودة إلى الأعلى' : 'Back to top');
+    button.textContent = '↑';
+    button.hidden = true;
+    button.addEventListener('click', () => {
+      scrollTo({ top: 0, behavior: reduced.matches ? 'instant' : 'smooth' });
+    });
+    document.body.append(button);
+    const update = () => { button.hidden = scrollY < 500; };
+    addEventListener('scroll', update, { passive: true });
+    update();
+  }
   if (
     document.documentElement.lang === "ar" &&
     !window.CODEYEA_ARABIC_QUOTE_UI
@@ -39,6 +54,7 @@
     } catch {}
   }
   const arabicUI = {
+    "عن CODEYEA": "عن كوديا",
     "Keep In Touch": "ابقَ على تواصل",
     "Enter your email address": "أدخل بريدك الإلكتروني",
     "Email delivery is not connected yet.": "إرسال البريد غير مفعّل حاليًا.",
@@ -105,15 +121,33 @@
       }
     }
     void language();
-    const path = location.pathname.replace(/\/$/, "") || "/";
-    document.querySelectorAll(".hp-desktop-nav a").forEach((link) => {
-      const href =
-        new URL(link.href, location.href).pathname.replace(/\/$/, "") || "/";
-      const active =
-        path === href ||
-        (href === "/industries" && path.startsWith("/industries/"));
-      if (active) link.setAttribute("aria-current", "page");
+    const routePath = (pathname) =>
+      pathname
+        .replace(/^\/preview(?=\/|$)/, "")
+        .replace(/^\/ar(?=\/|$)/, "")
+        .replace(/^\/pages(?=\/|$)/, "")
+        .replace(/\/$/, "") || "/";
+    const path = routePath(location.pathname);
+    document.querySelectorAll(".hp-desktop-nav a, .hp-mobile-panel nav a").forEach((link) => {
+      const href = routePath(new URL(link.href, location.href).pathname);
+      if (path === href) link.setAttribute("aria-current", "page");
       else link.removeAttribute("aria-current");
+    });
+    document.querySelectorAll(".hp-desktop-nav > .hp-nav-item").forEach((item) => {
+      const root = item.querySelector(":scope > a, :scope > .cy-nav-root > a");
+      const toggle = item.querySelector("button[aria-controls]");
+      const panel = toggle && document.getElementById(toggle.getAttribute("aria-controls"));
+      if (!root || root.getAttribute("aria-current") === "page") return;
+      if (panel && [...panel.querySelectorAll(".cy-host-links a")].some((link) =>
+        routePath(new URL(link.href, location.href).pathname) === path
+      )) root.setAttribute("aria-current", "location");
+    });
+    document.querySelectorAll(".hp-mobile-panel nav > details").forEach((group) => {
+      const root = group.querySelector("summary a");
+      if (!root || root.getAttribute("aria-current") === "page") return;
+      if ([...group.querySelectorAll(".hp-mobile-submenu a")].some((link) =>
+        routePath(new URL(link.href, location.href).pathname) === path
+      )) root.setAttribute("aria-current", "location");
     });
     document
       .querySelectorAll(
@@ -121,8 +155,7 @@
       )
       .forEach((question) => {
         question.querySelectorAll(":scope>span").forEach((span) => {
-          if (/^[+−–-]?$/.test(span.textContent.trim()))
-            span.setAttribute("aria-hidden", "true");
+          if (/^[+−–-]?$/.test(span.textContent.trim())) span.remove();
         });
         question.classList.add("cy-faq-question");
         question.closest("details,article")?.classList.add("cy-faq-item");

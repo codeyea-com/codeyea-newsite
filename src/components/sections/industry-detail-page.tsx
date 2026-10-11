@@ -129,9 +129,8 @@ export function IndustryDetailPage({
         <div className="detail-items detail-items-faq">
           {s.items.map((item) => (
             <details className="detail-item" key={item.id}>
-              <summary>
+              <summary className="cy-faq-question">
                 {item.title}
-                <span aria-hidden="true">+</span>
               </summary>
               <Paragraphs text={item.body} />
             </details>

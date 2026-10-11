@@ -143,6 +143,10 @@ test("approved templates retain entities and use private integrated assets", asy
       slug + " one quote controller",
     );
     assert.ok(result.includes("/site/quote-panel.css"), slug + " quote styles");
+    for (const section of result.matchAll(/<section\b[^>]*class="[^"]*faq[^"]*"[^>]*>[\s\S]*?<\/section>/g)) {
+      assert.doesNotMatch(section[0], /<span\b[^>]*>\s*[+−–-]\s*<\/span>/, slug + " no legacy FAQ icon");
+      assert.match(section[0], /cy-faq-question/, slug + " shared FAQ question");
+    }
     assert.ok(!result.includes("http://127.0.0.1:3002/"), slug);
     assert.equal(result.includes("&amp;nbsp;"), false, slug);
     assert.equal(result.includes("&amp;#"), false, slug);
@@ -168,7 +172,7 @@ test("public shared navigation removes Work and sends quote actions to the conta
   );
   assert.match(
     html,
-    /class="[^"]*\bhp-header-quote\b[^"]*" href="\/contact\/#contact-form"/,
+    /class="[^"]*\bhp-header-quote\b[^"]*"[^>]*\bhref="\/contact\/#contact-form"/,
   );
   assert.match(html, /<form class="ct-form" id="contact-form">/);
   const desktopNav =
