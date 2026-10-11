@@ -50,6 +50,7 @@ export function ArabicSurface({ children }: { children: React.ReactNode }) {
       const target = root.current;
       if (!target) return;
       target.querySelectorAll<HTMLAnchorElement>("a[href]").forEach((a) => {
+        if (a.closest(".cy-language-slot")) return;
         const href = a.getAttribute("href")!;
         if (
           href.startsWith("/") &&
