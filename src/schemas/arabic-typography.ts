@@ -25,13 +25,14 @@ export const arabicTypographySchema = z.object({
 });
 export type ArabicTypography = z.infer<typeof arabicTypographySchema>;
 export function arabicTypographyCss(value: ArabicTypography) {
+  const pageText = ":not(:where(.internal-hero-media *, .internal-hero-brand))";
   const root = 'html[lang="ar"] .hp.public-surface';
   return `${root}{--ar-h1:${value.h1};--ar-h2:${value.h2};--ar-h3:${value.h3};--ar-body:${value.body};--ar-navigation:${value.navigation};--ar-buttons:${value.buttons};}
- ${root} h1{font-weight:var(--ar-h1)!important}
- ${root} :is(h2,.about-project-ghost-title){font-weight:var(--ar-h2)!important}
- ${root} :is(h3,#services h3){font-weight:var(--ar-h3)!important}
- ${root} :is(p,li,input,textarea,select,.hp-positioning-body){font-weight:var(--ar-body)!important}
+ ${root} h1${pageText}{font-weight:var(--ar-h1)!important}
+ ${root} :is(h2,.about-project-ghost-title)${pageText}{font-weight:var(--ar-h2)!important}
+ ${root} :is(h3,#services h3)${pageText}{font-weight:var(--ar-h3)!important}
+ ${root} :is(p,li,input,textarea,select,.hp-positioning-body)${pageText}{font-weight:var(--ar-body)!important}
  ${root} .hp-header :is(a,button,.cy-host-line strong){font-weight:var(--ar-navigation)!important}
- ${root} :is(button,.hp-button,.about-reference-button,.rf-corporate-button,.b-btn,.hp-flow-cta){font-weight:var(--ar-buttons)!important}
+ ${root} :is(button,.hp-button,.about-reference-button,.rf-corporate-button,.b-btn,.hp-flow-cta)${pageText}{font-weight:var(--ar-buttons)!important}
  ${root} .hp-header .hp-header-quote{font-weight:var(--ar-buttons)!important}`;
 }

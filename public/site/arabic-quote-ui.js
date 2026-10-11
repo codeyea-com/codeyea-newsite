@@ -143,7 +143,7 @@ window.CODEYEA_ARABIC_QUOTE_UI = {
   Next: "التالي",
   "Design preview — no request is sent.": "معاينة خاصة — لا تُرسل طلبات.",
   "Your brief is shared with the CODEYEA team to prepare your quote.":
-    "تُشارك تفاصيل المشروع مع فريق CODEYEA لإعداد عرضك.",
+    "تُشارك تفاصيل المشروع مع فريق CODEYEA لإعداد تسعيرتك.",
   "(optional)": "اختياري",
   "Monthly management & production budget (USD)":
     "ميزانية الإدارة والإنتاج الشهرية بالدولار",

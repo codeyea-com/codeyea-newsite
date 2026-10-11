@@ -1,6 +1,8 @@
 (() => {
   const reduced = matchMedia("(prefers-reduced-motion:reduce)");
   const marked = new WeakSet();
+  const faqGroups = new WeakSet();
+  const quoteLabels = new WeakMap();
   const updateHeader = () =>
     document
       .querySelectorAll(".hp-header")
@@ -45,6 +47,7 @@
     document.head.append(script);
   }
   let languagePath = "";
+  let openedQuoteRoute = "";
   async function language() {
     if (languagePath === location.pathname) return;
     languagePath = location.pathname;
@@ -104,9 +107,29 @@
       "إرسال البريد غير مفعّل حاليًا. لم يُرسل عنوانك أو يُحفظ.",
     MENU: "القائمة",
     "All rights reserved.": "جميع الحقوق محفوظة.",
+    Daily: "يوميًا",
+    Unlimited: "غير محدود",
+    "Twice daily": "مرتين يوميًا",
+    Included: "مشمول",
+    "/month": "/ شهر",
     Support: "الدعم",
     "Client Area": "منطقة العملاء",
-    "Get Your Free Quote": "اطلب عرضك المجاني",
+    "Get Your Free Quote": "تسعيرة مجانية",
+    "ابدأ محادثة": "راسلنا الآن",
+    "Reviewing the recent WordPress update.": "نراجع تحديث WordPress الأخير.",
+    "Support is checking the issue.": "يفحص الدعم سبب المشكلة.",
+    "DNS records are responding.": "سجلات DNS تستجيب.",
+    "Hosting is reachable.": "الاستضافة متاحة.",
+    "Database connection is stable.": "الاتصال بقاعدة البيانات مستقر.",
+    "Website response has been restored.": "عاد الموقع إلى الاستجابة.",
+    "SITE BACK ONLINE": "الموقع متاح مجددًا",
+    ONLINE: "متاح",
+    UNAVAILABLE: "غير متاح",
+    "Storage ready": "التخزين جاهز",
+    "NVMe SSD storage connected.": "تخزين NVMe SSD متصل.",
+    "Manage your website with cPanel.": "أدر موقعك عبر cPanel.",
+    "BUILT FOR WHAT’S NEXT": "جاهز لخطوتك القادمة",
+    RESOLVED: "تم الحل",
     "Open menu": "افتح القائمة",
     "Close menu": "أغلق القائمة",
     Contact: "تواصل معنا",
@@ -183,12 +206,11 @@
     while ((visibleNode = visibleText.nextNode())) {
       if (
         !visibleNode.parentElement?.closest("script,style,code,pre") &&
-        visibleNode.textContent.includes("\u2014")
+        /\u2014|&(?:amp;)*nbsp;/.test(visibleNode.textContent)
       )
-        visibleNode.textContent = visibleNode.textContent.replaceAll(
-          "\u2014",
-          ", ",
-        );
+        visibleNode.textContent = visibleNode.textContent
+          .replaceAll("\u2014", ", ")
+          .replace(/&(?:amp;)*nbsp;/g, " ");
     }
     void language();
     document
@@ -200,26 +222,28 @@
           control.closest(
             ".hp-carousel-buttons, .about-reference-pagination, .hp-desktop-nav",
           ) ||
-          control.classList.contains("cy-back-top")
+          control.classList.contains("cy-back-top") ||
+          control.matches("[data-slide], [data-period]") ||
+          control.closest(".v-plan-controls")
         )
           return;
         [...control.childNodes].forEach((node) => {
           if (
             node.nodeType !== Node.TEXT_NODE ||
-            !/[↗→›]\s*$/.test(node.textContent)
+            !/[↗↖↘↙→←›‹]\s*$/.test(node.textContent)
           )
             return;
           const arrow = document.createElement("span");
           arrow.setAttribute("aria-hidden", "true");
           arrow.textContent = "↗";
           node.textContent =
-            node.textContent.replace(/[↗→›]\s*$/, "").trimEnd() + " ";
+            node.textContent.replace(/[↗↖↘↙→←›‹]\s*$/, "").trimEnd() + " ";
           node.after(arrow);
         });
         control.querySelectorAll("span").forEach((span) => {
           if (
             !span.children.length &&
-            /^[↗→›]$/.test(span.textContent.trim()) &&
+            /^[↗↖↘↙→←›‹]$/.test(span.textContent.trim()) &&
             !span.classList.contains("cy-button-arrow")
           ) {
             span.textContent = "↗";
@@ -300,6 +324,149 @@
         question.classList.add("cy-faq-question");
         question.closest("details,article")?.classList.add("cy-faq-item");
       });
+
+    document.querySelectorAll(".b-process").forEach((group) => {
+      const cards = [...group.querySelectorAll(":scope>article")];
+      if (!cards.length) return;
+      group.style.setProperty("--cy-process-card-height", "0px");
+      const height = Math.ceil(
+        Math.max(...cards.map((card) => card.getBoundingClientRect().height)),
+      );
+      group.style.setProperty("--cy-process-card-height", height + "px");
+    });
+    document.querySelectorAll(".b-marquee>div").forEach((track) => {
+      if (marked.has(track)) return;
+      marked.add(track);
+      const text = track.textContent.trim();
+      for (let i = 1; i < text.length; i++) {
+        const first = text.slice(0, i).trim(),
+          second = text.slice(i).trim();
+        if (first !== second) continue;
+        const phrase = document.createElement("span");
+        phrase.className = "cy-marquee-phrase";
+        phrase.textContent = first;
+        const duplicate = phrase.cloneNode(true);
+        duplicate.setAttribute("aria-hidden", "true");
+        track.replaceChildren(phrase, duplicate);
+        break;
+      }
+    });
+
+    // Keep each FAQ's own animation/state while closing its previous answer.
+    document
+      .querySelectorAll('section[class*="faq"], #services-faq')
+      .forEach((group) => {
+        if (faqGroups.has(group)) return;
+        faqGroups.add(group);
+        let closingPeers = false;
+        group.addEventListener(
+          "click",
+          (event) => {
+            const question = event.target.closest(
+              "summary, button[aria-expanded]",
+            );
+            if (!question || closingPeers || !group.contains(question)) return;
+            const expanded = (q) =>
+              q.hasAttribute("aria-expanded")
+                ? q.getAttribute("aria-expanded") === "true"
+                : !!q.closest("details")?.open;
+            if (expanded(question)) return;
+            closingPeers = true;
+            group
+              .querySelectorAll("summary, button[aria-expanded]")
+              .forEach((other) => {
+                if (other !== question && expanded(other)) other.click();
+              });
+            closingPeers = false;
+          },
+          true,
+        );
+      });
+    const arabic = document.documentElement.lang === "ar";
+    const preview = location.pathname.startsWith("/preview");
+    const contact = preview
+      ? "/preview/pages/contact" + (arabic ? "?locale=ar" : "")
+      : (arabic ? "/ar" : "") + "/contact/";
+    const endSections =
+      ".b-contact,.rp-cta,.rf-cta,.detail-cta,.hp-contact,.hp-cta,.industries-final";
+    document
+      .querySelectorAll(
+        ".hp.public-surface .hp-header-quote,.hp.public-surface main a,.hp.public-surface main button",
+      )
+      .forEach((control) => {
+        if (
+          control.closest(
+            ".internal-hero-media,.hp-plan-table .v-plan-controls",
+          )
+        )
+          return;
+        const text = control.textContent.trim();
+        const href = control.getAttribute("href") || "";
+        const atEnd = !!control.closest(endSections);
+        const existingQuote =
+          control.hasAttribute("data-quote-open") ||
+          /free\s+(?:project\s+)?quote|تسعيرة مجانية|عرضك المجاني/i.test(text);
+        const contactLink =
+          /^(?:https?:\/\/(?:www\.)?codeyea\.com)?\/(?:ar\/|preview\/pages\/)?contact(?:[/?#]|$)/.test(
+            href,
+          );
+        if (atEnd || existingQuote || contactLink) {
+          // Discussion/support CTAs belong to contact; project/plan/end CTAs to quote.
+          const message =
+            !atEnd &&
+            !existingQuote &&
+            /message|conversation|talk|support|محادثة|راسل|لنتحدث|دعم|نقل|migrat/i.test(
+              text,
+            );
+          if (message) {
+            control.removeAttribute("data-quote-open");
+            control.setAttribute("href", contact + "#contact-form");
+          } else {
+            control.setAttribute("data-quote-open", "");
+            control.setAttribute("href", contact + "#quote-form");
+          }
+        }
+        if (
+          arabic &&
+          (/عرضك المجاني|اطلب عرض|احصل على عرض|تسعيرة مجانية/.test(text) ||
+            control.matches(".hp-header-quote"))
+        ) {
+          let label = quoteLabels.get(control);
+          if (!label) {
+            const walker = document.createTreeWalker(
+              control,
+              NodeFilter.SHOW_TEXT,
+            );
+            let node;
+            while ((node = walker.nextNode()))
+              if (/عرض|تسعيرة/.test(node.textContent)) {
+                label = node;
+                break;
+              }
+            if (label) quoteLabels.set(control, label);
+          }
+          if (label) {
+            const compact =
+              control.matches(".hp-header-quote") ||
+              (control.getBoundingClientRect().width > 0 &&
+                control.getBoundingClientRect().width < 285);
+            const desired = compact
+              ? "تسعيرة مجانية"
+              : "احصل على تسعيرة مجانية";
+            if (label.textContent.trim() !== desired)
+              label.textContent = desired;
+          }
+        }
+      });
+    // A visible fallback URL opens the same quote form on the contact page.
+    if (
+      location.hash === "#quote-form" &&
+      openedQuoteRoute !== location.pathname + location.search
+    ) {
+      openedQuoteRoute = location.pathname + location.search;
+      document.querySelector(".hp-header-quote[data-quote-open]")?.click();
+    }
+
     document.querySelectorAll(".v-showcases").forEach((stack) => {
       if (marked.has(stack)) return;
       marked.add(stack);
@@ -389,6 +556,8 @@
       refine();
     });
   });
+  document.fonts.ready.then(() => refine());
+  addEventListener("resize", () => refine());
   refine();
   observer.observe(document.body, { childList: true, subtree: true });
 })();

@@ -1065,40 +1065,85 @@ export async function renderDocument(
     };
     const additionalPoints: Record<string, [string[], string[]]> = {
       "brand-design": [
-        ["Brand messaging", "Visual asset systems", "Reusable brand templates", "Digital and print specifications"],
-        ["صياغة رسائل العلامة", "تنظيم الأصول البصرية", "قوالب هوية قابلة لإعادة الاستخدام", "مواصفات الاستخدام الرقمي والطباعة"],
+        [
+          "Brand messaging",
+          "Visual asset systems",
+          "Reusable brand templates",
+          "Digital and print specifications",
+        ],
+        [
+          "صياغة رسائل العلامة",
+          "تنظيم الأصول البصرية",
+          "قوالب هوية قابلة لإعادة الاستخدام",
+          "مواصفات الاستخدام الرقمي والطباعة",
+        ],
       ],
       "website-design": [
-        ["Responsive interface design", "Accessibility and performance review", "Reusable page components", "Website management guidance"],
-        ["تصميم واجهات متجاوبة", "مراجعة سهولة الوصول والأداء", "مكونات صفحات قابلة لإعادة الاستخدام", "إرشادات إدارة الموقع"],
+        [
+          "Responsive interface design",
+          "Accessibility and performance review",
+          "Reusable page components",
+          "Website management guidance",
+        ],
+        [
+          "تصميم واجهات متجاوبة",
+          "مراجعة سهولة الوصول والأداء",
+          "مكونات صفحات قابلة لإعادة الاستخدام",
+          "إرشادات إدارة الموقع",
+        ],
       ],
       ecommerce: [
-        ["Checkout journey design", "Product catalog organization", "Checkout and shipping setup", "Store management guidance"],
-        ["تصميم رحلة إتمام الشراء", "تنظيم كتالوج المنتجات", "إعداد الدفع وخيارات الشحن", "إرشادات إدارة المتجر"],
+        [
+          "Checkout journey design",
+          "Product catalog organization",
+          "Checkout and shipping setup",
+          "Store management guidance",
+        ],
+        [
+          "تصميم رحلة إتمام الشراء",
+          "تنظيم كتالوج المنتجات",
+          "إعداد الدفع وخيارات الشحن",
+          "إرشادات إدارة المتجر",
+        ],
       ],
     };
     html = html.replace(
       /(<section\b[^>]*class="[^"]*b-capabilities[^"]*"[^>]*>)([\s\S]*?)(<\/section>)/,
       (_all, start, body, end) => {
         const points = additionalPoints[slug][locale === "ar" ? 1 : 0];
-        const cta = `<a class="b-btn cy-cap-cta" data-quote-open href="${escapeHtml(contactHref)}#contact-form"><span>${locale === "ar" ? "احصل على عرضك المجاني" : "Get Your Free Quote"}</span><span aria-hidden="true">${locale === "ar" ? "↖" : "↗"}</span></a>`;
-        return start +
-        `<h2 class="cy-cap-title">${titles[slug][locale === "ar" ? 1 : 0]}</h2>` +
-        body.replace(
-          /<p class="b-cap-lead">([\s\S]*?)<\/p>/,
-          (_p: string, text: string) =>
-            `<div class="cy-cap-intro">${image ? `<img class="cy-cap-image" src="${escapeHtml(image[1])}" alt="${locale === "ar" ? "صورة توضيحية للخدمة" : "Service illustration"}" loading="lazy">` : ""}<p class="b-cap-lead">${text}</p></div>`,
-        ).replace(
-          /(<div class="b-cap-lists">)([\s\S]*?)(<\/div><\/div>)/,
-          (_lists: string, opening: string, lists: string, closing: string) => {
-            let listIndex = 0;
-            const expanded = lists.replace(/<\/ul>/g, () => {
-              const offset = listIndex++ * 2;
-              return points.slice(offset, offset + 2).map((point) => `<li>${escapeHtml(point)}</li>`).join("") + "</ul>";
-            });
-            return opening + expanded + "</div>" + cta + "</div>";
-          },
-        ) + end;
+        const cta = `<a class="b-btn cy-cap-cta" data-quote-open href="${escapeHtml(contactHref)}#quote-form"><span>${locale === "ar" ? "احصل على تسعيرة مجانية" : "Get Your Free Quote"}</span><span aria-hidden="true">${locale === "ar" ? "↖" : "↗"}</span></a>`;
+        return (
+          start +
+          `<h2 class="cy-cap-title">${titles[slug][locale === "ar" ? 1 : 0]}</h2>` +
+          body
+            .replace(
+              /<p class="b-cap-lead">([\s\S]*?)<\/p>/,
+              (_p: string, text: string) =>
+                `<div class="cy-cap-intro">${image ? `<img class="cy-cap-image" src="${escapeHtml(image[1])}" alt="${locale === "ar" ? "صورة توضيحية للخدمة" : "Service illustration"}" loading="lazy">` : ""}<p class="b-cap-lead">${text}</p></div>`,
+            )
+            .replace(
+              /(<div class="b-cap-lists">)([\s\S]*?)(<\/div><\/div>)/,
+              (
+                _lists: string,
+                opening: string,
+                lists: string,
+                closing: string,
+              ) => {
+                let listIndex = 0;
+                const expanded = lists.replace(/<\/ul>/g, () => {
+                  const offset = listIndex++ * 2;
+                  return (
+                    points
+                      .slice(offset, offset + 2)
+                      .map((point) => `<li>${escapeHtml(point)}</li>`)
+                      .join("") + "</ul>"
+                  );
+                });
+                return opening + expanded + "</div>" + cta + "</div>";
+              },
+            ) +
+          end
+        );
       },
     );
   }
@@ -1116,13 +1161,19 @@ function slugTitle(slug: string) {
     .join(" ");
 }
 export function escapeHtml(s: string) {
-  return s.replace(
-    /[&<>"']/g,
-    (c) =>
-      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[
-        c
-      ]!,
-  );
+  return s
+    .replace(/&(?:amp;)*nbsp;/g, " ")
+    .replace(
+      /[&<>"']/g,
+      (c) =>
+        ({
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          '"': "&quot;",
+          "'": "&#39;",
+        })[c]!,
+    );
 }
 function replaceNamedMeta(html: string, name: string, tag: string) {
   const existing = new RegExp(
