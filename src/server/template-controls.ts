@@ -13,13 +13,19 @@ const decode = (s: string) =>
     .replaceAll("&lt;", "<")
     .replaceAll("&gt;", ">");
 const escape = (s: string) =>
-  s.replace(
-    /[&<>"']/g,
-    (c) =>
-      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[
-        c
-      ]!,
-  );
+  s
+    .replace(/&(?:amp;)*nbsp;/g, " ")
+    .replace(
+      /[&<>"']/g,
+      (c) =>
+        ({
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          '"': "&quot;",
+          "'": "&#39;",
+        })[c]!,
+    );
 const mainOf = (html: string) =>
   html.match(/<main\b[\s\S]*?<\/main>/)?.[0] ?? "";
 const tokens =
