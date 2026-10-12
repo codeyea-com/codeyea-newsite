@@ -1,4 +1,5 @@
 import { contextualLink } from "@/content/contextual-links";
+import { renderIllustrativeWork } from './illustrative-work-render';
 import arabicTemplateCopy from "@/content/arabic-template-copy.json";
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -864,6 +865,7 @@ export async function renderDocument(
     );
   }
   const contactHref = publicRoute("contact");
+  html = renderIllustrativeWork(html, slug, locale as 'en' | 'ar');
   if (options.public) {
     html = sanitizeUnapprovedPublicContent(html, contactHref);
   }

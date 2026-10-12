@@ -1,0 +1,2316 @@
+{
+  "healthcare": {
+    "desktop": [
+      {
+        "alt": "Healthcare professional speaking with a seated patient in a clinic.",
+        "copy": "CODEYEA\n\nHealthcare",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-21.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The healthcare industry\n\nPatients often begin with practical questions: what care is available, who provides it and how to arrange an appointment. A healthcare website should help people find those answers without making them work through unfamiliar language or confusing navigation.\n\nClear service information, approved professional profiles and accessible contact options support an informed first conversation. Educational content needs a review process, while any form collecting personal information needs an appropriate purpose and careful handling.\n\nCODEYEA connects website design, content organization and search visibility around that patient journey. We help practices explain their services and evaluate scheduling or communication integrations when the selected third-party systems and project scope support them.",
+        "h": 611,
+        "section": "healthcare-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A doctor speaking with a child and parent in a clinic",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "healthcare-strip",
+        "src": "/approved-media/image-05.webp",
+        "w": 273
+      },
+      {
+        "alt": "Two healthcare professionals discussing patient care",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "healthcare-strip",
+        "src": "/approved-media/image-11.webp",
+        "w": 273
+      },
+      {
+        "alt": "A healthcare professional reviewing information on a tablet",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "healthcare-strip",
+        "src": "/approved-media/image-16.webp",
+        "w": 273
+      },
+      {
+        "alt": "A clean treatment room with an examination couch and desk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "healthcare-strip",
+        "src": "/approved-media/image-02.webp",
+        "w": 273
+      },
+      {
+        "alt": "Healthcare professional standing in a bright clinical setting.",
+        "copy": "Patient information, clearly connected.\n\n, OUR APPROACH\n\nWhat healthcare practices need\n\nHealthcare information must balance clarity, reassurance and accuracy. Visitors may be comparing providers, helping a family member or checking how to prepare for an appointment. Essential information should be easy to find on a phone and understandable without specialist knowledge.\n\nWe organize care information around real patient questions, give staff a manageable publishing process and keep appointment paths clear. Privacy-conscious design, appropriate security safeguards and clinical review are planned around the client’s selected systems, jurisdiction and project requirements.\n\nClear patient information\n\nExplain services, appointment preparation and contact options in accessible language. Give staff a practical way to keep approved information accurate.\n\nTrust through accuracy\n\nUse verified professional details and reviewed educational content. Present the practice clearly without unsupported treatment claims or promises about outcomes.\n\nPractical appointment paths\n\nHelp patients understand the next step. Evaluate scheduling integrations and minimize unnecessary personal information in general inquiry forms.",
+        "h": 730,
+        "section": "healthcare-needs",
+        "src": "/approved-media/image-29.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "Patient information, clearly connected.\n\n, OUR APPROACH\n\nWhat healthcare practices need\n\nHealthcare information must balance clarity, reassurance and accuracy. Visitors may be comparing providers, helping a family member or checking how to prepare for an appointment. Essential information should be easy to find on a phone and understandable without specialist knowledge.\n\nWe organize care information around real patient questions, give staff a manageable publishing process and keep appointment paths clear. Privacy-conscious design, appropriate security safeguards and clinical review are planned around the client’s selected systems, jurisdiction and project requirements.\n\nClear patient information\n\nExplain services, appointment preparation and contact options in accessible language. Give staff a practical way to keep approved information accurate.\n\nTrust through accuracy\n\nUse verified professional details and reviewed educational content. Present the practice clearly without unsupported treatment claims or promises about outcomes.\n\nPractical appointment paths\n\nHelp patients understand the next step. Evaluate scheduling integrations and minimize unnecessary personal information in general inquiry forms.",
+        "h": 583,
+        "section": "healthcare-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "A calm modern clinic room with an examination couch and clinical equipment",
+        "copy": "",
+        "h": 791,
+        "section": "healthcare-imageBreak",
+        "src": "/approved-media/image-26.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A hospital corridor with blue lighting and clinical rooms.",
+        "copy": "Let’s talk healthcare.\nStart a Conversation",
+        "h": 388,
+        "section": "healthcare-cta",
+        "src": "/approved-media/image-35.webp",
+        "w": 1265
+      }
+    ],
+    "mobile": [
+      {
+        "alt": "Healthcare professional speaking with a seated patient in a clinic.",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-21.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "h": 861,
+        "section": "healthcare-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "A doctor speaking with a child and parent in a clinic",
+        "h": 260,
+        "section": "healthcare-strip",
+        "src": "/approved-media/image-05.webp",
+        "w": 252
+      },
+      {
+        "alt": "Two healthcare professionals discussing patient care",
+        "h": 225,
+        "section": "healthcare-strip",
+        "src": "/approved-media/image-11.webp",
+        "w": 252
+      },
+      {
+        "alt": "A healthcare professional reviewing information on a tablet",
+        "h": 320,
+        "section": "healthcare-strip",
+        "src": "/approved-media/image-16.webp",
+        "w": 252
+      },
+      {
+        "alt": "A clean treatment room with an examination couch and desk",
+        "h": 240,
+        "section": "healthcare-strip",
+        "src": "/approved-media/image-02.webp",
+        "w": 252
+      },
+      {
+        "alt": "Healthcare professional standing in a bright clinical setting.",
+        "h": 395,
+        "section": "healthcare-needs",
+        "src": "/approved-media/image-29.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "h": 860,
+        "section": "healthcare-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "A calm modern clinic room with an examination couch and clinical equipment",
+        "h": 320,
+        "section": "healthcare-imageBreak",
+        "src": "/approved-media/image-26.webp",
+        "w": 375
+      },
+      {
+        "alt": "A hospital corridor with blue lighting and clinical rooms.",
+        "h": 400,
+        "section": "healthcare-cta",
+        "src": "/approved-media/image-35.webp",
+        "w": 375
+      }
+    ]
+  },
+  "roofing": {
+    "mobile": [
+      {
+        "alt": "Roofing professionals working on a shingle roof",
+        "copy": "CODEYEA\n\nRoofing",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-42.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "copy": "The roofing industry\n\nWhen a roof needs attention, customers look for clear answers. They compare local contractors, review the services offered and look at completed work before deciding who to contact.\n\nYour website and online presence help shape that first impression. Consistent business information, useful service descriptions and genuine project photographs make it easier to understand your experience and evaluate your work.\n\nCODEYEA brings website design, search visibility and brand communication together around this decision. We help roofing businesses explain what they do, build confidence and make the next step toward an estimate straightforward.",
+        "h": 707,
+        "section": "roofing-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "A roofer working on a house roof",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 260,
+        "section": "roofing-strip",
+        "src": "/approved-media/image-30.webp",
+        "w": 252
+      },
+      {
+        "alt": "Roofers installing shingles on a pitched roof",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 225,
+        "section": "roofing-strip",
+        "src": "/approved-media/image-42.webp",
+        "w": 252
+      },
+      {
+        "alt": "A roofer working on a roof at dusk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 320,
+        "section": "roofing-strip",
+        "src": "/approved-media/image-24.webp",
+        "w": 252
+      },
+      {
+        "alt": "A finished residential roof viewed from above",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 240,
+        "section": "roofing-strip",
+        "src": "/approved-media/image-30.webp",
+        "w": 252
+      },
+      {
+        "alt": "Roofing professionals installing shingles on a pitched roof",
+        "copy": "Roofing expertise, clearly communicated.\n\n, OUR APPROACH\n\nWhat roofing businesses need\n\nEvery roofing business is different, but customers share practical concerns: understanding the work you offer, seeing evidence of quality and knowing how to request help. A professional online presence should answer those questions clearly.\n\nWe connect design, content and search visibility around that journey. Service pages explain your work, project galleries demonstrate it, and accessible contact paths help interested customers begin a useful conversation.\n\nLocal visibility\n\nHelp customers discover the roofing services you actually provide, with clear service-area information, useful website content and a consistent business profile.\n\nTrust and credibility\n\nShow genuine project photographs, verified credentials and clear explanations of your work so customers can evaluate your business with confidence.\n\nClear inquiries\n\nGive visitors a simple way to request an estimate, share relevant details and understand what happens after they contact your team.",
+        "h": 395,
+        "section": "roofing-needs",
+        "src": "/approved-media/image-42.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "copy": "Roofing expertise, clearly communicated.\n\n, OUR APPROACH\n\nWhat roofing businesses need\n\nEvery roofing business is different, but customers share practical concerns: understanding the work you offer, seeing evidence of quality and knowing how to request help. A professional online presence should answer those questions clearly.\n\nWe connect design, content and search visibility around that journey. Service pages explain your work, project galleries demonstrate it, and accessible contact paths help interested customers begin a useful conversation.\n\nLocal visibility\n\nHelp customers discover the roofing services you actually provide, with clear service-area information, useful website content and a consistent business profile.\n\nTrust and credibility\n\nShow genuine project photographs, verified credentials and clear explanations of your work so customers can evaluate your business with confidence.\n\nClear inquiries\n\nGive visitors a simple way to request an estimate, share relevant details and understand what happens after they contact your team.",
+        "h": 823,
+        "section": "roofing-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "Roofing professionals installing shingles on a pitched roof",
+        "copy": "",
+        "h": 320,
+        "section": "roofing-imageBreak",
+        "src": "/approved-media/image-42.webp",
+        "w": 375
+      },
+      {
+        "alt": "A roofing professional working beneath a dark blue sky",
+        "copy": "Let’s talk roofing.\nStart a Conversation",
+        "h": 400,
+        "section": "roofing-cta",
+        "src": "/approved-media/image-24.webp",
+        "w": 375
+      }
+    ],
+    "desktop": [
+      {
+        "alt": "Roofing professionals working on a shingle roof",
+        "copy": "CODEYEA\n\nRoofing",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-42.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The roofing industry\n\nWhen a roof needs attention, customers look for clear answers. They compare local contractors, review the services offered and look at completed work before deciding who to contact.\n\nYour website and online presence help shape that first impression. Consistent business information, useful service descriptions and genuine project photographs make it easier to understand your experience and evaluate your work.\n\nCODEYEA brings website design, search visibility and brand communication together around this decision. We help roofing businesses explain what they do, build confidence and make the next step toward an estimate straightforward.",
+        "h": 520,
+        "section": "roofing-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A roofer working on a house roof",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "roofing-strip",
+        "src": "/approved-media/image-30.webp",
+        "w": 273
+      },
+      {
+        "alt": "Roofers installing shingles on a pitched roof",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "roofing-strip",
+        "src": "/approved-media/image-42.webp",
+        "w": 273
+      },
+      {
+        "alt": "A roofer working on a roof at dusk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "roofing-strip",
+        "src": "/approved-media/image-24.webp",
+        "w": 273
+      },
+      {
+        "alt": "A finished residential roof viewed from above",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "roofing-strip",
+        "src": "/approved-media/image-30.webp",
+        "w": 273
+      },
+      {
+        "alt": "Roofing professionals installing shingles on a pitched roof",
+        "copy": "Roofing expertise, clearly communicated.\n\n, OUR APPROACH\n\nWhat roofing businesses need\n\nEvery roofing business is different, but customers share practical concerns: understanding the work you offer, seeing evidence of quality and knowing how to request help. A professional online presence should answer those questions clearly.\n\nWe connect design, content and search visibility around that journey. Service pages explain your work, project galleries demonstrate it, and accessible contact paths help interested customers begin a useful conversation.\n\nLocal visibility\n\nHelp customers discover the roofing services you actually provide, with clear service-area information, useful website content and a consistent business profile.\n\nTrust and credibility\n\nShow genuine project photographs, verified credentials and clear explanations of your work so customers can evaluate your business with confidence.\n\nClear inquiries\n\nGive visitors a simple way to request an estimate, share relevant details and understand what happens after they contact your team.",
+        "h": 730,
+        "section": "roofing-needs",
+        "src": "/approved-media/image-42.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "Roofing expertise, clearly communicated.\n\n, OUR APPROACH\n\nWhat roofing businesses need\n\nEvery roofing business is different, but customers share practical concerns: understanding the work you offer, seeing evidence of quality and knowing how to request help. A professional online presence should answer those questions clearly.\n\nWe connect design, content and search visibility around that journey. Service pages explain your work, project galleries demonstrate it, and accessible contact paths help interested customers begin a useful conversation.\n\nLocal visibility\n\nHelp customers discover the roofing services you actually provide, with clear service-area information, useful website content and a consistent business profile.\n\nTrust and credibility\n\nShow genuine project photographs, verified credentials and clear explanations of your work so customers can evaluate your business with confidence.\n\nClear inquiries\n\nGive visitors a simple way to request an estimate, share relevant details and understand what happens after they contact your team.",
+        "h": 544,
+        "section": "roofing-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "Roofing professionals installing shingles on a pitched roof",
+        "copy": "",
+        "h": 791,
+        "section": "roofing-imageBreak",
+        "src": "/approved-media/image-42.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A roofing professional working beneath a dark blue sky",
+        "copy": "Let’s talk roofing.\nStart a Conversation",
+        "h": 388,
+        "section": "roofing-cta",
+        "src": "/approved-media/image-24.webp",
+        "w": 1265
+      }
+    ]
+  },
+  "construction": {
+    "mobile": [
+      {
+        "alt": "Two construction professionals in safety equipment reviewing work on a building site.",
+        "copy": "CODEYEA\n\nConstruction",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-23.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "copy": "The construction industry\n\nConstruction buyers need to understand capability before starting a conversation. They compare the type of work a company undertakes, examine relevant project information and look for a clear way to discuss scope, constraints and timing.\n\nA useful digital presence makes that evaluation easier. Approved project photographs, accurate service descriptions and well-organized company information help potential clients understand where the business fits without relying on exaggerated claims.\n\nCODEYEA brings website design, project presentation and search visibility together around the inquiry journey. We help construction businesses communicate their work clearly and collect the details needed for a productive first discussion.",
+        "h": 805,
+        "section": "construction-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "Two construction professionals reviewing work on a building site",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 260,
+        "section": "construction-strip",
+        "src": "/approved-media/image-23.webp",
+        "w": 252
+      },
+      {
+        "alt": "Workers and scaffolding on a construction site at dusk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 225,
+        "section": "construction-strip",
+        "src": "/approved-media/image-09.webp",
+        "w": 252
+      },
+      {
+        "alt": "Construction cranes and a building structure illuminated at night",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 320,
+        "section": "construction-strip",
+        "src": "/approved-media/image-03.webp",
+        "w": 252
+      },
+      {
+        "alt": "Roofing professionals installing a roof on a house",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 240,
+        "section": "construction-strip",
+        "src": "/approved-media/image-42.webp",
+        "w": 252
+      },
+      {
+        "alt": "Two construction professionals in safety equipment reviewing work on a building site.",
+        "copy": "Construction capability, clearly communicated.\n\n, OUR APPROACH\n\nWhat construction businesses need\n\nConstruction work can involve different buyers, procurement processes and project requirements. The website should distinguish services and project types so visitors can find relevant information rather than navigate a broad catalogue of unrelated claims.\n\nWe give approved project material a clear structure and connect it to practical inquiry paths. Strong visual presentation supports the content, while maintainable editing tools help the team keep capabilities and project information current.\n\nVisible capability\n\nExplain the project types and services the business actually delivers. Organize approved project material around the questions prospective clients need answered.\n\nUseful project evidence\n\nPresent genuine photographs and factual descriptions with appropriate permissions. Make the scope and context clear without inventing results or endorsements.\n\nBetter first conversations\n\nUse focused inquiry paths to gather relevant project details and direct requests to the right person without unnecessary form complexity.",
+        "h": 395,
+        "section": "construction-needs",
+        "src": "/approved-media/image-23.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "copy": "Construction capability, clearly communicated.\n\n, OUR APPROACH\n\nWhat construction businesses need\n\nConstruction work can involve different buyers, procurement processes and project requirements. The website should distinguish services and project types so visitors can find relevant information rather than navigate a broad catalogue of unrelated claims.\n\nWe give approved project material a clear structure and connect it to practical inquiry paths. Strong visual presentation supports the content, while maintainable editing tools help the team keep capabilities and project information current.\n\nVisible capability\n\nExplain the project types and services the business actually delivers. Organize approved project material around the questions prospective clients need answered.\n\nUseful project evidence\n\nPresent genuine photographs and factual descriptions with appropriate permissions. Make the scope and context clear without inventing results or endorsements.\n\nBetter first conversations\n\nUse focused inquiry paths to gather relevant project details and direct requests to the right person without unnecessary form complexity.",
+        "h": 795,
+        "section": "construction-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "Two construction professionals in safety equipment reviewing work on a building site.",
+        "copy": "",
+        "h": 320,
+        "section": "construction-imageBreak",
+        "src": "/approved-media/image-23.webp",
+        "w": 375
+      },
+      {
+        "alt": "Construction cranes and a building structure illuminated at night.",
+        "copy": "Let’s talk construction.\nStart a Conversation",
+        "h": 400,
+        "section": "construction-cta",
+        "src": "/approved-media/image-03.webp",
+        "w": 375
+      }
+    ],
+    "desktop": [
+      {
+        "alt": "Two construction professionals in safety equipment reviewing work on a building site.",
+        "copy": "CODEYEA\n\nConstruction",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-23.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The construction industry\n\nConstruction buyers need to understand capability before starting a conversation. They compare the type of work a company undertakes, examine relevant project information and look for a clear way to discuss scope, constraints and timing.\n\nA useful digital presence makes that evaluation easier. Approved project photographs, accurate service descriptions and well-organized company information help potential clients understand where the business fits without relying on exaggerated claims.\n\nCODEYEA brings website design, project presentation and search visibility together around the inquiry journey. We help construction businesses communicate their work clearly and collect the details needed for a productive first discussion.",
+        "h": 520,
+        "section": "construction-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "Two construction professionals reviewing work on a building site",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "construction-strip",
+        "src": "/approved-media/image-23.webp",
+        "w": 273
+      },
+      {
+        "alt": "Workers and scaffolding on a construction site at dusk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "construction-strip",
+        "src": "/approved-media/image-09.webp",
+        "w": 273
+      },
+      {
+        "alt": "Construction cranes and a building structure illuminated at night",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "construction-strip",
+        "src": "/approved-media/image-03.webp",
+        "w": 273
+      },
+      {
+        "alt": "Roofing professionals installing a roof on a house",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "construction-strip",
+        "src": "/approved-media/image-42.webp",
+        "w": 273
+      },
+      {
+        "alt": "Two construction professionals in safety equipment reviewing work on a building site.",
+        "copy": "Construction capability, clearly communicated.\n\n, OUR APPROACH\n\nWhat construction businesses need\n\nConstruction work can involve different buyers, procurement processes and project requirements. The website should distinguish services and project types so visitors can find relevant information rather than navigate a broad catalogue of unrelated claims.\n\nWe give approved project material a clear structure and connect it to practical inquiry paths. Strong visual presentation supports the content, while maintainable editing tools help the team keep capabilities and project information current.\n\nVisible capability\n\nExplain the project types and services the business actually delivers. Organize approved project material around the questions prospective clients need answered.\n\nUseful project evidence\n\nPresent genuine photographs and factual descriptions with appropriate permissions. Make the scope and context clear without inventing results or endorsements.\n\nBetter first conversations\n\nUse focused inquiry paths to gather relevant project details and direct requests to the right person without unnecessary form complexity.",
+        "h": 730,
+        "section": "construction-needs",
+        "src": "/approved-media/image-23.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "Construction capability, clearly communicated.\n\n, OUR APPROACH\n\nWhat construction businesses need\n\nConstruction work can involve different buyers, procurement processes and project requirements. The website should distinguish services and project types so visitors can find relevant information rather than navigate a broad catalogue of unrelated claims.\n\nWe give approved project material a clear structure and connect it to practical inquiry paths. Strong visual presentation supports the content, while maintainable editing tools help the team keep capabilities and project information current.\n\nVisible capability\n\nExplain the project types and services the business actually delivers. Organize approved project material around the questions prospective clients need answered.\n\nUseful project evidence\n\nPresent genuine photographs and factual descriptions with appropriate permissions. Make the scope and context clear without inventing results or endorsements.\n\nBetter first conversations\n\nUse focused inquiry paths to gather relevant project details and direct requests to the right person without unnecessary form complexity.",
+        "h": 583,
+        "section": "construction-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "Two construction professionals in safety equipment reviewing work on a building site.",
+        "copy": "",
+        "h": 791,
+        "section": "construction-imageBreak",
+        "src": "/approved-media/image-23.webp",
+        "w": 1265
+      },
+      {
+        "alt": "Construction cranes and a building structure illuminated at night.",
+        "copy": "Let’s talk construction.\nStart a Conversation",
+        "h": 388,
+        "section": "construction-cta",
+        "src": "/approved-media/image-03.webp",
+        "w": 1265
+      }
+    ]
+  },
+  "e-commerce": {
+    "mobile": [
+      {
+        "alt": "An online shop owner preparing a parcel at a packing table.",
+        "copy": "CODEYEA\n\nE-Commerce",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-15.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "copy": "The E-Commerce industry\n\nOnline shoppers move between discovery, comparison and purchase. They need useful product information, clear navigation and confidence about payment, delivery and returns before deciding whether to place an order.\n\nBehind the storefront, teams need to manage products, stock and customer communication without avoidable repetition. A strong store experience connects those operational needs with the questions customers ask at each step.\n\nCODEYEA shapes eCommerce websites around that complete journey. We combine design, product-content structure, search visibility and suitable integrations to make buying and everyday store management easier to understand.",
+        "h": 777,
+        "section": "e-commerce-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "A small business owner packing orders at a worktable",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 260,
+        "section": "e-commerce-strip",
+        "src": "/approved-media/image-15.webp",
+        "w": 252
+      },
+      {
+        "alt": "An online checkout displayed on a laptop beside a payment card",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 225,
+        "section": "e-commerce-strip",
+        "src": "/approved-media/image-12.webp",
+        "w": 252
+      },
+      {
+        "alt": "Shelves of packaged goods inside a warehouse",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 320,
+        "section": "e-commerce-strip",
+        "src": "/approved-media/image-22.webp",
+        "w": 252
+      },
+      {
+        "alt": "A website layout displayed on a laptop",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 240,
+        "section": "e-commerce-strip",
+        "src": "/approved-media/image-40.webp",
+        "w": 252
+      },
+      {
+        "alt": "An online shop owner preparing a parcel at a packing table.",
+        "copy": "A clearer path from discovery to purchase.\n\n, OUR APPROACH\n\nWhat E-Commerce businesses need\n\nAn online store must make a growing catalogue manageable for customers and staff. Product categories, filters and detail pages should reflect how people actually compare items rather than mirror an internal spreadsheet.\n\nWe align the storefront with the business’s payment, inventory and fulfillment arrangements. The aim is a clear customer experience supported by practical workflows, with platform and integration choices based on real requirements.\n\nUseful product discovery\n\nStructure categories, navigation and product information around customer needs. Make important differences and purchase requirements easy to compare.\n\nClear purchase decisions\n\nPresent pricing, delivery and return information supplied by the business consistently, with a checkout journey that avoids unnecessary uncertainty.\n\nConnected store operations\n\nAssess the relationship between orders, inventory and communication so suitable integrations reduce repetitive handling without adding unnecessary complexity.",
+        "h": 395,
+        "section": "e-commerce-needs",
+        "src": "/approved-media/image-15.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "copy": "A clearer path from discovery to purchase.\n\n, OUR APPROACH\n\nWhat E-Commerce businesses need\n\nAn online store must make a growing catalogue manageable for customers and staff. Product categories, filters and detail pages should reflect how people actually compare items rather than mirror an internal spreadsheet.\n\nWe align the storefront with the business’s payment, inventory and fulfillment arrangements. The aim is a clear customer experience supported by practical workflows, with platform and integration choices based on real requirements.\n\nUseful product discovery\n\nStructure categories, navigation and product information around customer needs. Make important differences and purchase requirements easy to compare.\n\nClear purchase decisions\n\nPresent pricing, delivery and return information supplied by the business consistently, with a checkout journey that avoids unnecessary uncertainty.\n\nConnected store operations\n\nAssess the relationship between orders, inventory and communication so suitable integrations reduce repetitive handling without adding unnecessary complexity.",
+        "h": 823,
+        "section": "e-commerce-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "An online shop owner preparing a parcel at a packing table.",
+        "copy": "",
+        "h": 320,
+        "section": "e-commerce-imageBreak",
+        "src": "/approved-media/image-15.webp",
+        "w": 375
+      },
+      {
+        "alt": "Shelves of packaged goods inside a warehouse.",
+        "copy": "Let’s talk E-Commerce.\nStart a Conversation",
+        "h": 400,
+        "section": "e-commerce-cta",
+        "src": "/approved-media/image-22.webp",
+        "w": 375
+      }
+    ],
+    "desktop": [
+      {
+        "alt": "An online shop owner preparing a parcel at a packing table.",
+        "copy": "CODEYEA\n\nE-Commerce",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-15.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The E-Commerce industry\n\nOnline shoppers move between discovery, comparison and purchase. They need useful product information, clear navigation and confidence about payment, delivery and returns before deciding whether to place an order.\n\nBehind the storefront, teams need to manage products, stock and customer communication without avoidable repetition. A strong store experience connects those operational needs with the questions customers ask at each step.\n\nCODEYEA shapes eCommerce websites around that complete journey. We combine design, product-content structure, search visibility and suitable integrations to make buying and everyday store management easier to understand.",
+        "h": 520,
+        "section": "e-commerce-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A small business owner packing orders at a worktable",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "e-commerce-strip",
+        "src": "/approved-media/image-15.webp",
+        "w": 273
+      },
+      {
+        "alt": "An online checkout displayed on a laptop beside a payment card",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "e-commerce-strip",
+        "src": "/approved-media/image-12.webp",
+        "w": 273
+      },
+      {
+        "alt": "Shelves of packaged goods inside a warehouse",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "e-commerce-strip",
+        "src": "/approved-media/image-22.webp",
+        "w": 273
+      },
+      {
+        "alt": "A website layout displayed on a laptop",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "e-commerce-strip",
+        "src": "/approved-media/image-40.webp",
+        "w": 273
+      },
+      {
+        "alt": "An online shop owner preparing a parcel at a packing table.",
+        "copy": "A clearer path from discovery to purchase.\n\n, OUR APPROACH\n\nWhat E-Commerce businesses need\n\nAn online store must make a growing catalogue manageable for customers and staff. Product categories, filters and detail pages should reflect how people actually compare items rather than mirror an internal spreadsheet.\n\nWe align the storefront with the business’s payment, inventory and fulfillment arrangements. The aim is a clear customer experience supported by practical workflows, with platform and integration choices based on real requirements.\n\nUseful product discovery\n\nStructure categories, navigation and product information around customer needs. Make important differences and purchase requirements easy to compare.\n\nClear purchase decisions\n\nPresent pricing, delivery and return information supplied by the business consistently, with a checkout journey that avoids unnecessary uncertainty.\n\nConnected store operations\n\nAssess the relationship between orders, inventory and communication so suitable integrations reduce repetitive handling without adding unnecessary complexity.",
+        "h": 730,
+        "section": "e-commerce-needs",
+        "src": "/approved-media/image-15.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "A clearer path from discovery to purchase.\n\n, OUR APPROACH\n\nWhat E-Commerce businesses need\n\nAn online store must make a growing catalogue manageable for customers and staff. Product categories, filters and detail pages should reflect how people actually compare items rather than mirror an internal spreadsheet.\n\nWe align the storefront with the business’s payment, inventory and fulfillment arrangements. The aim is a clear customer experience supported by practical workflows, with platform and integration choices based on real requirements.\n\nUseful product discovery\n\nStructure categories, navigation and product information around customer needs. Make important differences and purchase requirements easy to compare.\n\nClear purchase decisions\n\nPresent pricing, delivery and return information supplied by the business consistently, with a checkout journey that avoids unnecessary uncertainty.\n\nConnected store operations\n\nAssess the relationship between orders, inventory and communication so suitable integrations reduce repetitive handling without adding unnecessary complexity.",
+        "h": 583,
+        "section": "e-commerce-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "An online shop owner preparing a parcel at a packing table.",
+        "copy": "",
+        "h": 791,
+        "section": "e-commerce-imageBreak",
+        "src": "/approved-media/image-15.webp",
+        "w": 1265
+      },
+      {
+        "alt": "Shelves of packaged goods inside a warehouse.",
+        "copy": "Let’s talk E-Commerce.\nStart a Conversation",
+        "h": 388,
+        "section": "e-commerce-cta",
+        "src": "/approved-media/image-22.webp",
+        "w": 1265
+      }
+    ]
+  },
+  "small-business": {
+    "mobile": [
+      {
+        "alt": "Tools and workbenches inside an established craft workshop.",
+        "copy": "CODEYEA\n\nSmall Business",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-10.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "copy": "The small business industry\n\nSmall business customers often want straightforward answers: what you offer, whether it suits their needs and how to contact or buy from you. A clear online presence helps them make that decision without unnecessary friction.\n\nOwners also need a website they can manage alongside the rest of the business. Content updates, inquiries and basic digital tools should support everyday work rather than introduce another complicated system.\n\nCODEYEA helps small businesses prioritize the digital foundations that matter. We connect website design, brand communication and relevant search content around actual services, available resources and the next practical stage of growth.",
+        "h": 749,
+        "section": "small-business-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "Tools and workbenches inside a craft workshop",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 260,
+        "section": "small-business-strip",
+        "src": "/approved-media/image-10.webp",
+        "w": 252
+      },
+      {
+        "alt": "A bakery employee standing behind a counter of prepared goods",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 225,
+        "section": "small-business-strip",
+        "src": "/approved-media/image-25.webp",
+        "w": 252
+      },
+      {
+        "alt": "A bright modern office workspace",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 320,
+        "section": "small-business-strip",
+        "src": "/approved-media/image-37.webp",
+        "w": 252
+      },
+      {
+        "alt": "Hand tools arranged in a workshop tray",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 240,
+        "section": "small-business-strip",
+        "src": "/approved-media/image-28.webp",
+        "w": 252
+      },
+      {
+        "alt": "Tools and workbenches inside an established craft workshop.",
+        "copy": "Practical foundations for everyday business.\n\n, OUR APPROACH\n\nWhat small businesses need\n\nThe right starting point depends on the business. Some teams need a clear service website; others need online sales or better handling of incoming inquiries. Choosing useful priorities matters more than adding every possible feature.\n\nWe organize the website around customer questions and the owner’s ability to maintain it. Consistent branding, manageable content and sensible technical support help the digital presence remain useful after the initial launch.\n\nClear business identity\n\nExplain the offer in familiar language and present a consistent brand across the website and customer materials.\n\nRelevant discovery\n\nBuild useful service content and accurate business information around the audience the company actually serves, without broad or unsupported promises.\n\nManageable daily work\n\nKeep editing and inquiry handling practical for a small team. Introduce connections only where they solve a defined operational need.",
+        "h": 395,
+        "section": "small-business-needs",
+        "src": "/approved-media/image-10.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "copy": "Practical foundations for everyday business.\n\n, OUR APPROACH\n\nWhat small businesses need\n\nThe right starting point depends on the business. Some teams need a clear service website; others need online sales or better handling of incoming inquiries. Choosing useful priorities matters more than adding every possible feature.\n\nWe organize the website around customer questions and the owner’s ability to maintain it. Consistent branding, manageable content and sensible technical support help the digital presence remain useful after the initial launch.\n\nClear business identity\n\nExplain the offer in familiar language and present a consistent brand across the website and customer materials.\n\nRelevant discovery\n\nBuild useful service content and accurate business information around the audience the company actually serves, without broad or unsupported promises.\n\nManageable daily work\n\nKeep editing and inquiry handling practical for a small team. Introduce connections only where they solve a defined operational need.",
+        "h": 767,
+        "section": "small-business-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "Tools and workbenches inside an established craft workshop.",
+        "copy": "",
+        "h": 320,
+        "section": "small-business-imageBreak",
+        "src": "/approved-media/image-10.webp",
+        "w": 375
+      },
+      {
+        "alt": "A set of hand tools in a workshop.",
+        "copy": "Let’s talk business.\nStart a Conversation",
+        "h": 400,
+        "section": "small-business-cta",
+        "src": "/approved-media/image-28.webp",
+        "w": 375
+      }
+    ],
+    "desktop": [
+      {
+        "alt": "Tools and workbenches inside an established craft workshop.",
+        "copy": "CODEYEA\n\nSmall Business",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-10.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The small business industry\n\nSmall business customers often want straightforward answers: what you offer, whether it suits their needs and how to contact or buy from you. A clear online presence helps them make that decision without unnecessary friction.\n\nOwners also need a website they can manage alongside the rest of the business. Content updates, inquiries and basic digital tools should support everyday work rather than introduce another complicated system.\n\nCODEYEA helps small businesses prioritize the digital foundations that matter. We connect website design, brand communication and relevant search content around actual services, available resources and the next practical stage of growth.",
+        "h": 520,
+        "section": "small-business-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "Tools and workbenches inside a craft workshop",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "small-business-strip",
+        "src": "/approved-media/image-10.webp",
+        "w": 273
+      },
+      {
+        "alt": "A bakery employee standing behind a counter of prepared goods",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "small-business-strip",
+        "src": "/approved-media/image-25.webp",
+        "w": 273
+      },
+      {
+        "alt": "A bright modern office workspace",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "small-business-strip",
+        "src": "/approved-media/image-37.webp",
+        "w": 273
+      },
+      {
+        "alt": "Hand tools arranged in a workshop tray",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "small-business-strip",
+        "src": "/approved-media/image-28.webp",
+        "w": 273
+      },
+      {
+        "alt": "Tools and workbenches inside an established craft workshop.",
+        "copy": "Practical foundations for everyday business.\n\n, OUR APPROACH\n\nWhat small businesses need\n\nThe right starting point depends on the business. Some teams need a clear service website; others need online sales or better handling of incoming inquiries. Choosing useful priorities matters more than adding every possible feature.\n\nWe organize the website around customer questions and the owner’s ability to maintain it. Consistent branding, manageable content and sensible technical support help the digital presence remain useful after the initial launch.\n\nClear business identity\n\nExplain the offer in familiar language and present a consistent brand across the website and customer materials.\n\nRelevant discovery\n\nBuild useful service content and accurate business information around the audience the company actually serves, without broad or unsupported promises.\n\nManageable daily work\n\nKeep editing and inquiry handling practical for a small team. Introduce connections only where they solve a defined operational need.",
+        "h": 730,
+        "section": "small-business-needs",
+        "src": "/approved-media/image-10.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "Practical foundations for everyday business.\n\n, OUR APPROACH\n\nWhat small businesses need\n\nThe right starting point depends on the business. Some teams need a clear service website; others need online sales or better handling of incoming inquiries. Choosing useful priorities matters more than adding every possible feature.\n\nWe organize the website around customer questions and the owner’s ability to maintain it. Consistent branding, manageable content and sensible technical support help the digital presence remain useful after the initial launch.\n\nClear business identity\n\nExplain the offer in familiar language and present a consistent brand across the website and customer materials.\n\nRelevant discovery\n\nBuild useful service content and accurate business information around the audience the company actually serves, without broad or unsupported promises.\n\nManageable daily work\n\nKeep editing and inquiry handling practical for a small team. Introduce connections only where they solve a defined operational need.",
+        "h": 557,
+        "section": "small-business-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "Tools and workbenches inside an established craft workshop.",
+        "copy": "",
+        "h": 791,
+        "section": "small-business-imageBreak",
+        "src": "/approved-media/image-10.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A set of hand tools in a workshop.",
+        "copy": "Let’s talk business.\nStart a Conversation",
+        "h": 388,
+        "section": "small-business-cta",
+        "src": "/approved-media/image-28.webp",
+        "w": 1265
+      }
+    ]
+  },
+  "event-coordinators": {
+    "mobile": [
+      {
+        "alt": "Event tables arranged with flowers and place settings in a reception venue.",
+        "copy": "CODEYEA\n\nEvent Coordinators",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-34.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "copy": "The event coordinators industry\n\nPeople choosing an event coordinator want to understand style, capability and fit. They look at previous work, compare the kinds of events offered and need a clear way to discuss their date, priorities and expectations.\n\nA good website gives approved event photography room to communicate while keeping service information easy to follow. It should distinguish inspiration from the practical details a prospective client needs before making an inquiry.\n\nCODEYEA connects visual presentation, brand communication and inquiry workflows for event businesses. We help coordinators explain their approach and gather the information needed to begin a useful planning conversation.",
+        "h": 749,
+        "section": "event-coordinators-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "A restaurant dining room arranged for guests",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 260,
+        "section": "event-coordinators-strip",
+        "src": "/approved-media/image-34.webp",
+        "w": 252
+      },
+      {
+        "alt": "Stage lights illuminating a dark event venue",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 225,
+        "section": "event-coordinators-strip",
+        "src": "/approved-media/image-14.webp",
+        "w": 252
+      },
+      {
+        "alt": "Colleagues discussing a project around a table",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 320,
+        "section": "event-coordinators-strip",
+        "src": "/approved-media/image-38.webp",
+        "w": 252
+      },
+      {
+        "alt": "A team working together around a meeting table",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 240,
+        "section": "event-coordinators-strip",
+        "src": "/approved-media/image-04.webp",
+        "w": 252
+      },
+      {
+        "alt": "Event tables arranged with flowers and place settings in a reception venue.",
+        "copy": "Event expertise, clearly presented.\n\n, OUR APPROACH\n\nWhat event businesses need\n\nAn event business needs to balance a strong visual identity with clear service boundaries. Visitors should be able to understand the types of events supported and how an initial conversation leads into the planning process.\n\nWe structure approved galleries and service content around those decisions. Inquiry forms and suitable calendar connections support the team’s workflow while keeping the public website focused and easy to navigate.\n\nA clear creative identity\n\nPresent approved photography and consistent brand details so prospective clients can understand the coordinator’s style and approach.\n\nUseful event information\n\nExplain supported event types and the planning process without implying that every image represents a completed client project.\n\nOrganized first inquiries\n\nCollect relevant event details through a readable form and connect requests to a practical follow-up process for the team.",
+        "h": 395,
+        "section": "event-coordinators-needs",
+        "src": "/approved-media/image-34.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "copy": "Event expertise, clearly presented.\n\n, OUR APPROACH\n\nWhat event businesses need\n\nAn event business needs to balance a strong visual identity with clear service boundaries. Visitors should be able to understand the types of events supported and how an initial conversation leads into the planning process.\n\nWe structure approved galleries and service content around those decisions. Inquiry forms and suitable calendar connections support the team’s workflow while keeping the public website focused and easy to navigate.\n\nA clear creative identity\n\nPresent approved photography and consistent brand details so prospective clients can understand the coordinator’s style and approach.\n\nUseful event information\n\nExplain supported event types and the planning process without implying that every image represents a completed client project.\n\nOrganized first inquiries\n\nCollect relevant event details through a readable form and connect requests to a practical follow-up process for the team.",
+        "h": 767,
+        "section": "event-coordinators-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "Event tables arranged with flowers and place settings in a reception venue.",
+        "copy": "",
+        "h": 320,
+        "section": "event-coordinators-imageBreak",
+        "src": "/approved-media/image-34.webp",
+        "w": 375
+      },
+      {
+        "alt": "Stage lighting prepared for an event in a dark venue.",
+        "copy": "Let’s talk events.\nStart a Conversation",
+        "h": 400,
+        "section": "event-coordinators-cta",
+        "src": "/approved-media/image-14.webp",
+        "w": 375
+      }
+    ],
+    "desktop": [
+      {
+        "alt": "Event tables arranged with flowers and place settings in a reception venue.",
+        "copy": "CODEYEA\n\nEvent Coordinators",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-34.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The event coordinators industry\n\nPeople choosing an event coordinator want to understand style, capability and fit. They look at previous work, compare the kinds of events offered and need a clear way to discuss their date, priorities and expectations.\n\nA good website gives approved event photography room to communicate while keeping service information easy to follow. It should distinguish inspiration from the practical details a prospective client needs before making an inquiry.\n\nCODEYEA connects visual presentation, brand communication and inquiry workflows for event businesses. We help coordinators explain their approach and gather the information needed to begin a useful planning conversation.",
+        "h": 520,
+        "section": "event-coordinators-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A restaurant dining room arranged for guests",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "event-coordinators-strip",
+        "src": "/approved-media/image-34.webp",
+        "w": 273
+      },
+      {
+        "alt": "Stage lights illuminating a dark event venue",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "event-coordinators-strip",
+        "src": "/approved-media/image-14.webp",
+        "w": 273
+      },
+      {
+        "alt": "Colleagues discussing a project around a table",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "event-coordinators-strip",
+        "src": "/approved-media/image-38.webp",
+        "w": 273
+      },
+      {
+        "alt": "A team working together around a meeting table",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "event-coordinators-strip",
+        "src": "/approved-media/image-04.webp",
+        "w": 273
+      },
+      {
+        "alt": "Event tables arranged with flowers and place settings in a reception venue.",
+        "copy": "Event expertise, clearly presented.\n\n, OUR APPROACH\n\nWhat event businesses need\n\nAn event business needs to balance a strong visual identity with clear service boundaries. Visitors should be able to understand the types of events supported and how an initial conversation leads into the planning process.\n\nWe structure approved galleries and service content around those decisions. Inquiry forms and suitable calendar connections support the team’s workflow while keeping the public website focused and easy to navigate.\n\nA clear creative identity\n\nPresent approved photography and consistent brand details so prospective clients can understand the coordinator’s style and approach.\n\nUseful event information\n\nExplain supported event types and the planning process without implying that every image represents a completed client project.\n\nOrganized first inquiries\n\nCollect relevant event details through a readable form and connect requests to a practical follow-up process for the team.",
+        "h": 730,
+        "section": "event-coordinators-needs",
+        "src": "/approved-media/image-34.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "Event expertise, clearly presented.\n\n, OUR APPROACH\n\nWhat event businesses need\n\nAn event business needs to balance a strong visual identity with clear service boundaries. Visitors should be able to understand the types of events supported and how an initial conversation leads into the planning process.\n\nWe structure approved galleries and service content around those decisions. Inquiry forms and suitable calendar connections support the team’s workflow while keeping the public website focused and easy to navigate.\n\nA clear creative identity\n\nPresent approved photography and consistent brand details so prospective clients can understand the coordinator’s style and approach.\n\nUseful event information\n\nExplain supported event types and the planning process without implying that every image represents a completed client project.\n\nOrganized first inquiries\n\nCollect relevant event details through a readable form and connect requests to a practical follow-up process for the team.",
+        "h": 557,
+        "section": "event-coordinators-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "Event tables arranged with flowers and place settings in a reception venue.",
+        "copy": "",
+        "h": 791,
+        "section": "event-coordinators-imageBreak",
+        "src": "/approved-media/image-34.webp",
+        "w": 1265
+      },
+      {
+        "alt": "Stage lighting prepared for an event in a dark venue.",
+        "copy": "Let’s talk events.\nStart a Conversation",
+        "h": 388,
+        "section": "event-coordinators-cta",
+        "src": "/approved-media/image-14.webp",
+        "w": 1265
+      }
+    ]
+  },
+  "legal": {
+    "mobile": [
+      {
+        "alt": "A study with bookshelves, a desk and legal reference objects.",
+        "copy": "CODEYEA\n\nLegal",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-32.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "copy": "The legal industry\n\nPeople looking for legal help need to understand whether a firm handles their type of matter and how to make an appropriate first contact. They may be unfamiliar with legal terminology and uncertain about what information to share.\n\nA useful legal website explains practice areas in clear language and presents verified professional information consistently. Content should help visitors orient themselves without suggesting that general information is advice for an individual situation.\n\nCODEYEA connects professional website design, content structure and search visibility around that first inquiry. We work with the firm’s approved wording and review process to create a clear, maintainable digital presence.",
+        "h": 735,
+        "section": "legal-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "Legal bookshelves and a desk in a law office",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 260,
+        "section": "legal-strip",
+        "src": "/approved-media/image-32.webp",
+        "w": 252
+      },
+      {
+        "alt": "A Lady Justice statue holding scales",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 225,
+        "section": "legal-strip",
+        "src": "/approved-media/image-31.webp",
+        "w": 252
+      },
+      {
+        "alt": "Typewriter keys on a dark writing desk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 320,
+        "section": "legal-strip",
+        "src": "/approved-media/image-44.webp",
+        "w": 252
+      },
+      {
+        "alt": "A bright modern office workspace",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 240,
+        "section": "legal-strip",
+        "src": "/approved-media/image-37.webp",
+        "w": 252
+      },
+      {
+        "alt": "A study with bookshelves, a desk and legal reference objects.",
+        "copy": "Professional information, clearly structured.\n\n, OUR APPROACH\n\nWhat legal practices need\n\nA legal website should be professional, readable and precise. Practice-area pages need enough context to help visitors understand the firm’s work, while biographies and credentials must reflect verified information supplied by the firm.\n\nWe organize content and inquiry paths with attention to the sensitivity of initial contact. The firm retains responsibility for legal review, professional requirements and decisions about which systems may handle confidential information.\n\nClear practice areas\n\nExplain the matters the firm handles in accessible language. Help visitors find relevant information without overstating expertise or likely outcomes.\n\nVerified professional identity\n\nPresent approved biographies and credentials consistently, with a content review process that keeps important details current.\n\nAppropriate first contact\n\nUse clear inquiry guidance and proportionate forms. Direct sensitive information toward systems and processes approved by the firm.",
+        "h": 395,
+        "section": "legal-needs",
+        "src": "/approved-media/image-32.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "copy": "Professional information, clearly structured.\n\n, OUR APPROACH\n\nWhat legal practices need\n\nA legal website should be professional, readable and precise. Practice-area pages need enough context to help visitors understand the firm’s work, while biographies and credentials must reflect verified information supplied by the firm.\n\nWe organize content and inquiry paths with attention to the sensitivity of initial contact. The firm retains responsibility for legal review, professional requirements and decisions about which systems may handle confidential information.\n\nClear practice areas\n\nExplain the matters the firm handles in accessible language. Help visitors find relevant information without overstating expertise or likely outcomes.\n\nVerified professional identity\n\nPresent approved biographies and credentials consistently, with a content review process that keeps important details current.\n\nAppropriate first contact\n\nUse clear inquiry guidance and proportionate forms. Direct sensitive information toward systems and processes approved by the firm.",
+        "h": 804,
+        "section": "legal-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "A study with bookshelves, a desk and legal reference objects.",
+        "copy": "",
+        "h": 320,
+        "section": "legal-imageBreak",
+        "src": "/approved-media/image-32.webp",
+        "w": 375
+      },
+      {
+        "alt": "A study with bookshelves, a desk and legal reference objects.",
+        "copy": "Let’s talk legal.\nStart a Conversation",
+        "h": 400,
+        "section": "legal-cta",
+        "src": "/approved-media/image-32.webp",
+        "w": 375
+      }
+    ],
+    "desktop": [
+      {
+        "alt": "A study with bookshelves, a desk and legal reference objects.",
+        "copy": "CODEYEA\n\nLegal",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-32.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The legal industry\n\nPeople looking for legal help need to understand whether a firm handles their type of matter and how to make an appropriate first contact. They may be unfamiliar with legal terminology and uncertain about what information to share.\n\nA useful legal website explains practice areas in clear language and presents verified professional information consistently. Content should help visitors orient themselves without suggesting that general information is advice for an individual situation.\n\nCODEYEA connects professional website design, content structure and search visibility around that first inquiry. We work with the firm’s approved wording and review process to create a clear, maintainable digital presence.",
+        "h": 520,
+        "section": "legal-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "Legal bookshelves and a desk in a law office",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "legal-strip",
+        "src": "/approved-media/image-32.webp",
+        "w": 273
+      },
+      {
+        "alt": "A Lady Justice statue holding scales",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "legal-strip",
+        "src": "/approved-media/image-31.webp",
+        "w": 273
+      },
+      {
+        "alt": "Typewriter keys on a dark writing desk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "legal-strip",
+        "src": "/approved-media/image-44.webp",
+        "w": 273
+      },
+      {
+        "alt": "A bright modern office workspace",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "legal-strip",
+        "src": "/approved-media/image-37.webp",
+        "w": 273
+      },
+      {
+        "alt": "A study with bookshelves, a desk and legal reference objects.",
+        "copy": "Professional information, clearly structured.\n\n, OUR APPROACH\n\nWhat legal practices need\n\nA legal website should be professional, readable and precise. Practice-area pages need enough context to help visitors understand the firm’s work, while biographies and credentials must reflect verified information supplied by the firm.\n\nWe organize content and inquiry paths with attention to the sensitivity of initial contact. The firm retains responsibility for legal review, professional requirements and decisions about which systems may handle confidential information.\n\nClear practice areas\n\nExplain the matters the firm handles in accessible language. Help visitors find relevant information without overstating expertise or likely outcomes.\n\nVerified professional identity\n\nPresent approved biographies and credentials consistently, with a content review process that keeps important details current.\n\nAppropriate first contact\n\nUse clear inquiry guidance and proportionate forms. Direct sensitive information toward systems and processes approved by the firm.",
+        "h": 730,
+        "section": "legal-needs",
+        "src": "/approved-media/image-32.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "Professional information, clearly structured.\n\n, OUR APPROACH\n\nWhat legal practices need\n\nA legal website should be professional, readable and precise. Practice-area pages need enough context to help visitors understand the firm’s work, while biographies and credentials must reflect verified information supplied by the firm.\n\nWe organize content and inquiry paths with attention to the sensitivity of initial contact. The firm retains responsibility for legal review, professional requirements and decisions about which systems may handle confidential information.\n\nClear practice areas\n\nExplain the matters the firm handles in accessible language. Help visitors find relevant information without overstating expertise or likely outcomes.\n\nVerified professional identity\n\nPresent approved biographies and credentials consistently, with a content review process that keeps important details current.\n\nAppropriate first contact\n\nUse clear inquiry guidance and proportionate forms. Direct sensitive information toward systems and processes approved by the firm.",
+        "h": 557,
+        "section": "legal-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "A study with bookshelves, a desk and legal reference objects.",
+        "copy": "",
+        "h": 791,
+        "section": "legal-imageBreak",
+        "src": "/approved-media/image-32.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A study with bookshelves, a desk and legal reference objects.",
+        "copy": "Let’s talk legal.\nStart a Conversation",
+        "h": 388,
+        "section": "legal-cta",
+        "src": "/approved-media/image-32.webp",
+        "w": 1265
+      }
+    ]
+  },
+  "online-magazine": {
+    "mobile": [
+      {
+        "alt": "An open magazine showing its pages on a plain surface.",
+        "copy": "CODEYEA\n\nOnline Magazine",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-18.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "copy": "The online magazine industry\n\nReaders arrive at online magazines through search, shared articles and direct visits. A clear reading experience helps them understand a story, discover related coverage and decide whether the publication is worth returning to.\n\nEditorial teams need equally useful tools behind the scenes. Categories, author information, media and publishing workflows should support regular updates without making each article a separate design project.\n\nCODEYEA connects editorial website design, content structure and technical performance around that publishing rhythm. We help magazines present their identity clearly and make a growing archive easier to navigate and manage.",
+        "h": 777,
+        "section": "online-magazine-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "An open magazine showing its pages on a plain surface",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 260,
+        "section": "online-magazine-strip",
+        "src": "/approved-media/image-18.webp",
+        "w": 252
+      },
+      {
+        "alt": "Typewriter keys on a dark writing desk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 225,
+        "section": "online-magazine-strip",
+        "src": "/approved-media/image-44.webp",
+        "w": 252
+      },
+      {
+        "alt": "Colleagues discussing a project around a table",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 320,
+        "section": "online-magazine-strip",
+        "src": "/approved-media/image-38.webp",
+        "w": 252
+      },
+      {
+        "alt": "A light-filled office workspace with shared desks",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 240,
+        "section": "online-magazine-strip",
+        "src": "/approved-media/image-43.webp",
+        "w": 252
+      },
+      {
+        "alt": "An open magazine showing its pages on a plain surface.",
+        "copy": "Editorial content, thoughtfully connected.\n\n, OUR APPROACH\n\nWhat publications need\n\nA publication must balance visual character with comfortable reading. Article pages, category pages and navigation should remain consistent even as coverage expands and new contributors join the workflow.\n\nWe organize the editorial system around repeatable content types and manageable publishing tasks. Search foundations and performance work support discovery, while subscription or advertising requirements are assessed against the publication’s actual model.\n\nComfortable reading\n\nUse clear content hierarchy and consistent article structure so readers can follow stories across desktop and mobile screens.\n\nDiscoverable coverage\n\nOrganize categories, related content and search foundations around editorial themes rather than leaving useful articles isolated in the archive.\n\nPractical publishing\n\nGive editors manageable fields and workflows for articles, media and authors, with appropriate permissions and clear review responsibilities.",
+        "h": 395,
+        "section": "online-magazine-needs",
+        "src": "/approved-media/image-18.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "copy": "Editorial content, thoughtfully connected.\n\n, OUR APPROACH\n\nWhat publications need\n\nA publication must balance visual character with comfortable reading. Article pages, category pages and navigation should remain consistent even as coverage expands and new contributors join the workflow.\n\nWe organize the editorial system around repeatable content types and manageable publishing tasks. Search foundations and performance work support discovery, while subscription or advertising requirements are assessed against the publication’s actual model.\n\nComfortable reading\n\nUse clear content hierarchy and consistent article structure so readers can follow stories across desktop and mobile screens.\n\nDiscoverable coverage\n\nOrganize categories, related content and search foundations around editorial themes rather than leaving useful articles isolated in the archive.\n\nPractical publishing\n\nGive editors manageable fields and workflows for articles, media and authors, with appropriate permissions and clear review responsibilities.",
+        "h": 795,
+        "section": "online-magazine-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "An open magazine showing its pages on a plain surface.",
+        "copy": "",
+        "h": 320,
+        "section": "online-magazine-imageBreak",
+        "src": "/approved-media/image-18.webp",
+        "w": 375
+      },
+      {
+        "alt": "Typewriter keys on a dark writing desk.",
+        "copy": "Let’s talk publishing.\nStart a Conversation",
+        "h": 400,
+        "section": "online-magazine-cta",
+        "src": "/approved-media/image-44.webp",
+        "w": 375
+      }
+    ],
+    "desktop": [
+      {
+        "alt": "An open magazine showing its pages on a plain surface.",
+        "copy": "CODEYEA\n\nOnline Magazine",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-18.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The online magazine industry\n\nReaders arrive at online magazines through search, shared articles and direct visits. A clear reading experience helps them understand a story, discover related coverage and decide whether the publication is worth returning to.\n\nEditorial teams need equally useful tools behind the scenes. Categories, author information, media and publishing workflows should support regular updates without making each article a separate design project.\n\nCODEYEA connects editorial website design, content structure and technical performance around that publishing rhythm. We help magazines present their identity clearly and make a growing archive easier to navigate and manage.",
+        "h": 520,
+        "section": "online-magazine-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "An open magazine showing its pages on a plain surface",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "online-magazine-strip",
+        "src": "/approved-media/image-18.webp",
+        "w": 273
+      },
+      {
+        "alt": "Typewriter keys on a dark writing desk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "online-magazine-strip",
+        "src": "/approved-media/image-44.webp",
+        "w": 273
+      },
+      {
+        "alt": "Colleagues discussing a project around a table",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "online-magazine-strip",
+        "src": "/approved-media/image-38.webp",
+        "w": 273
+      },
+      {
+        "alt": "A light-filled office workspace with shared desks",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "online-magazine-strip",
+        "src": "/approved-media/image-43.webp",
+        "w": 273
+      },
+      {
+        "alt": "An open magazine showing its pages on a plain surface.",
+        "copy": "Editorial content, thoughtfully connected.\n\n, OUR APPROACH\n\nWhat publications need\n\nA publication must balance visual character with comfortable reading. Article pages, category pages and navigation should remain consistent even as coverage expands and new contributors join the workflow.\n\nWe organize the editorial system around repeatable content types and manageable publishing tasks. Search foundations and performance work support discovery, while subscription or advertising requirements are assessed against the publication’s actual model.\n\nComfortable reading\n\nUse clear content hierarchy and consistent article structure so readers can follow stories across desktop and mobile screens.\n\nDiscoverable coverage\n\nOrganize categories, related content and search foundations around editorial themes rather than leaving useful articles isolated in the archive.\n\nPractical publishing\n\nGive editors manageable fields and workflows for articles, media and authors, with appropriate permissions and clear review responsibilities.",
+        "h": 730,
+        "section": "online-magazine-needs",
+        "src": "/approved-media/image-18.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "Editorial content, thoughtfully connected.\n\n, OUR APPROACH\n\nWhat publications need\n\nA publication must balance visual character with comfortable reading. Article pages, category pages and navigation should remain consistent even as coverage expands and new contributors join the workflow.\n\nWe organize the editorial system around repeatable content types and manageable publishing tasks. Search foundations and performance work support discovery, while subscription or advertising requirements are assessed against the publication’s actual model.\n\nComfortable reading\n\nUse clear content hierarchy and consistent article structure so readers can follow stories across desktop and mobile screens.\n\nDiscoverable coverage\n\nOrganize categories, related content and search foundations around editorial themes rather than leaving useful articles isolated in the archive.\n\nPractical publishing\n\nGive editors manageable fields and workflows for articles, media and authors, with appropriate permissions and clear review responsibilities.",
+        "h": 557,
+        "section": "online-magazine-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "An open magazine showing its pages on a plain surface.",
+        "copy": "",
+        "h": 791,
+        "section": "online-magazine-imageBreak",
+        "src": "/approved-media/image-18.webp",
+        "w": 1265
+      },
+      {
+        "alt": "Typewriter keys on a dark writing desk.",
+        "copy": "Let’s talk publishing.\nStart a Conversation",
+        "h": 388,
+        "section": "online-magazine-cta",
+        "src": "/approved-media/image-44.webp",
+        "w": 1265
+      }
+    ]
+  },
+  "oil-and-gas": {
+    "mobile": [
+      {
+        "alt": "Industrial refinery towers and pipework at dusk.",
+        "copy": "CODEYEA\n\nOil and Gas",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-07.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "copy": "The Oil and Gas industry\n\nOil and gas businesses often communicate with buyers, partners and technical teams who need precise information. They look for relevant capabilities, understandable service scope and an appropriate route for a commercial inquiry.\n\nA clear digital presence should organize that information without overstating operational capability. Approved technical material, company information and visual assets need context so visitors can assess relevance to their own requirements.\n\nCODEYEA brings website design, corporate communication and content structure together for oil and gas businesses. We focus on practical digital presentation and suitable business workflows, without making unsupported claims about production or safety outcomes.",
+        "h": 805,
+        "section": "oil-and-gas-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "Refinery towers and pipework at dusk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 260,
+        "section": "oil-and-gas-strip",
+        "src": "/approved-media/image-07.webp",
+        "w": 252
+      },
+      {
+        "alt": "An industrial energy facility illuminated at night",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 225,
+        "section": "oil-and-gas-strip",
+        "src": "/approved-media/image-06.webp",
+        "w": 252
+      },
+      {
+        "alt": "An oilfield worker beside a pumpjack at sunset",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 320,
+        "section": "oil-and-gas-strip",
+        "src": "/approved-media/image-36.webp",
+        "w": 252
+      },
+      {
+        "alt": "Refinery towers and pipework at dusk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 240,
+        "section": "oil-and-gas-strip",
+        "src": "/approved-media/image-07.webp",
+        "w": 252
+      },
+      {
+        "alt": "Industrial refinery towers and pipework at dusk.",
+        "copy": "Energy capabilities, clearly communicated.\n\n, OUR APPROACH\n\nWhat Oil and Gas businesses need\n\nTechnical audiences need clear information rather than broad promotional language. Service descriptions and capability material should distinguish the work the business actually performs and the evidence it can responsibly provide.\n\nWe structure the website around those requirements and give teams a manageable way to update approved information. Business-system connections are assessed individually, with operational or sensitive systems kept outside scope unless explicitly reviewed.\n\nClear capabilities\n\nOrganize approved service and technical information so buyers can understand the company’s actual scope and identify relevant expertise.\n\nConsistent corporate communication\n\nAlign the website, presentations and brand materials around factual information and a coherent professional identity.\n\nUseful business inquiries\n\nProvide a practical contact path for commercial requests and define suitable information flows without implying unverified operational integrations.",
+        "h": 395,
+        "section": "oil-and-gas-needs",
+        "src": "/approved-media/image-07.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "copy": "Energy capabilities, clearly communicated.\n\n, OUR APPROACH\n\nWhat Oil and Gas businesses need\n\nTechnical audiences need clear information rather than broad promotional language. Service descriptions and capability material should distinguish the work the business actually performs and the evidence it can responsibly provide.\n\nWe structure the website around those requirements and give teams a manageable way to update approved information. Business-system connections are assessed individually, with operational or sensitive systems kept outside scope unless explicitly reviewed.\n\nClear capabilities\n\nOrganize approved service and technical information so buyers can understand the company’s actual scope and identify relevant expertise.\n\nConsistent corporate communication\n\nAlign the website, presentations and brand materials around factual information and a coherent professional identity.\n\nUseful business inquiries\n\nProvide a practical contact path for commercial requests and define suitable information flows without implying unverified operational integrations.",
+        "h": 832,
+        "section": "oil-and-gas-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "Industrial refinery towers and pipework at dusk.",
+        "copy": "",
+        "h": 320,
+        "section": "oil-and-gas-imageBreak",
+        "src": "/approved-media/image-07.webp",
+        "w": 375
+      },
+      {
+        "alt": "An industrial refinery illuminated at night.",
+        "copy": "Let’s talk Oil and Gas.\nStart a Conversation",
+        "h": 400,
+        "section": "oil-and-gas-cta",
+        "src": "/approved-media/image-06.webp",
+        "w": 375
+      }
+    ],
+    "desktop": [
+      {
+        "alt": "Industrial refinery towers and pipework at dusk.",
+        "copy": "CODEYEA\n\nOil and Gas",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-07.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The Oil and Gas industry\n\nOil and gas businesses often communicate with buyers, partners and technical teams who need precise information. They look for relevant capabilities, understandable service scope and an appropriate route for a commercial inquiry.\n\nA clear digital presence should organize that information without overstating operational capability. Approved technical material, company information and visual assets need context so visitors can assess relevance to their own requirements.\n\nCODEYEA brings website design, corporate communication and content structure together for oil and gas businesses. We focus on practical digital presentation and suitable business workflows, without making unsupported claims about production or safety outcomes.",
+        "h": 551,
+        "section": "oil-and-gas-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "Refinery towers and pipework at dusk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "oil-and-gas-strip",
+        "src": "/approved-media/image-07.webp",
+        "w": 273
+      },
+      {
+        "alt": "An industrial energy facility illuminated at night",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "oil-and-gas-strip",
+        "src": "/approved-media/image-06.webp",
+        "w": 273
+      },
+      {
+        "alt": "An oilfield worker beside a pumpjack at sunset",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "oil-and-gas-strip",
+        "src": "/approved-media/image-36.webp",
+        "w": 273
+      },
+      {
+        "alt": "Refinery towers and pipework at dusk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "oil-and-gas-strip",
+        "src": "/approved-media/image-07.webp",
+        "w": 273
+      },
+      {
+        "alt": "Industrial refinery towers and pipework at dusk.",
+        "copy": "Energy capabilities, clearly communicated.\n\n, OUR APPROACH\n\nWhat Oil and Gas businesses need\n\nTechnical audiences need clear information rather than broad promotional language. Service descriptions and capability material should distinguish the work the business actually performs and the evidence it can responsibly provide.\n\nWe structure the website around those requirements and give teams a manageable way to update approved information. Business-system connections are assessed individually, with operational or sensitive systems kept outside scope unless explicitly reviewed.\n\nClear capabilities\n\nOrganize approved service and technical information so buyers can understand the company’s actual scope and identify relevant expertise.\n\nConsistent corporate communication\n\nAlign the website, presentations and brand materials around factual information and a coherent professional identity.\n\nUseful business inquiries\n\nProvide a practical contact path for commercial requests and define suitable information flows without implying unverified operational integrations.",
+        "h": 730,
+        "section": "oil-and-gas-needs",
+        "src": "/approved-media/image-07.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "Energy capabilities, clearly communicated.\n\n, OUR APPROACH\n\nWhat Oil and Gas businesses need\n\nTechnical audiences need clear information rather than broad promotional language. Service descriptions and capability material should distinguish the work the business actually performs and the evidence it can responsibly provide.\n\nWe structure the website around those requirements and give teams a manageable way to update approved information. Business-system connections are assessed individually, with operational or sensitive systems kept outside scope unless explicitly reviewed.\n\nClear capabilities\n\nOrganize approved service and technical information so buyers can understand the company’s actual scope and identify relevant expertise.\n\nConsistent corporate communication\n\nAlign the website, presentations and brand materials around factual information and a coherent professional identity.\n\nUseful business inquiries\n\nProvide a practical contact path for commercial requests and define suitable information flows without implying unverified operational integrations.",
+        "h": 557,
+        "section": "oil-and-gas-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "Industrial refinery towers and pipework at dusk.",
+        "copy": "",
+        "h": 791,
+        "section": "oil-and-gas-imageBreak",
+        "src": "/approved-media/image-07.webp",
+        "w": 1265
+      },
+      {
+        "alt": "An industrial refinery illuminated at night.",
+        "copy": "Let’s talk Oil and Gas.\nStart a Conversation",
+        "h": 388,
+        "section": "oil-and-gas-cta",
+        "src": "/approved-media/image-06.webp",
+        "w": 1265
+      }
+    ]
+  },
+  "real-estate": {
+    "mobile": [
+      {
+        "alt": "A residential house and landscaped entrance at twilight.",
+        "copy": "CODEYEA\n\nReal Estate",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-41.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "copy": "The real estate industry\n\nProperty searches begin with comparison. Buyers, tenants and sellers want clear information, useful photographs and an understandable way to ask about a listing or a professional’s services.\n\nA real estate website should make that research easier while keeping information current. Listing details, search tools and contact paths need to work together so visitors can move from browsing to a relevant conversation.\n\nCODEYEA connects property presentation, website design and inquiry workflows around that journey. We help real estate businesses organize approved content and assess suitable listing or CRM connections without promising sales outcomes.",
+        "h": 749,
+        "section": "real-estate-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "A detached house with a landscaped entrance at twilight",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 260,
+        "section": "real-estate-strip",
+        "src": "/approved-media/image-41.webp",
+        "w": 252
+      },
+      {
+        "alt": "Residential buildings along a street at night",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 225,
+        "section": "real-estate-strip",
+        "src": "/approved-media/image-33.webp",
+        "w": 252
+      },
+      {
+        "alt": "A detached house with a landscaped entrance at twilight",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 320,
+        "section": "real-estate-strip",
+        "src": "/approved-media/image-41.webp",
+        "w": 252
+      },
+      {
+        "alt": "Residential buildings along a street at night",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 240,
+        "section": "real-estate-strip",
+        "src": "/approved-media/image-33.webp",
+        "w": 252
+      },
+      {
+        "alt": "A residential house and landscaped entrance at twilight.",
+        "copy": "Property information, clearly presented.\n\n, OUR APPROACH\n\nWhat property businesses need\n\nProperty content can change quickly, so accuracy and manageability matter as much as presentation. Visitors should be able to distinguish current availability and find useful details without navigating inconsistent pages.\n\nWe align listing structure, visual presentation and inquiry handling with the team’s existing processes. Search and filter requirements are defined around the actual catalogue, while data connections are reviewed for availability and permission.\n\nClear property information\n\nPresent approved photographs and factual details consistently so visitors can compare relevant properties and understand what to ask next.\n\nUseful discovery tools\n\nStructure navigation and filters around genuine search needs and the listing data the business can reliably maintain.\n\nConnected inquiries\n\nGive visitors clear contact choices and assess suitable CRM connections so the team can organize follow-up without unnecessary repetition.",
+        "h": 395,
+        "section": "real-estate-needs",
+        "src": "/approved-media/image-41.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "copy": "Property information, clearly presented.\n\n, OUR APPROACH\n\nWhat property businesses need\n\nProperty content can change quickly, so accuracy and manageability matter as much as presentation. Visitors should be able to distinguish current availability and find useful details without navigating inconsistent pages.\n\nWe align listing structure, visual presentation and inquiry handling with the team’s existing processes. Search and filter requirements are defined around the actual catalogue, while data connections are reviewed for availability and permission.\n\nClear property information\n\nPresent approved photographs and factual details consistently so visitors can compare relevant properties and understand what to ask next.\n\nUseful discovery tools\n\nStructure navigation and filters around genuine search needs and the listing data the business can reliably maintain.\n\nConnected inquiries\n\nGive visitors clear contact choices and assess suitable CRM connections so the team can organize follow-up without unnecessary repetition.",
+        "h": 795,
+        "section": "real-estate-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "A residential house and landscaped entrance at twilight.",
+        "copy": "",
+        "h": 320,
+        "section": "real-estate-imageBreak",
+        "src": "/approved-media/image-41.webp",
+        "w": 375
+      },
+      {
+        "alt": "Residential buildings along a street at night.",
+        "copy": "Let’s talk property.\nStart a Conversation",
+        "h": 400,
+        "section": "real-estate-cta",
+        "src": "/approved-media/image-33.webp",
+        "w": 375
+      }
+    ],
+    "desktop": [
+      {
+        "alt": "A residential house and landscaped entrance at twilight.",
+        "copy": "CODEYEA\n\nReal Estate",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-41.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The real estate industry\n\nProperty searches begin with comparison. Buyers, tenants and sellers want clear information, useful photographs and an understandable way to ask about a listing or a professional’s services.\n\nA real estate website should make that research easier while keeping information current. Listing details, search tools and contact paths need to work together so visitors can move from browsing to a relevant conversation.\n\nCODEYEA connects property presentation, website design and inquiry workflows around that journey. We help real estate businesses organize approved content and assess suitable listing or CRM connections without promising sales outcomes.",
+        "h": 520,
+        "section": "real-estate-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A detached house with a landscaped entrance at twilight",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "real-estate-strip",
+        "src": "/approved-media/image-41.webp",
+        "w": 273
+      },
+      {
+        "alt": "Residential buildings along a street at night",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "real-estate-strip",
+        "src": "/approved-media/image-33.webp",
+        "w": 273
+      },
+      {
+        "alt": "A detached house with a landscaped entrance at twilight",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "real-estate-strip",
+        "src": "/approved-media/image-41.webp",
+        "w": 273
+      },
+      {
+        "alt": "Residential buildings along a street at night",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "real-estate-strip",
+        "src": "/approved-media/image-33.webp",
+        "w": 273
+      },
+      {
+        "alt": "A residential house and landscaped entrance at twilight.",
+        "copy": "Property information, clearly presented.\n\n, OUR APPROACH\n\nWhat property businesses need\n\nProperty content can change quickly, so accuracy and manageability matter as much as presentation. Visitors should be able to distinguish current availability and find useful details without navigating inconsistent pages.\n\nWe align listing structure, visual presentation and inquiry handling with the team’s existing processes. Search and filter requirements are defined around the actual catalogue, while data connections are reviewed for availability and permission.\n\nClear property information\n\nPresent approved photographs and factual details consistently so visitors can compare relevant properties and understand what to ask next.\n\nUseful discovery tools\n\nStructure navigation and filters around genuine search needs and the listing data the business can reliably maintain.\n\nConnected inquiries\n\nGive visitors clear contact choices and assess suitable CRM connections so the team can organize follow-up without unnecessary repetition.",
+        "h": 730,
+        "section": "real-estate-needs",
+        "src": "/approved-media/image-41.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "Property information, clearly presented.\n\n, OUR APPROACH\n\nWhat property businesses need\n\nProperty content can change quickly, so accuracy and manageability matter as much as presentation. Visitors should be able to distinguish current availability and find useful details without navigating inconsistent pages.\n\nWe align listing structure, visual presentation and inquiry handling with the team’s existing processes. Search and filter requirements are defined around the actual catalogue, while data connections are reviewed for availability and permission.\n\nClear property information\n\nPresent approved photographs and factual details consistently so visitors can compare relevant properties and understand what to ask next.\n\nUseful discovery tools\n\nStructure navigation and filters around genuine search needs and the listing data the business can reliably maintain.\n\nConnected inquiries\n\nGive visitors clear contact choices and assess suitable CRM connections so the team can organize follow-up without unnecessary repetition.",
+        "h": 557,
+        "section": "real-estate-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "A residential house and landscaped entrance at twilight.",
+        "copy": "",
+        "h": 791,
+        "section": "real-estate-imageBreak",
+        "src": "/approved-media/image-41.webp",
+        "w": 1265
+      },
+      {
+        "alt": "Residential buildings along a street at night.",
+        "copy": "Let’s talk property.\nStart a Conversation",
+        "h": 388,
+        "section": "real-estate-cta",
+        "src": "/approved-media/image-33.webp",
+        "w": 1265
+      }
+    ]
+  },
+  "fashion-and-lifestyle": {
+    "mobile": [
+      {
+        "alt": "A fashion designer organizing sketches and garments in a studio.",
+        "copy": "CODEYEA\n\nFashion and Lifestyle",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-01.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "copy": "The fashion and lifestyle industry\n\nFashion and lifestyle audiences discover brands through images, collections and the stories behind products. A useful website carries that identity into an experience where people can explore, compare and understand what is offered.\n\nStrong visuals need equally clear product and collection information. Navigation, mobile presentation and purchase details should support the brand without making everyday browsing harder than it needs to be.\n\nCODEYEA connects brand direction, website design and commerce foundations for fashion and lifestyle businesses. We help teams present approved collections coherently and manage seasonal content through a practical digital system.",
+        "h": 749,
+        "section": "fashion-and-lifestyle-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "A close view of dark green fabric folds",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 260,
+        "section": "fashion-and-lifestyle-strip",
+        "src": "/approved-media/image-39.webp",
+        "w": 252
+      },
+      {
+        "alt": "A customer browsing clothing in a mobile fashion storefront",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 225,
+        "section": "fashion-and-lifestyle-strip",
+        "src": "/approved-media/image-27.webp",
+        "w": 252
+      },
+      {
+        "alt": "A small business owner packing fashion orders",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 320,
+        "section": "fashion-and-lifestyle-strip",
+        "src": "/approved-media/image-15.webp",
+        "w": 252
+      },
+      {
+        "alt": "A fashion storefront layout displayed on a laptop",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 240,
+        "section": "fashion-and-lifestyle-strip",
+        "src": "/approved-media/image-40.webp",
+        "w": 252
+      },
+      {
+        "alt": "A fashion designer organizing sketches and garments in a studio.",
+        "copy": "Brand identity, consistently expressed.\n\n, OUR APPROACH\n\nWhat fashion brands need\n\nA distinctive brand should remain recognizable across collection pages, product details and supporting materials. The challenge is to give imagery room to communicate while preserving readable information and clear actions.\n\nWe organize the site around the way collections are released and maintained. Responsive design, catalogue structure and suitable commerce connections support a consistent experience from discovery through the next customer interaction.\n\nA coherent brand world\n\nCarry approved visual identity and tone through the website and collection materials without sacrificing clarity or usability.\n\nUseful collection discovery\n\nOrganize products and editorial imagery so visitors can explore the range and understand relevant product details on mobile and desktop.\n\nManageable seasonal updates\n\nGive the team a clear structure for updating collections, imagery and content while keeping the underlying experience consistent.",
+        "h": 395,
+        "section": "fashion-and-lifestyle-needs",
+        "src": "/approved-media/image-01.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "copy": "Brand identity, consistently expressed.\n\n, OUR APPROACH\n\nWhat fashion brands need\n\nA distinctive brand should remain recognizable across collection pages, product details and supporting materials. The challenge is to give imagery room to communicate while preserving readable information and clear actions.\n\nWe organize the site around the way collections are released and maintained. Responsive design, catalogue structure and suitable commerce connections support a consistent experience from discovery through the next customer interaction.\n\nA coherent brand world\n\nCarry approved visual identity and tone through the website and collection materials without sacrificing clarity or usability.\n\nUseful collection discovery\n\nOrganize products and editorial imagery so visitors can explore the range and understand relevant product details on mobile and desktop.\n\nManageable seasonal updates\n\nGive the team a clear structure for updating collections, imagery and content while keeping the underlying experience consistent.",
+        "h": 804,
+        "section": "fashion-and-lifestyle-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "A fashion designer organizing sketches and garments in a studio.",
+        "copy": "",
+        "h": 320,
+        "section": "fashion-and-lifestyle-imageBreak",
+        "src": "/approved-media/image-01.webp",
+        "w": 375
+      },
+      {
+        "alt": "Close-up of dark green fabric folds and texture.",
+        "copy": "Let’s talk style.\nStart a Conversation",
+        "h": 400,
+        "section": "fashion-and-lifestyle-cta",
+        "src": "/approved-media/image-39.webp",
+        "w": 375
+      }
+    ],
+    "desktop": [
+      {
+        "alt": "A fashion designer organizing sketches and garments in a studio.",
+        "copy": "CODEYEA\n\nFashion and Lifestyle",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-01.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The fashion and lifestyle industry\n\nFashion and lifestyle audiences discover brands through images, collections and the stories behind products. A useful website carries that identity into an experience where people can explore, compare and understand what is offered.\n\nStrong visuals need equally clear product and collection information. Navigation, mobile presentation and purchase details should support the brand without making everyday browsing harder than it needs to be.\n\nCODEYEA connects brand direction, website design and commerce foundations for fashion and lifestyle businesses. We help teams present approved collections coherently and manage seasonal content through a practical digital system.",
+        "h": 520,
+        "section": "fashion-and-lifestyle-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A close view of dark green fabric folds",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "fashion-and-lifestyle-strip",
+        "src": "/approved-media/image-39.webp",
+        "w": 273
+      },
+      {
+        "alt": "A customer browsing clothing in a mobile fashion storefront",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "fashion-and-lifestyle-strip",
+        "src": "/approved-media/image-27.webp",
+        "w": 273
+      },
+      {
+        "alt": "A small business owner packing fashion orders",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "fashion-and-lifestyle-strip",
+        "src": "/approved-media/image-15.webp",
+        "w": 273
+      },
+      {
+        "alt": "A fashion storefront layout displayed on a laptop",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "fashion-and-lifestyle-strip",
+        "src": "/approved-media/image-40.webp",
+        "w": 273
+      },
+      {
+        "alt": "A fashion designer organizing sketches and garments in a studio.",
+        "copy": "Brand identity, consistently expressed.\n\n, OUR APPROACH\n\nWhat fashion brands need\n\nA distinctive brand should remain recognizable across collection pages, product details and supporting materials. The challenge is to give imagery room to communicate while preserving readable information and clear actions.\n\nWe organize the site around the way collections are released and maintained. Responsive design, catalogue structure and suitable commerce connections support a consistent experience from discovery through the next customer interaction.\n\nA coherent brand world\n\nCarry approved visual identity and tone through the website and collection materials without sacrificing clarity or usability.\n\nUseful collection discovery\n\nOrganize products and editorial imagery so visitors can explore the range and understand relevant product details on mobile and desktop.\n\nManageable seasonal updates\n\nGive the team a clear structure for updating collections, imagery and content while keeping the underlying experience consistent.",
+        "h": 730,
+        "section": "fashion-and-lifestyle-needs",
+        "src": "/approved-media/image-01.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "Brand identity, consistently expressed.\n\n, OUR APPROACH\n\nWhat fashion brands need\n\nA distinctive brand should remain recognizable across collection pages, product details and supporting materials. The challenge is to give imagery room to communicate while preserving readable information and clear actions.\n\nWe organize the site around the way collections are released and maintained. Responsive design, catalogue structure and suitable commerce connections support a consistent experience from discovery through the next customer interaction.\n\nA coherent brand world\n\nCarry approved visual identity and tone through the website and collection materials without sacrificing clarity or usability.\n\nUseful collection discovery\n\nOrganize products and editorial imagery so visitors can explore the range and understand relevant product details on mobile and desktop.\n\nManageable seasonal updates\n\nGive the team a clear structure for updating collections, imagery and content while keeping the underlying experience consistent.",
+        "h": 557,
+        "section": "fashion-and-lifestyle-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "A fashion designer organizing sketches and garments in a studio.",
+        "copy": "",
+        "h": 791,
+        "section": "fashion-and-lifestyle-imageBreak",
+        "src": "/approved-media/image-01.webp",
+        "w": 1265
+      },
+      {
+        "alt": "Close-up of dark green fabric folds and texture.",
+        "copy": "Let’s talk style.\nStart a Conversation",
+        "h": 388,
+        "section": "fashion-and-lifestyle-cta",
+        "src": "/approved-media/image-39.webp",
+        "w": 1265
+      }
+    ]
+  },
+  "beauty-skincare-med-spa": {
+    "mobile": [
+      {
+        "alt": "A skincare professional consulting with a client in a calm treatment setting",
+        "copy": "CODEYEA\n\nBeauty, Skincare & Med Spa",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-17.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "copy": "The beauty, skincare and med spa industry\n\nClients often discover beauty providers through local search, social content, referrals and online reviews. Before contacting a business, they want to understand its services, professional credentials, approach and available booking options.\n\nA clear digital presence should make approved service information easy to navigate, support informed inquiries and present visual work with appropriate consent and context.\n\nCODEYEA connects website design, content organization, local search visibility and brand consistency around each business’s approved services, policies and customer journey.",
+        "h": 693,
+        "section": "beauty-skincare-med-spa-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "A healthcare professional speaking with a patient in an office",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 260,
+        "section": "beauty-skincare-med-spa-strip",
+        "src": "/approved-media/image-17.webp",
+        "w": 252
+      },
+      {
+        "alt": "A clean treatment room with an examination couch and desk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 225,
+        "section": "beauty-skincare-med-spa-strip",
+        "src": "/approved-media/image-02.webp",
+        "w": 252
+      },
+      {
+        "alt": "A healthcare professional reviewing information on a tablet",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 320,
+        "section": "beauty-skincare-med-spa-strip",
+        "src": "/approved-media/image-16.webp",
+        "w": 252
+      },
+      {
+        "alt": "A bright treatment room with an examination bed and clinical equipment",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 240,
+        "section": "beauty-skincare-med-spa-strip",
+        "src": "/approved-media/image-26.webp",
+        "w": 252
+      },
+      {
+        "alt": "A skincare professional consulting with a client in a calm treatment setting",
+        "copy": "Approved services, clearly presented.\n\n, OUR APPROACH\n\nWhat beauty and med spa businesses need\n\nBeauty brands, skincare businesses and med spas need a polished digital presence that feels welcoming without oversimplifying treatments or services. Visitors should be able to distinguish service categories, understand who provides them and find the appropriate consultation or booking path.\n\nWe organize approved service information, provider details, locations, FAQs, policies and supported booking tools into a clear and manageable website structure.\n\nClear service information\n\nOrganize approved services, providers and relevant preparation or aftercare information without making unsupported medical or treatment claims.\n\nTrustworthy brand presentation\n\nUse consistent branding, verified credentials, consent-based imagery and clear business policies to support informed decisions.\n\nPractical booking journeys\n\nConnect inquiries, consultations or appointments to the systems supported by the business without creating confusing or misleading steps.",
+        "h": 395,
+        "section": "beauty-skincare-med-spa-needs",
+        "src": "/approved-media/image-17.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "copy": "Approved services, clearly presented.\n\n, OUR APPROACH\n\nWhat beauty and med spa businesses need\n\nBeauty brands, skincare businesses and med spas need a polished digital presence that feels welcoming without oversimplifying treatments or services. Visitors should be able to distinguish service categories, understand who provides them and find the appropriate consultation or booking path.\n\nWe organize approved service information, provider details, locations, FAQs, policies and supported booking tools into a clear and manageable website structure.\n\nClear service information\n\nOrganize approved services, providers and relevant preparation or aftercare information without making unsupported medical or treatment claims.\n\nTrustworthy brand presentation\n\nUse consistent branding, verified credentials, consent-based imagery and clear business policies to support informed decisions.\n\nPractical booking journeys\n\nConnect inquiries, consultations or appointments to the systems supported by the business without creating confusing or misleading steps.",
+        "h": 832,
+        "section": "beauty-skincare-med-spa-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "A clean and welcoming skincare treatment room",
+        "copy": "",
+        "h": 320,
+        "section": "beauty-skincare-med-spa-imageBreak",
+        "src": "/approved-media/image-02.webp",
+        "w": 375
+      },
+      {
+        "alt": "A calm modern treatment room with clean neutral finishes",
+        "copy": "Let’s talk beauty and aesthetics.\nStart a Conversation",
+        "h": 400,
+        "section": "beauty-skincare-med-spa-cta",
+        "src": "/approved-media/image-26.webp",
+        "w": 375
+      }
+    ],
+    "desktop": [
+      {
+        "alt": "A skincare professional consulting with a client in a calm treatment setting",
+        "copy": "CODEYEA\n\nBeauty, Skincare & Med Spa",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-17.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The beauty, skincare and med spa industry\n\nClients often discover beauty providers through local search, social content, referrals and online reviews. Before contacting a business, they want to understand its services, professional credentials, approach and available booking options.\n\nA clear digital presence should make approved service information easy to navigate, support informed inquiries and present visual work with appropriate consent and context.\n\nCODEYEA connects website design, content organization, local search visibility and brand consistency around each business’s approved services, policies and customer journey.",
+        "h": 520,
+        "section": "beauty-skincare-med-spa-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A healthcare professional speaking with a patient in an office",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "beauty-skincare-med-spa-strip",
+        "src": "/approved-media/image-17.webp",
+        "w": 273
+      },
+      {
+        "alt": "A clean treatment room with an examination couch and desk",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "beauty-skincare-med-spa-strip",
+        "src": "/approved-media/image-02.webp",
+        "w": 273
+      },
+      {
+        "alt": "A healthcare professional reviewing information on a tablet",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "beauty-skincare-med-spa-strip",
+        "src": "/approved-media/image-16.webp",
+        "w": 273
+      },
+      {
+        "alt": "A bright treatment room with an examination bed and clinical equipment",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "beauty-skincare-med-spa-strip",
+        "src": "/approved-media/image-26.webp",
+        "w": 273
+      },
+      {
+        "alt": "A skincare professional consulting with a client in a calm treatment setting",
+        "copy": "Approved services, clearly presented.\n\n, OUR APPROACH\n\nWhat beauty and med spa businesses need\n\nBeauty brands, skincare businesses and med spas need a polished digital presence that feels welcoming without oversimplifying treatments or services. Visitors should be able to distinguish service categories, understand who provides them and find the appropriate consultation or booking path.\n\nWe organize approved service information, provider details, locations, FAQs, policies and supported booking tools into a clear and manageable website structure.\n\nClear service information\n\nOrganize approved services, providers and relevant preparation or aftercare information without making unsupported medical or treatment claims.\n\nTrustworthy brand presentation\n\nUse consistent branding, verified credentials, consent-based imagery and clear business policies to support informed decisions.\n\nPractical booking journeys\n\nConnect inquiries, consultations or appointments to the systems supported by the business without creating confusing or misleading steps.",
+        "h": 730,
+        "section": "beauty-skincare-med-spa-needs",
+        "src": "/approved-media/image-17.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "Approved services, clearly presented.\n\n, OUR APPROACH\n\nWhat beauty and med spa businesses need\n\nBeauty brands, skincare businesses and med spas need a polished digital presence that feels welcoming without oversimplifying treatments or services. Visitors should be able to distinguish service categories, understand who provides them and find the appropriate consultation or booking path.\n\nWe organize approved service information, provider details, locations, FAQs, policies and supported booking tools into a clear and manageable website structure.\n\nClear service information\n\nOrganize approved services, providers and relevant preparation or aftercare information without making unsupported medical or treatment claims.\n\nTrustworthy brand presentation\n\nUse consistent branding, verified credentials, consent-based imagery and clear business policies to support informed decisions.\n\nPractical booking journeys\n\nConnect inquiries, consultations or appointments to the systems supported by the business without creating confusing or misleading steps.",
+        "h": 583,
+        "section": "beauty-skincare-med-spa-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "A clean and welcoming skincare treatment room",
+        "copy": "",
+        "h": 791,
+        "section": "beauty-skincare-med-spa-imageBreak",
+        "src": "/approved-media/image-02.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A calm modern treatment room with clean neutral finishes",
+        "copy": "Let’s talk beauty and aesthetics.\nStart a Conversation",
+        "h": 475,
+        "section": "beauty-skincare-med-spa-cta",
+        "src": "/approved-media/image-26.webp",
+        "w": 1265
+      }
+    ]
+  },
+  "restaurants-cafes-bakeries": {
+    "mobile": [
+      {
+        "alt": "A bakery employee standing behind a counter of prepared goods",
+        "copy": "CODEYEA\n\nRestaurants, Cafés & Bakeries",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-25.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "copy": "The restaurants, cafés and bakeries industry\n\nCustomers often choose where to eat or order through local search, maps, menus, reviews and social content. They expect accurate hours, locations, menu information and a clear way to reserve, order or contact the business.\n\nA useful digital presence should make this information easy to find on any device while reflecting the atmosphere and identity of the business.\n\nCODEYEA connects website design, content organization, local search visibility and brand consistency around each business’s approved menu, locations and customer journey.",
+        "h": 637,
+        "section": "restaurants-cafes-bakeries-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "A bakery employee standing behind a counter of prepared goods",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 260,
+        "section": "restaurants-cafes-bakeries-strip",
+        "src": "/approved-media/image-25.webp",
+        "w": 252
+      },
+      {
+        "alt": "A restaurant dining room arranged for guests",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 225,
+        "section": "restaurants-cafes-bakeries-strip",
+        "src": "/approved-media/image-34.webp",
+        "w": 252
+      },
+      {
+        "alt": "A bakery employee standing behind a counter of prepared goods",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 320,
+        "section": "restaurants-cafes-bakeries-strip",
+        "src": "/approved-media/image-25.webp",
+        "w": 252
+      },
+      {
+        "alt": "A restaurant dining room arranged for guests",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 240,
+        "section": "restaurants-cafes-bakeries-strip",
+        "src": "/approved-media/image-34.webp",
+        "w": 252
+      },
+      {
+        "alt": "A bakery employee standing behind a counter of prepared goods",
+        "copy": "Menus and customer journeys, clearly organized.\n\n, OUR APPROACH\n\nWhat food and hospitality businesses need\n\nRestaurants, cafés and bakeries need a digital presence that presents their menu and brand clearly while helping customers move quickly from discovery to a useful next step.\n\nWe organize approved menus, locations, opening hours, galleries, contact details and supported ordering or reservation tools into a manageable website structure.\n\nClear menus and locations\n\nPresent current menus, hours, addresses and service options in a format customers can scan easily.\n\nA recognizable brand\n\nUse consistent visuals, photography and messaging across the website and supporting digital materials.\n\nPractical customer journeys\n\nConnect reservations, ordering, catering inquiries or contact actions to the systems supported by the business.",
+        "h": 395,
+        "section": "restaurants-cafes-bakeries-needs",
+        "src": "/approved-media/image-25.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "copy": "Menus and customer journeys, clearly organized.\n\n, OUR APPROACH\n\nWhat food and hospitality businesses need\n\nRestaurants, cafés and bakeries need a digital presence that presents their menu and brand clearly while helping customers move quickly from discovery to a useful next step.\n\nWe organize approved menus, locations, opening hours, galleries, contact details and supported ordering or reservation tools into a manageable website structure.\n\nClear menus and locations\n\nPresent current menus, hours, addresses and service options in a format customers can scan easily.\n\nA recognizable brand\n\nUse consistent visuals, photography and messaging across the website and supporting digital materials.\n\nPractical customer journeys\n\nConnect reservations, ordering, catering inquiries or contact actions to the systems supported by the business.",
+        "h": 739,
+        "section": "restaurants-cafes-bakeries-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "A restaurant dining room arranged for guests",
+        "copy": "",
+        "h": 320,
+        "section": "restaurants-cafes-bakeries-imageBreak",
+        "src": "/approved-media/image-34.webp",
+        "w": 375
+      },
+      {
+        "alt": "A restaurant dining room arranged for guests",
+        "copy": "Let’s talk food and hospitality.\nStart a Conversation",
+        "h": 400,
+        "section": "restaurants-cafes-bakeries-cta",
+        "src": "/approved-media/image-34.webp",
+        "w": 375
+      }
+    ],
+    "desktop": [
+      {
+        "alt": "A bakery employee standing behind a counter of prepared goods",
+        "copy": "CODEYEA\n\nRestaurants, Cafés & Bakeries",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-25.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The restaurants, cafés and bakeries industry\n\nCustomers often choose where to eat or order through local search, maps, menus, reviews and social content. They expect accurate hours, locations, menu information and a clear way to reserve, order or contact the business.\n\nA useful digital presence should make this information easy to find on any device while reflecting the atmosphere and identity of the business.\n\nCODEYEA connects website design, content organization, local search visibility and brand consistency around each business’s approved menu, locations and customer journey.",
+        "h": 490,
+        "section": "restaurants-cafes-bakeries-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A bakery employee standing behind a counter of prepared goods",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "restaurants-cafes-bakeries-strip",
+        "src": "/approved-media/image-25.webp",
+        "w": 273
+      },
+      {
+        "alt": "A restaurant dining room arranged for guests",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "restaurants-cafes-bakeries-strip",
+        "src": "/approved-media/image-34.webp",
+        "w": 273
+      },
+      {
+        "alt": "A bakery employee standing behind a counter of prepared goods",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "restaurants-cafes-bakeries-strip",
+        "src": "/approved-media/image-25.webp",
+        "w": 273
+      },
+      {
+        "alt": "A restaurant dining room arranged for guests",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "restaurants-cafes-bakeries-strip",
+        "src": "/approved-media/image-34.webp",
+        "w": 273
+      },
+      {
+        "alt": "A bakery employee standing behind a counter of prepared goods",
+        "copy": "Menus and customer journeys, clearly organized.\n\n, OUR APPROACH\n\nWhat food and hospitality businesses need\n\nRestaurants, cafés and bakeries need a digital presence that presents their menu and brand clearly while helping customers move quickly from discovery to a useful next step.\n\nWe organize approved menus, locations, opening hours, galleries, contact details and supported ordering or reservation tools into a manageable website structure.\n\nClear menus and locations\n\nPresent current menus, hours, addresses and service options in a format customers can scan easily.\n\nA recognizable brand\n\nUse consistent visuals, photography and messaging across the website and supporting digital materials.\n\nPractical customer journeys\n\nConnect reservations, ordering, catering inquiries or contact actions to the systems supported by the business.",
+        "h": 730,
+        "section": "restaurants-cafes-bakeries-needs",
+        "src": "/approved-media/image-25.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "Menus and customer journeys, clearly organized.\n\n, OUR APPROACH\n\nWhat food and hospitality businesses need\n\nRestaurants, cafés and bakeries need a digital presence that presents their menu and brand clearly while helping customers move quickly from discovery to a useful next step.\n\nWe organize approved menus, locations, opening hours, galleries, contact details and supported ordering or reservation tools into a manageable website structure.\n\nClear menus and locations\n\nPresent current menus, hours, addresses and service options in a format customers can scan easily.\n\nA recognizable brand\n\nUse consistent visuals, photography and messaging across the website and supporting digital materials.\n\nPractical customer journeys\n\nConnect reservations, ordering, catering inquiries or contact actions to the systems supported by the business.",
+        "h": 531,
+        "section": "restaurants-cafes-bakeries-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "A restaurant dining room arranged for guests",
+        "copy": "",
+        "h": 791,
+        "section": "restaurants-cafes-bakeries-imageBreak",
+        "src": "/approved-media/image-34.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A restaurant dining room arranged for guests",
+        "copy": "Let’s talk food and hospitality.\nStart a Conversation",
+        "h": 475,
+        "section": "restaurants-cafes-bakeries-cta",
+        "src": "/approved-media/image-34.webp",
+        "w": 1265
+      }
+    ]
+  },
+  "solar-energy": {
+    "mobile": [
+      {
+        "alt": "A team working together around a meeting table",
+        "copy": "CODEYEA\n\nSolar Energy",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-04.webp",
+        "w": 375
+      },
+      {
+        "alt": "",
+        "copy": "The solar energy industry\n\nCustomers researching solar energy often compare providers, system types, project experience, service areas, warranties and available financing information before making an inquiry.\n\nA clear website should explain the company’s approved capabilities, distinguish residential and commercial services and make the next step easy to understand.\n\nCODEYEA connects website design, technical content organization, search visibility and brand consistency around each solar business’s verified services and project information.",
+        "h": 665,
+        "section": "solar-energy-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 300
+      },
+      {
+        "alt": "A team working together around a meeting table",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 260,
+        "section": "solar-energy-strip",
+        "src": "/approved-media/image-04.webp",
+        "w": 252
+      },
+      {
+        "alt": "A bright modern office workspace",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 225,
+        "section": "solar-energy-strip",
+        "src": "/approved-media/image-37.webp",
+        "w": 252
+      },
+      {
+        "alt": "Colleagues discussing a project around a table",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 320,
+        "section": "solar-energy-strip",
+        "src": "/approved-media/image-38.webp",
+        "w": 252
+      },
+      {
+        "alt": "A light-filled office workspace with shared desks",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 240,
+        "section": "solar-energy-strip",
+        "src": "/approved-media/image-43.webp",
+        "w": 252
+      },
+      {
+        "alt": "Colleagues discussing a project around a table",
+        "copy": "Solar capabilities, clearly organized.\n\n, OUR APPROACH\n\nWhat solar energy businesses need\n\nSolar companies need a professional digital presence that explains their capabilities without relying on unsupported savings, performance or payback claims.\n\nWe organize approved services, service areas, project examples, technical information, FAQs and inquiry workflows into a clear structure for customers and business partners.\n\nClear capabilities\n\nSeparate residential, commercial and other approved solar services with useful supporting information.\n\nCredible project evidence\n\nPresent client-approved projects, system details and company credentials with accurate context.\n\nQualified inquiries\n\nUse structured forms that collect the information required for an appropriate follow-up without promising an instant result.",
+        "h": 395,
+        "section": "solar-energy-needs",
+        "src": "/approved-media/image-38.webp",
+        "w": 350
+      },
+      {
+        "alt": "",
+        "copy": "Solar capabilities, clearly organized.\n\n, OUR APPROACH\n\nWhat solar energy businesses need\n\nSolar companies need a professional digital presence that explains their capabilities without relying on unsupported savings, performance or payback claims.\n\nWe organize approved services, service areas, project examples, technical information, FAQs and inquiry workflows into a clear structure for customers and business partners.\n\nClear capabilities\n\nSeparate residential, commercial and other approved solar services with useful supporting information.\n\nCredible project evidence\n\nPresent client-approved projects, system details and company credentials with accurate context.\n\nQualified inquiries\n\nUse structured forms that collect the information required for an appropriate follow-up without promising an instant result.",
+        "h": 739,
+        "section": "solar-energy-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 378
+      },
+      {
+        "alt": "A light-filled office workspace with shared desks",
+        "copy": "",
+        "h": 320,
+        "section": "solar-energy-imageBreak",
+        "src": "/approved-media/image-43.webp",
+        "w": 375
+      },
+      {
+        "alt": "A team working together around a meeting table",
+        "copy": "Let’s talk solar.\nStart a Conversation",
+        "h": 400,
+        "section": "solar-energy-cta",
+        "src": "/approved-media/image-04.webp",
+        "w": 375
+      }
+    ],
+    "desktop": [
+      {
+        "alt": "A team working together around a meeting table",
+        "copy": "CODEYEA\n\nSolar Energy",
+        "h": 363,
+        "section": "about-hero",
+        "src": "/approved-media/image-04.webp",
+        "w": 1265
+      },
+      {
+        "alt": "",
+        "copy": "The solar energy industry\n\nCustomers researching solar energy often compare providers, system types, project experience, service areas, warranties and available financing information before making an inquiry.\n\nA clear website should explain the company’s approved capabilities, distinguish residential and commercial services and make the next step easy to understand.\n\nCODEYEA connects website design, technical content organization, search visibility and brand consistency around each solar business’s verified services and project information.",
+        "h": 490,
+        "section": "solar-energy-overview",
+        "src": "/approved-media/image-13.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A team working together around a meeting table",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 300,
+        "section": "solar-energy-strip",
+        "src": "/approved-media/image-04.webp",
+        "w": 273
+      },
+      {
+        "alt": "A bright modern office workspace",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 255,
+        "section": "solar-energy-strip",
+        "src": "/approved-media/image-37.webp",
+        "w": 273
+      },
+      {
+        "alt": "Colleagues discussing a project around a table",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 390,
+        "section": "solar-energy-strip",
+        "src": "/approved-media/image-38.webp",
+        "w": 273
+      },
+      {
+        "alt": "A light-filled office workspace with shared desks",
+        "copy": "01\n04\nImage 1 of 4",
+        "h": 270,
+        "section": "solar-energy-strip",
+        "src": "/approved-media/image-43.webp",
+        "w": 273
+      },
+      {
+        "alt": "Colleagues discussing a project around a table",
+        "copy": "Solar capabilities, clearly organized.\n\n, OUR APPROACH\n\nWhat solar energy businesses need\n\nSolar companies need a professional digital presence that explains their capabilities without relying on unsupported savings, performance or payback claims.\n\nWe organize approved services, service areas, project examples, technical information, FAQs and inquiry workflows into a clear structure for customers and business partners.\n\nClear capabilities\n\nSeparate residential, commercial and other approved solar services with useful supporting information.\n\nCredible project evidence\n\nPresent client-approved projects, system details and company credentials with accurate context.\n\nQualified inquiries\n\nUse structured forms that collect the information required for an appropriate follow-up without promising an instant result.",
+        "h": 730,
+        "section": "solar-energy-needs",
+        "src": "/approved-media/image-38.webp",
+        "w": 434
+      },
+      {
+        "alt": "",
+        "copy": "Solar capabilities, clearly organized.\n\n, OUR APPROACH\n\nWhat solar energy businesses need\n\nSolar companies need a professional digital presence that explains their capabilities without relying on unsupported savings, performance or payback claims.\n\nWe organize approved services, service areas, project examples, technical information, FAQs and inquiry workflows into a clear structure for customers and business partners.\n\nClear capabilities\n\nSeparate residential, commercial and other approved solar services with useful supporting information.\n\nCredible project evidence\n\nPresent client-approved projects, system details and company credentials with accurate context.\n\nQualified inquiries\n\nUse structured forms that collect the information required for an appropriate follow-up without promising an instant result.",
+        "h": 531,
+        "section": "solar-energy-needs",
+        "src": "/approved-media/image-13.webp",
+        "w": 947
+      },
+      {
+        "alt": "A light-filled office workspace with shared desks",
+        "copy": "",
+        "h": 791,
+        "section": "solar-energy-imageBreak",
+        "src": "/approved-media/image-43.webp",
+        "w": 1265
+      },
+      {
+        "alt": "A team working together around a meeting table",
+        "copy": "Let’s talk solar.\nStart a Conversation",
+        "h": 388,
+        "section": "solar-energy-cta",
+        "src": "/approved-media/image-04.webp",
+        "w": 1265
+      }
+    ]
+  }
+}
