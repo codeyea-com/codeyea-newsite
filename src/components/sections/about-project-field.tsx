@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import type { AboutSection } from "@/schemas/about";
 import { AboutImage } from "./about-image";
+import {generalArtwork} from "@/content/generated-general-artwork";
 import { aboutCapabilityDescriptions } from "@/content/about-capability-copy";
 
 // Temporary WordPress reference assets, keyed by the existing stable category IDs.
@@ -222,9 +223,10 @@ export function AboutProjectField({ section }: { section: AboutSection }) {
               }
               aria-hidden={index !== active}
             >
-              {item.media || !asset ? (
+              {generalArtwork("about/project-"+index,item.media??section.media) || item.media || !asset ? (
                 <AboutImage
                   media={item.media ?? section.media}
+                  artworkKey={"about/project-"+index} locale={arabic?"ar":"en"}
                   sizes="(max-width: 1199px) 1400px, 84vw"
                 />
               ) : (

@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+const folder='docs/section-imagery-preview/general-pages-review';
+const registry=JSON.parse(await fs.readFile('src/content/generated-general-artwork.json','utf8'));
+const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
+let html=await fs.readFile(folder+'/index.html','utf8');
+const gallery='<section id="asset-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:28px">'+Object.entries(registry).map(([key,art])=>'<figure data-page="'+key.split('/')[0]+'" style="margin:0;background:white;padding:12px"><img loading="lazy" style="width:100%;height:260px;object-fit:contain" src="http://127.0.0.1:3014'+art.src+'" alt="'+escape(art.alt.ar)+'"><figcaption>'+escape(art.alt.ar)+'</figcaption></figure>').join('')+'</section>';
+html=html.replace(/<section id="asset-gallery"[\s\S]*?<\/section>/,'').replace('</main>',gallery+'</main>');
+html=html.replace("history.replaceState(null", "document.querySelectorAll('#asset-gallery figure').forEach(el=>el.hidden=el.dataset.page!==p.value);history.replaceState(null");
+await fs.writeFile(folder+'/index.html',html);
+for(const page of ['about','services','industries','contact'])for(const mode of ['desktop','tablet','mobile'])await fs.copyFile('docs/general-pages-review/'+page+'-'+mode+'.jpg',folder+'/'+page+'-'+mode+'.jpg');
+console.log('Review gallery: 33 image placements with desktop/tablet/mobile screenshots.');

@@ -1,0 +1,807 @@
+[
+  {
+    "route": "about",
+    "images": [
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/hero-v2-desktop.webp",
+        "height": 363,
+        "loaded": true,
+        "src": "/site/generated/general/about/hero-v2-desktop.webp",
+        "width": 1563
+      },
+      {
+        "current": "http://127.0.0.1:3014/brand/logo-dark.png",
+        "height": 84,
+        "loaded": true,
+        "src": "/brand/logo-dark.png",
+        "width": 368
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/experience-v1-desktop.webp",
+        "height": 730,
+        "loaded": true,
+        "src": "/site/generated/general/about/experience-v1-desktop.webp",
+        "width": 434
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/project-0-v1-desktop.webp",
+        "height": 721,
+        "loaded": true,
+        "src": "/site/generated/general/about/project-0-v1-desktop.webp",
+        "width": 1352
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/project-1-v1-desktop.webp",
+        "height": 721,
+        "loaded": true,
+        "src": "/site/generated/general/about/project-1-v1-desktop.webp",
+        "width": 1352
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/project-2-v1-desktop.webp",
+        "height": 721,
+        "loaded": true,
+        "src": "/site/generated/general/about/project-2-v1-desktop.webp",
+        "width": 1352
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/project-3-v1-desktop.webp",
+        "height": 721,
+        "loaded": true,
+        "src": "/site/generated/general/about/project-3-v1-desktop.webp",
+        "width": 1352
+      },
+      {
+        "current": "",
+        "height": 509,
+        "loaded": false,
+        "src": "/site/generated/general/about/showcase-0-v1-desktop.webp",
+        "width": 539
+      },
+      {
+        "current": "",
+        "height": 559,
+        "loaded": false,
+        "src": "/site/generated/general/about/showcase-1-v1-desktop.webp",
+        "width": 539
+      },
+      {
+        "current": "",
+        "height": 497,
+        "loaded": false,
+        "src": "/site/generated/general/about/showcase-2-v1-desktop.webp",
+        "width": 539
+      },
+      {
+        "current": "",
+        "height": 547,
+        "loaded": false,
+        "src": "/site/generated/general/about/showcase-3-v1-desktop.webp",
+        "width": 539
+      }
+    ],
+    "plaque": 1
+  },
+  {
+    "route": "services",
+    "images": [
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/services/hero-v2-desktop.webp",
+        "height": 363,
+        "loaded": true,
+        "src": "/site/generated/general/services/hero-v2-desktop.webp",
+        "width": 1563
+      },
+      {
+        "current": "http://127.0.0.1:3014/brand/logo-dark.png",
+        "height": 84,
+        "loaded": true,
+        "src": "/brand/logo-dark.png",
+        "width": 368
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/services/sv-priority-ai-v1-desktop.webp",
+        "height": 454,
+        "loaded": true,
+        "src": "/site/generated/general/services/sv-priority-ai-v1-desktop.webp",
+        "width": 304
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/services/sv-priority-seo-v2-desktop.webp",
+        "height": 454,
+        "loaded": true,
+        "src": "/site/generated/general/services/sv-priority-seo-v2-desktop.webp",
+        "width": 304
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/services/sv-priority-development-v1-desktop.webp",
+        "height": 454,
+        "loaded": true,
+        "src": "/site/generated/general/services/sv-priority-development-v1-desktop.webp",
+        "width": 304
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/services/sv-priority-commerce-v2-desktop.webp",
+        "height": 454,
+        "loaded": true,
+        "src": "/site/generated/general/services/sv-priority-commerce-v2-desktop.webp",
+        "width": 304
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/services/strategy-v1-desktop.webp",
+        "height": 550,
+        "loaded": true,
+        "src": "/site/generated/general/services/strategy-v1-desktop.webp",
+        "width": 545
+      },
+      {
+        "current": "",
+        "height": 440,
+        "loaded": false,
+        "src": "/site/generated/general/services/cta-v1-desktop.webp",
+        "width": 1563
+      }
+    ],
+    "plaque": 1
+  },
+  {
+    "route": "industries",
+    "images": [
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/industries/hero-v2-desktop.webp",
+        "height": 363,
+        "loaded": true,
+        "src": "/site/generated/general/industries/hero-v2-desktop.webp",
+        "width": 1563
+      },
+      {
+        "current": "http://127.0.0.1:3014/brand/logo-dark.png",
+        "height": 84,
+        "loaded": true,
+        "src": "/brand/logo-dark.png",
+        "width": 368
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/industries/industry-roofing-v1-desktop.webp",
+        "height": 674,
+        "loaded": true,
+        "src": "/site/generated/general/industries/industry-roofing-v1-desktop.webp",
+        "width": 641
+      },
+      {
+        "current": "",
+        "height": 560,
+        "loaded": false,
+        "src": "/site/generated/general/industries/industry-healthcare-v1-desktop.webp",
+        "width": 641
+      },
+      {
+        "current": "",
+        "height": 560,
+        "loaded": false,
+        "src": "/site/generated/general/industries/industry-construction-v1-desktop.webp",
+        "width": 641
+      },
+      {
+        "current": "",
+        "height": 560,
+        "loaded": false,
+        "src": "/site/generated/general/industries/industry-e-commerce-v1-desktop.webp",
+        "width": 641
+      },
+      {
+        "current": "",
+        "height": 674,
+        "loaded": false,
+        "src": "/site/generated/general/industries/industry-small-business-v1-desktop.webp",
+        "width": 641
+      },
+      {
+        "current": "",
+        "height": 560,
+        "loaded": false,
+        "src": "/site/generated/general/industries/industry-event-coordinators-v1-desktop.webp",
+        "width": 641
+      },
+      {
+        "current": "",
+        "height": 560,
+        "loaded": false,
+        "src": "/site/generated/general/industries/industry-legal-v1-desktop.webp",
+        "width": 641
+      },
+      {
+        "current": "",
+        "height": 560,
+        "loaded": false,
+        "src": "/site/generated/general/industries/industry-online-magazine-v1-desktop.webp",
+        "width": 641
+      },
+      {
+        "current": "",
+        "height": 674,
+        "loaded": false,
+        "src": "/site/generated/general/industries/industry-oil-and-gas-v1-desktop.webp",
+        "width": 641
+      },
+      {
+        "current": "",
+        "height": 560,
+        "loaded": false,
+        "src": "/site/generated/general/industries/industry-real-estate-v1-desktop.webp",
+        "width": 641
+      },
+      {
+        "current": "",
+        "height": 560,
+        "loaded": false,
+        "src": "/site/generated/general/industries/industry-fashion-and-lifestyle-v1-desktop.webp",
+        "width": 641
+      },
+      {
+        "current": "",
+        "height": 560,
+        "loaded": false,
+        "src": "/site/generated/general/industries/industry-beauty-skincare-med-spa-v1-desktop.webp",
+        "width": 641
+      },
+      {
+        "current": "",
+        "height": 674,
+        "loaded": false,
+        "src": "/site/generated/general/industries/industry-restaurants-cafes-bakeries-v1-desktop.webp",
+        "width": 641
+      },
+      {
+        "current": "",
+        "height": 560,
+        "loaded": false,
+        "src": "/site/generated/general/industries/industry-solar-energy-v1-desktop.webp",
+        "width": 641
+      }
+    ],
+    "plaque": 1
+  },
+  {
+    "route": "contact",
+    "images": [
+      {
+        "current": "http://127.0.0.1:3014/site/contact-hero-original.jpg",
+        "height": 625,
+        "loaded": true,
+        "src": "/site/contact-hero-original.jpg",
+        "width": 1563
+      }
+    ],
+    "plaque": 0
+  },
+  {
+    "route": "about",
+    "locale": "ar",
+    "mode": "mobile",
+    "images": [],
+    "plaque": 0
+  },
+  {
+    "route": "services",
+    "locale": "ar",
+    "mode": "mobile",
+    "images": [],
+    "plaque": 0
+  },
+  {
+    "route": "industries",
+    "locale": "ar",
+    "mode": "mobile",
+    "images": [],
+    "plaque": 0
+  },
+  {
+    "route": "about",
+    "locale": "en",
+    "mode": "mobile",
+    "images": [
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/hero-v2-mobile.webp",
+        "height": 363,
+        "src": "/site/generated/general/about/hero-v2-desktop.webp",
+        "width": 416
+      },
+      {
+        "current": "http://127.0.0.1:3014/brand/logo-dark.png",
+        "height": 50,
+        "src": "/brand/logo-dark.png",
+        "width": 218
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/experience-v1-desktop.webp",
+        "height": 410,
+        "src": "/site/generated/general/about/experience-v1-desktop.webp",
+        "width": 363
+      },
+      {
+        "current": "",
+        "height": 721,
+        "src": "/site/generated/general/about/project-0-v1-desktop.webp",
+        "width": 429
+      },
+      {
+        "current": "",
+        "height": 721,
+        "src": "/site/generated/general/about/project-1-v1-desktop.webp",
+        "width": 429
+      },
+      {
+        "current": "",
+        "height": 721,
+        "src": "/site/generated/general/about/project-2-v1-desktop.webp",
+        "width": 429
+      },
+      {
+        "current": "",
+        "height": 721,
+        "src": "/site/generated/general/about/project-3-v1-desktop.webp",
+        "width": 429
+      },
+      {
+        "current": "",
+        "height": 337,
+        "src": "/site/generated/general/about/showcase-0-v1-desktop.webp",
+        "width": 356
+      },
+      {
+        "current": "",
+        "height": 369,
+        "src": "/site/generated/general/about/showcase-1-v1-desktop.webp",
+        "width": 356
+      },
+      {
+        "current": "",
+        "height": 329,
+        "src": "/site/generated/general/about/showcase-2-v1-desktop.webp",
+        "width": 356
+      },
+      {
+        "current": "",
+        "height": 362,
+        "src": "/site/generated/general/about/showcase-3-v1-desktop.webp",
+        "width": 356
+      }
+    ],
+    "plaque": 1
+  },
+  {
+    "route": "services",
+    "locale": "en",
+    "mode": "mobile",
+    "images": [
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/services/hero-v2-mobile.webp",
+        "height": 363,
+        "src": "/site/generated/general/services/hero-v2-desktop.webp",
+        "width": 416
+      },
+      {
+        "current": "http://127.0.0.1:3014/brand/logo-dark.png",
+        "height": 50,
+        "src": "/brand/logo-dark.png",
+        "width": 218
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/services/sv-priority-ai-v1-desktop.webp",
+        "height": 424,
+        "src": "/site/generated/general/services/sv-priority-ai-v1-desktop.webp",
+        "width": 397
+      },
+      {
+        "current": "",
+        "height": 424,
+        "src": "/site/generated/general/services/sv-priority-seo-v2-desktop.webp",
+        "width": 397
+      },
+      {
+        "current": "",
+        "height": 424,
+        "src": "/site/generated/general/services/sv-priority-development-v1-desktop.webp",
+        "width": 397
+      },
+      {
+        "current": "",
+        "height": 424,
+        "src": "/site/generated/general/services/sv-priority-commerce-v2-desktop.webp",
+        "width": 397
+      },
+      {
+        "current": "",
+        "height": 340,
+        "src": "/site/generated/general/services/strategy-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 556,
+        "src": "/site/generated/general/services/cta-v1-desktop.webp",
+        "width": 416
+      }
+    ],
+    "plaque": 1
+  },
+  {
+    "route": "industries",
+    "locale": "en",
+    "mode": "mobile",
+    "images": [
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/industries/hero-v2-mobile.webp",
+        "height": 363,
+        "src": "/site/generated/general/industries/hero-v2-desktop.webp",
+        "width": 416
+      },
+      {
+        "current": "http://127.0.0.1:3014/brand/logo-dark.png",
+        "height": 50,
+        "src": "/brand/logo-dark.png",
+        "width": 218
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/industries/industry-roofing-v1-desktop.webp",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-roofing-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-healthcare-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-construction-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-e-commerce-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-small-business-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-event-coordinators-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-legal-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-online-magazine-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-oil-and-gas-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-real-estate-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-fashion-and-lifestyle-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-beauty-skincare-med-spa-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-restaurants-cafes-bakeries-v1-desktop.webp",
+        "width": 393
+      },
+      {
+        "current": "",
+        "height": 295,
+        "src": "/site/generated/general/industries/industry-solar-energy-v1-desktop.webp",
+        "width": 393
+      }
+    ],
+    "plaque": 1
+  },
+  {
+    "route": "contact",
+    "locale": "en",
+    "mode": "mobile",
+    "images": [
+      {
+        "current": "http://127.0.0.1:3014/brand/logo-dark.png",
+        "height": 50,
+        "src": "/brand/logo-dark.png",
+        "width": 218
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/contact/hero-v1-mobile.webp",
+        "height": 380,
+        "src": "/site/generated/general/contact/hero-v1-mobile.webp",
+        "width": 416
+      }
+    ],
+    "plaque": 1
+  },
+  {
+    "route": "about",
+    "locale": "en",
+    "mode": "tablet",
+    "images": [
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/hero-v2-tablet.webp",
+        "height": 363,
+        "src": "/site/generated/general/about/hero-v2-desktop.webp",
+        "width": 910
+      },
+      {
+        "current": "http://127.0.0.1:3014/brand/logo-dark.png",
+        "height": 47,
+        "src": "/brand/logo-dark.png",
+        "width": 207
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/experience-v1-desktop.webp",
+        "height": 402,
+        "src": "/site/generated/general/about/experience-v1-desktop.webp",
+        "width": 356
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/project-0-v1-desktop.webp",
+        "height": 721,
+        "src": "/site/generated/general/about/project-0-v1-desktop.webp",
+        "width": 937
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/project-1-v1-desktop.webp",
+        "height": 721,
+        "src": "/site/generated/general/about/project-1-v1-desktop.webp",
+        "width": 937
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/project-2-v1-desktop.webp",
+        "height": 721,
+        "src": "/site/generated/general/about/project-2-v1-desktop.webp",
+        "width": 937
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/about/project-3-v1-desktop.webp",
+        "height": 721,
+        "src": "/site/generated/general/about/project-3-v1-desktop.webp",
+        "width": 937
+      },
+      {
+        "current": "",
+        "height": 765,
+        "src": "/site/generated/general/about/showcase-0-v1-desktop.webp",
+        "width": 810
+      },
+      {
+        "current": "",
+        "height": 839,
+        "src": "/site/generated/general/about/showcase-1-v1-desktop.webp",
+        "width": 810
+      },
+      {
+        "current": "",
+        "height": 746,
+        "src": "/site/generated/general/about/showcase-2-v1-desktop.webp",
+        "width": 810
+      },
+      {
+        "current": "",
+        "height": 822,
+        "src": "/site/generated/general/about/showcase-3-v1-desktop.webp",
+        "width": 810
+      }
+    ],
+    "plaque": 1
+  },
+  {
+    "route": "services",
+    "locale": "en",
+    "mode": "tablet",
+    "images": [
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/services/hero-v2-tablet.webp",
+        "height": 363,
+        "src": "/site/generated/general/services/hero-v2-desktop.webp",
+        "width": 910
+      },
+      {
+        "current": "http://127.0.0.1:3014/brand/logo-dark.png",
+        "height": 47,
+        "src": "/brand/logo-dark.png",
+        "width": 207
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/services/sv-priority-ai-v1-desktop.webp",
+        "height": 454,
+        "src": "/site/generated/general/services/sv-priority-ai-v1-desktop.webp",
+        "width": 435
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/services/sv-priority-seo-v2-desktop.webp",
+        "height": 454,
+        "src": "/site/generated/general/services/sv-priority-seo-v2-desktop.webp",
+        "width": 435
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/services/sv-priority-development-v1-desktop.webp",
+        "height": 454,
+        "src": "/site/generated/general/services/sv-priority-development-v1-desktop.webp",
+        "width": 435
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/services/sv-priority-commerce-v2-desktop.webp",
+        "height": 454,
+        "src": "/site/generated/general/services/sv-priority-commerce-v2-desktop.webp",
+        "width": 435
+      },
+      {
+        "current": "",
+        "height": 550,
+        "src": "/site/generated/general/services/strategy-v1-desktop.webp",
+        "width": 401
+      },
+      {
+        "current": "",
+        "height": 440,
+        "src": "/site/generated/general/services/cta-v1-desktop.webp",
+        "width": 910
+      }
+    ],
+    "plaque": 1
+  },
+  {
+    "route": "industries",
+    "locale": "en",
+    "mode": "tablet",
+    "images": [
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/industries/hero-v2-tablet.webp",
+        "height": 363,
+        "src": "/site/generated/general/industries/hero-v2-desktop.webp",
+        "width": 910
+      },
+      {
+        "current": "http://127.0.0.1:3014/brand/logo-dark.png",
+        "height": 47,
+        "src": "/brand/logo-dark.png",
+        "width": 207
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/industries/industry-roofing-v1-desktop.webp",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-roofing-v1-desktop.webp",
+        "width": 863
+      },
+      {
+        "current": "",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-healthcare-v1-desktop.webp",
+        "width": 863
+      },
+      {
+        "current": "",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-construction-v1-desktop.webp",
+        "width": 863
+      },
+      {
+        "current": "",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-e-commerce-v1-desktop.webp",
+        "width": 863
+      },
+      {
+        "current": "",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-small-business-v1-desktop.webp",
+        "width": 863
+      },
+      {
+        "current": "",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-event-coordinators-v1-desktop.webp",
+        "width": 863
+      },
+      {
+        "current": "",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-legal-v1-desktop.webp",
+        "width": 863
+      },
+      {
+        "current": "",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-online-magazine-v1-desktop.webp",
+        "width": 863
+      },
+      {
+        "current": "",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-oil-and-gas-v1-desktop.webp",
+        "width": 863
+      },
+      {
+        "current": "",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-real-estate-v1-desktop.webp",
+        "width": 863
+      },
+      {
+        "current": "",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-fashion-and-lifestyle-v1-desktop.webp",
+        "width": 863
+      },
+      {
+        "current": "",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-beauty-skincare-med-spa-v1-desktop.webp",
+        "width": 863
+      },
+      {
+        "current": "",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-restaurants-cafes-bakeries-v1-desktop.webp",
+        "width": 863
+      },
+      {
+        "current": "",
+        "height": 647,
+        "src": "/site/generated/general/industries/industry-solar-energy-v1-desktop.webp",
+        "width": 863
+      }
+    ],
+    "plaque": 1
+  },
+  {
+    "route": "contact",
+    "locale": "en",
+    "mode": "tablet",
+    "images": [
+      {
+        "current": "http://127.0.0.1:3014/brand/logo-dark.png",
+        "height": 47,
+        "src": "/brand/logo-dark.png",
+        "width": 207
+      },
+      {
+        "current": "http://127.0.0.1:3014/site/generated/general/contact/hero-v1-mobile.webp",
+        "height": 625,
+        "src": "/site/generated/general/contact/hero-v1-mobile.webp",
+        "width": 910
+      }
+    ],
+    "plaque": 1
+  }
+]

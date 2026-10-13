@@ -7,9 +7,11 @@ import { AboutImage } from "./about-image";
 function ShowcaseSlide({
   section,
   destination,
+  artworkKey,
 }: {
   section: AboutSection;
   destination: string;
+  artworkKey?: string;
 }) {
   const root = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -117,7 +119,7 @@ function ShowcaseSlide({
   return (
     <div ref={root} className="about-reference-container about-showcase-layout">
       <div className="about-showcase-media">
-        <AboutImage media={section.media} />
+        <AboutImage artworkKey={artworkKey} locale={/\p{Script=Arabic}/u.test(section.heading)?"ar":"en"} media={section.media} />
         <span className="about-showcase-cover" aria-hidden="true" />
       </div>
       <div>
@@ -282,6 +284,7 @@ export function AboutShowcase({ section }: { section: AboutSection }) {
           >
             <ShowcaseSlide
               section={slide}
+              artworkKey={"about/showcase-"+index}
               destination={
                 "destination" in slide
                   ? String(slide.destination)

@@ -1,0 +1,925 @@
+{
+  "about": {
+    "390": [
+      {
+        "alt": "Office interior from the WordPress About reference",
+        "fit": "cover",
+        "h": 363,
+        "n": 0,
+        "slot": "about-hero",
+        "src": "/approved-media/image-37.webp",
+        "w": 416
+      },
+      {
+        "alt": "Meeting area from the WordPress About reference",
+        "fit": "cover",
+        "h": 441,
+        "n": 1,
+        "slot": "about-experience",
+        "src": "/approved-media/image-38.webp",
+        "w": 391
+      },
+      {
+        "alt": "Interior design reference project",
+        "fit": "cover",
+        "h": 721,
+        "n": 2,
+        "slot": "about-projectReference",
+        "src": "/approved-media/image-43.webp",
+        "w": 429
+      },
+      {
+        "alt": "",
+        "fit": "cover",
+        "h": 721,
+        "n": 3,
+        "slot": "about-projectReference",
+        "src": "/about-project-reference/construction.jpg",
+        "w": 429
+      },
+      {
+        "alt": "",
+        "fit": "cover",
+        "h": 721,
+        "n": 4,
+        "slot": "about-projectReference",
+        "src": "/about-project-reference/residential.jpg",
+        "w": 429
+      },
+      {
+        "alt": "",
+        "fit": "cover",
+        "h": 721,
+        "n": 5,
+        "slot": "about-projectReference",
+        "src": "/about-project-reference/city-planning.jpg",
+        "w": 429
+      },
+      {
+        "alt": "Responsive website displayed on multiple devices",
+        "fit": "contain",
+        "h": 337,
+        "n": 6,
+        "slot": "about-showcase",
+        "src": "/approved-media/image-08.webp",
+        "w": 356
+      },
+      {
+        "alt": "Mobile Development reference displayed on a white tablet",
+        "fit": "contain",
+        "h": 369,
+        "n": 7,
+        "slot": "about-showcase",
+        "src": "/approved-media/image-40.webp",
+        "w": 356
+      },
+      {
+        "alt": "eCommerce Solutions reference displayed on two white laptops",
+        "fit": "contain",
+        "h": 329,
+        "n": 8,
+        "slot": "about-showcase",
+        "src": "/approved-media/image-19.webp",
+        "w": 356
+      },
+      {
+        "alt": "Temporary AI slide placeholder: technical work at a computer; replace with approved AI imagery.",
+        "fit": "contain",
+        "h": 362,
+        "n": 9,
+        "slot": "about-showcase",
+        "src": "/approved-media/image-20.webp",
+        "w": 356
+      }
+    ],
+    "820": [
+      {
+        "alt": "Office interior from the WordPress About reference",
+        "fit": "cover",
+        "h": 363,
+        "n": 0,
+        "slot": "about-hero",
+        "src": "/approved-media/image-37.webp",
+        "w": 894
+      },
+      {
+        "alt": "Meeting area from the WordPress About reference",
+        "fit": "cover",
+        "h": 423,
+        "n": 1,
+        "slot": "about-experience",
+        "src": "/approved-media/image-38.webp",
+        "w": 375
+      },
+      {
+        "alt": "Interior design reference project",
+        "fit": "cover",
+        "h": 721,
+        "n": 2,
+        "slot": "about-projectReference",
+        "src": "/approved-media/image-43.webp",
+        "w": 921
+      },
+      {
+        "alt": "",
+        "fit": "cover",
+        "h": 721,
+        "n": 3,
+        "slot": "about-projectReference",
+        "src": "/about-project-reference/construction.jpg",
+        "w": 921
+      },
+      {
+        "alt": "",
+        "fit": "cover",
+        "h": 721,
+        "n": 4,
+        "slot": "about-projectReference",
+        "src": "/about-project-reference/residential.jpg",
+        "w": 921
+      },
+      {
+        "alt": "",
+        "fit": "cover",
+        "h": 721,
+        "n": 5,
+        "slot": "about-projectReference",
+        "src": "/about-project-reference/city-planning.jpg",
+        "w": 921
+      },
+      {
+        "alt": "Responsive website displayed on multiple devices",
+        "fit": "contain",
+        "h": 751,
+        "n": 6,
+        "slot": "about-showcase",
+        "src": "/approved-media/image-08.webp",
+        "w": 794
+      },
+      {
+        "alt": "Mobile Development reference displayed on a white tablet",
+        "fit": "contain",
+        "h": 823,
+        "n": 7,
+        "slot": "about-showcase",
+        "src": "/approved-media/image-40.webp",
+        "w": 794
+      },
+      {
+        "alt": "eCommerce Solutions reference displayed on two white laptops",
+        "fit": "contain",
+        "h": 732,
+        "n": 8,
+        "slot": "about-showcase",
+        "src": "/approved-media/image-19.webp",
+        "w": 794
+      },
+      {
+        "alt": "Temporary AI slide placeholder: technical work at a computer; replace with approved AI imagery.",
+        "fit": "contain",
+        "h": 806,
+        "n": 9,
+        "slot": "about-showcase",
+        "src": "/approved-media/image-20.webp",
+        "w": 794
+      }
+    ],
+    "1422": [
+      {
+        "alt": "Office interior from the WordPress About reference",
+        "fit": "cover",
+        "h": 363,
+        "n": 0,
+        "slot": "about-hero",
+        "src": "/approved-media/image-37.webp",
+        "w": 1563
+      },
+      {
+        "alt": "Meeting area from the WordPress About reference",
+        "fit": "cover",
+        "h": 527,
+        "n": 1,
+        "slot": "about-experience",
+        "src": "/approved-media/image-38.webp",
+        "w": 467
+      },
+      {
+        "alt": "Interior design reference project",
+        "fit": "cover",
+        "h": 721,
+        "n": 2,
+        "slot": "about-projectReference",
+        "src": "/approved-media/image-43.webp",
+        "w": 1352
+      },
+      {
+        "alt": "",
+        "fit": "cover",
+        "h": 721,
+        "n": 3,
+        "slot": "about-projectReference",
+        "src": "/about-project-reference/construction.jpg",
+        "w": 1352
+      },
+      {
+        "alt": "",
+        "fit": "cover",
+        "h": 721,
+        "n": 4,
+        "slot": "about-projectReference",
+        "src": "/about-project-reference/residential.jpg",
+        "w": 1352
+      },
+      {
+        "alt": "",
+        "fit": "cover",
+        "h": 721,
+        "n": 5,
+        "slot": "about-projectReference",
+        "src": "/about-project-reference/city-planning.jpg",
+        "w": 1352
+      },
+      {
+        "alt": "Responsive website displayed on multiple devices",
+        "fit": "contain",
+        "h": 509,
+        "n": 6,
+        "slot": "about-showcase",
+        "src": "/approved-media/image-08.webp",
+        "w": 539
+      },
+      {
+        "alt": "Mobile Development reference displayed on a white tablet",
+        "fit": "contain",
+        "h": 559,
+        "n": 7,
+        "slot": "about-showcase",
+        "src": "/approved-media/image-40.webp",
+        "w": 539
+      },
+      {
+        "alt": "eCommerce Solutions reference displayed on two white laptops",
+        "fit": "contain",
+        "h": 497,
+        "n": 8,
+        "slot": "about-showcase",
+        "src": "/approved-media/image-19.webp",
+        "w": 539
+      },
+      {
+        "alt": "Temporary AI slide placeholder: technical work at a computer; replace with approved AI imagery.",
+        "fit": "contain",
+        "h": 547,
+        "n": 9,
+        "slot": "about-showcase",
+        "src": "/approved-media/image-20.webp",
+        "w": 539
+      }
+    ]
+  },
+  "services": {
+    "390": [
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 363,
+        "n": 0,
+        "slot": "about-hero",
+        "src": "/approved-media/image-04.webp",
+        "w": 416
+      },
+      {
+        "alt": "Developer working with source code at a computer",
+        "fit": "cover",
+        "h": 405,
+        "n": 1,
+        "slot": "services-priority",
+        "src": "/approved-media/image-20.webp",
+        "w": 311
+      },
+      {
+        "alt": "Digital team planning and reviewing a project",
+        "fit": "cover",
+        "h": 405,
+        "n": 2,
+        "slot": "services-priority",
+        "src": "/approved-media/image-38.webp",
+        "w": 311
+      },
+      {
+        "alt": "Website displayed across tablet and mobile devices",
+        "fit": "cover",
+        "h": 405,
+        "n": 3,
+        "slot": "services-priority",
+        "src": "/approved-media/image-08.webp",
+        "w": 311
+      },
+      {
+        "alt": "Online fashion store displayed in a mobile shopping interface",
+        "fit": "cover",
+        "h": 405,
+        "n": 4,
+        "slot": "services-priority",
+        "src": "/approved-media/image-27.webp",
+        "w": 311
+      },
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 340,
+        "n": 5,
+        "slot": "services-strategy",
+        "src": "/approved-media/image-04.webp",
+        "w": 393
+      },
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 556,
+        "n": 6,
+        "slot": "services-cta",
+        "src": "/approved-media/image-04.webp",
+        "w": 416
+      }
+    ],
+    "820": [
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 363,
+        "n": 0,
+        "slot": "about-hero",
+        "src": "/approved-media/image-04.webp",
+        "w": 894
+      },
+      {
+        "alt": "Developer working with source code at a computer",
+        "fit": "cover",
+        "h": 511,
+        "n": 1,
+        "slot": "services-priority",
+        "src": "/approved-media/image-20.webp",
+        "w": 481
+      },
+      {
+        "alt": "Digital team planning and reviewing a project",
+        "fit": "cover",
+        "h": 511,
+        "n": 2,
+        "slot": "services-priority",
+        "src": "/approved-media/image-38.webp",
+        "w": 481
+      },
+      {
+        "alt": "Website displayed across tablet and mobile devices",
+        "fit": "cover",
+        "h": 511,
+        "n": 3,
+        "slot": "services-priority",
+        "src": "/approved-media/image-08.webp",
+        "w": 481
+      },
+      {
+        "alt": "Online fashion store displayed in a mobile shopping interface",
+        "fit": "cover",
+        "h": 511,
+        "n": 4,
+        "slot": "services-priority",
+        "src": "/approved-media/image-27.webp",
+        "w": 481
+      },
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 550,
+        "n": 5,
+        "slot": "services-strategy",
+        "src": "/approved-media/image-04.webp",
+        "w": 394
+      },
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 440,
+        "n": 6,
+        "slot": "services-cta",
+        "src": "/approved-media/image-04.webp",
+        "w": 894
+      }
+    ],
+    "1422": [
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 363,
+        "n": 0,
+        "slot": "about-hero",
+        "src": "/approved-media/image-04.webp",
+        "w": 1563
+      },
+      {
+        "alt": "Developer working with source code at a computer",
+        "fit": "cover",
+        "h": 511,
+        "n": 1,
+        "slot": "services-priority",
+        "src": "/approved-media/image-20.webp",
+        "w": 342
+      },
+      {
+        "alt": "Digital team planning and reviewing a project",
+        "fit": "cover",
+        "h": 511,
+        "n": 2,
+        "slot": "services-priority",
+        "src": "/approved-media/image-38.webp",
+        "w": 342
+      },
+      {
+        "alt": "Website displayed across tablet and mobile devices",
+        "fit": "cover",
+        "h": 511,
+        "n": 3,
+        "slot": "services-priority",
+        "src": "/approved-media/image-08.webp",
+        "w": 342
+      },
+      {
+        "alt": "Online fashion store displayed in a mobile shopping interface",
+        "fit": "cover",
+        "h": 511,
+        "n": 4,
+        "slot": "services-priority",
+        "src": "/approved-media/image-27.webp",
+        "w": 342
+      },
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 550,
+        "n": 5,
+        "slot": "services-strategy",
+        "src": "/approved-media/image-04.webp",
+        "w": 545
+      },
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 440,
+        "n": 6,
+        "slot": "services-cta",
+        "src": "/approved-media/image-04.webp",
+        "w": 1563
+      }
+    ]
+  },
+  "industries": {
+    "390": [
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 363,
+        "n": 0,
+        "slot": "about-hero",
+        "src": "/approved-media/image-04.webp",
+        "w": 416
+      },
+      {
+        "alt": "Roofing work on a house",
+        "fit": "cover",
+        "h": 295,
+        "n": 1,
+        "slot": "industry-roofing",
+        "src": "/approved-media/image-30.webp",
+        "w": 393
+      },
+      {
+        "alt": "Healthcare consultation",
+        "fit": "cover",
+        "h": 295,
+        "n": 2,
+        "slot": "industry-healthcare",
+        "src": "/approved-media/image-05.webp",
+        "w": 393
+      },
+      {
+        "alt": "Construction site",
+        "fit": "cover",
+        "h": 295,
+        "n": 3,
+        "slot": "industry-construction",
+        "src": "/approved-media/image-09.webp",
+        "w": 393
+      },
+      {
+        "alt": "Online shopping and commerce",
+        "fit": "cover",
+        "h": 295,
+        "n": 4,
+        "slot": "industry-e-commerce",
+        "src": "/approved-media/image-27.webp",
+        "w": 393
+      },
+      {
+        "alt": "Small business owner",
+        "fit": "cover",
+        "h": 295,
+        "n": 5,
+        "slot": "industry-small-business",
+        "src": "/approved-media/image-25.webp",
+        "w": 393
+      },
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 295,
+        "n": 6,
+        "slot": "industry-event-coordinators",
+        "src": "/approved-media/image-04.webp",
+        "w": 393
+      },
+      {
+        "alt": "Scales of justice",
+        "fit": "cover",
+        "h": 295,
+        "n": 7,
+        "slot": "industry-legal",
+        "src": "/approved-media/image-31.webp",
+        "w": 393
+      },
+      {
+        "alt": "Digital commerce workspace",
+        "fit": "cover",
+        "h": 295,
+        "n": 8,
+        "slot": "industry-online-magazine",
+        "src": "/approved-media/image-12.webp",
+        "w": 393
+      },
+      {
+        "alt": "Oil and gas equipment",
+        "fit": "cover",
+        "h": 295,
+        "n": 9,
+        "slot": "industry-oil-and-gas",
+        "src": "/approved-media/image-36.webp",
+        "w": 393
+      },
+      {
+        "alt": "Residential property",
+        "fit": "cover",
+        "h": 295,
+        "n": 10,
+        "slot": "industry-real-estate",
+        "src": "/homepage/real-estate.webp",
+        "w": 393
+      },
+      {
+        "alt": "Creative brand design work",
+        "fit": "cover",
+        "h": 295,
+        "n": 11,
+        "slot": "industry-fashion-and-lifestyle",
+        "src": "/homepage/branding.webp",
+        "w": 393
+      },
+      {
+        "alt": "A skincare professional consulting with a client in a calm treatment setting",
+        "fit": "cover",
+        "h": 295,
+        "n": 12,
+        "slot": "industry-beauty-skincare-med-spa",
+        "src": "/approved-media/image-17.webp",
+        "w": 393
+      },
+      {
+        "alt": "A bakery employee standing behind a counter of prepared goods",
+        "fit": "cover",
+        "h": 295,
+        "n": 13,
+        "slot": "industry-restaurants-cafes-bakeries",
+        "src": "/approved-media/image-25.webp",
+        "w": 393
+      },
+      {
+        "alt": "A team working together around a meeting table",
+        "fit": "cover",
+        "h": 295,
+        "n": 14,
+        "slot": "industry-solar-energy",
+        "src": "/approved-media/image-04.webp",
+        "w": 393
+      }
+    ],
+    "820": [
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 363,
+        "n": 0,
+        "slot": "about-hero",
+        "src": "/approved-media/image-04.webp",
+        "w": 894
+      },
+      {
+        "alt": "Roofing work on a house",
+        "fit": "cover",
+        "h": 635,
+        "n": 1,
+        "slot": "industry-roofing",
+        "src": "/approved-media/image-30.webp",
+        "w": 847
+      },
+      {
+        "alt": "Healthcare consultation",
+        "fit": "cover",
+        "h": 635,
+        "n": 2,
+        "slot": "industry-healthcare",
+        "src": "/approved-media/image-05.webp",
+        "w": 847
+      },
+      {
+        "alt": "Construction site",
+        "fit": "cover",
+        "h": 635,
+        "n": 3,
+        "slot": "industry-construction",
+        "src": "/approved-media/image-09.webp",
+        "w": 847
+      },
+      {
+        "alt": "Online shopping and commerce",
+        "fit": "cover",
+        "h": 635,
+        "n": 4,
+        "slot": "industry-e-commerce",
+        "src": "/approved-media/image-27.webp",
+        "w": 847
+      },
+      {
+        "alt": "Small business owner",
+        "fit": "cover",
+        "h": 635,
+        "n": 5,
+        "slot": "industry-small-business",
+        "src": "/approved-media/image-25.webp",
+        "w": 847
+      },
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 635,
+        "n": 6,
+        "slot": "industry-event-coordinators",
+        "src": "/approved-media/image-04.webp",
+        "w": 847
+      },
+      {
+        "alt": "Scales of justice",
+        "fit": "cover",
+        "h": 635,
+        "n": 7,
+        "slot": "industry-legal",
+        "src": "/approved-media/image-31.webp",
+        "w": 847
+      },
+      {
+        "alt": "Digital commerce workspace",
+        "fit": "cover",
+        "h": 635,
+        "n": 8,
+        "slot": "industry-online-magazine",
+        "src": "/approved-media/image-12.webp",
+        "w": 847
+      },
+      {
+        "alt": "Oil and gas equipment",
+        "fit": "cover",
+        "h": 635,
+        "n": 9,
+        "slot": "industry-oil-and-gas",
+        "src": "/approved-media/image-36.webp",
+        "w": 847
+      },
+      {
+        "alt": "Residential property",
+        "fit": "cover",
+        "h": 635,
+        "n": 10,
+        "slot": "industry-real-estate",
+        "src": "/homepage/real-estate.webp",
+        "w": 847
+      },
+      {
+        "alt": "Creative brand design work",
+        "fit": "cover",
+        "h": 635,
+        "n": 11,
+        "slot": "industry-fashion-and-lifestyle",
+        "src": "/homepage/branding.webp",
+        "w": 847
+      },
+      {
+        "alt": "A skincare professional consulting with a client in a calm treatment setting",
+        "fit": "cover",
+        "h": 635,
+        "n": 12,
+        "slot": "industry-beauty-skincare-med-spa",
+        "src": "/approved-media/image-17.webp",
+        "w": 847
+      },
+      {
+        "alt": "A bakery employee standing behind a counter of prepared goods",
+        "fit": "cover",
+        "h": 635,
+        "n": 13,
+        "slot": "industry-restaurants-cafes-bakeries",
+        "src": "/approved-media/image-25.webp",
+        "w": 847
+      },
+      {
+        "alt": "A team working together around a meeting table",
+        "fit": "cover",
+        "h": 635,
+        "n": 14,
+        "slot": "industry-solar-energy",
+        "src": "/approved-media/image-04.webp",
+        "w": 847
+      }
+    ],
+    "1422": [
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 363,
+        "n": 0,
+        "slot": "about-hero",
+        "src": "/approved-media/image-04.webp",
+        "w": 1563
+      },
+      {
+        "alt": "Roofing work on a house",
+        "fit": "cover",
+        "h": 674,
+        "n": 1,
+        "slot": "industry-roofing",
+        "src": "/approved-media/image-30.webp",
+        "w": 641
+      },
+      {
+        "alt": "Healthcare consultation",
+        "fit": "cover",
+        "h": 560,
+        "n": 2,
+        "slot": "industry-healthcare",
+        "src": "/approved-media/image-05.webp",
+        "w": 641
+      },
+      {
+        "alt": "Construction site",
+        "fit": "cover",
+        "h": 560,
+        "n": 3,
+        "slot": "industry-construction",
+        "src": "/approved-media/image-09.webp",
+        "w": 641
+      },
+      {
+        "alt": "Online shopping and commerce",
+        "fit": "cover",
+        "h": 560,
+        "n": 4,
+        "slot": "industry-e-commerce",
+        "src": "/approved-media/image-27.webp",
+        "w": 641
+      },
+      {
+        "alt": "Small business owner",
+        "fit": "cover",
+        "h": 674,
+        "n": 5,
+        "slot": "industry-small-business",
+        "src": "/approved-media/image-25.webp",
+        "w": 641
+      },
+      {
+        "alt": "Team working together",
+        "fit": "cover",
+        "h": 560,
+        "n": 6,
+        "slot": "industry-event-coordinators",
+        "src": "/approved-media/image-04.webp",
+        "w": 641
+      },
+      {
+        "alt": "Scales of justice",
+        "fit": "cover",
+        "h": 560,
+        "n": 7,
+        "slot": "industry-legal",
+        "src": "/approved-media/image-31.webp",
+        "w": 641
+      },
+      {
+        "alt": "Digital commerce workspace",
+        "fit": "cover",
+        "h": 560,
+        "n": 8,
+        "slot": "industry-online-magazine",
+        "src": "/approved-media/image-12.webp",
+        "w": 641
+      },
+      {
+        "alt": "Oil and gas equipment",
+        "fit": "cover",
+        "h": 674,
+        "n": 9,
+        "slot": "industry-oil-and-gas",
+        "src": "/approved-media/image-36.webp",
+        "w": 641
+      },
+      {
+        "alt": "Residential property",
+        "fit": "cover",
+        "h": 560,
+        "n": 10,
+        "slot": "industry-real-estate",
+        "src": "/homepage/real-estate.webp",
+        "w": 641
+      },
+      {
+        "alt": "Creative brand design work",
+        "fit": "cover",
+        "h": 560,
+        "n": 11,
+        "slot": "industry-fashion-and-lifestyle",
+        "src": "/homepage/branding.webp",
+        "w": 641
+      },
+      {
+        "alt": "A skincare professional consulting with a client in a calm treatment setting",
+        "fit": "cover",
+        "h": 560,
+        "n": 12,
+        "slot": "industry-beauty-skincare-med-spa",
+        "src": "/approved-media/image-17.webp",
+        "w": 641
+      },
+      {
+        "alt": "A bakery employee standing behind a counter of prepared goods",
+        "fit": "cover",
+        "h": 674,
+        "n": 13,
+        "slot": "industry-restaurants-cafes-bakeries",
+        "src": "/approved-media/image-25.webp",
+        "w": 641
+      },
+      {
+        "alt": "A team working together around a meeting table",
+        "fit": "cover",
+        "h": 560,
+        "n": 14,
+        "slot": "industry-solar-energy",
+        "src": "/approved-media/image-04.webp",
+        "w": 641
+      }
+    ]
+  },
+  "contact": {
+    "390": [
+      {
+        "alt": "Building and green foliage ,  approved contact page reference",
+        "fit": "cover",
+        "h": 380,
+        "n": 0,
+        "slot": "ct-hero",
+        "src": "/site/contact-hero-original.jpg",
+        "w": 416
+      }
+    ],
+    "820": [
+      {
+        "alt": "Building and green foliage ,  approved contact page reference",
+        "fit": "cover",
+        "h": 625,
+        "n": 0,
+        "slot": "ct-hero",
+        "src": "/site/contact-hero-original.jpg",
+        "w": 894
+      }
+    ],
+    "1422": [
+      {
+        "alt": "Building and green foliage ,  approved contact page reference",
+        "fit": "cover",
+        "h": 625,
+        "n": 0,
+        "slot": "ct-hero",
+        "src": "/site/contact-hero-original.jpg",
+        "w": 1563
+      }
+    ]
+  }
+}

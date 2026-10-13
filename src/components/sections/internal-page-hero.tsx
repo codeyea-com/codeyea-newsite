@@ -1,5 +1,6 @@
 import type { AboutMedia } from "@/schemas/about";
 import { AboutImage } from "./about-image";
+import { GeneralBrandPlaque } from './general-brand-plaque';
 /** Identity and media are editable; geometry and the brand line are shared code. */
 export function InternalPageHero({
   title,
@@ -7,12 +8,16 @@ export function InternalPageHero({
   scrollTarget,
   semanticTitle = true,
   titleBreakBefore,
+  artworkKey,
+  locale,
 }: {
   title: string;
   media?: AboutMedia;
   scrollTarget?: string;
   semanticTitle?: boolean;
   titleBreakBefore?: string;
+  artworkKey?: string;
+  locale?: string;
 }) {
   const Title = semanticTitle ? "h1" : "div";
   // Only the mobile sizing tier changes; the approved title markup stays intact.
@@ -29,7 +34,8 @@ export function InternalPageHero({
         </Title>
       </div>
       <div className="internal-hero-media">
-        <AboutImage media={media} priority sizes="100vw" />
+        <AboutImage media={media} artworkKey={artworkKey} locale={locale} priority sizes="100vw" />
+        <GeneralBrandPlaque media={media} artworkKey={artworkKey}/>
         {scrollTarget && (
           <a
             className="internal-hero-scroll"

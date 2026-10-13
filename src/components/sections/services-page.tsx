@@ -174,6 +174,7 @@ export function ServicesPage({
           <InternalPageHero
             title={content.hero.title}
             media={content.hero.media}
+            artworkKey="services/hero" locale={content.localeId}
           />
         </section>
         <section className="rp-intro rp-container" id={intro.id}>
@@ -219,6 +220,7 @@ export function ServicesPage({
                       <figure>
                         <AboutImage
                           media={i.media}
+                          artworkKey={"services/"+i.id} locale={content.localeId}
                           sizes="(max-width:480px) 100vw,(max-width:800px) 50vw,25vw"
                         />
                       </figure>
@@ -246,6 +248,7 @@ export function ServicesPage({
           <figure>
             <AboutImage
               media={strategy.media}
+              artworkKey="services/strategy" locale={content.localeId}
               sizes="(max-width:800px) 100vw,45vw"
             />
             <svg
@@ -371,7 +374,7 @@ export function ServicesPage({
           </div>
         </section>
         <section className="rp-cta" id={cta.id}>
-          <AboutImage media={cta.media} sizes="100vw" />
+          <AboutImage media={cta.media} artworkKey="services/cta" locale={content.localeId} sizes="100vw" />
           <div className="rp-container rp-cta-inner" data-sv-reveal="text">
             <div>
               <p className="rp-step">{cta.label}</p>

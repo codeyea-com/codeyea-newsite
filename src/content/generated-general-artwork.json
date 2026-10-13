@@ -1,0 +1,277 @@
+{
+  "about/experience": {
+    "src": "/site/generated/general/about/experience-v1-desktop.webp",
+    "expectedMediaId": "media_bcdd21d0-4cbf-4057-a144-a35c64620f8e",
+    "alt": {
+      "en": "Portrait overhead-to-oblique close view of a real project planning table",
+      "ar": "تخطيط تجربة العميل ومتطلبات المشروع على طاولة العمل"
+    }
+  },
+  "about/project-0": {
+    "src": "/site/generated/general/about/project-0-v1-desktop.webp",
+    "expectedMediaId": "media_ea77d13f-f5f7-4478-bdeb-4814b70d7380",
+    "alt": {
+      "en": "Wide photographed strategy desk with an expansive printed customer-journey map and a desktop monitor showing 'Northstar / Acquisition overview / DEMO' with search, enquiry and follow-up steps",
+      "ar": "خطة رقمية تربط البحث والاستفسار والمتابعة"
+    },
+    "mobileSrc": "/site/generated/general/about/project-0-v1-mobile.webp"
+  },
+  "about/project-1": {
+    "src": "/site/generated/general/about/project-1-v1-desktop.webp",
+    "expectedMediaId": "media_ea77d13f-f5f7-4478-bdeb-4814b70d7380",
+    "alt": {
+      "en": "Wide creative product desk: laptop, tablet upright and phone lying on desk show responsive versions of 'Luma Studio', a booking website with meaningful service cards",
+      "ar": "موقع وتطبيق متجاوبان على أجهزة متعددة"
+    },
+    "mobileSrc": "/site/generated/general/about/project-1-v1-mobile.webp"
+  },
+  "about/project-2": {
+    "src": "/site/generated/general/about/project-2-v1-desktop.webp",
+    "expectedMediaId": "media_ea77d13f-f5f7-4478-bdeb-4814b70d7380",
+    "alt": {
+      "en": "Wide merchant workbench: laptop showing 'Field Goods / Orders / Paid / Ready to ship / DEMO', an open product package and label printer",
+      "ar": "متجر متصل بإدارة الطلبات وتجهيز الشحن"
+    },
+    "mobileSrc": "/site/generated/general/about/project-2-v1-mobile.webp"
+  },
+  "about/project-3": {
+    "src": "/site/generated/general/about/project-3-v1-desktop.webp",
+    "expectedMediaId": "media_ea77d13f-f5f7-4478-bdeb-4814b70d7380",
+    "alt": {
+      "en": "Wide clean IT operations desk with a big monitor showing 'Flowline / Inbox to review to approval / DEMO', subtle small server hardware beside it and printed process checklist",
+      "ar": "أتمتة عملية مرتبطة بالمراجعة وبنية تشغيل مستقرة"
+    },
+    "mobileSrc": "/site/generated/general/about/project-3-v1-mobile.webp"
+  },
+  "about/showcase-0": {
+    "src": "/site/generated/general/about/showcase-0-v1-desktop.webp",
+    "expectedMediaId": "media_2aee73ae-0fa2-44ac-a2d5-447cc7cbc2b3",
+    "alt": {
+      "en": "Square close editorial shot of a desk monitor showing recognizable web search results for a fictional business 'Aster Workshop' with blue titles, short snippets and 'Search preview / DEMO'",
+      "ar": "ظهور في نتائج البحث مرتبط بطلبات العملاء"
+    }
+  },
+  "about/showcase-1": {
+    "src": "/site/generated/general/about/showcase-1-v1-desktop.webp",
+    "expectedMediaId": "media_d688c5c2-ea82-4040-9ea6-7e1b258f7529",
+    "alt": {
+      "en": "Square close composition of a laptop and tablet at a product design workstation",
+      "ar": "تجربة تطبيق عملية ومتناسقة بين الأجهزة"
+    }
+  },
+  "about/showcase-2": {
+    "src": "/site/generated/general/about/showcase-2-v1-desktop.webp",
+    "expectedMediaId": "media_64797f88-f49a-4cbc-b1e0-8e21c424aa49",
+    "alt": {
+      "en": "Square close photography of a shop workstation, a desktop monitor with 'Nori Objects' product catalogue and a small phone on a stand showing checkout",
+      "ar": "تجربة شراء وإدارة متجر إلكتروني واضحة"
+    }
+  },
+  "about/showcase-3": {
+    "src": "/site/generated/general/about/showcase-3-v1-desktop.webp",
+    "expectedMediaId": "media_65f622ab-fc90-4d6c-98c1-317a4915bf26",
+    "alt": {
+      "en": "Square close editorial photo of a laptop showing 'Relay Studio / Workflow preview / DEMO': a readable linked flow Request > Extract > Review > Approved, with review panel",
+      "ar": "مسار أتمتة يربط الطلب بالمراجعة والاعتماد"
+    }
+  },
+  "services/sv-priority-ai": {
+    "src": "/site/generated/general/services/sv-priority-ai-v1-desktop.webp",
+    "expectedMediaId": "media_65f622ab-fc90-4d6c-98c1-317a4915bf26",
+    "alt": {
+      "en": "Tall portrait close-up laptop in an operations workplace showing 'Kinetic / AI Assistant / DEMO' and a short workflow: New request > Draft ready > Review",
+      "ar": "مساعد ذكاء اصطناعي يجهز الطلبات للمراجعة"
+    }
+  },
+  "services/sv-priority-development": {
+    "src": "/site/generated/general/services/sv-priority-development-v1-desktop.webp",
+    "expectedMediaId": "media_2aee73ae-0fa2-44ac-a2d5-447cc7cbc2b3",
+    "alt": {
+      "en": "Tall portrait physical tablet and smartphone on a designer's desk showing same 'Nexa Desk' application, crisp appointment UI and mobile booking view",
+      "ar": "تطبيق وموقع متجاوبان على التابلت والموبايل"
+    }
+  },
+  "services/strategy": {
+    "src": "/site/generated/general/services/strategy-v1-desktop.webp",
+    "expectedMediaId": "media_144cde21-93c7-4a91-87b1-0b8fe5ad799e",
+    "alt": {
+      "en": "Square genuine designer-client workshop viewed obliquely over a large printed roadmap",
+      "ar": "مناقشة استراتيجية رقمية بين فريق التصميم والعميل"
+    }
+  },
+  "services/cta": {
+    "src": "/site/generated/general/services/cta-v1-desktop.webp",
+    "expectedMediaId": "media_144cde21-93c7-4a91-87b1-0b8fe5ad799e",
+    "alt": {
+      "en": "Wide low-light editorial image of a completed product launch review: desk with a laptop and printed final checklist, a person at far right looking at successful build on the screen",
+      "ar": "مراجعة جاهزية مشروع رقمي للإطلاق"
+    },
+    "mobileSrc": "/site/generated/general/services/cta-v1-mobile.webp"
+  },
+  "industries/industry-roofing": {
+    "src": "/site/generated/general/industries/industry-roofing-v1-desktop.webp",
+    "expectedMediaId": "media_95a07dbf-b330-4f1b-b652-4dda6bbebd19",
+    "alt": {
+      "en": "Close square real contractor desk at a roofing job: a robust tablet on stand shows 'Peakline / Estimate request' with roof area, service type and request button",
+      "ar": "طلب تقدير أعمال أسقف عبر نظام منظم"
+    }
+  },
+  "industries/industry-healthcare": {
+    "src": "/site/generated/general/industries/industry-healthcare-v1-desktop.webp",
+    "expectedMediaId": "media_1a3b8914-ca6c-4cc1-8d17-0083a18f601e",
+    "alt": {
+      "en": "Square-landscape reception desktop showing 'Carepath / Appointments / DEMO' with available times and clear confirmed appointment",
+      "ar": "تنظيم المواعيد داخل استقبال عيادة"
+    }
+  },
+  "industries/industry-construction": {
+    "src": "/site/generated/general/industries/industry-construction-v1-desktop.webp",
+    "expectedMediaId": "media_2c71b7bf-dc2e-481b-a24d-9e5ce506742c",
+    "alt": {
+      "en": "Editorial architectural site coordination: printed structural plan and real concrete/steel material samples on foreground table, two engineers discuss a drawing at side, active commercial construction visible behind",
+      "ar": "تنسيق مشروع إنشائي من المخطط إلى التنفيذ"
+    }
+  },
+  "industries/industry-e-commerce": {
+    "src": "/site/generated/general/industries/industry-e-commerce-v1-desktop.webp",
+    "expectedMediaId": "media_7b0dc26c-3d67-4401-9eae-d5c311d41ed6",
+    "alt": {
+      "en": "Desktop laptop close-up in small product business, showing 'Orin Store / Order overview / DEMO / Paid / Preparing shipment'",
+      "ar": "متجر إلكتروني مرتبط بالطلبات والتجهيز"
+    }
+  },
+  "industries/industry-small-business": {
+    "src": "/site/generated/general/industries/industry-small-business-v1-desktop.webp",
+    "expectedMediaId": "media_7744f88d-d486-443f-80bf-713dd21e0234",
+    "alt": {
+      "en": "Small independent repair-workshop owner smiling at an open completed order book and returned repaired item on counter, a laptop at side with 'Workbench / Enquiries' UI secondary",
+      "ar": "صاحب نشاط صغير ينظم طلبات العملاء اليومية"
+    }
+  },
+  "industries/industry-event-coordinators": {
+    "src": "/site/generated/general/industries/industry-event-coordinators-v1-desktop.webp",
+    "expectedMediaId": "media_144cde21-93c7-4a91-87b1-0b8fe5ad799e",
+    "alt": {
+      "en": "International industrial trade exhibition, close business meeting at a booth with actual machine component sample and product catalogue, two business representatives discussing specifications",
+      "ar": "اجتماع أعمال داخل معرض تجاري صناعي"
+    }
+  },
+  "industries/industry-legal": {
+    "src": "/site/generated/general/industries/industry-legal-v1-desktop.webp",
+    "expectedMediaId": "media_a3ca30d9-9485-46b5-afbc-08c39b349a3b",
+    "alt": {
+      "en": "Law-office consultation desk with laptop prominently showing 'Lexford / Practice areas / Request a consultation', short readable service headings and intake form",
+      "ar": "موقع خدمات قانونية ومسار طلب استشارة"
+    }
+  },
+  "industries/industry-online-magazine": {
+    "src": "/site/generated/general/industries/industry-online-magazine-v1-desktop.webp",
+    "expectedMediaId": "media_4af77143-5c73-486f-b6bf-ea5f0d566d5b",
+    "alt": {
+      "en": "Large tablet propped on magazine editorial desk showing fictional 'Current Journal' publication page with clear article headline, editorial photo, category navigation",
+      "ar": "مجلة رقمية بمحتوى منظم وتجربة قراءة واضحة"
+    }
+  },
+  "industries/industry-oil-and-gas": {
+    "src": "/site/generated/general/industries/industry-oil-and-gas-v1-desktop.webp",
+    "expectedMediaId": "media_bb053fcc-3bea-4f4b-adc6-accb18bcb6bb",
+    "alt": {
+      "en": "Industrial operations control desk, large desktop monitor showing 'Vertex Energy / Document portal / DEMO' with clear maintenance document approvals and equipment categories",
+      "ar": "بوابة مستندات وتقارير لعمليات الطاقة"
+    }
+  },
+  "industries/industry-real-estate": {
+    "src": "/site/generated/general/industries/industry-real-estate-v1-desktop.webp",
+    "expectedMediaId": "real-estate",
+    "alt": {
+      "en": "Property development presentation table, large tablet on angled stand showing 'Linea Developments / Project overview' masterplan with highlighted building and unit availability",
+      "ar": "استكشاف مشروع مطور عقاري ومخطط الوحدات"
+    }
+  },
+  "industries/industry-fashion-and-lifestyle": {
+    "src": "/site/generated/general/industries/industry-fashion-and-lifestyle-v1-desktop.webp",
+    "expectedMediaId": "branding",
+    "alt": {
+      "en": "Editorial fashion identity worktable with fabric swatches, printed lookbook, branded tag reading 'Vale Atelier' and folded garment",
+      "ar": "هوية مجموعة أزياء مطبقة على الخامات ومواد العرض"
+    }
+  },
+  "industries/industry-beauty-skincare-med-spa": {
+    "src": "/site/generated/general/industries/industry-beauty-skincare-med-spa-v1-desktop.webp",
+    "expectedMediaId": "industry-beauty-skincare-med-spa-image",
+    "alt": {
+      "en": "Skincare studio consultation table, elegant service booklet 'Elara Skin', appointment cards, clean branded product packaging and a skin professional discussing booklet with customer partly in frame",
+      "ar": "عرض خدمات عناية بالبشرة ومواد هوية العيادة"
+    }
+  },
+  "industries/industry-restaurants-cafes-bakeries": {
+    "src": "/site/generated/general/industries/industry-restaurants-cafes-bakeries-v1-desktop.webp",
+    "expectedMediaId": "industry-restaurants-cafes-bakeries-image",
+    "alt": {
+      "en": "Cafe counter with upright tablet on ordering stand showing 'Juniper Cafe / Menu / Order summary', attractive real pastry and coffee beside it; barista hands set down cup at side, screen unobscured",
+      "ar": "قائمة مقهى رقمية ومسار طلب واضح"
+    }
+  },
+  "industries/industry-solar-energy": {
+    "src": "/site/generated/general/industries/industry-solar-energy-v1-desktop.webp",
+    "expectedMediaId": "industry-solar-energy-image",
+    "alt": {
+      "en": "Realistic solar installation on a flat concrete rooftop among low-rise contemporary concrete buildings",
+      "ar": "منظومة شمسية مثبتة فوق سطح خرساني مستوٍ"
+    }
+  },
+  "contact/hero": {
+    "src": "/site/generated/general/contact/hero-v1-desktop.webp",
+    "alt": {
+      "en": "Wide welcoming agency meeting space seen from the table, a laptop open to 'Project brief / Tell us about your project', an actual notebook and pencil",
+      "ar": "بداية حوار حول متطلبات مشروع جديد"
+    },
+    "mobileSrc": "/site/generated/general/contact/hero-v1-mobile.webp"
+  },
+  "about/hero": {
+    "src": "/site/generated/general/about/hero-v2-desktop.webp",
+    "expectedMediaId": "media_bcca22c8-dcb3-4913-9f46-4829ee96e155",
+    "alt": {
+      "en": "An overhead photograph of an agency project-planning table on a charcoal work surface: printed colour/typography direction, annotated website wireframes, and a clear hand-drawn customer journey, with two collaborators' hands arranging the work",
+      "ar": "مساحة عمل رقمية تربط التصميم والتطوير والتخطيط"
+    },
+    "tabletSrc": "/site/generated/general/about/hero-v2-tablet.webp",
+    "mobileSrc": "/site/generated/general/about/hero-v2-mobile.webp"
+  },
+  "services/hero": {
+    "src": "/site/generated/general/services/hero-v2-desktop.webp",
+    "expectedMediaId": "media_144cde21-93c7-4a91-87b1-0b8fe5ad799e",
+    "alt": {
+      "en": "Overhead photographed agency delivery workbench on a neutral light-grey technical mat",
+      "ar": "خدمات التصميم والتطوير والأتمتة ضمن مساحة عمل واحدة"
+    },
+    "tabletSrc": "/site/generated/general/services/hero-v2-tablet.webp",
+    "mobileSrc": "/site/generated/general/services/hero-v2-mobile.webp"
+  },
+  "industries/hero": {
+    "src": "/site/generated/general/industries/hero-v2-desktop.webp",
+    "expectedMediaId": "media_144cde21-93c7-4a91-87b1-0b8fe5ad799e",
+    "alt": {
+      "en": "Overhead business solutions tabletop: a small architectural model, industrial metal sample, clinic appointment card and cafe menu next to an organised sector project plan",
+      "ar": "حلول رقمية مرتبطة باحتياجات قطاعات مختلفة"
+    },
+    "tabletSrc": "/site/generated/general/industries/hero-v2-tablet.webp",
+    "mobileSrc": "/site/generated/general/industries/hero-v2-mobile.webp"
+  },
+  "services/sv-priority-seo": {
+    "src": "/site/generated/general/services/sv-priority-seo-v2-desktop.webp",
+    "expectedMediaId": "media_bcdd21d0-4cbf-4057-a144-a35c64620f8e",
+    "alt": {
+      "en": "Tall portrait close-up upright tablet on a desk stand showing recognizable search results titled 'Search preview / DEMO' for fictional 'Aster Care'; blue link headings and short snippets, one AI answer section within screen",
+      "ar": "نتائج بحث وإجابات واضحة داخل تابلت"
+    }
+  },
+  "services/sv-priority-commerce": {
+    "src": "/site/generated/general/services/sv-priority-commerce-v2-desktop.webp",
+    "expectedMediaId": "media_7b0dc26c-3d67-4401-9eae-d5c311d41ed6",
+    "alt": {
+      "en": "Tall portrait shopping phone on a product table with a compact laptop behind, both show fictional 'Morrow Goods' store",
+      "ar": "متجر إلكتروني وتجربة دفع ضمن أجهزة حقيقية"
+    }
+  }
+}

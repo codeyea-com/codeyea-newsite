@@ -33,7 +33,7 @@ export function IndustriesPage({content,shared,preview=false,availablePaths=[]}:
   <a className="hp-skip" href="#main">Skip to content</a><SiteUtility/>
   <HomepageHeader light content={links(home.header,preview) as EditorObject} activeHref={preview?'/preview/industries':'/industries/'} homeHref={preview?'/preview':'/'}/>
   <main id="main">
-   <section className="about-hero"><InternalPageHero title={content.hero.title} media={content.hero.media}/></section>
+   <section className="about-hero"><InternalPageHero title={content.hero.title} media={content.hero.media} artworkKey="industries/hero" locale={content.localeId}/></section>
    {content.introduction.enabled&&<section className="industries-introduction" id={content.introduction.id}>
     <div className="industries-introduction-heading">
      <svg className="industries-blueprint" viewBox="0 0 600 650" fill="none" aria-hidden="true" focusable="false"><g stroke="currentColor" strokeWidth="1.4"><path d="M-40 490 260 315 620 515M-40 525 260 350 620 550M-40 560 260 385 620 585M-40 595 260 420 620 620M60 420V220l140-80 140 80v200M60 220l140 80 140-80M200 300v200M90 245v130l80 45V290M230 290v130l80-45V245M370 355V155l80-45 100 58v205M370 155l100 58 80-45M470 213v220M390 185v115l58 34V220M240 120V65l80-45 80 45v55l-80 45zM240 65l80 45 80-45M320 110v55M30 470l70 40 65-35M350 465l65 38 70-40M185 555l85 48 90-50"/><path d="M-20 620 500 320M35 650 555 350M130 650 600 375M-20 385 500 685M-20 325 600 685" strokeDasharray="5 7"/><circle cx="100" cy="510" r="10"/><circle cx="270" cy="603" r="10"/><circle cx="415" cy="503" r="10"/></g></svg>
@@ -49,7 +49,7 @@ export function IndustriesPage({content,shared,preview=false,availablePaths=[]}:
     return <section className={'industry-section industry-layout-'+layout} key={item.id} id={item.id} data-layout={layout}>
      <div className="industry-heading"><p className="industry-label">{item.label}</p><h2 className="industry-name">{href?<a href={href}>{item.heading}</a>:item.heading}</h2></div>
      <div className={'industry-images '+((layout===1||layout===3)?'industry-split':'industry-large')}>
-      <figure><AboutImage media={item.media} sizes="(max-width:1199px) 100vw, 54vw"/></figure>
+      <figure><AboutImage media={item.media} artworkKey={"industries/"+item.id} locale={content.localeId} sizes="(max-width:1199px) 100vw, 54vw"/></figure>
      </div>
      <div className="industry-copy"><p className="industry-summary">{item.body}</p>
       {layout===1||layout===3?<div className="industry-highlights">{(layout===1?item.highlights.slice(0,3):item.highlights).map(h=><details key={h.id} name={item.id+'-highlights'}><summary>{h.title}<span aria-hidden="true"/></summary><div className="industry-highlight-body"><p>{h.body}</p></div></details>)}</div>:null}

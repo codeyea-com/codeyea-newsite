@@ -1,5 +1,11 @@
 # CODEYEA content and imagery instructions
 
+## General pages and six case studies resumed by owner, 2026-10-13
+- Complete About, main Services, Industries directory and Contact imagery in their existing layouts. Owner supplied cohosta-about-content-min-1.png as an IDEA reference for a prominent CODEYEA logo in front of relevant photography; do not copy its exact composition. Use the actual CODEYEA logo, sharp plaque corners and page-specific content.
+- Implement the six existing case-study concepts with their stage images and display pages. Preserve Velora Skin Clinic, Madar Solar, TradeBridge Expo, Atlas Supply, Safa Clinics and Mada Developments; no company locations. Keep scenario numbers labelled as simulated.
+- Case-study documents define content order, not an approved page design. A question is pending asking whether to reuse the approved Website Design section composition for their display pages. Work dependent on this layout answer stays pending; general-page work continues.
+- Homepage remains last. This request supersedes the prior pause for these four general pages and six case-study concepts. GitHub upload remains authorized; no production deployment or CMS publication.
+
 ## Remaining services directed by owner, 2026-10-13
 - Latest hosting correction: three separate images per hosting page, each focused on one message: 99.99% Uptime, strong fast server performance, or security and SSL. Do not combine these three themes into one image. Make the WordPress logo clearly visible in WordPress hosting imagery and use the supplied official mark for its existing native hero logo positions.
 - The owner supplied explicit direction for Digital Marketing, Ecommerce, Web/Mobile Apps, Technical Support and hosting, then clarified that the first paragraph about advertising campaigns is Digital Marketing. This resumes imagery for those pages and the five hosting/domain pages only.

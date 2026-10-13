@@ -1,4 +1,5 @@
 import { serviceArtwork, serviceArtworkTag } from '../content/generated-service-artwork';
+import {generalArtwork} from '../content/generated-general-artwork';
 import { contextualLink } from "@/content/contextual-links";
 import { renderIllustrativeWork } from './illustrative-work-render';
 import { renderWebsiteCustomCms } from './website-custom-cms-render';
@@ -474,7 +475,8 @@ export function applyTemplateImageOverrides(
       const slot = index++;
       const override = images[slot];
       if (!override?.mediaId) {
-        const art = serviceArtwork(slug, slot);
+        const contactArt = slug === 'contact' && slot === 0 ? generalArtwork('contact/hero') : undefined;
+        const art = contactArt ? {...contactArt,transparent:false,originalSource:'/site/contact-hero-original.jpg'} : serviceArtwork(slug, slot);
         const source = tag.match(/\bsrc=(["'])([^"']*)\1/i)?.[2];
         return art && source === art.originalSource ? serviceArtworkTag(tag, art, locale) : tag;
       }
@@ -1175,6 +1177,11 @@ export async function renderDocument(
     }
   }
   if (html.includes('data-generated-desktop=')) {
+      const contactArt=slug==='contact'?generalArtwork('contact/hero'):undefined;
+      if(contactArt&&html.includes('data-generated-desktop="'+contactArt.src+'"')){
+        html=html.replace('<div class="ct-hero-image">','<div class="ct-hero-image"><span class="general-brand-plaque"><img src="/brand/logo-dark.png" alt="CODEYEA" width="1204" height="274"></span>');
+        html=html.replace('</head>','<link rel="stylesheet" href="/site/general-artwork.css"><style>.ct-hero-image{position:relative}</style></head>');
+      }
     html = html.replace('</head>', '<style>img[data-generated-open]{object-fit:contain!important;box-shadow:none!important}</style></head>');
     html = html.replace('</body>', '<script src="/site/generated-art-direction.js"></script></body>');
   }

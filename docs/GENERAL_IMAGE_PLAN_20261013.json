@@ -1,0 +1,596 @@
+[
+  {
+    "page": "about",
+    "slot": "hero",
+    "ratio": [
+      4.3,
+      1
+    ],
+    "scene": "An overhead photograph of an agency project-planning table on a charcoal work surface: printed colour/typography direction, annotated website wireframes, and a clear hand-drawn customer journey, with two collaborators' hands arranging the work. No computer and no heads.",
+    "alt": "مساحة عمل رقمية تربط التصميم والتطوير والتخطيط",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create ONLY a photographic website banner. An overhead photograph of an agency project-planning table on a charcoal work surface: printed colour/typography direction, annotated website wireframes, and a clear hand-drawn customer journey, with two collaborators' hands arranging the work. No computer and no heads. PANORAMIC composition for existing 4.3:1 web frame. Output as wide as possible, target 3440x800. All essential objects form a thin HORIZONTAL arrangement within the middle 45% of the image height, leave top and bottom as naturally continuous neutral tabletop, so a narrow panoramic center crop keeps every important object. No frame, no caption, no floating panel, no logo, no overlay headline; official CODEYEA logo will be added natively at lower left. Paper, panels and cards have perfectly sharp square corners. Neutral whites, authentic material texture, no decorative slogans.",
+    "version": "v2"
+  },
+  {
+    "page": "about",
+    "slot": "experience",
+    "ratio": [
+      0.89,
+      1
+    ],
+    "scene": "Portrait overhead-to-oblique close view of a real project planning table. Printed customer journey, neat wireframe sketches, material samples, a mechanical pencil and two natural hands arranging the priorities. No device; physical decisions and meaningful project planning are the subject.",
+    "alt": "تخطيط تجربة العميل ومتطلبات المشروع على طاولة العمل",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: about / experience, desktop, aspect ratio 0.89:1. Scene: Portrait overhead-to-oblique close view of a real project planning table. Printed customer journey, neat wireframe sketches, material samples, a mechanical pencil and two natural hands arranging the priorities. No device; physical decisions and meaningful project planning are the subject."
+  },
+  {
+    "page": "about",
+    "slot": "project-0",
+    "ratio": [
+      1.88,
+      1
+    ],
+    "scene": "Wide photographed strategy desk with an expansive printed customer-journey map and a desktop monitor showing 'Northstar / Acquisition overview / DEMO' with search, enquiry and follow-up steps. Calm darkened lower third to accommodate existing white section text. Work, not office decor, is prominent.",
+    "alt": "خطة رقمية تربط البحث والاستفسار والمتابعة",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: about / project-0, desktop, aspect ratio 1.88:1. Scene: Wide photographed strategy desk with an expansive printed customer-journey map and a desktop monitor showing 'Northstar / Acquisition overview / DEMO' with search, enquiry and follow-up steps. Calm darkened lower third to accommodate existing white section text. Work, not office decor, is prominent."
+  },
+  {
+    "page": "about",
+    "slot": "project-1",
+    "ratio": [
+      1.88,
+      1
+    ],
+    "scene": "Wide creative product desk: laptop, tablet upright and phone lying on desk show responsive versions of 'Luma Studio', a booking website with meaningful service cards. Hands on keyboard at far edge only. Neutral daylight, substantial devices, dark calm lower third for existing live text.",
+    "alt": "موقع وتطبيق متجاوبان على أجهزة متعددة",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: about / project-1, desktop, aspect ratio 1.88:1. Scene: Wide creative product desk: laptop, tablet upright and phone lying on desk show responsive versions of 'Luma Studio', a booking website with meaningful service cards. Hands on keyboard at far edge only. Neutral daylight, substantial devices, dark calm lower third for existing live text."
+  },
+  {
+    "page": "about",
+    "slot": "project-2",
+    "ratio": [
+      1.88,
+      1
+    ],
+    "scene": "Wide merchant workbench: laptop showing 'Field Goods / Orders / Paid / Ready to ship / DEMO', an open product package and label printer. Screen dominant. Rich natural materials, dark quiet lower third for existing white text.",
+    "alt": "متجر متصل بإدارة الطلبات وتجهيز الشحن",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: about / project-2, desktop, aspect ratio 1.88:1. Scene: Wide merchant workbench: laptop showing 'Field Goods / Orders / Paid / Ready to ship / DEMO', an open product package and label printer. Screen dominant. Rich natural materials, dark quiet lower third for existing white text."
+  },
+  {
+    "page": "about",
+    "slot": "project-3",
+    "ratio": [
+      1.88,
+      1
+    ],
+    "scene": "Wide clean IT operations desk with a big monitor showing 'Flowline / Inbox to review to approval / DEMO', subtle small server hardware beside it and printed process checklist. Screen is the dominant subject, no fantasy holograms. Dark calm lower third for live text.",
+    "alt": "أتمتة عملية مرتبطة بالمراجعة وبنية تشغيل مستقرة",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: about / project-3, desktop, aspect ratio 1.88:1. Scene: Wide clean IT operations desk with a big monitor showing 'Flowline / Inbox to review to approval / DEMO', subtle small server hardware beside it and printed process checklist. Screen is the dominant subject, no fantasy holograms. Dark calm lower third for live text."
+  },
+  {
+    "page": "about",
+    "slot": "showcase-0",
+    "ratio": [
+      1,
+      1
+    ],
+    "scene": "Square close editorial shot of a desk monitor showing recognizable web search results for a fictional business 'Aster Workshop' with blue titles, short snippets and 'Search preview / DEMO'. A small analytics window within the SAME physical screen shows enquiries and search visibility. No naked UI outside device. Notebook and pencil secondary.",
+    "alt": "ظهور في نتائج البحث مرتبط بطلبات العملاء",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: about / showcase-0, desktop, aspect ratio 1:1. Scene: Square close editorial shot of a desk monitor showing recognizable web search results for a fictional business 'Aster Workshop' with blue titles, short snippets and 'Search preview / DEMO'. A small analytics window within the SAME physical screen shows enquiries and search visibility. No naked UI outside device. Notebook and pencil secondary."
+  },
+  {
+    "page": "about",
+    "slot": "showcase-1",
+    "ratio": [
+      1,
+      1
+    ],
+    "scene": "Square close composition of a laptop and tablet at a product design workstation. 'Forma Workspace' dashboard on laptop and its usable mobile app on tablet; calendar, tasks and a clear review button. Two varied natural hands one at trackpad and one resting on printed sketch, no fingers over screens.",
+    "alt": "تجربة تطبيق عملية ومتناسقة بين الأجهزة",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: about / showcase-1, desktop, aspect ratio 1:1. Scene: Square close composition of a laptop and tablet at a product design workstation. 'Forma Workspace' dashboard on laptop and its usable mobile app on tablet; calendar, tasks and a clear review button. Two varied natural hands one at trackpad and one resting on printed sketch, no fingers over screens."
+  },
+  {
+    "page": "about",
+    "slot": "showcase-2",
+    "ratio": [
+      1,
+      1
+    ],
+    "scene": "Square close photography of a shop workstation, a desktop monitor with 'Nori Objects' product catalogue and a small phone on a stand showing checkout. One tasteful ceramic product and shipping label printer nearby. Screens dominate; no person required.",
+    "alt": "تجربة شراء وإدارة متجر إلكتروني واضحة",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: about / showcase-2, desktop, aspect ratio 1:1. Scene: Square close photography of a shop workstation, a desktop monitor with 'Nori Objects' product catalogue and a small phone on a stand showing checkout. One tasteful ceramic product and shipping label printer nearby. Screens dominate; no person required."
+  },
+  {
+    "page": "about",
+    "slot": "showcase-3",
+    "ratio": [
+      1,
+      1
+    ],
+    "scene": "Square close editorial photo of a laptop showing 'Relay Studio / Workflow preview / DEMO': a readable linked flow Request > Extract > Review > Approved, with review panel. Tiny coworker hand at trackpad only, process notes at edge. Real automation interface inside screen.",
+    "alt": "مسار أتمتة يربط الطلب بالمراجعة والاعتماد",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: about / showcase-3, desktop, aspect ratio 1:1. Scene: Square close editorial photo of a laptop showing 'Relay Studio / Workflow preview / DEMO': a readable linked flow Request > Extract > Review > Approved, with review panel. Tiny coworker hand at trackpad only, process notes at edge. Real automation interface inside screen."
+  },
+  {
+    "page": "services",
+    "slot": "hero",
+    "ratio": [
+      4.3,
+      1
+    ],
+    "scene": "Overhead photographed agency delivery workbench on a neutral light-grey technical mat. Printed website wireframes, mobile app sketches, identity proofs, and an automation map placed as a horizontal row. Two collaborators' hands discuss the actual papers. No computer, no heads.",
+    "alt": "خدمات التصميم والتطوير والأتمتة ضمن مساحة عمل واحدة",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create ONLY a photographic website banner. Overhead photographed agency delivery workbench on a neutral light-grey technical mat. Printed website wireframes, mobile app sketches, identity proofs, and an automation map placed as a horizontal row. Two collaborators' hands discuss the actual papers. No computer, no heads. PANORAMIC composition for existing 4.3:1 web frame. Output as wide as possible, target 3440x800. All essential objects form a thin HORIZONTAL arrangement within the middle 45% of the image height, leave top and bottom as naturally continuous neutral tabletop, so a narrow panoramic center crop keeps every important object. No frame, no caption, no floating panel, no logo, no overlay headline; official CODEYEA logo will be added natively at lower left. Paper, panels and cards have perfectly sharp square corners. Neutral whites, authentic material texture, no decorative slogans.",
+    "version": "v2"
+  },
+  {
+    "page": "services",
+    "slot": "sv-priority-ai",
+    "ratio": [
+      2,
+      3
+    ],
+    "scene": "Tall portrait close-up laptop in an operations workplace showing 'Kinetic / AI Assistant / DEMO' and a short workflow: New request > Draft ready > Review. Device is large and vertically composed. Quiet darker lower third for existing white card heading. No popup outside screen.",
+    "alt": "مساعد ذكاء اصطناعي يجهز الطلبات للمراجعة",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: services / sv-priority-ai, desktop, aspect ratio 2:3. Scene: Tall portrait close-up laptop in an operations workplace showing 'Kinetic / AI Assistant / DEMO' and a short workflow: New request > Draft ready > Review. Device is large and vertically composed. Quiet darker lower third for existing white card heading. No popup outside screen."
+  },
+  {
+    "page": "services",
+    "slot": "sv-priority-seo",
+    "ratio": [
+      2,
+      3
+    ],
+    "scene": "Tall portrait close-up upright tablet on a desk stand showing recognizable search results titled 'Search preview / DEMO' for fictional 'Aster Care'; blue link headings and short snippets, one AI answer section within screen. Dark subdued lower third for white live card heading.",
+    "alt": "نتائج بحث وإجابات واضحة داخل تابلت",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: services / sv-priority-seo, desktop, aspect ratio 2:3. Scene: Tall portrait close-up upright tablet on a desk stand showing recognizable search results titled 'Search preview / DEMO' for fictional 'Aster Care'; blue link headings and short snippets, one AI answer section within screen. Dark subdued lower third for white live card heading."
+  },
+  {
+    "page": "services",
+    "slot": "sv-priority-development",
+    "ratio": [
+      2,
+      3
+    ],
+    "scene": "Tall portrait physical tablet and smartphone on a designer's desk showing same 'Nexa Desk' application, crisp appointment UI and mobile booking view. Device pair fills image, small paper wireframe at bottom. Dark subdued lower third for live heading.",
+    "alt": "تطبيق وموقع متجاوبان على التابلت والموبايل",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: services / sv-priority-development, desktop, aspect ratio 2:3. Scene: Tall portrait physical tablet and smartphone on a designer's desk showing same 'Nexa Desk' application, crisp appointment UI and mobile booking view. Device pair fills image, small paper wireframe at bottom. Dark subdued lower third for live heading."
+  },
+  {
+    "page": "services",
+    "slot": "sv-priority-commerce",
+    "ratio": [
+      2,
+      3
+    ],
+    "scene": "Tall portrait shopping phone on a product table with a compact laptop behind, both show fictional 'Morrow Goods' store. Distinct product cards, add-to-cart and paid order visible inside screens. Product materials secondary. Dark subdued lower third for white card title.",
+    "alt": "متجر إلكتروني وتجربة دفع ضمن أجهزة حقيقية",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: services / sv-priority-commerce, desktop, aspect ratio 2:3. Scene: Tall portrait shopping phone on a product table with a compact laptop behind, both show fictional 'Morrow Goods' store. Distinct product cards, add-to-cart and paid order visible inside screens. Product materials secondary. Dark subdued lower third for white card title."
+  },
+  {
+    "page": "services",
+    "slot": "strategy",
+    "ratio": [
+      1,
+      1
+    ],
+    "scene": "Square genuine designer-client workshop viewed obliquely over a large printed roadmap. Three connected phases, content sketches and material samples; a laptop at side displays 'Project direction'. Two collaborators discuss a specific sketch, hands natural and faces peripheral. The plan is the main subject.",
+    "alt": "مناقشة استراتيجية رقمية بين فريق التصميم والعميل",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: services / strategy, desktop, aspect ratio 1:1. Scene: Square genuine designer-client workshop viewed obliquely over a large printed roadmap. Three connected phases, content sketches and material samples; a laptop at side displays 'Project direction'. Two collaborators discuss a specific sketch, hands natural and faces peripheral. The plan is the main subject."
+  },
+  {
+    "page": "services",
+    "slot": "cta",
+    "ratio": [
+      3.55,
+      1
+    ],
+    "scene": "Wide low-light editorial image of a completed product launch review: desk with a laptop and printed final checklist, a person at far right looking at successful build on the screen. Understated dark navy interior, most center and left dark calm because white live CTA text overlays it. No extra text outside device.",
+    "alt": "مراجعة جاهزية مشروع رقمي للإطلاق",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: services / cta, desktop, aspect ratio 3.55:1. Scene: Wide low-light editorial image of a completed product launch review: desk with a laptop and printed final checklist, a person at far right looking at successful build on the screen. Understated dark navy interior, most center and left dark calm because white live CTA text overlays it. No extra text outside device."
+  },
+  {
+    "page": "industries",
+    "slot": "hero",
+    "ratio": [
+      4.3,
+      1
+    ],
+    "scene": "Overhead business solutions tabletop: a small architectural model, industrial metal sample, clinic appointment card and cafe menu next to an organised sector project plan. One hand moves a planning card. Neutral white/grey work surface. No computer and no people heads.",
+    "alt": "حلول رقمية مرتبطة باحتياجات قطاعات مختلفة",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create ONLY a photographic website banner. Overhead business solutions tabletop: a small architectural model, industrial metal sample, clinic appointment card and cafe menu next to an organised sector project plan. One hand moves a planning card. Neutral white/grey work surface. No computer and no people heads. PANORAMIC composition for existing 4.3:1 web frame. Output as wide as possible, target 3440x800. All essential objects form a thin HORIZONTAL arrangement within the middle 45% of the image height, leave top and bottom as naturally continuous neutral tabletop, so a narrow panoramic center crop keeps every important object. No frame, no caption, no floating panel, no logo, no overlay headline; official CODEYEA logo will be added natively at lower left. Paper, panels and cards have perfectly sharp square corners. Neutral whites, authentic material texture, no decorative slogans.",
+    "version": "v2"
+  },
+  {
+    "page": "industries",
+    "slot": "industry-roofing",
+    "ratio": [
+      1,
+      1
+    ],
+    "scene": "Close square real contractor desk at a roofing job: a robust tablet on stand shows 'Peakline / Estimate request' with roof area, service type and request button. Small real roof-material sample and printed job photo next to it. Screen large; keep entire meaningful content in central 70% for landscape responsive crop.",
+    "alt": "طلب تقدير أعمال أسقف عبر نظام منظم",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-roofing, desktop, aspect ratio 1:1. Scene: Close square real contractor desk at a roofing job: a robust tablet on stand shows 'Peakline / Estimate request' with roof area, service type and request button. Small real roof-material sample and printed job photo next to it. Screen large; keep entire meaningful content in central 70% for landscape responsive crop."
+  },
+  {
+    "page": "industries",
+    "slot": "industry-healthcare",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "Square-landscape reception desktop showing 'Carepath / Appointments / DEMO' with available times and clear confirmed appointment. Clean clinic background, receptionist shoulder at outer edge, no patient data. Central screen dominates, essential content central 75%.",
+    "alt": "تنظيم المواعيد داخل استقبال عيادة",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-healthcare, desktop, aspect ratio 1.14:1. Scene: Square-landscape reception desktop showing 'Carepath / Appointments / DEMO' with available times and clear confirmed appointment. Clean clinic background, receptionist shoulder at outer edge, no patient data. Central screen dominates, essential content central 75%."
+  },
+  {
+    "page": "industries",
+    "slot": "industry-construction",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "Editorial architectural site coordination: printed structural plan and real concrete/steel material samples on foreground table, two engineers discuss a drawing at side, active commercial construction visible behind. Physical project and plan dominate, no device. Central safe composition.",
+    "alt": "تنسيق مشروع إنشائي من المخطط إلى التنفيذ",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-construction, desktop, aspect ratio 1.14:1. Scene: Editorial architectural site coordination: printed structural plan and real concrete/steel material samples on foreground table, two engineers discuss a drawing at side, active commercial construction visible behind. Physical project and plan dominate, no device. Central safe composition."
+  },
+  {
+    "page": "industries",
+    "slot": "industry-e-commerce",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "Desktop laptop close-up in small product business, showing 'Orin Store / Order overview / DEMO / Paid / Preparing shipment'. A real product and open carton beside it. No hand holding phone, no extra popup. Central 75% contains main screen.",
+    "alt": "متجر إلكتروني مرتبط بالطلبات والتجهيز",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-e-commerce, desktop, aspect ratio 1.14:1. Scene: Desktop laptop close-up in small product business, showing 'Orin Store / Order overview / DEMO / Paid / Preparing shipment'. A real product and open carton beside it. No hand holding phone, no extra popup. Central 75% contains main screen."
+  },
+  {
+    "page": "industries",
+    "slot": "industry-small-business",
+    "ratio": [
+      1,
+      1
+    ],
+    "scene": "Small independent repair-workshop owner smiling at an open completed order book and returned repaired item on counter, a laptop at side with 'Workbench / Enquiries' UI secondary. Focus meaningful business action, natural expression, no posed handshake and no right hand holding phone.",
+    "alt": "صاحب نشاط صغير ينظم طلبات العملاء اليومية",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-small-business, desktop, aspect ratio 1:1. Scene: Small independent repair-workshop owner smiling at an open completed order book and returned repaired item on counter, a laptop at side with 'Workbench / Enquiries' UI secondary. Focus meaningful business action, natural expression, no posed handshake and no right hand holding phone."
+  },
+  {
+    "page": "industries",
+    "slot": "industry-event-coordinators",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "International industrial trade exhibition, close business meeting at a booth with actual machine component sample and product catalogue, two business representatives discussing specifications. Trade-show signage and other booths behind, diverse business context, no flags, no weddings or event decor. Central subjects safe.",
+    "alt": "اجتماع أعمال داخل معرض تجاري صناعي",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-event-coordinators, desktop, aspect ratio 1.14:1. Scene: International industrial trade exhibition, close business meeting at a booth with actual machine component sample and product catalogue, two business representatives discussing specifications. Trade-show signage and other booths behind, diverse business context, no flags, no weddings or event decor. Central subjects safe."
+  },
+  {
+    "page": "industries",
+    "slot": "industry-legal",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "Law-office consultation desk with laptop prominently showing 'Lexford / Practice areas / Request a consultation', short readable service headings and intake form. Physical law reference books and organized neutral folder, lawyer and client only peripheral. No confidential data.",
+    "alt": "موقع خدمات قانونية ومسار طلب استشارة",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-legal, desktop, aspect ratio 1.14:1. Scene: Law-office consultation desk with laptop prominently showing 'Lexford / Practice areas / Request a consultation', short readable service headings and intake form. Physical law reference books and organized neutral folder, lawyer and client only peripheral. No confidential data."
+  },
+  {
+    "page": "industries",
+    "slot": "industry-online-magazine",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "Large tablet propped on magazine editorial desk showing fictional 'Current Journal' publication page with clear article headline, editorial photo, category navigation. Printed proofs and red pencil alongside; no person required. Focus tablet screen central.",
+    "alt": "مجلة رقمية بمحتوى منظم وتجربة قراءة واضحة",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-online-magazine, desktop, aspect ratio 1.14:1. Scene: Large tablet propped on magazine editorial desk showing fictional 'Current Journal' publication page with clear article headline, editorial photo, category navigation. Printed proofs and red pencil alongside; no person required. Focus tablet screen central."
+  },
+  {
+    "page": "industries",
+    "slot": "industry-oil-and-gas",
+    "ratio": [
+      1,
+      1
+    ],
+    "scene": "Industrial operations control desk, large desktop monitor showing 'Vertex Energy / Document portal / DEMO' with clear maintenance document approvals and equipment categories. Actual valve sample and safety manual beside monitor, plant corridor subtly beyond. Practical information system not decorative dashboard.",
+    "alt": "بوابة مستندات وتقارير لعمليات الطاقة",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-oil-and-gas, desktop, aspect ratio 1:1. Scene: Industrial operations control desk, large desktop monitor showing 'Vertex Energy / Document portal / DEMO' with clear maintenance document approvals and equipment categories. Actual valve sample and safety manual beside monitor, plant corridor subtly beyond. Practical information system not decorative dashboard."
+  },
+  {
+    "page": "industries",
+    "slot": "industry-real-estate",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "Property development presentation table, large tablet on angled stand showing 'Linea Developments / Project overview' masterplan with highlighted building and unit availability. Physical architectural model beside screen, representative and client partly at edge. No geographic address.",
+    "alt": "استكشاف مشروع مطور عقاري ومخطط الوحدات",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-real-estate, desktop, aspect ratio 1.14:1. Scene: Property development presentation table, large tablet on angled stand showing 'Linea Developments / Project overview' masterplan with highlighted building and unit availability. Physical architectural model beside screen, representative and client partly at edge. No geographic address."
+  },
+  {
+    "page": "industries",
+    "slot": "industry-fashion-and-lifestyle",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "Editorial fashion identity worktable with fabric swatches, printed lookbook, branded tag reading 'Vale Atelier' and folded garment. Two hands comparing textile and label, no device. Materials and graphic identity main focus.",
+    "alt": "هوية مجموعة أزياء مطبقة على الخامات ومواد العرض",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-fashion-and-lifestyle, desktop, aspect ratio 1.14:1. Scene: Editorial fashion identity worktable with fabric swatches, printed lookbook, branded tag reading 'Vale Atelier' and folded garment. Two hands comparing textile and label, no device. Materials and graphic identity main focus."
+  },
+  {
+    "page": "industries",
+    "slot": "industry-beauty-skincare-med-spa",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "Skincare studio consultation table, elegant service booklet 'Elara Skin', appointment cards, clean branded product packaging and a skin professional discussing booklet with customer partly in frame. No before-after skin imagery or efficacy claims. Natural clinically clean daylight.",
+    "alt": "عرض خدمات عناية بالبشرة ومواد هوية العيادة",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-beauty-skincare-med-spa, desktop, aspect ratio 1.14:1. Scene: Skincare studio consultation table, elegant service booklet 'Elara Skin', appointment cards, clean branded product packaging and a skin professional discussing booklet with customer partly in frame. No before-after skin imagery or efficacy claims. Natural clinically clean daylight."
+  },
+  {
+    "page": "industries",
+    "slot": "industry-restaurants-cafes-bakeries",
+    "ratio": [
+      1,
+      1
+    ],
+    "scene": "Cafe counter with upright tablet on ordering stand showing 'Juniper Cafe / Menu / Order summary', attractive real pastry and coffee beside it; barista hands set down cup at side, screen unobscured. Essential subjects central 70% for responsive crop.",
+    "alt": "قائمة مقهى رقمية ومسار طلب واضح",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-restaurants-cafes-bakeries, desktop, aspect ratio 1:1. Scene: Cafe counter with upright tablet on ordering stand showing 'Juniper Cafe / Menu / Order summary', attractive real pastry and coffee beside it; barista hands set down cup at side, screen unobscured. Essential subjects central 70% for responsive crop."
+  },
+  {
+    "page": "industries",
+    "slot": "industry-solar-energy",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "Realistic solar installation on a flat concrete rooftop among low-rise contemporary concrete buildings. Strong panel detail foreground, two small engineers reviewing mounting rails to side. No pitched tiled houses, no skyline landmark, no location text. Neutral bright daylight.",
+    "alt": "منظومة شمسية مثبتة فوق سطح خرساني مستوٍ",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: industries / industry-solar-energy, desktop, aspect ratio 1.14:1. Scene: Realistic solar installation on a flat concrete rooftop among low-rise contemporary concrete buildings. Strong panel detail foreground, two small engineers reviewing mounting rails to side. No pitched tiled houses, no skyline landmark, no location text. Neutral bright daylight."
+  },
+  {
+    "page": "contact",
+    "slot": "hero",
+    "ratio": [
+      2.5,
+      1
+    ],
+    "scene": "Wide welcoming agency meeting space seen from the table, a laptop open to 'Project brief / Tell us about your project', an actual notebook and pencil. Consultant and client partly visible at far edges listening naturally. Screen and practical first-conversation materials are foreground, minimal room context. Keep lower center quiet for official logo plaque.",
+    "alt": "بداية حوار حول متطلبات مشروع جديد",
+    "variant": "desktop",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: contact / hero, desktop, aspect ratio 2.5:1. Scene: Wide welcoming agency meeting space seen from the table, a laptop open to 'Project brief / Tell us about your project', an actual notebook and pencil. Consultant and client partly visible at far edges listening naturally. Screen and practical first-conversation materials are foreground, minimal room context. Keep lower center quiet for official logo plaque."
+  },
+  {
+    "page": "about",
+    "slot": "hero",
+    "ratio": [
+      2.4,
+      1
+    ],
+    "scene": "An overhead photograph of an agency project-planning table on a charcoal work surface: printed colour/typography direction, annotated website wireframes, and a clear hand-drawn customer journey, with two collaborators' hands arranging the work. No computer and no heads.",
+    "alt": "مساحة عمل رقمية تربط التصميم والتطوير والتخطيط",
+    "variant": "tablet",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Make a photographic asset only, NOT a webpage design. Aspect ratio 2.4:1. Recompose this scene specifically for this tablet frame: An overhead photograph of an agency project-planning table on a charcoal work surface: printed colour/typography direction, annotated website wireframes, and a clear hand-drawn customer journey, with two collaborators' hands arranging the work. No computer and no heads.. Place the essentials in the upper two thirds, with quiet tabletop at lower left for the website's official logo plaque. Sharp printed paper edges. Neutral daylight and real material textures. No headlines, captions, company logos, footer graphics, badges, frames, external shadows or watermark. No location names. Do not use a widescreen crop; compose within this stated ratio.",
+    "version": "v2"
+  },
+  {
+    "page": "about",
+    "slot": "hero",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "An overhead photograph of an agency project-planning table on a charcoal work surface: printed colour/typography direction, annotated website wireframes, and a clear hand-drawn customer journey, with two collaborators' hands arranging the work. No computer and no heads.",
+    "alt": "مساحة عمل رقمية تربط التصميم والتطوير والتخطيط",
+    "variant": "mobile",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Make a photographic asset only, NOT a webpage design. Aspect ratio 1.14:1. Recompose this scene specifically for this mobile frame: An overhead photograph of an agency project-planning table on a charcoal work surface: printed colour/typography direction, annotated website wireframes, and a clear hand-drawn customer journey, with two collaborators' hands arranging the work. No computer and no heads.. Place the essentials in the upper two thirds, with quiet tabletop at lower left for the website's official logo plaque. Sharp printed paper edges. Neutral daylight and real material textures. No headlines, captions, company logos, footer graphics, badges, frames, external shadows or watermark. No location names. Do not use a widescreen crop; compose within this stated ratio.",
+    "version": "v2"
+  },
+  {
+    "page": "about",
+    "slot": "project-0",
+    "ratio": [
+      0.6,
+      1
+    ],
+    "scene": "Wide photographed strategy desk with an expansive printed customer-journey map and a desktop monitor showing 'Northstar / Acquisition overview / DEMO' with search, enquiry and follow-up steps. Calm darkened lower third to accommodate existing white section text. Work, not office decor, is prominent. Recompose vertically: main subject above center, calm dark lower half for existing live copy; do not crop a landscape source.",
+    "alt": "خطة رقمية تربط البحث والاستفسار والمتابعة",
+    "variant": "mobile",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: about / project-0, mobile, aspect ratio 0.6:1. Scene: Wide photographed strategy desk with an expansive printed customer-journey map and a desktop monitor showing 'Northstar / Acquisition overview / DEMO' with search, enquiry and follow-up steps. Calm darkened lower third to accommodate existing white section text. Work, not office decor, is prominent. Recompose vertically: main subject above center, calm dark lower half for existing live copy; do not crop a landscape source."
+  },
+  {
+    "page": "about",
+    "slot": "project-1",
+    "ratio": [
+      0.6,
+      1
+    ],
+    "scene": "Wide creative product desk: laptop, tablet upright and phone lying on desk show responsive versions of 'Luma Studio', a booking website with meaningful service cards. Hands on keyboard at far edge only. Neutral daylight, substantial devices, dark calm lower third for existing live text. Recompose vertically: main subject above center, calm dark lower half for existing live copy; do not crop a landscape source.",
+    "alt": "موقع وتطبيق متجاوبان على أجهزة متعددة",
+    "variant": "mobile",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: about / project-1, mobile, aspect ratio 0.6:1. Scene: Wide creative product desk: laptop, tablet upright and phone lying on desk show responsive versions of 'Luma Studio', a booking website with meaningful service cards. Hands on keyboard at far edge only. Neutral daylight, substantial devices, dark calm lower third for existing live text. Recompose vertically: main subject above center, calm dark lower half for existing live copy; do not crop a landscape source."
+  },
+  {
+    "page": "about",
+    "slot": "project-2",
+    "ratio": [
+      0.6,
+      1
+    ],
+    "scene": "Wide merchant workbench: laptop showing 'Field Goods / Orders / Paid / Ready to ship / DEMO', an open product package and label printer. Screen dominant. Rich natural materials, dark quiet lower third for existing white text. Recompose vertically: main subject above center, calm dark lower half for existing live copy; do not crop a landscape source.",
+    "alt": "متجر متصل بإدارة الطلبات وتجهيز الشحن",
+    "variant": "mobile",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: about / project-2, mobile, aspect ratio 0.6:1. Scene: Wide merchant workbench: laptop showing 'Field Goods / Orders / Paid / Ready to ship / DEMO', an open product package and label printer. Screen dominant. Rich natural materials, dark quiet lower third for existing white text. Recompose vertically: main subject above center, calm dark lower half for existing live copy; do not crop a landscape source."
+  },
+  {
+    "page": "about",
+    "slot": "project-3",
+    "ratio": [
+      0.6,
+      1
+    ],
+    "scene": "Wide clean IT operations desk with a big monitor showing 'Flowline / Inbox to review to approval / DEMO', subtle small server hardware beside it and printed process checklist. Screen is the dominant subject, no fantasy holograms. Dark calm lower third for live text. Recompose vertically: main subject above center, calm dark lower half for existing live copy; do not crop a landscape source.",
+    "alt": "أتمتة عملية مرتبطة بالمراجعة وبنية تشغيل مستقرة",
+    "variant": "mobile",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: about / project-3, mobile, aspect ratio 0.6:1. Scene: Wide clean IT operations desk with a big monitor showing 'Flowline / Inbox to review to approval / DEMO', subtle small server hardware beside it and printed process checklist. Screen is the dominant subject, no fantasy holograms. Dark calm lower third for live text. Recompose vertically: main subject above center, calm dark lower half for existing live copy; do not crop a landscape source."
+  },
+  {
+    "page": "services",
+    "slot": "hero",
+    "ratio": [
+      2.4,
+      1
+    ],
+    "scene": "Overhead photographed agency delivery workbench on a neutral light-grey technical mat. Printed website wireframes, mobile app sketches, identity proofs, and an automation map placed as a horizontal row. Two collaborators' hands discuss the actual papers. No computer, no heads.",
+    "alt": "خدمات التصميم والتطوير والأتمتة ضمن مساحة عمل واحدة",
+    "variant": "tablet",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Make a photographic asset only, NOT a webpage design. Aspect ratio 2.4:1. Recompose this scene specifically for this tablet frame: Overhead photographed agency delivery workbench on a neutral light-grey technical mat. Printed website wireframes, mobile app sketches, identity proofs, and an automation map placed as a horizontal row. Two collaborators' hands discuss the actual papers. No computer, no heads.. Place the essentials in the upper two thirds, with quiet tabletop at lower left for the website's official logo plaque. Sharp printed paper edges. Neutral daylight and real material textures. No headlines, captions, company logos, footer graphics, badges, frames, external shadows or watermark. No location names. Do not use a widescreen crop; compose within this stated ratio.",
+    "version": "v2"
+  },
+  {
+    "page": "services",
+    "slot": "hero",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "Overhead photographed agency delivery workbench on a neutral light-grey technical mat. Printed website wireframes, mobile app sketches, identity proofs, and an automation map placed as a horizontal row. Two collaborators' hands discuss the actual papers. No computer, no heads.",
+    "alt": "خدمات التصميم والتطوير والأتمتة ضمن مساحة عمل واحدة",
+    "variant": "mobile",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Make a photographic asset only, NOT a webpage design. Aspect ratio 1.14:1. Recompose this scene specifically for this mobile frame: Overhead photographed agency delivery workbench on a neutral light-grey technical mat. Printed website wireframes, mobile app sketches, identity proofs, and an automation map placed as a horizontal row. Two collaborators' hands discuss the actual papers. No computer, no heads.. Place the essentials in the upper two thirds, with quiet tabletop at lower left for the website's official logo plaque. Sharp printed paper edges. Neutral daylight and real material textures. No headlines, captions, company logos, footer graphics, badges, frames, external shadows or watermark. No location names. Do not use a widescreen crop; compose within this stated ratio.",
+    "version": "v2"
+  },
+  {
+    "page": "services",
+    "slot": "cta",
+    "ratio": [
+      0.75,
+      1
+    ],
+    "scene": "Wide low-light editorial image of a completed product launch review: desk with a laptop and printed final checklist, a person at far right looking at successful build on the screen. Understated dark navy interior, most center and left dark calm because white live CTA text overlays it. No extra text outside device.",
+    "alt": "مراجعة جاهزية مشروع رقمي للإطلاق",
+    "variant": "mobile",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: services / cta, mobile, aspect ratio 0.75:1. Scene: Wide low-light editorial image of a completed product launch review: desk with a laptop and printed final checklist, a person at far right looking at successful build on the screen. Understated dark navy interior, most center and left dark calm because white live CTA text overlays it. No extra text outside device."
+  },
+  {
+    "page": "industries",
+    "slot": "hero",
+    "ratio": [
+      2.4,
+      1
+    ],
+    "scene": "Overhead business solutions tabletop: a small architectural model, industrial metal sample, clinic appointment card and cafe menu next to an organised sector project plan. One hand moves a planning card. Neutral white/grey work surface. No computer and no people heads.",
+    "alt": "حلول رقمية مرتبطة باحتياجات قطاعات مختلفة",
+    "variant": "tablet",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Make a photographic asset only, NOT a webpage design. Aspect ratio 2.4:1. Recompose this scene specifically for this tablet frame: Overhead business solutions tabletop: a small architectural model, industrial metal sample, clinic appointment card and cafe menu next to an organised sector project plan. One hand moves a planning card. Neutral white/grey work surface. No computer and no people heads.. Place the essentials in the upper two thirds, with quiet tabletop at lower left for the website's official logo plaque. Sharp printed paper edges. Neutral daylight and real material textures. No headlines, captions, company logos, footer graphics, badges, frames, external shadows or watermark. No location names. Do not use a widescreen crop; compose within this stated ratio.",
+    "version": "v2"
+  },
+  {
+    "page": "industries",
+    "slot": "hero",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "Overhead business solutions tabletop: a small architectural model, industrial metal sample, clinic appointment card and cafe menu next to an organised sector project plan. One hand moves a planning card. Neutral white/grey work surface. No computer and no people heads.",
+    "alt": "حلول رقمية مرتبطة باحتياجات قطاعات مختلفة",
+    "variant": "mobile",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Make a photographic asset only, NOT a webpage design. Aspect ratio 1.14:1. Recompose this scene specifically for this mobile frame: Overhead business solutions tabletop: a small architectural model, industrial metal sample, clinic appointment card and cafe menu next to an organised sector project plan. One hand moves a planning card. Neutral white/grey work surface. No computer and no people heads.. Place the essentials in the upper two thirds, with quiet tabletop at lower left for the website's official logo plaque. Sharp printed paper edges. Neutral daylight and real material textures. No headlines, captions, company logos, footer graphics, badges, frames, external shadows or watermark. No location names. Do not use a widescreen crop; compose within this stated ratio.",
+    "version": "v2"
+  },
+  {
+    "page": "contact",
+    "slot": "hero",
+    "ratio": [
+      1.14,
+      1
+    ],
+    "scene": "Wide welcoming agency meeting space seen from the table, a laptop open to 'Project brief / Tell us about your project', an actual notebook and pencil. Consultant and client partly visible at far edges listening naturally. Screen and practical first-conversation materials are foreground, minimal room context. Keep lower center quiet for official logo plaque.",
+    "alt": "بداية حوار حول متطلبات مشروع جديد",
+    "variant": "mobile",
+    "transparent": false,
+    "prompt": "Use case: photorealistic-natural. Create a premium editorial website image, with credible materials, natural neutral-white daylight, real textures and correct anatomy. Match the stated frame aspect ratio. Every website/system UI must be inside a physical computer, laptop, phone or tablet, with a large clearly readable screen and relevant understated surroundings. Sharp corners on all designed UI panels. No floating popups, no outer drop shadow, no baked photo border, no rounded image corners, no watermark. No location names, flags or geographical company addresses. Do not use CODEYEA as a fictional app brand. Any dashboard data must be synthetic and labelled DEMO. Keep essential subjects clear and away from edges; no fingers across important screen areas.\nAsset: contact / hero, mobile, aspect ratio 1.14:1. Scene: Wide welcoming agency meeting space seen from the table, a laptop open to 'Project brief / Tell us about your project', an actual notebook and pencil. Consultant and client partly visible at far edges listening naturally. Screen and practical first-conversation materials are foreground, minimal room context. Keep lower center quiet for official logo plaque."
+  }
+]

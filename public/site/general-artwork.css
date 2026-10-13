@@ -1,0 +1,3 @@
+.general-brand-plaque{position:absolute;z-index:2;inset-inline-start:8%;bottom:7%;display:block;width:clamp(220px,28vw,420px);padding:20px 26px;background:#fff;border-radius:0;box-shadow:0 14px 34px #0002;pointer-events:none}
+.general-brand-plaque>img{display:block!important;width:100%!important;height:auto!important;object-fit:contain!important;transform:none!important;border-radius:0!important}
+@media(max-width:767px){.general-brand-plaque{inset-inline-start:6%;bottom:6%;width:62%;padding:16px 20px}}
