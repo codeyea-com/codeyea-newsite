@@ -49,7 +49,7 @@ export function SharedHeaderView({
           onClick={quoteClick}
         >
           {content.language === "ar"
-            ? "تسعيرة مجانية"
+            ? "أطلب التسعيرة المجانية الآن"
             : "Get Your Free Quote"}
         </a>
         {mobile ?? <SharedMobileView content={content} />}

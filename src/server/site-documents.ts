@@ -1122,7 +1122,7 @@ export async function renderDocument(
       /(<section\b[^>]*class="[^"]*b-capabilities[^"]*"[^>]*>)([\s\S]*?)(<\/section>)/,
       (_all, start, body, end) => {
         const points = additionalPoints[slug][locale === "ar" ? 1 : 0];
-        const cta = `<a class="b-btn cy-cap-cta" data-quote-open href="${escapeHtml(contactHref)}#quote-form"><span>${locale === "ar" ? "احصل على تسعيرة مجانية" : "Get Your Free Quote"}</span><span aria-hidden="true">${locale === "ar" ? "↖" : "↗"}</span></a>`;
+        const cta = `<a class="b-btn cy-cap-cta" data-quote-open href="${escapeHtml(contactHref)}#quote-form"><span>${locale === "ar" ? "أطلب التسعيرة المجانية الآن" : "Get Your Free Quote"}</span><span aria-hidden="true">${locale === "ar" ? "↖" : "↗"}</span></a>`;
         return (
           start +
           `<h2 class="cy-cap-title">${titles[slug][locale === "ar" ? 1 : 0]}</h2>` +

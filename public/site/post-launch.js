@@ -114,7 +114,7 @@
     "/month": "/ شهر",
     Support: "الدعم",
     "Client Area": "منطقة العملاء",
-    "Get Your Free Quote": "تسعيرة مجانية",
+    "Get Your Free Quote": "أطلب التسعيرة المجانية الآن",
     "ابدأ محادثة": "راسلنا الآن",
     "Reviewing the recent WordPress update.": "نراجع تحديث WordPress الأخير.",
     "Support is checking the issue.": "يفحص الدعم سبب المشكلة.",
@@ -405,7 +405,7 @@
         const atEnd = !!control.closest(endSections);
         const existingQuote =
           control.hasAttribute("data-quote-open") ||
-          /free\s+(?:project\s+)?quote|تسعيرة مجانية|عرضك المجاني/i.test(text);
+          /free\s+(?:project\s+)?quote|تسعيرة مجانية|التسعيرة المجانية|عرضك المجاني/i.test(text);
         const contactLink =
           /^(?:https?:\/\/(?:www\.)?codeyea\.com)?\/(?:ar\/|preview\/pages\/)?contact(?:[/?#]|$)/.test(
             href,
@@ -428,7 +428,7 @@
         }
         if (
           arabic &&
-          (/عرضك المجاني|اطلب عرض|احصل على عرض|تسعيرة مجانية/.test(text) ||
+          (/عرضك المجاني|اطلب عرض|احصل على عرض|تسعيرة مجانية|التسعيرة المجانية/.test(text) ||
             control.matches(".hp-header-quote"))
         ) {
           let label = quoteLabels.get(control);
@@ -446,13 +446,7 @@
             if (label) quoteLabels.set(control, label);
           }
           if (label) {
-            const compact =
-              control.matches(".hp-header-quote") ||
-              (control.getBoundingClientRect().width > 0 &&
-                control.getBoundingClientRect().width < 285);
-            const desired = compact
-              ? "تسعيرة مجانية"
-              : "احصل على تسعيرة مجانية";
+            const desired = "أطلب التسعيرة المجانية الآن";
             if (label.textContent.trim() !== desired)
               label.textContent = desired;
           }

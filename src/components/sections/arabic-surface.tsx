@@ -11,7 +11,7 @@ const ui: Record<string, string> = {
   "Skip to content": "انتقل إلى المحتوى",
   Support: "الدعم",
   "Client Area": "منطقة العملاء",
-  "Get Your Free Quote": "تسعيرة مجانية",
+  "Get Your Free Quote": "أطلب التسعيرة المجانية الآن",
   "Open menu": "افتح القائمة",
   "Close menu": "أغلق القائمة",
   Menu: "القائمة",
