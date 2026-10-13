@@ -1,0 +1,3002 @@
+{
+  "digital-marketing": {
+    "desktop": [
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "CODEYEADigital Marketing ONE CAMPAIGN · 4 CHANNELS ◎f♪in 12,840people reached this week Ddaybreak.coffeeSponsored··· A little pause, made fresh.Meet the citrus hibiscus cooler. Your afternoon just got brighter. ♡286 likesView offer ↗ CAMPAIGN EXAMPLE ↗ 38% Sales are risingMore visits are becoming orders NEW ORDERCampaign conversion CONTENT → CONVERSATION→ SALE",
+        "fit": "cover",
+        "h": 390,
+        "n": 0,
+        "parent": "internal-hero-media",
+        "section": "about-hero ai-general-hero digital-live-hero",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 1405
+      },
+      {
+        "alt": "A hand holding iced hibiscus tea with citrus in a sunlit café",
+        "copy": "Ddaybreak.coffeeSponsored··· A little pause, made fresh.Meet the citrus hibiscus cooler. Your afternoon just got brighter. ♡286 likesView offer ↗",
+        "fit": "cover",
+        "h": 212,
+        "n": 1,
+        "parent": "campaign-photo",
+        "section": "about-hero ai-general-hero digital-live-hero",
+        "shadow": "none",
+        "src": "/api/site-assets/digital-marketing-review/assets/campaign-post-photo.png",
+        "w": 291
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "DIGITAL MARKETING.clear strategy.meaningful campaignscampaigns, connections, conversationsGive your marketing a clear direction. CODEYEA connects audience insight, campaign creative and digital channels around the message your business needs to communicate.Build a coordinated plan that connects attention with a useful next step.Discuss Your Project ↗Strategy. Content. Campaigns.",
+        "fit": "cover",
+        "h": 680,
+        "n": 2,
+        "parent": "ds-overview ds-wrap",
+        "section": "ds-overview",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 540
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "Your everyday business challengesTHE CHALLENGESA clearer message.A connected marketing plan.Posting more or launching more ads does not automatically create a useful customer journey. Campaigns lose focus when the audience, offer and destination do not work together.We define the message, choose relevant channels and connect the campaign to a clear action. Reporting helps explain what is happening and where the next improvement should focus.•Scattered channelsBring campaign activity into one plan with a shared message and purpose.•Unclear positioningExplain the offer in language that speaks to the needs of your intended audience.•Missing contextConnect campaign measures to enquiries and other meaningful business actions.",
+        "fit": "cover",
+        "h": 560,
+        "n": 3,
+        "parent": "",
+        "section": "ds-challenges",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 507
+      },
+      {
+        "alt": "Graphic designer creating a visual identity on a laptop",
+        "copy": "HOW WE WORKOne clear direction.Across your channels.We review the audience, offer and current marketing activity, then build a practical campaign plan. Content, creative and landing-page requirements are developed together.Audience researchCampaign planningOffer positioningContent strategyCreative directionSocial media contentPaid campaign setupLanding-page planningEmail campaign planningMeasurement setupPerformance reportingCampaign refinementTHE PROCESSFocused campaigns.Connected journeys.01/ UnderstandReview the audience, offer, channels and business goals.02/ PlanAgree the message, campaign scope and relevant measures.03/ Create & launchPrepare creative and content, configure the agreed activity and complete launch checks.04/ Review & refineUse campaign evidence and business feedback to guide the next iteration.",
+        "fit": "cover",
+        "h": 330,
+        "n": 4,
+        "parent": "ai-image-layer",
+        "section": "ds-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 253
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "HOW WE WORKOne clear direction.Across your channels.We review the audience, offer and current marketing activity, then build a practical campaign plan. Content, creative and landing-page requirements are developed together.Audience researchCampaign planningOffer positioningContent strategyCreative directionSocial media contentPaid campaign setupLanding-page planningEmail campaign planningMeasurement setupPerformance reportingCampaign refinementTHE PROCESSFocused campaigns.Connected journeys.01/ UnderstandReview the audience, offer, channels and business goals.02/ PlanAgree the message, campaign scope and relevant measures.03/ Create & launchPrepare creative and content, configure the agreed activity and complete launch checks.04/ Review & refineUse campaign evidence and business feedback to guide the next iteration.",
+        "fit": "cover",
+        "h": 330,
+        "n": 5,
+        "parent": "ai-image-layer",
+        "section": "ds-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 253
+      },
+      {
+        "alt": "Editorial magazine layout with oversized orange typography",
+        "copy": "HOW WE WORKOne clear direction.Across your channels.We review the audience, offer and current marketing activity, then build a practical campaign plan. Content, creative and landing-page requirements are developed together.Audience researchCampaign planningOffer positioningContent strategyCreative directionSocial media contentPaid campaign setupLanding-page planningEmail campaign planningMeasurement setupPerformance reportingCampaign refinementTHE PROCESSFocused campaigns.Connected journeys.01/ UnderstandReview the audience, offer, channels and business goals.02/ PlanAgree the message, campaign scope and relevant measures.03/ Create & launchPrepare creative and content, configure the agreed activity and complete launch checks.04/ Review & refineUse campaign evidence and business feedback to guide the next iteration.",
+        "fit": "cover",
+        "h": 330,
+        "n": 6,
+        "parent": "ai-image-layer",
+        "section": "ds-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 253
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "OUR APPROACHGood marketing gives people a reason to care. We connect audience understanding, a clear offer and consistent creative to build campaigns that lead toward meaningful conversations with your business.Discuss Your Marketing ↗",
+        "fit": "cover",
+        "h": 48,
+        "n": 7,
+        "parent": "",
+        "section": "ds-vision",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 75
+      },
+      {
+        "alt": "Graphic designer creating a visual identity on a laptop",
+        "copy": "OUR APPROACHGood marketing gives people a reason to care. We connect audience understanding, a clear offer and consistent creative to build campaigns that lead toward meaningful conversations with your business.Discuss Your Marketing ↗",
+        "fit": "cover",
+        "h": 48,
+        "n": 8,
+        "parent": "",
+        "section": "ds-vision",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 75
+      },
+      {
+        "alt": "A campaign with a clear next step",
+        "copy": "A campaign with a clear next stepConnect an audience-specific message to a focused landing page and a measurable enquiry action.",
+        "fit": "cover",
+        "h": 285,
+        "n": 9,
+        "parent": "",
+        "section": "ds-works",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/project-1-en.svg",
+        "w": 368
+      },
+      {
+        "alt": "A seasonal collection launch",
+        "copy": "A seasonal collection launchCoordinate campaign creative, product discovery and the store journey around a new fashion collection.",
+        "fit": "cover",
+        "h": 285,
+        "n": 10,
+        "parent": "work-clean-photo",
+        "section": "ds-works",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/photo-2-desktop.png",
+        "w": 368
+      },
+      {
+        "alt": "Follow-up that stays relevant",
+        "copy": "Follow-up that stays relevantDesign an email sequence around genuine customer actions, useful product information and clear preference controls.",
+        "fit": "cover",
+        "h": 285,
+        "n": 11,
+        "parent": "",
+        "section": "ds-works",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/project-3-en.svg",
+        "w": 368
+      },
+      {
+        "alt": "Local discovery for a café",
+        "copy": "Local discovery for a caféAlign the café story, current menu and location information across search, social content and the website.",
+        "fit": "cover",
+        "h": 285,
+        "n": 12,
+        "parent": "work-clean-photo",
+        "section": "ds-works",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/photo-4-desktop.png",
+        "w": 368
+      },
+      {
+        "alt": "A useful campaign measurement view",
+        "copy": "A useful campaign measurement viewBring campaign sources, landing-page actions and enquiry stages into one understandable review.",
+        "fit": "cover",
+        "h": 285,
+        "n": 13,
+        "parent": "",
+        "section": "ds-works",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/project-5-en.svg",
+        "w": 368
+      },
+      {
+        "alt": "Explain a complex service simply",
+        "copy": "Explain a complex service simplyDevelop coordinated visual and written campaign material that helps business buyers understand the offer and request details.",
+        "fit": "cover",
+        "h": 285,
+        "n": 14,
+        "parent": "work-clean-photo",
+        "section": "ds-works",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/photo-6-desktop.png",
+        "w": 368
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "What the service can includeSCOPE BY AGREEMENTGive your marketing a clear direction.−3Strategy foundationsWe define who the campaign is for, what makes the offer relevant and what action it should support. These decisions guide the content, channels and landing-page requirements.AudienceOfferCampaign objectiveBring the campaign together across touchpoints.+4Connected campaign elementsCreate a consistent experience from the first impression to the next step. We adapt the agreed message for each channel while keeping the offer and customer journey aligned.Core messageCampaign creativeChannel contentLanding-page journeyTurn reporting into practical next steps.+3Review prioritiesReview the available data alongside the business context. We explain what changed, where the journey may need attention and which tests or updates should come next.Channel performanceCustomer actionsNext improvements",
+        "fit": "cover",
+        "h": 390,
+        "n": 15,
+        "parent": "ds-expanded",
+        "section": "ds-inclusions",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 693
+      },
+      {
+        "alt": "Editorial magazine layout with oversized orange typography",
+        "copy": "What the service can includeSCOPE BY AGREEMENTGive your marketing a clear direction.−3Strategy foundationsWe define who the campaign is for, what makes the offer relevant and what action it should support. These decisions guide the content, channels and landing-page requirements.AudienceOfferCampaign objectiveBring the campaign together across touchpoints.+4Connected campaign elementsCreate a consistent experience from the first impression to the next step. We adapt the agreed message for each channel while keeping the offer and customer journey aligned.Core messageCampaign creativeChannel contentLanding-page journeyTurn reporting into practical next steps.+3Review prioritiesReview the available data alongside the business context. We explain what changed, where the journey may need attention and which tests or updates should come next.Channel performanceCustomer actionsNext improvements",
+        "fit": "cover",
+        "h": 390,
+        "n": 16,
+        "parent": "ds-expanded",
+        "section": "ds-inclusions",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 693
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "What the service can includeSCOPE BY AGREEMENTGive your marketing a clear direction.−3Strategy foundationsWe define who the campaign is for, what makes the offer relevant and what action it should support. These decisions guide the content, channels and landing-page requirements.AudienceOfferCampaign objectiveBring the campaign together across touchpoints.+4Connected campaign elementsCreate a consistent experience from the first impression to the next step. We adapt the agreed message for each channel while keeping the offer and customer journey aligned.Core messageCampaign creativeChannel contentLanding-page journeyTurn reporting into practical next steps.+3Review prioritiesReview the available data alongside the business context. We explain what changed, where the journey may need attention and which tests or updates should come next.Channel performanceCustomer actionsNext improvements",
+        "fit": "cover",
+        "h": 390,
+        "n": 17,
+        "parent": "ds-expanded",
+        "section": "ds-inclusions",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 693
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "01 / FOCUSStart with the audience and offer.Understand who you want to reach and why your offer matters to them. We translate that understanding into clear messaging and a practical campaign brief.+Explore Details02 / CONTROLConnect attention to a useful next step.Align the creative, channel content and destination page. Whether the goal is an enquiry, booking or another agreed action, the journey should feel consistent and easy to understand.+Explore Details03 / DEVELOPImprove with evidence, not guesswork.Review campaign signals and the quality of the resulting actions. We use those observations to refine the creative, message or channel plan while keeping your budget and goals in view.+Explore Details",
+        "fit": "cover",
+        "h": 885,
+        "n": 18,
+        "parent": "",
+        "section": "ds-path",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 623
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "01 / FOCUSStart with the audience and offer.Understand who you want to reach and why your offer matters to them. We translate that understanding into clear messaging and a practical campaign brief.+Explore Details02 / CONTROLConnect attention to a useful next step.Align the creative, channel content and destination page. Whether the goal is an enquiry, booking or another agreed action, the journey should feel consistent and easy to understand.+Explore Details03 / DEVELOPImprove with evidence, not guesswork.Review campaign signals and the quality of the resulting actions. We use those observations to refine the creative, message or channel plan while keeping your budget and goals in view.+Explore Details",
+        "fit": "cover",
+        "h": 885,
+        "n": 19,
+        "parent": "",
+        "section": "ds-path",
+        "shadow": "none",
+        "src": "/homepage/branding.webp",
+        "w": 623
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "01 / FOCUSStart with the audience and offer.Understand who you want to reach and why your offer matters to them. We translate that understanding into clear messaging and a practical campaign brief.+Explore Details02 / CONTROLConnect attention to a useful next step.Align the creative, channel content and destination page. Whether the goal is an enquiry, booking or another agreed action, the journey should feel consistent and easy to understand.+Explore Details03 / DEVELOPImprove with evidence, not guesswork.Review campaign signals and the quality of the resulting actions. We use those observations to refine the creative, message or channel plan while keeping your budget and goals in view.+Explore Details",
+        "fit": "cover",
+        "h": 885,
+        "n": 20,
+        "parent": "",
+        "section": "ds-path",
+        "shadow": "none",
+        "src": "/homepage/support.webp",
+        "w": 623
+      }
+    ],
+    "tablet": [
+      {
+        "h": 390,
+        "n": 0,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 803
+      },
+      {
+        "h": 212,
+        "n": 1,
+        "src": "/api/site-assets/digital-marketing-review/assets/campaign-post-photo.png",
+        "w": 291
+      },
+      {
+        "h": 704,
+        "n": 2,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 341
+      },
+      {
+        "h": 560,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 300
+      },
+      {
+        "h": 330,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 151
+      },
+      {
+        "h": 330,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 151
+      },
+      {
+        "h": 330,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 151
+      },
+      {
+        "h": 48,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 75
+      },
+      {
+        "h": 48,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 75
+      },
+      {
+        "h": 285,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/project-1-en.svg",
+        "w": 168
+      },
+      {
+        "h": 285,
+        "n": 10,
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/photo-2-desktop.png",
+        "w": 168
+      },
+      {
+        "h": 285,
+        "n": 11,
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/project-3-en.svg",
+        "w": 168
+      },
+      {
+        "h": 285,
+        "n": 12,
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/photo-4-desktop.png",
+        "w": 168
+      },
+      {
+        "h": 285,
+        "n": 13,
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/project-5-en.svg",
+        "w": 168
+      },
+      {
+        "h": 285,
+        "n": 14,
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/photo-6-desktop.png",
+        "w": 168
+      },
+      {
+        "h": 390,
+        "n": 15,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 317
+      },
+      {
+        "h": 390,
+        "n": 16,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 317
+      },
+      {
+        "h": 390,
+        "n": 17,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 317
+      },
+      {
+        "h": 1008,
+        "n": 18,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 322
+      },
+      {
+        "h": 1008,
+        "n": 19,
+        "src": "/homepage/branding.webp",
+        "w": 322
+      },
+      {
+        "h": 1008,
+        "n": 20,
+        "src": "/homepage/support.webp",
+        "w": 322
+      }
+    ],
+    "mobile": [
+      {
+        "h": 310,
+        "n": 0,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 373
+      },
+      {
+        "h": 144,
+        "n": 1,
+        "src": "/api/site-assets/digital-marketing-review/assets/campaign-post-photo.png",
+        "w": 198
+      },
+      {
+        "h": 455,
+        "n": 2,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 362
+      },
+      {
+        "h": 560,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 350
+      },
+      {
+        "h": 260,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 151
+      },
+      {
+        "h": 260,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 151
+      },
+      {
+        "h": 260,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 151
+      },
+      {
+        "h": 48,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 75
+      },
+      {
+        "h": 48,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 75
+      },
+      {
+        "h": 170,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/project-1-en.svg",
+        "w": 138
+      },
+      {
+        "h": 170,
+        "n": 10,
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/photo-2-desktop.png",
+        "w": 138
+      },
+      {
+        "h": 170,
+        "n": 11,
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/project-3-en.svg",
+        "w": 138
+      },
+      {
+        "h": 170,
+        "n": 12,
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/photo-4-desktop.png",
+        "w": 138
+      },
+      {
+        "h": 170,
+        "n": 13,
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/project-5-en.svg",
+        "w": 138
+      },
+      {
+        "h": 170,
+        "n": 14,
+        "src": "http://127.0.0.1:3014/site/generated/digital-marketing/photo-6-desktop.png",
+        "w": 138
+      },
+      {
+        "h": 280,
+        "n": 15,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 293
+      },
+      {
+        "h": 280,
+        "n": 16,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 293
+      },
+      {
+        "h": 280,
+        "n": 17,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 293
+      },
+      {
+        "h": 400,
+        "n": 18,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 341
+      },
+      {
+        "h": 400,
+        "n": 19,
+        "src": "/homepage/branding.webp",
+        "w": 341
+      },
+      {
+        "h": 400,
+        "n": 20,
+        "src": "/homepage/support.webp",
+        "w": 341
+      }
+    ]
+  },
+  "ecommerce": {
+    "desktop": [
+      {
+        "alt": "Illustrative online storefront with products and checkout popups",
+        "copy": "c. CODEYEA MARKETNEW ARRIVALS / THE EVERYDAY EDITBAG 0THE EVERYDAY EDITFind yournext favourite.Considered pieces.Extraordinary everyday.SHOP THE COLLECTION ↗01NEWSEASON↗30%YOUR NEXTGREAT FIND.+Leather handbag$148 VIEW PRODUCT ↗+Studio headphones$129 VIEW PRODUCT ↗+Evening dress$96 VIEW PRODUCT ↗THOUGHTFUL DESIGNFAST, SIMPLE CHECKOUTBUILT TO GROW✓Added to your bagGOOD CHOICE+1STORE ACTIVITY+32%SALES THIS MONTH ↗MONTHLY REVENUE$24.8k+18.6% this monthNET PROFIT$8,420+12.4% this monthCODEYEAE-Commerce Design& DevelopmentYour products.Your online store.Ready forwhat’s next.Let’s build your online store↗",
+        "fit": "cover",
+        "h": 0,
+        "n": 0,
+        "parent": "b-hero-images",
+        "section": "b-hero ecom-concept",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 0
+      },
+      {
+        "alt": "Red leather handbag",
+        "copy": "c. CODEYEA MARKETNEW ARRIVALS / THE EVERYDAY EDITBAG 0THE EVERYDAY EDITFind yournext favourite.Considered pieces.Extraordinary everyday.SHOP THE COLLECTION ↗01NEWSEASON↗30%YOUR NEXTGREAT FIND.+Leather handbag$148 VIEW PRODUCT ↗+Studio headphones$129 VIEW PRODUCT ↗+Evening dress$96 VIEW PRODUCT ↗THOUGHTFUL DESIGNFAST, SIMPLE CHECKOUTBUILT TO GROW✓Added to your bagGOOD CHOICE+1STORE ACTIVITY+32%SALES THIS MONTH ↗MONTHLY REVENUE$24.8k+18.6% this monthNET PROFIT$8,420+12.4% this monthCODEYEAE-Commerce Design& DevelopmentYour products.Your online store.Ready forwhat’s next.Let’s build your online store↗",
+        "fit": "contain",
+        "h": 133,
+        "n": 1,
+        "parent": "ecom-photo",
+        "section": "b-hero ecom-concept",
+        "shadow": "none",
+        "src": "/api/site-assets/ecommerce-review/assets/catalog-bag.png",
+        "w": 188
+      },
+      {
+        "alt": "Red evening dress",
+        "copy": "c. CODEYEA MARKETNEW ARRIVALS / THE EVERYDAY EDITBAG 0THE EVERYDAY EDITFind yournext favourite.Considered pieces.Extraordinary everyday.SHOP THE COLLECTION ↗01NEWSEASON↗30%YOUR NEXTGREAT FIND.+Leather handbag$148 VIEW PRODUCT ↗+Studio headphones$129 VIEW PRODUCT ↗+Evening dress$96 VIEW PRODUCT ↗THOUGHTFUL DESIGNFAST, SIMPLE CHECKOUTBUILT TO GROW✓Added to your bagGOOD CHOICE+1STORE ACTIVITY+32%SALES THIS MONTH ↗MONTHLY REVENUE$24.8k+18.6% this monthNET PROFIT$8,420+12.4% this monthCODEYEAE-Commerce Design& DevelopmentYour products.Your online store.Ready forwhat’s next.Let’s build your online store↗",
+        "fit": "contain",
+        "h": 133,
+        "n": 2,
+        "parent": "ecom-photo",
+        "section": "b-hero ecom-concept",
+        "shadow": "none",
+        "src": "/api/site-assets/ecommerce-review/assets/catalog-dress.png",
+        "w": 188
+      },
+      {
+        "alt": "Illustrative online storefront with products and checkout popups",
+        "copy": "More than a storefront.Your business, connected.01Storefront design02Product catalogues03Payment gateway integration04Orders & fulfilment05Inventory & stock control06Store management & reporting",
+        "fit": "contain",
+        "h": 347,
+        "n": 3,
+        "parent": "b-image-layer",
+        "section": "b-wrap b-section b-collage-section",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 242
+      },
+      {
+        "alt": "Design collaboration",
+        "copy": "More than a storefront.Your business, connected.01Storefront design02Product catalogues03Payment gateway integration04Orders & fulfilment05Inventory & stock control06Store management & reporting",
+        "fit": "contain",
+        "h": 347,
+        "n": 4,
+        "parent": "b-image-layer",
+        "section": "b-wrap b-section b-collage-section",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 242
+      },
+      {
+        "alt": "Online checkout form and order summary for studio headphones",
+        "copy": "More than a storefront.Your business, connected.01Storefront design02Product catalogues03Payment gateway integration04Orders & fulfilment05Inventory & stock control06Store management & reporting",
+        "fit": "contain",
+        "h": 347,
+        "n": 5,
+        "parent": "b-image-layer",
+        "section": "b-wrap b-section b-collage-section",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/checkout-page.png",
+        "w": 264
+      },
+      {
+        "alt": "Design collaboration",
+        "copy": "BEHIND EVERY GREAT STOREKeep the store moving.Stay in control.Practical administration designed around your products, people and daily decisions.01 / OPERATIONSManage with clarity.Make routine tasks easier while keeping access appropriate to each role.Staff roles and permissionsProduct updates and promotionsOrder status and customer records02 / INVENTORYKnow what is in stock.Set up quantity tracking that reflects how your business sells and fulfils.SKU and variant organisationStock levels and low-stock alertsAgreed overselling and restock rules03 / FULFILMENTFrom order to delivery.Connect the purchase to a practical workflow for your team.Shipping zones and delivery optionsOrder processing and trackingReturns and refund workflows",
+        "fit": "contain",
+        "h": 540,
+        "n": 6,
+        "parent": "e-dashboard",
+        "section": "e-operations b-wrap b-section",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 1200
+      },
+      {
+        "alt": "Online checkout form and order summary for studio headphones",
+        "copy": "PAYMENTS, CONNECTEDA smoother pathfrom basket to checkout.Give customers appropriate ways to pay, using supported payment providers and a checkout designed around your market.Gateway integration suited to your country and platformSupported cards, wallets and local payment methodsPayment status, refunds and order reconciliationProvider-managed payment collection where supportedAvailability, fees, currencies and merchant approval depend on the selected payment provider.Plan your store ↗□ □ □ yourstore.example / checkoutYOUR ORDER▣ Card payment ✓◈ Digital wallet ✓◇ Payment handled by your selected providerIllustrative interface",
+        "fit": "contain",
+        "h": 260,
+        "n": 7,
+        "parent": "e-checkout-body",
+        "section": "e-payments b-dark",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/checkout-page.png",
+        "w": 513
+      },
+      {
+        "alt": "Design collaboration",
+        "copy": "",
+        "fit": "cover",
+        "h": 290,
+        "n": 8,
+        "parent": "b-filmstrip",
+        "section": "b-filmstrip",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 398
+      },
+      {
+        "alt": "Design collaboration",
+        "copy": "",
+        "fit": "cover",
+        "h": 290,
+        "n": 9,
+        "parent": "b-filmstrip",
+        "section": "b-filmstrip",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 398
+      },
+      {
+        "alt": "Design collaboration",
+        "copy": "",
+        "fit": "cover",
+        "h": 290,
+        "n": 10,
+        "parent": "b-filmstrip",
+        "section": "b-filmstrip",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 398
+      },
+      {
+        "alt": "Design collaboration",
+        "copy": "",
+        "fit": "cover",
+        "h": 290,
+        "n": 11,
+        "parent": "b-filmstrip",
+        "section": "b-filmstrip",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 398
+      },
+      {
+        "alt": "Service illustration",
+        "copy": "Commerce capabilities and deliverablesA strong online store connects what customers see with what your team manages. We plan the storefront and the operations together, from discovering a product to processing an order and keeping stock accurate.CapabilitiesShopping experience designCommerce planningProduct merchandisingStore developmentOperational workflowsCheckout journey designProduct catalog organizationDeliverablesResponsive storefrontProduct & variant setupPayment integrationsInventory configurationAdministration handoverCheckout and shipping setupStore management guidanceGet Your Free Quote↗",
+        "fit": "cover",
+        "h": 281,
+        "n": 12,
+        "parent": "cy-cap-intro",
+        "section": "b-dark b-capabilities",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 561
+      },
+      {
+        "alt": "Illustrative online storefront with products and checkout popups",
+        "copy": "Imagine your store.From first click to fulfilment.Illustrative store concepts show how your products and operations could come together. These are concept previews, not client case studies.Preview ↗ILLUSTRATIVE STORE CONCEPTProduct discoveryOnline storefrontPreview ↗ILLUSTRATIVE STORE CONCEPTInventory & stock controlStore managementPreview ↗ILLUSTRATIVE STORE CONCEPTCheckout experienceProduct collectionsPreview ↗ILLUSTRATIVE STORE CONCEPTShopping on the goMobile shoppingPreview ↗ILLUSTRATIVE STORE CONCEPTProduct merchandisingStorefront design",
+        "fit": "cover",
+        "h": 614,
+        "n": 13,
+        "parent": "b-work-image",
+        "section": "b-wrap b-section b-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 601
+      },
+      {
+        "alt": "Design collaboration",
+        "copy": "Imagine your store.From first click to fulfilment.Illustrative store concepts show how your products and operations could come together. These are concept previews, not client case studies.Preview ↗ILLUSTRATIVE STORE CONCEPTProduct discoveryOnline storefrontPreview ↗ILLUSTRATIVE STORE CONCEPTInventory & stock controlStore managementPreview ↗ILLUSTRATIVE STORE CONCEPTCheckout experienceProduct collectionsPreview ↗ILLUSTRATIVE STORE CONCEPTShopping on the goMobile shoppingPreview ↗ILLUSTRATIVE STORE CONCEPTProduct merchandisingStorefront design",
+        "fit": "cover",
+        "h": 499,
+        "n": 14,
+        "parent": "b-work-image",
+        "section": "b-wrap b-section b-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 601
+      },
+      {
+        "alt": "Illustrative online storefront with products and checkout popups",
+        "copy": "Imagine your store.From first click to fulfilment.Illustrative store concepts show how your products and operations could come together. These are concept previews, not client case studies.Preview ↗ILLUSTRATIVE STORE CONCEPTProduct discoveryOnline storefrontPreview ↗ILLUSTRATIVE STORE CONCEPTInventory & stock controlStore managementPreview ↗ILLUSTRATIVE STORE CONCEPTCheckout experienceProduct collectionsPreview ↗ILLUSTRATIVE STORE CONCEPTShopping on the goMobile shoppingPreview ↗ILLUSTRATIVE STORE CONCEPTProduct merchandisingStorefront design",
+        "fit": "cover",
+        "h": 333,
+        "n": 15,
+        "parent": "b-work-image",
+        "section": "b-wrap b-section b-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 385
+      },
+      {
+        "alt": "Illustrative online storefront with products and checkout popups",
+        "copy": "Imagine your store.From first click to fulfilment.Illustrative store concepts show how your products and operations could come together. These are concept previews, not client case studies.Preview ↗ILLUSTRATIVE STORE CONCEPTProduct discoveryOnline storefrontPreview ↗ILLUSTRATIVE STORE CONCEPTInventory & stock controlStore managementPreview ↗ILLUSTRATIVE STORE CONCEPTCheckout experienceProduct collectionsPreview ↗ILLUSTRATIVE STORE CONCEPTShopping on the goMobile shoppingPreview ↗ILLUSTRATIVE STORE CONCEPTProduct merchandisingStorefront design",
+        "fit": "cover",
+        "h": 333,
+        "n": 16,
+        "parent": "b-work-image",
+        "section": "b-wrap b-section b-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 385
+      },
+      {
+        "alt": "Design collaboration",
+        "copy": "Imagine your store.From first click to fulfilment.Illustrative store concepts show how your products and operations could come together. These are concept previews, not client case studies.Preview ↗ILLUSTRATIVE STORE CONCEPTProduct discoveryOnline storefrontPreview ↗ILLUSTRATIVE STORE CONCEPTInventory & stock controlStore managementPreview ↗ILLUSTRATIVE STORE CONCEPTCheckout experienceProduct collectionsPreview ↗ILLUSTRATIVE STORE CONCEPTShopping on the goMobile shoppingPreview ↗ILLUSTRATIVE STORE CONCEPTProduct merchandisingStorefront design",
+        "fit": "cover",
+        "h": 333,
+        "n": 17,
+        "parent": "b-work-image",
+        "section": "b-wrap b-section b-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 385
+      }
+    ],
+    "tablet": [
+      {
+        "h": 0,
+        "n": 0,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 0
+      },
+      {
+        "h": 64,
+        "n": 1,
+        "src": "/api/site-assets/ecommerce-review/assets/catalog-bag.png",
+        "w": 90
+      },
+      {
+        "h": 64,
+        "n": 2,
+        "src": "/api/site-assets/ecommerce-review/assets/catalog-dress.png",
+        "w": 90
+      },
+      {
+        "h": 347,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 158
+      },
+      {
+        "h": 347,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 158
+      },
+      {
+        "h": 347,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/checkout-page.png",
+        "w": 172
+      },
+      {
+        "h": 540,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 756
+      },
+      {
+        "h": 260,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/checkout-page.png",
+        "w": 291
+      },
+      {
+        "h": 290,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 217
+      },
+      {
+        "h": 290,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 217
+      },
+      {
+        "h": 290,
+        "n": 10,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 217
+      },
+      {
+        "h": 290,
+        "n": 11,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 217
+      },
+      {
+        "h": 171,
+        "n": 12,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 342
+      },
+      {
+        "h": 468,
+        "n": 13,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 383
+      },
+      {
+        "h": 385,
+        "n": 14,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 383
+      },
+      {
+        "h": 333,
+        "n": 15,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 248
+      },
+      {
+        "h": 333,
+        "n": 16,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 248
+      },
+      {
+        "h": 333,
+        "n": 17,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 248
+      }
+    ],
+    "mobile": [
+      {
+        "h": 0,
+        "n": 0,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 0
+      },
+      {
+        "h": 16,
+        "n": 1,
+        "src": "/api/site-assets/ecommerce-review/assets/catalog-bag.png",
+        "w": 16
+      },
+      {
+        "h": 16,
+        "n": 2,
+        "src": "/api/site-assets/ecommerce-review/assets/catalog-dress.png",
+        "w": 16
+      },
+      {
+        "h": 279,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 154
+      },
+      {
+        "h": 279,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 154
+      },
+      {
+        "h": 279,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/checkout-page.png",
+        "w": 168
+      },
+      {
+        "h": 390,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 350
+      },
+      {
+        "h": 260,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/checkout-page.png",
+        "w": 314
+      },
+      {
+        "h": 240,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 210
+      },
+      {
+        "h": 240,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 210
+      },
+      {
+        "h": 240,
+        "n": 10,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 210
+      },
+      {
+        "h": 240,
+        "n": 11,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 210
+      },
+      {
+        "h": 157,
+        "n": 12,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 313
+      },
+      {
+        "h": 416,
+        "n": 13,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 364
+      },
+      {
+        "h": 416,
+        "n": 14,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 364
+      },
+      {
+        "h": 416,
+        "n": 15,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 364
+      },
+      {
+        "h": 416,
+        "n": 16,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/product-page.png",
+        "w": 364
+      },
+      {
+        "h": 416,
+        "n": 17,
+        "src": "http://127.0.0.1:3014/api/site-assets/ecommerce-review/assets/inventory-page.png",
+        "w": 364
+      }
+    ]
+  },
+  "web-mobile-apps": {
+    "desktop": [
+      {
+        "alt": "Fresh grain bowl",
+        "copy": "CODEYEAWeb & Mobile Appsthe kitchen~MENU OUR STORY LOCATIONSORDER ONLINE ↗GOOD FOOD, GOOD MOODFresh, madefor your day.Seasonal bowls and kitchen favourites, made fresh nearby.EXPLORE THE MENU ↗4.9 ★★★★★LOCAL INGREDIENTS · MADE DAILYGARDEN GRAIN BOWLFresh from our kitchenFRESH FROM OUR KITCHENGARDEN BOWL $18HERB PESTO $16AVOCADO CRUNCH $149:41 ●●● ◖ ▰the kitchen~▣ 0⌕ Search something fresh↻ Repeat last order✦ Chef’s picksToday’s menuSee all →Garden grain bowlFresh · 12 min$18+Herb pesto pastaPopular · 15 min$16+Avocado crunchPlant based · 10 min$14+9:41 ●●● ◖ ▰‹the kitchen~▣ 0CHEF’S PICKFRESH FROM OUR KITCHENGarden grain bowlWarm grains, crisp greens, avocado and lemon herb dressing🌿 Plant based⚡ 420 kcalReady in 12 min$18Add to bag ＋9:41 ●●● ◖ ▰Your order×READY WHEN YOU ARE ● LIVEYour next favouritestarts with one tap.⌁ Delivery toHome · 20–30 minSubtotal $0.00Delivery $2.00Total $0.00Place order ↗Secure checkout · Pay on delivery✓ Order received01 BROWSE02 CHOOSE03 ORDER",
+        "fit": "cover",
+        "h": 143,
+        "n": 0,
+        "parent": "store-food is-sync",
+        "section": "about-hero ai-general-hero web-mobile-journey",
+        "shadow": "none",
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-grain-720.jpg",
+        "w": 235
+      },
+      {
+        "alt": "Grain bowl",
+        "copy": "9:41 ●●● ◖ ▰the kitchen~▣ 0⌕ Search something fresh↻ Repeat last order✦ Chef’s picksToday’s menuSee all →Garden grain bowlFresh · 12 min$18+Herb pesto pastaPopular · 15 min$16+Avocado crunchPlant based · 10 min$14+",
+        "fit": "cover",
+        "h": 67,
+        "n": 1,
+        "parent": "food-card is-active",
+        "section": "about-hero ai-general-hero web-mobile-journey",
+        "shadow": "none",
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-grain-420.jpg",
+        "w": 66
+      },
+      {
+        "alt": "Pesto pasta",
+        "copy": "9:41 ●●● ◖ ▰the kitchen~▣ 0⌕ Search something fresh↻ Repeat last order✦ Chef’s picksToday’s menuSee all →Garden grain bowlFresh · 12 min$18+Herb pesto pastaPopular · 15 min$16+Avocado crunchPlant based · 10 min$14+",
+        "fit": "cover",
+        "h": 78,
+        "n": 2,
+        "parent": "food-card",
+        "section": "about-hero ai-general-hero web-mobile-journey",
+        "shadow": "none",
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-pasta-420.jpg",
+        "w": 67
+      },
+      {
+        "alt": "Avocado salad",
+        "copy": "9:41 ●●● ◖ ▰the kitchen~▣ 0⌕ Search something fresh↻ Repeat last order✦ Chef’s picksToday’s menuSee all →Garden grain bowlFresh · 12 min$18+Herb pesto pastaPopular · 15 min$16+Avocado crunchPlant based · 10 min$14+",
+        "fit": "cover",
+        "h": 78,
+        "n": 3,
+        "parent": "food-card",
+        "section": "about-hero ai-general-hero web-mobile-journey",
+        "shadow": "none",
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-salad-420.jpg",
+        "w": 67
+      },
+      {
+        "alt": "Garden grain bowl",
+        "copy": "9:41 ●●● ◖ ▰‹the kitchen~▣ 0CHEF’S PICKFRESH FROM OUR KITCHENGarden grain bowlWarm grains, crisp greens, avocado and lemon herb dressing🌿 Plant based⚡ 420 kcalReady in 12 min$18Add to bag ＋",
+        "fit": "cover",
+        "h": 130,
+        "n": 4,
+        "parent": "detail-image",
+        "section": "about-hero ai-general-hero web-mobile-journey",
+        "shadow": "none",
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-grain-720.jpg",
+        "w": 168
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "WEB & MOBILE APP DEVELOPMENT.digital products.connected platformsplatforms, experiences, applicationsBuild an application around the way your business works. CODEYEA designs and develops web and mobile experiences that connect your users, workflows and essential systems.From a focused first release to a connected platform, start with the features that matter.Discuss Your Project ↗Web apps. Mobile apps. Integrations.",
+        "fit": "cover",
+        "h": 704,
+        "n": 5,
+        "parent": "ds-overview ds-wrap",
+        "section": "ds-overview",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 559
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "Your everyday business challengesTHE CHALLENGESLess friction.Better digital experiences.Disconnected systems, manual workarounds and difficult interfaces can slow down both customers and teams. An application needs to solve a clear problem before adding more features.We map the user journeys and operational requirements, then define a manageable release. Design, development and testing follow the same agreed priorities.•Complex workflowsTurn important tasks into clear journeys with appropriate permissions and useful feedback.•Disconnected systemsPlan connections between the application and the services your business already uses.•Unfocused releasesPrioritise a useful first version and build a roadmap for what comes next.",
+        "fit": "cover",
+        "h": 560,
+        "n": 6,
+        "parent": "",
+        "section": "ds-challenges",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 507
+      },
+      {
+        "alt": "Graphic designer creating a visual identity on a laptop",
+        "copy": "HOW WE WORKDesigned around people.Built around your business.We define who will use the application, what they need to do and which systems support the work. The result is a practical plan for the interface, architecture and delivery.Product discoveryUser journey mappingInterface designWeb application developmentMobile application developmentAPI integrationStaff roles and permissionsData modellingQuality assuranceDevice testingDeployment planningHandoff and documentationTHE PROCESSClear requirements.Connected products.01/ DiscoverUnderstand the users, tasks and systems behind the application.02/ DefineAgree the first release, user journeys and technical requirements.03/ Build & testDevelop the interface and application logic, then test the agreed scenarios.04/ Launch & refinePrepare delivery, explain administration and plan the next improvements.",
+        "fit": "cover",
+        "h": 330,
+        "n": 7,
+        "parent": "ai-image-layer",
+        "section": "ds-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 253
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "HOW WE WORKDesigned around people.Built around your business.We define who will use the application, what they need to do and which systems support the work. The result is a practical plan for the interface, architecture and delivery.Product discoveryUser journey mappingInterface designWeb application developmentMobile application developmentAPI integrationStaff roles and permissionsData modellingQuality assuranceDevice testingDeployment planningHandoff and documentationTHE PROCESSClear requirements.Connected products.01/ DiscoverUnderstand the users, tasks and systems behind the application.02/ DefineAgree the first release, user journeys and technical requirements.03/ Build & testDevelop the interface and application logic, then test the agreed scenarios.04/ Launch & refinePrepare delivery, explain administration and plan the next improvements.",
+        "fit": "cover",
+        "h": 330,
+        "n": 8,
+        "parent": "ai-image-layer",
+        "section": "ds-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 253
+      },
+      {
+        "alt": "Editorial magazine layout with oversized orange typography",
+        "copy": "HOW WE WORKDesigned around people.Built around your business.We define who will use the application, what they need to do and which systems support the work. The result is a practical plan for the interface, architecture and delivery.Product discoveryUser journey mappingInterface designWeb application developmentMobile application developmentAPI integrationStaff roles and permissionsData modellingQuality assuranceDevice testingDeployment planningHandoff and documentationTHE PROCESSClear requirements.Connected products.01/ DiscoverUnderstand the users, tasks and systems behind the application.02/ DefineAgree the first release, user journeys and technical requirements.03/ Build & testDevelop the interface and application logic, then test the agreed scenarios.04/ Launch & refinePrepare delivery, explain administration and plan the next improvements.",
+        "fit": "cover",
+        "h": 330,
+        "n": 9,
+        "parent": "ai-image-layer",
+        "section": "ds-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 253
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "OUR APPROACHAn application should make important tasks feel simpler. We connect thoughtful interfaces, practical engineering and well-defined workflows to create digital products your customers and team can use with confidence.Discuss Your Application ↗",
+        "fit": "cover",
+        "h": 48,
+        "n": 10,
+        "parent": "",
+        "section": "ds-vision",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 75
+      },
+      {
+        "alt": "Graphic designer creating a visual identity on a laptop",
+        "copy": "OUR APPROACHAn application should make important tasks feel simpler. We connect thoughtful interfaces, practical engineering and well-defined workflows to create digital products your customers and team can use with confidence.Discuss Your Application ↗",
+        "fit": "cover",
+        "h": 48,
+        "n": 11,
+        "parent": "",
+        "section": "ds-vision",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 75
+      },
+      {
+        "alt": "A booking journey across devices",
+        "copy": "A booking journey across devicesConnect available appointments, customer details and confirmation in a consistent mobile and web experience.",
+        "fit": "cover",
+        "h": 285,
+        "n": 12,
+        "parent": "",
+        "section": "ds-works",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/project-1-en.svg",
+        "w": 368
+      },
+      {
+        "alt": "A field team with connected updates",
+        "copy": "A field team with connected updatesHelp a site team capture job progress and approved evidence while the office follows the same current record.",
+        "fit": "cover",
+        "h": 285,
+        "n": 13,
+        "parent": "work-clean-photo",
+        "section": "ds-works",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/photo-2-desktop.png",
+        "w": 368
+      },
+      {
+        "alt": "A customer portal with a clear status",
+        "copy": "A customer portal with a clear statusGive customers a structured view of requests, documents and next actions without scattered messages.",
+        "fit": "cover",
+        "h": 285,
+        "n": 14,
+        "parent": "",
+        "section": "ds-works",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/project-3-en.svg",
+        "w": 368
+      },
+      {
+        "alt": "Inventory where work happens",
+        "copy": "Inventory where work happensConnect a warehouse workflow to product availability and movement records so the team can act on current information.",
+        "fit": "cover",
+        "h": 285,
+        "n": 15,
+        "parent": "work-clean-photo",
+        "section": "ds-works",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/photo-4-desktop.png",
+        "w": 368
+      },
+      {
+        "alt": "A practical loyalty experience",
+        "copy": "A practical loyalty experiencePresent available rewards, account information and redemption steps in a focused customer app.",
+        "fit": "cover",
+        "h": 285,
+        "n": 16,
+        "parent": "",
+        "section": "ds-works",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/project-5-en.svg",
+        "w": 368
+      },
+      {
+        "alt": "Delivery updates people can use",
+        "copy": "Delivery updates people can useSupport a dispatch team with clear job assignments and customer-facing updates around each delivery stage.",
+        "fit": "cover",
+        "h": 285,
+        "n": 17,
+        "parent": "work-clean-photo",
+        "section": "ds-works",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/photo-6-desktop.png",
+        "w": 368
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "What the service can includeSCOPE BY AGREEMENTCreate experiences around your users.−3Experience design prioritiesDefine the actions people need to complete and design a clear route through them. We connect navigation, screen layouts and feedback so the application feels consistent across key journeys.User journeysInterface designUsability reviewConnect the product from interface to data.+4Application layersBuild the agreed product as a connected system. We plan how screens, rules, data and supported integrations work together before moving into development.Application interfaceBusiness logicData storageService integrationsPrepare for real-world use.+3Delivery checksTest expected tasks and important exceptions, review user access and prepare the release process. Your team receives guidance on the agreed administration and support arrangements.Functional testingAccess and error handlingHandoff and release planning",
+        "fit": "cover",
+        "h": 390,
+        "n": 18,
+        "parent": "ds-expanded",
+        "section": "ds-inclusions",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 693
+      },
+      {
+        "alt": "Editorial magazine layout with oversized orange typography",
+        "copy": "What the service can includeSCOPE BY AGREEMENTCreate experiences around your users.−3Experience design prioritiesDefine the actions people need to complete and design a clear route through them. We connect navigation, screen layouts and feedback so the application feels consistent across key journeys.User journeysInterface designUsability reviewConnect the product from interface to data.+4Application layersBuild the agreed product as a connected system. We plan how screens, rules, data and supported integrations work together before moving into development.Application interfaceBusiness logicData storageService integrationsPrepare for real-world use.+3Delivery checksTest expected tasks and important exceptions, review user access and prepare the release process. Your team receives guidance on the agreed administration and support arrangements.Functional testingAccess and error handlingHandoff and release planning",
+        "fit": "cover",
+        "h": 390,
+        "n": 19,
+        "parent": "ds-expanded",
+        "section": "ds-inclusions",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 693
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "What the service can includeSCOPE BY AGREEMENTCreate experiences around your users.−3Experience design prioritiesDefine the actions people need to complete and design a clear route through them. We connect navigation, screen layouts and feedback so the application feels consistent across key journeys.User journeysInterface designUsability reviewConnect the product from interface to data.+4Application layersBuild the agreed product as a connected system. We plan how screens, rules, data and supported integrations work together before moving into development.Application interfaceBusiness logicData storageService integrationsPrepare for real-world use.+3Delivery checksTest expected tasks and important exceptions, review user access and prepare the release process. Your team receives guidance on the agreed administration and support arrangements.Functional testingAccess and error handlingHandoff and release planning",
+        "fit": "cover",
+        "h": 390,
+        "n": 20,
+        "parent": "ds-expanded",
+        "section": "ds-inclusions",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 693
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "01 / FOCUSStart with the essential journey.Choose the tasks that make the first release useful. We map how people move through the application, what information they need and where a clear interface can reduce unnecessary steps.+Explore Details02 / CONTROLConnect the systems behind it.Plan APIs, data flows and staff access alongside the customer experience. Integration requirements and provider limits are reviewed before implementation so responsibilities stay clear.+Explore Details03 / DEVELOPBuild a product you can develop further.Launch with an agreed scope, tested workflows and a practical handoff. Feedback from real use helps shape future releases without losing sight of the original business goals.+Explore Details",
+        "fit": "cover",
+        "h": 885,
+        "n": 21,
+        "parent": "",
+        "section": "ds-path",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 623
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "01 / FOCUSStart with the essential journey.Choose the tasks that make the first release useful. We map how people move through the application, what information they need and where a clear interface can reduce unnecessary steps.+Explore Details02 / CONTROLConnect the systems behind it.Plan APIs, data flows and staff access alongside the customer experience. Integration requirements and provider limits are reviewed before implementation so responsibilities stay clear.+Explore Details03 / DEVELOPBuild a product you can develop further.Launch with an agreed scope, tested workflows and a practical handoff. Feedback from real use helps shape future releases without losing sight of the original business goals.+Explore Details",
+        "fit": "cover",
+        "h": 885,
+        "n": 22,
+        "parent": "",
+        "section": "ds-path",
+        "shadow": "none",
+        "src": "/homepage/branding.webp",
+        "w": 623
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "01 / FOCUSStart with the essential journey.Choose the tasks that make the first release useful. We map how people move through the application, what information they need and where a clear interface can reduce unnecessary steps.+Explore Details02 / CONTROLConnect the systems behind it.Plan APIs, data flows and staff access alongside the customer experience. Integration requirements and provider limits are reviewed before implementation so responsibilities stay clear.+Explore Details03 / DEVELOPBuild a product you can develop further.Launch with an agreed scope, tested workflows and a practical handoff. Feedback from real use helps shape future releases without losing sight of the original business goals.+Explore Details",
+        "fit": "cover",
+        "h": 885,
+        "n": 23,
+        "parent": "",
+        "section": "ds-path",
+        "shadow": "none",
+        "src": "/homepage/support.webp",
+        "w": 623
+      }
+    ],
+    "tablet": [
+      {
+        "h": 143,
+        "n": 0,
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-grain-720.jpg",
+        "w": 234
+      },
+      {
+        "h": 67,
+        "n": 1,
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-grain-420.jpg",
+        "w": 66
+      },
+      {
+        "h": 78,
+        "n": 2,
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-pasta-420.jpg",
+        "w": 67
+      },
+      {
+        "h": 78,
+        "n": 3,
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-salad-420.jpg",
+        "w": 67
+      },
+      {
+        "h": 130,
+        "n": 4,
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-grain-720.jpg",
+        "w": 168
+      },
+      {
+        "h": 704,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 341
+      },
+      {
+        "h": 560,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 300
+      },
+      {
+        "h": 330,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 151
+      },
+      {
+        "h": 330,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 151
+      },
+      {
+        "h": 330,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 151
+      },
+      {
+        "h": 48,
+        "n": 10,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 75
+      },
+      {
+        "h": 48,
+        "n": 11,
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 75
+      },
+      {
+        "h": 285,
+        "n": 12,
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/project-1-en.svg",
+        "w": 168
+      },
+      {
+        "h": 285,
+        "n": 13,
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/photo-2-desktop.png",
+        "w": 168
+      },
+      {
+        "h": 285,
+        "n": 14,
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/project-3-en.svg",
+        "w": 168
+      },
+      {
+        "h": 285,
+        "n": 15,
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/photo-4-desktop.png",
+        "w": 168
+      },
+      {
+        "h": 285,
+        "n": 16,
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/project-5-en.svg",
+        "w": 168
+      },
+      {
+        "h": 285,
+        "n": 17,
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/photo-6-desktop.png",
+        "w": 168
+      },
+      {
+        "h": 390,
+        "n": 18,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 317
+      },
+      {
+        "h": 390,
+        "n": 19,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 317
+      },
+      {
+        "h": 390,
+        "n": 20,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 317
+      },
+      {
+        "h": 1008,
+        "n": 21,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 322
+      },
+      {
+        "h": 1008,
+        "n": 22,
+        "src": "/homepage/branding.webp",
+        "w": 322
+      },
+      {
+        "h": 1008,
+        "n": 23,
+        "src": "/homepage/support.webp",
+        "w": 322
+      }
+    ],
+    "mobile": [
+      {
+        "h": 118,
+        "n": 0,
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-grain-720.jpg",
+        "w": 116
+      },
+      {
+        "h": 46,
+        "n": 1,
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-grain-420.jpg",
+        "w": 45
+      },
+      {
+        "h": 46,
+        "n": 2,
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-pasta-420.jpg",
+        "w": 45
+      },
+      {
+        "h": 46,
+        "n": 3,
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-salad-420.jpg",
+        "w": 45
+      },
+      {
+        "h": 88,
+        "n": 4,
+        "src": "/api/site-assets/web-mobile-apps-review/assets/menu-grain-720.jpg",
+        "w": 116
+      },
+      {
+        "h": 455,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 362
+      },
+      {
+        "h": 560,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 350
+      },
+      {
+        "h": 260,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 151
+      },
+      {
+        "h": 260,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 151
+      },
+      {
+        "h": 260,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 151
+      },
+      {
+        "h": 48,
+        "n": 10,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 75
+      },
+      {
+        "h": 48,
+        "n": 11,
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 75
+      },
+      {
+        "h": 170,
+        "n": 12,
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/project-1-en.svg",
+        "w": 138
+      },
+      {
+        "h": 170,
+        "n": 13,
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/photo-2-desktop.png",
+        "w": 138
+      },
+      {
+        "h": 170,
+        "n": 14,
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/project-3-en.svg",
+        "w": 138
+      },
+      {
+        "h": 170,
+        "n": 15,
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/photo-4-desktop.png",
+        "w": 138
+      },
+      {
+        "h": 170,
+        "n": 16,
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/project-5-en.svg",
+        "w": 138
+      },
+      {
+        "h": 170,
+        "n": 17,
+        "src": "http://127.0.0.1:3014/site/generated/web-mobile-apps/photo-6-desktop.png",
+        "w": 138
+      },
+      {
+        "h": 280,
+        "n": 18,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 293
+      },
+      {
+        "h": 280,
+        "n": 19,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 293
+      },
+      {
+        "h": 280,
+        "n": 20,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 293
+      },
+      {
+        "h": 400,
+        "n": 21,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 341
+      },
+      {
+        "h": 400,
+        "n": 22,
+        "src": "/homepage/branding.webp",
+        "w": 341
+      },
+      {
+        "h": 400,
+        "n": 23,
+        "src": "/homepage/support.webp",
+        "w": 341
+      }
+    ]
+  },
+  "technical-support": {
+    "desktop": [
+      {
+        "alt": "",
+        "copy": "CODEYEATechnical Support yourwebsite.comUNAVAILABLE YOUR WEBSITEHOME ABOUT CONTACT▧IMAGE FAILED TO LOAD⚠ SERVER ERROR WEBSITE STATUS / INCIDENT 001 503. Website is not responding. Support is checking the issue. ERROR 503 / SERVICE UNAVAILABLE daily✳MENU OUR STORY CONTACTORDER ONLINE ↗ FRESH IDEAS, EVERY DAYGood morningsstart here.Handcrafted food and coffee, made with care.EXPLORE THE MENU ↗OPEN AGAIN ● LIVE MADE WITH CARE / 001 SUPPORT REQUEST / #1042↗ Website not loadingafter an update. DIAGNOSING● 02 / DIAGNOSIS0 / 4 01DNS records○ 02Hosting response○ 03Database connection○ 04WordPress update○ CHECKING THE ISSUE LIVE SUPPORT FLOWISSUE → CHECK → RECOVERY ↻ REPLAY",
+        "fit": "cover",
+        "h": 363,
+        "n": 0,
+        "parent": "support-photo",
+        "section": "about-hero ai-general-hero support-live-hero",
+        "shadow": "none",
+        "src": "/homepage/team.webp",
+        "w": 330
+      },
+      {
+        "alt": "",
+        "copy": "CODEYEATechnical Support yourwebsite.comUNAVAILABLE YOUR WEBSITEHOME ABOUT CONTACT▧IMAGE FAILED TO LOAD⚠ SERVER ERROR WEBSITE STATUS / INCIDENT 001 503. Website is not responding. Support is checking the issue. ERROR 503 / SERVICE UNAVAILABLE daily✳MENU OUR STORY CONTACTORDER ONLINE ↗ FRESH IDEAS, EVERY DAYGood morningsstart here.Handcrafted food and coffee, made with care.EXPLORE THE MENU ↗OPEN AGAIN ● LIVE MADE WITH CARE / 001 SUPPORT REQUEST / #1042↗ Website not loadingafter an update. DIAGNOSING● 02 / DIAGNOSIS0 / 4 01DNS records○ 02Hosting response○ 03Database connection○ 04WordPress update○ CHECKING THE ISSUE LIVE SUPPORT FLOWISSUE → CHECK → RECOVERY ↻ REPLAY",
+        "fit": "cover",
+        "h": 208,
+        "n": 1,
+        "parent": "recovered-photo",
+        "section": "about-hero ai-general-hero support-live-hero",
+        "shadow": "none",
+        "src": "/homepage/small-business.webp",
+        "w": 244
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "TECHNICAL SUPPORT.technical support.reliable websiteswebsites, servers, recoveryWebsite down, WordPress broken or your server under pressure? CODEYEA investigates the problem across your website, database, hosting and DNS, then works through a clear repair plan.From a failed update to a complex migration, get your website moving again with practical technical support.Discuss Your Project ↗Diagnose. Repair. Restore.",
+        "fit": "cover",
+        "h": 704,
+        "n": 2,
+        "parent": "ds-overview ds-wrap",
+        "section": "ds-overview",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 559
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "Your everyday business challengesTHE CHALLENGESWhen something breaks,know what comes next.A critical error, unexpected redirect or overloaded server can interrupt the whole customer journey. The visible symptom is only the starting point: fixing the underlying cause matters just as much.We review the impact, recent changes and available logs, then agree the next steps. Work is prioritised around restoring essential functionality and reducing repeat problems.•Website errorsInvestigate critical errors, broken pages, failed updates and plugin or theme conflicts.•Infrastructure issuesTrace server errors, DNS failures, SSL problems and unusual resource consumption.•Recovery needsAssess compromised websites, damaged databases and available backups before planning recovery.Let’s Fix Your Issue Now ↗",
+        "fit": "cover",
+        "h": 560,
+        "n": 3,
+        "parent": "",
+        "section": "ds-challenges",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 507
+      },
+      {
+        "alt": "Graphic designer creating a visual identity on a laptop",
+        "copy": "HOW WE WORKFrom the websiteto the server behind it.Technical problems often cross more than one layer. We connect website checks with hosting, database and DNS investigation so the repair addresses the issue in context.WordPress troubleshootingPlugin & theme conflictsWebsite error repairWeb server diagnosticsDNS & domain configurationSSL & HTTPS troubleshootingWebsite migrationDatabase repair & recoveryHacked website recoveryBackup restorationCPU, memory & disk I/O reviewCaching & performance checksTHE PROCESSA clear diagnosis.A practical repair.01/ AssessReview symptoms, business impact, recent changes and the access needed to investigate.02/ Protect & planCheck available backups and agree the repair scope, priorities and rollback approach.03/ Repair & verifyApply the agreed changes and test affected pages, forms and essential website functions.04/ Explain & hand overDocument the work, explain remaining issues and recommend relevant follow-up actions.",
+        "fit": "cover",
+        "h": 330,
+        "n": 4,
+        "parent": "ai-image-layer",
+        "section": "ds-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 253
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "HOW WE WORKFrom the websiteto the server behind it.Technical problems often cross more than one layer. We connect website checks with hosting, database and DNS investigation so the repair addresses the issue in context.WordPress troubleshootingPlugin & theme conflictsWebsite error repairWeb server diagnosticsDNS & domain configurationSSL & HTTPS troubleshootingWebsite migrationDatabase repair & recoveryHacked website recoveryBackup restorationCPU, memory & disk I/O reviewCaching & performance checksTHE PROCESSA clear diagnosis.A practical repair.01/ AssessReview symptoms, business impact, recent changes and the access needed to investigate.02/ Protect & planCheck available backups and agree the repair scope, priorities and rollback approach.03/ Repair & verifyApply the agreed changes and test affected pages, forms and essential website functions.04/ Explain & hand overDocument the work, explain remaining issues and recommend relevant follow-up actions.",
+        "fit": "cover",
+        "h": 330,
+        "n": 5,
+        "parent": "ai-image-layer",
+        "section": "ds-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 253
+      },
+      {
+        "alt": "Editorial magazine layout with oversized orange typography",
+        "copy": "HOW WE WORKFrom the websiteto the server behind it.Technical problems often cross more than one layer. We connect website checks with hosting, database and DNS investigation so the repair addresses the issue in context.WordPress troubleshootingPlugin & theme conflictsWebsite error repairWeb server diagnosticsDNS & domain configurationSSL & HTTPS troubleshootingWebsite migrationDatabase repair & recoveryHacked website recoveryBackup restorationCPU, memory & disk I/O reviewCaching & performance checksTHE PROCESSA clear diagnosis.A practical repair.01/ AssessReview symptoms, business impact, recent changes and the access needed to investigate.02/ Protect & planCheck available backups and agree the repair scope, priorities and rollback approach.03/ Repair & verifyApply the agreed changes and test affected pages, forms and essential website functions.04/ Explain & hand overDocument the work, explain remaining issues and recommend relevant follow-up actions.",
+        "fit": "cover",
+        "h": 330,
+        "n": 6,
+        "parent": "ai-image-layer",
+        "section": "ds-work",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 253
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "OUR APPROACHA working website depends on more than its pages. We bring together careful diagnosis, practical repairs and recovery planning to help your website, database and hosting work together again.Request Technical Support ↗",
+        "fit": "cover",
+        "h": 48,
+        "n": 7,
+        "parent": "",
+        "section": "ds-vision",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 75
+      },
+      {
+        "alt": "Graphic designer creating a visual identity on a laptop",
+        "copy": "OUR APPROACHA working website depends on more than its pages. We bring together careful diagnosis, practical repairs and recovery planning to help your website, database and hosting work together again.Request Technical Support ↗",
+        "fit": "cover",
+        "h": 48,
+        "n": 8,
+        "parent": "",
+        "section": "ds-vision",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 75
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "What the service can includeSCOPE BY AGREEMENTResolve problems inside your website.−4Website support areasInvestigate the behaviour that changed, isolate likely conflicts and review relevant logs. We repair agreed issues and test the functions affected by the change, including forms and important customer journeys.WordPress critical errorsPlugin and theme conflictsBroken pages and functionalityFailed updates and access issuesChoose Your Website Care Plan ↗Find the cause behind the slowdowns.+4Infrastructure checksReview whether the bottleneck is in the application, database, server or network configuration. We investigate resource-heavy processes, caching and service errors before recommending tuning or capacity changes.Web server and PHP errorsDNS records and domain routingSSL and HTTPS configurationCPU, memory and disk I/OGet Ongoing Performance Support ↗Move, repair and recover with a plan.+4Recovery and migration servicesAssess available backups and the condition of the website before choosing a recovery path. Migrations include destination checks and an agreed cutover; compromised-site work includes cleanup, access review and investigation of likely entry points.Website and database migrationDatabase repair or backup recoveryMalware cleanup and access reviewRestore testing and post-recovery checksBook Repair & Recovery Support ↗",
+        "fit": "cover",
+        "h": 390,
+        "n": 9,
+        "parent": "ds-expanded",
+        "section": "ds-inclusions",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 693
+      },
+      {
+        "alt": "Editorial magazine layout with oversized orange typography",
+        "copy": "What the service can includeSCOPE BY AGREEMENTResolve problems inside your website.−4Website support areasInvestigate the behaviour that changed, isolate likely conflicts and review relevant logs. We repair agreed issues and test the functions affected by the change, including forms and important customer journeys.WordPress critical errorsPlugin and theme conflictsBroken pages and functionalityFailed updates and access issuesChoose Your Website Care Plan ↗Find the cause behind the slowdowns.+4Infrastructure checksReview whether the bottleneck is in the application, database, server or network configuration. We investigate resource-heavy processes, caching and service errors before recommending tuning or capacity changes.Web server and PHP errorsDNS records and domain routingSSL and HTTPS configurationCPU, memory and disk I/OGet Ongoing Performance Support ↗Move, repair and recover with a plan.+4Recovery and migration servicesAssess available backups and the condition of the website before choosing a recovery path. Migrations include destination checks and an agreed cutover; compromised-site work includes cleanup, access review and investigation of likely entry points.Website and database migrationDatabase repair or backup recoveryMalware cleanup and access reviewRestore testing and post-recovery checksBook Repair & Recovery Support ↗",
+        "fit": "cover",
+        "h": 390,
+        "n": 10,
+        "parent": "ds-expanded",
+        "section": "ds-inclusions",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 693
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "What the service can includeSCOPE BY AGREEMENTResolve problems inside your website.−4Website support areasInvestigate the behaviour that changed, isolate likely conflicts and review relevant logs. We repair agreed issues and test the functions affected by the change, including forms and important customer journeys.WordPress critical errorsPlugin and theme conflictsBroken pages and functionalityFailed updates and access issuesChoose Your Website Care Plan ↗Find the cause behind the slowdowns.+4Infrastructure checksReview whether the bottleneck is in the application, database, server or network configuration. We investigate resource-heavy processes, caching and service errors before recommending tuning or capacity changes.Web server and PHP errorsDNS records and domain routingSSL and HTTPS configurationCPU, memory and disk I/OGet Ongoing Performance Support ↗Move, repair and recover with a plan.+4Recovery and migration servicesAssess available backups and the condition of the website before choosing a recovery path. Migrations include destination checks and an agreed cutover; compromised-site work includes cleanup, access review and investigation of likely entry points.Website and database migrationDatabase repair or backup recoveryMalware cleanup and access reviewRestore testing and post-recovery checksBook Repair & Recovery Support ↗",
+        "fit": "cover",
+        "h": 390,
+        "n": 11,
+        "parent": "ds-expanded",
+        "section": "ds-inclusions",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 693
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "01 / FOCUSBring the website back into focus.Share the affected URL, visible error and when the problem started. We use that context alongside logs and recent changes to distinguish application failures from hosting or DNS issues, then prioritise the functions your business needs most.+Explore Details02 / CONTROLMove your website with fewer surprises.Plan the destination, copy files and the database, review configuration and test before the DNS cutover. For active stores or frequently updated sites, agree how to handle new content during the move. Verify the site again after the switch.+Explore Details03 / DEVELOPRecover the site. Address the cause.For a compromised website, assess the incident, preserve useful evidence and check recovery options. Cleanup is followed by credential and access review, relevant updates and functional checks. Database recovery depends on the available backups and the extent of damage.+Explore Details",
+        "fit": "cover",
+        "h": 885,
+        "n": 12,
+        "parent": "",
+        "section": "ds-path",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 623
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "01 / FOCUSBring the website back into focus.Share the affected URL, visible error and when the problem started. We use that context alongside logs and recent changes to distinguish application failures from hosting or DNS issues, then prioritise the functions your business needs most.+Explore Details02 / CONTROLMove your website with fewer surprises.Plan the destination, copy files and the database, review configuration and test before the DNS cutover. For active stores or frequently updated sites, agree how to handle new content during the move. Verify the site again after the switch.+Explore Details03 / DEVELOPRecover the site. Address the cause.For a compromised website, assess the incident, preserve useful evidence and check recovery options. Cleanup is followed by credential and access review, relevant updates and functional checks. Database recovery depends on the available backups and the extent of damage.+Explore Details",
+        "fit": "cover",
+        "h": 885,
+        "n": 13,
+        "parent": "",
+        "section": "ds-path",
+        "shadow": "none",
+        "src": "/homepage/branding.webp",
+        "w": 623
+      },
+      {
+        "alt": "CODEYEA ,  AI and automation",
+        "copy": "01 / FOCUSBring the website back into focus.Share the affected URL, visible error and when the problem started. We use that context alongside logs and recent changes to distinguish application failures from hosting or DNS issues, then prioritise the functions your business needs most.+Explore Details02 / CONTROLMove your website with fewer surprises.Plan the destination, copy files and the database, review configuration and test before the DNS cutover. For active stores or frequently updated sites, agree how to handle new content during the move. Verify the site again after the switch.+Explore Details03 / DEVELOPRecover the site. Address the cause.For a compromised website, assess the incident, preserve useful evidence and check recovery options. Cleanup is followed by credential and access review, relevant updates and functional checks. Database recovery depends on the available backups and the extent of damage.+Explore Details",
+        "fit": "cover",
+        "h": 885,
+        "n": 14,
+        "parent": "",
+        "section": "ds-path",
+        "shadow": "none",
+        "src": "/homepage/support.webp",
+        "w": 623
+      }
+    ],
+    "tablet": [
+      {
+        "h": 363,
+        "n": 0,
+        "src": "/homepage/team.webp",
+        "w": 330
+      },
+      {
+        "h": 208,
+        "n": 1,
+        "src": "/homepage/small-business.webp",
+        "w": 244
+      },
+      {
+        "h": 704,
+        "n": 2,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 341
+      },
+      {
+        "h": 560,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 300
+      },
+      {
+        "h": 330,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 151
+      },
+      {
+        "h": 330,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 151
+      },
+      {
+        "h": 330,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 151
+      },
+      {
+        "h": 48,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 75
+      },
+      {
+        "h": 48,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 75
+      },
+      {
+        "h": 390,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 195
+      },
+      {
+        "h": 390,
+        "n": 10,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 167
+      },
+      {
+        "h": 390,
+        "n": 11,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 184
+      },
+      {
+        "h": 1008,
+        "n": 12,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 322
+      },
+      {
+        "h": 1008,
+        "n": 13,
+        "src": "/homepage/branding.webp",
+        "w": 322
+      },
+      {
+        "h": 1008,
+        "n": 14,
+        "src": "/homepage/support.webp",
+        "w": 322
+      }
+    ],
+    "mobile": [
+      {
+        "h": 131,
+        "n": 0,
+        "src": "/homepage/team.webp",
+        "w": 119
+      },
+      {
+        "h": 75,
+        "n": 1,
+        "src": "/homepage/small-business.webp",
+        "w": 88
+      },
+      {
+        "h": 455,
+        "n": 2,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 362
+      },
+      {
+        "h": 560,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 350
+      },
+      {
+        "h": 260,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 151
+      },
+      {
+        "h": 260,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 151
+      },
+      {
+        "h": 260,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 151
+      },
+      {
+        "h": 48,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 75
+      },
+      {
+        "h": 48,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/homepage/branding.webp",
+        "w": 75
+      },
+      {
+        "h": 280,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 312
+      },
+      {
+        "h": 280,
+        "n": 10,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 340
+      },
+      {
+        "h": 280,
+        "n": 11,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 323
+      },
+      {
+        "h": 400,
+        "n": 12,
+        "src": "http://127.0.0.1:3014/homepage/about.webp",
+        "w": 341
+      },
+      {
+        "h": 400,
+        "n": 13,
+        "src": "/homepage/branding.webp",
+        "w": 341
+      },
+      {
+        "h": 400,
+        "n": 14,
+        "src": "/homepage/support.webp",
+        "w": 341
+      }
+    ]
+  },
+  "website-hosting": {
+    "desktop": [
+      {
+        "alt": "",
+        "copy": "CODEYEAWebsite Hosting 01 / WEBSITE HOSTING BUILT FOR WHAT'S NEXT CODEYEA✳HOSTING / 001 THE FOUNDATION NVMe SSDStorage01 cPanelControl02 SSL / TLSProtection03 Storage ready● ONLINE https://homestead.example↗ HOMESTEAD✳HOMES OUR STORY JOURNALGET IN TOUCH ↗ SPACES MADE FOR LIVING / 001Find a placeto call yours.Thoughtfully chosen homes for what comes next.EXPLORE HOMES ↗ WELCOME HOME / 2026 01 / 03CURATED PLACES. REAL POSSIBILITIES. WEBSITE STATUS LIVE & READYNVMe SSD storage connected. A STRONGER HOME FOR YOUR WEBSITE ↗",
+        "fit": "cover",
+        "h": 184,
+        "n": 0,
+        "parent": "site-image",
+        "section": "about-hero hosting-live-hero",
+        "shadow": "none",
+        "src": "/homepage/real-estate.webp",
+        "w": 324
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "CODEYEA / WEBSITE HOSTINGA stronger homefor your website.Bring your website, applications and everyday management together. NVMe SSD storage, cPanel and SitePad give your next idea a place to grow.Find Your Plan ↗yourwebsite.example↗YOUR NEXT CHAPTERMake roomfor your ideas.NVMe SSD hosting",
+        "fit": "cover",
+        "h": 405,
+        "n": 1,
+        "parent": "v-stage intro-stage",
+        "section": "v-intro v-wrap",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 362
+      },
+      {
+        "alt": "Digital team working together in an office",
+        "copy": "SERVER PERFORMANCEA stronger foundation for every visit.Storage, caching and application tools that support the way your website works.NVMe SSD storageKeep website files and databases on NVMe SSD storage, with allocations matched to your chosen plan.Caching toolsRedis and Memcached provide caching options for compatible applications and website configurations.PHP configurationSelect a PHP version suited to your website and review compatibility as your application evolves.WordPress toolsUse WordPress Manager by Softaculous to bring everyday WordPress administration into your hosting workspace.YOUR WEBSITESERVER PERFORMANCEConcept illustration · not measured results",
+        "fit": "cover",
+        "h": 533,
+        "n": 2,
+        "parent": "v-server-visual",
+        "section": "v-server-section",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 1254
+      },
+      {
+        "alt": "Editorial magazine layout with oversized orange typography",
+        "copy": "PERFORMANCEA faster foundation.A better starting point.NVMe SSD storage supports your files and databases. Redis and Memcached offer caching options for compatible applications, alongside PHP version controls.NVMe SSD storage across the plansRedis and Memcached toolsPHP version selectionChoose capacity around your content, databases and expected workload. The comparison table keeps website limits and storage allocations visible, so your hosting decision starts with the requirements of your project.Storage matched to your planCaching for compatible applicationsReview Hosting Plans↗NVMeYOUR HOSTING FOUNDATIONWebsite → Cache → Storage",
+        "fit": "cover",
+        "h": 408,
+        "n": 3,
+        "parent": "v-stage performance-stage",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 417
+      },
+      {
+        "alt": "Digital team working together in an office",
+        "copy": "ACCOUNT ACCESSTwo-factor authentication● ● ● ● ● ● ✓SECURITY & CONTROLProtection tools.Control in your hands.Manage access and security settings from your hosting panel. The supplied toolset includes Monarx Security, Imunify360 and ModSecurity.SSL/TLS certificate managementTwo-factor authentication and IP controlsTwice-daily backups includedAccount protection and website maintenance work together. Review who has access, keep application software current and use the available panel controls as part of your everyday website management.Monarx Security & Imunify360ModSecurity & access controlsExplore Security Tools↗",
+        "fit": "cover",
+        "h": 346,
+        "n": 4,
+        "parent": "v-stage security-stage",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 403
+      },
+      {
+        "alt": "Office interior",
+        "copy": "CPANEL / WEBSITE MANAGEMENTLess time managing.More room to create.Bring routine hosting tasks into one clear workspace. Organize files, databases and applications with the tools available in cPanel.Manage FTP accounts and MySQL databasesWordPress Manager by SoftaculousApplication and PHP configurationCreate the accounts your project needs and keep common administration tasks within reach. From databases and FTP access to application settings, the available tools help you organize the technical side of your website.Files, accounts & databasesWordPress & application controlsCompare Plan Limits↗cPanel WORKSPACE CONCEPTFilesDatabasesDomainsSoftwareSecurityBackups",
+        "fit": "cover",
+        "h": 384,
+        "n": 5,
+        "parent": "v-stage manage-stage",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/office.webp",
+        "w": 379
+      },
+      {
+        "alt": "Person holding a smartphone",
+        "copy": "SitePadYOUR WEBSITEYOUR BUSINESSIdeas deservetheir own space.Discover more ↗＋T▧≡SITEPAD WEBSITE BUILDERBring your websiteinto focus.SitePad Website Builder is included. Arrange your content and build a starting point for your business, or choose a supported application through Softaculous.SitePad included with your hostingSoftaculous Apps InstallerCustom design available as a separate serviceGive your business information a clear structure: introduce your services, organize your pages and guide visitors toward the next step. If your project needs a custom design or functionality, we can define that work separately.A starting point for your contentRoom for a tailored websiteDiscuss Your Website↗",
+        "fit": "cover",
+        "h": 160,
+        "n": 6,
+        "parent": "v-builder-photo",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/project-brand.webp",
+        "w": 450
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "Moving your websiteMigration support from CODEYEAYour next homestarts here.Migration illustrationFREE WEBSITE MIGRATIONWe’ll move yourwebsite for free.Bring your existing website to CODEYEA hosting. Our free website migration service helps you make the move, with the transfer scope and required access agreed before we begin.We review your current setup, coordinate the transfer and check the website with you. Timing and any service interruption depend on the platform and connected services.Migrate My Website Free ↗Tell us where your website is hosted and which plan you’re considering. We’ll explain what is needed for the move.",
+        "fit": "cover",
+        "h": 525,
+        "n": 7,
+        "parent": "v-migration-art",
+        "section": "v-wrap v-migration",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 533
+      },
+      {
+        "alt": "Developer diagnosing website issues",
+        "copy": "TECHNICAL SUPPORTHosting is the foundation. Support keeps it working.From website errors and database issues to a careful move between hosts, get practical help with the systems your website depends on.Explore Technical Support ↗",
+        "fit": "cover",
+        "h": 419,
+        "n": 8,
+        "parent": "",
+        "section": "hosting-technical-support",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 558
+      },
+      {
+        "alt": "Team working together",
+        "copy": "LET’S BUILD WHAT’S NEXTBuild on a stronger hosting foundation.Tell us about your website and the resources it needs. We will help compare the plans and confirm the details before you order.Start Your Project↗",
+        "fit": "cover",
+        "h": 440,
+        "n": 9,
+        "parent": "rp-cta",
+        "section": "services-cta",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/approved-media/image-04.webp",
+        "w": 1405
+      }
+    ],
+    "tablet": [
+      {
+        "h": 184,
+        "n": 0,
+        "src": "/homepage/real-estate.webp",
+        "w": 324
+      },
+      {
+        "h": 333,
+        "n": 1,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 484
+      },
+      {
+        "h": 376,
+        "n": 2,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 790
+      },
+      {
+        "h": 255,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 612
+      },
+      {
+        "h": 216,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 592
+      },
+      {
+        "h": 240,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/office.webp",
+        "w": 557
+      },
+      {
+        "h": 100,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/project-brand.webp",
+        "w": 661
+      },
+      {
+        "h": 377,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 711
+      },
+      {
+        "h": 264,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 352
+      },
+      {
+        "h": 440,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/approved-media/image-04.webp",
+        "w": 803
+      }
+    ],
+    "mobile": [
+      {
+        "h": 66,
+        "n": 0,
+        "src": "/homepage/real-estate.webp",
+        "w": 117
+      },
+      {
+        "h": 333,
+        "n": 1,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 224
+      },
+      {
+        "h": 376,
+        "n": 2,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 366
+      },
+      {
+        "h": 255,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 255
+      },
+      {
+        "h": 216,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 247
+      },
+      {
+        "h": 240,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/office.webp",
+        "w": 232
+      },
+      {
+        "h": 100,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/project-brand.webp",
+        "w": 276
+      },
+      {
+        "h": 377,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 329
+      },
+      {
+        "h": 263,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 350
+      },
+      {
+        "h": 509,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/approved-media/image-04.webp",
+        "w": 373
+      }
+    ]
+  },
+  "wordpress-hosting": {
+    "desktop": [
+      {
+        "alt": "",
+        "copy": "CODEYEAWordPress Hosting 01 / WORDPRESS HOSTING YOUR SITE, IN YOUR HANDS ↗ WPages › Home● SAVEDUPDATE ↗ W▣▤◫⚙EDIT PAGE / HOMECare that feelscloser to home.TThoughtful care for every chapter of life.FEATURED IMAGE WORDPRESS MANAGERCODEYEA HOSTING / 001 EDITORLIVE SITE thepractice.example↗ the practice✳ABOUT SERVICES CONTACTCARE, MADE PERSONAL / 001Care forevery day.Care that feelscloser to home.Thoughtful care for every chapter of life.EXPLORE OUR CARE ↗HERE FOR YOU / 2026 ✓WORDPRESS / HOMEReady to publish MANAGE. UPDATE. PUBLISH. ALL IN ONE PLACE.",
+        "fit": "cover",
+        "h": 137,
+        "n": 0,
+        "parent": "wp-edit-media",
+        "section": "about-hero wp-live-hero",
+        "shadow": "none",
+        "src": "/homepage/healthcare.webp",
+        "w": 150
+      },
+      {
+        "alt": "",
+        "copy": "CODEYEAWordPress Hosting 01 / WORDPRESS HOSTING YOUR SITE, IN YOUR HANDS ↗ WPages › Home● SAVEDUPDATE ↗ W▣▤◫⚙EDIT PAGE / HOMECare that feelscloser to home.TThoughtful care for every chapter of life.FEATURED IMAGE WORDPRESS MANAGERCODEYEA HOSTING / 001 EDITORLIVE SITE thepractice.example↗ the practice✳ABOUT SERVICES CONTACTCARE, MADE PERSONAL / 001Care forevery day.Care that feelscloser to home.Thoughtful care for every chapter of life.EXPLORE OUR CARE ↗HERE FOR YOU / 2026 ✓WORDPRESS / HOMEReady to publish MANAGE. UPDATE. PUBLISH. ALL IN ONE PLACE.",
+        "fit": "cover",
+        "h": 196,
+        "n": 1,
+        "parent": "wp-site-image",
+        "section": "about-hero wp-live-hero",
+        "shadow": "none",
+        "src": "/homepage/healthcare.webp",
+        "w": 222
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "CODEYEA / WORDPRESS HOSTINGA stronger homefor your website.Bring your website, applications and everyday management together. WordPress tools, NVMe SSD storage, cPanel and SitePad give your next idea a place to grow.Find Your Plan ↗yourwebsite.example↗YOUR NEXT CHAPTERMake roomfor your ideas.NVMe SSD hosting",
+        "fit": "cover",
+        "h": 405,
+        "n": 2,
+        "parent": "v-stage intro-stage",
+        "section": "v-intro v-wrap",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 362
+      },
+      {
+        "alt": "Digital team working together in an office",
+        "copy": "SERVER PERFORMANCEA stronger foundation for every visit.Storage, caching and application tools that support the way your website works.NVMe SSD storageKeep website files and databases on NVMe SSD storage, with allocations matched to your chosen plan.Caching toolsRedis and Memcached provide caching options for compatible applications and website configurations.PHP configurationSelect a PHP version suited to your website and review compatibility as your application evolves.WordPress toolsUse WordPress Manager by Softaculous to bring everyday WordPress administration into your hosting workspace.YOUR WEBSITESERVER PERFORMANCEConcept illustration · not measured results",
+        "fit": "cover",
+        "h": 533,
+        "n": 3,
+        "parent": "v-server-visual",
+        "section": "v-server-section",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 1254
+      },
+      {
+        "alt": "Editorial magazine layout with oversized orange typography",
+        "copy": "PERFORMANCEA faster foundation.A better starting point.NVMe SSD storage supports your files and databases. Redis and Memcached offer caching options for compatible applications, alongside PHP version controls.NVMe SSD storage across the plansRedis and Memcached toolsPHP version selectionChoose capacity around your content, databases and expected workload. The comparison table keeps website limits and storage allocations visible, so your hosting decision starts with the requirements of your project.Storage matched to your planCaching for compatible applicationsReview Hosting Plans↗NVMeYOUR HOSTING FOUNDATIONWebsite → Cache → Storage",
+        "fit": "cover",
+        "h": 408,
+        "n": 4,
+        "parent": "v-stage performance-stage",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 417
+      },
+      {
+        "alt": "Digital team working together in an office",
+        "copy": "ACCOUNT ACCESSTwo-factor authentication● ● ● ● ● ● ✓SECURITY & CONTROLProtection tools.Control in your hands.Manage access and security settings from your hosting panel. The supplied toolset includes Monarx Security, Imunify360 and ModSecurity.SSL/TLS certificate managementTwo-factor authentication and IP controlsTwice-daily backups includedAccount protection and website maintenance work together. Review who has access, keep application software current and use the available panel controls as part of your everyday website management.Monarx Security & Imunify360ModSecurity & access controlsExplore Security Tools↗",
+        "fit": "cover",
+        "h": 346,
+        "n": 5,
+        "parent": "v-stage security-stage",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 403
+      },
+      {
+        "alt": "Office interior",
+        "copy": "CPANEL / WEBSITE MANAGEMENTLess time managing.More room to create.Bring routine hosting tasks into one clear workspace. Organize files, databases and applications with the tools available in cPanel.Manage FTP accounts and MySQL databasesWordPress Manager by SoftaculousApplication and PHP configurationCreate the accounts your project needs and keep common administration tasks within reach. From databases and FTP access to application settings, the available tools help you organize the technical side of your website.Files, accounts & databasesWordPress & application controlsCompare Plan Limits↗cPanel WORKSPACE CONCEPTFilesDatabasesDomainsSoftwareSecurityBackups",
+        "fit": "cover",
+        "h": 384,
+        "n": 6,
+        "parent": "v-stage manage-stage",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/office.webp",
+        "w": 379
+      },
+      {
+        "alt": "Person holding a smartphone",
+        "copy": "SitePadYOUR WEBSITEYOUR BUSINESSIdeas deservetheir own space.Discover more ↗＋T▧≡SITEPAD WEBSITE BUILDERBring your websiteinto focus.SitePad Website Builder is included. Arrange your content and build a starting point for your business, or choose a supported application through Softaculous.SitePad included with your hostingSoftaculous Apps InstallerCustom design available as a separate serviceGive your business information a clear structure: introduce your services, organize your pages and guide visitors toward the next step. If your project needs a custom design or functionality, we can define that work separately.A starting point for your contentRoom for a tailored websiteDiscuss Your Website↗",
+        "fit": "cover",
+        "h": 160,
+        "n": 7,
+        "parent": "v-builder-photo",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/project-brand.webp",
+        "w": 450
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "Moving your websiteMigration support from CODEYEAYour next homestarts here.Migration illustrationFREE WEBSITE MIGRATIONWe’ll move yourwebsite for free.Bring your existing website to CODEYEA hosting. Our free website migration service helps you make the move, with the transfer scope and required access agreed before we begin.We review your current setup, coordinate the transfer and check the website with you. Timing and any service interruption depend on the platform and connected services.Migrate My Website Free ↗Tell us where your website is hosted and which plan you’re considering. We’ll explain what is needed for the move.",
+        "fit": "cover",
+        "h": 525,
+        "n": 8,
+        "parent": "v-migration-art",
+        "section": "v-wrap v-migration",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 533
+      },
+      {
+        "alt": "Developer diagnosing website issues",
+        "copy": "TECHNICAL SUPPORTYour WordPress site deserves expert care.Plugin conflicts, broken updates or an unexpected outage? Get help diagnosing the cause, restoring your site and planning the next safe step.Explore Technical Support ↗",
+        "fit": "cover",
+        "h": 419,
+        "n": 9,
+        "parent": "",
+        "section": "hosting-technical-support",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 558
+      },
+      {
+        "alt": "Team working together",
+        "copy": "LET’S BUILD WHAT’S NEXTBuild on a stronger hosting foundation.Tell us about your website and the resources it needs. We will help compare the plans and confirm the details before you order.Start Your Project↗",
+        "fit": "cover",
+        "h": 440,
+        "n": 10,
+        "parent": "rp-cta",
+        "section": "services-cta",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/approved-media/image-04.webp",
+        "w": 1405
+      }
+    ],
+    "tablet": [
+      {
+        "h": 137,
+        "n": 0,
+        "src": "/homepage/healthcare.webp",
+        "w": 150
+      },
+      {
+        "h": 196,
+        "n": 1,
+        "src": "/homepage/healthcare.webp",
+        "w": 222
+      },
+      {
+        "h": 333,
+        "n": 2,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 484
+      },
+      {
+        "h": 376,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 790
+      },
+      {
+        "h": 255,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 612
+      },
+      {
+        "h": 216,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 592
+      },
+      {
+        "h": 240,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/office.webp",
+        "w": 557
+      },
+      {
+        "h": 100,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/homepage/project-brand.webp",
+        "w": 661
+      },
+      {
+        "h": 377,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 711
+      },
+      {
+        "h": 264,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 352
+      },
+      {
+        "h": 440,
+        "n": 10,
+        "src": "http://127.0.0.1:3014/approved-media/image-04.webp",
+        "w": 803
+      }
+    ],
+    "mobile": [
+      {
+        "h": 49,
+        "n": 0,
+        "src": "/homepage/healthcare.webp",
+        "w": 54
+      },
+      {
+        "h": 71,
+        "n": 1,
+        "src": "/homepage/healthcare.webp",
+        "w": 80
+      },
+      {
+        "h": 333,
+        "n": 2,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 224
+      },
+      {
+        "h": 376,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 366
+      },
+      {
+        "h": 255,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 255
+      },
+      {
+        "h": 216,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 247
+      },
+      {
+        "h": 240,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/office.webp",
+        "w": 232
+      },
+      {
+        "h": 100,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/homepage/project-brand.webp",
+        "w": 276
+      },
+      {
+        "h": 377,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 329
+      },
+      {
+        "h": 263,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 350
+      },
+      {
+        "h": 509,
+        "n": 10,
+        "src": "http://127.0.0.1:3014/approved-media/image-04.webp",
+        "w": 373
+      }
+    ]
+  },
+  "cloud-hosting": {
+    "desktop": [
+      {
+        "alt": "",
+        "copy": "CODEYEACloud Hosting 01 / CLOUD HOSTING THREE SITES / ONE FOUNDATION CLOUD✳ EDGERESOURCE CONSOLE CURRENT PLANTurboSky CPU CORES4 DEDICATED RAM6 GB EDGE STORAGE150 GB LITETURBOTRADE RIDGE / SITE 01↗Built to last. CARE / SITE 03↗Here for you. daybreak.example↗daybreak✳MENU STORY VISITORDER ↗GOOD THINGS, FRESH DAILY / 001A little brighter.A lot more flavour.Made fresh for the moments that matter.EXPLORE THE MENU ↗OPEN TODAY / 08:00, 18:00SITE 02 READY TO GROW GIVE YOUR NEXT STAGE ROOM TO GROW ↗",
+        "fit": "cover",
+        "h": 150,
+        "n": 0,
+        "parent": "mini-image",
+        "section": "about-hero cloud-live-hero",
+        "shadow": "none",
+        "src": "/homepage/roofing.webp",
+        "w": 201
+      },
+      {
+        "alt": "",
+        "copy": "CODEYEACloud Hosting 01 / CLOUD HOSTING THREE SITES / ONE FOUNDATION CLOUD✳ EDGERESOURCE CONSOLE CURRENT PLANTurboSky CPU CORES4 DEDICATED RAM6 GB EDGE STORAGE150 GB LITETURBOTRADE RIDGE / SITE 01↗Built to last. CARE / SITE 03↗Here for you. daybreak.example↗daybreak✳MENU STORY VISITORDER ↗GOOD THINGS, FRESH DAILY / 001A little brighter.A lot more flavour.Made fresh for the moments that matter.EXPLORE THE MENU ↗OPEN TODAY / 08:00, 18:00SITE 02 READY TO GROW GIVE YOUR NEXT STAGE ROOM TO GROW ↗",
+        "fit": "cover",
+        "h": 150,
+        "n": 1,
+        "parent": "mini-image",
+        "section": "about-hero cloud-live-hero",
+        "shadow": "none",
+        "src": "/homepage/healthcare.webp",
+        "w": 202
+      },
+      {
+        "alt": "",
+        "copy": "CODEYEACloud Hosting 01 / CLOUD HOSTING THREE SITES / ONE FOUNDATION CLOUD✳ EDGERESOURCE CONSOLE CURRENT PLANTurboSky CPU CORES4 DEDICATED RAM6 GB EDGE STORAGE150 GB LITETURBOTRADE RIDGE / SITE 01↗Built to last. CARE / SITE 03↗Here for you. daybreak.example↗daybreak✳MENU STORY VISITORDER ↗GOOD THINGS, FRESH DAILY / 001A little brighter.A lot more flavour.Made fresh for the moments that matter.EXPLORE THE MENU ↗OPEN TODAY / 08:00, 18:00SITE 02 READY TO GROW GIVE YOUR NEXT STAGE ROOM TO GROW ↗",
+        "fit": "cover",
+        "h": 192,
+        "n": 2,
+        "parent": "main-photo",
+        "section": "about-hero cloud-live-hero",
+        "shadow": "none",
+        "src": "/homepage/small-business.webp",
+        "w": 241
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "CODEYEA / CLOUD HOSTINGGive your next stageroom to grow.Dedicated RAM, CPU cores and Cloud Edge Storage. Choose the resources for your website portfolio, with practical tools to manage what comes next.Find Your Plan ↗yourwebsite.example↗YOUR NEXT CHAPTERMake roomfor your ideas.Cloud Edge Storage",
+        "fit": "cover",
+        "h": 405,
+        "n": 3,
+        "parent": "v-stage intro-stage",
+        "section": "v-intro v-wrap",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 362
+      },
+      {
+        "alt": "Digital team working together in an office",
+        "copy": "SERVER PERFORMANCEA stronger foundation for every visit.Storage, caching and application tools that support the way your website works.Cloud Edge StorageChoose 50 GB, 150 GB or 300 GB of storage to match the websites and content you manage.Dedicated resourcesCompare dedicated RAM and CPU cores across three clearly defined cloud plans.Caching toolsRedis and Memcached provide caching options for compatible applications.Application controlsManage PHP versions and use the available WordPress and application setup tools.YOUR WEBSITESERVER PERFORMANCEConcept illustration · not measured results",
+        "fit": "cover",
+        "h": 533,
+        "n": 4,
+        "parent": "v-server-visual",
+        "section": "v-server-section",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 1254
+      },
+      {
+        "alt": "Editorial magazine layout with oversized orange typography",
+        "copy": "PERFORMANCEResources that matchyour ambitions.Compare dedicated RAM, CPU cores and storage across the three cloud plans. Build around your actual application requirements.3–12 GB dedicated RAM2–6 dedicated CPU cores50–300 GB Cloud Edge StorageChoose capacity around your content, databases and expected workload. The comparison table keeps website limits and storage allocations visible, so your hosting decision starts with the requirements of your project.Storage matched to your planCaching for compatible applicationsReview Hosting Plans↗CLOUDYOUR HOSTING FOUNDATIONWebsite → Cache → Storage",
+        "fit": "cover",
+        "h": 408,
+        "n": 5,
+        "parent": "v-stage performance-stage",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 417
+      },
+      {
+        "alt": "Digital team working together in an office",
+        "copy": "ACCOUNT ACCESSTwo-factor authentication● ● ● ● ● ● ✓SECURITY & CONTROLProtection tools.Control in your hands.Manage access and security settings from your hosting panel. The supplied toolset includes Monarx Security, Imunify360 and ModSecurity.SSL/TLS certificate managementTwo-factor authentication and IP controlsTwice-daily backups includedAccount protection and website maintenance work together. Review who has access, keep application software current and use the available panel controls as part of your everyday website management.Monarx Security & Imunify360ModSecurity & access controlsExplore Security Tools↗",
+        "fit": "cover",
+        "h": 346,
+        "n": 6,
+        "parent": "v-stage security-stage",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 403
+      },
+      {
+        "alt": "Office interior",
+        "copy": "CPANEL / WEBSITE MANAGEMENTLess time managing.More room to create.Bring routine hosting tasks into one clear workspace. Organize files, databases and applications with the tools available in cPanel.Manage FTP accounts and MySQL databasesWordPress Manager by SoftaculousApplication and PHP configurationCreate the accounts your project needs and keep common administration tasks within reach. From databases and FTP access to application settings, the available tools help you organize the technical side of your website.Files, accounts & databasesWordPress & application controlsCompare Plan Limits↗cPanel WORKSPACE CONCEPTFilesDatabasesDomainsSoftwareSecurityBackups",
+        "fit": "cover",
+        "h": 384,
+        "n": 7,
+        "parent": "v-stage manage-stage",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/office.webp",
+        "w": 379
+      },
+      {
+        "alt": "Person holding a smartphone",
+        "copy": "SitePadYOUR WEBSITEYOUR BUSINESSIdeas deservetheir own space.Discover more ↗＋T▧≡SITEPAD WEBSITE BUILDERBring your websiteinto focus.SitePad Website Builder is included. Arrange your content and build a starting point for your business, or choose a supported application through Softaculous.SitePad included with your hostingSoftaculous Apps InstallerCustom design available as a separate serviceGive your business information a clear structure: introduce your services, organize your pages and guide visitors toward the next step. If your project needs a custom design or functionality, we can define that work separately.A starting point for your contentRoom for a tailored websiteDiscuss Your Website↗",
+        "fit": "cover",
+        "h": 160,
+        "n": 8,
+        "parent": "v-builder-photo",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/project-brand.webp",
+        "w": 450
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "Moving your websiteMigration support from CODEYEAYour next homestarts here.Migration illustrationFREE WEBSITE MIGRATIONWe’ll move yourwebsite for free.Bring your existing website to CODEYEA hosting. Our free website migration service helps you make the move, with the transfer scope and required access agreed before we begin.We review your current setup, coordinate the transfer and check the website with you. Timing and any service interruption depend on the platform and connected services.Migrate My Website Free ↗Tell us where your website is hosted and which plan you’re considering. We’ll explain what is needed for the move.",
+        "fit": "cover",
+        "h": 525,
+        "n": 9,
+        "parent": "v-migration-art",
+        "section": "v-wrap v-migration",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 533
+      },
+      {
+        "alt": "Developer diagnosing website issues",
+        "copy": "TECHNICAL SUPPORTMore resources. Support for the next step.Get help with application issues, website migrations and the technical changes that come with growing onto cloud hosting.Explore Technical Support ↗",
+        "fit": "cover",
+        "h": 419,
+        "n": 10,
+        "parent": "",
+        "section": "hosting-technical-support",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 558
+      },
+      {
+        "alt": "Team working together",
+        "copy": "LET’S BUILD WHAT’S NEXTBuild on a stronger hosting foundation.Tell us about your website and the resources it needs. We will help compare the plans and confirm the details before you order.Start Your Project↗",
+        "fit": "cover",
+        "h": 440,
+        "n": 11,
+        "parent": "rp-cta",
+        "section": "services-cta",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/approved-media/image-04.webp",
+        "w": 1405
+      }
+    ],
+    "tablet": [
+      {
+        "h": 150,
+        "n": 0,
+        "src": "/homepage/roofing.webp",
+        "w": 201
+      },
+      {
+        "h": 150,
+        "n": 1,
+        "src": "/homepage/healthcare.webp",
+        "w": 202
+      },
+      {
+        "h": 192,
+        "n": 2,
+        "src": "/homepage/small-business.webp",
+        "w": 241
+      },
+      {
+        "h": 333,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 484
+      },
+      {
+        "h": 376,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 790
+      },
+      {
+        "h": 255,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 612
+      },
+      {
+        "h": 216,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 592
+      },
+      {
+        "h": 240,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/homepage/office.webp",
+        "w": 557
+      },
+      {
+        "h": 100,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/homepage/project-brand.webp",
+        "w": 661
+      },
+      {
+        "h": 377,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 711
+      },
+      {
+        "h": 264,
+        "n": 10,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 352
+      },
+      {
+        "h": 440,
+        "n": 11,
+        "src": "http://127.0.0.1:3014/approved-media/image-04.webp",
+        "w": 803
+      }
+    ],
+    "mobile": [
+      {
+        "h": 54,
+        "n": 0,
+        "src": "/homepage/roofing.webp",
+        "w": 72
+      },
+      {
+        "h": 54,
+        "n": 1,
+        "src": "/homepage/healthcare.webp",
+        "w": 73
+      },
+      {
+        "h": 69,
+        "n": 2,
+        "src": "/homepage/small-business.webp",
+        "w": 87
+      },
+      {
+        "h": 333,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 224
+      },
+      {
+        "h": 376,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 366
+      },
+      {
+        "h": 255,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/project-web.webp",
+        "w": 255
+      },
+      {
+        "h": 216,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 247
+      },
+      {
+        "h": 240,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/homepage/office.webp",
+        "w": 232
+      },
+      {
+        "h": 100,
+        "n": 8,
+        "src": "http://127.0.0.1:3014/homepage/project-brand.webp",
+        "w": 276
+      },
+      {
+        "h": 377,
+        "n": 9,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 329
+      },
+      {
+        "h": 263,
+        "n": 10,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 350
+      },
+      {
+        "h": 509,
+        "n": 11,
+        "src": "http://127.0.0.1:3014/approved-media/image-04.webp",
+        "w": 373
+      }
+    ]
+  },
+  "email-hosting": {
+    "desktop": [
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "CODEYEA / BUSINESS EMAILYour business name.Every conversation.Give your team professional email addresses on your own domain. Choose the accounts, domains and storage you need, with browser access and support for familiar email applications.Explore Email Plans ↗hello@yourbrand.example ✉BUSINESS EMAILGood conversationsstart here.Your domain. Your team. Your next opportunity.✉ Email built around your business",
+        "fit": "cover",
+        "h": 405,
+        "n": 0,
+        "parent": "v-stage intro-stage",
+        "section": "v-wrap v-intro",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 362
+      },
+      {
+        "alt": "Digital team working together in an office",
+        "copy": "YOUR DOMAINMake every emailrecognizably yours.Use a business address that carries your domain into conversations with customers, colleagues and partners.10, 50 or 100 email accounts1, 5 or 10 email domains50, 100 or 150 GB total storagePlan addresses for your people and business functions. The three packages give you clear limits to compare as your team develops.Find Your Email Plan ↗YOUR BUSINESS IDENTITYhello@yourbrand.examplesales@ · support@ · yourname@",
+        "fit": "cover",
+        "h": 408,
+        "n": 1,
+        "parent": "v-stage performance-stage",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 417
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "✉INBOX MANAGEMENTKeep the conversation in focus.Advanced spam filteringSPAM FILTERINGLess unwanted mail.More focus on your work.Advanced spam filtering is included across all three plans, alongside the standard security level specified for these packages.Advanced spam filteringStandard securityStandard inbox deliverabilityFiltering is one part of responsible email use. Account access, sender practices and message content also matter; no plan guarantees that every message reaches an inbox.Discuss Your Email Setup ↗",
+        "fit": "cover",
+        "h": 346,
+        "n": 2,
+        "parent": "v-stage security-stage",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 403
+      },
+      {
+        "alt": "Office interior",
+        "copy": "WEBMAIL & EMAIL APPLICATIONSYour messages.Your preferred way to work.Open your mailbox in a browser or configure an email application using the supported mail protocols.Web-based email accessPOP3, IMAP and SMTPDesktop and mobile email applicationsChoose how your team accesses email and confirm the connection settings for each application. Local synchronization and offline access depend on the email client you use.Plan Your Team’s Email ↗Inbox INTERFACE CONCEPTProject update TodayLet’s arrange a meetingYour next opportunity",
+        "fit": "cover",
+        "h": 384,
+        "n": 3,
+        "parent": "v-stage manage-stage",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/office.webp",
+        "w": 379
+      },
+      {
+        "alt": "Digital team working together in an office",
+        "copy": "BUILT FOR YOUR TEAMYour people. Your business email.Professional addresses on your own domain.STORAGE & BACKUPSKeep room forthe conversations ahead.Choose a total email storage allocation suited to your messages, attachments and number of accounts. Daily offsite backups are included.Daily offsite backupsNo separate mailbox size limitNo inode limitThe package storage limit still applies across your mailboxes. Backup retention and recovery procedures should be confirmed when your service is set up.Compare Your Requirements ↗",
+        "fit": "cover",
+        "h": 374,
+        "n": 4,
+        "parent": "v-stage builder-stage",
+        "section": "v-wrap v-showcases",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 351
+      },
+      {
+        "alt": "Developer writing code at a computer",
+        "copy": "Your next email setupPlan the move before changing records.Your domain.A coordinated move.Illustrative migration statusALREADY HAVE BUSINESS EMAIL?Bring your existingemail into the plan.Tell us about your current provider, mailbox count and stored email. We can review the requirements and define a migration scope before account or DNS changes begin.The transfer method, timing and any service interruption depend on your current system. Confirm which messages, folders and settings can be moved as part of the agreed work.Discuss Email Migration ↗",
+        "fit": "cover",
+        "h": 525,
+        "n": 5,
+        "parent": "v-migration-art",
+        "section": "v-wrap v-migration",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 533
+      },
+      {
+        "alt": "Developer diagnosing website issues",
+        "copy": "TECHNICAL SUPPORTKeep business conversations moving.Get help with mailbox migration, domain and DNS configuration, or delivery issues so your team can communicate with confidence.Explore Technical Support ↗",
+        "fit": "cover",
+        "h": 419,
+        "n": 6,
+        "parent": "",
+        "section": "hosting-technical-support",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 558
+      },
+      {
+        "alt": "Team working together",
+        "copy": "LET’S BUILD WHAT’S NEXTPut your business name in every conversation.Tell us how many accounts and domains you need. We will help you plan your business email setup.Start Your Project↗",
+        "fit": "cover",
+        "h": 440,
+        "n": 7,
+        "parent": "rp-cta",
+        "section": "services-cta",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/approved-media/image-04.webp",
+        "w": 1405
+      }
+    ],
+    "tablet": [
+      {
+        "h": 333,
+        "n": 0,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 484
+      },
+      {
+        "h": 255,
+        "n": 1,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 612
+      },
+      {
+        "h": 216,
+        "n": 2,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 592
+      },
+      {
+        "h": 240,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/homepage/office.webp",
+        "w": 557
+      },
+      {
+        "h": 234,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 515
+      },
+      {
+        "h": 377,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 711
+      },
+      {
+        "h": 264,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 352
+      },
+      {
+        "h": 440,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/approved-media/image-04.webp",
+        "w": 803
+      }
+    ],
+    "mobile": [
+      {
+        "h": 333,
+        "n": 0,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 224
+      },
+      {
+        "h": 255,
+        "n": 1,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 255
+      },
+      {
+        "h": 216,
+        "n": 2,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 247
+      },
+      {
+        "h": 240,
+        "n": 3,
+        "src": "http://127.0.0.1:3014/homepage/office.webp",
+        "w": 232
+      },
+      {
+        "h": 234,
+        "n": 4,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 215
+      },
+      {
+        "h": 377,
+        "n": 5,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 329
+      },
+      {
+        "h": 263,
+        "n": 6,
+        "src": "http://127.0.0.1:3014/homepage/support.webp",
+        "w": 350
+      },
+      {
+        "h": 509,
+        "n": 7,
+        "src": "http://127.0.0.1:3014/approved-media/image-04.webp",
+        "w": 373
+      }
+    ]
+  },
+  "domains": {
+    "desktop": [
+      {
+        "alt": "Headphones and a quiet workspace",
+        "copy": "◎ https://www.yourbrand.com◇Domain privacyONName:••••••••••••Address:••••••••••••••Email:••••••••••••Keep your details private.Explore privacy protection for eligible extensions and keep your public domain details separate from your personal information.",
+        "fit": "cover",
+        "h": 314,
+        "n": 0,
+        "parent": "d-photo",
+        "section": "d-container d-section",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/domain-review/assets/domain-privacy.png",
+        "w": 336
+      },
+      {
+        "alt": "A team collaborating on their business",
+        "copy": ".youA name that belongsto your brand.",
+        "fit": "cover",
+        "h": 392,
+        "n": 1,
+        "parent": "d-identity d-card",
+        "section": "d-container d-section",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 388
+      },
+      {
+        "alt": "An original editorial portrait with headphones",
+        "copy": "HOSTING FOR YOUR DOMAINGive your new namea place to grow.Build your website with SitePadManage your hosting with cPanelChoose resources that fit your websiteBackups twice every dayConnect professional email to your domainExplore hosting↗◎ www.yourbrand.com ↗YOUR DIGITAL HOMEReady forwhat’s next.DOMAIN + HOSTING",
+        "fit": "cover",
+        "h": 732,
+        "n": 2,
+        "parent": "d-host-art",
+        "section": "d-host",
+        "shadow": "none",
+        "src": "http://127.0.0.1:3014/api/site-assets/domain-review/assets/hosting-editorial.png",
+        "w": 1405
+      }
+    ],
+    "tablet": [
+      {
+        "h": 314,
+        "n": 0,
+        "src": "http://127.0.0.1:3014/api/site-assets/domain-review/assets/domain-privacy.png",
+        "w": 327
+      },
+      {
+        "h": 628,
+        "n": 1,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 369
+      },
+      {
+        "h": 732,
+        "n": 2,
+        "src": "http://127.0.0.1:3014/api/site-assets/domain-review/assets/hosting-editorial.png",
+        "w": 803
+      }
+    ],
+    "mobile": [
+      {
+        "h": 294,
+        "n": 0,
+        "src": "http://127.0.0.1:3014/api/site-assets/domain-review/assets/domain-privacy.png",
+        "w": 306
+      },
+      {
+        "h": 280,
+        "n": 1,
+        "src": "http://127.0.0.1:3014/homepage/team.webp",
+        "w": 350
+      },
+      {
+        "h": 517,
+        "n": 2,
+        "src": "http://127.0.0.1:3014/api/site-assets/domain-review/assets/hosting-editorial.png",
+        "w": 373
+      }
+    ]
+  }
+}

@@ -493,5 +493,950 @@
         "ar": "موقع متجاوب معروض على شاشة مكتب ولابتوب وتابلت وهاتف"
       }
     }
+  },
+  "digital-marketing": {
+    "1": {
+      "src": "/site/generated/digital-marketing/overview-directed-v2-desktop.webp",
+      "transparent": true,
+      "alt": {
+        "en": "A delighted independent boutique owner beside a checkout counter using a phone held naturally low in her LEFT hand, screen tilted to viewer showing the fictional Luma Studio campaign overview",
+        "ar": "صاحبة متجر تراجع نتائج حملة توضيحية على هاتفها"
+      },
+      "originalSource": "../../public/homepage/support.webp"
+    },
+    "2": {
+      "src": "/site/generated/digital-marketing/challenges-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A campaign manager comparing a Google Ads campaign and a social campaign on a large desktop monitor at an authentic working desk, screen primary",
+        "ar": "مراجعة توافق رسالة الإعلانات على كوكل والسوشيال ميديا"
+      },
+      "originalSource": "../../public/homepage/about.webp"
+    },
+    "3": {
+      "src": "/site/generated/digital-marketing/collage-audience-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Overhead close photograph of a portrait tablet showing a customer audience research board titled 'Mira Campaign', beside pencil annotations and two swatches from product packaging; a left hand writes on paper rather than obstructing the display",
+        "ar": "تحديد جمهور الحملة ومراجعة احتياجاته"
+      },
+      "originalSource": "../../public/homepage/branding.webp"
+    },
+    "4": {
+      "src": "/site/generated/digital-marketing/collage-creative-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Close diagonal view of a smartphone standing upright on a small desk stand showing a vivid fictional 'Bloom & Bean' social media beverage campaign",
+        "ar": "تصميم إعلان سوشيال ميديا مرتبط بالمنتج"
+      },
+      "originalSource": "../../public/homepage/support.webp"
+    },
+    "5": {
+      "src": "/site/generated/digital-marketing/collage-launch-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Photographic portrait crop of an open laptop on an advertising studio desk",
+        "ar": "إعداد الحملة وفحص عناصرها قبل الإطلاق"
+      },
+      "originalSource": "../../public/homepage/project-web.webp"
+    },
+    "6": {
+      "src": "/site/generated/digital-marketing/collage-audience-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "",
+        "ar": ""
+      },
+      "originalSource": "../../public/homepage/support.webp"
+    },
+    "7": {
+      "src": "/site/generated/digital-marketing/collage-creative-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "",
+        "ar": ""
+      },
+      "originalSource": "../../public/homepage/branding.webp"
+    },
+    "8": {
+      "src": "/site/generated/digital-marketing/include-strategy-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Two collaborators planning a campaign at a table, faces only partial, laptop screen dominates with fictional 'Cedar Growth' audience and offer brief",
+        "ar": "فريق يحدد الجمهور والعرض وهدف الحملة"
+      },
+      "originalSource": "../../public/homepage/support.webp"
+    },
+    "9": {
+      "src": "/site/generated/digital-marketing/include-channels-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Desktop monitor, portrait phone and small tablet together on a creative studio workbench, all display a coherent fictional 'Aster Skincare' campaign across Google search ad, social post and landing page",
+        "ar": "حملة متناسقة عبر البحث والسوشيال وصفحة الهبوط"
+      },
+      "originalSource": "../../public/homepage/project-web.webp"
+    },
+    "10": {
+      "src": "/site/generated/digital-marketing/include-report-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A client and strategist seated beside a large laptop reviewing meaningful campaign analytics, joyful but credible expressions at edges; screen shows 'Northline Campaign Review', tabs 'Google Ads' and 'Social', and legible 'DEMO DATA', 'Enquiries +24%', 'Sales +18%'",
+        "ar": "مراجعة نتائج كوكل والسوشيال مع العميل ببيانات توضيحية"
+      },
+      "originalSource": "../../public/homepage/about.webp"
+    },
+    "11": {
+      "src": "/site/generated/digital-marketing/path-focus-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Portrait photo of a business owner and campaign designer discussing audience and product at a coffee shop counter; tablet resting on a tilted stand with 'Sora Coffee' campaign brief, customer message and beverage photograph",
+        "ar": "مناقشة جمهور الحملة والعرض داخل النشاط"
+      },
+      "originalSource": "../../public/homepage/about.webp"
+    },
+    "path-2": {
+      "src": "/site/generated/digital-marketing/path-journey-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Close portrait photograph of a phone lying diagonally beside an open laptop, both show a matching fictional 'Aven Workshops' ad and booking landing page, clear 'Reserve your place' and confirmation UI",
+        "ar": "ربط الإعلان بصفحة حجز واضحة"
+      }
+    },
+    "path-3": {
+      "src": "/site/generated/digital-marketing/path-improve-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Happy artisan shop owner standing at counter beside an open laptop with a prominent campaign results dashboard titled 'Terra Goods', short 'DEMO DATA' caption and a steady rising enquiries chart; person smiles while a collaborator points to a notebook, hands away from screen",
+        "ar": "صاحب نشاط يراجع نتائج الحملة وخطوة التحسين"
+      }
+    },
+    "work-4": {
+      "src": "/site/generated/digital-marketing/photo-4-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Phone on a countertop stand and a compact tablet show 'Juniper Café' local search listing and matching current menu",
+        "ar": "توحيد ظهور المقهى في البحث والمنيو"
+      }
+    },
+    "work-1": {
+      "src": "/site/generated/digital-marketing/work-1-context-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Laptop angled on a consulting desk displaying 'Novara Consulting' focused landing page and enquiry confirmation in the same browser",
+        "ar": "حملة مرتبطة بصفحة هبوط وطلب تواصل"
+      }
+    },
+    "work-3": {
+      "src": "/site/generated/digital-marketing/work-3-context-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Laptop on a product studio table displaying a fictional 'Onda Care' email follow-up sequence with three brief messages and preference link, naturally visible cosmetics props, human hand on trackpad",
+        "ar": "متابعة إيميل مرتبطة باهتمام العميل"
+      }
+    },
+    "work-2": {
+      "src": "/site/generated/digital-marketing/photo-2-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "An upright tablet on a clothing designer's cutting table displays the 'Elara Edit' seasonal fashion campaign; real fabric samples, garment and sketchbook surround device, partial human hands arranging fabric, screen primary.",
+        "ar": "إطلاق مجموعة أزياء عبر حملة متناسقة"
+      }
+    },
+    "work-5": {
+      "src": "/site/generated/digital-marketing/work-5-context-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Over-shoulder close view of a campaign analyst's desktop monitor showing 'Metric Grove', Google Ads and Social source cards flowing into enquiries; one clean line chart, 'DEMO DATA' visible",
+        "ar": "تحليل مصادر الحملة وطلبات التواصل"
+      }
+    },
+    "work-6": {
+      "src": "/site/generated/digital-marketing/photo-6-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Two business collaborators, mostly shoulders and hands, review a tablet displaying 'Nexa Logistics' campaign explaining a complex freight service in three concise illustrated steps",
+        "ar": "شرح خدمة للشركات ضمن حملة واضحة"
+      }
+    }
+  },
+  "web-mobile-apps": {
+    "1": {
+      "src": "/site/generated/web-mobile-apps/overview-directed-v1-desktop.webp",
+      "transparent": true,
+      "alt": {
+        "en": "Photoreal contextual multi-device arrangement: desktop monitor behind open laptop, tablet angled horizontally and phone on stand show a coherent fictional 'PulseDesk' appointment platform",
+        "ar": "تطبيق حجز متصل على حاسبة ولابتوب وتابلت وموبايل"
+      },
+      "originalSource": "../../public/homepage/support.webp"
+    },
+    "2": {
+      "src": "/site/generated/web-mobile-apps/challenges-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Close view of a person comparing a cluttered paper request process with a clear fictional 'FlowNest' mobile app on tablet propped at their desk; a phone lying face-up displays matching task status",
+        "ar": "تحويل خطوات العمل اليدوية إلى تطبيق واضح"
+      },
+      "originalSource": "../../public/homepage/about.webp"
+    },
+    "3": {
+      "src": "/site/generated/web-mobile-apps/collage-plan-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Top-down portrait composition of tablet displaying 'RouteNote' mobile journey wireframes, stylus held in left hand annotating margin, three paper user-flow sketches around tablet",
+        "ar": "تخطيط رحلة المستخدم على تابلت بقلم"
+      },
+      "originalSource": "../../public/homepage/branding.webp"
+    },
+    "4": {
+      "src": "/site/generated/web-mobile-apps/collage-build-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Phone on a dark desktop stand displaying 'FieldPilot' mobile task app; behind it laptop shows matching development preview, software engineer's hand at keyboard, screen dominant, actual app UI not wall of code.",
+        "ar": "تطوير التطبيق وربط واجهته بالعمل"
+      },
+      "originalSource": "../../public/homepage/support.webp"
+    },
+    "5": {
+      "src": "/site/generated/web-mobile-apps/collage-test-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Two different real phones and one small portrait tablet on a product test bench display the same 'Vela Booking' appointment flow at different stages; a tester's fingertip lightly touches the lower navigation edge, labels and content unobscured.",
+        "ar": "اختبار تجربة التطبيق عبر أجهزة متعددة"
+      },
+      "originalSource": "../../public/homepage/project-web.webp"
+    },
+    "6": {
+      "src": "/site/generated/web-mobile-apps/collage-plan-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "",
+        "ar": ""
+      },
+      "originalSource": "../../public/homepage/support.webp"
+    },
+    "7": {
+      "src": "/site/generated/web-mobile-apps/collage-build-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "",
+        "ar": ""
+      },
+      "originalSource": "../../public/homepage/branding.webp"
+    },
+    "8": {
+      "src": "/site/generated/web-mobile-apps/include-ux-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A designer and customer discuss mobile app screens on a landscape tablet resting between them, faces cropped, notebook maps steps, one finger points to paper not screen",
+        "ar": "مناقشة واجهة التطبيق والفيدباك مع العميل"
+      },
+      "originalSource": "../../public/homepage/support.webp"
+    },
+    "9": {
+      "src": "/site/generated/web-mobile-apps/include-integrations-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Phone and tablet foreground show a fictional 'SyncWorks' order application with visible connected record, while laptop behind displays a simple matching data and integration flow inside its physical screen",
+        "ar": "ربط واجهة التطبيق والبيانات والتكاملات"
+      },
+      "originalSource": "../../public/homepage/project-web.webp"
+    },
+    "10": {
+      "src": "/site/generated/web-mobile-apps/include-release-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Quality tester at desk with phone in a LEFT hand and tablet on stand, both display fictional 'Orbit Tasks' release checklist, clear 'Login checked', 'Forms tested', 'Ready for review'",
+        "ar": "اختبارات الدخول والوظائف والتحضير للإطلاق"
+      },
+      "originalSource": "../../public/homepage/about.webp"
+    },
+    "11": {
+      "src": "/site/generated/web-mobile-apps/path-focus-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Portrait close photo of two collaborators framing a mobile app idea, tablet flat on desk with 'Tandem' user needs and first-release wireframe, phone and handwritten needs cards nearby",
+        "ar": "تحديد مشكلة المستخدم ونطاق أول إصدار"
+      },
+      "originalSource": "../../public/homepage/about.webp"
+    },
+    "path-2": {
+      "src": "/site/generated/web-mobile-apps/path-journey-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Tablet standing upright in a quiet studio shows 'Luma Portal' app prototype with clear request status, small phone beside it shows same request; client sitting side-on writes online feedback using separate keyboard",
+        "ar": "تجربة النموذج وتوثيق ملاحظات العميل"
+      }
+    },
+    "path-3": {
+      "src": "/site/generated/web-mobile-apps/path-improve-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "App developer and client at a worktable reviewing a phone on stand with fictional 'Peak App' version update and 'Feedback reviewed', tablet beside shows accepted feature cards",
+        "ar": "مراجعة ملاحظات الاستخدام وتطوير التطبيق"
+      }
+    },
+    "work-1": {
+      "src": "/site/generated/web-mobile-apps/work-1-context-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Desktop, laptop, tablet and smartphone grouped coherently on clinic reception workbench displaying the same fictional 'CareSlot' appointment app, tablet shows booking confirmation",
+        "ar": "حجز موعد وتجربة متناسقة على كل الأجهزة"
+      }
+    },
+    "work-2": {
+      "src": "/site/generated/web-mobile-apps/photo-2-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Construction site coordinator seen from side with rugged tablet braced on a workbench showing 'SiteLoop' job progress and approved site photo",
+        "ar": "فريق ميداني يوثق التقدم عبر تابلت"
+      }
+    },
+    "work-3": {
+      "src": "/site/generated/web-mobile-apps/work-3-context-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Seated customer at a desk uses a phone supported in left palm to review fictional 'Clarity Portal', clear document request and 'Under review' status, landscape tablet nearby shows matching document list",
+        "ar": "بوابة عميل توضح الطلبات والمستندات"
+      }
+    },
+    "work-4": {
+      "src": "/site/generated/web-mobile-apps/photo-4-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Tablet mounted on warehouse trolley showing fictional 'StockTrail' inventory app with clear product photo, available quantity and movement confirmation",
+        "ar": "إدارة المخزون داخل المستودع بتابلت"
+      }
+    },
+    "work-5": {
+      "src": "/site/generated/web-mobile-apps/work-5-context-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Smartphone on café counter stand displays fictional 'Perk & Pour' loyalty app with clear reward card and 'Redeem reward', barista hands pass a coffee cup beside the screen",
+        "ar": "تطبيق ولاء ومكافآت واضح للعميل"
+      }
+    },
+    "work-6": {
+      "src": "/site/generated/web-mobile-apps/photo-6-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Courier at a package sorting table checking delivery status on a mounted portrait tablet titled 'ParcelWay', phone lying face-up shows matching 'Out for delivery'",
+        "ar": "تحديثات توصيل مرتبطة بفريق الإرسال"
+      }
+    }
+  },
+  "technical-support": {
+    "1": {
+      "src": "/site/generated/technical-support/overview-directed-v1-desktop.webp",
+      "transparent": true,
+      "alt": {
+        "en": "A technician at an authentic computer workstation, three-quarter side angle, large monitor displaying a restored fictional 'Nova Studio' website",
+        "ar": "تقني يصلح الموقع مع ظهور حالة HTTP 200"
+      },
+      "originalSource": "../../public/homepage/support.webp"
+    },
+    "2": {
+      "src": "/site/generated/technical-support/challenges-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A worried small business owner at their shop counter looks at a laptop with clear '503 Service unavailable' error on fictional 'Moss & Co' store",
+        "ar": "عميل يواجه توقف موقع نشاطه"
+      },
+      "originalSource": "../../public/homepage/about.webp"
+    },
+    "3": {
+      "src": "/site/generated/technical-support/collage-diagnose-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Close diagonal portrait photograph of laptop showing a clear error log and diagnostic trace titled 'Site diagnostics', technician's left hand takes notes on paper beside it",
+        "ar": "تشخيص سبب العطل من السجلات"
+      },
+      "originalSource": "../../public/homepage/branding.webp"
+    },
+    "4": {
+      "src": "/site/generated/technical-support/collage-repair-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Desktop monitor at repair workstation displays WordPress plugin conflict check for fictional 'Studio Fern', clear 'Conflict isolated', 'Staging'",
+        "ar": "عزل تعارض الإضافات وفحصه"
+      },
+      "originalSource": "../../public/homepage/support.webp"
+    },
+    "5": {
+      "src": "/site/generated/technical-support/collage-email-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Laptop on business desk shows email delivery diagnostic for fictional 'Orion Works', concise before/after messages 'Delivery failed' and 'Delivered', status 'DNS corrected by CODEYEA'",
+        "ar": "تصحيح إعدادات الإيميل وتأكيد وصول الرسالة"
+      },
+      "originalSource": "../../public/homepage/project-web.webp"
+    },
+    "6": {
+      "src": "/site/generated/technical-support/collage-diagnose-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "",
+        "ar": ""
+      },
+      "originalSource": "../../public/homepage/support.webp"
+    },
+    "7": {
+      "src": "/site/generated/technical-support/collage-repair-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "",
+        "ar": ""
+      },
+      "originalSource": "../../public/homepage/branding.webp"
+    },
+    "8": {
+      "src": "/site/generated/technical-support/include-website-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Technician testing a restored website contact form on large laptop screen, fictional 'Aster Services', clear 'Message received' success",
+        "ar": "اختبار صفحات الموقع والفورم بعد التصليح"
+      },
+      "originalSource": "../../public/homepage/support.webp"
+    },
+    "9": {
+      "src": "/site/generated/technical-support/include-infrastructure-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Engineer in a real server maintenance room reviewing a portable laptop resource diagnostic, clear labels 'CPU', 'Memory', 'DNS', 'HTTPS' and stable trend, rack hardware secondary",
+        "ar": "فحص السيرفر والموارد وDNS وHTTPS"
+      },
+      "originalSource": "../../public/homepage/project-web.webp"
+    },
+    "10": {
+      "src": "/site/generated/technical-support/include-recovery-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Desktop screen shows a careful backup restore for fictional 'Acorn Shop', concise 'Backup selected', 'Restore tested', 'Verified'",
+        "ar": "استعادة نسخة احتياطية وفحص الموقع"
+      },
+      "originalSource": "../../public/homepage/about.webp"
+    },
+    "11": {
+      "src": "/site/generated/technical-support/path-focus-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Client sitting at a shop counter beside laptop showing website error, support ticket on tablet titled 'Support Desk', technician responding via small video tile within screen",
+        "ar": "جمع تفاصيل العطل وتحديد أثره"
+      },
+      "originalSource": "../../public/homepage/about.webp"
+    },
+    "path-2": {
+      "src": "/site/generated/technical-support/path-repair-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Technician seen partly from side reviewing recovery checklist on portrait monitor, fictional 'Birch Studio' site healthy on laptop below",
+        "ar": "إصلاح السبب واختبار الوظائف المتأثرة"
+      }
+    },
+    "path-3": {
+      "src": "/site/generated/technical-support/path-handoff-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Relieved business owner and technical specialist at a counter review a tablet on stand showing the restored site 'Willow Market' and a brief handoff checklist",
+        "ar": "تسليم الموقع بعد التصليح مع خطوات المتابعة"
+      }
+    }
+  },
+  "ecommerce": {
+    "1": {
+      "src": "/site/generated/ecommerce/collage-storefront-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A laptop open among neatly arranged outdoor merchandise, displays fictional 'Trail & Tide' online store with a large hiking backpack product and 'Add to cart'",
+        "ar": "واجهة متجر داخل لابتوب وسط البضاعة"
+      },
+      "originalSource": "assets/product-page.png"
+    },
+    "2": {
+      "src": "/site/generated/ecommerce/collage-backend-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Portrait tablet propped in a stockroom showing fictional 'Atelier Stock' store backend with a ceramic vase product photo and clear green 'SOLD' label, shipping carton and the same real vase nearby",
+        "ar": "باك اند متجر يعرض المنتج وحالة تم البيع"
+      },
+      "originalSource": "assets/inventory-page.png"
+    },
+    "3": {
+      "src": "/site/generated/ecommerce/collage-checkout-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A shopper seated on sofa uses a smartphone supported naturally by both palms, screen facing viewer shows fictional 'Nook Living' lamp added to shopping cart",
+        "ar": "عميل يتصفح المتجر ويضيف منتجاً للسلة"
+      },
+      "originalSource": "assets/checkout-page.png"
+    },
+    "4": {
+      "src": "/site/generated/ecommerce/operations-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Wide close photograph of large desktop monitor on an ecommerce stockroom counter displaying fictional 'Forma Store' admin dashboard, product photography and prominent 'SOLD', 'Payment received', 'Ready to ship'",
+        "ar": "إدارة المنتجات والطلبات والمدفوعات من لوحة المتجر"
+      },
+      "originalSource": "assets/inventory-page.png",
+      "mobileSrc": "/site/generated/ecommerce/operations-directed-v1-mobile.webp"
+    },
+    "5": {
+      "src": "/site/generated/ecommerce/payments-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Laptop on customer desk displays fictional 'Kanso Home' secure checkout with actual lamp product photo, clear order summary, card selection and 'Payment received'",
+        "ar": "إتمام الدفع وعرض إيصال الطلب داخل الأجهزة"
+      },
+      "originalSource": "assets/checkout-page.png",
+      "mobileSrc": "/site/generated/ecommerce/payments-directed-v1-mobile.webp"
+    },
+    "6": {
+      "src": "/site/generated/ecommerce/film-discover-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Overhead photograph of tablet on textile worktable displaying 'Threadline' store collection; real folded shirts and fabric surround tablet, fingertips at bezel only.",
+        "ar": "استعراض مجموعة منتجات المتجر"
+      },
+      "originalSource": "assets/inventory-page.png",
+      "mobileSrc": "/site/generated/ecommerce/film-discover-directed-v1-mobile.webp"
+    },
+    "7": {
+      "src": "/site/generated/ecommerce/film-pack-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Hands packing a sold candle into a branded 'Lume Goods' parcel beside upright smartphone on stand showing 'Order paid' and candle thumbnail",
+        "ar": "تجهيز طلب مدفوع للشحن"
+      },
+      "originalSource": "assets/inventory-page.png",
+      "mobileSrc": "/site/generated/ecommerce/film-pack-directed-v1-mobile.webp"
+    },
+    "8": {
+      "src": "/site/generated/ecommerce/film-ship-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Tablet resting on dispatch counter shows fictional 'Parcel & Pine' store shipment with large parcel photo and 'Shipped', real boxes and handheld scanner nearby, worker forearm printing label.",
+        "ar": "تجهيز الشحنة وتحديث حالتها"
+      },
+      "originalSource": "assets/inventory-page.png",
+      "mobileSrc": "/site/generated/ecommerce/film-ship-directed-v1-mobile.webp"
+    },
+    "9": {
+      "src": "/site/generated/ecommerce/film-deliver-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Customer at doorway receives a small parcel, tablet on entry console shows fictional 'Eden Shop' delivery confirmation and 'Delivered'",
+        "ar": "وصول الطلب للعميل وتأكيد التسليم"
+      },
+      "originalSource": "assets/inventory-page.png",
+      "mobileSrc": "/site/generated/ecommerce/film-deliver-directed-v1-mobile.webp"
+    },
+    "10": {
+      "src": "/site/generated/ecommerce/work-discovery-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Large desktop, laptop and phone in a homeware studio display coherent fictional 'Haven Objects' ecommerce collection, real ceramic objects and folded textile frame the devices, designer partial shoulder secondary",
+        "ar": "اكتشاف منتجات متجر عبر أجهزة متعددة"
+      },
+      "originalSource": "assets/product-page.png"
+    },
+    "11": {
+      "src": "/site/generated/ecommerce/work-operations-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Open laptop among handmade skincare merchandise displays fictional 'Aurelia Store' backend: matching product photo, inventory count and 'SOLD'",
+        "ar": "باك اند متجر ومخزون مرتبط بالمنتج"
+      },
+      "originalSource": "assets/inventory-page.png"
+    },
+    "12": {
+      "src": "/site/generated/ecommerce/work-cart-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Shopper compares a real running shoe with its fictional 'Stride Supply' product page on tablet resting on a bench; phone on small stand shows the shoe in cart",
+        "ar": "تصفح المنتج وإضافته لسلة المشتريات"
+      },
+      "originalSource": "assets/product-page.png"
+    },
+    "13": {
+      "src": "/site/generated/ecommerce/work-checkout-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Close view of phone on angled desk stand displaying 'Oak & Ember' checkout confirmation with clear product photo, 'Payment received'; an open laptop behind shows matching store, natural customer hand beside keyboard.",
+        "ar": "دفع الطلب واستلام تأكيد الشراء"
+      },
+      "originalSource": "assets/product-page.png"
+    },
+    "14": {
+      "src": "/site/generated/ecommerce/work-automation-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Desktop monitor on fulfilment desk displays fictional 'OrderFlow' ecommerce automation as four concise visual stages INSIDE screen: 'Cart', 'Paid', 'Shipped', 'Delivered', linked to a visible product photo",
+        "ar": "أتمتة الطلب من السلة إلى الدفع والشحن والتسليم"
+      },
+      "originalSource": "assets/inventory-page.png"
+    },
+    "capabilities": {
+      "src": "/site/generated/ecommerce/capabilities-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Angled laptop and small tablet on merchant counter display fictional 'Commerce Lane' storefront and its connected order administration, same product photograph on both, a product carton between devices, natural hand at keyboard.",
+        "ar": "ربط واجهة المتجر بالإدارة والطلبات"
+      }
+    }
+  },
+  "website-hosting": {
+    "1": {
+      "src": "/site/generated/website-hosting/intro-directed-v2-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A close photoreal server cabinet with continuously glowing green status lights and a physical portrait operations monitor on its side",
+        "ar": "استمرارية عمل السيرفرات بنسبة 99.99%"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/support.webp"
+    },
+    "2": {
+      "src": "/site/generated/website-hosting/server-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Wide photograph of a real server rack aisle with a large desktop monitor in foreground showing fictional 'Atlas Hosting Console' stable storage and cache activity",
+        "ar": "سيرفرات ومراقبة التخزين والكاش"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/team.webp",
+      "mobileSrc": "/site/generated/website-hosting/server-directed-v1-mobile.webp"
+    },
+    "3": {
+      "src": "/site/generated/website-hosting/performance-directed-v2-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Close low-angle photograph of a powerful server with visible NVMe drives and a laptop on a rolling technician shelf",
+        "ar": "قوة أداء السيرفرات وسرعة الاستجابة"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/project-web.webp"
+    },
+    "4": {
+      "src": "/site/generated/website-hosting/security-directed-v2-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Physical server rack and a prominent desktop monitor showing the fictional Harbor Hosting security console",
+        "ar": "حماية السيرفرات وتشفير SSL"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/team.webp"
+    },
+    "5": {
+      "src": "/site/generated/website-hosting/manage-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Desktop screen at small business office shows a realistic cPanel-like hosting control workspace titled 'Control Desk', clear file manager, databases and domains sections",
+        "ar": "إدارة الملفات والدومينات وقواعد البيانات"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/office.webp"
+    },
+    "6": {
+      "src": "/site/generated/website-hosting/builder-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Wide detailed photograph of a laptop showing fictional 'Mosaic Studio' website builder with an attractive website preview, designer forearm using trackpad, a printed page outline along desk",
+        "ar": "بناء صفحات الموقع وتنظيم المحتوى"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/project-brand.webp"
+    },
+    "7": {
+      "src": "/site/generated/website-hosting/migration-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Two laptops at a technical desk show the same fictional 'Harbor Services' website before and after a hosting move, one screen says 'Source', other 'Destination checked'",
+        "ar": "نقل الموقع وفحصه على الاستضافة الجديدة"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/support.webp"
+    },
+    "8": {
+      "src": "/site/generated/website-hosting/cta-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Wide scene of a small creative team beside a long desk planning a company website, central desktop and laptop show fictional 'Foundry Collective' site, authentic work materials at edges and space for the existing CTA overlay",
+        "ar": "فريق يخطط لاستضافة موقعه ومتابعة نموه"
+      },
+      "originalSource": "http://127.0.0.1:3002/api/media/media_144cde21-93c7-4a91-87b1-0b8fe5ad799e/large",
+      "mobileSrc": "/site/generated/website-hosting/cta-directed-v1-mobile.webp"
+    },
+    "support": {
+      "src": "/site/generated/website-hosting/support-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Support technician and business owner beside a desktop monitor review a working fictional 'Maple Works' website and a support ticket marked 'Resolved', natural attentive expressions, screen primary.",
+        "ar": "دعم تقني لمعالجة مشاكل الموقع والاستضافة"
+      }
+    }
+  },
+  "wordpress-hosting": {
+    "1": {
+      "src": "/site/generated/wordpress-hosting/intro-directed-v2-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "An actual WordPress operations laptop tilted on a server-room service cart with an upright secondary monitor",
+        "ar": "استمرارية عمل السيرفرات بنسبة 99.99%"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/support.webp"
+    },
+    "2": {
+      "src": "/site/generated/wordpress-hosting/server-directed-v1-desktop.webp",
+      "transparent": true,
+      "alt": {
+        "en": "Premium photoreal mixed-media WordPress speed composition inspired by the supplied runner reference: athletic sprinter in charcoal sportswear powering forward alongside an open laptop displaying a crisp fictional 'Sprint Studio' WordPress website and a recognizable WordPress W emblem",
+        "ar": "سرعة ووردبريس بتكوين عدّاء ولابتوب"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/team.webp",
+      "mobileSrc": "/site/generated/wordpress-hosting/server-directed-v1-mobile.webp"
+    },
+    "3": {
+      "src": "/site/generated/wordpress-hosting/performance-directed-v2-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Close realistic desktop workstation monitoring a WordPress website next to compact powerful server hardware with visible SSD tray",
+        "ar": "قوة أداء السيرفرات وسرعة الاستجابة"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/project-web.webp"
+    },
+    "4": {
+      "src": "/site/generated/wordpress-hosting/security-directed-v2-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Close laptop and physical security key next to a small server stack, crisp laptop display shows official blue WordPress W-in-circle logo prominently with 'WordPress' and large 'SSL ACTIVE', lock icon and 'HTTPS'",
+        "ar": "حماية السيرفرات وتشفير SSL"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/team.webp"
+    },
+    "5": {
+      "src": "/site/generated/wordpress-hosting/manage-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Content editor at desk with laptop showing WordPress site manager for fictional 'Origin Magazine', recognizable Pages, Media and Plugins menu and a large article thumbnail",
+        "ar": "إدارة محتوى وإضافات موقع ووردبريس"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/office.webp"
+    },
+    "6": {
+      "src": "/site/generated/wordpress-hosting/builder-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Wide shallow composition of tablet on a stand and laptop showing a coherent fictional 'Studio Petal' website being arranged in a block editor",
+        "ar": "تخطيط صفحات موقع ووردبريس وتحريرها"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/project-brand.webp"
+    },
+    "7": {
+      "src": "/site/generated/wordpress-hosting/migration-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Two close angled screens on technician desk show a fictional 'Evergreen Press' WordPress website and a clear migration checklist 'Files', 'Database', 'Links checked'",
+        "ar": "نقل موقع ووردبريس مع فحص الملفات والروابط"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/support.webp"
+    },
+    "8": {
+      "src": "/site/generated/wordpress-hosting/cta-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Wide contextual scene of an editorial team collaborating around a desktop and laptop displaying a fictional 'Field Notes' WordPress publication",
+        "ar": "فريق يدير وينشر محتوى موقع ووردبريس"
+      },
+      "originalSource": "http://127.0.0.1:3002/api/media/media_144cde21-93c7-4a91-87b1-0b8fe5ad799e/large",
+      "mobileSrc": "/site/generated/wordpress-hosting/cta-directed-v1-mobile.webp"
+    },
+    "support": {
+      "src": "/site/generated/wordpress-hosting/support-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Technician reviewing WordPress plugin conflict on desktop while client watches beside monitor, a second tablet shows restored fictional 'Daily Nest' homepage, clear 'Site restored'",
+        "ar": "معالجة تعارض إضافات ووردبريس واستعادة الموقع"
+      }
+    }
+  },
+  "cloud-hosting": {
+    "1": {
+      "src": "/site/generated/cloud-hosting/intro-directed-v2-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Tall close photograph of two redundant modern server racks and a portrait physical tablet on an articulated rack arm",
+        "ar": "استمرارية عمل السيرفرات بنسبة 99.99%"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/support.webp"
+    },
+    "2": {
+      "src": "/site/generated/cloud-hosting/server-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Wide realistic server-room photograph with two substantial server racks and a physical desktop monitor in foreground showing fictional 'CloudGrid' CPU, RAM and storage console with clear stable charts",
+        "ar": "مراقبة موارد الكلاود من شاشة مرتبطة بالسيرفرات"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/team.webp",
+      "mobileSrc": "/site/generated/cloud-hosting/server-directed-v1-mobile.webp"
+    },
+    "3": {
+      "src": "/site/generated/cloud-hosting/performance-directed-v2-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Powerful modern cloud compute server partly open on technician workbench, GPU and cooling hardware visible, adjacent angled laptop displays fictional Stratus Compute performance console with large exact 'HIGH PERFORMANCE', a clean fast response gauge, and 'Auto scaling'",
+        "ar": "قوة أداء السيرفرات وسرعة الاستجابة"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/project-web.webp"
+    },
+    "4": {
+      "src": "/site/generated/cloud-hosting/security-directed-v2-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Prominent desktop security monitor beside physical cloud server hardware",
+        "ar": "حماية السيرفرات وتشفير SSL"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/team.webp"
+    },
+    "5": {
+      "src": "/site/generated/cloud-hosting/manage-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Desktop monitor shows fictional 'StackRoom' cloud workspace with three hosted sites, file storage and database tools; each site has a small different real website thumbnail",
+        "ar": "إدارة المواقع والبيانات من لوحة الكلاود"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/office.webp"
+    },
+    "6": {
+      "src": "/site/generated/cloud-hosting/builder-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Wide close composition of a laptop showing fictional 'LaunchHarbor' application deployment preview, phone beside it displays the same published service site, developer's forearm and paper route sketch in foreground.",
+        "ar": "تجهيز موقع أو تطبيق على بنية الكلاود"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/project-brand.webp"
+    },
+    "7": {
+      "src": "/site/generated/cloud-hosting/migration-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Engineer reviews cloud migration on tablet propped near two real laptops, fictional 'Porter Cloud' checklist 'Source', 'Transfer', 'Verified', same SaaS app visible on destination screen",
+        "ar": "نقل التطبيق للكلاود وفحصه بعد النقل"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/support.webp"
+    },
+    "8": {
+      "src": "/site/generated/cloud-hosting/cta-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Wide photoreal software team workbench with desktop and two laptops showing fictional 'Northstar Workspace' connected app, engineers collaborating naturally at edges, screens central, real materials and restrained blue accents",
+        "ar": "فريق يخطط لتوسّع التطبيق على الكلاود"
+      },
+      "originalSource": "http://127.0.0.1:3002/api/media/media_144cde21-93c7-4a91-87b1-0b8fe5ad799e/large",
+      "mobileSrc": "/site/generated/cloud-hosting/cta-directed-v1-mobile.webp"
+    },
+    "support": {
+      "src": "/site/generated/cloud-hosting/support-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Cloud support specialist at large monitor investigates a clear resource trend for fictional 'Vector Apps', tablet beside shows restored application",
+        "ar": "دعم التطبيق وموارد السيرفر على الكلاود"
+      }
+    }
+  },
+  "email-hosting": {
+    "1": {
+      "src": "/site/generated/email-hosting/intro-directed-v2-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A portrait desktop monitor showing fictional Aster Mail operations status with exact large '99.99%' and 'UPTIME', uninterrupted green 24-hour service timeline",
+        "ar": "استمرارية عمل السيرفرات بنسبة 99.99%"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/support.webp"
+    },
+    "2": {
+      "src": "/site/generated/email-hosting/domain-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Laptop on small agency desk shows a composed professional email from 'hello@riverstudio.example' with consistent company signature and simple subject 'Project update'",
+        "ar": "عنوان إيميل مهني باسم الشركة"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/team.webp"
+    },
+    "3": {
+      "src": "/site/generated/email-hosting/filter-directed-v2-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Close desktop monitor showing fictional ClearMail email security console",
+        "ar": "حماية السيرفرات وتشفير SSL"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/support.webp"
+    },
+    "4": {
+      "src": "/site/generated/email-hosting/clients-directed-v2-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Laptop, tablet and phone grouped closely with a compact mail server on a real office workstation show synchronized fictional Cedar Team email with subject 'Design review'",
+        "ar": "قوة أداء السيرفرات وسرعة الاستجابة"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/office.webp"
+    },
+    "5": {
+      "src": "/site/generated/email-hosting/backup-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Tablet on desk stand shows fictional 'MailVault' mailbox storage and 'Backup available', laptop beside displays relevant conversation archive",
+        "ar": "مساحة البريد وأرشفة الرسائل والنسخ الاحتياطية"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/team.webp"
+    },
+    "6": {
+      "src": "/site/generated/email-hosting/migration-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Two physical laptops on office migration desk show matching mailbox folder trees titled 'Source mailbox' and 'Destination mailbox', fictional 'Mira Studio' account, clear status 'Messages checked'",
+        "ar": "نقل الإيميلات والفولدرات وفحص اكتمالها"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/support.webp"
+    },
+    "7": {
+      "src": "/site/generated/email-hosting/cta-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Wide calm team meeting table with desktop, laptop and phone showing the same fictional 'Common Ground' business email conversation",
+        "ar": "تواصل فريق العمل عبر بريد الشركة"
+      },
+      "originalSource": "http://127.0.0.1:3002/api/media/media_144cde21-93c7-4a91-87b1-0b8fe5ad799e/large",
+      "mobileSrc": "/site/generated/email-hosting/cta-directed-v1-mobile.webp"
+    },
+    "support": {
+      "src": "/site/generated/email-hosting/support-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Email support technician at monitor showing delivery diagnostics, clear 'DNS corrected', 'Test message delivered', small CODEYEA support signature inside screen",
+        "ar": "تصحيح إعدادات البريد والتأكد من وصول الرسائل"
+      }
+    }
+  },
+  "domains": {
+    "0": {
+      "src": "/site/generated/domains/privacy-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Close photo of laptop displaying a domain privacy overview for fictional 'novastudio.example', personal contact fields visibly masked, physical notebook with brand sketch and a security key nearby, hand on trackpad",
+        "ar": "خصوصية بيانات الدومين وإدارة الاتصال"
+      },
+      "originalSource": "assets/domain-privacy.png"
+    },
+    "1": {
+      "src": "/site/generated/domains/identity-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Two business founders at a creative table choosing a brand name, tablet on stand shows 'Morrow Studio' and 'morrowstudio.example' domain identity preview, printed logo sketches and color swatches nearby",
+        "ar": "اختيار اسم دومين يعبّر عن البراند"
+      },
+      "originalSource": "http://127.0.0.1:3002/homepage/team.webp"
+    },
+    "2": {
+      "src": "/site/generated/domains/hosting-directed-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Contextual laptop, desktop and smartphone grouped on a new business desk display the same fictional 'Oakline Studio' website and its matching domain in browser, founder partially visible beside table, real brand materials and a small product",
+        "ar": "ربط الدومين بموقع واستضافة وبريد للشركة"
+      },
+      "originalSource": "assets/hosting-editorial.png",
+      "mobileSrc": "/site/generated/domains/hosting-directed-v1-mobile.webp"
+    }
   }
 }

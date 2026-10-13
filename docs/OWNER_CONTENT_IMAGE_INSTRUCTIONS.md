@@ -1,5 +1,14 @@
 # CODEYEA content and imagery instructions
 
+## Remaining services directed by owner, 2026-10-13
+- Latest hosting correction: three separate images per hosting page, each focused on one message: 99.99% Uptime, strong fast server performance, or security and SSL. Do not combine these three themes into one image. Make the WordPress logo clearly visible in WordPress hosting imagery and use the supplied official mark for its existing native hero logo positions.
+- The owner supplied explicit direction for Digital Marketing, Ecommerce, Web/Mobile Apps, Technical Support and hosting, then clarified that the first paragraph about advertising campaigns is Digital Marketing. This resumes imagery for those pages and the five hosting/domain pages only.
+- Digital Marketing: advertising, Google/social results, happy business owners and illustrative sales/revenue growth. Ecommerce: contextual device storefronts, backend product sold status, cart, payment, shipping and delivery automation.
+- Apps: varied phone/tablet work, all-device compositions and supporting human elements. Technical Support: outages, repair, HTTP 200 recovery, email delivery repaired by CODEYEA.
+- Hosting: use the supplied runner/WordPress speed, business email across devices, server/monitor and assisted website-management references. Research relevant additional hosting concepts within existing section content.
+- Preserve native approved interactive heroes, structure, motion and sharp corners. Replace section imagery in measured frames. Boxed compositions remain clean; only open scenes may include alpha-transparent protruding panels.
+- Complete these pages before discussing remaining general pages. Homepage remains last. Record prompts, originals, responsive measurements and verification. GitHub upload remains authorized.
+
 ## Owner resumed the complete website, 2026-10-13
 - Latest explicit instruction resumes all website imagery, mobile header repair, visual verification and GitHub upload. This supersedes the pause below, but does not approve previously rejected assets.
 - Fix the transparent mobile header without redesigning desktop navigation.

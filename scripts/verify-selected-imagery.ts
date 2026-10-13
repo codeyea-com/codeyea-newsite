@@ -6,9 +6,10 @@ import {renderIllustrativeWork} from '../src/server/illustrative-work-render';
 import registry from '../src/content/generated-service-artwork.json';
 import industries from '../src/content/generated-artwork.json';
 import {assetUrl} from '../src/content/homepage-assets';
+import type {ServiceArtwork} from '../src/content/generated-service-artwork';
 
 const files=new Set<string>();
-for(const slots of Object.values(registry))for(const art of Object.values(slots)) {
+for(const slots of Object.values(registry as Record<string,Record<string,ServiceArtwork>>))for(const art of Object.values(slots)) {
  files.add(art.src);if('mobileSrc' in art&&art.mobileSrc)files.add(art.mobileSrc);
  if(art.transparent){const info=await sharp('public'+art.src).metadata();const stats=await sharp('public'+art.src).stats();assert(info.hasAlpha&&stats.channels[3].min===0,art.src+' must preserve actual transparency');}
 }

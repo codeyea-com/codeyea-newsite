@@ -1,4 +1,5 @@
 import { illustrativeWork } from "../content/illustrative-work";
+import {serviceArtwork, serviceArtworkTag} from '../content/generated-service-artwork';
 const escape = (s: string) =>
   s
     .replaceAll("&", "&amp;")
@@ -27,7 +28,10 @@ export function renderIllustrativeWork(
           const contextual = ['seo-geo', 'ai-automation'].includes(slug);
           const stem = c.visual === 'technical' && contextual ? 'work-' + i + '-context' : 'photo-' + i;
           const extension = contextual ? 'webp' : 'png';
-          const art = c.visual === 'photo' || contextual
+          const selected = serviceArtwork(slug, 'work-' + i);
+          const art = selected
+            ? `<picture class="work-clean-photo">${selected.mobileSrc ? `<source media="(max-width:1199px)" srcset="${escape(selected.mobileSrc)}">` : ''}${serviceArtworkTag(`<img src="${escape(selected.src)}" alt="${escape(title)}" loading="lazy" decoding="async">`,selected,locale)}</picture>`
+            : c.visual === 'photo' || contextual
             ? `<picture class="work-clean-photo"><source media="(max-width:1199px)" srcset="/site/generated/${slug}/${stem}-mobile.${extension}"><img src="/site/generated/${slug}/${stem}-desktop.${extension}" alt="${escape(title)}" loading="lazy" decoding="async"></picture>`
             : `<picture style="display:contents"><source media="(max-width:1199px)" srcset="/site/generated/${slug}/project-${i}-${locale}-mobile.svg"><img class="work-technical" src="/site/generated/${slug}/project-${i}-${locale}.svg" alt="${escape(title)}" loading="lazy"></picture>`;
           return `<article><div class="ds-placeholder work-art work-${escape(slug)}">${art}</div><h3>${escape(title)}</h3><p>${escape(body)}</p></article>`;

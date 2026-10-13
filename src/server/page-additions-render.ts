@@ -3,6 +3,7 @@ import {
   type PageAdditions,
 } from "@/schemas/page-additions";
 import { assetUrl } from "@/content/homepage-assets";
+import {serviceArtwork, serviceArtworkTag} from '@/content/generated-service-artwork';
 const escape = (s: string) =>
   s.replace(
     /[&<>"']/g,
@@ -33,7 +34,9 @@ export function renderPageAdditions(
   if (additions.support?.enabled) {
     const s = additions.support,
       src = s.mediaId ? assetUrl(s.mediaId) : "/homepage/support.webp";
-    markup += `<section class="cy-support-promo v-wrap" id="hosting-technical-support"><figure><img src="${escape(src)}" alt="${escape(s.alt)}" loading="lazy" width="1200" height="800"></figure><div><span class="v-label">${escape(s.label)}</span><h2>${escape(s.heading)}</h2><p>${escape(s.body)}</p><a class="hp-button" href="${escape(destination(s.href))}">${escape(s.actionLabel)} <span aria-hidden="true">↗</span></a></div></section>`;
+    const selected = !s.mediaId && serviceArtwork(slug, 'support');
+    const image = `<img src="${escape(src)}" alt="${escape(s.alt)}" loading="lazy" width="1200" height="800">`;
+    markup += `<section class="cy-support-promo v-wrap" id="hosting-technical-support"><figure>${selected ? serviceArtworkTag(image, selected, locale) : image}</figure><div><span class="v-label">${escape(s.label)}</span><h2>${escape(s.heading)}</h2><p>${escape(s.body)}</p><a class="hp-button" href="${escape(destination(s.href))}">${escape(s.actionLabel)} <span aria-hidden="true">↗</span></a></div></section>`;
   }
   if (additions.search?.enabled) {
     const s = additions.search;

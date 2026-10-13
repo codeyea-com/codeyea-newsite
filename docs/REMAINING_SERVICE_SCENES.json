@@ -1,0 +1,902 @@
+{
+  "digital-marketing": [
+    [
+      1,
+      "overview",
+      4,
+      5,
+      true,
+      "A delighted independent boutique owner beside a checkout counter using a phone held naturally low in her LEFT hand, screen tilted to viewer showing the fictional Luma Studio campaign overview. Context: clothing racks and paper shopping bags. Screen remains prominent, no finger over display. Two sharp white translucent cards genuinely emerge outside the photographic scene: 'DEMO RESULTS', 'Revenue +32%' and a rising green dollar chart. Natural candid joy, contemporary mixed-media advertising photograph.",
+      "صاحبة متجر تراجع نتائج حملة توضيحية على هاتفها"
+    ],
+    [
+      2,
+      "challenges",
+      9,
+      10,
+      false,
+      "A campaign manager comparing a Google Ads campaign and a social campaign on a large desktop monitor at an authentic working desk, screen primary. Different messages visibly misaligned across two campaign previews, notebook with the intended offer nearby, focused human partial profile at edge. Fictional brand 'Verde Supply'. Clear short screen text: 'Campaign review', 'Google Ads', 'Social', 'Message alignment'.",
+      "مراجعة توافق رسالة الإعلانات على كوكل والسوشيال ميديا"
+    ],
+    [
+      3,
+      "collage-audience",
+      3,
+      4,
+      false,
+      "Overhead close photograph of a portrait tablet showing a customer audience research board titled 'Mira Campaign', beside pencil annotations and two swatches from product packaging; a left hand writes on paper rather than obstructing the display. Target audience personas shown as content tiles not a spreadsheet.",
+      "تحديد جمهور الحملة ومراجعة احتياجاته"
+    ],
+    [
+      4,
+      "collage-creative",
+      3,
+      4,
+      false,
+      "Close diagonal view of a smartphone standing upright on a small desk stand showing a vivid fictional 'Bloom & Bean' social media beverage campaign. Real glass of iced berry tea and campaign photo contact sheets in background. One designer's sleeve at edge, no hand holding phone. Distinct orange and berry palette.",
+      "تصميم إعلان سوشيال ميديا مرتبط بالمنتج"
+    ],
+    [
+      5,
+      "collage-launch",
+      3,
+      4,
+      false,
+      "Photographic portrait crop of an open laptop on an advertising studio desk. Screen shows 'Orlo Campaigns', launch checklist with 'Creative approved', 'Audience ready', 'Tracking checked', 'Ready to launch'. A producer's hand uses trackpad away from display. Camera lens and sample cosmetics jar secondary props.",
+      "إعداد الحملة وفحص عناصرها قبل الإطلاق"
+    ],
+    [
+      8,
+      "include-strategy",
+      16,
+      9,
+      false,
+      "Two collaborators planning a campaign at a table, faces only partial, laptop screen dominates with fictional 'Cedar Growth' audience and offer brief. Real product sample, concise campaign notes and sketch of landing page. Screen text 'Audience', 'Offer', 'Next action'. Natural clear daylight, no floating elements.",
+      "فريق يحدد الجمهور والعرض وهدف الحملة"
+    ],
+    [
+      9,
+      "include-channels",
+      16,
+      9,
+      false,
+      "Desktop monitor, portrait phone and small tablet together on a creative studio workbench, all display a coherent fictional 'Aster Skincare' campaign across Google search ad, social post and landing page. Screens dominate. Cosmetic package, notebook and a person's forearm add real context; no detached UI.",
+      "حملة متناسقة عبر البحث والسوشيال وصفحة الهبوط"
+    ],
+    [
+      10,
+      "include-report",
+      16,
+      9,
+      false,
+      "A client and strategist seated beside a large laptop reviewing meaningful campaign analytics, joyful but credible expressions at edges; screen shows 'Northline Campaign Review', tabs 'Google Ads' and 'Social', and legible 'DEMO DATA', 'Enquiries +24%', 'Sales +18%'. A concise rising chart connects traffic to enquiries, not a dense generic table.",
+      "مراجعة نتائج كوكل والسوشيال مع العميل ببيانات توضيحية"
+    ],
+    [
+      11,
+      "path-focus",
+      4,
+      5,
+      false,
+      "Portrait photo of a business owner and campaign designer discussing audience and product at a coffee shop counter; tablet resting on a tilted stand with 'Sora Coffee' campaign brief, customer message and beverage photograph. People secondary, screen and relevant product central.",
+      "مناقشة جمهور الحملة والعرض داخل النشاط"
+    ],
+    [
+      "path-2",
+      "path-journey",
+      4,
+      5,
+      false,
+      "Close portrait photograph of a phone lying diagonally beside an open laptop, both show a matching fictional 'Aven Workshops' ad and booking landing page, clear 'Reserve your place' and confirmation UI. Human index finger poised near a bottom button without covering content. Workshop tools in subtle background.",
+      "ربط الإعلان بصفحة حجز واضحة"
+    ],
+    [
+      "path-3",
+      "path-improve",
+      4,
+      5,
+      false,
+      "Happy artisan shop owner standing at counter beside an open laptop with a prominent campaign results dashboard titled 'Terra Goods', short 'DEMO DATA' caption and a steady rising enquiries chart; person smiles while a collaborator points to a notebook, hands away from screen. Handmade ceramics in surroundings.",
+      "صاحب نشاط يراجع نتائج الحملة وخطوة التحسين"
+    ],
+    [
+      "work-1",
+      "work-1-context",
+      4,
+      3,
+      false,
+      "Laptop angled on a consulting desk displaying 'Novara Consulting' focused landing page and enquiry confirmation in the same browser. A client's notebook and pen in foreground. Screen large, clear enquiry journey, cropped hand on keyboard.",
+      "حملة مرتبطة بصفحة هبوط وطلب تواصل"
+    ],
+    [
+      "work-2",
+      "photo-2",
+      4,
+      3,
+      false,
+      "An upright tablet on a clothing designer's cutting table displays the 'Elara Edit' seasonal fashion campaign; real fabric samples, garment and sketchbook surround device, partial human hands arranging fabric, screen primary.",
+      "إطلاق مجموعة أزياء عبر حملة متناسقة"
+    ],
+    [
+      "work-3",
+      "work-3-context",
+      4,
+      3,
+      false,
+      "Laptop on a product studio table displaying a fictional 'Onda Care' email follow-up sequence with three brief messages and preference link, naturally visible cosmetics props, human hand on trackpad. Clear 'Welcome', 'Product guide', 'Your preferences'.",
+      "متابعة إيميل مرتبطة باهتمام العميل"
+    ],
+    [
+      "work-4",
+      "photo-4",
+      4,
+      3,
+      false,
+      "Phone on a countertop stand and a compact tablet show 'Juniper Café' local search listing and matching current menu. Real barista hand places espresso next to device, natural café light. Screen shows café photo, opening hours and menu, no invented review stars.",
+      "توحيد ظهور المقهى في البحث والمنيو"
+    ],
+    [
+      "work-5",
+      "work-5-context",
+      4,
+      3,
+      false,
+      "Over-shoulder close view of a campaign analyst's desktop monitor showing 'Metric Grove', Google Ads and Social source cards flowing into enquiries; one clean line chart, 'DEMO DATA' visible. Small plant and campaign brief secondary, detailed authentic screen.",
+      "تحليل مصادر الحملة وطلبات التواصل"
+    ],
+    [
+      "work-6",
+      "photo-6",
+      4,
+      3,
+      false,
+      "Two business collaborators, mostly shoulders and hands, review a tablet displaying 'Nexa Logistics' campaign explaining a complex freight service in three concise illustrated steps. Freight model and printed brochure nearby, screen focal point.",
+      "شرح خدمة للشركات ضمن حملة واضحة"
+    ]
+  ],
+  "web-mobile-apps": [
+    [
+      1,
+      "overview",
+      4,
+      5,
+      true,
+      "Photoreal contextual multi-device arrangement: desktop monitor behind open laptop, tablet angled horizontally and phone on stand show a coherent fictional 'PulseDesk' appointment platform. A product designer beside desk partially visible with hand on keyboard. Devices fill most composition. Two sharp translucent white cards emerge beyond scene edge, 'Synced' and 'Booking confirmed'. True alpha outside scene and protruding cards.",
+      "تطبيق حجز متصل على حاسبة ولابتوب وتابلت وموبايل"
+    ],
+    [
+      2,
+      "challenges",
+      9,
+      10,
+      false,
+      "Close view of a person comparing a cluttered paper request process with a clear fictional 'FlowNest' mobile app on tablet propped at their desk; a phone lying face-up displays matching task status. Real hand sorting paper, screen remains clear. Show simplifying manual work, not unhappy generic office people.",
+      "تحويل خطوات العمل اليدوية إلى تطبيق واضح"
+    ],
+    [
+      3,
+      "collage-plan",
+      3,
+      4,
+      false,
+      "Top-down portrait composition of tablet displaying 'RouteNote' mobile journey wireframes, stylus held in left hand annotating margin, three paper user-flow sketches around tablet. Detailed natural hands, no finger through screen.",
+      "تخطيط رحلة المستخدم على تابلت بقلم"
+    ],
+    [
+      4,
+      "collage-build",
+      3,
+      4,
+      false,
+      "Phone on a dark desktop stand displaying 'FieldPilot' mobile task app; behind it laptop shows matching development preview, software engineer's hand at keyboard, screen dominant, actual app UI not wall of code.",
+      "تطوير التطبيق وربط واجهته بالعمل"
+    ],
+    [
+      5,
+      "collage-test",
+      3,
+      4,
+      false,
+      "Two different real phones and one small portrait tablet on a product test bench display the same 'Vela Booking' appointment flow at different stages; a tester's fingertip lightly touches the lower navigation edge, labels and content unobscured.",
+      "اختبار تجربة التطبيق عبر أجهزة متعددة"
+    ],
+    [
+      8,
+      "include-ux",
+      16,
+      9,
+      false,
+      "A designer and customer discuss mobile app screens on a landscape tablet resting between them, faces cropped, notebook maps steps, one finger points to paper not screen. Tablet shows 'Milo App' interface prototype and a visible feedback comment 'Make booking clearer'.",
+      "مناقشة واجهة التطبيق والفيدباك مع العميل"
+    ],
+    [
+      9,
+      "include-integrations",
+      16,
+      9,
+      false,
+      "Phone and tablet foreground show a fictional 'SyncWorks' order application with visible connected record, while laptop behind displays a simple matching data and integration flow inside its physical screen. Developer's arm beside keyboard, practical workbench, readable devices.",
+      "ربط واجهة التطبيق والبيانات والتكاملات"
+    ],
+    [
+      10,
+      "include-release",
+      16,
+      9,
+      false,
+      "Quality tester at desk with phone in a LEFT hand and tablet on stand, both display fictional 'Orbit Tasks' release checklist, clear 'Login checked', 'Forms tested', 'Ready for review'. Laptop screen shows same release overview. Human partial profile secondary.",
+      "اختبارات الدخول والوظائف والتحضير للإطلاق"
+    ],
+    [
+      11,
+      "path-focus",
+      4,
+      5,
+      false,
+      "Portrait close photo of two collaborators framing a mobile app idea, tablet flat on desk with 'Tandem' user needs and first-release wireframe, phone and handwritten needs cards nearby. No faces required, varied hands working on paper around device.",
+      "تحديد مشكلة المستخدم ونطاق أول إصدار"
+    ],
+    [
+      "path-2",
+      "path-journey",
+      4,
+      5,
+      false,
+      "Tablet standing upright in a quiet studio shows 'Luma Portal' app prototype with clear request status, small phone beside it shows same request; client sitting side-on writes online feedback using separate keyboard. Dominant screen, clean realistic composition.",
+      "تجربة النموذج وتوثيق ملاحظات العميل"
+    ],
+    [
+      "path-3",
+      "path-improve",
+      4,
+      5,
+      false,
+      "App developer and client at a worktable reviewing a phone on stand with fictional 'Peak App' version update and 'Feedback reviewed', tablet beside shows accepted feature cards. Natural positive collaboration, human shoulders secondary, no device held in right hand.",
+      "مراجعة ملاحظات الاستخدام وتطوير التطبيق"
+    ],
+    [
+      "work-1",
+      "work-1-context",
+      4,
+      3,
+      false,
+      "Desktop, laptop, tablet and smartphone grouped coherently on clinic reception workbench displaying the same fictional 'CareSlot' appointment app, tablet shows booking confirmation. Receptionist's hand writes in notebook nearby, screen prominent, clean photography.",
+      "حجز موعد وتجربة متناسقة على كل الأجهزة"
+    ],
+    [
+      "work-2",
+      "photo-2",
+      4,
+      3,
+      false,
+      "Construction site coordinator seen from side with rugged tablet braced on a workbench showing 'SiteLoop' job progress and approved site photo. Safety helmet and rolled plans nearby. Gloved hand holds bezel, fingers fully off screen, natural concrete setting.",
+      "فريق ميداني يوثق التقدم عبر تابلت"
+    ],
+    [
+      "work-3",
+      "work-3-context",
+      4,
+      3,
+      false,
+      "Seated customer at a desk uses a phone supported in left palm to review fictional 'Clarity Portal', clear document request and 'Under review' status, landscape tablet nearby shows matching document list. Screen dominates close shot, no finger covering status.",
+      "بوابة عميل توضح الطلبات والمستندات"
+    ],
+    [
+      "work-4",
+      "photo-4",
+      4,
+      3,
+      false,
+      "Tablet mounted on warehouse trolley showing fictional 'StockTrail' inventory app with clear product photo, available quantity and movement confirmation. Worker scans a real product barcode with handheld scanner beside it, human forearm only.",
+      "إدارة المخزون داخل المستودع بتابلت"
+    ],
+    [
+      "work-5",
+      "work-5-context",
+      4,
+      3,
+      false,
+      "Smartphone on café counter stand displays fictional 'Perk & Pour' loyalty app with clear reward card and 'Redeem reward', barista hands pass a coffee cup beside the screen. Natural real-life context, interface primary.",
+      "تطبيق ولاء ومكافآت واضح للعميل"
+    ],
+    [
+      "work-6",
+      "photo-6",
+      4,
+      3,
+      false,
+      "Courier at a package sorting table checking delivery status on a mounted portrait tablet titled 'ParcelWay', phone lying face-up shows matching 'Out for delivery'. Shipping boxes and scanner secondary, worker visible partially, no driving scene.",
+      "تحديثات توصيل مرتبطة بفريق الإرسال"
+    ]
+  ],
+  "technical-support": [
+    [
+      1,
+      "overview",
+      4,
+      5,
+      true,
+      "A technician at an authentic computer workstation, three-quarter side angle, large monitor displaying a restored fictional 'Nova Studio' website. A sharp translucent white panel protrudes beyond the photographic scene and device edge reading 'RESTORED', 'HTTP 200', green check. Technician's natural hand on keyboard, real skin, screen foremost. True alpha outside scene.",
+      "تقني يصلح الموقع مع ظهور حالة HTTP 200"
+    ],
+    [
+      2,
+      "challenges",
+      9,
+      10,
+      false,
+      "A worried small business owner at their shop counter looks at a laptop with clear '503 Service unavailable' error on fictional 'Moss & Co' store. Partial face and expressive body language, no melodrama. Real merchandise surroundings, screen is main subject.",
+      "عميل يواجه توقف موقع نشاطه"
+    ],
+    [
+      3,
+      "collage-diagnose",
+      3,
+      4,
+      false,
+      "Close diagonal portrait photograph of laptop showing a clear error log and diagnostic trace titled 'Site diagnostics', technician's left hand takes notes on paper beside it. Minimal readable 'Database connection failed', no dense illegible code.",
+      "تشخيص سبب العطل من السجلات"
+    ],
+    [
+      4,
+      "collage-repair",
+      3,
+      4,
+      false,
+      "Desktop monitor at repair workstation displays WordPress plugin conflict check for fictional 'Studio Fern', clear 'Conflict isolated', 'Staging'. Technician partial shoulder at edge and keyboard foreground, neutral natural light.",
+      "عزل تعارض الإضافات وفحصه"
+    ],
+    [
+      5,
+      "collage-email",
+      3,
+      4,
+      false,
+      "Laptop on business desk shows email delivery diagnostic for fictional 'Orion Works', concise before/after messages 'Delivery failed' and 'Delivered', status 'DNS corrected by CODEYEA'. A real envelope and phone on stand support subject. No floating panels.",
+      "تصحيح إعدادات الإيميل وتأكيد وصول الرسالة"
+    ],
+    [
+      8,
+      "include-website",
+      16,
+      9,
+      false,
+      "Technician testing a restored website contact form on large laptop screen, fictional 'Aster Services', clear 'Message received' success. Phone on stand shows same working page, hand at trackpad, focused realistic workspace.",
+      "اختبار صفحات الموقع والفورم بعد التصليح"
+    ],
+    [
+      9,
+      "include-infrastructure",
+      16,
+      9,
+      false,
+      "Engineer in a real server maintenance room reviewing a portable laptop resource diagnostic, clear labels 'CPU', 'Memory', 'DNS', 'HTTPS' and stable trend, rack hardware secondary. Human natural partial profile, screen remains clear.",
+      "فحص السيرفر والموارد وDNS وHTTPS"
+    ],
+    [
+      10,
+      "include-recovery",
+      16,
+      9,
+      false,
+      "Desktop screen shows a careful backup restore for fictional 'Acorn Shop', concise 'Backup selected', 'Restore tested', 'Verified'. External backup drive and notebook on desk, technician hands on keyboard, no detached UI.",
+      "استعادة نسخة احتياطية وفحص الموقع"
+    ],
+    [
+      11,
+      "path-focus",
+      4,
+      5,
+      false,
+      "Client sitting at a shop counter beside laptop showing website error, support ticket on tablet titled 'Support Desk', technician responding via small video tile within screen. Client gestures toward written incident notes rather than screen, natural context.",
+      "جمع تفاصيل العطل وتحديد أثره"
+    ],
+    [
+      "path-2",
+      "path-repair",
+      4,
+      5,
+      false,
+      "Technician seen partly from side reviewing recovery checklist on portrait monitor, fictional 'Birch Studio' site healthy on laptop below. Screen text 'Repair', 'Form test', 'Access check'. Real technical workstation, clean realistic photo.",
+      "إصلاح السبب واختبار الوظائف المتأثرة"
+    ],
+    [
+      "path-3",
+      "path-handoff",
+      4,
+      5,
+      false,
+      "Relieved business owner and technical specialist at a counter review a tablet on stand showing the restored site 'Willow Market' and a brief handoff checklist. Owner smiles naturally, screen primary, handwritten next steps and product carton nearby.",
+      "تسليم الموقع بعد التصليح مع خطوات المتابعة"
+    ]
+  ],
+  "ecommerce": [
+    [
+      1,
+      "collage-storefront",
+      3,
+      4,
+      false,
+      "A laptop open among neatly arranged outdoor merchandise, displays fictional 'Trail & Tide' online store with a large hiking backpack product and 'Add to cart'. Partial shop owner's forearm next to trackpad, natural retail workbench, screen central.",
+      "واجهة متجر داخل لابتوب وسط البضاعة"
+    ],
+    [
+      2,
+      "collage-backend",
+      3,
+      4,
+      false,
+      "Portrait tablet propped in a stockroom showing fictional 'Atelier Stock' store backend with a ceramic vase product photo and clear green 'SOLD' label, shipping carton and the same real vase nearby. Worker hands fold tissue paper beside device.",
+      "باك اند متجر يعرض المنتج وحالة تم البيع"
+    ],
+    [
+      3,
+      "collage-checkout",
+      3,
+      4,
+      false,
+      "A shopper seated on sofa uses a smartphone supported naturally by both palms, screen facing viewer shows fictional 'Nook Living' lamp added to shopping cart. One thumb near bottom Add button, all screen content clear, home textiles secondary.",
+      "عميل يتصفح المتجر ويضيف منتجاً للسلة"
+    ],
+    [
+      4,
+      "operations",
+      20,
+      9,
+      false,
+      "Wide close photograph of large desktop monitor on an ecommerce stockroom counter displaying fictional 'Forma Store' admin dashboard, product photography and prominent 'SOLD', 'Payment received', 'Ready to ship'. Real merchandise, scanner and package next to monitor, staff partial hands sorting the sold item. Screen dominates, not a generic dense table.",
+      "إدارة المنتجات والطلبات والمدفوعات من لوحة المتجر"
+    ],
+    [
+      5,
+      "payments",
+      2,
+      1,
+      false,
+      "Laptop on customer desk displays fictional 'Kanso Home' secure checkout with actual lamp product photo, clear order summary, card selection and 'Payment received'. Phone beside device shows matching receipt; customer's left hand on trackpad, no exposed full card details.",
+      "إتمام الدفع وعرض إيصال الطلب داخل الأجهزة"
+    ],
+    [
+      6,
+      "film-discover",
+      4,
+      3,
+      false,
+      "Overhead photograph of tablet on textile worktable displaying 'Threadline' store collection; real folded shirts and fabric surround tablet, fingertips at bezel only.",
+      "استعراض مجموعة منتجات المتجر"
+    ],
+    [
+      7,
+      "film-pack",
+      4,
+      3,
+      false,
+      "Hands packing a sold candle into a branded 'Lume Goods' parcel beside upright smartphone on stand showing 'Order paid' and candle thumbnail. Screen and packing action balanced, no complete person.",
+      "تجهيز طلب مدفوع للشحن"
+    ],
+    [
+      8,
+      "film-ship",
+      4,
+      3,
+      false,
+      "Tablet resting on dispatch counter shows fictional 'Parcel & Pine' store shipment with large parcel photo and 'Shipped', real boxes and handheld scanner nearby, worker forearm printing label.",
+      "تجهيز الشحنة وتحديث حالتها"
+    ],
+    [
+      9,
+      "film-deliver",
+      4,
+      3,
+      false,
+      "Customer at doorway receives a small parcel, tablet on entry console shows fictional 'Eden Shop' delivery confirmation and 'Delivered'. Human torsos and hands naturally visible, no faces dominating; clean joyful delivery moment.",
+      "وصول الطلب للعميل وتأكيد التسليم"
+    ],
+    [
+      10,
+      "work-discovery",
+      1,
+      1,
+      false,
+      "Large desktop, laptop and phone in a homeware studio display coherent fictional 'Haven Objects' ecommerce collection, real ceramic objects and folded textile frame the devices, designer partial shoulder secondary. Editorial product discovery interface.",
+      "اكتشاف منتجات متجر عبر أجهزة متعددة"
+    ],
+    [
+      11,
+      "work-operations",
+      6,
+      5,
+      false,
+      "Open laptop among handmade skincare merchandise displays fictional 'Aurelia Store' backend: matching product photo, inventory count and 'SOLD'. Store owner beside laptop folds order note, screen sharply readable.",
+      "باك اند متجر ومخزون مرتبط بالمنتج"
+    ],
+    [
+      12,
+      "work-cart",
+      8,
+      7,
+      false,
+      "Shopper compares a real running shoe with its fictional 'Stride Supply' product page on tablet resting on a bench; phone on small stand shows the shoe in cart. Hands at shoe and tablet bezel, active screens unobscured.",
+      "تصفح المنتج وإضافته لسلة المشتريات"
+    ],
+    [
+      13,
+      "work-checkout",
+      8,
+      7,
+      false,
+      "Close view of phone on angled desk stand displaying 'Oak & Ember' checkout confirmation with clear product photo, 'Payment received'; an open laptop behind shows matching store, natural customer hand beside keyboard.",
+      "دفع الطلب واستلام تأكيد الشراء"
+    ],
+    [
+      14,
+      "work-automation",
+      8,
+      7,
+      false,
+      "Desktop monitor on fulfilment desk displays fictional 'OrderFlow' ecommerce automation as four concise visual stages INSIDE screen: 'Cart', 'Paid', 'Shipped', 'Delivered', linked to a visible product photo. Tablet beside shows matching store. Real parcel and worker's hands support context.",
+      "أتمتة الطلب من السلة إلى الدفع والشحن والتسليم"
+    ],
+    [
+      "capabilities",
+      "capabilities",
+      2,
+      1,
+      false,
+      "Angled laptop and small tablet on merchant counter display fictional 'Commerce Lane' storefront and its connected order administration, same product photograph on both, a product carton between devices, natural hand at keyboard.",
+      "ربط واجهة المتجر بالإدارة والطلبات"
+    ]
+  ],
+  "website-hosting": [
+    [
+      1,
+      "intro",
+      4,
+      5,
+      false,
+      "A close photoreal server cabinet with continuously glowing green status lights and a physical portrait operations monitor on its side. The large monitor shows the fictional Harbor Hosting availability dashboard, a clean uninterrupted green 24-hour timeline and a dominant exact '99.99%' above 'UPTIME'. Small '24/7 monitoring'. Equipment and readable monitor fill the portrait frame; relevant cables and actual server hardware provide context, no full person.",
+      "استمرارية عمل السيرفرات بنسبة 99.99%"
+    ],
+    [
+      2,
+      "server",
+      7,
+      3,
+      false,
+      "Wide photograph of a real server rack aisle with a large desktop monitor in foreground showing fictional 'Atlas Hosting Console' stable storage and cache activity. Technician partial side profile at edge, actual metallic racks and network cabling, prominent meaningful monitor, no science-fiction glowing network.",
+      "سيرفرات ومراقبة التخزين والكاش"
+    ],
+    [
+      3,
+      "performance",
+      1,
+      1,
+      false,
+      "Close low-angle photograph of a powerful server with visible NVMe drives and a laptop on a rolling technician shelf. On the laptop a large performance gauge and bold 'FAST RESPONSE', with small 'NVMe' and 'Cache active'. A cropped technician sleeve supports the scene. Emphasize server speed and high performance only, no uptime figure and no security badges.",
+      "قوة أداء السيرفرات وسرعة الاستجابة"
+    ],
+    [
+      4,
+      "security",
+      6,
+      5,
+      false,
+      "Physical server rack and a prominent desktop monitor showing the fictional Harbor Hosting security console. A large crisp shield-and-lock graphic is inside the monitor beside exact 'SSL ACTIVE' and 'HTTPS'. Small firewall rule checklist, an actual security key near keyboard, cropped technician hand at keyboard. Focus security only.",
+      "حماية السيرفرات وتشفير SSL"
+    ],
+    [
+      5,
+      "manage",
+      1,
+      1,
+      false,
+      "Desktop screen at small business office shows a realistic cPanel-like hosting control workspace titled 'Control Desk', clear file manager, databases and domains sections. Person seated beside monitor in partial profile, keyboard hand natural.",
+      "إدارة الملفات والدومينات وقواعد البيانات"
+    ],
+    [
+      6,
+      "builder",
+      3,
+      1,
+      false,
+      "Wide detailed photograph of a laptop showing fictional 'Mosaic Studio' website builder with an attractive website preview, designer forearm using trackpad, a printed page outline along desk. Keep central screen composition readable in a shallow wide image.",
+      "بناء صفحات الموقع وتنظيم المحتوى"
+    ],
+    [
+      7,
+      "migration",
+      1,
+      1,
+      false,
+      "Two laptops at a technical desk show the same fictional 'Harbor Services' website before and after a hosting move, one screen says 'Source', other 'Destination checked'. Technician hands review printed migration checklist in foreground.",
+      "نقل الموقع وفحصه على الاستضافة الجديدة"
+    ],
+    [
+      "support",
+      "support",
+      4,
+      3,
+      false,
+      "Support technician and business owner beside a desktop monitor review a working fictional 'Maple Works' website and a support ticket marked 'Resolved', natural attentive expressions, screen primary.",
+      "دعم تقني لمعالجة مشاكل الموقع والاستضافة"
+    ],
+    [
+      8,
+      "cta",
+      3,
+      1,
+      false,
+      "Wide scene of a small creative team beside a long desk planning a company website, central desktop and laptop show fictional 'Foundry Collective' site, authentic work materials at edges and space for the existing CTA overlay. Calm confident mood, no baked text outside devices.",
+      "فريق يخطط لاستضافة موقعه ومتابعة نموه"
+    ]
+  ],
+  "wordpress-hosting": [
+    [
+      1,
+      "intro",
+      4,
+      5,
+      false,
+      "An actual WordPress operations laptop tilted on a server-room service cart with an upright secondary monitor. Large clearly recognizable official blue WordPress W-in-circle logo appears prominently in the upper part of the main laptop display, and 'WordPress' text. The upright monitor shows exact '99.99%' and 'UPTIME' in large readable type with an uninterrupted green availability timeline. Physical server racks with green LEDs occupy restrained background. Contextual close photograph, screens prominent. No runner in this image.",
+      "استمرارية عمل السيرفرات بنسبة 99.99%"
+    ],
+    [
+      2,
+      "server",
+      7,
+      3,
+      true,
+      "Premium photoreal mixed-media WordPress speed composition inspired by the supplied runner reference: athletic sprinter in charcoal sportswear powering forward alongside an open laptop displaying a crisp fictional 'Sprint Studio' WordPress website and a recognizable WordPress W emblem. Physical laptop screen prominent. One square white translucent performance card protrudes with 'Cache ready'. No quantified speed claims. Natural texture, restrained violet accent, true transparent surroundings outside athlete, device and panel.",
+      "سرعة ووردبريس بتكوين عدّاء ولابتوب"
+    ],
+    [
+      3,
+      "performance",
+      1,
+      1,
+      false,
+      "Close realistic desktop workstation monitoring a WordPress website next to compact powerful server hardware with visible SSD tray. Desktop display prominently features the official blue WordPress W-in-circle logo, exact 'WordPress' and 'FAST PERFORMANCE', with 'Page cache' and 'NVMe' beneath a fast performance gauge. Partial designer hand on keyboard, no full face. Focus on speed only; no uptime or SSL text.",
+      "قوة أداء السيرفرات وسرعة الاستجابة"
+    ],
+    [
+      4,
+      "security",
+      6,
+      5,
+      false,
+      "Close laptop and physical security key next to a small server stack, crisp laptop display shows official blue WordPress W-in-circle logo prominently with 'WordPress' and large 'SSL ACTIVE', lock icon and 'HTTPS'. Small 'Firewall enabled' line. A secondary portrait phone on stand shows the secure same site. Context remains relevant server security, no person holding phone and no uptime or speed text.",
+      "حماية السيرفرات وتشفير SSL"
+    ],
+    [
+      5,
+      "manage",
+      1,
+      1,
+      false,
+      "Content editor at desk with laptop showing WordPress site manager for fictional 'Origin Magazine', recognizable Pages, Media and Plugins menu and a large article thumbnail. Cropped human shoulder secondary, a paper editorial plan nearby.",
+      "إدارة محتوى وإضافات موقع ووردبريس"
+    ],
+    [
+      6,
+      "builder",
+      3,
+      1,
+      false,
+      "Wide shallow composition of tablet on a stand and laptop showing a coherent fictional 'Studio Petal' website being arranged in a block editor. Designer hands sketch layout beside device, real floral sample secondary, central screens occupy image.",
+      "تخطيط صفحات موقع ووردبريس وتحريرها"
+    ],
+    [
+      7,
+      "migration",
+      1,
+      1,
+      false,
+      "Two close angled screens on technician desk show a fictional 'Evergreen Press' WordPress website and a clear migration checklist 'Files', 'Database', 'Links checked'. Natural human hands on keyboard, small cable and notebook props. No floating panels.",
+      "نقل موقع ووردبريس مع فحص الملفات والروابط"
+    ],
+    [
+      "support",
+      "support",
+      4,
+      3,
+      false,
+      "Technician reviewing WordPress plugin conflict on desktop while client watches beside monitor, a second tablet shows restored fictional 'Daily Nest' homepage, clear 'Site restored'. Natural human texture, no fake big claims.",
+      "معالجة تعارض إضافات ووردبريس واستعادة الموقع"
+    ],
+    [
+      8,
+      "cta",
+      3,
+      1,
+      false,
+      "Wide contextual scene of an editorial team collaborating around a desktop and laptop displaying a fictional 'Field Notes' WordPress publication. Natural partial people, screen central, cool bright office light, calm space for existing CTA text overlay.",
+      "فريق يدير وينشر محتوى موقع ووردبريس"
+    ]
+  ],
+  "cloud-hosting": [
+    [
+      1,
+      "intro",
+      4,
+      5,
+      false,
+      "Tall close photograph of two redundant modern server racks and a portrait physical tablet on an articulated rack arm. Tablet shows the fictional Cirrus Cloud availability console with very large exact '99.99%' and 'UPTIME', and a continuous green 24-hour timeline. Subtle physical network cables between the two racks convey continuity. Screen fills enough frame to be readable, no floating panels, no other theme.",
+      "استمرارية عمل السيرفرات بنسبة 99.99%"
+    ],
+    [
+      2,
+      "server",
+      7,
+      3,
+      false,
+      "Wide realistic server-room photograph with two substantial server racks and a physical desktop monitor in foreground showing fictional 'CloudGrid' CPU, RAM and storage console with clear stable charts. Technician's shoulder at edge, screen dominant, cool neutral lighting; reference is server-and-monitor concept, not a toy model.",
+      "مراقبة موارد الكلاود من شاشة مرتبطة بالسيرفرات"
+    ],
+    [
+      3,
+      "performance",
+      1,
+      1,
+      false,
+      "Powerful modern cloud compute server partly open on technician workbench, GPU and cooling hardware visible, adjacent angled laptop displays fictional Stratus Compute performance console with large exact 'HIGH PERFORMANCE', a clean fast response gauge, and 'Auto scaling'. Technician fingertips rest on keyboard, natural cool neutral lighting. Focus on power and speed, no uptime or SSL text.",
+      "قوة أداء السيرفرات وسرعة الاستجابة"
+    ],
+    [
+      4,
+      "security",
+      6,
+      5,
+      false,
+      "Prominent desktop security monitor beside physical cloud server hardware. Screen reads fictional Nimbus Console, exact large 'SSL ACTIVE', 'Encrypted connection' and 'HTTPS', with crisp shield and lock symbol and a small firewall status line. A cropped engineer's shoulder secondary. Photograph only, security theme distinct from performance and uptime.",
+      "حماية السيرفرات وتشفير SSL"
+    ],
+    [
+      5,
+      "manage",
+      1,
+      1,
+      false,
+      "Desktop monitor shows fictional 'StackRoom' cloud workspace with three hosted sites, file storage and database tools; each site has a small different real website thumbnail. Operator hand on keyboard, credible uncluttered technical desk.",
+      "إدارة المواقع والبيانات من لوحة الكلاود"
+    ],
+    [
+      6,
+      "builder",
+      3,
+      1,
+      false,
+      "Wide close composition of a laptop showing fictional 'LaunchHarbor' application deployment preview, phone beside it displays the same published service site, developer's forearm and paper route sketch in foreground.",
+      "تجهيز موقع أو تطبيق على بنية الكلاود"
+    ],
+    [
+      7,
+      "migration",
+      1,
+      1,
+      false,
+      "Engineer reviews cloud migration on tablet propped near two real laptops, fictional 'Porter Cloud' checklist 'Source', 'Transfer', 'Verified', same SaaS app visible on destination screen. Screen readable, human hands on notebook rather than display.",
+      "نقل التطبيق للكلاود وفحصه بعد النقل"
+    ],
+    [
+      "support",
+      "support",
+      4,
+      3,
+      false,
+      "Cloud support specialist at large monitor investigates a clear resource trend for fictional 'Vector Apps', tablet beside shows restored application. Partial colleague on call within small on-screen tile, natural technical workplace.",
+      "دعم التطبيق وموارد السيرفر على الكلاود"
+    ],
+    [
+      8,
+      "cta",
+      3,
+      1,
+      false,
+      "Wide photoreal software team workbench with desktop and two laptops showing fictional 'Northstar Workspace' connected app, engineers collaborating naturally at edges, screens central, real materials and restrained blue accents. Designed for existing dark CTA overlay.",
+      "فريق يخطط لتوسّع التطبيق على الكلاود"
+    ]
+  ],
+  "email-hosting": [
+    [
+      1,
+      "intro",
+      4,
+      5,
+      false,
+      "A portrait desktop monitor showing fictional Aster Mail operations status with exact large '99.99%' and 'UPTIME', uninterrupted green 24-hour service timeline. A realistic smartphone on desk stand shows a professional email inbox, actual compact mail server at side with green indicator lights. Screens are large in this portrait composition, cropped human forearm at keyboard secondary. No speed or security topic.",
+      "استمرارية عمل السيرفرات بنسبة 99.99%"
+    ],
+    [
+      2,
+      "domain",
+      1,
+      1,
+      false,
+      "Laptop on small agency desk shows a composed professional email from 'hello@riverstudio.example' with consistent company signature and simple subject 'Project update'. Printed business card and person's hand using keyboard nearby, screen primary.",
+      "عنوان إيميل مهني باسم الشركة"
+    ],
+    [
+      3,
+      "filter",
+      6,
+      5,
+      false,
+      "Close desktop monitor showing fictional ClearMail email security console. Large readable exact 'SSL ACTIVE' and 'TLS ENCRYPTION', secure envelope and lock symbol, protected inbox alongside small Spam quarantine pane. Compact physical mail server and real security key on desk. Cropped technician shoulder secondary. Focus server and email security, no speed or uptime content.",
+      "حماية السيرفرات وتشفير SSL"
+    ],
+    [
+      4,
+      "clients",
+      1,
+      1,
+      false,
+      "Laptop, tablet and phone grouped closely with a compact mail server on a real office workstation show synchronized fictional Cedar Team email with subject 'Design review'. Main laptop display prominently reads 'FAST DELIVERY' and a clean message transmission progress marked 'Delivered'. A small fast response gauge emphasizes strong server performance; email visible coherently across all devices. Partial human arm using keyboard. No uptime or SSL text.",
+      "قوة أداء السيرفرات وسرعة الاستجابة"
+    ],
+    [
+      5,
+      "backup",
+      1,
+      1,
+      false,
+      "Tablet on desk stand shows fictional 'MailVault' mailbox storage and 'Backup available', laptop beside displays relevant conversation archive. Real external drive and organized document folder, natural human hand at keyboard.",
+      "مساحة البريد وأرشفة الرسائل والنسخ الاحتياطية"
+    ],
+    [
+      6,
+      "migration",
+      1,
+      1,
+      false,
+      "Two physical laptops on office migration desk show matching mailbox folder trees titled 'Source mailbox' and 'Destination mailbox', fictional 'Mira Studio' account, clear status 'Messages checked'. Engineer hands review checklist next to devices.",
+      "نقل الإيميلات والفولدرات وفحص اكتمالها"
+    ],
+    [
+      "support",
+      "support",
+      4,
+      3,
+      false,
+      "Email support technician at monitor showing delivery diagnostics, clear 'DNS corrected', 'Test message delivered', small CODEYEA support signature inside screen. Client's laptop beside shows the received email, authentic team interaction, no floating panels.",
+      "تصحيح إعدادات البريد والتأكد من وصول الرسائل"
+    ],
+    [
+      7,
+      "cta",
+      3,
+      1,
+      false,
+      "Wide calm team meeting table with desktop, laptop and phone showing the same fictional 'Common Ground' business email conversation. Natural partial colleagues collaborating and paper notes, central devices, room context restrained for existing CTA overlay.",
+      "تواصل فريق العمل عبر بريد الشركة"
+    ]
+  ],
+  "domains": [
+    [
+      0,
+      "privacy",
+      1,
+      1,
+      false,
+      "Close photo of laptop displaying a domain privacy overview for fictional 'novastudio.example', personal contact fields visibly masked, physical notebook with brand sketch and a security key nearby, hand on trackpad. No floating UI, screen important.",
+      "خصوصية بيانات الدومين وإدارة الاتصال"
+    ],
+    [
+      1,
+      "identity",
+      1,
+      1,
+      false,
+      "Two business founders at a creative table choosing a brand name, tablet on stand shows 'Morrow Studio' and 'morrowstudio.example' domain identity preview, printed logo sketches and color swatches nearby. Screen central, hands sorting paper, natural teamwork.",
+      "اختيار اسم دومين يعبّر عن البراند"
+    ],
+    [
+      2,
+      "hosting",
+      16,
+      9,
+      false,
+      "Contextual laptop, desktop and smartphone grouped on a new business desk display the same fictional 'Oakline Studio' website and its matching domain in browser, founder partially visible beside table, real brand materials and a small product. Central composition suitable for mobile alternate, no detached UI.",
+      "ربط الدومين بموقع واستضافة وبريد للشركة"
+    ]
+  ]
+}

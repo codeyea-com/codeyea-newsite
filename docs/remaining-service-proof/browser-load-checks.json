@@ -1,0 +1,119 @@
+[
+  {
+    "slug": "digital-marketing",
+    "broken": [],
+    "generated": 19,
+    "loadedGenerated": 13,
+    "mobileActive": 0
+  },
+  {
+    "slug": "ecommerce",
+    "broken": [],
+    "generated": 15,
+    "loadedGenerated": 5,
+    "mobileActive": 6
+  },
+  {
+    "slug": "web-mobile-apps",
+    "broken": [],
+    "generated": 19,
+    "loadedGenerated": 13,
+    "mobileActive": 0
+  },
+  {
+    "slug": "technical-support",
+    "broken": [],
+    "generated": 13,
+    "loadedGenerated": 13,
+    "mobileActive": 0
+  },
+  {
+    "slug": "website-hosting",
+    "broken": [],
+    "generated": 9,
+    "loadedGenerated": 8,
+    "mobileActive": 2
+  },
+  {
+    "slug": "wordpress-hosting",
+    "broken": [],
+    "generated": 9,
+    "loadedGenerated": 8,
+    "mobileActive": 2
+  },
+  {
+    "slug": "cloud-hosting",
+    "broken": [],
+    "generated": 9,
+    "loadedGenerated": 8,
+    "mobileActive": 2
+  },
+  {
+    "slug": "email-hosting",
+    "broken": [],
+    "generated": 8,
+    "loadedGenerated": 7,
+    "mobileActive": 1
+  },
+  {
+    "slug": "domains",
+    "broken": [],
+    "generated": 3,
+    "loadedGenerated": 3,
+    "mobileActive": 1
+  },
+  {
+    "slug": "digital-marketing",
+    "locale": "en",
+    "broken": [],
+    "generated": 19
+  },
+  {
+    "slug": "ecommerce",
+    "locale": "en",
+    "broken": [],
+    "generated": 15
+  },
+  {
+    "slug": "web-mobile-apps",
+    "locale": "en",
+    "broken": [],
+    "generated": 19
+  },
+  {
+    "slug": "technical-support",
+    "locale": "en",
+    "broken": [],
+    "generated": 13
+  },
+  {
+    "slug": "website-hosting",
+    "locale": "en",
+    "broken": [],
+    "generated": 9
+  },
+  {
+    "slug": "wordpress-hosting",
+    "locale": "en",
+    "broken": [],
+    "generated": 9
+  },
+  {
+    "slug": "cloud-hosting",
+    "locale": "en",
+    "broken": [],
+    "generated": 9
+  },
+  {
+    "slug": "email-hosting",
+    "locale": "en",
+    "broken": [],
+    "generated": 8
+  },
+  {
+    "slug": "domains",
+    "locale": "en",
+    "broken": [],
+    "generated": 3
+  }
+]
