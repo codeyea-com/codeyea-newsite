@@ -121,3 +121,9 @@ Compare industry sliders/lists and service lists in every location and both lang
 ## Website Design imagery direction, owner supplied 2026-10-13
 
 Website Design now has explicit page-specific direction. Show varied working methods and finished website examples: multiple devices together displaying a coherent responsive website, a designer discussing the site with the client, an app inside a mobile phone, and online feedback. Use the three supplied multi-device references for photography and arrangements while preserving each measured slot and orientation. Keep devices in relevant contexts, interfaces prominent, fictional names varied and small framed images free of extra popup/shadow treatments. Preserve the approved hero and page composition. Other unbriefed service pages still require owner direction.
+
+## Website Design Custom CMS section, owner requested 2026-10-13
+
+Add a new bilingual section explaining custom content management with clear practical benefits, technical details and contextual device images. Include a Special Features AI subsection: an optional agent receives a request to edit a page and add a photo album, performs the update, confirms success and shares the updated page link. Show the conversation inside a device in Arabic and English. Explain that simple updates can take seconds; avoid guaranteeing that every operation finishes instantly. Preserve all existing page sections.
+
+The owner specifically requires the new section and its CTA buttons to use animations already present in Website Design. Reuse the existing section entrance observer and the approved b-btn hover/focus behavior. Add clear calls to action connected to the existing project quote flow; do not invent new motion styles.

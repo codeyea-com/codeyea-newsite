@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-13",
+  "tool": "built-in image_gen",
+  "measuredFrames": {
+    "desktop": {
+      "viewport": 1422,
+      "editor": [
+        591.92,
+        443.94
+      ],
+      "workflow": [
+        383.72,
+        479.64
+      ],
+      "ai": [
+        570.18,
+        427.63
+      ]
+    },
+    "tablet": {
+      "viewport": 911,
+      "editor": [
+        407.56,
+        305.67
+      ],
+      "workflow": [
+        307.47,
+        384.34
+      ],
+      "ai": [
+        379.56,
+        284.67
+      ]
+    },
+    "mobile": {
+      "viewport": 390,
+      "editor": [
+        350.22,
+        262.67
+      ],
+      "workflow": [
+        350.22,
+        437.78
+      ],
+      "ai": [
+        310.22,
+        232.67
+      ]
+    }
+  },
+  "jobs": [
+    {
+      "id": "custom-cms-editor-v1",
+      "ratio": "4:3",
+      "prompt": "Use case: product-mockup. Create a polished photorealistic editorial website-service image. Screens are the main focal point, interfaces physically contained inside real devices. Contextual work objects support the task. Crisp professional realistic UI with sharp square corners. No floating UI outside devices, no decorative pop-up cards, no artificial shadow around the photograph, no watermark, no CODEYEA branding. No standalone screenshot. Natural materials and realistic device perspective. Generate directly at the requested aspect ratio; do not create a montage of separate photos. Landscape 1440x1080, aspect 4:3. Close slightly elevated three-quarter view of a large desktop monitor with a smaller open laptop beside it on an equipment company's technical workspace. Monitor occupies most of the frame, laptop secondary. No people. Small brushed metal sample and a folded engineering specification sheet at the edge give relevant context. Neutral daylight with navy and teal interface accents. The desktop screen displays a beautifully finished custom content editor named MODULO CMS. Large legible title Equipment editor, left navigation Pages / Equipment / Media. Editing equipment model PX-40, with meaningful fields Model name, Applications, Technical files, and a product photo of industrial equipment. Upper right a square teal button Preview and a smaller Save draft button. The laptop shows the finished elegant NORTHLINE EQUIPMENT product website with a large clean equipment photo and concise product heading PX-40. Interface should feel like an actual premium professional content management application with thoughtful typography and breathing room, not a simplistic flowchart or empty grid. Device screen faces camera enough to clearly understand the actual fields. Keep all devices inside the photo."
+    },
+    {
+      "id": "custom-cms-workflow-v1",
+      "ratio": "4:5",
+      "prompt": "Use case: product-mockup. Create a polished photorealistic editorial website-service image. Screens are the main focal point, interfaces physically contained inside real devices. Contextual work objects support the task. Crisp professional realistic UI with sharp square corners. No floating UI outside devices, no decorative pop-up cards, no artificial shadow around the photograph, no watermark, no CODEYEA branding. No standalone screenshot. Natural materials and realistic device perspective. Generate directly at the requested aspect ratio; do not create a montage of separate photos. Portrait 1080x1350, aspect 4:5. A large tablet in portrait orientation on a slim desk stand, angled subtly toward the camera, screen dominates roughly 75 percent of composition. Creative publishing desk with a printed content proof and proofreading pencil lying beside the stand. A cropped left hand holds the edge of the printed proof well away from the tablet, no fingers on the screen, no faces, no full person. Soft warm daylight, understated off-white and charcoal materials. On the real tablet screen is a premium editorial approval application named PUBLISHROOM, showing a realistic page review: heading Project update, an architectural project thumbnail and short edited copy in upper half; a restrained three-stage status strip Draft / Review / Publish; below a clear Review complete state and Version history with two concise entries Today 10:42 / Yesterday 16:20. One prominent square Publish update button. This must look like a high quality real application with a page preview and useful controls, not decorative generic boxes or tables. Distinct framing from the monitor image, strong tablet presence, realistic device edges, uncluttered supporting context."
+    },
+    {
+      "id": "custom-cms-ai-ar-v1",
+      "ratio": "4:3",
+      "prompt": "Use case: product-mockup. Create a polished photorealistic editorial website-service image. Screens are the main focal point, interfaces physically contained inside real devices. Contextual work objects support the task. Crisp professional realistic UI with sharp square corners. No floating UI outside devices, no decorative pop-up cards, no artificial shadow around the photograph, no watermark, no CODEYEA branding. No standalone screenshot. Natural materials and realistic device perspective. Generate directly at the requested aspect ratio; do not create a montage of separate photos. Landscape 1440x1080, aspect 4:3. Very close almost frontal view of a premium open laptop on a pale oak design-studio desk. Screen takes 80 percent of photo width and is large enough for chat text to be easily readable in a small website section. Entire screen visible, keyboard shallow foreground, slim device frame, modest surrounding scene. At left edge a small printed contact sheet of architectural project photos and pencil provide context. No people or hands. Bright natural daylight. A sophisticated AI assistant app on screen with off-white background, restrained navy sidebar, teal highlights, crisp square-corner message panels. The interface is Arabic RTL, with large accurate connected Arabic text. App name small in header: Noura AI. Main title: مساعد الموقع. Show exactly this short conversation in very large readable Arabic typography: user message \"حدّث صفحة المشاريع وأضف ألبوم الصور الجديد.\" beneath it three small attached thumbnails of building exteriors. Assistant reply with green check icon: \"تم التحديث بنجاح\" then \"تمت إضافة الألبوم إلى صفحة المشاريع.\" then a clear underlined blue link \"noura.example/projects\". A square button below reads \"عرض الصفحة\". The link must be clearly inside the assistant reply. No other body copy, no tiny fake text, no sample status metrics, no floating bubbles outside screen. The screen communicates request, completion, and page link immediately. Beautiful real-world mockup lighting and visible laptop physical context, no text pasted outside screen."
+    },
+    {
+      "id": "custom-cms-ai-en-v1",
+      "ratio": "4:3",
+      "prompt": "Use case: product-mockup. Create a polished photorealistic editorial website-service image. Screens are the main focal point, interfaces physically contained inside real devices. Contextual work objects support the task. Crisp professional realistic UI with sharp square corners. No floating UI outside devices, no decorative pop-up cards, no artificial shadow around the photograph, no watermark, no CODEYEA branding. No standalone screenshot. Natural materials and realistic device perspective. Generate directly at the requested aspect ratio; do not create a montage of separate photos. Landscape 1440x1080, aspect 4:3. Very close almost frontal view of a premium open laptop on a pale oak design-studio desk. Screen takes 80 percent of photo width and is large enough for chat text to be easily readable in a small website section. Entire screen visible, keyboard shallow foreground, slim device frame, modest surrounding scene. At left edge a small printed contact sheet of architectural project photos and pencil provide context. No people or hands. Bright natural daylight. A sophisticated AI assistant app on screen with off-white background, restrained navy sidebar, teal highlights, crisp square-corner message panels. English LTR interface, large readable typography. App name small in header: Noura AI. Main title: Website assistant. Show exactly this short conversation: user message \"Update the Projects page and add the new photo album.\" beneath it three small attached thumbnails of building exteriors. Assistant reply with green check icon: \"Updated successfully\" then \"The photo album is now on your Projects page.\" then a clear underlined blue link \"noura.example/projects\". A square button below reads \"View page\". The link must be clearly inside the assistant reply. No other body copy, no tiny fake text, no sample status metrics, no floating bubbles outside screen. The screen communicates request, completion, and page link immediately. Beautiful real-world mockup lighting and visible laptop physical context, no text pasted outside screen."
+    }
+  ]
+}

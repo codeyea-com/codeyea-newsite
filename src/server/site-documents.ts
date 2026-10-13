@@ -1,6 +1,7 @@
 import { serviceArtwork, serviceArtworkTag } from '../content/generated-service-artwork';
 import { contextualLink } from "@/content/contextual-links";
 import { renderIllustrativeWork } from './illustrative-work-render';
+import { renderWebsiteCustomCms } from './website-custom-cms-render';
 import arabicTemplateCopy from "@/content/arabic-template-copy.json";
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -1182,6 +1183,7 @@ export async function renderDocument(
     (all, protectedBlock, text, tag) =>
       protectedBlock ? all : (text || tag).replaceAll("\u2014", ", "),
   );
+  html = renderWebsiteCustomCms(html, slug, locale, contactHref);
   return html;
 }
 function slugTitle(slug: string) {
