@@ -1,4 +1,5 @@
 import {industryNames,industrySlugs} from './industry-registry';
+import {serviceCatalog} from './service-catalog';
 const homepageServiceDestinations:Readonly<Record<string,string>>={
  'service-1':'/web-mobile-apps/','service-2':'/ecommerce/','service-3':'/ai-automation/','service-4':'/website-hosting/',
  'service-5':'/seo-geo/','service-6':'/brand-design/','service-7':'/technical-support/','service-8':'/services/',
@@ -18,7 +19,7 @@ const approvedServiceDestinations:Readonly<Record<string,string>>={
  'sv-service-brand':'/brand-design/',
  'sv-service-graphic':'/brand-design/',
 };
-export function servicePageDestination(id:string){return approvedServiceDestinations[id]}
+export function servicePageDestination(id:string){const service=serviceCatalog.find(item=>item.id===id);return service?`/${service.slug}/`:approvedServiceDestinations[id]}
 const serviceTextRoutes:Array<[RegExp,string]>=[
  [/wordpress/, '/wordpress-hosting/'],
  [/email\s+hosting/, '/email-hosting/'],

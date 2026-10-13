@@ -1,0 +1,381 @@
+{
+  "beauty-skincare-med-spa:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "roofing:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "restaurants-cafes-bakeries:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "solar-energy:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "ar-online-magazine:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "homepage:draft": {
+    "menuServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    },
+    "menuIndustries": {
+      "count": 14,
+      "unique": 14,
+      "missing": [],
+      "extra": []
+    },
+    "homeIndustrySlides": [
+      "Healthcare & Aesthetic Clinics",
+      "Construction",
+      "Real Estate",
+      "eCommerce",
+      "Legal",
+      "Oil & Gas",
+      "Roofing",
+      "Small Business"
+    ],
+    "homeServices": [
+      "Web & App Development",
+      "eCommerce Solutions",
+      "AI & Automation",
+      "Hosting & Infrastructure",
+      "SEO & Digital Growth",
+      "Branding & Creative",
+      "Technical Support",
+      "Digital Strategy"
+    ],
+    "caseStudies": {
+      "sectionEnabled": true,
+      "cards": 3,
+      "approved": 0
+    }
+  },
+  "homepage:published": {
+    "menuServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    },
+    "menuIndustries": {
+      "count": 14,
+      "unique": 14,
+      "missing": [],
+      "extra": []
+    },
+    "homeIndustrySlides": [
+      "Healthcare & Aesthetic Clinics",
+      "Construction",
+      "Real Estate",
+      "eCommerce",
+      "Legal",
+      "Oil & Gas",
+      "Roofing",
+      "Small Business"
+    ],
+    "homeServices": [
+      "Web & App Development",
+      "eCommerce Solutions",
+      "AI & Automation",
+      "Hosting & Infrastructure",
+      "SEO & Digital Growth",
+      "Branding & Creative",
+      "Technical Support",
+      "Digital Strategy"
+    ],
+    "caseStudies": {
+      "sectionEnabled": true,
+      "cards": 3,
+      "approved": 0
+    }
+  },
+  "ar-construction:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "legal:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "ar-small-business:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "ar-event-coordinators:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "ar-real-estate:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "construction:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "event-coordinators:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "ar-e-commerce:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "services:draft": {
+    "completeServices": {
+      "count": 8,
+      "unique": 7,
+      "missing": [
+        "/technical-support/"
+      ],
+      "extra": []
+    }
+  },
+  "ar-fashion-and-lifestyle:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "small-business:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "ar-oil-and-gas:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "industries:draft": {
+    "directory": {
+      "count": 14,
+      "unique": 14,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "real-estate:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "ar-legal:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "fashion-and-lifestyle:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "e-commerce:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "oil-and-gas:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "healthcare:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "online-magazine:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "ar-healthcare:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "ar-industries:draft": {
+    "directory": {
+      "count": 14,
+      "unique": 14,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "ar-services:draft": {
+    "completeServices": {
+      "count": 8,
+      "unique": 7,
+      "missing": [
+        "/technical-support/"
+      ],
+      "extra": []
+    }
+  },
+  "ar-roofing:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "ar-restaurants-cafes-bakeries:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "ar-solar-energy:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "ar-homepage:draft": {
+    "menuServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    },
+    "menuIndustries": {
+      "count": 14,
+      "unique": 14,
+      "missing": [],
+      "extra": []
+    },
+    "homeIndustrySlides": [
+      "الرعاية الصحية والعيادات التجميلية",
+      "الإنشاءات والمقاولات",
+      "العقارات",
+      "التجارة الإلكترونية",
+      "الخدمات القانونية",
+      "النفط والغاز",
+      "الأسقف والعزل",
+      "الأعمال الصغيرة"
+    ],
+    "homeServices": [
+      "تطوير الويب والتطبيقات",
+      "حلول التجارة الإلكترونية",
+      "الذكاء الاصطناعي وأتمتة الأعمال",
+      "الاستضافة والبنية التقنية",
+      "SEO والنمو الرقمي",
+      "الهوية والإبداع",
+      "الدعم التقني",
+      "الاستراتيجية الرقمية"
+    ],
+    "caseStudies": {
+      "sectionEnabled": true,
+      "cards": 3,
+      "approved": 0
+    }
+  },
+  "ar-beauty-skincare-med-spa:draft": {
+    "industryServices": {
+      "count": 8,
+      "unique": 8,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "fallbackDirectoryCount": 14,
+  "fallbackHomeIndustryCount": 8
+}

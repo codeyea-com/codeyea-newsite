@@ -4,6 +4,7 @@ import type { HomepageContent, EditorObject } from "@/schemas/homepage-editor";
 import { resolveHomepage, iconKeys } from "@/content/homepage-defaults";
 import { servicePageDestination } from "@/content/service-destinations";
 import { defaultServices } from "@/content/services-defaults";
+import { localizedHref } from "@/content/arabic-navigation";
 import { publicDestination } from "@/content/public-destination";
 import { HomepageHeader } from "./homepage-header";
 import { HomepageFooter } from "./homepage-footer";
@@ -121,9 +122,7 @@ export function ServicesPage({
                 ...item,
                 ...(content.localeId === "ar" && current
                   ? {
-                      title: current.title,
                       body: current.body,
-                      label: current.label,
                       actionLabel: current.actionLabel,
                     }
                   : {}),
@@ -139,9 +138,9 @@ export function ServicesPage({
   const target = (path: string | null, id?: string) => {
     const destination = (id ? servicePageDestination(id) : undefined) || path;
     if (!destination) return undefined;
-    const normalized = publicDestination(destination);
-    return normalized === "/contact/#contact-form" ||
-      availablePaths.includes(destination)
+    const normalized = content.localeId === 'ar' ? localizedHref(publicDestination(destination)) : publicDestination(destination);
+    return normalized.replace(/^\/ar\//, '/') === "/contact/#contact-form" ||
+      availablePaths.includes(normalized)
       ? normalized
       : undefined;
   };

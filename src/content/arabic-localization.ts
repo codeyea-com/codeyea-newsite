@@ -5,9 +5,14 @@ import { arabicIndustryProfiles } from "./arabic-industry-profiles";
 import type { Snapshot } from "@/schemas/content";
 import { localizedHref } from "./arabic-navigation";
 import { servicePageDestinationForText } from "./service-destinations";
+import { serviceCatalog } from './service-catalog';
 const dictionary: Record<string, string> = templateCopy;
 export function arabicText(value: string) {
   const trimmed = value.trim();
+  for (const service of serviceCatalog) {
+    if (trimmed === service.title) return service.ar;
+    if (trimmed === service.body) return service.bodyAr;
+  }
   const authored = dictionary[value] ?? dictionary[trimmed];
   if (authored) return authored;
   if (

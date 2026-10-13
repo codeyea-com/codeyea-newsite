@@ -1,5 +1,6 @@
 import { ContextualCopy } from "./contextual-copy";
 import {withGeneratedIndustryMedia} from '@/content/generated-industry-media';
+import {synchronizeIndustryServices} from '@/content/synchronized-service-lists';
 import { RoofingHubBody } from "./roofing-hub-body";
 import type { IndustryItem } from "@/schemas/industries-page";
 import type {
@@ -77,7 +78,7 @@ export function IndustryDetailPage({
   availablePaths?: string[];
 }) {
   const home = resolveHomepage(shared);
-  content = withGeneratedIndustryMedia(content);
+  content = withGeneratedIndustryMedia(synchronizeIndustryServices(content));
   function href(destination: string) {
     const normalized = publicDestination(destination);
     if (

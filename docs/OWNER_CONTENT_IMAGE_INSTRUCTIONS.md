@@ -113,3 +113,7 @@ Mobile: the existing Get Your Free Quote action must remain fixed at the bottom 
 
 ## Latest scope gate, 2026-10-13
 Owner now requires a page-specific imagery-style question for remaining service pages. Complete SEO, Brand Design and AI/Automation using supplied directions first, then ask about the remaining service pages one at a time. Do not autonomously generate further Digital Marketing, Web/Mobile Apps, Technical Support, hosting or other service-page images before that direction. Existing approved industry/contextual work remains authorized. This supersedes the earlier request to decide all service-image styles autonomously.
+
+## Catalog consistency and Homepage sequencing, 2026-10-13
+
+Compare industry sliders/lists and service lists in every location and both languages. Complete lists must use the same implemented industry/service identities without missing or duplicated destinations. Preserve approved page compositions. The Homepage is the final work phase: reconcile its incomplete industry slider and service list, address the missing Arabic/English Case Studies, and retain the earlier request for three hero concepts. Do not treat catalog work as permission to start a Homepage redesign. Findings and outstanding Homepage items are recorded in `CATALOG_SYNC_AND_HOMEPAGE_BACKLOG.md`.

@@ -2,6 +2,7 @@ import { enabledItems, type EditorObject } from "@/schemas/homepage-editor";
 import { str } from "@/content/homepage-render";
 import { industryNames, industrySlugs } from "@/content/industry-registry";
 import { arabicNavigation, localizedHref } from "./arabic-navigation";
+import { serviceCatalog } from './service-catalog';
 const hosting = [
   [
     "Website Hosting",
@@ -28,46 +29,7 @@ const hosting = [
     "✉",
   ],
 ];
-const services = [
-  [
-    "Technical Support",
-    "Repairs, migration and website recovery.",
-    "technical-support",
-    "⌘",
-  ],
-  [
-    "Website Design & Development",
-    "Websites built around your business.",
-    "website-design",
-    "▤",
-  ],
-  ["E-Commerce", "Connected shopping and store management.", "ecommerce", "▦"],
-  [
-    "Web & Mobile Apps",
-    "Applications for your customers and team.",
-    "web-mobile-apps",
-    "▣",
-  ],
-  [
-    "AI & Automation",
-    "Simplify everyday business workflows.",
-    "ai-automation",
-    "✧",
-  ],
-  ["SEO & GEO", "Improve discovery across search and AI.", "seo-geo", "◎"],
-  [
-    "Digital Marketing",
-    "Connect your audience, message and channels.",
-    "digital-marketing",
-    "↗",
-  ],
-  [
-    "Brand & Graphic Design",
-    "A distinctive and consistent visual identity.",
-    "brand-design",
-    "◇",
-  ],
-];
+const services = serviceCatalog.map(service => [service.title, service.description, service.slug, service.icon]);
 const descriptions: Record<string, string> = {
   "Healthcare & Aesthetic Clinics":
     "Digital experiences for patients and practices.",
@@ -159,12 +121,12 @@ export function approvedMenuContent(
             ([name, , slug]) =>
               name === str(child.title) || str(child.href).includes("/" + slug),
           );
+          const href = str(child.href).replace(/^\/(?!preview\/)/, '/preview/pages/');
+          if (items.some(item => item.parentId === id &&
+            str(item.href).replace(/\/$/, '') === href.replace(/\/$/, ''))) continue;
           items.push({
             ...child,
-            href: str(child.href).replace(
-              /^\/(?!preview\/)/,
-              "/preview/pages/",
-            ),
+            href,
             body: str(child.body) || defaults?.[1] || "",
             icon: str(child.icon) || defaults?.[3] || "◇",
           });
@@ -183,24 +145,14 @@ export function approvedMenuContent(
               position: items.length,
             }),
         );
-      if (
-        title === "Services" &&
-        !items.some(
-          (child) =>
-            child.parentId === id &&
-            str(child.href).includes("technical-support"),
-        )
-      )
-        items.push({
-          id: id + "-technical-support",
-          parentId: id,
-          title: "Technical Support",
-          body: "Repairs, migration and website recovery.",
-          href: "/preview/pages/technical-support",
-          icon: "⌘",
-          enabled: true,
-          position: items.length,
-        });
+      // A saved partial menu must not hide other implemented services.
+      if (title === "Services") for (const service of serviceCatalog) {
+        if (items.some(child => child.parentId === id &&
+          str(child.href).replace(/\/$/, '') === '/preview/pages/' + service.slug)) continue;
+        items.push({ id: id + '-' + service.slug, parentId: id,
+          title: service.title, body: service.description, icon: service.icon,
+          href: '/preview/pages/' + service.slug, enabled: true, position: items.length });
+      }
       if (title === "Hosting")
         items.push({
           id: "approved-domains",
@@ -211,16 +163,19 @@ export function approvedMenuContent(
         });
     } else if (title === "Industries") {
       const children = source.filter((child) => child.parentId === id);
-      for (const child of children)
+      for (const child of children) {
+        const href = industryHref(str(child.title), str(child.href)).replace(/\/$/, '');
+        if (items.some(item => item.parentId === id && str(item.href).replace(/\/$/, '') === href)) continue;
         items.push({
           ...child,
-          href: industryHref(str(child.title), str(child.href)),
+          href,
           body:
             descriptions[str(child.title)] ||
             str(child.body) ||
             "Explore our approach for your industry.",
           icon: "◇",
         });
+      }
       industrySlugs
         .filter(
           (slug) =>
