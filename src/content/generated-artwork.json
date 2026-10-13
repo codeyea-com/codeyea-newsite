@@ -1,0 +1,1794 @@
+{
+  "generated-healthcare-hero-en": {
+    "src": "/site/generated/industries/healthcare/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-21.webp",
+    "alt": "Healthcare: industry activity"
+  },
+  "generated-healthcare-hero-ar": {
+    "src": "/site/generated/industries/healthcare/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-21.webp",
+    "alt": "الخدمات الصحية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-healthcare-strip-1-en": {
+    "src": "/site/generated/industries/healthcare/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-05.webp",
+    "alt": "Healthcare: illustrative interface displayed on a device"
+  },
+  "generated-healthcare-strip-1-ar": {
+    "src": "/site/generated/industries/healthcare/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-05.webp",
+    "alt": "الخدمات الصحية، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-healthcare-strip-2-en": {
+    "src": "/site/generated/industries/healthcare/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-11.webp",
+    "alt": "Healthcare: industry activity"
+  },
+  "generated-healthcare-strip-2-ar": {
+    "src": "/site/generated/industries/healthcare/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-11.webp",
+    "alt": "الخدمات الصحية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-healthcare-strip-3-en": {
+    "src": "/site/generated/industries/healthcare/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-16.webp",
+    "alt": "Healthcare: illustrative interface displayed on a device"
+  },
+  "generated-healthcare-strip-3-ar": {
+    "src": "/site/generated/industries/healthcare/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-16.webp",
+    "alt": "الخدمات الصحية، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-healthcare-strip-4-en": {
+    "src": "/site/generated/industries/healthcare/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-02.webp",
+    "alt": "Healthcare: industry activity"
+  },
+  "generated-healthcare-strip-4-ar": {
+    "src": "/site/generated/industries/healthcare/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-02.webp",
+    "alt": "الخدمات الصحية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-healthcare-needs-en": {
+    "src": "/site/generated/industries/healthcare/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-29.webp",
+    "alt": "Healthcare: industry activity"
+  },
+  "generated-healthcare-needs-ar": {
+    "src": "/site/generated/industries/healthcare/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-29.webp",
+    "alt": "الخدمات الصحية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-healthcare-image-break-en": {
+    "src": "/site/generated/industries/healthcare/image-break-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/image-break-v5-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-26.webp",
+    "alt": "Healthcare: illustrative interface displayed on a device"
+  },
+  "generated-healthcare-image-break-ar": {
+    "src": "/site/generated/industries/healthcare/image-break-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/image-break-v5-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-26.webp",
+    "alt": "الخدمات الصحية، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-healthcare-cta-en": {
+    "src": "/site/generated/industries/healthcare/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-35.webp",
+    "alt": "Healthcare: industry activity"
+  },
+  "generated-healthcare-cta-ar": {
+    "src": "/site/generated/industries/healthcare/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-35.webp",
+    "alt": "الخدمات الصحية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-roofing-hero-en": {
+    "src": "/site/generated/industries/roofing/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-42.webp",
+    "alt": "Roofing: industry activity"
+  },
+  "generated-roofing-hero-ar": {
+    "src": "/site/generated/industries/roofing/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-42.webp",
+    "alt": "خدمات الأسقف، مشهد يوضح نشاط القطاع"
+  },
+  "generated-roofing-strip-1-en": {
+    "src": "/site/generated/industries/roofing/strip-1-v6-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/strip-1-v6-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-30.webp",
+    "alt": "Roofing: illustrative interface displayed on a device"
+  },
+  "generated-roofing-strip-1-ar": {
+    "src": "/site/generated/industries/roofing/strip-1-v6-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/strip-1-v6-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-30.webp",
+    "alt": "خدمات الأسقف، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-roofing-strip-2-en": {
+    "src": "/site/generated/industries/roofing/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-42.webp",
+    "alt": "Roofing: industry activity"
+  },
+  "generated-roofing-strip-2-ar": {
+    "src": "/site/generated/industries/roofing/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-42.webp",
+    "alt": "خدمات الأسقف، مشهد يوضح نشاط القطاع"
+  },
+  "generated-roofing-strip-3-en": {
+    "src": "/site/generated/industries/roofing/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-24.webp",
+    "alt": "Roofing: illustrative interface displayed on a device"
+  },
+  "generated-roofing-strip-3-ar": {
+    "src": "/site/generated/industries/roofing/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-24.webp",
+    "alt": "خدمات الأسقف، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-roofing-strip-4-en": {
+    "src": "/site/generated/industries/roofing/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-30.webp",
+    "alt": "Roofing: industry activity"
+  },
+  "generated-roofing-strip-4-ar": {
+    "src": "/site/generated/industries/roofing/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-30.webp",
+    "alt": "خدمات الأسقف، مشهد يوضح نشاط القطاع"
+  },
+  "generated-roofing-needs-en": {
+    "src": "/site/generated/industries/roofing/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-42.webp",
+    "alt": "Roofing: industry activity"
+  },
+  "generated-roofing-needs-ar": {
+    "src": "/site/generated/industries/roofing/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-42.webp",
+    "alt": "خدمات الأسقف، مشهد يوضح نشاط القطاع"
+  },
+  "generated-roofing-image-break-en": {
+    "src": "/site/generated/industries/roofing/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-42.webp",
+    "alt": "Roofing: industry activity"
+  },
+  "generated-roofing-image-break-ar": {
+    "src": "/site/generated/industries/roofing/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-42.webp",
+    "alt": "خدمات الأسقف، مشهد يوضح نشاط القطاع"
+  },
+  "generated-roofing-cta-en": {
+    "src": "/site/generated/industries/roofing/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-24.webp",
+    "alt": "Roofing: industry activity"
+  },
+  "generated-roofing-cta-ar": {
+    "src": "/site/generated/industries/roofing/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-24.webp",
+    "alt": "خدمات الأسقف، مشهد يوضح نشاط القطاع"
+  },
+  "generated-construction-hero-en": {
+    "src": "/site/generated/industries/construction/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-23.webp",
+    "alt": "Construction: industry activity"
+  },
+  "generated-construction-hero-ar": {
+    "src": "/site/generated/industries/construction/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-23.webp",
+    "alt": "خدمات الإنشاءات، مشهد يوضح نشاط القطاع"
+  },
+  "generated-construction-strip-1-en": {
+    "src": "/site/generated/industries/construction/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-23.webp",
+    "alt": "Construction: illustrative interface displayed on a device"
+  },
+  "generated-construction-strip-1-ar": {
+    "src": "/site/generated/industries/construction/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-23.webp",
+    "alt": "خدمات الإنشاءات، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-construction-strip-2-en": {
+    "src": "/site/generated/industries/construction/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-09.webp",
+    "alt": "Construction: industry activity"
+  },
+  "generated-construction-strip-2-ar": {
+    "src": "/site/generated/industries/construction/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-09.webp",
+    "alt": "خدمات الإنشاءات، مشهد يوضح نشاط القطاع"
+  },
+  "generated-construction-strip-3-en": {
+    "src": "/site/generated/industries/construction/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-03.webp",
+    "alt": "Construction: illustrative interface displayed on a device"
+  },
+  "generated-construction-strip-3-ar": {
+    "src": "/site/generated/industries/construction/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-03.webp",
+    "alt": "خدمات الإنشاءات، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-construction-strip-4-en": {
+    "src": "/site/generated/industries/construction/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-42.webp",
+    "alt": "Construction: industry activity"
+  },
+  "generated-construction-strip-4-ar": {
+    "src": "/site/generated/industries/construction/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-42.webp",
+    "alt": "خدمات الإنشاءات، مشهد يوضح نشاط القطاع"
+  },
+  "generated-construction-needs-en": {
+    "src": "/site/generated/industries/construction/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-23.webp",
+    "alt": "Construction: industry activity"
+  },
+  "generated-construction-needs-ar": {
+    "src": "/site/generated/industries/construction/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-23.webp",
+    "alt": "خدمات الإنشاءات، مشهد يوضح نشاط القطاع"
+  },
+  "generated-construction-image-break-en": {
+    "src": "/site/generated/industries/construction/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-23.webp",
+    "alt": "Construction: industry activity"
+  },
+  "generated-construction-image-break-ar": {
+    "src": "/site/generated/industries/construction/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-23.webp",
+    "alt": "خدمات الإنشاءات، مشهد يوضح نشاط القطاع"
+  },
+  "generated-construction-cta-en": {
+    "src": "/site/generated/industries/construction/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-03.webp",
+    "alt": "Construction: industry activity"
+  },
+  "generated-construction-cta-ar": {
+    "src": "/site/generated/industries/construction/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-03.webp",
+    "alt": "خدمات الإنشاءات، مشهد يوضح نشاط القطاع"
+  },
+  "generated-e-commerce-hero-en": {
+    "src": "/site/generated/industries/e-commerce/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-15.webp",
+    "alt": "E-Commerce: industry activity"
+  },
+  "generated-e-commerce-hero-ar": {
+    "src": "/site/generated/industries/e-commerce/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-15.webp",
+    "alt": "التجارة الإلكترونية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-e-commerce-strip-1-en": {
+    "src": "/site/generated/industries/e-commerce/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-15.webp",
+    "alt": "E-Commerce: illustrative interface displayed on a device"
+  },
+  "generated-e-commerce-strip-1-ar": {
+    "src": "/site/generated/industries/e-commerce/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-15.webp",
+    "alt": "التجارة الإلكترونية، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-e-commerce-strip-2-en": {
+    "src": "/site/generated/industries/e-commerce/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-12.webp",
+    "alt": "E-Commerce: industry activity"
+  },
+  "generated-e-commerce-strip-2-ar": {
+    "src": "/site/generated/industries/e-commerce/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-12.webp",
+    "alt": "التجارة الإلكترونية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-e-commerce-strip-3-en": {
+    "src": "/site/generated/industries/e-commerce/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-22.webp",
+    "alt": "E-Commerce: illustrative interface displayed on a device"
+  },
+  "generated-e-commerce-strip-3-ar": {
+    "src": "/site/generated/industries/e-commerce/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-22.webp",
+    "alt": "التجارة الإلكترونية، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-e-commerce-strip-4-en": {
+    "src": "/site/generated/industries/e-commerce/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-40.webp",
+    "alt": "E-Commerce: industry activity"
+  },
+  "generated-e-commerce-strip-4-ar": {
+    "src": "/site/generated/industries/e-commerce/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-40.webp",
+    "alt": "التجارة الإلكترونية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-e-commerce-needs-en": {
+    "src": "/site/generated/industries/e-commerce/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-15.webp",
+    "alt": "E-Commerce: industry activity"
+  },
+  "generated-e-commerce-needs-ar": {
+    "src": "/site/generated/industries/e-commerce/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-15.webp",
+    "alt": "التجارة الإلكترونية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-e-commerce-image-break-en": {
+    "src": "/site/generated/industries/e-commerce/image-break-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/image-break-v5-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-15.webp",
+    "alt": "E-Commerce: illustrative interface displayed on a device"
+  },
+  "generated-e-commerce-image-break-ar": {
+    "src": "/site/generated/industries/e-commerce/image-break-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/image-break-v5-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-15.webp",
+    "alt": "التجارة الإلكترونية، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-e-commerce-cta-en": {
+    "src": "/site/generated/industries/e-commerce/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-22.webp",
+    "alt": "E-Commerce: industry activity"
+  },
+  "generated-e-commerce-cta-ar": {
+    "src": "/site/generated/industries/e-commerce/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-22.webp",
+    "alt": "التجارة الإلكترونية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-small-business-hero-en": {
+    "src": "/site/generated/industries/small-business/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-10.webp",
+    "alt": "Small Business: industry activity"
+  },
+  "generated-small-business-hero-ar": {
+    "src": "/site/generated/industries/small-business/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-10.webp",
+    "alt": "الأعمال الصغيرة، مشهد يوضح نشاط القطاع"
+  },
+  "generated-small-business-strip-1-en": {
+    "src": "/site/generated/industries/small-business/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-10.webp",
+    "alt": "Small Business: illustrative interface displayed on a device"
+  },
+  "generated-small-business-strip-1-ar": {
+    "src": "/site/generated/industries/small-business/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-10.webp",
+    "alt": "الأعمال الصغيرة، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-small-business-strip-2-en": {
+    "src": "/site/generated/industries/small-business/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-25.webp",
+    "alt": "Small Business: industry activity"
+  },
+  "generated-small-business-strip-2-ar": {
+    "src": "/site/generated/industries/small-business/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-25.webp",
+    "alt": "الأعمال الصغيرة، مشهد يوضح نشاط القطاع"
+  },
+  "generated-small-business-strip-3-en": {
+    "src": "/site/generated/industries/small-business/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-37.webp",
+    "alt": "Small Business: illustrative interface displayed on a device"
+  },
+  "generated-small-business-strip-3-ar": {
+    "src": "/site/generated/industries/small-business/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-37.webp",
+    "alt": "الأعمال الصغيرة، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-small-business-strip-4-en": {
+    "src": "/site/generated/industries/small-business/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-28.webp",
+    "alt": "Small Business: industry activity"
+  },
+  "generated-small-business-strip-4-ar": {
+    "src": "/site/generated/industries/small-business/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-28.webp",
+    "alt": "الأعمال الصغيرة، مشهد يوضح نشاط القطاع"
+  },
+  "generated-small-business-needs-en": {
+    "src": "/site/generated/industries/small-business/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-10.webp",
+    "alt": "Small Business: industry activity"
+  },
+  "generated-small-business-needs-ar": {
+    "src": "/site/generated/industries/small-business/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-10.webp",
+    "alt": "الأعمال الصغيرة، مشهد يوضح نشاط القطاع"
+  },
+  "generated-small-business-image-break-en": {
+    "src": "/site/generated/industries/small-business/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-10.webp",
+    "alt": "Small Business: industry activity"
+  },
+  "generated-small-business-image-break-ar": {
+    "src": "/site/generated/industries/small-business/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-10.webp",
+    "alt": "الأعمال الصغيرة، مشهد يوضح نشاط القطاع"
+  },
+  "generated-small-business-cta-en": {
+    "src": "/site/generated/industries/small-business/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-28.webp",
+    "alt": "Small Business: industry activity"
+  },
+  "generated-small-business-cta-ar": {
+    "src": "/site/generated/industries/small-business/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-28.webp",
+    "alt": "الأعمال الصغيرة، مشهد يوضح نشاط القطاع"
+  },
+  "generated-event-coordinators-hero-en": {
+    "src": "/site/generated/industries/event-coordinators/hero-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/hero-v3-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "Event Coordinators: industry activity"
+  },
+  "generated-event-coordinators-hero-ar": {
+    "src": "/site/generated/industries/event-coordinators/hero-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/hero-v3-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "المعارض ومؤتمرات الأعمال، مشهد يوضح نشاط القطاع"
+  },
+  "generated-event-coordinators-strip-1-en": {
+    "src": "/site/generated/industries/event-coordinators/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "Event Coordinators: illustrative interface displayed on a device"
+  },
+  "generated-event-coordinators-strip-1-ar": {
+    "src": "/site/generated/industries/event-coordinators/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "المعارض ومؤتمرات الأعمال، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-event-coordinators-strip-2-en": {
+    "src": "/site/generated/industries/event-coordinators/strip-2-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/strip-2-v3-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-14.webp",
+    "alt": "Event Coordinators: industry activity"
+  },
+  "generated-event-coordinators-strip-2-ar": {
+    "src": "/site/generated/industries/event-coordinators/strip-2-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/strip-2-v3-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-14.webp",
+    "alt": "المعارض ومؤتمرات الأعمال، مشهد يوضح نشاط القطاع"
+  },
+  "generated-event-coordinators-strip-3-en": {
+    "src": "/site/generated/industries/event-coordinators/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-38.webp",
+    "alt": "Event Coordinators: illustrative interface displayed on a device"
+  },
+  "generated-event-coordinators-strip-3-ar": {
+    "src": "/site/generated/industries/event-coordinators/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-38.webp",
+    "alt": "المعارض ومؤتمرات الأعمال، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-event-coordinators-strip-4-en": {
+    "src": "/site/generated/industries/event-coordinators/strip-4-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/strip-4-v3-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-04.webp",
+    "alt": "Event Coordinators: industry activity"
+  },
+  "generated-event-coordinators-strip-4-ar": {
+    "src": "/site/generated/industries/event-coordinators/strip-4-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/strip-4-v3-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-04.webp",
+    "alt": "المعارض ومؤتمرات الأعمال، مشهد يوضح نشاط القطاع"
+  },
+  "generated-event-coordinators-needs-en": {
+    "src": "/site/generated/industries/event-coordinators/needs-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/needs-v3-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "Event Coordinators: industry activity"
+  },
+  "generated-event-coordinators-needs-ar": {
+    "src": "/site/generated/industries/event-coordinators/needs-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/needs-v3-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "المعارض ومؤتمرات الأعمال، مشهد يوضح نشاط القطاع"
+  },
+  "generated-event-coordinators-image-break-en": {
+    "src": "/site/generated/industries/event-coordinators/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/image-break-v3-mobile.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "Event Coordinators: industry activity"
+  },
+  "generated-event-coordinators-image-break-ar": {
+    "src": "/site/generated/industries/event-coordinators/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/image-break-v3-mobile.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "المعارض ومؤتمرات الأعمال، مشهد يوضح نشاط القطاع"
+  },
+  "generated-event-coordinators-cta-en": {
+    "src": "/site/generated/industries/event-coordinators/cta-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/cta-v3-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-14.webp",
+    "alt": "Event Coordinators: industry activity"
+  },
+  "generated-event-coordinators-cta-ar": {
+    "src": "/site/generated/industries/event-coordinators/cta-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/cta-v3-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-14.webp",
+    "alt": "المعارض ومؤتمرات الأعمال، مشهد يوضح نشاط القطاع"
+  },
+  "generated-legal-hero-en": {
+    "src": "/site/generated/industries/legal/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-32.webp",
+    "alt": "Legal: industry activity"
+  },
+  "generated-legal-hero-ar": {
+    "src": "/site/generated/industries/legal/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-32.webp",
+    "alt": "الخدمات القانونية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-legal-strip-1-en": {
+    "src": "/site/generated/industries/legal/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-32.webp",
+    "alt": "Legal: illustrative interface displayed on a device"
+  },
+  "generated-legal-strip-1-ar": {
+    "src": "/site/generated/industries/legal/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-32.webp",
+    "alt": "الخدمات القانونية، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-legal-strip-2-en": {
+    "src": "/site/generated/industries/legal/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-31.webp",
+    "alt": "Legal: industry activity"
+  },
+  "generated-legal-strip-2-ar": {
+    "src": "/site/generated/industries/legal/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-31.webp",
+    "alt": "الخدمات القانونية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-legal-strip-3-en": {
+    "src": "/site/generated/industries/legal/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-44.webp",
+    "alt": "Legal: illustrative interface displayed on a device"
+  },
+  "generated-legal-strip-3-ar": {
+    "src": "/site/generated/industries/legal/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-44.webp",
+    "alt": "الخدمات القانونية، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-legal-strip-4-en": {
+    "src": "/site/generated/industries/legal/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-37.webp",
+    "alt": "Legal: industry activity"
+  },
+  "generated-legal-strip-4-ar": {
+    "src": "/site/generated/industries/legal/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-37.webp",
+    "alt": "الخدمات القانونية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-legal-needs-en": {
+    "src": "/site/generated/industries/legal/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-32.webp",
+    "alt": "Legal: industry activity"
+  },
+  "generated-legal-needs-ar": {
+    "src": "/site/generated/industries/legal/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-32.webp",
+    "alt": "الخدمات القانونية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-legal-image-break-en": {
+    "src": "/site/generated/industries/legal/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-32.webp",
+    "alt": "Legal: industry activity"
+  },
+  "generated-legal-image-break-ar": {
+    "src": "/site/generated/industries/legal/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-32.webp",
+    "alt": "الخدمات القانونية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-legal-cta-en": {
+    "src": "/site/generated/industries/legal/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-32.webp",
+    "alt": "Legal: industry activity"
+  },
+  "generated-legal-cta-ar": {
+    "src": "/site/generated/industries/legal/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-32.webp",
+    "alt": "الخدمات القانونية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-online-magazine-hero-en": {
+    "src": "/site/generated/industries/online-magazine/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-18.webp",
+    "alt": "Online Magazine: industry activity"
+  },
+  "generated-online-magazine-hero-ar": {
+    "src": "/site/generated/industries/online-magazine/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-18.webp",
+    "alt": "النشر والمجلات، مشهد يوضح نشاط القطاع"
+  },
+  "generated-online-magazine-strip-1-en": {
+    "src": "/site/generated/industries/online-magazine/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-18.webp",
+    "alt": "Online Magazine: illustrative interface displayed on a device"
+  },
+  "generated-online-magazine-strip-1-ar": {
+    "src": "/site/generated/industries/online-magazine/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-18.webp",
+    "alt": "النشر والمجلات، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-online-magazine-strip-2-en": {
+    "src": "/site/generated/industries/online-magazine/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-44.webp",
+    "alt": "Online Magazine: industry activity"
+  },
+  "generated-online-magazine-strip-2-ar": {
+    "src": "/site/generated/industries/online-magazine/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-44.webp",
+    "alt": "النشر والمجلات، مشهد يوضح نشاط القطاع"
+  },
+  "generated-online-magazine-strip-3-en": {
+    "src": "/site/generated/industries/online-magazine/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-38.webp",
+    "alt": "Online Magazine: illustrative interface displayed on a device"
+  },
+  "generated-online-magazine-strip-3-ar": {
+    "src": "/site/generated/industries/online-magazine/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-38.webp",
+    "alt": "النشر والمجلات، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-online-magazine-strip-4-en": {
+    "src": "/site/generated/industries/online-magazine/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-43.webp",
+    "alt": "Online Magazine: industry activity"
+  },
+  "generated-online-magazine-strip-4-ar": {
+    "src": "/site/generated/industries/online-magazine/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-43.webp",
+    "alt": "النشر والمجلات، مشهد يوضح نشاط القطاع"
+  },
+  "generated-online-magazine-needs-en": {
+    "src": "/site/generated/industries/online-magazine/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-18.webp",
+    "alt": "Online Magazine: industry activity"
+  },
+  "generated-online-magazine-needs-ar": {
+    "src": "/site/generated/industries/online-magazine/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-18.webp",
+    "alt": "النشر والمجلات، مشهد يوضح نشاط القطاع"
+  },
+  "generated-online-magazine-image-break-en": {
+    "src": "/site/generated/industries/online-magazine/image-break-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/image-break-v5-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-18.webp",
+    "alt": "Online Magazine: illustrative interface displayed on a device"
+  },
+  "generated-online-magazine-image-break-ar": {
+    "src": "/site/generated/industries/online-magazine/image-break-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/image-break-v5-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-18.webp",
+    "alt": "النشر والمجلات، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-online-magazine-cta-en": {
+    "src": "/site/generated/industries/online-magazine/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-44.webp",
+    "alt": "Online Magazine: industry activity"
+  },
+  "generated-online-magazine-cta-ar": {
+    "src": "/site/generated/industries/online-magazine/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-44.webp",
+    "alt": "النشر والمجلات، مشهد يوضح نشاط القطاع"
+  },
+  "generated-oil-and-gas-hero-en": {
+    "src": "/site/generated/industries/oil-and-gas/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-07.webp",
+    "alt": "Oil and Gas: industry activity"
+  },
+  "generated-oil-and-gas-hero-ar": {
+    "src": "/site/generated/industries/oil-and-gas/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-07.webp",
+    "alt": "النفط والغاز، مشهد يوضح نشاط القطاع"
+  },
+  "generated-oil-and-gas-strip-1-en": {
+    "src": "/site/generated/industries/oil-and-gas/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-07.webp",
+    "alt": "Oil and Gas: illustrative interface displayed on a device"
+  },
+  "generated-oil-and-gas-strip-1-ar": {
+    "src": "/site/generated/industries/oil-and-gas/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-07.webp",
+    "alt": "النفط والغاز، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-oil-and-gas-strip-2-en": {
+    "src": "/site/generated/industries/oil-and-gas/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-06.webp",
+    "alt": "Oil and Gas: industry activity"
+  },
+  "generated-oil-and-gas-strip-2-ar": {
+    "src": "/site/generated/industries/oil-and-gas/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-06.webp",
+    "alt": "النفط والغاز، مشهد يوضح نشاط القطاع"
+  },
+  "generated-oil-and-gas-strip-3-en": {
+    "src": "/site/generated/industries/oil-and-gas/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-36.webp",
+    "alt": "Oil and Gas: illustrative interface displayed on a device"
+  },
+  "generated-oil-and-gas-strip-3-ar": {
+    "src": "/site/generated/industries/oil-and-gas/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-36.webp",
+    "alt": "النفط والغاز، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-oil-and-gas-strip-4-en": {
+    "src": "/site/generated/industries/oil-and-gas/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-07.webp",
+    "alt": "Oil and Gas: industry activity"
+  },
+  "generated-oil-and-gas-strip-4-ar": {
+    "src": "/site/generated/industries/oil-and-gas/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-07.webp",
+    "alt": "النفط والغاز، مشهد يوضح نشاط القطاع"
+  },
+  "generated-oil-and-gas-needs-en": {
+    "src": "/site/generated/industries/oil-and-gas/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-07.webp",
+    "alt": "Oil and Gas: industry activity"
+  },
+  "generated-oil-and-gas-needs-ar": {
+    "src": "/site/generated/industries/oil-and-gas/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-07.webp",
+    "alt": "النفط والغاز، مشهد يوضح نشاط القطاع"
+  },
+  "generated-oil-and-gas-image-break-en": {
+    "src": "/site/generated/industries/oil-and-gas/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-07.webp",
+    "alt": "Oil and Gas: industry activity"
+  },
+  "generated-oil-and-gas-image-break-ar": {
+    "src": "/site/generated/industries/oil-and-gas/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-07.webp",
+    "alt": "النفط والغاز، مشهد يوضح نشاط القطاع"
+  },
+  "generated-oil-and-gas-cta-en": {
+    "src": "/site/generated/industries/oil-and-gas/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-06.webp",
+    "alt": "Oil and Gas: industry activity"
+  },
+  "generated-oil-and-gas-cta-ar": {
+    "src": "/site/generated/industries/oil-and-gas/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-06.webp",
+    "alt": "النفط والغاز، مشهد يوضح نشاط القطاع"
+  },
+  "generated-real-estate-hero-en": {
+    "src": "/site/generated/industries/real-estate/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-41.webp",
+    "alt": "Real Estate: industry activity"
+  },
+  "generated-real-estate-hero-ar": {
+    "src": "/site/generated/industries/real-estate/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-41.webp",
+    "alt": "الخدمات العقارية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-real-estate-strip-1-en": {
+    "src": "/site/generated/industries/real-estate/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-41.webp",
+    "alt": "Real Estate: illustrative interface displayed on a device"
+  },
+  "generated-real-estate-strip-1-ar": {
+    "src": "/site/generated/industries/real-estate/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-41.webp",
+    "alt": "الخدمات العقارية، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-real-estate-strip-2-en": {
+    "src": "/site/generated/industries/real-estate/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-33.webp",
+    "alt": "Real Estate: industry activity"
+  },
+  "generated-real-estate-strip-2-ar": {
+    "src": "/site/generated/industries/real-estate/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-33.webp",
+    "alt": "الخدمات العقارية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-real-estate-strip-3-en": {
+    "src": "/site/generated/industries/real-estate/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-41.webp",
+    "alt": "Real Estate: illustrative interface displayed on a device"
+  },
+  "generated-real-estate-strip-3-ar": {
+    "src": "/site/generated/industries/real-estate/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-41.webp",
+    "alt": "الخدمات العقارية، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-real-estate-strip-4-en": {
+    "src": "/site/generated/industries/real-estate/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-33.webp",
+    "alt": "Real Estate: industry activity"
+  },
+  "generated-real-estate-strip-4-ar": {
+    "src": "/site/generated/industries/real-estate/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-33.webp",
+    "alt": "الخدمات العقارية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-real-estate-needs-en": {
+    "src": "/site/generated/industries/real-estate/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-41.webp",
+    "alt": "Real Estate: industry activity"
+  },
+  "generated-real-estate-needs-ar": {
+    "src": "/site/generated/industries/real-estate/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-41.webp",
+    "alt": "الخدمات العقارية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-real-estate-image-break-en": {
+    "src": "/site/generated/industries/real-estate/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-41.webp",
+    "alt": "Real Estate: industry activity"
+  },
+  "generated-real-estate-image-break-ar": {
+    "src": "/site/generated/industries/real-estate/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-41.webp",
+    "alt": "الخدمات العقارية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-real-estate-cta-en": {
+    "src": "/site/generated/industries/real-estate/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-33.webp",
+    "alt": "Real Estate: industry activity"
+  },
+  "generated-real-estate-cta-ar": {
+    "src": "/site/generated/industries/real-estate/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-33.webp",
+    "alt": "الخدمات العقارية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-fashion-and-lifestyle-hero-en": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-01.webp",
+    "alt": "Fashion and Lifestyle: industry activity"
+  },
+  "generated-fashion-and-lifestyle-hero-ar": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-01.webp",
+    "alt": "أعمال الأزياء، مشهد يوضح نشاط القطاع"
+  },
+  "generated-fashion-and-lifestyle-strip-1-en": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-39.webp",
+    "alt": "Fashion and Lifestyle: illustrative interface displayed on a device"
+  },
+  "generated-fashion-and-lifestyle-strip-1-ar": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-39.webp",
+    "alt": "أعمال الأزياء، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-fashion-and-lifestyle-strip-2-en": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-27.webp",
+    "alt": "Fashion and Lifestyle: industry activity"
+  },
+  "generated-fashion-and-lifestyle-strip-2-ar": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-27.webp",
+    "alt": "أعمال الأزياء، مشهد يوضح نشاط القطاع"
+  },
+  "generated-fashion-and-lifestyle-strip-3-en": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-15.webp",
+    "alt": "Fashion and Lifestyle: illustrative interface displayed on a device"
+  },
+  "generated-fashion-and-lifestyle-strip-3-ar": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-15.webp",
+    "alt": "أعمال الأزياء، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-fashion-and-lifestyle-strip-4-en": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-40.webp",
+    "alt": "Fashion and Lifestyle: industry activity"
+  },
+  "generated-fashion-and-lifestyle-strip-4-ar": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-40.webp",
+    "alt": "أعمال الأزياء، مشهد يوضح نشاط القطاع"
+  },
+  "generated-fashion-and-lifestyle-needs-en": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-01.webp",
+    "alt": "Fashion and Lifestyle: industry activity"
+  },
+  "generated-fashion-and-lifestyle-needs-ar": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-01.webp",
+    "alt": "أعمال الأزياء، مشهد يوضح نشاط القطاع"
+  },
+  "generated-fashion-and-lifestyle-image-break-en": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-01.webp",
+    "alt": "Fashion and Lifestyle: industry activity"
+  },
+  "generated-fashion-and-lifestyle-image-break-ar": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-01.webp",
+    "alt": "أعمال الأزياء، مشهد يوضح نشاط القطاع"
+  },
+  "generated-fashion-and-lifestyle-cta-en": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-39.webp",
+    "alt": "Fashion and Lifestyle: industry activity"
+  },
+  "generated-fashion-and-lifestyle-cta-ar": {
+    "src": "/site/generated/industries/fashion-and-lifestyle/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-39.webp",
+    "alt": "أعمال الأزياء، مشهد يوضح نشاط القطاع"
+  },
+  "generated-beauty-skincare-med-spa-hero-en": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-17.webp",
+    "alt": "Beauty, Skincare & Med Spa: industry activity"
+  },
+  "generated-beauty-skincare-med-spa-hero-ar": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-17.webp",
+    "alt": "العناية والتجميل، مشهد يوضح نشاط القطاع"
+  },
+  "generated-beauty-skincare-med-spa-strip-1-en": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-17.webp",
+    "alt": "Beauty, Skincare & Med Spa: illustrative interface displayed on a device"
+  },
+  "generated-beauty-skincare-med-spa-strip-1-ar": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-17.webp",
+    "alt": "العناية والتجميل، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-beauty-skincare-med-spa-strip-2-en": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-02.webp",
+    "alt": "Beauty, Skincare & Med Spa: industry activity"
+  },
+  "generated-beauty-skincare-med-spa-strip-2-ar": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-02.webp",
+    "alt": "العناية والتجميل، مشهد يوضح نشاط القطاع"
+  },
+  "generated-beauty-skincare-med-spa-strip-3-en": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-16.webp",
+    "alt": "Beauty, Skincare & Med Spa: illustrative interface displayed on a device"
+  },
+  "generated-beauty-skincare-med-spa-strip-3-ar": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-16.webp",
+    "alt": "العناية والتجميل، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-beauty-skincare-med-spa-strip-4-en": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-26.webp",
+    "alt": "Beauty, Skincare & Med Spa: industry activity"
+  },
+  "generated-beauty-skincare-med-spa-strip-4-ar": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-26.webp",
+    "alt": "العناية والتجميل، مشهد يوضح نشاط القطاع"
+  },
+  "generated-beauty-skincare-med-spa-needs-en": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-17.webp",
+    "alt": "Beauty, Skincare & Med Spa: industry activity"
+  },
+  "generated-beauty-skincare-med-spa-needs-ar": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-17.webp",
+    "alt": "العناية والتجميل، مشهد يوضح نشاط القطاع"
+  },
+  "generated-beauty-skincare-med-spa-image-break-en": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-02.webp",
+    "alt": "Beauty, Skincare & Med Spa: industry activity"
+  },
+  "generated-beauty-skincare-med-spa-image-break-ar": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-02.webp",
+    "alt": "العناية والتجميل، مشهد يوضح نشاط القطاع"
+  },
+  "generated-beauty-skincare-med-spa-cta-en": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 475,
+    "expectedSource": "/approved-media/image-26.webp",
+    "alt": "Beauty, Skincare & Med Spa: industry activity"
+  },
+  "generated-beauty-skincare-med-spa-cta-ar": {
+    "src": "/site/generated/industries/beauty-skincare-med-spa/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 475,
+    "expectedSource": "/approved-media/image-26.webp",
+    "alt": "العناية والتجميل، مشهد يوضح نشاط القطاع"
+  },
+  "generated-restaurants-cafes-bakeries-hero-en": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-25.webp",
+    "alt": "Restaurants, Cafés & Bakeries: industry activity"
+  },
+  "generated-restaurants-cafes-bakeries-hero-ar": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-25.webp",
+    "alt": "المطاعم والمقاهي، مشهد يوضح نشاط القطاع"
+  },
+  "generated-restaurants-cafes-bakeries-strip-1-en": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-25.webp",
+    "alt": "Restaurants, Cafés & Bakeries: illustrative interface displayed on a device"
+  },
+  "generated-restaurants-cafes-bakeries-strip-1-ar": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-25.webp",
+    "alt": "المطاعم والمقاهي، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-restaurants-cafes-bakeries-strip-2-en": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "Restaurants, Cafés & Bakeries: industry activity"
+  },
+  "generated-restaurants-cafes-bakeries-strip-2-ar": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/strip-2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/strip-2-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "المطاعم والمقاهي، مشهد يوضح نشاط القطاع"
+  },
+  "generated-restaurants-cafes-bakeries-strip-3-en": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-25.webp",
+    "alt": "Restaurants, Cafés & Bakeries: illustrative interface displayed on a device"
+  },
+  "generated-restaurants-cafes-bakeries-strip-3-ar": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-25.webp",
+    "alt": "المطاعم والمقاهي، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-restaurants-cafes-bakeries-strip-4-en": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "Restaurants, Cafés & Bakeries: industry activity"
+  },
+  "generated-restaurants-cafes-bakeries-strip-4-ar": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "المطاعم والمقاهي، مشهد يوضح نشاط القطاع"
+  },
+  "generated-restaurants-cafes-bakeries-needs-en": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-25.webp",
+    "alt": "Restaurants, Cafés & Bakeries: industry activity"
+  },
+  "generated-restaurants-cafes-bakeries-needs-ar": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-25.webp",
+    "alt": "المطاعم والمقاهي، مشهد يوضح نشاط القطاع"
+  },
+  "generated-restaurants-cafes-bakeries-image-break-en": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "Restaurants, Cafés & Bakeries: industry activity"
+  },
+  "generated-restaurants-cafes-bakeries-image-break-ar": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/image-break-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/image-break-v3-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "المطاعم والمقاهي، مشهد يوضح نشاط القطاع"
+  },
+  "generated-restaurants-cafes-bakeries-cta-en": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 475,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "Restaurants, Cafés & Bakeries: industry activity"
+  },
+  "generated-restaurants-cafes-bakeries-cta-ar": {
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/cta-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/cta-v2-mobile.webp",
+    "width": 1265,
+    "height": 475,
+    "expectedSource": "/approved-media/image-34.webp",
+    "alt": "المطاعم والمقاهي، مشهد يوضح نشاط القطاع"
+  },
+  "generated-solar-energy-hero-en": {
+    "src": "/site/generated/industries/solar-energy/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-04.webp",
+    "alt": "Solar Energy: industry activity"
+  },
+  "generated-solar-energy-hero-ar": {
+    "src": "/site/generated/industries/solar-energy/hero-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/hero-mobile.webp",
+    "width": 1265,
+    "height": 363,
+    "expectedSource": "/approved-media/image-04.webp",
+    "alt": "الطاقة الشمسية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-solar-energy-strip-1-en": {
+    "src": "/site/generated/industries/solar-energy/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-04.webp",
+    "alt": "Solar Energy: illustrative interface displayed on a device"
+  },
+  "generated-solar-energy-strip-1-ar": {
+    "src": "/site/generated/industries/solar-energy/strip-1-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/strip-1-v5-desktop.webp",
+    "width": 273,
+    "height": 300,
+    "expectedSource": "/approved-media/image-04.webp",
+    "alt": "الطاقة الشمسية، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-solar-energy-strip-2-en": {
+    "src": "/site/generated/industries/solar-energy/strip-2-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/strip-2-v3-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-37.webp",
+    "alt": "Solar Energy: industry activity"
+  },
+  "generated-solar-energy-strip-2-ar": {
+    "src": "/site/generated/industries/solar-energy/strip-2-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/strip-2-v3-desktop.webp",
+    "width": 273,
+    "height": 255,
+    "expectedSource": "/approved-media/image-37.webp",
+    "alt": "الطاقة الشمسية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-solar-energy-strip-3-en": {
+    "src": "/site/generated/industries/solar-energy/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-38.webp",
+    "alt": "Solar Energy: illustrative interface displayed on a device"
+  },
+  "generated-solar-energy-strip-3-ar": {
+    "src": "/site/generated/industries/solar-energy/strip-3-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/strip-3-v5-desktop.webp",
+    "width": 273,
+    "height": 390,
+    "expectedSource": "/approved-media/image-38.webp",
+    "alt": "الطاقة الشمسية، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-solar-energy-strip-4-en": {
+    "src": "/site/generated/industries/solar-energy/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-43.webp",
+    "alt": "Solar Energy: industry activity"
+  },
+  "generated-solar-energy-strip-4-ar": {
+    "src": "/site/generated/industries/solar-energy/strip-4-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/strip-4-v2-desktop.webp",
+    "width": 273,
+    "height": 270,
+    "expectedSource": "/approved-media/image-43.webp",
+    "alt": "الطاقة الشمسية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-solar-energy-needs-en": {
+    "src": "/site/generated/industries/solar-energy/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-38.webp",
+    "alt": "Solar Energy: industry activity"
+  },
+  "generated-solar-energy-needs-ar": {
+    "src": "/site/generated/industries/solar-energy/needs-v2-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/needs-v2-mobile.webp",
+    "width": 434,
+    "height": 730,
+    "expectedSource": "/approved-media/image-38.webp",
+    "alt": "الطاقة الشمسية، مشهد يوضح نشاط القطاع"
+  },
+  "generated-solar-energy-image-break-en": {
+    "src": "/site/generated/industries/solar-energy/image-break-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/image-break-v5-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-43.webp",
+    "alt": "Solar Energy: illustrative interface displayed on a device"
+  },
+  "generated-solar-energy-image-break-ar": {
+    "src": "/site/generated/industries/solar-energy/image-break-v5-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/image-break-v5-desktop.webp",
+    "width": 1265,
+    "height": 791,
+    "expectedSource": "/approved-media/image-43.webp",
+    "alt": "الطاقة الشمسية، نموذج واجهة داخل شاشة جهاز"
+  },
+  "generated-solar-energy-cta-en": {
+    "src": "/site/generated/industries/solar-energy/cta-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/cta-v3-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-04.webp",
+    "alt": "Solar Energy: industry activity"
+  },
+  "generated-solar-energy-cta-ar": {
+    "src": "/site/generated/industries/solar-energy/cta-v3-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/cta-v3-mobile.webp",
+    "width": 1265,
+    "height": 388,
+    "expectedSource": "/approved-media/image-04.webp",
+    "alt": "الطاقة الشمسية، مشهد يوضح نشاط القطاع"
+  }
+}

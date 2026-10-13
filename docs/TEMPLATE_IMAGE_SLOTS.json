@@ -1,0 +1,1242 @@
+{
+  "website-design": [
+    {
+      "n": 0,
+      "section": "b-hero",
+      "source": "../../public/approved-media/image-08.webp",
+      "alt": "Responsive website displayed across tablet and mobile devices"
+    },
+    {
+      "n": 1,
+      "section": "b-wrap b-section b-collage-section",
+      "source": "../../public/approved-media/image-08.webp",
+      "alt": "Branding workspace"
+    },
+    {
+      "n": 2,
+      "section": "b-wrap b-section b-collage-section",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Design collaboration"
+    },
+    {
+      "n": 3,
+      "section": "b-wrap b-section b-collage-section",
+      "source": "../../public/homepage/project-mobile.webp",
+      "alt": "Mobile account interface displayed on a smartphone"
+    },
+    {
+      "n": 4,
+      "section": "e-operations b-wrap b-section",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Illustrative browser dashboard for inventory and order management"
+    },
+    {
+      "n": 5,
+      "section": "e-payments b-dark",
+      "source": "../../public/homepage/project-mobile.webp",
+      "alt": "Store concept with product cards"
+    },
+    {
+      "n": 6,
+      "section": "b-filmstrip",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 7,
+      "section": "b-filmstrip",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 8,
+      "section": "b-filmstrip",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 9,
+      "section": "b-filmstrip",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 10,
+      "section": "b-wrap b-section b-work",
+      "source": "../../public/approved-media/image-08.webp",
+      "alt": "Responsive website displayed across tablet and mobile devices"
+    },
+    {
+      "n": 11,
+      "section": "b-wrap b-section b-work",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 12,
+      "section": "b-wrap b-section b-work",
+      "source": "../../public/approved-media/image-08.webp",
+      "alt": "Responsive website displayed across tablet and mobile devices"
+    },
+    {
+      "n": 13,
+      "section": "b-wrap b-section b-work",
+      "source": "../../public/approved-media/image-08.webp",
+      "alt": "Responsive website displayed across tablet and mobile devices"
+    },
+    {
+      "n": 14,
+      "section": "b-wrap b-section b-work",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    }
+  ],
+  "brand-design": [
+    {
+      "n": 0,
+      "section": "b-hero",
+      "source": "assets/team.webp",
+      "alt": "Creative team discussing ideas"
+    },
+    {
+      "n": 1,
+      "section": "b-wrap b-section b-collage-section",
+      "source": "assets/branding.webp",
+      "alt": "Branding workspace"
+    },
+    {
+      "n": 2,
+      "section": "b-wrap b-section b-collage-section",
+      "source": "assets/team.webp",
+      "alt": "Design collaboration"
+    },
+    {
+      "n": 3,
+      "section": "b-wrap b-section b-collage-section",
+      "source": "assets/project-brand.webp",
+      "alt": "Person holding a smartphone"
+    },
+    {
+      "n": 4,
+      "section": "b-filmstrip",
+      "source": "assets/office.webp",
+      "alt": "Office interior"
+    },
+    {
+      "n": 5,
+      "section": "b-filmstrip",
+      "source": "assets/branding.webp",
+      "alt": "Graphic designer creating a visual identity on a laptop"
+    },
+    {
+      "n": 6,
+      "section": "b-filmstrip",
+      "source": "assets/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 7,
+      "section": "b-filmstrip",
+      "source": "assets/team.webp",
+      "alt": "Digital team working together in an office"
+    },
+    {
+      "n": 8,
+      "section": "b-wrap b-section b-work",
+      "source": "assets/project-brand.webp",
+      "alt": "Person holding a smartphone"
+    },
+    {
+      "n": 9,
+      "section": "b-wrap b-section b-work",
+      "source": "assets/branding.webp",
+      "alt": "Graphic designer creating a visual identity on a laptop"
+    },
+    {
+      "n": 10,
+      "section": "b-wrap b-section b-work",
+      "source": "assets/project-web.webp",
+      "alt": "Editorial magazine layout with oversized orange typography"
+    },
+    {
+      "n": 11,
+      "section": "b-wrap b-section b-work",
+      "source": "assets/project-mobile.webp",
+      "alt": "Mobile account interface displayed on a smartphone"
+    },
+    {
+      "n": 12,
+      "section": "b-wrap b-section b-work",
+      "source": "assets/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    }
+  ],
+  "ecommerce": [
+    {
+      "n": 0,
+      "section": "b-hero",
+      "source": "assets/product-page.png",
+      "alt": "Illustrative online storefront with products and checkout popups"
+    },
+    {
+      "n": 1,
+      "section": "b-wrap b-section b-collage-section",
+      "source": "assets/product-page.png",
+      "alt": "Branding workspace"
+    },
+    {
+      "n": 2,
+      "section": "b-wrap b-section b-collage-section",
+      "source": "assets/inventory-page.png",
+      "alt": "Design collaboration"
+    },
+    {
+      "n": 3,
+      "section": "b-wrap b-section b-collage-section",
+      "source": "assets/checkout-page.png",
+      "alt": "Online checkout form and order summary for studio headphones"
+    },
+    {
+      "n": 4,
+      "section": "e-operations b-wrap b-section",
+      "source": "assets/inventory-page.png",
+      "alt": "Illustrative browser dashboard for inventory and order management"
+    },
+    {
+      "n": 5,
+      "section": "e-payments b-dark",
+      "source": "assets/checkout-page.png",
+      "alt": "Store concept with product cards"
+    },
+    {
+      "n": 6,
+      "section": "b-filmstrip",
+      "source": "assets/inventory-page.png",
+      "alt": "Inventory dashboard listing products and stock levels"
+    },
+    {
+      "n": 7,
+      "section": "b-filmstrip",
+      "source": "assets/inventory-page.png",
+      "alt": "Inventory dashboard listing products and stock levels"
+    },
+    {
+      "n": 8,
+      "section": "b-filmstrip",
+      "source": "assets/inventory-page.png",
+      "alt": "Inventory dashboard listing products and stock levels"
+    },
+    {
+      "n": 9,
+      "section": "b-filmstrip",
+      "source": "assets/inventory-page.png",
+      "alt": "Inventory dashboard listing products and stock levels"
+    },
+    {
+      "n": 10,
+      "section": "b-wrap b-section b-work",
+      "source": "assets/product-page.png",
+      "alt": "E-commerce product page for studio headphones"
+    },
+    {
+      "n": 11,
+      "section": "b-wrap b-section b-work",
+      "source": "assets/inventory-page.png",
+      "alt": "Inventory dashboard listing products and stock levels"
+    },
+    {
+      "n": 12,
+      "section": "b-wrap b-section b-work",
+      "source": "assets/product-page.png",
+      "alt": "E-commerce product page for studio headphones"
+    },
+    {
+      "n": 13,
+      "section": "b-wrap b-section b-work",
+      "source": "assets/product-page.png",
+      "alt": "E-commerce product page for studio headphones"
+    },
+    {
+      "n": 14,
+      "section": "b-wrap b-section b-work",
+      "source": "assets/inventory-page.png",
+      "alt": "Inventory dashboard listing products and stock levels"
+    }
+  ],
+  "seo-geo": [
+    {
+      "n": 0,
+      "section": "about-hero ai-general-hero",
+      "source": "../../public/homepage/about.webp",
+      "alt": "CODEYEA — AI and automation"
+    },
+    {
+      "n": 1,
+      "section": "ds-overview",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 2,
+      "section": "ds-challenges",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 3,
+      "section": "ds-work",
+      "source": "../../public/homepage/branding.webp",
+      "alt": "Graphic designer creating a visual identity on a laptop"
+    },
+    {
+      "n": 4,
+      "section": "ds-work",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 5,
+      "section": "ds-work",
+      "source": "../../public/homepage/project-web.webp",
+      "alt": "Editorial magazine layout with oversized orange typography"
+    },
+    {
+      "n": 6,
+      "section": "ds-vision",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 7,
+      "section": "ds-vision",
+      "source": "../../public/homepage/branding.webp",
+      "alt": "Graphic designer creating a visual identity on a laptop"
+    },
+    {
+      "n": 8,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Illustrative service collaboration"
+    },
+    {
+      "n": 9,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/project-web.webp",
+      "alt": "Illustrative service collaboration"
+    },
+    {
+      "n": 10,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Illustrative service collaboration"
+    },
+    {
+      "n": 11,
+      "section": "ds-path",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 12,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-1.svg",
+      "alt": "Sample brand logo 1"
+    },
+    {
+      "n": 13,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-2.svg",
+      "alt": "Sample brand logo 2"
+    },
+    {
+      "n": 14,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-3.svg",
+      "alt": "Sample brand logo 3"
+    },
+    {
+      "n": 15,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-4.svg",
+      "alt": "Sample brand logo 4"
+    },
+    {
+      "n": 16,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-5.svg",
+      "alt": "Sample brand logo 5"
+    },
+    {
+      "n": 17,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-6.svg",
+      "alt": "Sample brand logo 6"
+    },
+    {
+      "n": 18,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-1.svg",
+      "alt": ""
+    },
+    {
+      "n": 19,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-2.svg",
+      "alt": ""
+    },
+    {
+      "n": 20,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-3.svg",
+      "alt": ""
+    },
+    {
+      "n": 21,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-4.svg",
+      "alt": ""
+    },
+    {
+      "n": 22,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-5.svg",
+      "alt": ""
+    },
+    {
+      "n": 23,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-6.svg",
+      "alt": ""
+    }
+  ],
+  "digital-marketing": [
+    {
+      "n": 0,
+      "section": "about-hero ai-general-hero",
+      "source": "../../public/homepage/about.webp",
+      "alt": "CODEYEA — AI and automation"
+    },
+    {
+      "n": 1,
+      "section": "ds-overview",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 2,
+      "section": "ds-challenges",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 3,
+      "section": "ds-work",
+      "source": "../../public/homepage/branding.webp",
+      "alt": "Graphic designer creating a visual identity on a laptop"
+    },
+    {
+      "n": 4,
+      "section": "ds-work",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 5,
+      "section": "ds-work",
+      "source": "../../public/homepage/project-web.webp",
+      "alt": "Editorial magazine layout with oversized orange typography"
+    },
+    {
+      "n": 6,
+      "section": "ds-vision",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 7,
+      "section": "ds-vision",
+      "source": "../../public/homepage/branding.webp",
+      "alt": "Graphic designer creating a visual identity on a laptop"
+    },
+    {
+      "n": 8,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Illustrative service collaboration"
+    },
+    {
+      "n": 9,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/project-web.webp",
+      "alt": "Illustrative service collaboration"
+    },
+    {
+      "n": 10,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Illustrative service collaboration"
+    },
+    {
+      "n": 11,
+      "section": "ds-path",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 12,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-1.svg",
+      "alt": "Sample brand logo 1"
+    },
+    {
+      "n": 13,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-2.svg",
+      "alt": "Sample brand logo 2"
+    },
+    {
+      "n": 14,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-3.svg",
+      "alt": "Sample brand logo 3"
+    },
+    {
+      "n": 15,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-4.svg",
+      "alt": "Sample brand logo 4"
+    },
+    {
+      "n": 16,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-5.svg",
+      "alt": "Sample brand logo 5"
+    },
+    {
+      "n": 17,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-6.svg",
+      "alt": "Sample brand logo 6"
+    },
+    {
+      "n": 18,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-1.svg",
+      "alt": ""
+    },
+    {
+      "n": 19,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-2.svg",
+      "alt": ""
+    },
+    {
+      "n": 20,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-3.svg",
+      "alt": ""
+    },
+    {
+      "n": 21,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-4.svg",
+      "alt": ""
+    },
+    {
+      "n": 22,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-5.svg",
+      "alt": ""
+    },
+    {
+      "n": 23,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-6.svg",
+      "alt": ""
+    }
+  ],
+  "web-mobile-apps": [
+    {
+      "n": 0,
+      "section": "about-hero ai-general-hero",
+      "source": "../../public/homepage/about.webp",
+      "alt": "CODEYEA — AI and automation"
+    },
+    {
+      "n": 1,
+      "section": "ds-overview",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 2,
+      "section": "ds-challenges",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 3,
+      "section": "ds-work",
+      "source": "../../public/homepage/branding.webp",
+      "alt": "Graphic designer creating a visual identity on a laptop"
+    },
+    {
+      "n": 4,
+      "section": "ds-work",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 5,
+      "section": "ds-work",
+      "source": "../../public/homepage/project-web.webp",
+      "alt": "Editorial magazine layout with oversized orange typography"
+    },
+    {
+      "n": 6,
+      "section": "ds-vision",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 7,
+      "section": "ds-vision",
+      "source": "../../public/homepage/branding.webp",
+      "alt": "Graphic designer creating a visual identity on a laptop"
+    },
+    {
+      "n": 8,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Illustrative service collaboration"
+    },
+    {
+      "n": 9,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/project-web.webp",
+      "alt": "Illustrative service collaboration"
+    },
+    {
+      "n": 10,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Illustrative service collaboration"
+    },
+    {
+      "n": 11,
+      "section": "ds-path",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 12,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-1.svg",
+      "alt": "Sample brand logo 1"
+    },
+    {
+      "n": 13,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-2.svg",
+      "alt": "Sample brand logo 2"
+    },
+    {
+      "n": 14,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-3.svg",
+      "alt": "Sample brand logo 3"
+    },
+    {
+      "n": 15,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-4.svg",
+      "alt": "Sample brand logo 4"
+    },
+    {
+      "n": 16,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-5.svg",
+      "alt": "Sample brand logo 5"
+    },
+    {
+      "n": 17,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-6.svg",
+      "alt": "Sample brand logo 6"
+    },
+    {
+      "n": 18,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-1.svg",
+      "alt": ""
+    },
+    {
+      "n": 19,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-2.svg",
+      "alt": ""
+    },
+    {
+      "n": 20,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-3.svg",
+      "alt": ""
+    },
+    {
+      "n": 21,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-4.svg",
+      "alt": ""
+    },
+    {
+      "n": 22,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-5.svg",
+      "alt": ""
+    },
+    {
+      "n": 23,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-6.svg",
+      "alt": ""
+    }
+  ],
+  "ai-automation": [
+    {
+      "n": 0,
+      "section": "about-hero ai-general-hero",
+      "source": "../../public/homepage/about.webp",
+      "alt": "CODEYEA — AI and automation"
+    },
+    {
+      "n": 1,
+      "section": "ds-overview",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 2,
+      "section": "ds-challenges",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 3,
+      "section": "ds-work",
+      "source": "../../public/homepage/branding.webp",
+      "alt": "Graphic designer creating a visual identity on a laptop"
+    },
+    {
+      "n": 4,
+      "section": "ds-work",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 5,
+      "section": "ds-work",
+      "source": "../../public/homepage/project-web.webp",
+      "alt": "Editorial magazine layout with oversized orange typography"
+    },
+    {
+      "n": 6,
+      "section": "ds-vision",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 7,
+      "section": "ds-vision",
+      "source": "../../public/homepage/branding.webp",
+      "alt": "Graphic designer creating a visual identity on a laptop"
+    },
+    {
+      "n": 8,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Illustrative team support"
+    },
+    {
+      "n": 9,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/project-web.webp",
+      "alt": "Illustrative connected digital work"
+    },
+    {
+      "n": 10,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Illustrative business collaboration"
+    },
+    {
+      "n": 11,
+      "section": "ds-path",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 12,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-1.svg",
+      "alt": "Sample brand logo 1"
+    },
+    {
+      "n": 13,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-2.svg",
+      "alt": "Sample brand logo 2"
+    },
+    {
+      "n": 14,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-3.svg",
+      "alt": "Sample brand logo 3"
+    },
+    {
+      "n": 15,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-4.svg",
+      "alt": "Sample brand logo 4"
+    },
+    {
+      "n": 16,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-5.svg",
+      "alt": "Sample brand logo 5"
+    },
+    {
+      "n": 17,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-6.svg",
+      "alt": "Sample brand logo 6"
+    },
+    {
+      "n": 18,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-1.svg",
+      "alt": ""
+    },
+    {
+      "n": 19,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-2.svg",
+      "alt": ""
+    },
+    {
+      "n": 20,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-3.svg",
+      "alt": ""
+    },
+    {
+      "n": 21,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-4.svg",
+      "alt": ""
+    },
+    {
+      "n": 22,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-5.svg",
+      "alt": ""
+    },
+    {
+      "n": 23,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-6.svg",
+      "alt": ""
+    }
+  ],
+  "technical-support": [
+    {
+      "n": 0,
+      "section": "about-hero ai-general-hero",
+      "source": "../../public/homepage/about.webp",
+      "alt": "CODEYEA — AI and automation"
+    },
+    {
+      "n": 1,
+      "section": "ds-overview",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 2,
+      "section": "ds-challenges",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 3,
+      "section": "ds-work",
+      "source": "../../public/homepage/branding.webp",
+      "alt": "Graphic designer creating a visual identity on a laptop"
+    },
+    {
+      "n": 4,
+      "section": "ds-work",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 5,
+      "section": "ds-work",
+      "source": "../../public/homepage/project-web.webp",
+      "alt": "Editorial magazine layout with oversized orange typography"
+    },
+    {
+      "n": 6,
+      "section": "ds-vision",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 7,
+      "section": "ds-vision",
+      "source": "../../public/homepage/branding.webp",
+      "alt": "Graphic designer creating a visual identity on a laptop"
+    },
+    {
+      "n": 8,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/support.webp",
+      "alt": "Illustrative service collaboration"
+    },
+    {
+      "n": 9,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/project-web.webp",
+      "alt": "Illustrative service collaboration"
+    },
+    {
+      "n": 10,
+      "section": "ds-inclusions",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Illustrative service collaboration"
+    },
+    {
+      "n": 11,
+      "section": "ds-path",
+      "source": "../../public/homepage/about.webp",
+      "alt": "Team reviewing mobile app wireframes"
+    },
+    {
+      "n": 12,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-1.svg",
+      "alt": "Sample brand logo 1"
+    },
+    {
+      "n": 13,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-2.svg",
+      "alt": "Sample brand logo 2"
+    },
+    {
+      "n": 14,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-3.svg",
+      "alt": "Sample brand logo 3"
+    },
+    {
+      "n": 15,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-4.svg",
+      "alt": "Sample brand logo 4"
+    },
+    {
+      "n": 16,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-5.svg",
+      "alt": "Sample brand logo 5"
+    },
+    {
+      "n": 17,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-6.svg",
+      "alt": "Sample brand logo 6"
+    },
+    {
+      "n": 18,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-1.svg",
+      "alt": ""
+    },
+    {
+      "n": 19,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-2.svg",
+      "alt": ""
+    },
+    {
+      "n": 20,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-3.svg",
+      "alt": ""
+    },
+    {
+      "n": 21,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-4.svg",
+      "alt": ""
+    },
+    {
+      "n": 22,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-5.svg",
+      "alt": ""
+    },
+    {
+      "n": 23,
+      "section": "ds-testimonials",
+      "source": "../../public/homepage/client-6.svg",
+      "alt": ""
+    }
+  ],
+  "website-hosting": [
+    {
+      "n": 0,
+      "section": "about-hero",
+      "source": "http://127.0.0.1:3002/api/media/media_144cde21-93c7-4a91-87b1-0b8fe5ad799e/large",
+      "alt": "Team working together"
+    },
+    {
+      "n": 1,
+      "section": "v-intro v-wrap",
+      "source": "http://127.0.0.1:3002/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 2,
+      "section": "v-server-section",
+      "source": "http://127.0.0.1:3002/homepage/team.webp",
+      "alt": "Digital team working together in an office"
+    },
+    {
+      "n": 3,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/project-web.webp",
+      "alt": "Editorial magazine layout with oversized orange typography"
+    },
+    {
+      "n": 4,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/team.webp",
+      "alt": "Digital team working together in an office"
+    },
+    {
+      "n": 5,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/office.webp",
+      "alt": "Office interior"
+    },
+    {
+      "n": 6,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/project-brand.webp",
+      "alt": "Person holding a smartphone"
+    },
+    {
+      "n": 7,
+      "section": "v-wrap v-migration",
+      "source": "http://127.0.0.1:3002/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 8,
+      "section": "services-cta",
+      "source": "http://127.0.0.1:3002/api/media/media_144cde21-93c7-4a91-87b1-0b8fe5ad799e/large",
+      "alt": "Team working together"
+    }
+  ],
+  "wordpress-hosting": [
+    {
+      "n": 0,
+      "section": "about-hero",
+      "source": "http://127.0.0.1:3002/api/media/media_144cde21-93c7-4a91-87b1-0b8fe5ad799e/large",
+      "alt": "Team working together"
+    },
+    {
+      "n": 1,
+      "section": "v-intro v-wrap",
+      "source": "http://127.0.0.1:3002/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 2,
+      "section": "v-server-section",
+      "source": "http://127.0.0.1:3002/homepage/team.webp",
+      "alt": "Digital team working together in an office"
+    },
+    {
+      "n": 3,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/project-web.webp",
+      "alt": "Editorial magazine layout with oversized orange typography"
+    },
+    {
+      "n": 4,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/team.webp",
+      "alt": "Digital team working together in an office"
+    },
+    {
+      "n": 5,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/office.webp",
+      "alt": "Office interior"
+    },
+    {
+      "n": 6,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/project-brand.webp",
+      "alt": "Person holding a smartphone"
+    },
+    {
+      "n": 7,
+      "section": "v-wrap v-migration",
+      "source": "http://127.0.0.1:3002/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 8,
+      "section": "services-cta",
+      "source": "http://127.0.0.1:3002/api/media/media_144cde21-93c7-4a91-87b1-0b8fe5ad799e/large",
+      "alt": "Team working together"
+    }
+  ],
+  "cloud-hosting": [
+    {
+      "n": 0,
+      "section": "about-hero",
+      "source": "http://127.0.0.1:3002/api/media/media_144cde21-93c7-4a91-87b1-0b8fe5ad799e/large",
+      "alt": "Team working together"
+    },
+    {
+      "n": 1,
+      "section": "v-intro v-wrap",
+      "source": "http://127.0.0.1:3002/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 2,
+      "section": "v-server-section",
+      "source": "http://127.0.0.1:3002/homepage/team.webp",
+      "alt": "Digital team working together in an office"
+    },
+    {
+      "n": 3,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/project-web.webp",
+      "alt": "Editorial magazine layout with oversized orange typography"
+    },
+    {
+      "n": 4,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/team.webp",
+      "alt": "Digital team working together in an office"
+    },
+    {
+      "n": 5,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/office.webp",
+      "alt": "Office interior"
+    },
+    {
+      "n": 6,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/project-brand.webp",
+      "alt": "Person holding a smartphone"
+    },
+    {
+      "n": 7,
+      "section": "v-wrap v-migration",
+      "source": "http://127.0.0.1:3002/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 8,
+      "section": "services-cta",
+      "source": "http://127.0.0.1:3002/api/media/media_144cde21-93c7-4a91-87b1-0b8fe5ad799e/large",
+      "alt": "Team working together"
+    }
+  ],
+  "email-hosting": [
+    {
+      "n": 0,
+      "section": "about-hero",
+      "source": "http://127.0.0.1:3002/api/media/media_144cde21-93c7-4a91-87b1-0b8fe5ad799e/large",
+      "alt": "Team working together"
+    },
+    {
+      "n": 1,
+      "section": "v-wrap v-intro",
+      "source": "http://127.0.0.1:3002/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 2,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/team.webp",
+      "alt": "Digital team working together in an office"
+    },
+    {
+      "n": 3,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 4,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/office.webp",
+      "alt": "Office interior"
+    },
+    {
+      "n": 5,
+      "section": "v-wrap v-showcases",
+      "source": "http://127.0.0.1:3002/homepage/team.webp",
+      "alt": "Digital team working together in an office"
+    },
+    {
+      "n": 6,
+      "section": "v-wrap v-migration",
+      "source": "http://127.0.0.1:3002/homepage/support.webp",
+      "alt": "Developer writing code at a computer"
+    },
+    {
+      "n": 7,
+      "section": "services-cta",
+      "source": "http://127.0.0.1:3002/api/media/media_144cde21-93c7-4a91-87b1-0b8fe5ad799e/large",
+      "alt": "Team working together"
+    }
+  ],
+  "domains": [
+    {
+      "n": 0,
+      "section": "d-container d-section",
+      "source": "assets/domain-privacy.png",
+      "alt": "Headphones and a quiet workspace"
+    },
+    {
+      "n": 1,
+      "section": "d-container d-section",
+      "source": "http://127.0.0.1:3002/homepage/team.webp",
+      "alt": "A team collaborating on their business"
+    },
+    {
+      "n": 2,
+      "section": "d-host",
+      "source": "assets/hosting-editorial.png",
+      "alt": "An original editorial portrait with headphones"
+    }
+  ],
+  "contact": [
+    {
+      "n": 0,
+      "section": "ct-hero",
+      "source": "https://codeyea.com/wp-content/uploads/2021/06/tree-grass-architecture-house-perspective-building-1099275-pxhere.com@2x-1.jpg",
+      "alt": "Building and green foliage — approved contact page reference"
+    }
+  ]
+}

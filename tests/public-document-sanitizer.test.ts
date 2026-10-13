@@ -74,7 +74,8 @@ test("illustrative work is bilingual and does not replace technical support pric
       (html.match(/class="ds-placeholder work-art/g) || []).length,
       6,
     );
-    assert.match(html, /project-1-(?:en|ar)-mobile\.svg/);
+    assert.match(html, /work-1-context-mobile\.webp/);
+    assert.doesNotMatch(html, /work-popup|work-check|project-1-(?:en|ar)-mobile\.svg/);
   }
   const source = await templateContent("technical-support");
   const draft = templatePageDraft("technical-support", source);

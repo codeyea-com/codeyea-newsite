@@ -44,9 +44,12 @@
 .hp.public-surface .hp-header.is-scrolled .hp-logo-dark {opacity:1}
 .hp.public-surface .hp-header.is-scrolled .hp-logo-light {opacity:0}
 @media (max-width:1199px) {
-  .hp.public-surface .hp-header:not(.is-scrolled) {margin-bottom:-74px;background:transparent!important;color:#fff}
-  .hp.public-surface .hp-header:not(.is-scrolled) .hp-desktop-nav>.hp-nav-item>a {color:#fff}
-  .hp.public-surface .hp-header:not(.is-scrolled) .hp-mobile-trigger {color:#fff}
+  .hp.public-surface .hp-header,
+  .hp.public-surface .hp-header:not(.is-scrolled),
+  .hp.public-surface .hp-header.is-scrolled {margin-bottom:0;background:#fff!important;color:var(--brand-secondary);backdrop-filter:none;-webkit-backdrop-filter:none}
+  .hp.public-surface .hp-header .hp-mobile-trigger {color:var(--brand-secondary)}
+  .hp.public-surface .hp-header:not(.is-scrolled) .hp-logo-dark {opacity:1}
+  .hp.public-surface .hp-header:not(.is-scrolled) .hp-logo-light {opacity:0}
 }
 /* Keep the desktop glass effect on the decorative layer so fixed mega panels
    remain positioned against the viewport after the header becomes scrolled. */

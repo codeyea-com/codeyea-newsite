@@ -1,0 +1,457 @@
+[
+  {
+    "input": "public\\site\\generated\\brand-design\\section-collage-logo-v1-desktop.png",
+    "output": "public\\site\\generated\\brand-design\\section-collage-logo-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\brand-design\\section-collage-colors-v1-desktop.png",
+    "output": "public\\site\\generated\\brand-design\\section-collage-colors-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\brand-design\\section-collage-materials-v1-desktop.png",
+    "output": "public\\site\\generated\\brand-design\\section-collage-materials-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\brand-design\\section-film-logo-process-v1-desktop.png",
+    "output": "public\\site\\generated\\brand-design\\section-film-logo-process-v1-desktop.webp",
+    "width": 1360,
+    "height": 1156,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\brand-design\\section-film-print-v1-desktop.png",
+    "output": "public\\site\\generated\\brand-design\\section-film-print-v1-desktop.webp",
+    "width": 1360,
+    "height": 1156,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\brand-design\\section-film-packaging-v1-desktop.png",
+    "output": "public\\site\\generated\\brand-design\\section-film-packaging-v1-desktop.webp",
+    "width": 1360,
+    "height": 1157,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\brand-design\\section-film-typography-v1-desktop.png",
+    "output": "public\\site\\generated\\brand-design\\section-film-typography-v1-desktop.webp",
+    "width": 1360,
+    "height": 1156,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\brand-design\\section-work-identity-v1-desktop.png",
+    "output": "public\\site\\generated\\brand-design\\section-work-identity-v1-desktop.webp",
+    "width": 1189,
+    "height": 1323,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\brand-design\\section-work-applications-v1-desktop.png",
+    "output": "public\\site\\generated\\brand-design\\section-work-applications-v1-desktop.webp",
+    "width": 1189,
+    "height": 1323,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\brand-design\\section-work-campaign-v1-desktop.png",
+    "output": "public\\site\\generated\\brand-design\\section-work-campaign-v1-desktop.webp",
+    "width": 1188,
+    "height": 1324,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\brand-design\\section-work-social-v1-desktop.png",
+    "output": "public\\site\\generated\\brand-design\\section-work-social-v1-desktop.webp",
+    "width": 1189,
+    "height": 1323,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\brand-design\\section-work-direction-v1-desktop.png",
+    "output": "public\\site\\generated\\brand-design\\section-work-direction-v1-desktop.webp",
+    "width": 1189,
+    "height": 1323,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\brand-design\\section-capabilities-v1-desktop.png",
+    "output": "public\\site\\generated\\brand-design\\section-capabilities-v1-desktop.webp",
+    "width": 1774,
+    "height": 887,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-overview-v1-desktop.png",
+    "output": "public\\site\\generated\\ai-automation\\section-overview-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": true
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-challenges-v1-desktop.png",
+    "output": "public\\site\\generated\\ai-automation\\section-challenges-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-collage-workflow-v1-desktop.png",
+    "output": "public\\site\\generated\\ai-automation\\section-collage-workflow-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-collage-invoice-v1-desktop.png",
+    "output": "public\\site\\generated\\ai-automation\\section-collage-invoice-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-collage-saas-v1-desktop.png",
+    "output": "public\\site\\generated\\ai-automation\\section-collage-saas-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-include-task-v1-desktop.png",
+    "output": "public\\site\\generated\\ai-automation\\section-include-task-v1-desktop.webp",
+    "width": 1552,
+    "height": 1013,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-include-task-v1-mobile.png",
+    "output": "public\\site\\generated\\ai-automation\\section-include-task-v1-mobile.webp",
+    "width": 1272,
+    "height": 1236,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-include-control-v1-desktop.png",
+    "output": "public\\site\\generated\\ai-automation\\section-include-control-v1-desktop.webp",
+    "width": 1552,
+    "height": 1013,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-include-control-v1-mobile.png",
+    "output": "public\\site\\generated\\ai-automation\\section-include-control-v1-mobile.webp",
+    "width": 1272,
+    "height": 1236,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-path-1-v1-desktop.png",
+    "output": "public\\site\\generated\\ai-automation\\section-path-1-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": true
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-overview-v1-desktop.png",
+    "output": "public\\site\\generated\\seo-geo\\section-overview-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": true
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-challenges-v1-desktop.png",
+    "output": "public\\site\\generated\\seo-geo\\section-challenges-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-collage-audit-v1-desktop.png",
+    "output": "public\\site\\generated\\seo-geo\\section-collage-audit-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-collage-content-v1-desktop.png",
+    "output": "public\\site\\generated\\seo-geo\\section-collage-content-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-collage-local-v1-desktop.png",
+    "output": "public\\site\\generated\\seo-geo\\section-collage-local-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-include-audit-v1-desktop.png",
+    "output": "public\\site\\generated\\seo-geo\\section-include-audit-v1-desktop.webp",
+    "width": 1552,
+    "height": 1013,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-include-audit-v1-mobile.png",
+    "output": "public\\site\\generated\\seo-geo\\section-include-audit-v1-mobile.webp",
+    "width": 1428,
+    "height": 1102,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-include-pages-v1-desktop.png",
+    "output": "public\\site\\generated\\seo-geo\\section-include-pages-v1-desktop.webp",
+    "width": 1552,
+    "height": 1013,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-include-pages-v1-mobile.png",
+    "output": "public\\site\\generated\\seo-geo\\section-include-pages-v1-mobile.webp",
+    "width": 1273,
+    "height": 1236,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-path-1-v1-desktop.png",
+    "output": "public\\site\\generated\\seo-geo\\section-path-1-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": true
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-path-2-v1-desktop.png",
+    "output": "public\\site\\generated\\seo-geo\\section-path-2-v1-desktop.webp",
+    "width": 1088,
+    "height": 1445,
+    "alpha": true
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-include-assistant-v2-desktop.png",
+    "output": "public\\site\\generated\\ai-automation\\section-include-assistant-v2-desktop.webp",
+    "width": 1547,
+    "height": 1016,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-include-assistant-v2-mobile.png",
+    "output": "public\\site\\generated\\ai-automation\\section-include-assistant-v2-mobile.webp",
+    "width": 1283,
+    "height": 1226,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-include-evidence-v2-desktop.png",
+    "output": "public\\site\\generated\\seo-geo\\section-include-evidence-v2-desktop.webp",
+    "width": 1547,
+    "height": 1016,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-include-evidence-v2-mobile.png",
+    "output": "public\\site\\generated\\seo-geo\\section-include-evidence-v2-mobile.webp",
+    "width": 1283,
+    "height": 1226,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-path-2-v2-desktop.png",
+    "output": "public\\site\\generated\\ai-automation\\section-path-2-v2-desktop.webp",
+    "width": 1143,
+    "height": 1376,
+    "alpha": true
+  },
+  {
+    "input": "public\\site\\generated\\ai-automation\\section-path-3-v2-desktop.png",
+    "output": "public\\site\\generated\\ai-automation\\section-path-3-v2-desktop.webp",
+    "width": 1143,
+    "height": 1376,
+    "alpha": false
+  },
+  {
+    "input": "public\\site\\generated\\seo-geo\\section-path-3-v2-desktop.png",
+    "output": "public\\site\\generated\\seo-geo\\section-path-3-v2-desktop.webp",
+    "width": 1145,
+    "height": 1374,
+    "alpha": true
+  },
+  {
+    "input": "public/site/generated/seo-geo/work-1-context-desktop.png",
+    "output": "public/site/generated/seo-geo/work-1-context-desktop.webp",
+    "width": 1425,
+    "height": 1104,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/seo-geo/work-1-context-mobile.png",
+    "output": "public/site/generated/seo-geo/work-1-context-mobile.webp",
+    "width": 1127,
+    "height": 1396,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/seo-geo/photo-2-desktop.png",
+    "output": "public/site/generated/seo-geo/photo-2-desktop.webp",
+    "width": 1448,
+    "height": 1086,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/seo-geo/photo-2-mobile.png",
+    "output": "public/site/generated/seo-geo/photo-2-mobile.webp",
+    "width": 1254,
+    "height": 1254,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/seo-geo/work-3-context-desktop.png",
+    "output": "public/site/generated/seo-geo/work-3-context-desktop.webp",
+    "width": 1424,
+    "height": 1104,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/seo-geo/work-3-context-mobile.png",
+    "output": "public/site/generated/seo-geo/work-3-context-mobile.webp",
+    "width": 1127,
+    "height": 1396,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/seo-geo/photo-4-desktop.png",
+    "output": "public/site/generated/seo-geo/photo-4-desktop.webp",
+    "width": 1448,
+    "height": 1086,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/seo-geo/photo-4-mobile.png",
+    "output": "public/site/generated/seo-geo/photo-4-mobile.webp",
+    "width": 1254,
+    "height": 1254,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/seo-geo/work-5-context-desktop.png",
+    "output": "public/site/generated/seo-geo/work-5-context-desktop.webp",
+    "width": 1426,
+    "height": 1103,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/seo-geo/work-5-context-mobile.png",
+    "output": "public/site/generated/seo-geo/work-5-context-mobile.webp",
+    "width": 1127,
+    "height": 1396,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/seo-geo/photo-6-desktop.png",
+    "output": "public/site/generated/seo-geo/photo-6-desktop.webp",
+    "width": 1448,
+    "height": 1086,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/seo-geo/photo-6-mobile.png",
+    "output": "public/site/generated/seo-geo/photo-6-mobile.webp",
+    "width": 1254,
+    "height": 1254,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/ai-automation/work-1-context-desktop.png",
+    "output": "public/site/generated/ai-automation/work-1-context-desktop.webp",
+    "width": 1424,
+    "height": 1104,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/ai-automation/work-1-context-mobile.png",
+    "output": "public/site/generated/ai-automation/work-1-context-mobile.webp",
+    "width": 1127,
+    "height": 1396,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/ai-automation/photo-2-desktop.png",
+    "output": "public/site/generated/ai-automation/photo-2-desktop.webp",
+    "width": 1448,
+    "height": 1086,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/ai-automation/photo-2-mobile.png",
+    "output": "public/site/generated/ai-automation/photo-2-mobile.webp",
+    "width": 1254,
+    "height": 1254,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/ai-automation/work-3-context-desktop.png",
+    "output": "public/site/generated/ai-automation/work-3-context-desktop.webp",
+    "width": 1425,
+    "height": 1104,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/ai-automation/work-3-context-mobile.png",
+    "output": "public/site/generated/ai-automation/work-3-context-mobile.webp",
+    "width": 1126,
+    "height": 1397,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/ai-automation/photo-4-desktop.png",
+    "output": "public/site/generated/ai-automation/photo-4-desktop.webp",
+    "width": 1448,
+    "height": 1086,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/ai-automation/photo-4-mobile.png",
+    "output": "public/site/generated/ai-automation/photo-4-mobile.webp",
+    "width": 1254,
+    "height": 1254,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/ai-automation/work-5-context-desktop.png",
+    "output": "public/site/generated/ai-automation/work-5-context-desktop.webp",
+    "width": 1425,
+    "height": 1104,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/ai-automation/work-5-context-mobile.png",
+    "output": "public/site/generated/ai-automation/work-5-context-mobile.webp",
+    "width": 1127,
+    "height": 1395,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/ai-automation/photo-6-desktop.png",
+    "output": "public/site/generated/ai-automation/photo-6-desktop.webp",
+    "width": 1448,
+    "height": 1086,
+    "alpha": false
+  },
+  {
+    "input": "public/site/generated/ai-automation/photo-6-mobile.png",
+    "output": "public/site/generated/ai-automation/photo-6-mobile.webp",
+    "width": 1254,
+    "height": 1254,
+    "alpha": false
+  }
+]

@@ -1,5 +1,22 @@
 # CODEYEA content and imagery instructions
 
+## Owner resumed the complete website, 2026-10-13
+- Latest explicit instruction resumes all website imagery, mobile header repair, visual verification and GitHub upload. This supersedes the pause below, but does not approve previously rejected assets.
+- Fix the transparent mobile header without redesigning desktop navigation.
+- Industry imagery must vary between systems, agreements/partnerships, recognizable search results, business operations and expressive real-life subjects. Avoid a collection consisting mainly of people or factories.
+- Choose images from the actual section meaning and measured desktop, tablet and mobile frames.
+- Popups belong only to open image compositions. Boxed images, small cards and frames that already have shadows receive clean imagery, without floating panels or added shadows. This contextual rule takes priority over forcing any numerical popup quota.
+- Existing Events V2 imagery remains rejected. Use the supplied commercial exhibition/B2B references for the replacement. Solar images must use appropriate flat concrete rooftops and regional architecture.
+- The requested GitHub upload is authorized. Preserve existing layouts, interactions and unrelated work.
+
+
+## Solar imagery reference correction — 2026-10-13
+- Use the supplied flat concrete rooftop solar references and architecture familiar to Iraq and the region. Avoid defaulting to repeated tiled-roof houses. Vary installed systems, installation work, residential and commercial settings as the section content requires. See SOLAR_SUPPLIED_REFERENCE_NOTES.json. Generation remains paused.
+
+## Owner rejection and pause — 2026-10-13
+- The current generated Events imagery is rejected. Do not upload it, label it completed or approved, or use it as a design reference. See EVENTS_IMAGE_REVIEW_STATUS.json.
+- Stop image generation and design modifications until the owner explicitly requests another attempt. The owner identified repeated wasted time and tokens; do not autonomously generate a replacement batch.
+
 Owner instructions consolidated on 2026-10-12. These apply to every page and both Arabic and English. Latest explicit owner requests supersede earlier pauses or SEO-only trial scope.
 
 ## Meaning first
@@ -30,6 +47,14 @@ Owner instructions consolidated on 2026-10-12. These apply to every page and bot
 - Every distinct placement needs a distinct image. Never repeat the hero in the CTA. Translations and responsive variants of the same placement may share the same concept.
 - Do not claim generated demonstration graphics are actual verified client results. Do not invent testimonials, real client identities or performance statistics.
 
+## Owner reiterated during continuation
+- Event industry imagery must depict international commercial trade exhibitions, business conferences and B2B meetings; no parties, weddings or celebrations.
+- After all site imagery is completed, arranged, verified and uploaded, implement at least three fresh interactive Homepage hero ideas as comparative previews. Combine studied ideas and elements; preserve the current Homepage until a version is selected.
+- Life imagery must include expressive real objects, materials, machinery, buildings and motion, not mainly people holding tablets or working at computers.
+- Vary the underlying scene ideas across the collection. Tablet/computer scenes remain allowed when appropriate, but reduce them substantially; choosing a different person or sector does not alone make that recurring scene idea different.
+- Independently of the technical/life balance, approximately 50% of the foreground image placements per page should include protruding popup/interface elements and 50% should be expressive clean imagery with no popup elements. Do not put popups on every image.
+- Decorative background line art and functional logos/icons are separate from this foreground image count. For an odd count use the closest feasible split without adding/removing placements.
+
 ## Storage
 - Save every generated image under C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/<Page>/.
 - Keep descriptive distinct filenames and version/draft subfolders. Preserve originals and functioning preview references. Maintain source/asset manifest.
@@ -38,3 +63,53 @@ Owner instructions consolidated on 2026-10-12. These apply to every page and bot
 - Fill the selected-work/project-card placeholder section shown by the owner, including SEO heading Research / Content / Visibility / Answers, on every page where that section exists, in Arabic and English, with original application examples and matching images informed by relevant competitors.
 - Invent illustrative application concepts within each specialty; clearly identify them as illustrative concepts rather than completed client projects.
 - Then generate site-wide imagery under all rules above and upload the resulting requested changes to the project's GitHub repository. No further permission is needed for this authorized scope. Preserve unrelated approved composition and interactions.
+- Small image-card grids that already supply frame shadows must use clean expressive imagery, without baked or overlaid popups, checks, extra panels or duplicate shadows. Choose treatment per actual section size, rather than forcing the site-wide 50/50 mix into every section. Generic option lists and tables are rejected as substitute imagery; Google results must look like recognizable real search results when that is the actual subject.
+
+# Device framing and fictional names, owner correction 2026-10-13
+
+- Every website or software interface image must be presented inside a laptop, desktop monitor, phone or tablet. A naked standalone screenshot is not an accepted final image.
+- The screen and its meaningful UI dominate the composition. Surrounding atmosphere, room, desk and people are secondary and must not shrink the interface into an unreadable detail.
+- Vary plausible fictional site/system names according to the sector. Do not repeat CODEYEA as the brand of every demonstration.
+- Keep the other constraints: correct measured slot and orientation, no popups in small boxed/shadowed images, purposeful protruding elements only in open compositions, natural colors, distinct concepts and sharp designed UI corners.
+- Industry V3 standalone interfaces were generated before this correction. Preserve them as drafts only; select device-framed replacements for the final website.
+
+
+## Superseding clarification: contextual mockups, 2026-10-13
+The owner explicitly rejected isolated front-on devices on empty backdrops. Show a real device within a thoughtfully composed context appropriate to the industry/service: purposeful angle, lighting, hands where useful, relevant materials/props and surroundings. The screen stays prominent/readable, but no fixed 90% rule and no removal of context. Vary photography and device arrangements using the fourteen supplied mockup references. Never copy their placeholder text. Existing V4 isolated-device generation is draft only.
+
+Mobile CTA: reuse Get your Free link and copy, fixed at screen bottom with gentle floating motion, no content obstruction, respect reduced motion.
+
+# Owner-approved image direction, 2026-10-13
+
+Scope: all service and industry pages, not just Brand Design and AI.
+
+The owner approved the contextual roofing tablet composition (V5) and requested the gloved finger moved off the display. V6 is the corrected selected version. The approved principle is a screen within a real photographic device, integrated into a meaningful scene appropriate to the exact section. It is not an isolated frontal device on an empty studio backdrop.
+
+## Mandatory variety
+
+- Vary the visual idea, device type, framing, angle, materials, lighting and human presence across each page and neighboring pages.
+- Do not repeat the right-hand-holding-a-phone composition. Alternate devices on stands or tables, overhead views, keyboard interaction, stylus work, meaningful close-ups, and occasional natural human use.
+- Show the business process and service output. The main subject can be an interface, automation, design artifact, physical product, materials, collaboration or relevant real-world activity.
+- People can be present beside systems or as hands/partial figures. Some complete human scenes are allowed. Balance them; neither remove people entirely nor make every image a person with a device.
+- Website/software interfaces belong inside a real device. Keep screens readable and all fingers outside the active display unless a specific interaction requires a clear unobstructed touch target.
+- Brand examples have varied fictional names. Do not label every system CODEYEA. No fabricated actual clients, statistics, reviews or guaranteed results.
+
+## Service-specific examples from the owner
+
+Brand Design: stylus sketching a logo on a tablet; team selecting color and typography; identity applied to promotional materials. These are examples of the general process-and-result approach.
+
+AI and Automation: team planning an AI-enabled SaaS product; meaningful automation flows and device-screen mockups of systems. The system/process remains visually primary, with people supporting the scene where appropriate.
+
+Apply equivalent concepts to every other service according to that section's actual copy. Do not mechanically reuse the same device scene or just substitute its screen.
+
+## Composition and placement
+
+Preserve measured image size, orientation and page layout. No popup or additional outer shadow inside small, boxed or already-shadowed image cards. Open compositions may use purposeful protruding elements with real transparent surroundings. Preserve natural colors, sharp designed corners and the existing approved page interactions.
+
+Save every original in Generated images/<Page>/; retain rejected isolated V3/V4 drafts but do not ship them. Review images in their real desktop/mobile slots before selection.
+
+Mobile: the existing Get Your Free Quote action must remain fixed at the bottom with a gentle float, same form behavior, safe-area allowance and reduced-motion support.
+
+
+## Latest scope gate, 2026-10-13
+Owner now requires a page-specific imagery-style question for remaining service pages. Complete SEO, Brand Design and AI/Automation using supplied directions first, then ask about the remaining service pages one at a time. Do not autonomously generate further Digital Marketing, Web/Mobile Apps, Technical Support, hosting or other service-page images before that direction. Existing approved industry/contextual work remains authorized. This supersedes the earlier request to decide all service-image styles autonomously.

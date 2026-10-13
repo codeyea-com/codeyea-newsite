@@ -1,3 +1,4 @@
+import { serviceArtwork, serviceArtworkTag } from '../content/generated-service-artwork';
 import { contextualLink } from "@/content/contextual-links";
 import { renderIllustrativeWork } from './illustrative-work-render';
 import arabicTemplateCopy from "@/content/arabic-template-copy.json";
@@ -463,12 +464,19 @@ export function rewritePublicDocumentLinks(html: string, locale: "en" | "ar") {
 export function applyTemplateImageOverrides(
   html: string,
   images: TemplateImage[] = [],
+  slug = "",
+  locale = "en",
 ) {
   let index = 0;
   return html.replace(/<main\b[\s\S]*?<\/main>/, (main) =>
     main.replace(/<img\b[^>]*>/gi, (tag) => {
-      const override = images[index++];
-      if (!override?.mediaId) return tag;
+      const slot = index++;
+      const override = images[slot];
+      if (!override?.mediaId) {
+        const art = serviceArtwork(slug, slot);
+        const source = tag.match(/\bsrc=(["'])([^"']*)\1/i)?.[2];
+        return art && source === art.originalSource ? serviceArtworkTag(tag, art, locale) : tag;
+      }
       let updated = tag
         .replace(
           /\bsrc=(['"])[^'"]*\1/i,
@@ -616,7 +624,7 @@ export async function renderDocument(
       "",
     );
   }
-  html = applyTemplateImageOverrides(html, content.images);
+  html = applyTemplateImageOverrides(html, content.images, slug, locale);
   html = html.replace(
     /\/api\/media\/(media_[0-9a-f-]{36})\/(?:thumb|small|medium|large)/g,
     (_match, id: string) => assetUrl(id),
@@ -1148,6 +1156,26 @@ export async function renderDocument(
         );
       },
     );
+  }
+  if (slug === 'brand-design' && serviceArtwork(slug, 8)) {
+    html = html.replace('Selected-work spaces are reserved below. Images illustrate the layout and will be replaced with approved CODEYEA projects.', locale === 'ar' ? 'تصورات تطبيقية توضح كيف تتكامل الهوية عبر الشعار والمطبوعات والحملات والمنتجات.' : 'Illustrative concepts showing how an identity connects logos, printed materials, campaigns and products.')
+      .replace('المساحات التالية مخصصة للأعمال المعتمدة. الصور الحالية توضح التصميم، وستُستبدل بمشاريع CODEYEA بعد اعتمادها.', 'تصورات تطبيقية توضح كيف تتكامل الهوية عبر الشعار والمطبوعات والحملات والمنتجات.')
+      .replaceAll('AWAITING APPROVED WORK', locale === 'ar' ? 'تصور تطبيقي' : 'ILLUSTRATIVE CONCEPT')
+      .replaceAll('بانتظار اعتماد الأعمال','تصور تطبيقي');
+  }
+  const capArt = serviceArtwork(slug, 'capabilities');
+  if (capArt) html = html.replace(/<img\b(?=[^>]*class="cy-cap-image")[^>]*>/, tag => serviceArtworkTag(tag, capArt, locale));
+  // The approved pinned section creates two images at runtime. Preserve that motion.
+  if (serviceArtwork(slug, 11) && html.includes('data-generated-desktop="' + serviceArtwork(slug, 11)!.src + '"')) {
+    const paths = [serviceArtwork(slug, 'path-2'), serviceArtwork(slug, 'path-3')];
+    if (paths.every(Boolean)) {
+      html = html.replace(/\['branding','support'\]\.forEach\(name=>\{const img=first\.cloneNode\(\);img\.src='[^']*'\+name\+'\.webp';figure\.append\(img\);images\.push\(img\)\}\);/,
+        JSON.stringify(paths).replaceAll('<', '\\u003c') + '.forEach(art=>{const img=first.cloneNode();img.src=art.src;img.alt=art.alt[document.documentElement.lang==="ar"?"ar":"en"];img.dataset.generatedDesktop=art.src;delete img.dataset.generatedMobile;delete img.dataset.generatedOpen;if(art.mobileSrc)img.dataset.generatedMobile=art.mobileSrc;if(art.transparent)img.dataset.generatedOpen="true";figure.append(img);images.push(img)});');
+    }
+  }
+  if (html.includes('data-generated-desktop=')) {
+    html = html.replace('</head>', '<style>img[data-generated-open]{object-fit:contain!important;box-shadow:none!important}</style></head>');
+    html = html.replace('</body>', '<script src="/site/generated-art-direction.js"></script></body>');
   }
   html = html.replace(
     /(<(?:script|style)\b[^>]*>[\s\S]*?<\/(?:script|style)>)|([^<]+)|(<[^>]+>)/gi,

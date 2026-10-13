@@ -1,0 +1,1087 @@
+[
+  {
+    "page": "healthcare",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\healthcare\\hero-desktop.png",
+    "output": "public\\site\\generated\\industries\\healthcare\\hero-desktop.webp"
+  },
+  {
+    "page": "healthcare",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\healthcare\\hero-mobile.png",
+    "output": "public\\site\\generated\\industries\\healthcare\\hero-mobile.webp"
+  },
+  {
+    "page": "healthcare",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\healthcare\\strip-1-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\healthcare\\strip-1-v5-desktop.webp"
+  },
+  {
+    "page": "healthcare",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\healthcare\\strip-2-desktop.png",
+    "output": "public\\site\\generated\\industries\\healthcare\\strip-2-desktop.webp"
+  },
+  {
+    "page": "healthcare",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\healthcare\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\healthcare\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "healthcare",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\healthcare\\strip-4-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\healthcare\\strip-4-v2-desktop.webp"
+  },
+  {
+    "page": "healthcare",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\healthcare\\needs-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\healthcare\\needs-v2-desktop.webp"
+  },
+  {
+    "page": "healthcare",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\healthcare\\needs-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\healthcare\\needs-v2-mobile.webp"
+  },
+  {
+    "page": "healthcare",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\healthcare\\image-break-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\healthcare\\image-break-v5-desktop.webp"
+  },
+  {
+    "page": "healthcare",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\healthcare\\cta-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\healthcare\\cta-v2-desktop.webp"
+  },
+  {
+    "page": "healthcare",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\healthcare\\cta-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\healthcare\\cta-v2-mobile.webp"
+  },
+  {
+    "page": "roofing",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\roofing\\hero-desktop.png",
+    "output": "public\\site\\generated\\industries\\roofing\\hero-desktop.webp"
+  },
+  {
+    "page": "roofing",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\roofing\\hero-mobile.png",
+    "output": "public\\site\\generated\\industries\\roofing\\hero-mobile.webp"
+  },
+  {
+    "page": "roofing",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\roofing\\strip-1-v6-desktop.png",
+    "output": "public\\site\\generated\\industries\\roofing\\strip-1-v6-desktop.webp"
+  },
+  {
+    "page": "roofing",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\roofing\\strip-2-desktop.png",
+    "output": "public\\site\\generated\\industries\\roofing\\strip-2-desktop.webp"
+  },
+  {
+    "page": "roofing",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\roofing\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\roofing\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "roofing",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\roofing\\strip-4-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\roofing\\strip-4-v2-desktop.webp"
+  },
+  {
+    "page": "roofing",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\roofing\\needs-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\roofing\\needs-v2-desktop.webp"
+  },
+  {
+    "page": "roofing",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\roofing\\needs-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\roofing\\needs-v2-mobile.webp"
+  },
+  {
+    "page": "roofing",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\roofing\\image-break-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\roofing\\image-break-v3-desktop.webp"
+  },
+  {
+    "page": "roofing",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\roofing\\cta-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\roofing\\cta-v2-desktop.webp"
+  },
+  {
+    "page": "roofing",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\roofing\\cta-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\roofing\\cta-v2-mobile.webp"
+  },
+  {
+    "page": "construction",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\construction\\hero-desktop.png",
+    "output": "public\\site\\generated\\industries\\construction\\hero-desktop.webp"
+  },
+  {
+    "page": "construction",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\construction\\hero-mobile.png",
+    "output": "public\\site\\generated\\industries\\construction\\hero-mobile.webp"
+  },
+  {
+    "page": "construction",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\construction\\strip-1-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\construction\\strip-1-v5-desktop.webp"
+  },
+  {
+    "page": "construction",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\construction\\strip-2-desktop.png",
+    "output": "public\\site\\generated\\industries\\construction\\strip-2-desktop.webp"
+  },
+  {
+    "page": "construction",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\construction\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\construction\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "construction",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\construction\\strip-4-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\construction\\strip-4-v2-desktop.webp"
+  },
+  {
+    "page": "construction",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\construction\\needs-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\construction\\needs-v2-desktop.webp"
+  },
+  {
+    "page": "construction",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\construction\\needs-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\construction\\needs-v2-mobile.webp"
+  },
+  {
+    "page": "construction",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\construction\\image-break-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\construction\\image-break-v3-desktop.webp"
+  },
+  {
+    "page": "construction",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\construction\\cta-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\construction\\cta-v2-desktop.webp"
+  },
+  {
+    "page": "construction",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\construction\\cta-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\construction\\cta-v2-mobile.webp"
+  },
+  {
+    "page": "e-commerce",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\e-commerce\\hero-desktop.png",
+    "output": "public\\site\\generated\\industries\\e-commerce\\hero-desktop.webp"
+  },
+  {
+    "page": "e-commerce",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\e-commerce\\hero-mobile.png",
+    "output": "public\\site\\generated\\industries\\e-commerce\\hero-mobile.webp"
+  },
+  {
+    "page": "e-commerce",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\e-commerce\\strip-1-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\e-commerce\\strip-1-v5-desktop.webp"
+  },
+  {
+    "page": "e-commerce",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\e-commerce\\strip-2-desktop.png",
+    "output": "public\\site\\generated\\industries\\e-commerce\\strip-2-desktop.webp"
+  },
+  {
+    "page": "e-commerce",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\e-commerce\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\e-commerce\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "e-commerce",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\e-commerce\\strip-4-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\e-commerce\\strip-4-v2-desktop.webp"
+  },
+  {
+    "page": "e-commerce",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\e-commerce\\needs-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\e-commerce\\needs-v2-desktop.webp"
+  },
+  {
+    "page": "e-commerce",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\e-commerce\\needs-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\e-commerce\\needs-v2-mobile.webp"
+  },
+  {
+    "page": "e-commerce",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\e-commerce\\image-break-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\e-commerce\\image-break-v5-desktop.webp"
+  },
+  {
+    "page": "e-commerce",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\e-commerce\\cta-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\e-commerce\\cta-v2-desktop.webp"
+  },
+  {
+    "page": "e-commerce",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\e-commerce\\cta-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\e-commerce\\cta-v2-mobile.webp"
+  },
+  {
+    "page": "small-business",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\small-business\\hero-desktop.png",
+    "output": "public\\site\\generated\\industries\\small-business\\hero-desktop.webp"
+  },
+  {
+    "page": "small-business",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\small-business\\hero-mobile.png",
+    "output": "public\\site\\generated\\industries\\small-business\\hero-mobile.webp"
+  },
+  {
+    "page": "small-business",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\small-business\\strip-1-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\small-business\\strip-1-v5-desktop.webp"
+  },
+  {
+    "page": "small-business",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\small-business\\strip-2-desktop.png",
+    "output": "public\\site\\generated\\industries\\small-business\\strip-2-desktop.webp"
+  },
+  {
+    "page": "small-business",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\small-business\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\small-business\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "small-business",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\small-business\\strip-4-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\small-business\\strip-4-v2-desktop.webp"
+  },
+  {
+    "page": "small-business",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\small-business\\needs-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\small-business\\needs-v2-desktop.webp"
+  },
+  {
+    "page": "small-business",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\small-business\\needs-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\small-business\\needs-v2-mobile.webp"
+  },
+  {
+    "page": "small-business",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\small-business\\image-break-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\small-business\\image-break-v3-desktop.webp"
+  },
+  {
+    "page": "small-business",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\small-business\\cta-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\small-business\\cta-v2-desktop.webp"
+  },
+  {
+    "page": "small-business",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\small-business\\cta-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\small-business\\cta-v2-mobile.webp"
+  },
+  {
+    "page": "event-coordinators",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\event-coordinators\\hero-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\event-coordinators\\hero-v3-desktop.webp"
+  },
+  {
+    "page": "event-coordinators",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\event-coordinators\\hero-v3-mobile.png",
+    "output": "public\\site\\generated\\industries\\event-coordinators\\hero-v3-mobile.webp"
+  },
+  {
+    "page": "event-coordinators",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\event-coordinators\\strip-1-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\event-coordinators\\strip-1-v5-desktop.webp"
+  },
+  {
+    "page": "event-coordinators",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\event-coordinators\\strip-2-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\event-coordinators\\strip-2-v3-desktop.webp"
+  },
+  {
+    "page": "event-coordinators",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\event-coordinators\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\event-coordinators\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "event-coordinators",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\event-coordinators\\strip-4-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\event-coordinators\\strip-4-v3-desktop.webp"
+  },
+  {
+    "page": "event-coordinators",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\event-coordinators\\needs-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\event-coordinators\\needs-v3-desktop.webp"
+  },
+  {
+    "page": "event-coordinators",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\event-coordinators\\needs-v3-mobile.png",
+    "output": "public\\site\\generated\\industries\\event-coordinators\\needs-v3-mobile.webp"
+  },
+  {
+    "page": "event-coordinators",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\event-coordinators\\image-break-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\event-coordinators\\image-break-v3-desktop.webp"
+  },
+  {
+    "page": "event-coordinators",
+    "role": "image-break",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\event-coordinators\\image-break-v3-mobile.png",
+    "output": "public\\site\\generated\\industries\\event-coordinators\\image-break-v3-mobile.webp"
+  },
+  {
+    "page": "event-coordinators",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\event-coordinators\\cta-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\event-coordinators\\cta-v3-desktop.webp"
+  },
+  {
+    "page": "event-coordinators",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\event-coordinators\\cta-v3-mobile.png",
+    "output": "public\\site\\generated\\industries\\event-coordinators\\cta-v3-mobile.webp"
+  },
+  {
+    "page": "legal",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\legal\\hero-desktop.png",
+    "output": "public\\site\\generated\\industries\\legal\\hero-desktop.webp"
+  },
+  {
+    "page": "legal",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\legal\\hero-mobile.png",
+    "output": "public\\site\\generated\\industries\\legal\\hero-mobile.webp"
+  },
+  {
+    "page": "legal",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\legal\\strip-1-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\legal\\strip-1-v5-desktop.webp"
+  },
+  {
+    "page": "legal",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\legal\\strip-2-desktop.png",
+    "output": "public\\site\\generated\\industries\\legal\\strip-2-desktop.webp"
+  },
+  {
+    "page": "legal",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\legal\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\legal\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "legal",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\legal\\strip-4-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\legal\\strip-4-v2-desktop.webp"
+  },
+  {
+    "page": "legal",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\legal\\needs-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\legal\\needs-v2-desktop.webp"
+  },
+  {
+    "page": "legal",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\legal\\needs-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\legal\\needs-v2-mobile.webp"
+  },
+  {
+    "page": "legal",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\legal\\image-break-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\legal\\image-break-v3-desktop.webp"
+  },
+  {
+    "page": "legal",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\legal\\cta-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\legal\\cta-v2-desktop.webp"
+  },
+  {
+    "page": "legal",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\legal\\cta-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\legal\\cta-v2-mobile.webp"
+  },
+  {
+    "page": "online-magazine",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\online-magazine\\hero-desktop.png",
+    "output": "public\\site\\generated\\industries\\online-magazine\\hero-desktop.webp"
+  },
+  {
+    "page": "online-magazine",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\online-magazine\\hero-mobile.png",
+    "output": "public\\site\\generated\\industries\\online-magazine\\hero-mobile.webp"
+  },
+  {
+    "page": "online-magazine",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\online-magazine\\strip-1-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\online-magazine\\strip-1-v5-desktop.webp"
+  },
+  {
+    "page": "online-magazine",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\online-magazine\\strip-2-desktop.png",
+    "output": "public\\site\\generated\\industries\\online-magazine\\strip-2-desktop.webp"
+  },
+  {
+    "page": "online-magazine",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\online-magazine\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\online-magazine\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "online-magazine",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\online-magazine\\strip-4-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\online-magazine\\strip-4-v2-desktop.webp"
+  },
+  {
+    "page": "online-magazine",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\online-magazine\\needs-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\online-magazine\\needs-v2-desktop.webp"
+  },
+  {
+    "page": "online-magazine",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\online-magazine\\needs-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\online-magazine\\needs-v2-mobile.webp"
+  },
+  {
+    "page": "online-magazine",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\online-magazine\\image-break-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\online-magazine\\image-break-v5-desktop.webp"
+  },
+  {
+    "page": "online-magazine",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\online-magazine\\cta-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\online-magazine\\cta-v2-desktop.webp"
+  },
+  {
+    "page": "online-magazine",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\online-magazine\\cta-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\online-magazine\\cta-v2-mobile.webp"
+  },
+  {
+    "page": "oil-and-gas",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\oil-and-gas\\hero-desktop.png",
+    "output": "public\\site\\generated\\industries\\oil-and-gas\\hero-desktop.webp"
+  },
+  {
+    "page": "oil-and-gas",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\oil-and-gas\\hero-mobile.png",
+    "output": "public\\site\\generated\\industries\\oil-and-gas\\hero-mobile.webp"
+  },
+  {
+    "page": "oil-and-gas",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\oil-and-gas\\strip-1-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\oil-and-gas\\strip-1-v5-desktop.webp"
+  },
+  {
+    "page": "oil-and-gas",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\oil-and-gas\\strip-2-desktop.png",
+    "output": "public\\site\\generated\\industries\\oil-and-gas\\strip-2-desktop.webp"
+  },
+  {
+    "page": "oil-and-gas",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\oil-and-gas\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\oil-and-gas\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "oil-and-gas",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\oil-and-gas\\strip-4-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\oil-and-gas\\strip-4-v2-desktop.webp"
+  },
+  {
+    "page": "oil-and-gas",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\oil-and-gas\\needs-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\oil-and-gas\\needs-v2-desktop.webp"
+  },
+  {
+    "page": "oil-and-gas",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\oil-and-gas\\needs-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\oil-and-gas\\needs-v2-mobile.webp"
+  },
+  {
+    "page": "oil-and-gas",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\oil-and-gas\\image-break-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\oil-and-gas\\image-break-v3-desktop.webp"
+  },
+  {
+    "page": "oil-and-gas",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\oil-and-gas\\cta-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\oil-and-gas\\cta-v2-desktop.webp"
+  },
+  {
+    "page": "oil-and-gas",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\oil-and-gas\\cta-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\oil-and-gas\\cta-v2-mobile.webp"
+  },
+  {
+    "page": "real-estate",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\real-estate\\hero-desktop.png",
+    "output": "public\\site\\generated\\industries\\real-estate\\hero-desktop.webp"
+  },
+  {
+    "page": "real-estate",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\real-estate\\hero-mobile.png",
+    "output": "public\\site\\generated\\industries\\real-estate\\hero-mobile.webp"
+  },
+  {
+    "page": "real-estate",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\real-estate\\strip-1-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\real-estate\\strip-1-v5-desktop.webp"
+  },
+  {
+    "page": "real-estate",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\real-estate\\strip-2-desktop.png",
+    "output": "public\\site\\generated\\industries\\real-estate\\strip-2-desktop.webp"
+  },
+  {
+    "page": "real-estate",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\real-estate\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\real-estate\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "real-estate",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\real-estate\\strip-4-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\real-estate\\strip-4-v2-desktop.webp"
+  },
+  {
+    "page": "real-estate",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\real-estate\\needs-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\real-estate\\needs-v2-desktop.webp"
+  },
+  {
+    "page": "real-estate",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\real-estate\\needs-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\real-estate\\needs-v2-mobile.webp"
+  },
+  {
+    "page": "real-estate",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\real-estate\\image-break-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\real-estate\\image-break-v3-desktop.webp"
+  },
+  {
+    "page": "real-estate",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\real-estate\\cta-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\real-estate\\cta-v2-desktop.webp"
+  },
+  {
+    "page": "real-estate",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\real-estate\\cta-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\real-estate\\cta-v2-mobile.webp"
+  },
+  {
+    "page": "fashion-and-lifestyle",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\fashion-and-lifestyle\\hero-desktop.png",
+    "output": "public\\site\\generated\\industries\\fashion-and-lifestyle\\hero-desktop.webp"
+  },
+  {
+    "page": "fashion-and-lifestyle",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\fashion-and-lifestyle\\hero-mobile.png",
+    "output": "public\\site\\generated\\industries\\fashion-and-lifestyle\\hero-mobile.webp"
+  },
+  {
+    "page": "fashion-and-lifestyle",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\fashion-and-lifestyle\\strip-1-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\fashion-and-lifestyle\\strip-1-v5-desktop.webp"
+  },
+  {
+    "page": "fashion-and-lifestyle",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\fashion-and-lifestyle\\strip-2-desktop.png",
+    "output": "public\\site\\generated\\industries\\fashion-and-lifestyle\\strip-2-desktop.webp"
+  },
+  {
+    "page": "fashion-and-lifestyle",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\fashion-and-lifestyle\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\fashion-and-lifestyle\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "fashion-and-lifestyle",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\fashion-and-lifestyle\\strip-4-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\fashion-and-lifestyle\\strip-4-v2-desktop.webp"
+  },
+  {
+    "page": "fashion-and-lifestyle",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\fashion-and-lifestyle\\needs-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\fashion-and-lifestyle\\needs-v2-desktop.webp"
+  },
+  {
+    "page": "fashion-and-lifestyle",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\fashion-and-lifestyle\\needs-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\fashion-and-lifestyle\\needs-v2-mobile.webp"
+  },
+  {
+    "page": "fashion-and-lifestyle",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\fashion-and-lifestyle\\image-break-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\fashion-and-lifestyle\\image-break-v3-desktop.webp"
+  },
+  {
+    "page": "fashion-and-lifestyle",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\fashion-and-lifestyle\\cta-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\fashion-and-lifestyle\\cta-v2-desktop.webp"
+  },
+  {
+    "page": "fashion-and-lifestyle",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\fashion-and-lifestyle\\cta-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\fashion-and-lifestyle\\cta-v2-mobile.webp"
+  },
+  {
+    "page": "beauty-skincare-med-spa",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\hero-desktop.png",
+    "output": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\hero-desktop.webp"
+  },
+  {
+    "page": "beauty-skincare-med-spa",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\hero-mobile.png",
+    "output": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\hero-mobile.webp"
+  },
+  {
+    "page": "beauty-skincare-med-spa",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\strip-1-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\strip-1-v5-desktop.webp"
+  },
+  {
+    "page": "beauty-skincare-med-spa",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\strip-2-desktop.png",
+    "output": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\strip-2-desktop.webp"
+  },
+  {
+    "page": "beauty-skincare-med-spa",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "beauty-skincare-med-spa",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\strip-4-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\strip-4-v2-desktop.webp"
+  },
+  {
+    "page": "beauty-skincare-med-spa",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\needs-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\needs-v2-desktop.webp"
+  },
+  {
+    "page": "beauty-skincare-med-spa",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\needs-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\needs-v2-mobile.webp"
+  },
+  {
+    "page": "beauty-skincare-med-spa",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\image-break-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\image-break-v3-desktop.webp"
+  },
+  {
+    "page": "beauty-skincare-med-spa",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\cta-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\cta-v2-desktop.webp"
+  },
+  {
+    "page": "beauty-skincare-med-spa",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\cta-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\beauty-skincare-med-spa\\cta-v2-mobile.webp"
+  },
+  {
+    "page": "restaurants-cafes-bakeries",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\hero-desktop.png",
+    "output": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\hero-desktop.webp"
+  },
+  {
+    "page": "restaurants-cafes-bakeries",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\hero-mobile.png",
+    "output": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\hero-mobile.webp"
+  },
+  {
+    "page": "restaurants-cafes-bakeries",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\strip-1-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\strip-1-v5-desktop.webp"
+  },
+  {
+    "page": "restaurants-cafes-bakeries",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\strip-2-desktop.png",
+    "output": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\strip-2-desktop.webp"
+  },
+  {
+    "page": "restaurants-cafes-bakeries",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "restaurants-cafes-bakeries",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\strip-4-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\strip-4-v2-desktop.webp"
+  },
+  {
+    "page": "restaurants-cafes-bakeries",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\needs-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\needs-v2-desktop.webp"
+  },
+  {
+    "page": "restaurants-cafes-bakeries",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\needs-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\needs-v2-mobile.webp"
+  },
+  {
+    "page": "restaurants-cafes-bakeries",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\image-break-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\image-break-v3-desktop.webp"
+  },
+  {
+    "page": "restaurants-cafes-bakeries",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\cta-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\cta-v2-desktop.webp"
+  },
+  {
+    "page": "restaurants-cafes-bakeries",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\cta-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\restaurants-cafes-bakeries\\cta-v2-mobile.webp"
+  },
+  {
+    "page": "solar-energy",
+    "role": "hero",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\solar-energy\\hero-desktop.png",
+    "output": "public\\site\\generated\\industries\\solar-energy\\hero-desktop.webp"
+  },
+  {
+    "page": "solar-energy",
+    "role": "hero",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\solar-energy\\hero-mobile.png",
+    "output": "public\\site\\generated\\industries\\solar-energy\\hero-mobile.webp"
+  },
+  {
+    "page": "solar-energy",
+    "role": "strip-1",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\solar-energy\\strip-1-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\solar-energy\\strip-1-v5-desktop.webp"
+  },
+  {
+    "page": "solar-energy",
+    "role": "strip-2",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\solar-energy\\strip-2-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\solar-energy\\strip-2-v3-desktop.webp"
+  },
+  {
+    "page": "solar-energy",
+    "role": "strip-3",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\solar-energy\\strip-3-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\solar-energy\\strip-3-v5-desktop.webp"
+  },
+  {
+    "page": "solar-energy",
+    "role": "strip-4",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\solar-energy\\strip-4-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\solar-energy\\strip-4-v2-desktop.webp"
+  },
+  {
+    "page": "solar-energy",
+    "role": "needs",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\solar-energy\\needs-v2-desktop.png",
+    "output": "public\\site\\generated\\industries\\solar-energy\\needs-v2-desktop.webp"
+  },
+  {
+    "page": "solar-energy",
+    "role": "needs",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\solar-energy\\needs-v2-mobile.png",
+    "output": "public\\site\\generated\\industries\\solar-energy\\needs-v2-mobile.webp"
+  },
+  {
+    "page": "solar-energy",
+    "role": "image-break",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\solar-energy\\image-break-v5-desktop.png",
+    "output": "public\\site\\generated\\industries\\solar-energy\\image-break-v5-desktop.webp"
+  },
+  {
+    "page": "solar-energy",
+    "role": "cta",
+    "variant": "desktop",
+    "source": "public\\site\\generated\\industries\\solar-energy\\cta-v3-desktop.png",
+    "output": "public\\site\\generated\\industries\\solar-energy\\cta-v3-desktop.webp"
+  },
+  {
+    "page": "solar-energy",
+    "role": "cta",
+    "variant": "mobile",
+    "source": "public\\site\\generated\\industries\\solar-energy\\cta-v3-mobile.png",
+    "output": "public\\site\\generated\\industries\\solar-energy\\cta-v3-mobile.webp"
+  }
+]

@@ -1,0 +1,360 @@
+{
+  "brand-design": {
+    "1": {
+      "src": "/site/generated/brand-design/section-collage-logo-v1-desktop.webp",
+      "originalSource": "assets/branding.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A close overhead view of a pen-display tablet on a designers worktable",
+        "ar": "رسم فكرة شعار بالقلم على لوح رقمي"
+      }
+    },
+    "2": {
+      "src": "/site/generated/brand-design/section-collage-colors-v1-desktop.webp",
+      "originalSource": "assets/team.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Two designers choosing a color palette and type pairing around a table",
+        "ar": "اختيار ألوان الهوية والخطوط بين أعضاء فريق التصميم"
+      }
+    },
+    "3": {
+      "src": "/site/generated/brand-design/section-collage-materials-v1-desktop.webp",
+      "originalSource": "assets/project-brand.webp",
+      "transparent": false,
+      "alt": {
+        "en": "An art-directed identity suite for fictional botanical brand SORA applied to a tote, paper shopping bag, business cards and packaging",
+        "ar": "هوية بصرية مطبقة على التغليف والمواد الترويجية"
+      }
+    },
+    "4": {
+      "src": "/site/generated/brand-design/section-film-logo-process-v1-desktop.webp",
+      "originalSource": "assets/office.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Macro photographic view of pencil logo iterations in an open sketchbook beside drafting pencil, tracing paper and a final embossed mark for fictional brand NORTHLINE",
+        "ar": "مراحل تطوير الشعار على ورق الرسم"
+      }
+    },
+    "5": {
+      "src": "/site/generated/brand-design/section-film-print-v1-desktop.webp",
+      "originalSource": "assets/branding.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Professional print proofing: crop marks, spot-color swatches, typography and a loupe on high-quality printed stationery",
+        "ar": "مراجعة عينات الطباعة والألوان"
+      }
+    },
+    "6": {
+      "src": "/site/generated/brand-design/section-film-packaging-v1-desktop.webp",
+      "originalSource": "assets/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A complete packaging identity for fictional artisan coffee brand ORBIT ROAST: coffee pouch, takeaway cup, sleeve and tissue paper arranged with beans and one small ceramic cup",
+        "ar": "تطبيق الهوية البصرية على عبوات المنتجات"
+      }
+    },
+    "7": {
+      "src": "/site/generated/brand-design/section-film-typography-v1-desktop.webp",
+      "originalSource": "assets/team.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A wall and tabletop of expressive oversized typography studies and a coherent type specimen booklet for fictional design journal FIELD",
+        "ar": "مقارنة الخطوط وتنسيقات الهوية"
+      }
+    },
+    "8": {
+      "src": "/site/generated/brand-design/section-work-identity-v1-desktop.webp",
+      "originalSource": "assets/project-brand.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A pen-display tablet on a charcoal drafting desk showing a finished vector logo, construction grid and two purposeful logo variations for fictional cycling brand VELO",
+        "ar": "تطوير شعار وهوية على شاشة لوح رقمي"
+      }
+    },
+    "9": {
+      "src": "/site/generated/brand-design/section-work-applications-v1-desktop.webp",
+      "originalSource": "assets/branding.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Promotional brand applications for fictional studio TERRA: screen-printed tote, invitation, poster, brochure, lanyard and stationery",
+        "ar": "هوية متناسقة على مواد ترويجية"
+      }
+    },
+    "10": {
+      "src": "/site/generated/brand-design/section-work-campaign-v1-desktop.webp",
+      "originalSource": "assets/project-web.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A finished print campaign with a large editorial poster, smaller folded brochure and outdoor poster mockup photographed in a real light studio setting",
+        "ar": "تصميم مطبوعات الحملة"
+      }
+    },
+    "11": {
+      "src": "/site/generated/brand-design/section-work-social-v1-desktop.webp",
+      "originalSource": "assets/project-mobile.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A smartphone standing on a small sculptural block beside fabric and branded cards, showing a refined social campaign for fictional beauty brand HALO",
+        "ar": "تصميم محتوى العلامة على هاتف موضوع على حامل"
+      }
+    },
+    "12": {
+      "src": "/site/generated/brand-design/section-work-direction-v1-desktop.webp",
+      "originalSource": "assets/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Art direction still life of a refined fictional fragrance product PLAIN AIR with translucent glass, crisp folded paper and a strong colored backdrop",
+        "ar": "إخراج فني لتصوير منتجات العلامة"
+      }
+    },
+    "capabilities": {
+      "src": "/site/generated/brand-design/section-capabilities-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Logo and brand guideline application on an open laptop next to printed color and typography sheets, with only a designers forearm at the keyboard",
+        "ar": "دليل استخدام الهوية على شاشة حاسوب محمول"
+      }
+    }
+  },
+  "ai-automation": {
+    "1": {
+      "src": "/site/generated/ai-automation/section-overview-v1-desktop.webp",
+      "originalSource": "../../public/homepage/support.webp",
+      "transparent": true,
+      "alt": {
+        "en": "A thoughtfully composed SaaS product planning workspace",
+        "ar": "تصور يوضح فائدة الخدمة ونتيجتها"
+      }
+    },
+    "2": {
+      "src": "/site/generated/ai-automation/section-challenges-v1-desktop.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Overhead view of a small product team planning an AI-enabled SaaS application",
+        "ar": "مشهد يوضح التحديات التي تعالجها الخدمة"
+      }
+    },
+    "3": {
+      "src": "/site/generated/ai-automation/section-collage-workflow-v1-desktop.webp",
+      "originalSource": "../../public/homepage/branding.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Laptop at a diagonal on an operations planning desk, showing a polished automation builder named TASKLINE with coherent app nodes, branching routes and a review step",
+        "ar": "تسلسل أتمتة على شاشة حاسوب محمول"
+      }
+    },
+    "4": {
+      "src": "/site/generated/ai-automation/section-collage-invoice-v1-desktop.webp",
+      "originalSource": "../../public/homepage/support.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Tablet standing beside a real invoice and compact document scanner",
+        "ar": "إعداد الفواتير ومراجعتها داخل نظام على لوح رقمي"
+      }
+    },
+    "5": {
+      "src": "/site/generated/ai-automation/section-collage-saas-v1-desktop.webp",
+      "originalSource": "../../public/homepage/project-web.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Close three-quarter desktop screen showing a beautifully designed fictional customer-service SaaS named HELIO DESK with one actual conversation and a concise source panel",
+        "ar": "مساعد يسترجع المعرفة المعتمدة على شاشة مكتب"
+      }
+    },
+    "6": {
+      "src": "/site/generated/ai-automation/section-collage-workflow-v1-desktop.webp",
+      "originalSource": "../../public/homepage/support.webp",
+      "transparent": false,
+      "alt": {
+        "en": "",
+        "ar": ""
+      }
+    },
+    "7": {
+      "src": "/site/generated/ai-automation/section-collage-invoice-v1-desktop.webp",
+      "originalSource": "../../public/homepage/branding.webp",
+      "transparent": false,
+      "alt": {
+        "en": "",
+        "ar": ""
+      }
+    },
+    "8": {
+      "src": "/site/generated/ai-automation/section-include-assistant-v2-desktop.webp",
+      "mobileSrc": "/site/generated/ai-automation/section-include-assistant-v2-mobile.webp",
+      "originalSource": "../../public/homepage/support.webp",
+      "transparent": false,
+      "alt": {
+        "en": "include-assistant",
+        "ar": "مساعد معرفي على شاشة مكتب يجيب من أدلة الشركة المعتمدة"
+      }
+    },
+    "9": {
+      "src": "/site/generated/ai-automation/section-include-task-v1-desktop.webp",
+      "mobileSrc": "/site/generated/ai-automation/section-include-task-v1-mobile.webp",
+      "originalSource": "../../public/homepage/project-web.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A precise overhead view of sorted orders moving between three real warehouse packing stations, colored trays, paper labels and conveyor junction",
+        "ar": "فرز الطلبات وتوجيهها عبر مسار عمل مترابط"
+      }
+    },
+    "10": {
+      "src": "/site/generated/ai-automation/section-include-control-v1-desktop.webp",
+      "mobileSrc": "/site/generated/ai-automation/section-include-control-v1-mobile.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A close laptop screen showing fictional REVIEWPOINT automation software with a document preview, one flagged exception and the action Send for review",
+        "ar": "إدارة الصلاحيات والمراجعة داخل نظام العمل"
+      }
+    },
+    "11": {
+      "src": "/site/generated/ai-automation/section-path-1-v1-desktop.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": true,
+      "alt": {
+        "en": "A tablet on a reading stand beside a technical procedure handbook",
+        "ar": "نموذج خدمة رقمية داخل جهاز في سياق استخدام واقعي"
+      }
+    },
+    "path-2": {
+      "src": "/site/generated/ai-automation/section-path-2-v2-desktop.webp",
+      "transparent": true,
+      "alt": {
+        "en": "path-2",
+        "ar": "مراجعة الخطوات المهمة والتحكم فيها"
+      }
+    },
+    "path-3": {
+      "src": "/site/generated/ai-automation/section-path-3-v2-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "path-3",
+        "ar": "مراجعة النتائج وتحديد التحسينات التالية"
+      }
+    }
+  },
+  "seo-geo": {
+    "1": {
+      "src": "/site/generated/seo-geo/section-overview-v1-desktop.webp",
+      "originalSource": "../../public/homepage/support.webp",
+      "transparent": true,
+      "alt": {
+        "en": "A victorious athlete crosses a finish line in a real athletics track photo, dynamic movement and clean natural colors",
+        "ar": "تصور يوضح فائدة الخدمة ونتيجتها"
+      }
+    },
+    "2": {
+      "src": "/site/generated/seo-geo/section-challenges-v1-desktop.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A beautiful red performance sports car accelerating ahead on a closed racing track, low dynamic three-quarter angle, controlled motion blur behind, sharp car and realistic track material",
+        "ar": "مشهد يوضح التحديات التي تعالجها الخدمة"
+      }
+    },
+    "3": {
+      "src": "/site/generated/seo-geo/section-collage-audit-v1-desktop.webp",
+      "originalSource": "../../public/homepage/branding.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Laptop at an audit desk beside a magnifying glass and a concise printed site map",
+        "ar": "تدقيق الموقع وتحليل بنيته على شاشة حاسوب محمول"
+      }
+    },
+    "4": {
+      "src": "/site/generated/seo-geo/section-collage-content-v1-desktop.webp",
+      "originalSource": "../../public/homepage/support.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A beautifully lit editorial still life: open specialist book with a clearly structured page, index tabs, annotated notes and a fine pen",
+        "ar": "تخطيط محتوى واضح قابل للاكتشاف"
+      }
+    },
+    "5": {
+      "src": "/site/generated/seo-geo/section-collage-local-v1-desktop.webp",
+      "originalSource": "../../public/homepage/project-web.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Smartphone standing on a counter beside a cafe menu and espresso, showing a recognizable Google local search with map, location pins, opening hours and a fictional cafe result named MOSS COFFEE",
+        "ar": "نتائج البحث المحلي على هاتف داخل موقع النشاط"
+      }
+    },
+    "6": {
+      "src": "/site/generated/seo-geo/section-collage-audit-v1-desktop.webp",
+      "originalSource": "../../public/homepage/support.webp",
+      "transparent": false,
+      "alt": {
+        "en": "",
+        "ar": ""
+      }
+    },
+    "7": {
+      "src": "/site/generated/seo-geo/section-collage-content-v1-desktop.webp",
+      "originalSource": "../../public/homepage/branding.webp",
+      "transparent": false,
+      "alt": {
+        "en": "",
+        "ar": ""
+      }
+    },
+    "8": {
+      "src": "/site/generated/seo-geo/section-include-audit-v1-desktop.webp",
+      "mobileSrc": "/site/generated/seo-geo/section-include-audit-v1-mobile.webp",
+      "originalSource": "../../public/homepage/support.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A high-quality laptop mockup on a technical review table displaying a credible page performance diagnostic for fictional LARK SHOP with loading waterfall, page preview and clear LCP INP CLS labels",
+        "ar": "مراجعة تقنية لأداء الموقع وصفحاته"
+      }
+    },
+    "9": {
+      "src": "/site/generated/seo-geo/section-include-pages-v1-desktop.webp",
+      "mobileSrc": "/site/generated/seo-geo/section-include-pages-v1-mobile.webp",
+      "originalSource": "../../public/homepage/project-web.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A tablet propped on a stack of editorial proofs, displaying a polished service article for fictional SOLIS ENERGY with clear heading, a short direct answer, diagram and relevant page links",
+        "ar": "تطوير صفحات واضحة ومفيدة للزائر"
+      }
+    },
+    "10": {
+      "src": "/site/generated/seo-geo/section-include-evidence-v2-desktop.webp",
+      "mobileSrc": "/site/generated/seo-geo/section-include-evidence-v2-mobile.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "include-evidence",
+        "ar": "مقال منظم على لوح رقمي يوضح الخبرة والمصادر"
+      }
+    },
+    "11": {
+      "src": "/site/generated/seo-geo/section-path-1-v1-desktop.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": true,
+      "alt": {
+        "en": "Open laptop on a business planning table showing a faithful recognizable Google organic search page for a fictional company MERIDIAN BUILD, proper colored Google wordmark, search field, tabs, blue organic titles and coherent descriptions; .example domains, no fake rating",
+        "ar": "نموذج خدمة رقمية داخل جهاز في سياق استخدام واقعي"
+      }
+    },
+    "path-2": {
+      "src": "/site/generated/seo-geo/section-path-2-v1-desktop.webp",
+      "transparent": true,
+      "alt": {
+        "en": "Tablet on a dark green reading stand with a premium answer interface named CLEAR ANSWERS: concise response to a practical business question, source citations and a related expert article preview",
+        "ar": "مراجعة الخطوات المهمة والتحكم فيها"
+      }
+    },
+    "path-3": {
+      "src": "/site/generated/seo-geo/section-path-3-v2-desktop.webp",
+      "transparent": true,
+      "alt": {
+        "en": "path-3",
+        "ar": "مراجعة النتائج وتحديد التحسينات التالية"
+      }
+    }
+  }
+}

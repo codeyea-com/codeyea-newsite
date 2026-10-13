@@ -1,6 +1,7 @@
 import type { CSSProperties } from "react";
 import type { AboutMedia } from "@/schemas/about";
 import { mediaProps } from "@/content/homepage-render";
+import {generatedArtwork} from '@/content/generated-artwork';
 export function AboutImage({
   media,
   priority = false,
@@ -14,7 +15,8 @@ export function AboutImage({
 }) {
   if (!media) return null;
   const props = mediaProps(media);
-  return (
+  const art=generatedArtwork(media.mediaId);
+  const image = (
     <img
       {...props}
       className={"about-image " + className}
@@ -33,4 +35,6 @@ export function AboutImage({
       }
     />
   );
+  const responsive=art?.mobileSrc ? <picture style={{display:'contents'}}><source media="(max-width:767px)" srcSet={art.mobileSrc}/>{image}</picture> : image;
+  return responsive;
 }

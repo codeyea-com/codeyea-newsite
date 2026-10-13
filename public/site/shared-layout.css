@@ -1,3 +1,16 @@
+/* The mobile header must stay opaque on React and document pages. */
+@media (max-width:1199px) {
+  html body .hp.public-surface header.hp-header:is(.is-scrolled,.cy-sticky,:not(.is-scrolled)),
+  html body .hp.public-surface header.hp-header:is(.is-scrolled,.cy-sticky,:not(.is-scrolled))::before {
+    background:#fff!important;
+    backdrop-filter:none!important;
+    -webkit-backdrop-filter:none!important;
+  }
+  html body .hp.public-surface .hp-header {color:var(--brand-secondary,#072448)}
+  html body .hp.public-surface .hp-header .hp-logo-dark {opacity:1!important}
+  html body .hp.public-surface .hp-header .hp-logo-light {opacity:0!important}
+  html body .hp.public-surface .hp-header .hp-mobile-trigger {color:var(--brand-secondary,#072448)}
+}
 /* The shared header defines the page's foreground width; backgrounds keep their own span. */
 .hp.public-surface {
   --page-content-width: min(1200px, calc(100vw - 112px));
@@ -54,4 +67,36 @@
 }
 @media(max-width:800px) {
   .hp.public-surface .rp-process-inner { grid-template-columns: 1fr; gap: 65px; padding-block: 75px; }
+}
+/* Keep the existing quote action reachable on phones without duplicating its form. */
+@media (max-width: 767px) {
+  .hp .hp-header { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
+  .hp .hp-header .hp-header-quote {
+    display: flex !important;
+    position: fixed;
+    inset: auto auto calc(14px + env(safe-area-inset-bottom, 0px)) 50%;
+    z-index: 40;
+    width: auto;
+    min-height: 54px;
+    margin: 0;
+    padding: 14px 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    box-shadow: 0 7px 24px rgb(7 36 72 / 18%);
+    animation: cy-quote-float 4s ease-in-out infinite;
+  }
+  body:has(.hp-header-quote) { padding-bottom: calc(86px + env(safe-area-inset-bottom, 0px)); }
+  .hp .hp-header .hp-header-quote:is(:hover, :focus-visible) { animation-play-state: paused; }
+  body:has(#cq-dialog[open], #mobile-navigation[open]) .hp-header-quote { visibility: hidden; }
+}
+@keyframes cy-quote-float {
+  0%, 100% { transform: translate(-50%, 0); }
+  50% { transform: translate(-50%, -4px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hp .hp-header .hp-header-quote { animation: none; }
+}
+@media (max-width: 767px) and (prefers-reduced-motion: reduce) {
+  .hp .hp-header .hp-header-quote { transform: translateX(-50%); }
 }
