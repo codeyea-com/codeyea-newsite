@@ -83,8 +83,20 @@
     justify-content: center;
     align-items: center;
     border-radius: 0;
+    overflow: hidden;
     box-shadow: 0 7px 24px rgb(7 36 72 / 18%);
     animation: cy-quote-float 4s ease-in-out infinite;
+  }
+  .hp .hp-header .hp-header-quote::after {
+    content: "";
+    position: absolute;
+    inset: -30% 0;
+    z-index: 1;
+    pointer-events: none;
+    background: linear-gradient(110deg, transparent 43%, rgb(255 255 255 / 8%) 46%, rgb(255 255 255 / 60%) 50%, rgb(255 255 255 / 8%) 54%, transparent 57%);
+    opacity: 0;
+    transform: translateX(-125%);
+    animation: cy-quote-shine 3.8s ease-in-out infinite;
   }
   body:has(.hp-header-quote) { padding-bottom: calc(86px + env(safe-area-inset-bottom, 0px)); }
   .hp .hp-header .hp-header-quote:is(:hover, :focus-visible) { animation-play-state: paused; }
@@ -94,8 +106,15 @@
   0%, 100% { transform: translate(-50%, 0); }
   50% { transform: translate(-50%, -4px); }
 }
+@keyframes cy-quote-shine {
+  0% { transform: translateX(-125%); opacity: 0; }
+  4% { opacity: 1; }
+  32% { transform: translateX(125%); opacity: 1; }
+  33%, 100% { transform: translateX(125%); opacity: 0; }
+}
 @media (prefers-reduced-motion: reduce) {
   .hp .hp-header .hp-header-quote { animation: none; }
+  .hp .hp-header .hp-header-quote::after { animation: none; content: none; }
 }
 @media (max-width: 767px) and (prefers-reduced-motion: reduce) {
   .hp .hp-header .hp-header-quote { transform: translateX(-50%); }

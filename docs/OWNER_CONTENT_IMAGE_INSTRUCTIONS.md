@@ -127,3 +127,7 @@ Website Design now has explicit page-specific direction. Show varied working met
 Add a new bilingual section explaining custom content management with clear practical benefits, technical details and contextual device images. Include a Special Features AI subsection: an optional agent receives a request to edit a page and add a photo album, performs the update, confirms success and shares the updated page link. Show the conversation inside a device in Arabic and English. Explain that simple updates can take seconds; avoid guaranteeing that every operation finishes instantly. Preserve all existing page sections.
 
 The owner specifically requires the new section and its CTA buttons to use animations already present in Website Design. Reuse the existing section entrance observer and the approved b-btn hover/focus behavior. Add clear calls to action connected to the existing project quote flow; do not invent new motion styles.
+
+## Mobile quote CTA, owner requested 2026-10-13
+
+Use the exact Arabic label «أطلب التسعيرة المجانية الآن». Add a narrow looping shine across the mobile fixed button to attract attention, alongside its existing gentle float. Keep the existing quote action and sharp corners. The shine is mobile-only and respects reduced-motion preferences.
