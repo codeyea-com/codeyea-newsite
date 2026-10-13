@@ -117,3 +117,7 @@ Owner now requires a page-specific imagery-style question for remaining service 
 ## Catalog consistency and Homepage sequencing, 2026-10-13
 
 Compare industry sliders/lists and service lists in every location and both languages. Complete lists must use the same implemented industry/service identities without missing or duplicated destinations. Preserve approved page compositions. The Homepage is the final work phase: reconcile its incomplete industry slider and service list, address the missing Arabic/English Case Studies, and retain the earlier request for three hero concepts. Do not treat catalog work as permission to start a Homepage redesign. Findings and outstanding Homepage items are recorded in `CATALOG_SYNC_AND_HOMEPAGE_BACKLOG.md`.
+
+## Website Design imagery direction, owner supplied 2026-10-13
+
+Website Design now has explicit page-specific direction. Show varied working methods and finished website examples: multiple devices together displaying a coherent responsive website, a designer discussing the site with the client, an app inside a mobile phone, and online feedback. Use the three supplied multi-device references for photography and arrangements while preserving each measured slot and orientation. Keep devices in relevant contexts, interfaces prominent, fictional names varied and small framed images free of extra popup/shadow treatments. Preserve the approved hero and page composition. Other unbriefed service pages still require owner direction.

@@ -1,0 +1,322 @@
+[
+  {
+    "page": "website-design",
+    "index": 1,
+    "role": "collage-responsive",
+    "name": "section-collage-responsive-v1-desktop",
+    "variant": "desktop",
+    "width": 1024,
+    "height": 1440,
+    "transparent": false,
+    "alt": {
+      "en": "An elegant top-down arrangement of a silver laptop lower center, a portrait tablet above left and a small landscape phone above right, closely interlocking but not overlapping their screens",
+      "ar": "أجهزة متعددة تعرض نسخاً متجاوبة من موقع مقهى"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1024 x 1440px, PORTRAIT, aspect 0.711. Scene: An elegant top-down arrangement of a silver laptop lower center, a portrait tablet above left and a small landscape phone above right, closely interlocking but not overlapping their screens. All devices show the same beautiful responsive fictional artisan coffee website named CUP & LEAF. Warm orange circles, generous white typography space, crisp editorial coffee photography, real navigation and short headings. All important screens face the camera. Finely textured cool grey desk, one coffee spoon at the edge. The group is composed vertically to fill this tall frame, inspired by reference one. No people.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 2,
+    "role": "collage-client",
+    "name": "section-collage-client-v1-desktop",
+    "variant": "desktop",
+    "width": 1024,
+    "height": 1440,
+    "transparent": false,
+    "alt": {
+      "en": "A candid close vertical photograph of a website designer discussing a site prototype with a business client at a studio desk",
+      "ar": "مصمم يناقش نموذج الموقع مع العميل"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1024 x 1440px, PORTRAIT, aspect 0.711. Scene: A candid close vertical photograph of a website designer discussing a site prototype with a business client at a studio desk. Their partially cropped profiles at the upper corners, NOT portrait-dominant. One laptop screen in the lower-middle fills most of the image, showing an elegant professional architecture website named LINEA STUDIO, a large building photograph and clear navigation. The designer gestures toward the bezel with an open hand, the client studies a printed page wireframe. Screen, pen sketches and the natural conversation are the main story. Real daylight, muted blue clothes, clean neutral whites. Hands stay outside the displayed content.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 3,
+    "role": "collage-mobile",
+    "name": "section-collage-mobile-v1-desktop",
+    "variant": "desktop",
+    "width": 1024,
+    "height": 1440,
+    "transparent": false,
+    "alt": {
+      "en": "A striking close vertical photograph of a smartphone resting diagonally on a charcoal felt notebook beside a transit ticket and a single orange pencil",
+      "ar": "تطبيق حجز رحلات داخل شاشة هاتف"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1024 x 1440px, PORTRAIT, aspect 0.711. Scene: A striking close vertical photograph of a smartphone resting diagonally on a charcoal felt notebook beside a transit ticket and a single orange pencil. Nobody holds it. The phone screen fills 75 percent of the image and shows a polished mobile booking web app named TRAILPASS: a vivid mountain trip photograph, Explore routes heading, two clean destination cards and a simple bottom navigation. Genuine metal and glass, a little travel context at the edges, natural light, razor-sharp screen. No statistics or rating stars.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 4,
+    "role": "operations",
+    "name": "section-operations-v1-desktop",
+    "variant": "desktop",
+    "width": 1536,
+    "height": 692,
+    "transparent": false,
+    "alt": {
+      "en": "Panoramic close product-in-use photograph of a large desktop monitor on a working content editor's desk",
+      "ar": "إدارة محتوى الموقع ومراجعة النشر على شاشة مكتبية"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1536 x 692px, LANDSCAPE, aspect 2.220. Scene: Panoramic close product-in-use photograph of a large desktop monitor on a working content editor's desk. The screen dominates 80 percent of the composition and shows an exceptionally polished CMS called EDITFLOW for the fictional publication FIELD NOTES: left page tree, large visual article editor with a botanical photo and readable heading A guide to urban gardens, modest right Publish settings panel with Draft, Preview and Publish. A real printed editorial schedule and fine pen lie beside the keyboard. Tiny cropped forearm operating mouse at far right, no face. Premium software editorial photography, precise crisp lettering, white interface, dark green accents. Fully visible monitor, horizontal arrangement composed for the very wide frame. No floating panel outside the screen.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 5,
+    "role": "enquiry",
+    "name": "section-enquiry-v1-desktop",
+    "variant": "desktop",
+    "width": 1536,
+    "height": 780,
+    "transparent": false,
+    "alt": {
+      "en": "Wide close-up photograph of a small laptop on a pale studio meeting table displaying a beautifully designed enquiry page for fictional architectural practice FORM & FIELD",
+      "ar": "نموذج تواصل واضح داخل حاسوب محمول"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1536 x 780px, LANDSCAPE, aspect 1.969. Scene: Wide close-up photograph of a small laptop on a pale studio meeting table displaying a beautifully designed enquiry page for fictional architectural practice FORM & FIELD. Within the real laptop screen: heading Tell us about your project, short meaningful fields Name, Email, Project brief and a square-corner Send enquiry button. A material sample and architectural pencil are small supporting objects. Device screen at a nearly frontal, slight three-quarter angle occupies the main area. Nobody holding a phone, no person, no notification overlay and no popup. The website already surrounds this image with its own browser frame, so the photograph must be simple and calm.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 6,
+    "role": "film-discovery",
+    "name": "section-film-discovery-v1-desktop",
+    "variant": "desktop",
+    "width": 1280,
+    "height": 1024,
+    "transparent": false,
+    "alt": {
+      "en": "Close overhead process photograph of two collaborators organizing a physical website user journey on white paper: a hand at the upper left arranges a card labeled Explore, a second hand at the lower right writes a pencil annotation beside Contact",
+      "ar": "تخطيط رحلة الزائر وهيكل صفحات الموقع على الورق"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1280 x 1024px, LANDSCAPE, aspect 1.250. Scene: Close overhead process photograph of two collaborators organizing a physical website user journey on white paper: a hand at the upper left arranges a card labeled Explore, a second hand at the lower right writes a pencil annotation beside Contact. Visible sketched wireframes and restrained blue sticky notes show Home, Services and Enquiry connected on the page. A black pen, a scale ruler, real pencil texture. Hands and artifacts only, no faces, no device, no floating graphic elements. The main story remains inside the central square safe area.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 7,
+    "role": "film-wireframe",
+    "name": "section-film-wireframe-v1-desktop",
+    "variant": "desktop",
+    "width": 1280,
+    "height": 1024,
+    "transparent": false,
+    "alt": {
+      "en": "Close side-overhead photograph of a pen display tablet resting flat on a blue drafting mat",
+      "ar": "تطوير مخطط الواجهة بالقلم على لوح رقمي"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1280 x 1024px, LANDSCAPE, aspect 1.250. Scene: Close side-overhead photograph of a pen display tablet resting flat on a blue drafting mat. The real drawing app on its screen shows a low fidelity website wireframe: meaningful header, hero image placeholder, article cards and footer, with a refined finished mini-preview alongside. One LEFT hand holds a stylus just above the blank margin of the screen. Correct five finger anatomy, no fingers obstruct the layout. Nearby tracing paper has earlier sketches. Only the device, partial forearm and design materials; the screen is primary. Preserve the entire main tablet in the central square safe area.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 8,
+    "role": "film-feedback",
+    "name": "section-film-feedback-v1-desktop",
+    "variant": "desktop",
+    "width": 1280,
+    "height": 1024,
+    "transparent": false,
+    "alt": {
+      "en": "A close photograph of an online website review session shown INSIDE a real laptop on a dark worktable",
+      "ar": "مراجعة ملاحظات العميل أونلاين داخل شاشة لابتوب"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1280 x 1024px, LANDSCAPE, aspect 1.250. Scene: A close photograph of an online website review session shown INSIDE a real laptop on a dark worktable. The screen is near frontal and dominates. A refined feedback application named PAGELOOP displays a fictional interior studio website preview labeled HUSH STUDIO on the left and a compact review thread on the right with the messages Make the enquiry button clearer and Updated for review, small numbered annotation pins attached to the page INSIDE the screen. A tiny video-call strip with two natural faces within the app makes online collaboration clear. A hand rests on the trackpad, screen untouched. No floating graphic or popup outside device. Main screen in central square safe area.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 9,
+    "role": "film-handoff",
+    "name": "section-film-handoff-v1-desktop",
+    "variant": "desktop",
+    "width": 1280,
+    "height": 1024,
+    "transparent": false,
+    "alt": {
+      "en": "Editorial work-process photograph of a finished website handover: open slim laptop seen from a gentle left angle beside a printed Website guide booklet and a short physical check sheet labeled Navigation, Forms, Mobile",
+      "ar": "تسليم الموقع مع دليل إدارة وفحص وظائفه"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1280 x 1024px, LANDSCAPE, aspect 1.250. Scene: Editorial work-process photograph of a finished website handover: open slim laptop seen from a gentle left angle beside a printed Website guide booklet and a short physical check sheet labeled Navigation, Forms, Mobile. The screen shows a professional website titled NOVA WORKSPACE with a beautiful workspace photograph and crisp clear navigation. Only a cropped hand at the lower edge turns a page of the guide. Real desk, pencil, cool daylight, tactile paper. No check mark overlays, no invented performance metrics. Keep all meaning in the central square safe area.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": "capabilities",
+    "role": "capabilities",
+    "name": "section-capabilities-v1-desktop",
+    "variant": "desktop",
+    "width": 1536,
+    "height": 768,
+    "transparent": false,
+    "alt": {
+      "en": "Wide art-directed photograph inspired by reference three: desktop monitor at back left, laptop at right, a landscape tablet on the desk front-center and a phone standing front-left, all showing a coherent premium responsive interior design website named HABITAT FORM",
+      "ar": "موقع متجاوب معروض على شاشة مكتب ولابتوب وتابلت وهاتف"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1536 x 768px, LANDSCAPE, aspect 2.000. Scene: Wide art-directed photograph inspired by reference three: desktop monitor at back left, laptop at right, a landscape tablet on the desk front-center and a phone standing front-left, all showing a coherent premium responsive interior design website named HABITAT FORM. Identical cream and charcoal identity with beautiful natural wood interior photography, but realistically reflowed for each device. Bright architectural studio, subtle material sample at an edge, sunlight on a neutral desk. All screens clear, fully within the horizontal composition, no people. The devices themselves are the main subject, not the room.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 10,
+    "role": "work-business",
+    "name": "section-work-business-v1-desktop",
+    "variant": "desktop",
+    "width": 1120,
+    "height": 1152,
+    "transparent": false,
+    "alt": {
+      "en": "Premium near-square photograph inspired by reference two: a laptop, upright tablet and small phone arranged together on a real pale grey desk, screens facing the viewer with coherent responsive versions of a striking industrial consultancy website named APEX ENGINEERING",
+      "ar": "نموذج موقع شركة هندسية على مجموعة أجهزة"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1120 x 1152px, PORTRAIT, aspect 0.972. Scene: Premium near-square photograph inspired by reference two: a laptop, upright tablet and small phone arranged together on a real pale grey desk, screens facing the viewer with coherent responsive versions of a striking industrial consultancy website named APEX ENGINEERING. White and navy design, a bold orange square accent, high-quality engineering project photograph, heading Built on precision and clear Services, Projects, Contact navigation. Desktop version substantial, tablet stacked layout, phone a natural mobile layout. A rolled technical drawing and metal measuring tool quietly support the industry. No people, no headphones, no watermarks, no text outside screens.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 11,
+    "role": "work-cms",
+    "name": "section-work-cms-v1-desktop",
+    "variant": "desktop",
+    "width": 1120,
+    "height": 1152,
+    "transparent": false,
+    "alt": {
+      "en": "Near-square tight editorial photograph of a desktop monitor being used by a content manager, seen from slightly above the left shoulder",
+      "ar": "نموذج إدارة الصفحات والصور داخل نظام محتوى"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1120 x 1152px, PORTRAIT, aspect 0.972. Scene: Near-square tight editorial photograph of a desktop monitor being used by a content manager, seen from slightly above the left shoulder. Only a small cropped shoulder and a hand on the mouse at the bottom edge. On the large sharp screen is a sophisticated content library named STORYDESK: image thumbnails, one selected editorial photograph, title and alt-text fields, a neat page tree. An attractive believable CMS, not empty generic spreadsheet boxes. A genuine printed magazine and color tab are beside keyboard. Screen occupies most of composition. Neutral whites and rich teal accents.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 12,
+    "role": "work-services",
+    "name": "section-work-services-v1-desktop",
+    "variant": "desktop",
+    "width": 1120,
+    "height": 1152,
+    "transparent": false,
+    "alt": {
+      "en": "Near-square close photograph of a slim laptop opened on a stone counter in a modern skincare consultation studio",
+      "ar": "صفحة خدمات عيادة عناية بالبشرة داخل شاشة لابتوب"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1120 x 1152px, PORTRAIT, aspect 0.972. Scene: Near-square close photograph of a slim laptop opened on a stone counter in a modern skincare consultation studio. The screen fills the image and shows an elegant service page for fictional skin clinic LUMA SKIN: refined serif title Care shaped around you, natural product photograph, three concise treatment descriptions and a clear square Book a consultation button. A small sealed skincare tube and folded white towel at the edges explain the context. No person, no medical claims, no before-after, no rating stars. Device realistic, beautiful coherent website typography, quiet lavender and charcoal palette.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 13,
+    "role": "work-mobile",
+    "name": "section-work-mobile-v1-desktop",
+    "variant": "desktop",
+    "width": 1120,
+    "height": 1152,
+    "transparent": false,
+    "alt": {
+      "en": "Near-square close photograph of a smartphone placed upright in a minimal tabletop cradle on a cafe counter, shown at a subtle left three-quarter angle",
+      "ar": "تجربة طلب متجاوبة داخل هاتف على طاولة مقهى"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1120 x 1152px, PORTRAIT, aspect 0.972. Scene: Near-square close photograph of a smartphone placed upright in a minimal tabletop cradle on a cafe counter, shown at a subtle left three-quarter angle. Screen dominates: a beautifully finished mobile ordering web app for fictional bakery DAYBREAK, a warm photograph of a croissant, menu tabs, two product cards with clear names, and a small order button. A real cup and paper pastry bag at edges provide context, no hand, no floating elements. Real daylight, tactile paper, rich cobalt identity with bright warm food tones. Full phone and its display remain in the central 80 percent.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 14,
+    "role": "work-content",
+    "name": "section-work-content-v1-desktop",
+    "variant": "desktop",
+    "width": 1120,
+    "height": 1152,
+    "transparent": false,
+    "alt": {
+      "en": "Near-square art-directed editorial still life of website content strategy in progress",
+      "ar": "ربط استراتيجية المحتوى بمخططات الصفحات ونموذج الموقع"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1120 x 1152px, PORTRAIT, aspect 0.972. Scene: Near-square art-directed editorial still life of website content strategy in progress. Open annotated printed page outlines and a physical sitemap occupy foreground, with crisp handwriting such as Audience, Key message, Next step, a few selected photographic prints and a pen. At the back, a laptop screen shows the corresponding elegant fictional travel editorial website ROAM JOURNAL with a landscape hero photo and concise article sections. The screen plus tangible planning artifacts are equally clear; no person, no abstract floating cards. Distinct overhead diagonal composition, fresh white, deep blue and a little orange.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  },
+  {
+    "page": "website-design",
+    "index": 4,
+    "role": "operations",
+    "name": "section-operations-v1-mobile",
+    "variant": "mobile",
+    "width": 1024,
+    "height": 1024,
+    "transparent": false,
+    "alt": {
+      "en": "Panoramic close product-in-use photograph of a large desktop monitor on a working content editor's desk",
+      "ar": "إدارة محتوى الموقع ومراجعة النشر على شاشة مكتبية"
+    },
+    "prompt": "Create one original high-end photographic image for a website design service. This is a fictional demonstration, not claimed client work. Render actual physical devices and authentic surroundings. Never standalone UI, never a photo pasted into a blank device. Every interface should be beautiful, coherent, purposeful and visibly inside the device. No CODEYEA, no lorem ipsum, no mockup labels, no watermarks. All designed interface buttons/panels have square corners. Clean edge-to-edge photograph with no border, no rounded image mask, no floating popups, no added outer shadow. Natural colors and precise materials, no beige filter, no plastic people. Hands anatomically correct, never covering screen content. Match the specified orientation and aspect directly; never create a landscape layout for a portrait placement. Output composition 1024x1024px SQUARE for a mobile image slot. A close nearly frontal photograph of a content editor's real desktop monitor displaying a polished EDITFLOW CMS for FIELD NOTES. Screen fills 80 percent of square: clear article editor with botanical photograph, A guide to urban gardens heading, left page tree and a restrained right Draft, Preview, Publish panel. Keyboard across the lower edge and small printed editorial schedule. Camera and subject composed from the start for SQUARE, not an elongated desk scene. No face, no popup or graphics outside monitor.",
+    "references": [
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-832f65ae-5a18-4fab-8354-3b5c375ea059.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-b3eea02c-dc6c-4030-8a8f-a7555d6319d8.png",
+      "C:/Users/grdez/AppData/Local/Temp/codex-clipboard-4bbaa7da-1eed-4a8d-8b44-86a45d01196f.png"
+    ]
+  }
+]

@@ -1,9 +1,9 @@
 # Approved imagery delivery, 2026-10-13
 
-Completed current scope: SEO/GEO, Brand Design, AI/Automation imagery and previously authorized industry imagery. Remaining service-page styles await owner direction. No changes to the approved hero compositions or section order.
+Completed current scope: SEO/GEO, Brand Design, AI/Automation, Website Design imagery and previously authorized industry imagery. Remaining service-page styles await owner direction. No changes to the approved hero compositions or section order.
 
 - 14 industry pages: 224 localized placements, with responsive source selection.
-- 3 service pages: 39 image slots; SEO and AI also have six clean illustrative cards each.
+- 4 service pages: 54 image slots; SEO and AI also have six clean illustrative cards each. Website Design adds 15 slots with 16 original images including a separately composed square mobile operations image.
 - Every generated original is retained under the primary workspace Generated images/<Page>/ folder. Only selected optimized WebP files are shipped.
 - Mobile header is opaque. Existing quote action is fixed at the bottom with gentle motion, safe-area spacing, reduced-motion support and existing form behavior.
 - Small and shadowed cards use clean photos. Open compositions preserve actual transparent alpha.
@@ -15,3 +15,5 @@ Review: http://127.0.0.1:3011/application-concepts/index.html
 Arabic review pages are private rendered previews; their public routes remain subject to existing CMS publication state. Main Services publication is unchanged.
 
 Remaining: obtain style direction for other service pages, then continue those images; the earlier request for three homepage hero concepts also remains pending.
+
+Website Design delivery details, measured placements, source records and validation are documented in `WEBSITE_DESIGN_IMAGERY_DELIVERY.md`.

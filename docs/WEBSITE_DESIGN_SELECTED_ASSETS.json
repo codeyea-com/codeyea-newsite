@@ -1,0 +1,146 @@
+[
+  {
+    "slot": 1,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-collage-responsive-v1-desktop.webp",
+    "width": 1058,
+    "height": 1487,
+    "bytes": 307932,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-collage-responsive-v1-desktop.png"
+  },
+  {
+    "slot": 2,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-collage-client-v1-desktop.webp",
+    "width": 1058,
+    "height": 1487,
+    "bytes": 152796,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-collage-client-v1-desktop.png"
+  },
+  {
+    "slot": 3,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-collage-mobile-v1-desktop.webp",
+    "width": 1057,
+    "height": 1488,
+    "bytes": 373128,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-collage-mobile-v1-desktop.png"
+  },
+  {
+    "slot": 4,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-operations-v1-desktop.webp",
+    "width": 1867,
+    "height": 842,
+    "bytes": 243670,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-operations-v1-desktop.png"
+  },
+  {
+    "slot": 5,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-enquiry-v1-desktop.webp",
+    "width": 1759,
+    "height": 894,
+    "bytes": 194424,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-enquiry-v1-desktop.png"
+  },
+  {
+    "slot": 6,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-film-discovery-v1-desktop.webp",
+    "width": 1402,
+    "height": 1122,
+    "bytes": 206378,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-film-discovery-v1-desktop.png"
+  },
+  {
+    "slot": 7,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-film-wireframe-v1-desktop.webp",
+    "width": 1402,
+    "height": 1122,
+    "bytes": 264810,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-film-wireframe-v1-desktop.png"
+  },
+  {
+    "slot": 8,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-film-feedback-v1-desktop.webp",
+    "width": 1402,
+    "height": 1122,
+    "bytes": 166682,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-film-feedback-v1-desktop.png"
+  },
+  {
+    "slot": 9,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-film-handoff-v1-desktop.webp",
+    "width": 1402,
+    "height": 1122,
+    "bytes": 207238,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-film-handoff-v1-desktop.png"
+  },
+  {
+    "slot": "capabilities",
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-capabilities-v1-desktop.webp",
+    "width": 1774,
+    "height": 887,
+    "bytes": 277548,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-capabilities-v1-desktop.png"
+  },
+  {
+    "slot": 10,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-work-business-v1-desktop.webp",
+    "width": 1237,
+    "height": 1271,
+    "bytes": 205614,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-work-business-v1-desktop.png"
+  },
+  {
+    "slot": 11,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-work-cms-v1-desktop.webp",
+    "width": 1237,
+    "height": 1272,
+    "bytes": 207414,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-work-cms-v1-desktop.png"
+  },
+  {
+    "slot": 12,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-work-services-v1-desktop.webp",
+    "width": 1237,
+    "height": 1272,
+    "bytes": 177390,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-work-services-v1-desktop.png"
+  },
+  {
+    "slot": 13,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-work-mobile-v1-desktop.webp",
+    "width": 1236,
+    "height": 1272,
+    "bytes": 220898,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-work-mobile-v1-desktop.png"
+  },
+  {
+    "slot": 14,
+    "variant": "desktop",
+    "src": "/site/generated/website-design/section-work-content-v1-desktop.webp",
+    "width": 1237,
+    "height": 1272,
+    "bytes": 279722,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-work-content-v1-desktop.png"
+  },
+  {
+    "slot": 4,
+    "variant": "mobile",
+    "src": "/site/generated/website-design/section-operations-v1-mobile.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 225708,
+    "archive": "C:/Users/grdez/Documents/codex-projects/codeyea/Generated images/website-design/revision-2026-10-13/section-operations-v1-mobile.png"
+  }
+]

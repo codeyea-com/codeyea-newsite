@@ -14,12 +14,12 @@ for(const slots of Object.values(registry))for(const art of Object.values(slots)
 }
 for(const art of Object.values(industries)){files.add(art.src);files.add(art.mobileSrc);assert(!/-v[34]-/.test(art.src)||!art.src.includes('strip-1')&&!art.src.includes('strip-3'),'Rejected device draft selected');}
 for(const file of files)await fs.access('public'+file);
-for(const slug of ['brand-design','seo-geo','ai-automation']) {
+for(const slug of ['brand-design','seo-geo','ai-automation','website-design']) {
  const source=await templateContent(slug),draft=templatePageDraft(slug,source);
  const html=await renderDocument(slug,draft.content,'en',draft.title,{public:true});
  assert(html.includes('data-generated-desktop='),slug+' missing selected assets');
  assert(!html.includes('work-popup')&&!html.includes('work-check'),slug+' includes rejected card overlays');
- if(slug!=='brand-design'){
+ if(slug==='seo-geo'||slug==='ai-automation'){
   assert.equal((html.match(/class="ds-placeholder work-art /g)||[]).length,6);
   assert(html.includes('section-path-2-v2-desktop.webp')||slug==='seo-geo');
   assert(html.includes('section-path-3-v2-desktop.webp'),slug+' path image not connected');
@@ -32,4 +32,4 @@ for(const slug of ['brand-design','seo-geo','ai-automation']) {
 }
 const support=await templateContent('technical-support');
 assert.equal(renderIllustrativeWork(support,'technical-support','en'),support,'Pricing section altered');
-console.log(JSON.stringify({assetFiles:files.size,servicePages:3,cmsOverrides:'preserved',smallCards:'clean',supportPricing:'preserved'}));
+console.log(JSON.stringify({assetFiles:files.size,servicePages:4,cmsOverrides:'preserved',smallCards:'clean',supportPricing:'preserved'}));

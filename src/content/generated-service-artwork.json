@@ -356,5 +356,142 @@
         "ar": "مراجعة النتائج وتحديد التحسينات التالية"
       }
     }
+  },
+  "website-design": {
+    "1": {
+      "src": "/site/generated/website-design/section-collage-responsive-v1-desktop.webp",
+      "originalSource": "../../public/approved-media/image-08.webp",
+      "transparent": false,
+      "alt": {
+        "en": "An elegant top-down arrangement of a silver laptop lower center, a portrait tablet above left and a small landscape phone above right, closely interlocking but not overlapping their screens",
+        "ar": "أجهزة متعددة تعرض نسخاً متجاوبة من موقع مقهى"
+      }
+    },
+    "2": {
+      "src": "/site/generated/website-design/section-collage-client-v1-desktop.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A candid close vertical photograph of a website designer discussing a site prototype with a business client at a studio desk",
+        "ar": "مصمم يناقش نموذج الموقع مع العميل"
+      }
+    },
+    "3": {
+      "src": "/site/generated/website-design/section-collage-mobile-v1-desktop.webp",
+      "originalSource": "../../public/homepage/project-mobile.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A striking close vertical photograph of a smartphone resting diagonally on a charcoal felt notebook beside a transit ticket and a single orange pencil",
+        "ar": "تطبيق حجز رحلات داخل شاشة هاتف"
+      }
+    },
+    "4": {
+      "src": "/site/generated/website-design/section-operations-v1-desktop.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Panoramic close product-in-use photograph of a large desktop monitor on a working content editor's desk",
+        "ar": "إدارة محتوى الموقع ومراجعة النشر على شاشة مكتبية"
+      },
+      "mobileSrc": "/site/generated/website-design/section-operations-v1-mobile.webp"
+    },
+    "5": {
+      "src": "/site/generated/website-design/section-enquiry-v1-desktop.webp",
+      "originalSource": "../../public/homepage/project-mobile.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Wide close-up photograph of a small laptop on a pale studio meeting table displaying a beautifully designed enquiry page for fictional architectural practice FORM & FIELD",
+        "ar": "نموذج تواصل واضح داخل حاسوب محمول"
+      }
+    },
+    "6": {
+      "src": "/site/generated/website-design/section-film-discovery-v1-desktop.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Close overhead process photograph of two collaborators organizing a physical website user journey on white paper: a hand at the upper left arranges a card labeled Explore, a second hand at the lower right writes a pencil annotation beside Contact",
+        "ar": "تخطيط رحلة الزائر وهيكل صفحات الموقع على الورق"
+      }
+    },
+    "7": {
+      "src": "/site/generated/website-design/section-film-wireframe-v1-desktop.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Close side-overhead photograph of a pen display tablet resting flat on a blue drafting mat",
+        "ar": "تطوير مخطط الواجهة بالقلم على لوح رقمي"
+      }
+    },
+    "8": {
+      "src": "/site/generated/website-design/section-film-feedback-v1-desktop.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "A close photograph of an online website review session shown INSIDE a real laptop on a dark worktable",
+        "ar": "مراجعة ملاحظات العميل أونلاين داخل شاشة لابتوب"
+      }
+    },
+    "9": {
+      "src": "/site/generated/website-design/section-film-handoff-v1-desktop.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Editorial work-process photograph of a finished website handover: open slim laptop seen from a gentle left angle beside a printed Website guide booklet and a short physical check sheet labeled Navigation, Forms, Mobile",
+        "ar": "تسليم الموقع مع دليل إدارة وفحص وظائفه"
+      }
+    },
+    "10": {
+      "src": "/site/generated/website-design/section-work-business-v1-desktop.webp",
+      "originalSource": "../../public/approved-media/image-08.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Premium near-square photograph inspired by reference two: a laptop, upright tablet and small phone arranged together on a real pale grey desk, screens facing the viewer with coherent responsive versions of a striking industrial consultancy website named APEX ENGINEERING",
+        "ar": "نموذج موقع شركة هندسية على مجموعة أجهزة"
+      }
+    },
+    "11": {
+      "src": "/site/generated/website-design/section-work-cms-v1-desktop.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Near-square tight editorial photograph of a desktop monitor being used by a content manager, seen from slightly above the left shoulder",
+        "ar": "نموذج إدارة الصفحات والصور داخل نظام محتوى"
+      }
+    },
+    "12": {
+      "src": "/site/generated/website-design/section-work-services-v1-desktop.webp",
+      "originalSource": "../../public/approved-media/image-08.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Near-square close photograph of a slim laptop opened on a stone counter in a modern skincare consultation studio",
+        "ar": "صفحة خدمات عيادة عناية بالبشرة داخل شاشة لابتوب"
+      }
+    },
+    "13": {
+      "src": "/site/generated/website-design/section-work-mobile-v1-desktop.webp",
+      "originalSource": "../../public/approved-media/image-08.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Near-square close photograph of a smartphone placed upright in a minimal tabletop cradle on a cafe counter, shown at a subtle left three-quarter angle",
+        "ar": "تجربة طلب متجاوبة داخل هاتف على طاولة مقهى"
+      }
+    },
+    "14": {
+      "src": "/site/generated/website-design/section-work-content-v1-desktop.webp",
+      "originalSource": "../../public/homepage/about.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Near-square art-directed editorial still life of website content strategy in progress",
+        "ar": "ربط استراتيجية المحتوى بمخططات الصفحات ونموذج الموقع"
+      }
+    },
+    "capabilities": {
+      "src": "/site/generated/website-design/section-capabilities-v1-desktop.webp",
+      "transparent": false,
+      "alt": {
+        "en": "Wide art-directed photograph inspired by reference three: desktop monitor at back left, laptop at right, a landscape tablet on the desk front-center and a phone standing front-left, all showing a coherent premium responsive interior design website named HABITAT FORM",
+        "ar": "موقع متجاوب معروض على شاشة مكتب ولابتوب وتابلت وهاتف"
+      }
+    }
   }
 }
