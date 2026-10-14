@@ -1,5 +1,10 @@
 # CODEYEA content and imagery instructions
 
+## Case-study layout approved, 2026-10-14
+- Owner answered: «اعتمد تنسيق صفحة تصميم المواقع». Reuse that page's existing section composition, typography, sharp corners, image/copy split, entrance motion and CTA behavior for the six written concepts.
+- Approved sequence: client requirements, five distinct illustrated stages, simulated results. Each case also has its separate cover concept. Preserve bilingual scenario facts and omit company locations.
+- This approval resolves the pending layout question below. Keep all pages private; Git upload remains authorized, production publication does not.
+
 ## General pages and six case studies resumed by owner, 2026-10-13
 - Complete About, main Services, Industries directory and Contact imagery in their existing layouts. Owner supplied cohosta-about-content-min-1.png as an IDEA reference for a prominent CODEYEA logo in front of relevant photography; do not copy its exact composition. Use the actual CODEYEA logo, sharp plaque corners and page-specific content.
 - Implement the six existing case-study concepts with their stage images and display pages. Preserve Velora Skin Clinic, Madar Solar, TradeBridge Expo, Atlas Supply, Safa Clinics and Mada Developments; no company locations. Keep scenario numbers labelled as simulated.

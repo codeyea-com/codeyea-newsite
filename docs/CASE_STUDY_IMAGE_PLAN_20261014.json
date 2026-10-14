@@ -1,0 +1,384 @@
+{
+  "reference": "application-concepts/website-design-en.html#custom-cms",
+  "measuredFrames": {
+    "desktop": {
+      "viewport": 1563,
+      "width": 591.92,
+      "height": 443.94
+    },
+    "tablet": {
+      "viewport": 926,
+      "width": 415.33,
+      "height": 311.5
+    },
+    "mobile": {
+      "viewport": 433,
+      "width": 393.33,
+      "height": 295
+    }
+  },
+  "aspectRatio": "4:3 at every breakpoint; dedicated responsive composition not required",
+  "mode": "built-in image_gen",
+  "jobs": [
+    {
+      "id": "velora-skin-clinic/cover",
+      "slug": "velora-skin-clinic",
+      "slot": "cover",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Top-down physical brand identity flat lay for fictional VELORA Skin Clinic. Consultation folder, appointment card, service brochure, elegant pen, a small clinic sign and tactile material samples. Focus on typography and actual printed identity. No devices or people. Consistent refined V monogram, ivory paper, muted botanical green and warm grey. Readable short VELORA wordmark, no location. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Velora Skin Clinic concept cover",
+        "ar": "غلاف فيلورا للعناية بالبشرة"
+      }
+    },
+    {
+      "id": "velora-skin-clinic/stage-1",
+      "slug": "velora-skin-clinic",
+      "slot": "stage-1",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Brand discovery workshop for fictional VELORA Skin Clinic. Close overhead view of a physical moodboard with paper textures, botanical green and warm grey colour swatches, serif and sans-serif type samples and small clinic interior detail photographs. Two collaborators hands entering from different edges select materials. No screens. Materials dominate; anatomically natural hands. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Understand the clinic and its audience",
+        "ar": "فهم شخصية العيادة وجمهورها"
+      }
+    },
+    {
+      "id": "velora-skin-clinic/stage-2",
+      "slug": "velora-skin-clinic",
+      "slot": "stage-2",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Close slightly overhead photograph of a landscape drawing tablet on a designer desk. A LEFT hand holds a stylus naturally at the lower left screen edge, drawing a refined V monogram for VELORA Skin Clinic. Screen shows three clear logo construction studies, vector anchor points, and the short VELORA name. Fingers never cover the drawing. Printed type and colour samples nearby. Device screen occupies most of frame. Ivory, botanical green, warm grey identity. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Draw the logo and visual system",
+        "ar": "رسم الشعار والنظام البصري"
+      }
+    },
+    {
+      "id": "velora-skin-clinic/stage-3",
+      "slug": "velora-skin-clinic",
+      "slot": "stage-3",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Side-overhead product photography of the fictional VELORA clinic brand applied to a consultation folder, folded services brochure, appointment cards and a folded cream uniform with a small embroidered V monogram. Real paper fibres, ink and embroidery. Consistent VELORA typography in botanical green, ivory and warm grey. Objects are the focus. No devices, no people. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Apply the identity throughout the experience",
+        "ar": "تطبيق الهوية داخل التجربة"
+      }
+    },
+    {
+      "id": "velora-skin-clinic/stage-4",
+      "slug": "velora-skin-clinic",
+      "slot": "stage-4",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Open silver laptop at a quiet skincare consultation table. Its large prominent screen shows a polished VELORA Skin Clinic service webpage, short heading Skin consultation, restrained botanical green and ivory identity, realistic service information and a clear Request consultation button. Include a small appointment card and clinic materials at the side. Device fills most of composition, subtle clinic context behind, no person holding it. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Build the website and consultation journey",
+        "ar": "بناء الموقع ومسار الاستشارة"
+      }
+    },
+    {
+      "id": "velora-skin-clinic/stage-5",
+      "slug": "velora-skin-clinic",
+      "slot": "stage-5",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Nearly front-facing desktop monitor in the administration corner of VELORA Skin Clinic. Screen prominently shows a clean consultation enquiry dashboard labelled DEMO DATA, with 128 Requests, 86% Complete, a small source breakdown and anonymised enquiry IDs. No health information or patient names. One notebook and a clinic folder support the context. Real monitor bezel and stand fully visible, screen sharp and dominant. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Launch and measure message clarity",
+        "ar": "الإطلاق وقياس وضوح الرسالة"
+      }
+    },
+    {
+      "id": "madar-solar/cover",
+      "slug": "madar-solar",
+      "slot": "cover",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Architectural editorial photograph of a completed modern solar array on a FLAT CONCRETE rooftop with parapet walls. Low-rise contemporary flat-roof buildings form an anonymous background. Panels and steel mounting frames are the focus, warm natural daylight and realistic wiring. No tiled roofs, no pitched roofs, no flags or identifiable location, no people. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Madar Solar concept cover",
+        "ar": "غلاف مدار للطاقة"
+      }
+    },
+    {
+      "id": "madar-solar/stage-1",
+      "slug": "madar-solar",
+      "slot": "stage-1",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. A solar engineer measures a FLAT CONCRETE rooftop beside the edge of an installed panel array. Close composition prioritises the roof, measuring tool and printed installation plan on a portable work surface. Engineer seen at side from waist down with natural hands using a tape measure; person subordinate. Practical mounting geometry. No roof tiles or location markers. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Define the service and customer",
+        "ar": "تحديد الخدمة والعميل"
+      }
+    },
+    {
+      "id": "madar-solar/stage-2",
+      "slug": "madar-solar",
+      "slot": "stage-2",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Laptop on a solar engineering worktable, screen dominating the landscape photo. It displays a professional MADAR SOLAR content-planning workspace with three clear groups Learn, Compare systems, Request survey and page cards Home solar, Business solar, Service coverage. Printed electrical schematic and a small cable connector beside it. No geographical map names. No hand covers the screen. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Plan search and content",
+        "ar": "بناء خطة البحث والمحتوى"
+      }
+    },
+    {
+      "id": "madar-solar/stage-3",
+      "slug": "madar-solar",
+      "slot": "stage-3",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Landscape tablet firmly supported on a stand on a solar survey workbench, near a clamp meter and cable samples. Large crisp screen shows MADAR SOLAR survey request form, Property type with Home selected, Monthly consumption field and Continue button. Clear progress Step 2 of 4. The device and screen are dominant. No hands holding it, no background text or location. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Build the website and request journey",
+        "ar": "تطوير الموقع ومسار الطلب"
+      }
+    },
+    {
+      "id": "madar-solar/stage-4",
+      "slug": "madar-solar",
+      "slot": "stage-4",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Documentary solar installation photograph on a flat concrete roof. Two technicians, small within the composition, align a photovoltaic panel onto a secure metal support frame. Panels, mounting brackets and installation work dominate. Natural safety equipment and plausible anatomy. Anonymous low-rise flat-roof context, no tiled roofs, no decorative unrelated objects. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Create content grounded in installation work",
+        "ar": "بناء محتوى يثبت فهم التطبيق"
+      }
+    },
+    {
+      "id": "madar-solar/stage-5",
+      "slug": "madar-solar",
+      "slot": "stage-5",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Desktop monitor at a solar company office desk, screen taking most of the frame. A recognisable Google-style search results page for solar installation, with the familiar multicolour Google wordmark, search box, blue results and grey snippets. Top visible fictional result MADAR SOLAR, Flat-roof solar systems, madar.example. Clearly visible label DEMO SEARCH RESULTS within screen. No location names or flags. Small solar component near the monitor. No floating UI outside screen. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Measure visibility and qualified requests",
+        "ar": "قياس الظهور والطلبات المؤهلة"
+      }
+    },
+    {
+      "id": "tradebridge-expo/cover",
+      "slug": "tradebridge-expo",
+      "slot": "cover",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. International INDUSTRIAL trade exhibition, elevated aisle perspective. Credible equipment, energy and logistics company stands with real technical product displays and steel booth structures. Diverse business visitors smaller in scene. Main sign TRADEBRIDGE EXPO, short sector signs ENERGY, EQUIPMENT, LOGISTICS. Commercial B2B atmosphere, not weddings, decor, concerts or a conference auditorium. No flags, city names or actual companies. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "TradeBridge Expo concept cover",
+        "ar": "غلاف جسور التجارة"
+      }
+    },
+    {
+      "id": "tradebridge-expo/stage-1",
+      "slug": "tradebridge-expo",
+      "slot": "stage-1",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Close overhead exhibition planning table. Printed hall floorplan, separate EXHIBITOR, BUYER and VISITOR badges, company profile sheets and entrance route markers. Two hands arrange the badges and draw a route on the plan, entering from different sides. TRADEBRIDGE name subtly on the printed plan. No screens, no city or country names. Clear physical process. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Design participant journeys",
+        "ar": "تصميم رحلات المشاركين"
+      }
+    },
+    {
+      "id": "tradebridge-expo/stage-2",
+      "slug": "tradebridge-expo",
+      "slot": "stage-2",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. A laptop on an event organiser workstation, with an exhibition guide and printed badge beside it. Dominant screen shows TRADEBRIDGE Exhibitor Portal and a fictional NORDEX EQUIPMENT company profile with industrial pump thumbnail, Products, Team, Badge tabs and Profile approved status. Readable short headings, realistic purposeful interface. Venue hinted in soft background, no isolated screenshot. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Build exhibitor and visitor portals",
+        "ar": "بناء بوابات العارضين والزوار"
+      }
+    },
+    {
+      "id": "tradebridge-expo/stage-3",
+      "slug": "tradebridge-expo",
+      "slot": "stage-3",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Candid B2B meeting inside an industrial exhibition stand. Two business representatives of different backgrounds discuss a real small precision mechanical assembly and its technical catalogue across a table. The sample and open catalogue dominate the foreground; people support the business interaction. Natural gestures, no disconnected handshake, no device required. Generic trade-show backdrop without locations. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Test business matching",
+        "ar": "تجربة مطابقة الأعمال"
+      }
+    },
+    {
+      "id": "tradebridge-expo/stage-4",
+      "slug": "tradebridge-expo",
+      "slot": "stage-4",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Portrait smartphone upright in a sturdy reception desk cradle at exhibition entry, photographed closely in a landscape scene. Crisp screen shows TRADEBRIDGE, DEMO PASS, Entry confirmed with a green check and two appointment times. A printed exhibitor badge sits beside a real QR scanner. No hand covers the screen. Device dominates; booth entry background is subtle. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Run entry and appointments",
+        "ar": "تشغيل الدخول والمواعيد"
+      }
+    },
+    {
+      "id": "tradebridge-expo/stage-5",
+      "slug": "tradebridge-expo",
+      "slot": "stage-5",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Desktop monitor in the exhibition management office with a softly blurred hall visible beyond a window. Dominant screen shows TRADEBRIDGE, DEMO REPORT, 156 Completed meetings and an attendance report with clear Booked and Attended rows. Purposeful chart and short labels, no random code. The actual screen bezel, stand and desk are visible. No UI outside device. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Analyse commercial value",
+        "ar": "تحليل القيمة التجارية"
+      }
+    },
+    {
+      "id": "atlas-supply/cover",
+      "slug": "atlas-supply",
+      "slot": "cover",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Wide desktop monitor at a real industrial purchasing workstation, close landscape photograph. Main screen shows RelayOps for ATLAS SUPPLY, a source quotation document on the left and extracted Item, Quantity, Unit fields on the right, plus Review required. Clear DEMO label. A metal parts catalogue, small industrial coupling and supplier cards beside monitor. Screen fills most frame. No personal data or locations. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Atlas Supply concept cover",
+        "ar": "غلاف أطلس للتوريد"
+      }
+    },
+    {
+      "id": "atlas-supply/stage-1",
+      "slug": "atlas-supply",
+      "slot": "stage-1",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Top-down physical industrial purchasing workflow scene. Printed quote request, open metal-parts catalogue, numbered component labels and pencil notes showing repeated entry, with small mechanical samples at the table edge. Short printed headings Request, Catalogue, Pricing. Documents are the subject, no device, no full people, no addresses or location names. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Map the existing workflow",
+        "ar": "رسم سير العمل الحالي"
+      }
+    },
+    {
+      "id": "atlas-supply/stage-2",
+      "slug": "atlas-supply",
+      "slot": "stage-2",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Small diverse operations team at either edge of a large physical whiteboard, faces secondary. Whiteboard dominates and clearly shows a simple process Request → Extract → Match → Human approval, with a separate Review uncertain fields branch. An industrial component and catalogue on foreground table. Realistic marker handwriting, practical SaaS automation planning, no sci-fi effects. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Plan automation and its boundaries",
+        "ar": "تخطيط الأتمتة وحدودها"
+      }
+    },
+    {
+      "id": "atlas-supply/stage-3",
+      "slug": "atlas-supply",
+      "slot": "stage-3",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Close three-quarter view of a desktop monitor showing the RelayOps source review screen. Left panel source quotation with Item P-204 and Qty 12; right panel extracted matching fields with source highlights and one amber Unit needs review field. A source-linked review interface, no decorative tables. Small metal coupling and document tray nearby. Screen sharp and dominant, DEMO DATA visible. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Build the review screen",
+        "ar": "بناء شاشة المراجعة"
+      }
+    },
+    {
+      "id": "atlas-supply/stage-4",
+      "slug": "atlas-supply",
+      "slot": "stage-4",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Open dark laptop on a real operations workstation, screen dominant and unobstructed. RelayOps exception review interface with the heading Quantity needs review, an original document crop, an editable quantity 12, short audit history and a clear Approve draft button. Label DEMO. A pen and numbered parts catalogue beside the device. No hands over screen, no floating panels. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Test exceptions and decisions",
+        "ar": "اختبار الحالات والاستثناءات"
+      }
+    },
+    {
+      "id": "atlas-supply/stage-5",
+      "slug": "atlas-supply",
+      "slot": "stage-5",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Industrial purchasing employee and purchasing manager review a completed paper supply file at a workbench. Close crop prioritises open approved item checklist and numbered metal samples, two people seated at opposite sides with natural small gestures. Diverse team, faces secondary, realistic business context, no handshake pose, no monitor, no addresses. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Pilot and review the return",
+        "ar": "الإطلاق المحدود ومراجعة العائد"
+      }
+    },
+    {
+      "id": "safa-clinics/cover",
+      "slug": "safa-clinics",
+      "slot": "cover",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Close photographic scene at a contemporary SAFA CLINICS reception counter. Desktop monitor displays a clean weekly appointment calendar, DEMO DATA, and appointment IDs instead of patient names. A branch card reading Clinic A, a small reception bell and tiny plant provide context. Screen is the focus, no patient photographs or medical records. Calm modern environment, no geographic location. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Safa Clinics concept cover",
+        "ar": "غلاف عيادات صفا"
+      }
+    },
+    {
+      "id": "safa-clinics/stage-1",
+      "slug": "safa-clinics",
+      "slot": "stage-1",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Close overhead clinic planning table with physical cards Speciality, Clinic A, Clinic B, Choose time, Confirm and printed visitor journey notes. Quiet clinic workspace, simple reception materials. One hand sorts a card at the edge without obscuring the sequence. No device, no health records, no patient information or map locations. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Understand booking questions",
+        "ar": "فهم أسئلة الحجز"
+      }
+    },
+    {
+      "id": "safa-clinics/stage-2",
+      "slug": "safa-clinics",
+      "slot": "stage-2",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Smartphone standing on a clear acrylic cradle at SAFA CLINICS reception. Screen is large and clear in the composition, shows Book appointment, Choose a time, a simple calendar and 10:30 selected, Continue button. Synthetic demo booking, no patient names. Reception card and bell at side, background subtle. Nobody holds the phone, no floating UI. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Design the mobile journey",
+        "ar": "تصميم رحلة الموبايل"
+      }
+    },
+    {
+      "id": "safa-clinics/stage-3",
+      "slug": "safa-clinics",
+      "slot": "stage-3",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Architectural detail photograph of an accessible modern clinic entrance. Clear SAFA CLINICS wordmark, Reception arrow, Clinic A and a printed Before your visit instruction card on a nearby display stand. Focus on physical wayfinding, welcoming easy entry, no people dominating, no addresses, city names or country markers. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Prepare branch content",
+        "ar": "إعداد محتوى الفروع"
+      }
+    },
+    {
+      "id": "safa-clinics/stage-4",
+      "slug": "safa-clinics",
+      "slot": "stage-4",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Desktop screen at clinic reception viewed closely from a slight right angle. SAFA CLINICS calendar interface, DEMO DATA, selected booking A-014, status Confirmed and Reminder scheduled panel. Meaningful time slots and short labels, no medical details or patient names. Keyboard and reception notebook subtly visible, screen occupies most frame. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Connect booking to reception",
+        "ar": "ربط الحجز بعمل الاستقبال"
+      }
+    },
+    {
+      "id": "safa-clinics/stage-5",
+      "slug": "safa-clinics",
+      "slot": "stage-5",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Side-angle candid clinic arrival scene. Reception colleague welcomes an adult visitor beside a clear reception direction sign; framing focuses on a simple appointment card and check-in process, faces secondary. Natural anatomy, understated contemporary clinic, calm inclusive atmosphere. No treatment scene, no diagnosis, no personal information or geography. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Test the journey and measure attendance",
+        "ar": "اختبار الرحلة وقياس الحضور"
+      }
+    },
+    {
+      "id": "mada-developments/cover",
+      "slug": "mada-developments",
+      "slot": "cover",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Large landscape tablet supported on a presentation stand in a property developer showroom, beside a precise architectural model and project brochure. Dominant screen shows MADA DEVELOPMENTS and a coherent residential masterplan with Phase 1, Phase 2 and Explore units. Device is fully credible, screen occupies most frame; architectural model supports context. No location names, no brokerage listings. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Mada Developments concept cover",
+        "ar": "غلاف مدى للتطوير العقاري"
+      }
+    },
+    {
+      "id": "mada-developments/stage-1",
+      "slug": "mada-developments",
+      "slot": "stage-1",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Close property development coordination meeting around a physical masterplan and architectural scale model of mid-rise residential buildings. Facade material samples at front, two team members only partially visible at opposite edges. Project and materials dominate. Natural hands pointing to model without blocking it. No tablets or location markers. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Organise project and phase data",
+        "ar": "تنظيم بيانات المطور ومراحله"
+      }
+    },
+    {
+      "id": "mada-developments/stage-2",
+      "slug": "mada-developments",
+      "slot": "stage-2",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Large desktop monitor in a real developer showroom with architectural models at the edge. Screen shows MADA DEVELOPMENTS interactive masterplan, one building selected and unit A-204, 2 bedrooms, Available, View floor plan. DEMO label. Screen sharp, real device dominant. Only one coherent development, no unrelated estate listings, no maps naming locations. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Design project exploration",
+        "ar": "تصميم تجربة استكشاف المشروع"
+      }
+    },
+    {
+      "id": "mada-developments/stage-3",
+      "slug": "mada-developments",
+      "slot": "stage-3",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Physical launch collateral for MADA DEVELOPMENTS on a worktable: premium project brochure, detailed unit floor plans, a small site-sign mockup and a scale building model. An unfinished residential facade softly visible beyond the table. Architecture and printed project materials are the subject, no devices, no location, no delivery-date claims. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Prepare project launch materials",
+        "ar": "تجهيز مواد إطلاق المشروع"
+      }
+    },
+    {
+      "id": "mada-developments/stage-4",
+      "slug": "mada-developments",
+      "slot": "stage-4",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Laptop in a developer project office, close dominant screen displaying Development Hub. Clear unit A-204 status Available, Construction update Approved and a simple approval history, Publish update button, DEMO DATA. Architectural plan and material sample beside the device. Practical information hierarchy, no decorative random tables, no hands covering screen. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Connect sales and the buyer portal",
+        "ar": "ربط المبيعات وبوابة المشترين"
+      }
+    },
+    {
+      "id": "mada-developments/stage-5",
+      "slug": "mada-developments",
+      "slot": "stage-5",
+      "prompt": "Create one finished editorial website photograph, landscape 4:3 aspect ratio, high resolution. Construction progress documentation at a mid-rise residential site. Engineer and project coordinator wearing proper hardhats, small to side, review a printed building plan and take a progress photograph with a compact camera. The concrete structure, facade works and visible progress dominate. Realistic proportions and safe worksite, no location signs or brand logos. Art direction: photorealistic, carefully composed and visually polished; screens remain inside actual physical devices and are readable. Important objects fully in frame with 8% safe margins for responsive 4:3 placement. This is a fictional illustrative case study, not a real client. Preserve specified short names and interface labels. Do not add external overlay panels, bubbles, floating charts, captions, watermark, framing, shadows outside the photograph, city/country/address/flags, or CODEYEA branding. No collage of multiple scenes. Vary human poses naturally, exact plausible hands if present. This image occupies a closed 4:3 frame on both desktop and mobile; no popup elements.",
+      "alt": {
+        "en": "Operate updates and measure service",
+        "ar": "تشغيل التحديثات وقياس الخدمة"
+      }
+    }
+  ]
+}

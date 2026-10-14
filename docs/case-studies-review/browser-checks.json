@@ -1,0 +1,404 @@
+[
+  {
+    "h1": 1,
+    "images": 6,
+    "lang": "ar",
+    "overflow": false,
+    "stages": 5,
+    "url": "http://127.0.0.1:3011/case-studies/velora-skin-clinic-ar.html",
+    "width": 1422,
+    "imageStatus": [
+      {
+        "alt": "فيلورا للعناية بالبشرة",
+        "loaded": true
+      },
+      {
+        "alt": "فهم شخصية العيادة وجمهورها",
+        "loaded": true
+      },
+      {
+        "alt": "رسم الشعار والنظام البصري",
+        "loaded": true
+      },
+      {
+        "alt": "تطبيق الهوية داخل التجربة",
+        "loaded": true
+      },
+      {
+        "alt": "بناء الموقع ومسار الاستشارة",
+        "loaded": true
+      },
+      {
+        "alt": "الإطلاق وقياس وضوح الرسالة",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "h1": 1,
+    "images": 6,
+    "lang": "ar",
+    "overflow": false,
+    "stages": 5,
+    "url": "http://127.0.0.1:3011/case-studies/madar-solar-ar.html",
+    "width": 1422,
+    "imageStatus": [
+      {
+        "alt": "مدار للطاقة",
+        "loaded": true
+      },
+      {
+        "alt": "تحديد الخدمة والعميل",
+        "loaded": true
+      },
+      {
+        "alt": "بناء خطة البحث والمحتوى",
+        "loaded": true
+      },
+      {
+        "alt": "تطوير الموقع ومسار الطلب",
+        "loaded": true
+      },
+      {
+        "alt": "بناء محتوى يثبت فهم التطبيق",
+        "loaded": true
+      },
+      {
+        "alt": "قياس الظهور والطلبات المؤهلة",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "h1": 1,
+    "images": 6,
+    "lang": "ar",
+    "overflow": false,
+    "stages": 5,
+    "url": "http://127.0.0.1:3011/case-studies/tradebridge-expo-ar.html",
+    "width": 1422,
+    "imageStatus": [
+      {
+        "alt": "جسور التجارة",
+        "loaded": true
+      },
+      {
+        "alt": "تصميم رحلات المشاركين",
+        "loaded": true
+      },
+      {
+        "alt": "بناء بوابات العارضين والزوار",
+        "loaded": true
+      },
+      {
+        "alt": "تجربة مطابقة الأعمال",
+        "loaded": true
+      },
+      {
+        "alt": "تشغيل الدخول والمواعيد",
+        "loaded": true
+      },
+      {
+        "alt": "تحليل القيمة التجارية",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "h1": 1,
+    "images": 6,
+    "lang": "ar",
+    "overflow": false,
+    "stages": 5,
+    "url": "http://127.0.0.1:3011/case-studies/atlas-supply-ar.html",
+    "width": 1422,
+    "imageStatus": [
+      {
+        "alt": "أطلس للتوريد",
+        "loaded": true
+      },
+      {
+        "alt": "رسم سير العمل الحالي",
+        "loaded": true
+      },
+      {
+        "alt": "تخطيط الأتمتة وحدودها",
+        "loaded": true
+      },
+      {
+        "alt": "بناء شاشة المراجعة",
+        "loaded": true
+      },
+      {
+        "alt": "اختبار الحالات والاستثناءات",
+        "loaded": true
+      },
+      {
+        "alt": "الإطلاق المحدود ومراجعة العائد",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "h1": 1,
+    "images": 6,
+    "lang": "ar",
+    "overflow": false,
+    "stages": 5,
+    "url": "http://127.0.0.1:3011/case-studies/safa-clinics-ar.html",
+    "width": 1422,
+    "imageStatus": [
+      {
+        "alt": "عيادات صفا",
+        "loaded": true
+      },
+      {
+        "alt": "فهم أسئلة الحجز",
+        "loaded": true
+      },
+      {
+        "alt": "تصميم رحلة الموبايل",
+        "loaded": true
+      },
+      {
+        "alt": "إعداد محتوى الفروع",
+        "loaded": true
+      },
+      {
+        "alt": "ربط الحجز بعمل الاستقبال",
+        "loaded": true
+      },
+      {
+        "alt": "اختبار الرحلة وقياس الحضور",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "h1": 1,
+    "images": 6,
+    "lang": "ar",
+    "overflow": false,
+    "stages": 5,
+    "url": "http://127.0.0.1:3011/case-studies/mada-developments-ar.html",
+    "width": 1422,
+    "imageStatus": [
+      {
+        "alt": "مدى للتطوير العقاري",
+        "loaded": true
+      },
+      {
+        "alt": "تنظيم بيانات المطور ومراحله",
+        "loaded": true
+      },
+      {
+        "alt": "تصميم تجربة استكشاف المشروع",
+        "loaded": true
+      },
+      {
+        "alt": "تجهيز مواد إطلاق المشروع",
+        "loaded": true
+      },
+      {
+        "alt": "ربط المبيعات وبوابة المشترين",
+        "loaded": true
+      },
+      {
+        "alt": "تشغيل التحديثات وقياس الخدمة",
+        "loaded": true
+      }
+    ],
+    "errors": []
+  },
+  {
+    "h1": 1,
+    "images": 6,
+    "lang": "en",
+    "overflow": false,
+    "stages": 5,
+    "url": "http://127.0.0.1:3011/case-studies/velora-skin-clinic-en.html",
+    "width": 1422
+  },
+  {
+    "h1": 1,
+    "images": 6,
+    "lang": "en",
+    "overflow": false,
+    "stages": 5,
+    "url": "http://127.0.0.1:3011/case-studies/madar-solar-en.html",
+    "width": 1422
+  },
+  {
+    "h1": 1,
+    "images": 6,
+    "lang": "en",
+    "overflow": false,
+    "stages": 5,
+    "url": "http://127.0.0.1:3011/case-studies/tradebridge-expo-en.html",
+    "width": 1422
+  },
+  {
+    "h1": 1,
+    "images": 6,
+    "lang": "en",
+    "overflow": false,
+    "stages": 5,
+    "url": "http://127.0.0.1:3011/case-studies/atlas-supply-en.html",
+    "width": 1422
+  },
+  {
+    "h1": 1,
+    "images": 6,
+    "lang": "en",
+    "overflow": false,
+    "stages": 5,
+    "url": "http://127.0.0.1:3011/case-studies/safa-clinics-en.html",
+    "width": 1422
+  },
+  {
+    "h1": 1,
+    "images": 6,
+    "lang": "en",
+    "overflow": false,
+    "stages": 5,
+    "url": "http://127.0.0.1:3011/case-studies/mada-developments-en.html",
+    "width": 1422
+  },
+  {
+    "ctaPosition": "fixed",
+    "headerBackground": "rgb(255, 255, 255)",
+    "height": 1000,
+    "lang": "ar",
+    "mode": "mobile",
+    "overflow": false,
+    "shine": "cy-quote-shine",
+    "url": "http://127.0.0.1:3011/case-studies/velora-skin-clinic-ar.html",
+    "width": 433
+  },
+  {
+    "ctaPosition": "fixed",
+    "headerBackground": "rgb(255, 255, 255)",
+    "height": 1000,
+    "lang": "en",
+    "mode": "mobile",
+    "overflow": false,
+    "shine": "cy-quote-shine",
+    "url": "http://127.0.0.1:3011/case-studies/velora-skin-clinic-en.html",
+    "width": 433
+  },
+  {
+    "ctaPosition": "fixed",
+    "headerBackground": "rgb(255, 255, 255)",
+    "height": 1000,
+    "lang": "ar",
+    "mode": "mobile",
+    "overflow": false,
+    "shine": "cy-quote-shine",
+    "url": "http://127.0.0.1:3011/case-studies/madar-solar-ar.html",
+    "width": 433
+  },
+  {
+    "ctaPosition": "fixed",
+    "headerBackground": "rgb(255, 255, 255)",
+    "height": 1000,
+    "lang": "en",
+    "mode": "mobile",
+    "overflow": false,
+    "shine": "cy-quote-shine",
+    "url": "http://127.0.0.1:3011/case-studies/madar-solar-en.html",
+    "width": 433
+  },
+  {
+    "ctaPosition": "fixed",
+    "headerBackground": "rgb(255, 255, 255)",
+    "height": 1000,
+    "lang": "ar",
+    "mode": "mobile",
+    "overflow": false,
+    "shine": "cy-quote-shine",
+    "url": "http://127.0.0.1:3011/case-studies/tradebridge-expo-ar.html",
+    "width": 433
+  },
+  {
+    "ctaPosition": "fixed",
+    "headerBackground": "rgb(255, 255, 255)",
+    "height": 1000,
+    "lang": "en",
+    "mode": "mobile",
+    "overflow": false,
+    "shine": "cy-quote-shine",
+    "url": "http://127.0.0.1:3011/case-studies/tradebridge-expo-en.html",
+    "width": 433
+  },
+  {
+    "ctaPosition": "fixed",
+    "headerBackground": "rgb(255, 255, 255)",
+    "height": 1000,
+    "lang": "ar",
+    "mode": "mobile",
+    "overflow": false,
+    "shine": "cy-quote-shine",
+    "url": "http://127.0.0.1:3011/case-studies/atlas-supply-ar.html",
+    "width": 433
+  },
+  {
+    "ctaPosition": "fixed",
+    "headerBackground": "rgb(255, 255, 255)",
+    "height": 1000,
+    "lang": "en",
+    "mode": "mobile",
+    "overflow": false,
+    "shine": "cy-quote-shine",
+    "url": "http://127.0.0.1:3011/case-studies/atlas-supply-en.html",
+    "width": 433
+  },
+  {
+    "ctaPosition": "fixed",
+    "headerBackground": "rgb(255, 255, 255)",
+    "height": 1000,
+    "lang": "ar",
+    "mode": "mobile",
+    "overflow": false,
+    "shine": "cy-quote-shine",
+    "url": "http://127.0.0.1:3011/case-studies/safa-clinics-ar.html",
+    "width": 433
+  },
+  {
+    "ctaPosition": "fixed",
+    "headerBackground": "rgb(255, 255, 255)",
+    "height": 1000,
+    "lang": "en",
+    "mode": "mobile",
+    "overflow": false,
+    "shine": "cy-quote-shine",
+    "url": "http://127.0.0.1:3011/case-studies/safa-clinics-en.html",
+    "width": 433
+  },
+  {
+    "ctaPosition": "fixed",
+    "headerBackground": "rgb(255, 255, 255)",
+    "height": 1000,
+    "lang": "ar",
+    "mode": "mobile",
+    "overflow": false,
+    "shine": "cy-quote-shine",
+    "url": "http://127.0.0.1:3011/case-studies/mada-developments-ar.html",
+    "width": 433
+  },
+  {
+    "ctaPosition": "fixed",
+    "headerBackground": "rgb(255, 255, 255)",
+    "height": 1000,
+    "lang": "en",
+    "mode": "mobile",
+    "overflow": false,
+    "shine": "cy-quote-shine",
+    "url": "http://127.0.0.1:3011/case-studies/mada-developments-en.html",
+    "width": 433
+  }
+]
