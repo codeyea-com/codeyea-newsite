@@ -322,6 +322,17 @@ export function applyArtworkControls(
     );
   return source;
 }
+/** Keep saved CMS source identities stable when a reviewed default photo is replaced.
+ * Run after CMS image overrides so an owner-selected upload remains authoritative. */
+export function applyReviewedHeroPhotography(source: string, relative: string) {
+  if (relative !== "technical-support-review/technical-support-hero-concept-site.js")
+    return source;
+  return source.replaceAll(
+    'src="/homepage/team.webp"',
+    'src="/site/generated/services/technical-support/hero-light-v1-desktop.webp"',
+  );
+}
+
 export function applyAssetControls(
   source: string,
   controls?: TemplateControls,

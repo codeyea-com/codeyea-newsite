@@ -12,6 +12,7 @@ import { db } from "@/server/db";
 import {
   applyAssetControls,
   applyArtworkControls,
+  applyReviewedHeroPhotography,
 } from "@/server/template-controls";
 
 export async function GET(
@@ -73,6 +74,8 @@ export async function GET(
         );
       }
     }
+    if (ext === ".js")
+      body = Buffer.from(applyReviewedHeroPhotography(body.toString(), relative));
     const types: Record<string, string> = {
       ".css": "text/css",
       ".js": "text/javascript",

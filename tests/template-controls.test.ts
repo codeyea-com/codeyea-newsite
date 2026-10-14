@@ -13,6 +13,7 @@ import {
   extractArtworkText,
   applyArtworkControls,
   applyAssetControls,
+  applyReviewedHeroPhotography,
 } from "../src/server/template-controls";
 import { blogMetadataSchema, blogPostPath } from "../src/schemas/blog";
 
@@ -41,6 +42,22 @@ test("controls preserve source identities and reject scripts in links", async ()
   changed.assets[0].source = manifest.assets[0].source;
   changed.links[0].href = "javascript:alert(1)";
   assert.equal(templateControlsSchema.safeParse(changed).success, false);
+});
+
+test("reviewed Support photo keeps saved CMS source identities and custom image overrides", async () => {
+  const relative="technical-support-review/technical-support-hero-concept-site.js";
+  const manifest=await templateControlManifest(await templateContent('technical-support'),approvedTemplates['technical-support']);
+  const saved=structuredClone(manifest);
+  const team=saved.assets.find(a=>a.source==='/homepage/team.webp');
+  assert.ok(team,'The persisted source identity must remain stable');
+  assert.doesNotThrow(()=>bindControls(manifest,saved));
+  const source='<img src="/homepage/team.webp" alt="">';
+  assert.match(applyReviewedHeroPhotography(applyAssetControls(source,saved),relative),/hero-light-v1-desktop.webp/);
+  team.mediaId='media_12345678-1234-1234-1234-123456789abc';
+  const customized=applyReviewedHeroPhotography(applyAssetControls(source,saved),relative);
+  assert.match(customized,/\/asset\/media_12345678/);
+  assert.doesNotMatch(customized,/hero-light/);
+  assert.equal(applyReviewedHeroPhotography(source,'unrelated/hero.js'),source);
 });
 test("visibility and destinations change independently without changing page composition", async () => {
   const html =

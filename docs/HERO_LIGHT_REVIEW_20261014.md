@@ -18,6 +18,7 @@ Verification:
 - Arabic overlap measured about 16 CSS pixels on desktop and 9 pixels on mobile; long mobile headings retain two natural lines.
 - About tablet English, Technical Support Arabic and Cloud Hosting Arabic were visually checked. Support replay resets to stage 0, with its existing progression retained; Cloud connector animation remains active.
 - Runtime `site-templates` assets and their source review files are synchronized.
+- The published Arabic Support page exposed a saved-CMS source-identity conflict during deployment verification. The canonical source reference now remains stable; the reviewed default photo is applied after CMS overrides in the asset response. Strict identity validation remains intact. Nine additional template-control checks passed, including saved-reference and custom-upload coverage.
 - No CMS content or draft publication was performed.
 
 Local review: http://127.0.0.1:3011/hero-light/index.html

@@ -7,7 +7,7 @@
 
   const scene=document.createElement('div');scene.className='support-scene';
   scene.innerHTML=`
-    <div class="support-photo" aria-hidden="true"><img src="../../public/site/generated/services/technical-support/hero-light-v1-desktop.webp" alt=""></div>
+    <div class="support-photo" aria-hidden="true"><img src="../../public/homepage/team.webp" alt=""></div>
     <div class="support-stripe" aria-hidden="true"></div>
     <div class="support-browser" aria-label="Illustrative website recovery">
       <div class="browser-chrome"><span class="chrome-dots"><i></i><i></i><i></i></span><span>yourwebsite.com</span><b data-browser-status>UNAVAILABLE</b></div>
