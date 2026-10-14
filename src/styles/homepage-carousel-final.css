@@ -28,6 +28,7 @@
   inset-block-start: auto;
   inset-block-end: 64px;
   inset-inline-start: 44px;
+  inset-inline-end: auto;
   margin: 0;
   padding: 0;
 }
@@ -90,6 +91,24 @@
 .hp #industries .hp-carousel.hp-carousel--industry .hp-carousel-progress {
   inline-size: clamp(70px, 16vw, 150px);
 }
+/* Mirror the existing desktop reveal so the first RTL card stays inside the viewport. */
+@media (min-width: 768px) {
+  .hp #work .hp-carousel--project:dir(rtl) .hp-project-intro {
+    left: auto;
+    right: 5%;
+    transform-origin: 100% 100%;
+  }
+  .hp
+    #work
+    .hp-carousel--project:dir(rtl):not(.is-expanded)
+    .hp-carousel-stage {
+    transform: translateX(calc(-1 * var(--intro-width)));
+  }
+  .hp #work .hp-carousel--project:dir(rtl).is-expanded .hp-project-intro {
+    transform: perspective(1000px) translate3d(18%, 28%, -180px) rotateX(14deg)
+      rotateY(12deg) scale(0.78);
+  }
+}
 @media (max-width: 767px) {
   .hp #work .hp-carousel.hp-carousel--project .hp-carousel-viewport,
   .hp #industries .hp-carousel.hp-carousel--industry .hp-carousel-viewport {
@@ -105,6 +124,9 @@
   }
 }
 @media (prefers-reduced-motion: reduce) {
+  .hp #work .hp-carousel--project:dir(rtl).is-expanded .hp-project-intro {
+    transform: none;
+  }
   .hp
     #industries
     .hp-carousel.hp-carousel--industry

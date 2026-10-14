@@ -345,7 +345,7 @@ export function Carousel({
                     setAnnouncement(category + " projects selected");
                   }}
                 >
-                  {category}
+                  {category === "All" && arabic ? "الكل" : category}
                 </button>
               ))}
             </div>
@@ -360,7 +360,10 @@ export function Carousel({
               {str(intro?.ctaLabel) || "See More"}{" "}
               <span aria-hidden="true">→</span>
             </a>
-            <small>Reference imagery; project details awaiting approval.</small>
+            <small>
+              {str(intro?.disclosure) ||
+                "Reference imagery; project details awaiting approval."}
+            </small>
           </div>
         </div>
       )}

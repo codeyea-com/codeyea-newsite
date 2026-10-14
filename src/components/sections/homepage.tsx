@@ -1,7 +1,8 @@
 import { localizedHref } from "@/content/arabic-navigation";
 import { resolveHomepage, iconKeys } from "@/content/homepage-defaults";
+import { homepageCatalog } from "@/content/homepage-catalog";
 import "@/styles/homepage-final.css";
-import { enabledItems, type EditorObject } from "@/schemas/homepage-editor";
+import { enabledItems } from "@/schemas/homepage-editor";
 import { str, mediaProps } from "@/content/homepage-render";
 import { ServiceWords } from "./homepage-service-words";
 import { EditorialCopy } from "./homepage-editorial-copy";
@@ -17,17 +18,7 @@ import {
   WordRotator,
 } from "./homepage-interactions";
 import type { Snapshot } from "@/schemas/content";
-import {
-  homepageServiceDestination,
-  industryPageDestination,
-} from "@/content/service-destinations";
 import { publicDestination } from "@/content/public-destination";
-import {
-  accordionFixtures,
-  flowFixtures,
-  industryFixtures,
-  serviceFixtures,
-} from "@/content/homepage-review";
 
 function ServiceIcon({ index }: { index: number }) {
   const paths = [
@@ -58,6 +49,7 @@ function ServiceIcon({ index }: { index: number }) {
 export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
   const home = resolveHomepage(snapshot?.homepage);
   const arabic = snapshot?.homepage?.localeId === "ar";
+  const catalog = homepageCatalog(arabic ? "ar" : "en", home.projects);
   const destination = (href: string) =>
     arabic ? localizedHref(publicDestination(href)) : publicDestination(href);
   const positioning =
@@ -68,7 +60,7 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
         section.body.trim() &&
         !/no positioning content has been published yet/i.test(section.body),
     ) ?? [];
-  const services = enabledItems(home.services.items),
+  const services = catalog.services,
     about = home.about,
     experience = home.experience,
     hero = home.hero,
@@ -203,10 +195,7 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
                 </p>
                 <a
                   className="hp-service-link"
-                  href={destination(
-                    homepageServiceDestination(str(service.id)) ??
-                      str(service.ctaHref),
-                  )}
+                  href={service.ctaHref}
                   aria-label={"Explore " + str(service.title)}
                 >
                   {str(service.ctaLabel)} <span aria-hidden="true">→</span>
@@ -342,38 +331,22 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
         {home.hosting.enabled !== false && home.hosting.approved === true && (
           <HomepageHosting content={home.hosting} />
         )}
-        {home.projects.enabled !== false &&
-          enabledItems(home.projects.items).some(
-            (item) => item.approved === true,
-          ) && (
-            <section
-              id="work"
-              className="hp-portfolio"
-              aria-labelledby="work-title"
-            >
-              <Carousel
-                locale={snapshot?.homepage?.localeId}
-                label="Project previews"
-                variant="project"
-                filterable
-                intro={home.projects}
-                items={enabledItems(home.projects.items)
-                  .filter((item) => item.approved === true)
-                  .sort((a, b) => Number(b.featured) - Number(a.featured))
-                  .map((item) => ({
-                    id: str(item.id),
-                    title: str(item.title),
-                    body: str(item.body),
-                    category: str(item.categories),
-                    image: mediaProps(item.media).src,
-                    srcSet: mediaProps(item.media).srcSet,
-                    alt: mediaProps(item.media).alt,
-                    focal: mediaProps(item.media).style.objectPosition,
-                    href: str(item.href),
-                  }))}
-              />
-            </section>
-          )}
+        {home.projects.enabled !== false && catalog.projects.length > 0 && (
+          <section
+            id="work"
+            className="hp-portfolio"
+            aria-labelledby="work-title"
+          >
+            <Carousel
+              locale={snapshot?.homepage?.localeId}
+              label={arabic ? "دراسات الحالة" : "Case Studies"}
+              variant="project"
+              filterable
+              intro={catalog.projectIntro}
+              items={catalog.projects}
+            />
+          </section>
+        )}
         {home.industries.enabled !== false && (
           <section
             id="industries"
@@ -391,22 +364,10 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
             <div id="industry-list">
               <Carousel
                 locale={snapshot?.homepage?.localeId}
-                label="Industries"
+                label={arabic ? "القطاعات" : "Industries"}
                 variant="industry"
                 autoplay
-                items={enabledItems(home.industries.items).map((item) => ({
-                  id: str(item.id),
-                  title: str(item.title),
-                  body: str(item.body),
-                  category: str(item.eyebrow),
-                  image: mediaProps(item.media).src,
-                  srcSet: mediaProps(item.media).srcSet,
-                  alt: mediaProps(item.media).alt,
-                  focal: mediaProps(item.media).style.objectPosition,
-                  href: destination(
-                    industryPageDestination(str(item.title)) ?? str(item.href),
-                  ),
-                }))}
+                items={catalog.industries}
               />
             </div>
           </section>

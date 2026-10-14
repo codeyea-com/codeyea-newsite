@@ -68,6 +68,16 @@ export const arabicNavigation: Record<string, string> = {
 export function localizedHref(href: string, preview = false): string {
   if (!href.startsWith("/") || href.startsWith("//")) return href;
   const url = new URL(href, "https://local.invalid");
+  if (/^\/(?:ar\/|preview\/)?case-studies(?:\/|$)/.test(url.pathname)) {
+    const suffix = url.pathname.replace(
+      /^\/(?:ar\/|preview\/)?case-studies/,
+      "",
+    );
+    url.pathname = `${preview ? "/preview" : "/ar"}/case-studies${suffix}`;
+    if (preview) url.searchParams.set("locale", "ar");
+    else url.searchParams.delete("locale");
+    return url.pathname + url.search + url.hash;
+  }
   if (
     /^\/(?:preview\/ar|api|asset|brand|homepage|site|admin|login)(?:\/|$)/.test(
       url.pathname,
