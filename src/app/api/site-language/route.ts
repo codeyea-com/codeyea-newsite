@@ -3,6 +3,7 @@ import { documentSlugs } from "@/content/site-routes";
 import { languageSwitchAllowed } from "@/content/site-language";
 import { snapshotSchema } from "@/schemas/content";
 import { noStore } from "@/server/http";
+import { conceptCaseStudy } from "@/content/concept-case-studies";
 export async function GET(request: Request) {
   const country = request.headers.get("x-vercel-ip-country");
   if (!languageSwitchAllowed(country))
@@ -12,7 +13,14 @@ export async function GET(request: Request) {
   const target = "/ar" + (english.startsWith("/") ? english : "/" + english);
   const slug = english.replace(/^\/+|\/+$/g, "");
   let available = false;
-  if ((documentSlugs as readonly string[]).includes(slug)) {
+  if (slug === 'case-studies' || /^case-studies\/[^/]+$/.test(slug)) {
+    // These bilingual pages are rendered from the public case catalogue, not CMS publications.
+    return Response.json({
+      enabled: slug === 'case-studies' || !!conceptCaseStudy(slug.slice('case-studies/'.length)),
+      href: /^\/ar(?:\/|$)/.test(path) ? english : target,
+      label: /^\/ar(?:\/|$)/.test(path) ? 'English' : 'العربية',
+    }, {headers:noStore});
+  } else if ((documentSlugs as readonly string[]).includes(slug)) {
     const document = await db.siteDocument.findUnique({
       where: { slug_locale: { slug, locale: "ar" } },
       select: { published: true },

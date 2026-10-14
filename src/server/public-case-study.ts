@@ -3,6 +3,8 @@ import {
   type CaseLocale,
 } from "@/content/concept-case-studies";
 import { caseStudyHref } from "@/content/homepage-catalog";
+import { breadcrumbSchema } from "@/content/breadcrumbs";
+import { jsonLdText } from "@/content/structured-data";
 import {
   renderConceptCaseIndex,
   renderConceptCaseStudy,
@@ -26,5 +28,10 @@ export async function caseStudyResponse(parts: string[], locale: CaseLocale) {
   const html = item
     ? await renderConceptCaseStudy(item, locale, links)
     : await renderConceptCaseIndex(locale, links);
-  return new Response(html, { headers });
+  const schema = {'@context':'https://schema.org', ...breadcrumbSchema(
+    caseStudyHref(locale,item?.slug),
+    item?.[locale].name ?? (locale==='ar'?'دراسات الحالة':'Case Studies'),
+  )};
+  return new Response(html.replace('</head>',
+    `<script type="application/ld+json">${jsonLdText(schema)}</script></head>`), { headers });
 }

@@ -15,8 +15,9 @@ const links = {
   detail: (slug: string, locale: CaseLocale) => `${slug}-${locale}.html`,
 };
 await fs.mkdir(root, { recursive: true });
-function local(html: string) {
+function local(html: string, counterpart: string, locale: CaseLocale) {
   return html
+    .replace('<span class="cy-language-slot"></span>', `<span class="cy-language-slot"><a href="${counterpart}" lang="${locale==='ar'?'en':'ar'}">${locale==='ar'?'English':'العربية'}</a></span>`)
     .replace(/(src|href)="\/(?!\/)([^"]*)"/g, `$1="${origin}/$2"`)
     .replace(/url\(["']?\/(?!\/)([^)'"\s]+)["']?\)/g, `url(${origin}/$1)`)
     .replace(/[\t ]+$/gm, "");
@@ -24,12 +25,12 @@ function local(html: string) {
 for (const locale of ["en", "ar"] as const) {
   await fs.writeFile(
     path.join(root, `index-${locale}.html`),
-    local(await renderConceptCaseIndex(locale, links)),
+    local(await renderConceptCaseIndex(locale, links),links.index(locale==='ar'?'en':'ar'),locale),
   );
   for (const item of conceptCaseStudies)
     await fs.writeFile(
       path.join(root, `${item.slug}-${locale}.html`),
-      local(await renderConceptCaseStudy(item, locale, links)),
+      local(await renderConceptCaseStudy(item, locale, links),links.detail(item.slug,locale==='ar'?'en':'ar'),locale),
     );
 }
 console.log({ pages: 12, indexes: 2, root });

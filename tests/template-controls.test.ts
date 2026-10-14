@@ -59,6 +59,18 @@ test("reviewed Support photo keeps saved CMS source identities and custom image 
   assert.doesNotMatch(customized,/hero-light/);
   assert.equal(applyReviewedHeroPhotography(source,'unrelated/hero.js'),source);
 });
+test("WordPress logo rendering preserves the saved pre-logo CMS controls", async () => {
+  const relative='hosting-visual-review/wordpress-hosting-hero-concept-site.js';
+  const manifest=await templateControlManifest(await templateContent('wordpress-hosting'),approvedTemplates['wordpress-hosting']);
+  assert.ok(!manifest.assets.some(a=>a.source.includes('wordpress-mark')));
+  assert.equal(manifest.artworkText.filter(a=>a.value==='W').length,2);
+  assert.doesNotThrow(()=>bindControls(manifest,structuredClone(manifest)));
+  const source='<div class="wp-editor-top"><strong>W</strong></div><aside><b>W</b></aside>';
+  const rendered=applyReviewedHeroPhotography(source,relative);
+  assert.equal((rendered.match(/wordpress-mark.webp/g)||[]).length,2);
+  assert.equal(applyReviewedHeroPhotography(rendered,relative),rendered);
+});
+
 test("visibility and destinations change independently without changing page composition", async () => {
   const html =
     '<main><section><h1>First</h1><a href="/contact/">Talk</a></section><section><h2>Second</h2></section></main>';

@@ -325,6 +325,12 @@ export function applyArtworkControls(
 /** Keep saved CMS source identities stable when a reviewed default photo is replaced.
  * Run after CMS image overrides so an owner-selected upload remains authoritative. */
 export function applyReviewedHeroPhotography(source: string, relative: string) {
+  if (relative === "hosting-visual-review/wordpress-hosting-hero-concept-site.js") {
+    // Keep the saved pre-logo control manifest stable; render the approved marks afterwards.
+    const mark = '<img src="/site/brand/wordpress-mark.webp" alt="WordPress" width="21" height="21" style="display:block;object-fit:contain;transform:scale(2)">';
+    return source.replace('<strong>W</strong>', '<strong>'+mark+'</strong>')
+      .replace('<aside><b>W</b>', '<aside><b>'+mark+'</b>');
+  }
   if (relative !== "technical-support-review/technical-support-hero-concept-site.js")
     return source;
   return source.replaceAll(

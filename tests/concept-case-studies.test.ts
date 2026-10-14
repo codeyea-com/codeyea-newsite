@@ -77,9 +77,8 @@ test("each locale renders ordered stages, concept disclosures, localised navigat
         previous = position;
       }
       for (const image of item.images) assert.ok(html.includes(image.src));
-      assert.ok(
-        html.includes(`/${item.slug}?locale=${locale === "en" ? "ar" : "en"}`),
-      );
+      assert.ok(html.includes('class="cy-language-slot"'));
+      assert.doesNotMatch(html.match(/<main\b[\s\S]*?<\/main>/)![0], /<a\b[^>]*>\s*(English|العربية)\s*<\/a>/);
       if (locale === "ar") {
         assert.ok(html.includes('dir="rtl"'));
         assert.ok(html.includes("أطلب التسعيرة المجانية الآن"));

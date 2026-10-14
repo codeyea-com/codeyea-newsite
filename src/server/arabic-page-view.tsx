@@ -12,6 +12,8 @@ import { pagePath, documentSlugs } from "@/content/site-routes";
 import { englishPageIds } from "@/content/industry-registry";
 import { publicRobots, siteOrigin } from "@/content/seo";
 import { pageMetadata } from "@/content/structured-data";
+import { breadcrumbSchema } from "@/content/breadcrumbs";
+import { JsonLd } from "@/components/json-ld";
 import "@/styles/homepage.css";
 import "@/styles/homepage-interactions.css";
 import "@/styles/homepage-motion.css";
@@ -105,6 +107,10 @@ export async function ArabicPageView({
   ];
   return (
     <ArabicSurface>
+      {!preview && id !== "homepage" && <JsonLd data={{
+        '@context':'https://schema.org',
+        ...breadcrumbSchema(pagePath('ar-'+id)!, id),
+      }} />}
       {preview && (
         <div className="about-preview-banner">
           مسودة عربية خاصة · الإصدار {version} · غير منشورة

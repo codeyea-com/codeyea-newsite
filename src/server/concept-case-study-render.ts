@@ -165,10 +165,9 @@ export async function renderConceptCaseStudy(
   links = privateCaseLinks,
 ) {
   const c = item[locale],
-    t = words[locale],
-    other = locale === "ar" ? "en" : "ar";
+    t = words[locale];
   const top = `<section class="cy-custom-cms" id="requirements"><div class="b-wrap">
-    <nav class="case-navigation" aria-label="${t.all}"><a href="${escape(links.index(locale))}">← ${t.all}</a><a lang="${other}" href="${escape(links.detail(item.slug, other))}">${other === "ar" ? "العربية" : "English"}</a></nav>
+    <nav class="case-navigation" aria-label="${t.all}"><a href="${escape(links.index(locale))}">← ${t.all}</a></nav>
     <header class="ccms-heading"><div><span class="b-eyebrow">${t.label} / ${escape(c.name)}</span><h1>${escape(c.title)}</h1></div><div><p>${escape(c.intro)}</p><p class="case-disclosure">${conceptDisclosure[locale]}</p></div></header>
     <div class="ccms-overview">${figure(item, 0, locale)}<div class="ccms-benefits"><h2 class="case-subtitle">${t.requirements}</h2><ul>${c.requirements.map((x) => `<li><span class="ccms-tick" aria-hidden="true">↗</span><div><p>${escape(x)}</p></div></li>`).join("")}</ul></div></div>
     <div class="ccms-closing"><div><h3>${t.scope}</h3><p>${escape(c.services)}</p></div><div><h3>${t.timeline}</h3><p>${escape(c.timeline)}</p></div></div>
@@ -196,8 +195,7 @@ export async function renderConceptCaseIndex(
   locale: CaseLocale,
   links = privateCaseLinks,
 ) {
-  const t = words[locale],
-    other = locale === "ar" ? "en" : "ar";
-  const main = `<section class="b-wrap b-section b-work"><nav class="case-navigation"><span>${t.all}</span><a href="${escape(links.index(other))}">${other === "ar" ? "العربية" : "English"}</a></nav><header><h1>${t.index}</h1><p>${t.indexIntro} ${conceptDisclosure[locale]}</p></header><div class="case-index-grid">${conceptCaseStudies.map((item) => `<article><a class="case-index-link" href="${escape(links.detail(item.slug, locale))}"><figure><img src="${item.images[0].src}" width="1440" height="1080" alt="${escape(item[locale].name)}" loading="lazy"></figure><span class="b-eyebrow">${t.label}</span><h2>${escape(item[locale].name)} ↗</h2><p>${escape(item[locale].title)}</p></a></article>`).join("")}</div></section>`;
+  const t = words[locale];
+  const main = `<section class="b-wrap b-section b-work"><nav class="case-navigation"><span>${t.all}</span></nav><header><h1>${t.index}</h1><p>${t.indexIntro} ${conceptDisclosure[locale]}</p></header><div class="case-index-grid">${conceptCaseStudies.map((item) => `<article><a class="case-index-link" href="${escape(links.detail(item.slug, locale))}"><figure><img src="${item.images[0].src}" width="1440" height="1080" alt="${escape(item[locale].name)}" loading="lazy"></figure><span class="b-eyebrow">${t.label}</span><h2>${escape(item[locale].name)} ↗</h2><p>${escape(item[locale].title)}</p></a></article>`).join("")}</div></section>`;
   return caseStudyShell(main + cta(locale), locale, t.all);
 }

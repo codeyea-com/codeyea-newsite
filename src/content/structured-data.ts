@@ -3,6 +3,7 @@ import {canonical} from './seo';
 import {documentPath} from './site-routes';
 import type {SeoText} from '@/schemas/seo-text';
 import {assetUrl} from './homepage-assets';
+import {breadcrumbSchema} from './breadcrumbs';
 
 const siteName='CODEYEA';
 const organization={
@@ -26,15 +27,12 @@ export function pageMetadata(path:string,title:string,description:string,seo?:Pa
 
 export function publicPageSchema(path:string,name:string,description:string,type='WebPage'){
  const url=canonical(path);
- const parts=path.split('/').filter(Boolean);
- const crumbs=[{name:'Home',url:canonical('/')}];
- let prefix='';
- for(const part of parts){prefix+='/'+part;crumbs.push({name:part.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' '),url:canonical(prefix+'/')});}
+ const breadcrumb=breadcrumbSchema(path,name);
  return {
   '@context':'https://schema.org',
   '@graph':[
    {'@type':type,'@id':url+'#webpage',url,name,description,isPartOf:{'@id':canonical('/#website')},about:{'@id':canonical('/#organization')}},
-   {'@type':'BreadcrumbList','@id':url+'#breadcrumb',itemListElement:crumbs.map((item,position)=>({'@type':'ListItem',position:position+1,name:item.name,item:item.url}))},
+   ...(breadcrumb?[breadcrumb]:[]),
   ],
  };
 }
@@ -80,10 +78,7 @@ export function documentStructuredSchema(slug:string,name:string,description:str
  const product=commercialProductSchema(slug,name,description,url);
  const graph:Record<string,unknown>[]=[
   {'@type':'WebPage','@id':url+'#webpage',url,name,description},
-  {'@type':'BreadcrumbList','@id':url+'#breadcrumb',itemListElement:[
-   {'@type':'ListItem',position:1,name:'Home',item:canonical(locale==='ar'?'/ar/':'/')},
-   {'@type':'ListItem',position:2,name,item:url},
-  ]},
+  breadcrumbSchema(path,name)!,
  ];
  if(product){
   const {['@context']:_,...productNode}=product;

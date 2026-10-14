@@ -21,7 +21,8 @@ test('page metadata consistently emits canonical Open Graph and Twitter tags',()
  assert.deepEqual(metadata.twitter,{card:'summary',title:'Digital Services | CODEYEA',description:'Digital services for growing businesses.'});
  const schema=publicPageSchema('/about/','About CODEYEA','Our story.','AboutPage');
  const breadcrumb=schema['@graph'].find((item)=>item['@type']==='BreadcrumbList');
- assert.deepEqual(breadcrumb?.itemListElement?.map((x:{name:string})=>x.name),['Home','About']);
+ assert.ok(breadcrumb && 'itemListElement' in breadcrumb);
+ assert.deepEqual(breadcrumb.itemListElement.map((x:{name:string})=>x.name),['Home','About Us']);
  assert.equal((homeSchema('Homepage title','Homepage description')['@graph'][1] as {name:string}).name,'CODEYEA');
 });
 
