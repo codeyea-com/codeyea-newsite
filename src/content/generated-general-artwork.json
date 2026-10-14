@@ -109,19 +109,19 @@
     "mobileSrc": "/site/generated/general/services/cta-v1-mobile.webp"
   },
   "industries/industry-roofing": {
-    "src": "/site/generated/general/industries/industry-roofing-v1-desktop.webp",
+    "src": "/site/generated/general/industries/industry-roofing-v2-desktop.webp",
     "expectedMediaId": "media_95a07dbf-b330-4f1b-b652-4dda6bbebd19",
     "alt": {
-      "en": "Close square real contractor desk at a roofing job: a robust tablet on stand shows 'Peakline / Estimate request' with roof area, service type and request button",
-      "ar": "طلب تقدير أعمال أسقف عبر نظام منظم"
+      "en": "Roofing specialist installing metal roof panels",
+      "ar": "متخصص يركّب ألواح سقف معدني بأدوات ومعدات السلامة"
     }
   },
   "industries/industry-healthcare": {
-    "src": "/site/generated/general/industries/industry-healthcare-v1-desktop.webp",
+    "src": "/site/generated/general/industries/industry-healthcare-v2-desktop.webp",
     "expectedMediaId": "media_1a3b8914-ca6c-4cc1-8d17-0083a18f601e",
     "alt": {
-      "en": "Square-landscape reception desktop showing 'Carepath / Appointments / DEMO' with available times and clear confirmed appointment",
-      "ar": "تنظيم المواعيد داخل استقبال عيادة"
+      "en": "Doctor consulting with a patient in a clinic",
+      "ar": "طبيب يستمع إلى مريض خلال استشارة داخل العيادة"
     }
   },
   "industries/industry-construction": {
@@ -133,19 +133,19 @@
     }
   },
   "industries/industry-e-commerce": {
-    "src": "/site/generated/general/industries/industry-e-commerce-v1-desktop.webp",
+    "src": "/site/generated/general/industries/industry-e-commerce-v2-desktop.webp",
     "expectedMediaId": "media_7b0dc26c-3d67-4401-9eae-d5c311d41ed6",
     "alt": {
-      "en": "Desktop laptop close-up in small product business, showing 'Orin Store / Order overview / DEMO / Paid / Preparing shipment'",
-      "ar": "متجر إلكتروني مرتبط بالطلبات والتجهيز"
+      "en": "Products being packed for delivery at an online retailer",
+      "ar": "تجهيز وتغليف منتجات متجر إلكتروني لإرسالها إلى العملاء"
     }
   },
   "industries/industry-small-business": {
-    "src": "/site/generated/general/industries/industry-small-business-v1-desktop.webp",
+    "src": "/site/generated/general/industries/industry-small-business-v2-desktop.webp",
     "expectedMediaId": "media_7744f88d-d486-443f-80bf-713dd21e0234",
     "alt": {
-      "en": "Small independent repair-workshop owner smiling at an open completed order book and returned repaired item on counter, a laptop at side with 'Workbench / Enquiries' UI secondary",
-      "ar": "صاحب نشاط صغير ينظم طلبات العملاء اليومية"
+      "en": "Independent bicycle workshop owner repairing a customer's bicycle",
+      "ar": "صاحب ورشة صغيرة يعمل على إصلاح دراجة أحد العملاء"
     }
   },
   "industries/industry-event-coordinators": {
@@ -157,35 +157,35 @@
     }
   },
   "industries/industry-legal": {
-    "src": "/site/generated/general/industries/industry-legal-v1-desktop.webp",
+    "src": "/site/generated/general/industries/industry-legal-v2-desktop.webp",
     "expectedMediaId": "media_a3ca30d9-9485-46b5-afbc-08c39b349a3b",
     "alt": {
-      "en": "Law-office consultation desk with laptop prominently showing 'Lexford / Practice areas / Request a consultation', short readable service headings and intake form",
-      "ar": "موقع خدمات قانونية ومسار طلب استشارة"
+      "en": "Scales of justice, legal documents and reference books",
+      "ar": "ميزان العدالة ووثائق وكتب قانونية داخل مكتب محاماة"
     }
   },
   "industries/industry-online-magazine": {
-    "src": "/site/generated/general/industries/industry-online-magazine-v1-desktop.webp",
+    "src": "/site/generated/general/industries/industry-online-magazine-v2-desktop.webp",
     "expectedMediaId": "media_4af77143-5c73-486f-b6bf-ea5f0d566d5b",
     "alt": {
-      "en": "Large tablet propped on magazine editorial desk showing fictional 'Current Journal' publication page with clear article headline, editorial photo, category navigation",
-      "ar": "مجلة رقمية بمحتوى منظم وتجربة قراءة واضحة"
+      "en": "Editor arranging magazine proofs and editorial photographs",
+      "ar": "محرر يرتّب مسودات صفحات المجلة والصور التحريرية"
     }
   },
   "industries/industry-oil-and-gas": {
-    "src": "/site/generated/general/industries/industry-oil-and-gas-v1-desktop.webp",
+    "src": "/site/generated/general/industries/industry-oil-and-gas-v2-desktop.webp",
     "expectedMediaId": "media_bb053fcc-3bea-4f4b-adc6-accb18bcb6bb",
     "alt": {
-      "en": "Industrial operations control desk, large desktop monitor showing 'Vertex Energy / Document portal / DEMO' with clear maintenance document approvals and equipment categories",
-      "ar": "بوابة مستندات وتقارير لعمليات الطاقة"
+      "en": "Oil and gas processing facility with pipelines and industrial towers",
+      "ar": "منشأة نفط وغاز تضم أنابيب وأبراج معالجة صناعية"
     }
   },
   "industries/industry-real-estate": {
-    "src": "/site/generated/general/industries/industry-real-estate-v1-desktop.webp",
+    "src": "/site/generated/general/industries/industry-real-estate-v2-desktop.webp",
     "expectedMediaId": "real-estate",
     "alt": {
-      "en": "Property development presentation table, large tablet on angled stand showing 'Linea Developments / Project overview' masterplan with highlighted building and unit availability",
-      "ar": "استكشاف مشروع مطور عقاري ومخطط الوحدات"
+      "en": "Completed residential property development and landscaped grounds",
+      "ar": "مشروع تطوير عقاري سكني بمبانٍ حديثة ومساحات منسقة"
     }
   },
   "industries/industry-fashion-and-lifestyle": {
@@ -197,19 +197,19 @@
     }
   },
   "industries/industry-beauty-skincare-med-spa": {
-    "src": "/site/generated/general/industries/industry-beauty-skincare-med-spa-v1-desktop.webp",
+    "src": "/site/generated/general/industries/industry-beauty-skincare-med-spa-v2-desktop.webp",
     "expectedMediaId": "industry-beauty-skincare-med-spa-image",
     "alt": {
-      "en": "Skincare studio consultation table, elegant service booklet 'Elara Skin', appointment cards, clean branded product packaging and a skin professional discussing booklet with customer partly in frame",
-      "ar": "عرض خدمات عناية بالبشرة ومواد هوية العيادة"
+      "en": "Skincare professional treating a client in a clean clinic",
+      "ar": "مختصة عناية بالبشرة تقدّم جلسة علاج لعميلة داخل العيادة"
     }
   },
   "industries/industry-restaurants-cafes-bakeries": {
-    "src": "/site/generated/general/industries/industry-restaurants-cafes-bakeries-v1-desktop.webp",
+    "src": "/site/generated/general/industries/industry-restaurants-cafes-bakeries-v2-desktop.webp",
     "expectedMediaId": "industry-restaurants-cafes-bakeries-image",
     "alt": {
-      "en": "Cafe counter with upright tablet on ordering stand showing 'Juniper Cafe / Menu / Order summary', attractive real pastry and coffee beside it; barista hands set down cup at side, screen unobscured",
-      "ar": "قائمة مقهى رقمية ومسار طلب واضح"
+      "en": "Fresh bread and pastries being prepared at a cafe bakery",
+      "ar": "خبز ومعجنات طازجة تُجهّز للتقديم داخل مقهى ومخبز"
     }
   },
   "industries/industry-solar-energy": {

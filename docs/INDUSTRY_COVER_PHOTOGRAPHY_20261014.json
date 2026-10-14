@@ -1,0 +1,142 @@
+[
+  {
+    "slug": "healthcare",
+    "scene": "A doctor listening to a patient during an in-person checkup in a real bright clinic, stethoscope and medical equipment visible. Natural candid respectful interaction, medium environmental shot, no screen or tablet.",
+    "alt": {
+      "en": "Doctor consulting with a patient in a clinic",
+      "ar": "طبيب يستمع إلى مريض خلال استشارة داخل العيادة"
+    },
+    "prompt": "Use case: photorealistic-natural. Asset: industry cover photograph for a website card. Create one original realistic editorial photograph, portrait 3:4 aspect ratio. A doctor listening to a patient during an in-person checkup in a real bright clinic, stethoscope and medical equipment visible. Natural candid respectful interaction, medium environmental shot, no screen or tablet. Main subject should sit within the central 70 percent of width and remain legible in a compact portrait card as well as a near-square crop. Natural balanced colors, neutral whites, authentic materials, correct anatomy. No website, app, dashboard, computer, tablet, mobile phone, UI, hologram, floating icon, popup, logo, watermark, text overlay, border, corner rounding or baked outer shadow. The image must communicate the physical industry itself. Do not add geography labels or company names.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-2fd5ae9d-66db-43a9-80a0-f0568d5db50b.png",
+    "output": "public/site/generated/general/industries/industry-healthcare-v2-desktop.webp",
+    "archive": "C:\\Users\\grdez\\Documents\\codex-projects\\codeyea\\Generated images\\healthcare\\industry-cover-v2.png",
+    "bytes": 116214,
+    "previous": "/site/generated/general/industries/industry-healthcare-v1-desktop.webp"
+  },
+  {
+    "slug": "roofing",
+    "scene": "Close environmental photograph of a qualified roofer installing a standing-seam metal roof, gloves and secured safety harness, roofing tools and neat completed panels. Roof work is the subject, building context visible, safe credible work.",
+    "alt": {
+      "en": "Roofing specialist installing metal roof panels",
+      "ar": "متخصص يركّب ألواح سقف معدني بأدوات ومعدات السلامة"
+    },
+    "prompt": "Use case: photorealistic-natural. Asset: industry cover photograph for a website card. Create one original realistic editorial photograph, portrait 3:4 aspect ratio. Close environmental photograph of a qualified roofer installing a standing-seam metal roof, gloves and secured safety harness, roofing tools and neat completed panels. Roof work is the subject, building context visible, safe credible work. Main subject should sit within the central 70 percent of width and remain legible in a compact portrait card as well as a near-square crop. Natural balanced colors, neutral whites, authentic materials, correct anatomy. No website, app, dashboard, computer, tablet, mobile phone, UI, hologram, floating icon, popup, logo, watermark, text overlay, border, corner rounding or baked outer shadow. The image must communicate the physical industry itself. Do not add geography labels or company names.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-f37c5aef-eb9d-4898-aad2-1db9db5ece93.png",
+    "output": "public/site/generated/general/industries/industry-roofing-v2-desktop.webp",
+    "archive": "C:\\Users\\grdez\\Documents\\codex-projects\\codeyea\\Generated images\\roofing\\industry-cover-v2.png",
+    "bytes": 151778,
+    "previous": "/site/generated/general/industries/industry-roofing-v1-desktop.webp"
+  },
+  {
+    "slug": "e-commerce",
+    "scene": "A small e-commerce fulfillment workbench with an employee's natural hands carefully packing a ceramic product into a kraft shipping carton with tissue paper. Completed parcels and stocked product shelves behind. Clearly depicts online retail fulfilment, no computer or phone.",
+    "alt": {
+      "en": "Products being packed for delivery at an online retailer",
+      "ar": "تجهيز وتغليف منتجات متجر إلكتروني لإرسالها إلى العملاء"
+    },
+    "prompt": "Use case: photorealistic-natural. Asset: industry cover photograph for a website card. Create one original realistic editorial photograph, portrait 3:4 aspect ratio. A small e-commerce fulfillment workbench with an employee's natural hands carefully packing a ceramic product into a kraft shipping carton with tissue paper. Completed parcels and stocked product shelves behind. Clearly depicts online retail fulfilment, no computer or phone. Main subject should sit within the central 70 percent of width and remain legible in a compact portrait card as well as a near-square crop. Natural balanced colors, neutral whites, authentic materials, correct anatomy. No website, app, dashboard, computer, tablet, mobile phone, UI, hologram, floating icon, popup, logo, watermark, text overlay, border, corner rounding or baked outer shadow. The image must communicate the physical industry itself. Do not add geography labels or company names.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-3ebff15f-af8a-4618-9fd2-51cf2b9f68b9.png",
+    "output": "public/site/generated/general/industries/industry-e-commerce-v2-desktop.webp",
+    "archive": "C:\\Users\\grdez\\Documents\\codex-projects\\codeyea\\Generated images\\e-commerce\\industry-cover-v2.png",
+    "bytes": 137222,
+    "previous": "/site/generated/general/industries/industry-e-commerce-v1-desktop.webp"
+  },
+  {
+    "slug": "small-business",
+    "scene": "An independent bicycle repair workshop owner adjusting a bicycle at the work stand, real tools and spare parts neatly arranged behind. Medium environmental composition, working hands unobscured, physical small-business operation is primary.",
+    "alt": {
+      "en": "Independent bicycle workshop owner repairing a customer's bicycle",
+      "ar": "صاحب ورشة صغيرة يعمل على إصلاح دراجة أحد العملاء"
+    },
+    "prompt": "Use case: photorealistic-natural. Asset: industry cover photograph for a website card. Create one original realistic editorial photograph, portrait 3:4 aspect ratio. An independent bicycle repair workshop owner adjusting a bicycle at the work stand, real tools and spare parts neatly arranged behind. Medium environmental composition, working hands unobscured, physical small-business operation is primary. Main subject should sit within the central 70 percent of width and remain legible in a compact portrait card as well as a near-square crop. Natural balanced colors, neutral whites, authentic materials, correct anatomy. No website, app, dashboard, computer, tablet, mobile phone, UI, hologram, floating icon, popup, logo, watermark, text overlay, border, corner rounding or baked outer shadow. The image must communicate the physical industry itself. Do not add geography labels or company names.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-d1c3eb92-3020-47f2-bbf1-99c19215de4e.png",
+    "output": "public/site/generated/general/industries/industry-small-business-v2-desktop.webp",
+    "archive": "C:\\Users\\grdez\\Documents\\codex-projects\\codeyea\\Generated images\\small-business\\industry-cover-v2.png",
+    "bytes": 185516,
+    "previous": "/site/generated/general/industries/industry-small-business-v1-desktop.webp"
+  },
+  {
+    "slug": "legal",
+    "scene": "Close editorial legal-office still life of a real bronze scales of justice on a walnut desk, a neat signed paper contract and pen, legal reference books softly visible behind. No person, no screens, no readable invented clauses.",
+    "alt": {
+      "en": "Scales of justice, legal documents and reference books",
+      "ar": "ميزان العدالة ووثائق وكتب قانونية داخل مكتب محاماة"
+    },
+    "prompt": "Use case: photorealistic-natural. Asset: industry cover photograph for a website card. Create one original realistic editorial photograph, portrait 3:4 aspect ratio. Close editorial legal-office still life of a real bronze scales of justice on a walnut desk, a neat signed paper contract and pen, legal reference books softly visible behind. No person, no screens, no readable invented clauses. Main subject should sit within the central 70 percent of width and remain legible in a compact portrait card as well as a near-square crop. Natural balanced colors, neutral whites, authentic materials, correct anatomy. No website, app, dashboard, computer, tablet, mobile phone, UI, hologram, floating icon, popup, logo, watermark, text overlay, border, corner rounding or baked outer shadow. The image must communicate the physical industry itself. Do not add geography labels or company names.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-d49adb25-a26c-4c36-9332-2289ae465376.png",
+    "output": "public/site/generated/general/industries/industry-legal-v2-desktop.webp",
+    "archive": "C:\\Users\\grdez\\Documents\\codex-projects\\codeyea\\Generated images\\legal\\industry-cover-v2.png",
+    "bytes": 111796,
+    "previous": "/site/generated/general/industries/industry-legal-v1-desktop.webp"
+  },
+  {
+    "slug": "online-magazine",
+    "scene": "Editorial publication worktable with open magazine proofs, printed photographs, a camera and a reporter's notebook, editor's hands arranging the page proofs. Real publishing industry working scene, no screens, no phones, no decorative oversized typography.",
+    "alt": {
+      "en": "Editor arranging magazine proofs and editorial photographs",
+      "ar": "محرر يرتّب مسودات صفحات المجلة والصور التحريرية"
+    },
+    "prompt": "Use case: photorealistic-natural. Asset: industry cover photograph for a website card. Create one original realistic editorial photograph, portrait 3:4 aspect ratio. Editorial publication worktable with open magazine proofs, printed photographs, a camera and a reporter's notebook, editor's hands arranging the page proofs. Real publishing industry working scene, no screens, no phones, no decorative oversized typography. Main subject should sit within the central 70 percent of width and remain legible in a compact portrait card as well as a near-square crop. Natural balanced colors, neutral whites, authentic materials, correct anatomy. No website, app, dashboard, computer, tablet, mobile phone, UI, hologram, floating icon, popup, logo, watermark, text overlay, border, corner rounding or baked outer shadow. The image must communicate the physical industry itself. Do not add geography labels or company names.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-2181548f-0268-46f5-b552-e0f15d07eaac.png",
+    "output": "public/site/generated/general/industries/industry-online-magazine-v2-desktop.webp",
+    "archive": "C:\\Users\\grdez\\Documents\\codex-projects\\codeyea\\Generated images\\online-magazine\\industry-cover-v2.png",
+    "bytes": 161506,
+    "previous": "/site/generated/general/industries/industry-online-magazine-v1-desktop.webp"
+  },
+  {
+    "slug": "oil-and-gas",
+    "scene": "Photorealistic industrial energy facility with pipes, processing towers and storage tanks in clear neutral daylight. Real oil and gas infrastructure, detailed engineered steel structures, no workers needed, no screens, no illustration.",
+    "alt": {
+      "en": "Oil and gas processing facility with pipelines and industrial towers",
+      "ar": "منشأة نفط وغاز تضم أنابيب وأبراج معالجة صناعية"
+    },
+    "prompt": "Use case: photorealistic-natural. Asset: industry cover photograph for a website card. Create one original realistic editorial photograph, portrait 3:4 aspect ratio. Photorealistic industrial energy facility with pipes, processing towers and storage tanks in clear neutral daylight. Real oil and gas infrastructure, detailed engineered steel structures, no workers needed, no screens, no illustration. Main subject should sit within the central 70 percent of width and remain legible in a compact portrait card as well as a near-square crop. Natural balanced colors, neutral whites, authentic materials, correct anatomy. No website, app, dashboard, computer, tablet, mobile phone, UI, hologram, floating icon, popup, logo, watermark, text overlay, border, corner rounding or baked outer shadow. The image must communicate the physical industry itself. Do not add geography labels or company names.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-6cec1b3a-2559-486e-a78b-189a5cffe69c.png",
+    "output": "public/site/generated/general/industries/industry-oil-and-gas-v2-desktop.webp",
+    "archive": "C:\\Users\\grdez\\Documents\\codex-projects\\codeyea\\Generated images\\oil-and-gas\\industry-cover-v2.png",
+    "bytes": 263450,
+    "previous": "/site/generated/general/industries/industry-oil-and-gas-v1-desktop.webp"
+  },
+  {
+    "slug": "real-estate",
+    "scene": "Photorealistic completed modern property development: several elegant residential mid-rise buildings with real glass, stone, balconies and landscaped paths. Architecture and built development are dominant. Eye-level three-quarter view, natural daylight, no house keys, models or devices.",
+    "alt": {
+      "en": "Completed residential property development and landscaped grounds",
+      "ar": "مشروع تطوير عقاري سكني بمبانٍ حديثة ومساحات منسقة"
+    },
+    "prompt": "Use case: photorealistic-natural. Asset: industry cover photograph for a website card. Create one original realistic editorial photograph, portrait 3:4 aspect ratio. Photorealistic completed modern property development: several elegant residential mid-rise buildings with real glass, stone, balconies and landscaped paths. Architecture and built development are dominant. Eye-level three-quarter view, natural daylight, no house keys, models or devices. Main subject should sit within the central 70 percent of width and remain legible in a compact portrait card as well as a near-square crop. Natural balanced colors, neutral whites, authentic materials, correct anatomy. No website, app, dashboard, computer, tablet, mobile phone, UI, hologram, floating icon, popup, logo, watermark, text overlay, border, corner rounding or baked outer shadow. The image must communicate the physical industry itself. Do not add geography labels or company names.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-759c8b26-b155-41b2-8505-39acfcfc1e7c.png",
+    "output": "public/site/generated/general/industries/industry-real-estate-v2-desktop.webp",
+    "archive": "C:\\Users\\grdez\\Documents\\codex-projects\\codeyea\\Generated images\\real-estate\\industry-cover-v2.png",
+    "bytes": 379048,
+    "previous": "/site/generated/general/industries/industry-real-estate-v1-desktop.webp"
+  },
+  {
+    "slug": "beauty-skincare-med-spa",
+    "scene": "A professional skincare clinic treatment, a trained aesthetician wearing clean gloves gently applying a skincare treatment to a relaxed adult client reclining on a treatment bed. Clean real clinical setting, skincare tools and bottles subtly visible. No needles, no devices with screens, no graphic procedure.",
+    "alt": {
+      "en": "Skincare professional treating a client in a clean clinic",
+      "ar": "مختصة عناية بالبشرة تقدّم جلسة علاج لعميلة داخل العيادة"
+    },
+    "prompt": "Use case: photorealistic-natural. Asset: industry cover photograph for a website card. Create one original realistic editorial photograph, portrait 3:4 aspect ratio. A professional skincare clinic treatment, a trained aesthetician wearing clean gloves gently applying a skincare treatment to a relaxed adult client reclining on a treatment bed. Clean real clinical setting, skincare tools and bottles subtly visible. No needles, no devices with screens, no graphic procedure. Main subject should sit within the central 70 percent of width and remain legible in a compact portrait card as well as a near-square crop. Natural balanced colors, neutral whites, authentic materials, correct anatomy. No website, app, dashboard, computer, tablet, mobile phone, UI, hologram, floating icon, popup, logo, watermark, text overlay, border, corner rounding or baked outer shadow. The image must communicate the physical industry itself. Do not add geography labels or company names.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-f2c703a1-df5e-4541-9c7d-97444abc5ab0.png",
+    "output": "public/site/generated/general/industries/industry-beauty-skincare-med-spa-v2-desktop.webp",
+    "archive": "C:\\Users\\grdez\\Documents\\codex-projects\\codeyea\\Generated images\\beauty-skincare-med-spa\\industry-cover-v2.png",
+    "bytes": 99196,
+    "previous": "/site/generated/general/industries/industry-beauty-skincare-med-spa-v1-desktop.webp"
+  },
+  {
+    "slug": "restaurants-cafes-bakeries",
+    "scene": "Close editorial food-service photograph of a baker's hands placing freshly baked artisan bread and croissants on the counter of a real cafe bakery, espresso equipment and warm interior softly behind. Food and craft are primary, no ordering tablet, phone or screen.",
+    "alt": {
+      "en": "Fresh bread and pastries being prepared at a cafe bakery",
+      "ar": "خبز ومعجنات طازجة تُجهّز للتقديم داخل مقهى ومخبز"
+    },
+    "prompt": "Use case: photorealistic-natural. Asset: industry cover photograph for a website card. Create one original realistic editorial photograph, portrait 3:4 aspect ratio. Close editorial food-service photograph of a baker's hands placing freshly baked artisan bread and croissants on the counter of a real cafe bakery, espresso equipment and warm interior softly behind. Food and craft are primary, no ordering tablet, phone or screen. Main subject should sit within the central 70 percent of width and remain legible in a compact portrait card as well as a near-square crop. Natural balanced colors, neutral whites, authentic materials, correct anatomy. No website, app, dashboard, computer, tablet, mobile phone, UI, hologram, floating icon, popup, logo, watermark, text overlay, border, corner rounding or baked outer shadow. The image must communicate the physical industry itself. Do not add geography labels or company names.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-d97f4627-3cef-48f5-b41b-6689429d0cc5.png",
+    "output": "public/site/generated/general/industries/industry-restaurants-cafes-bakeries-v2-desktop.webp",
+    "archive": "C:\\Users\\grdez\\Documents\\codex-projects\\codeyea\\Generated images\\restaurants-cafes-bakeries\\industry-cover-v2.png",
+    "bytes": 180208,
+    "previous": "/site/generated/general/industries/industry-restaurants-cafes-bakeries-v1-desktop.webp"
+  }
+]

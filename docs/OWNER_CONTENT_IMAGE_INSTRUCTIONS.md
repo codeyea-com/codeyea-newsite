@@ -151,3 +151,7 @@ The owner specifically requires the new section and its CTA buttons to use anima
 ## Mobile quote CTA, owner requested 2026-10-13
 
 Use the exact Arabic label «أطلب التسعيرة المجانية الآن». Add a narrow looping shine across the mobile fixed button to attract attention, alongside its existing gentle float. Keep the existing quote action and sharp corners. The shine is mobile-only and respects reduced-motion preferences.
+
+## Industry cover photography, owner correction 2026-10-14
+
+Industry cover cards must show the industry itself, not a software system, dashboard or website mockup. Use sector activity, facilities, products or relevant physical work. Keep the shared covers synchronized between the Homepage slider and Industries directory in both languages. Preserve the approved card dimensions, composition, copy, links and carousel interactions. This cover-specific direction does not replace the contextual device imagery approved inside service and industry detail pages.
