@@ -11,7 +11,10 @@ export function withGeneratedIndustryMedia(content:IndustryDetailContent):Indust
     if(!media)return media;
     const id=`generated-${content.slug}-${role}-${locale}`;
     const art=generatedArtwork(id);
-    if(!art || art.expectedSource!==assetUrl(media.mediaId))return media;
+    // Arabic snapshots can still hold a temporary photo copied from another sector.
+    // Use this sector's reviewed hero while keeping later custom CMS uploads authoritative.
+    const temporaryHero=role==='hero' && content.hero.temporaryMedia===true;
+    if(!art || (!temporaryHero && art.expectedSource!==assetUrl(media.mediaId)))return media;
     return {...media,mediaId:id,alt:media.decorative?'':art.alt,width:art.width,height:art.height,focalX:50,focalY:50,tabletFocalX:50,tabletFocalY:50,mobileFocalX:50,mobileFocalY:50};
   };
   return {...content,hero:{...content.hero,media:replace(content.hero.media,'hero')!},sections:content.sections.map(s=>({...s,media:replace(s.media,s.type==='imageBreak'?'image-break':s.type),pillarMedia:replace(s.pillarMedia ?? (s.type==='needs'?overviewMedia:undefined),'pillars'),items:s.type==='strip'?s.items.map((i,n)=>({...i,media:replace(i.media,`strip-${n+1}`)})):s.items}))};

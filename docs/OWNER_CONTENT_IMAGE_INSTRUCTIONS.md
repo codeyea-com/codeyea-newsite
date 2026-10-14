@@ -1,5 +1,12 @@
 # CODEYEA content and imagery instructions
 
+## Hero overlap and naturally light imagery, owner correction 2026-10-14
+
+- Arabic internal-page hero artwork starts at the owner's green reference line, overlapping the lower part of the title. Preserve typography, wrapping, section dimensions and interactions.
+- Replace dark hero photographs with new photography using physically light materials, backgrounds and natural daylight. In particular the upper area behind overlapping dark titles must be light.
+- The owner explicitly rejected adding light filters, overlays or washes to existing photographs. Do not use these as a substitute for replacing the images.
+- Preserve native interactive hero elements and their animation. Any necessary palette adjustment must change their own original colors, not add a whitening layer over the scene.
+
 ## Case-study layout approved, 2026-10-14
 - Owner answered: «اعتمد تنسيق صفحة تصميم المواقع». Reuse that page's existing section composition, typography, sharp corners, image/copy split, entrance motion and CTA behavior for the six written concepts.
 - Approved sequence: client requirements, five distinct illustrated stages, simulated results. Each case also has its separate cover concept. Preserve bilingual scenario facts and omit company locations.

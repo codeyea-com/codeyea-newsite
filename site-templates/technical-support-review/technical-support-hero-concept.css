@@ -9,9 +9,8 @@
 .support-scene{--ink:#193346;--coral:#eb715c;--mint:#8acdb7;position:relative;isolation:isolate;width:100%;height:363px;overflow:hidden;color:var(--ink);font-family:Arial,sans-serif;background:linear-gradient(115deg,#f0e8df 0%,#e8efeb 55%,#d7e5e1 100%)}
 .support-scene::before{content:"";position:absolute;left:-120px;top:-150px;width:520px;height:520px;border:80px solid #ffffff55;transform:rotate(21deg);pointer-events:none}
 .support-scene::after{content:"";position:absolute;left:0;bottom:0;width:750px;height:1px;background:#d16c5d55;transform:rotate(-11deg);transform-origin:left;pointer-events:none}
-.support-photo{position:absolute;z-index:1;right:0;top:0;width:330px;height:100%;overflow:hidden;clip-path:polygon(12% 0,100% 0,100% 100%,0 100%);background:#193346}
-.support-photo img{width:100%;height:100%;display:block;object-fit:cover;object-position:45% 55%;filter:saturate(.72) contrast(1.05)}
-.support-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#19334644 0%,transparent 23%,#102f4040 100%)}
+.support-photo{position:absolute;z-index:1;right:0;top:0;width:330px;height:100%;overflow:hidden;clip-path:polygon(12% 0,100% 0,100% 100%,0 100%);background:#f4f7f8}
+.support-photo img{width:100%;height:100%;display:block;object-fit:cover;object-position:50% 0%}
 .support-stripe{position:absolute;z-index:1;left:635px;top:-80px;width:205px;height:520px;background:#e9887340;transform:rotate(20deg)}
 .support-browser{position:absolute;z-index:2;left:205px;top:43px;width:515px;height:284px;padding:6px;background:#193346;border:1px solid #0e2736;box-shadow:0 19px 38px #162f3d4f;transform:rotate(-1deg)}
 .browser-chrome{height:25px;display:flex;align-items:center;gap:10px;padding:0 8px;color:#bcd0d1;font-size:8px;letter-spacing:.7px}.browser-chrome>b{margin-left:auto;color:#f5a498;font-size:7px;letter-spacing:1.1px}.chrome-dots{display:flex;gap:4px}.chrome-dots i{width:6px;height:6px;background:#ee7664}.chrome-dots i:nth-child(2){background:#efcc75}.chrome-dots i:nth-child(3){background:#8acdb7}

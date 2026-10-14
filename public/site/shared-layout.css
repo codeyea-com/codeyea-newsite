@@ -26,6 +26,8 @@
 .hp.public-surface .internal-hero-media > .hero-art-box { width: var(--page-content-width) !important; max-width: none; margin-inline: auto; }
 .hp.public-surface .hero-art-box { height: 100%; position: relative; overflow: hidden; }
 .hp.public-surface .internal-hero-media > img { display: block; width: 100%; }
+/* New photographs compose a naturally light upper area for the overlapping title. */
+.hp.public-surface .internal-hero-media img[src*="/hero-light-"] { object-position: 50% 0% !important; }
 .hp.public-surface :is(.brand-concept, .ecom-concept) { padding-inline: calc((100% - var(--page-content-width)) / 2) !important; }
 .hp.public-surface :is(.brand-stage, .ecom-stage) { max-width: 100%; }
 .hp.public-surface .industry-section, .hp.public-surface .industries-final { width: var(--page-content-width); margin-inline: auto; }
@@ -39,7 +41,7 @@
 .hp.public-surface .support-live-hero .internal-hero-media { background: linear-gradient(115deg,#f0e8df 0%,#e8efeb 55%,#d7e5e1 100%); }
 .hp.public-surface .hosting-live-hero .internal-hero-media { background: linear-gradient(118deg,#e6efee 0%,#d2e6e4 44%,#afc9d0 100%); }
 .hp.public-surface .wp-live-hero .internal-hero-media { background: linear-gradient(118deg,#f3eae4 0%,#eee8e8 51%,#e5e3ef 100%); }
-.hp.public-surface .cloud-live-hero .internal-hero-media { background: linear-gradient(110deg,#213c50 0%,#1b3d51 45%,#375b67 100%); }
+.hp.public-surface .cloud-live-hero .internal-hero-media { background: linear-gradient(110deg,#f1f7fa 0%,#eaf4f6 45%,#e1eef1 100%); }
 .hp.public-surface .mail-live-hero .internal-hero-media { background: linear-gradient(113deg,#eee9e7 0%,#eee9e7 48%,#d7dee0 48%,#dce4e4 100%); }
 .hp.public-surface .internal-hero-media :is(.automation-scene,.support-scene,.hosting-scene,.wp-scene,.cloud-scene,.mail-scene) { background: none; }
 .hp.public-surface .hero-concept-copy { padding-inline-start: 0 !important; }

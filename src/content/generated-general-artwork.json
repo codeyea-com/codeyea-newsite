@@ -229,14 +229,14 @@
     "mobileSrc": "/site/generated/general/contact/hero-v1-mobile.webp"
   },
   "about/hero": {
-    "src": "/site/generated/general/about/hero-v2-desktop.webp",
+    "src": "/site/generated/general/about/hero-light-v1-desktop.webp",
     "expectedMediaId": "media_bcca22c8-dcb3-4913-9f46-4829ee96e155",
     "alt": {
-      "en": "An overhead photograph of an agency project-planning table on a charcoal work surface: printed colour/typography direction, annotated website wireframes, and a clear hand-drawn customer journey, with two collaborators' hands arranging the work",
-      "ar": "مساحة عمل رقمية تربط التصميم والتطوير والتخطيط"
+      "en": "Digital agency project planning on a naturally light worktable",
+      "ar": "تخطيط التصميم والتطوير على طاولة عمل فاتحة بإضاءة طبيعية"
     },
-    "tabletSrc": "/site/generated/general/about/hero-v2-tablet.webp",
-    "mobileSrc": "/site/generated/general/about/hero-v2-mobile.webp"
+    "tabletSrc": "/site/generated/general/about/hero-light-v1-tablet.webp",
+    "mobileSrc": "/site/generated/general/about/hero-light-v1-mobile.webp"
   },
   "services/hero": {
     "src": "/site/generated/general/services/hero-v2-desktop.webp",

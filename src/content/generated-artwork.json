@@ -1,17 +1,17 @@
 {
   "generated-healthcare-hero-en": {
-    "src": "/site/generated/industries/healthcare/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/healthcare/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/healthcare/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-21.webp",
     "alt": "Healthcare: industry activity"
   },
   "generated-healthcare-hero-ar": {
-    "src": "/site/generated/industries/healthcare/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/healthcare/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/healthcare/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/healthcare/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-21.webp",
     "alt": "الخدمات الصحية، مشهد يوضح نشاط القطاع"
   },
@@ -128,18 +128,18 @@
     "alt": "الخدمات الصحية، مشهد يوضح نشاط القطاع"
   },
   "generated-roofing-hero-en": {
-    "src": "/site/generated/industries/roofing/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/roofing/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/roofing/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-42.webp",
     "alt": "Roofing: industry activity"
   },
   "generated-roofing-hero-ar": {
-    "src": "/site/generated/industries/roofing/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/roofing/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/roofing/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/roofing/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-42.webp",
     "alt": "خدمات الأسقف، مشهد يوضح نشاط القطاع"
   },
@@ -256,18 +256,18 @@
     "alt": "خدمات الأسقف، مشهد يوضح نشاط القطاع"
   },
   "generated-construction-hero-en": {
-    "src": "/site/generated/industries/construction/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/construction/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/construction/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-23.webp",
     "alt": "Construction: industry activity"
   },
   "generated-construction-hero-ar": {
-    "src": "/site/generated/industries/construction/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/construction/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/construction/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/construction/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-23.webp",
     "alt": "خدمات الإنشاءات، مشهد يوضح نشاط القطاع"
   },
@@ -384,18 +384,18 @@
     "alt": "خدمات الإنشاءات، مشهد يوضح نشاط القطاع"
   },
   "generated-e-commerce-hero-en": {
-    "src": "/site/generated/industries/e-commerce/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/e-commerce/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/e-commerce/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/hero-light-v1-mobile.webp",
+    "width": 2170,
+    "height": 725,
     "expectedSource": "/approved-media/image-15.webp",
     "alt": "E-Commerce: industry activity"
   },
   "generated-e-commerce-hero-ar": {
-    "src": "/site/generated/industries/e-commerce/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/e-commerce/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/e-commerce/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/e-commerce/hero-light-v1-mobile.webp",
+    "width": 2170,
+    "height": 725,
     "expectedSource": "/approved-media/image-15.webp",
     "alt": "التجارة الإلكترونية، مشهد يوضح نشاط القطاع"
   },
@@ -512,18 +512,18 @@
     "alt": "التجارة الإلكترونية، مشهد يوضح نشاط القطاع"
   },
   "generated-small-business-hero-en": {
-    "src": "/site/generated/industries/small-business/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/small-business/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/small-business/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-10.webp",
     "alt": "Small Business: industry activity"
   },
   "generated-small-business-hero-ar": {
-    "src": "/site/generated/industries/small-business/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/small-business/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/small-business/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/small-business/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-10.webp",
     "alt": "الأعمال الصغيرة، مشهد يوضح نشاط القطاع"
   },
@@ -640,18 +640,18 @@
     "alt": "الأعمال الصغيرة، مشهد يوضح نشاط القطاع"
   },
   "generated-event-coordinators-hero-en": {
-    "src": "/site/generated/industries/event-coordinators/hero-v3-desktop.webp",
-    "mobileSrc": "/site/generated/industries/event-coordinators/hero-v3-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/event-coordinators/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-34.webp",
     "alt": "Event Coordinators: industry activity"
   },
   "generated-event-coordinators-hero-ar": {
-    "src": "/site/generated/industries/event-coordinators/hero-v3-desktop.webp",
-    "mobileSrc": "/site/generated/industries/event-coordinators/hero-v3-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/event-coordinators/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/event-coordinators/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-34.webp",
     "alt": "المعارض ومؤتمرات الأعمال، مشهد يوضح نشاط القطاع"
   },
@@ -768,18 +768,18 @@
     "alt": "المعارض ومؤتمرات الأعمال، مشهد يوضح نشاط القطاع"
   },
   "generated-legal-hero-en": {
-    "src": "/site/generated/industries/legal/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/legal/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/legal/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-32.webp",
     "alt": "Legal: industry activity"
   },
   "generated-legal-hero-ar": {
-    "src": "/site/generated/industries/legal/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/legal/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/legal/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/legal/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-32.webp",
     "alt": "الخدمات القانونية، مشهد يوضح نشاط القطاع"
   },
@@ -896,18 +896,18 @@
     "alt": "الخدمات القانونية، مشهد يوضح نشاط القطاع"
   },
   "generated-online-magazine-hero-en": {
-    "src": "/site/generated/industries/online-magazine/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/online-magazine/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/online-magazine/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-18.webp",
     "alt": "Online Magazine: industry activity"
   },
   "generated-online-magazine-hero-ar": {
-    "src": "/site/generated/industries/online-magazine/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/online-magazine/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/online-magazine/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-18.webp",
     "alt": "النشر والمجلات، مشهد يوضح نشاط القطاع"
   },
@@ -1024,18 +1024,18 @@
     "alt": "النشر والمجلات، مشهد يوضح نشاط القطاع"
   },
   "generated-oil-and-gas-hero-en": {
-    "src": "/site/generated/industries/oil-and-gas/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/oil-and-gas/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/oil-and-gas/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-07.webp",
     "alt": "Oil and Gas: industry activity"
   },
   "generated-oil-and-gas-hero-ar": {
-    "src": "/site/generated/industries/oil-and-gas/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/oil-and-gas/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/oil-and-gas/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/oil-and-gas/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-07.webp",
     "alt": "النفط والغاز، مشهد يوضح نشاط القطاع"
   },
@@ -1152,18 +1152,18 @@
     "alt": "النفط والغاز، مشهد يوضح نشاط القطاع"
   },
   "generated-real-estate-hero-en": {
-    "src": "/site/generated/industries/real-estate/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/real-estate/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/real-estate/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-41.webp",
     "alt": "Real Estate: industry activity"
   },
   "generated-real-estate-hero-ar": {
-    "src": "/site/generated/industries/real-estate/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/real-estate/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/real-estate/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/real-estate/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-41.webp",
     "alt": "الخدمات العقارية، مشهد يوضح نشاط القطاع"
   },
@@ -1280,18 +1280,18 @@
     "alt": "الخدمات العقارية، مشهد يوضح نشاط القطاع"
   },
   "generated-fashion-and-lifestyle-hero-en": {
-    "src": "/site/generated/industries/fashion-and-lifestyle/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/fashion-and-lifestyle/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-01.webp",
     "alt": "Fashion and Lifestyle: industry activity"
   },
   "generated-fashion-and-lifestyle-hero-ar": {
-    "src": "/site/generated/industries/fashion-and-lifestyle/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/fashion-and-lifestyle/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-01.webp",
     "alt": "أعمال الأزياء، مشهد يوضح نشاط القطاع"
   },
@@ -1408,18 +1408,18 @@
     "alt": "أعمال الأزياء، مشهد يوضح نشاط القطاع"
   },
   "generated-beauty-skincare-med-spa-hero-en": {
-    "src": "/site/generated/industries/beauty-skincare-med-spa/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/beauty-skincare-med-spa/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-17.webp",
     "alt": "Beauty, Skincare & Med Spa: industry activity"
   },
   "generated-beauty-skincare-med-spa-hero-ar": {
-    "src": "/site/generated/industries/beauty-skincare-med-spa/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/beauty-skincare-med-spa/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/beauty-skincare-med-spa/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-17.webp",
     "alt": "العناية والتجميل، مشهد يوضح نشاط القطاع"
   },
@@ -1536,18 +1536,18 @@
     "alt": "العناية والتجميل، مشهد يوضح نشاط القطاع"
   },
   "generated-restaurants-cafes-bakeries-hero-en": {
-    "src": "/site/generated/industries/restaurants-cafes-bakeries/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-25.webp",
     "alt": "Restaurants, Cafés & Bakeries: industry activity"
   },
   "generated-restaurants-cafes-bakeries-hero-ar": {
-    "src": "/site/generated/industries/restaurants-cafes-bakeries/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-25.webp",
     "alt": "المطاعم والمقاهي، مشهد يوضح نشاط القطاع"
   },
@@ -1664,18 +1664,18 @@
     "alt": "المطاعم والمقاهي، مشهد يوضح نشاط القطاع"
   },
   "generated-solar-energy-hero-en": {
-    "src": "/site/generated/industries/solar-energy/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/solar-energy/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/solar-energy/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-04.webp",
     "alt": "Solar Energy: industry activity"
   },
   "generated-solar-energy-hero-ar": {
-    "src": "/site/generated/industries/solar-energy/hero-desktop.webp",
-    "mobileSrc": "/site/generated/industries/solar-energy/hero-mobile.webp",
-    "width": 1265,
-    "height": 363,
+    "src": "/site/generated/industries/solar-energy/hero-light-v1-desktop.webp",
+    "mobileSrc": "/site/generated/industries/solar-energy/hero-light-v1-mobile.webp",
+    "width": 2172,
+    "height": 724,
     "expectedSource": "/approved-media/image-04.webp",
     "alt": "الطاقة الشمسية، مشهد يوضح نشاط القطاع"
   },

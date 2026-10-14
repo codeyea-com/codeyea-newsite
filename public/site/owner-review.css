@@ -710,7 +710,7 @@ html[lang="ar"]
   font-weight: 200;
 }
 html[lang="ar"] .hp.public-surface .internal-hero-copy {
-  padding-bottom: 10px;
+  padding-bottom: 0;
 }
 html[lang="ar"] .hp.public-surface .internal-hero-title {
   block-size: auto;
@@ -718,6 +718,11 @@ html[lang="ar"] .hp.public-surface .internal-hero-title {
   white-space: normal;
   line-height: 1.25;
   font-size: clamp(36px, 4.6vw, 72px);
+  /* Keep wrapping natural and let only the last line overlap the artwork. */
+  margin-bottom: -0.2lh;
+}
+html[lang="ar"] .hp.public-surface .internal-hero-media {
+  margin-top: 0;
 }
 html[lang="ar"] .hp.public-surface .internal-hero-media :is(h1, h2, h3, p, li) {
   letter-spacing: 0 !important;

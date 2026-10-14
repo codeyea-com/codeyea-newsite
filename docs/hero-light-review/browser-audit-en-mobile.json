@@ -1,0 +1,216 @@
+{
+  "english": [
+    {
+      "slug": "healthcare",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/healthcare/hero-light-v1-desktop.webp"
+    },
+    {
+      "slug": "roofing",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/roofing/hero-light-v1-desktop.webp"
+    },
+    {
+      "slug": "construction",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/construction/hero-light-v1-desktop.webp"
+    },
+    {
+      "slug": "e-commerce",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/e-commerce/hero-light-v1-desktop.webp"
+    },
+    {
+      "slug": "small-business",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/small-business/hero-light-v1-desktop.webp"
+    },
+    {
+      "slug": "event-coordinators",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/event-coordinators/hero-light-v1-desktop.webp"
+    },
+    {
+      "slug": "legal",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/legal/hero-light-v1-desktop.webp"
+    },
+    {
+      "slug": "online-magazine",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/online-magazine/hero-light-v1-desktop.webp"
+    },
+    {
+      "slug": "oil-and-gas",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/oil-and-gas/hero-light-v1-desktop.webp"
+    },
+    {
+      "slug": "real-estate",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/real-estate/hero-light-v1-desktop.webp"
+    },
+    {
+      "slug": "fashion-and-lifestyle",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/fashion-and-lifestyle/hero-light-v1-desktop.webp"
+    },
+    {
+      "slug": "beauty-skincare-med-spa",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/beauty-skincare-med-spa/hero-light-v1-desktop.webp"
+    },
+    {
+      "slug": "restaurants-cafes-bakeries",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/restaurants-cafes-bakeries/hero-light-v1-desktop.webp"
+    },
+    {
+      "slug": "solar-energy",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "src": "http://127.0.0.1:3014/site/generated/industries/solar-energy/hero-light-v1-desktop.webp"
+    }
+  ],
+  "mobileArabic": [
+    {
+      "slug": "healthcare",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/healthcare/hero-light-v1-mobile.webp"
+    },
+    {
+      "slug": "roofing",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/roofing/hero-light-v1-mobile.webp"
+    },
+    {
+      "slug": "construction",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/construction/hero-light-v1-mobile.webp"
+    },
+    {
+      "slug": "e-commerce",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/e-commerce/hero-light-v1-mobile.webp"
+    },
+    {
+      "slug": "small-business",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/small-business/hero-light-v1-mobile.webp"
+    },
+    {
+      "slug": "event-coordinators",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/event-coordinators/hero-light-v1-mobile.webp"
+    },
+    {
+      "slug": "legal",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/legal/hero-light-v1-mobile.webp"
+    },
+    {
+      "slug": "online-magazine",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/online-magazine/hero-light-v1-mobile.webp"
+    },
+    {
+      "slug": "oil-and-gas",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/oil-and-gas/hero-light-v1-mobile.webp"
+    },
+    {
+      "slug": "real-estate",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/real-estate/hero-light-v1-mobile.webp"
+    },
+    {
+      "slug": "fashion-and-lifestyle",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/fashion-and-lifestyle/hero-light-v1-mobile.webp"
+    },
+    {
+      "slug": "beauty-skincare-med-spa",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/beauty-skincare-med-spa/hero-light-v1-mobile.webp"
+    },
+    {
+      "slug": "restaurants-cafes-bakeries",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/restaurants-cafes-bakeries/hero-light-v1-mobile.webp"
+    },
+    {
+      "slug": "solar-energy",
+      "filter": "none",
+      "loaded": true,
+      "overflow": false,
+      "overlap": 9,
+      "src": "http://127.0.0.1:3014/site/generated/industries/solar-energy/hero-light-v1-mobile.webp"
+    }
+  ]
+}
