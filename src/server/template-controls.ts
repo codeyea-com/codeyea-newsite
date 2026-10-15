@@ -144,7 +144,8 @@ export async function templateControlManifest(html: string, template: string) {
           0,
           200,
         ),
-        enabled: true,
+        // The owner hid Brand Design clients, while retaining the CMS toggle.
+        enabled: !(template === "brand-design-review/brand-design-interactive.html" && /\bb-clients\b/.test(tag)),
       });
     }
     if (/^<a\b/i.test(tag)) {

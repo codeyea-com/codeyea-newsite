@@ -124,7 +124,7 @@ export const templatePageTitles: Record<string, string> = {
   "website-design": "Website Design",
   "brand-design": "Brand Design",
   ecommerce: "eCommerce",
-  "seo-geo": "SEO & GEO",
+  "seo-geo": "SEO, GEO & AEO",
   "digital-marketing": "Digital Marketing",
   "web-mobile-apps": "Web & Mobile Apps",
   "ai-automation": "AI & Automation",
@@ -996,7 +996,7 @@ export async function renderDocument(
     )
     .replace("</body>", '<script src="/site/post-launch.js"></script></body>');
   html = html.replace(
-    /(<(?:script|style)\b[^>]*>[\s\S]*?<\/(?:script|style)>)|(<p\b[^>]*>)([^<>]+)(<\/p>)/gi,
+    /(<(?:script|style)\b[^>]*>[\s\S]*?<\/(?:script|style)>|<h1\b[^>]*>[\s\S]*?<\/h1>|<p\b[^>]*class="[^"]*\binternal-hero-brand\b[^"]*"[^>]*>[\s\S]*?<\/p>)|(<p\b[^>]*>)([^<>]+)(<\/p>)/gi,
     (all, protectedBlock, start, text, end) => {
       if (protectedBlock) return all;
       return start + contextualLinks(text).map(part => part.href
@@ -1157,6 +1157,15 @@ export async function renderDocument(
       protectedBlock ? all : (text || tag).replaceAll("\u2014", ", "),
   );
   html = renderWebsiteCustomCms(html, slug, locale, contactHref);
+  if (slug === "seo-geo") {
+    html = html.replace(/(<h1\b[^>]*>)([\s\S]*?)(<\/h1>)/i, (all, start, text, end) => {
+      if (/\bAEO\b/.test(text)) return all;
+      const updated = /SEO\s*&(?:amp;)?\s*GEO/.test(text)
+        ? text.replace(/SEO\s*&(?:amp;)?\s*GEO/, "SEO, GEO &amp; AEO")
+        : text + (locale === "ar" ? " وAEO" : " &amp; AEO");
+      return start + updated + end;
+    });
+  }
   const heroScript = html.match(/<script\b(?=[^>]*\bdata-integrated-hero\b)[^>]*\bsrc="\/api\/site-assets\/([^"?]+\.js)[^"]*"[^>]*><\/script>/i)?.[1];
   if (heroScript && isPublicTemplateAsset(heroScript)) {
     const source = await fs.readFile(path.join(process.cwd(), 'site-templates', heroScript), 'utf8');
