@@ -1,10 +1,12 @@
 (()=>{
   const hero=document.querySelector('main .about-hero');
   const media=hero?.querySelector('.internal-hero-media');
-  if(!hero||!media||media.querySelector('.wp-scene'))return;
+  if(!hero||!media)return;
+  let scene = media.querySelector('.wp-scene');
+  if (!scene) {
   hero.classList.add('wp-live-hero');
   media.querySelector('img')?.remove();
-  const scene=document.createElement('div');scene.className='wp-scene';
+  scene=document.createElement('div');scene.className='wp-scene';
   scene.innerHTML=`
     <div class="wp-back-swoosh" aria-hidden="true"></div>
     <div class="wp-index">01 / WORDPRESS HOSTING <span>YOUR SITE, IN YOUR HANDS ↗</span></div>
@@ -22,6 +24,9 @@
     <div class="wp-feedback" role="status"><span class="wp-feedback-icon">✓</span><div><small>WORDPRESS / HOME</small><strong data-publish-status>Ready to publish</strong></div></div>
     <div class="wp-bottom-note">MANAGE. UPDATE. PUBLISH. <span>ALL IN ONE PLACE.</span></div>`;
   media.append(scene);
+  }
+  if (scene.dataset.heroBound) return;
+  scene.dataset.heroBound = 'true';
   const reduce=matchMedia('(prefers-reduced-motion: reduce)');
   const update=scene.querySelector('.wp-publish');
   const status=scene.querySelector('[data-publish-status]');

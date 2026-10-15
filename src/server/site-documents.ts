@@ -4,6 +4,7 @@ import { canonicalHtmlLinks } from "@/content/url-hierarchy";
 import { contextualLinks } from "@/content/contextual-links";
 import { renderIllustrativeWork } from './illustrative-work-render';
 import { renderWebsiteCustomCms } from './website-custom-cms-render';
+import { renderIntegratedHero } from './integrated-hero-render';
 import arabicTemplateCopy from "@/content/arabic-template-copy.json";
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -25,6 +26,7 @@ import {
   applyTemplateControls,
   applyAssetControls,
   applyArtworkControls,
+  applyReviewedHeroPhotography,
 } from "./template-controls";
 import type { TemplateControls } from "@/schemas/template-controls";
 import {
@@ -116,7 +118,7 @@ export function rewriteTemplateAssetCode(
       );
   }
   const base = path.posix.dirname(relative);
-  return text.replace(/(["'(])assets\//g, `$1/api/site-assets/${base}/assets/`);
+  return text.replace(/(["'(])(?:\.\/)?assets\//g, `$1/api/site-assets/${base}/assets/`);
 }
 export const templatePageTitles: Record<string, string> = {
   "website-design": "Website Design",
@@ -928,34 +930,6 @@ export async function renderDocument(
     (_all, start, body, end) =>
       start + body.replace(/<a\b[^>]*>\s*Work\s*<\/a>/gi, "") + end,
   );
-  if (
-    /<script\b(?=[^>]*\bdata-integrated-hero\b)(?=[^>]*\bsrc=)[^>]*><\/script>/i.test(
-      html,
-    )
-  ) {
-    const markHero = (className: string) => {
-      const pattern = new RegExp(
-        `<section\\b(?=[^>]*\\bclass=["'][^"']*\\b${className}\\b[^"']*["'])[^>]*>`,
-        "i",
-      );
-      html = html.replace(pattern, (tag) =>
-        /\bdata-hero-upgrade-pending\b/.test(tag)
-          ? tag
-          : tag.replace(/>$/, " data-hero-upgrade-pending>"),
-      );
-    };
-    markHero("about-hero");
-    markHero("b-hero");
-    const reveal =
-      "document.querySelectorAll('[data-hero-upgrade-pending]').forEach(function(node){node.removeAttribute('data-hero-upgrade-pending')})";
-    html = html.replace(
-      /<script\b(?=[^>]*\bdata-integrated-hero\b)(?=[^>]*\bsrc=)[^>]*>/i,
-      (tag) => tag.replace(/>$/, ` onload="${reveal}" onerror="${reveal}">`),
-    );
-    const revealStyle =
-      "<style>[data-hero-upgrade-pending]{visibility:hidden!important}</style>";
-    html = html.replace("</head>", revealStyle + "</head>");
-  }
   html = html
     .replaceAll("/brand/logo-animated-dark.svg", "/brand/logo-animated-dark.svg")
     .replaceAll("/brand/logo-light.png", "/brand/logo-animated-light.svg");
@@ -1183,6 +1157,15 @@ export async function renderDocument(
       protectedBlock ? all : (text || tag).replaceAll("\u2014", ", "),
   );
   html = renderWebsiteCustomCms(html, slug, locale, contactHref);
+  const heroScript = html.match(/<script\b(?=[^>]*\bdata-integrated-hero\b)[^>]*\bsrc="\/api\/site-assets\/([^"?]+\.js)[^"]*"[^>]*><\/script>/i)?.[1];
+  if (heroScript && isPublicTemplateAsset(heroScript)) {
+    const source = await fs.readFile(path.join(process.cwd(), 'site-templates', heroScript), 'utf8');
+    const artwork = applyReviewedHeroPhotography(applyAssetControls(applyArtworkControls(
+      rewriteTemplateAssetCode(heroScript, source, options.public ? 'public' : 'preview', locale === 'ar' ? 'ar' : 'en'),
+      heroScript, content.controls,
+    ), content.controls), heroScript);
+    html = renderIntegratedHero(html, slug, artwork);
+  }
   return canonicalHtmlLinks(html);
 }
 function slugTitle(slug: string) {

@@ -1,10 +1,12 @@
 (()=>{
   const hero=document.querySelector('main .about-hero');
   const media=hero?.querySelector('.internal-hero-media');
-  if(!hero||!media||media.querySelector('.hosting-scene'))return;
+  if(!hero||!media)return;
+  let scene = media.querySelector('.hosting-scene');
+  if (!scene) {
   hero.classList.add('hosting-live-hero');
   media.querySelector('img')?.remove();
-  const scene=document.createElement('div');scene.className='hosting-scene';
+  scene=document.createElement('div');scene.className='hosting-scene';
   scene.innerHTML=`
     <div class="hosting-orbit" aria-hidden="true"></div>
     <div class="hosting-index">01 / WEBSITE HOSTING <span>BUILT FOR WHAT'S NEXT</span></div>
@@ -29,6 +31,9 @@
     <div class="hosting-status"><small>WEBSITE STATUS</small><strong><i></i> LIVE & READY</strong><span data-live-caption>A stronger home for your website.</span></div>
     <div class="hosting-note">A STRONGER HOME <span>FOR YOUR WEBSITE ↗</span></div>`;
   media.append(scene);
+  }
+  if (scene.dataset.heroBound) return;
+  scene.dataset.heroBound = 'true';
 
   const buttons=[...scene.querySelectorAll('[data-layer]')];
   const captions=['Storage ready','Control connected','Connection protected'];

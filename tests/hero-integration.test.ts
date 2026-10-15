@@ -30,7 +30,7 @@ test("every approved service template loads its new hero without replacing page 
   for (const [slug, relative] of Object.entries(approvedTemplates)) {
     const concept = concepts[slug];
     if (!concept) continue;
-    const html = await fs.readFile(path.join(process.cwd(), "docs", relative), "utf8");
+    const html = await fs.readFile(path.join(process.cwd(), "site-templates", relative), "utf8");
     assert.match(html, new RegExp(`data-integrated-hero[^>]+${path.posix.basename(concept)}\\.css`), slug);
     assert.match(html, new RegExp(`data-integrated-hero[^>]+${path.posix.basename(concept)}-site\\.js`), slug);
     assert.match(html, /<header\b/, `${slug}: keep the page header`);
@@ -64,12 +64,12 @@ test("every approved service template loads its new hero without replacing page 
 
 test("site hero scripts do not hide the existing header, footer or page sections", async () => {
   for (const concept of Object.values(concepts)) {
-    const script = await fs.readFile(path.join(process.cwd(), "docs", `${concept}-site.js`), "utf8");
+    const script = await fs.readFile(path.join(process.cwd(), "site-templates", `${concept}-site.js`), "utf8");
     assert.doesNotMatch(script, /style\.display\s*=\s*['"]none['"]/);
     assert.doesNotMatch(script, /parentElement\.children\.forEach/);
   }
   const websiteScript = await fs.readFile(
-    path.join(process.cwd(), "docs", `${concepts["website-design"]}-site.js`),
+    path.join(process.cwd(), "site-templates", `${concepts["website-design"]}-site.js`),
     "utf8",
   );
   assert.match(websiteScript, /source\.innerHTML/);
@@ -89,7 +89,7 @@ test("public template scripts resolve links to public routes instead of preview 
     "'../seo-geo-review/seo-geo-interactive.html'; '/preview/services'; 'assets/menu.webp'",
     "public",
   );
-  assert.ok(result.includes("/seo-geo/"));
+  assert.ok(result.includes("/services/seo-geo/"));
   assert.ok(result.includes("/services/"));
   assert.ok(result.includes("/api/site-assets/shared-navigation/assets/menu.webp"));
   assert.ok(!result.includes("/preview/"));

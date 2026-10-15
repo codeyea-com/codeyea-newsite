@@ -1,7 +1,10 @@
 (()=>{
-const h=document.querySelector('.about-hero.ai-general-hero'),m=h?.querySelector('.internal-hero-media');if(!h||!m||m.querySelector('.app-journey'))return;
-h.classList.add('web-mobile-journey');m.querySelector('img')?.remove();
-const s=document.createElement('div');s.className='app-journey';
+const h=document.querySelector('.about-hero.ai-general-hero'),m=h?.querySelector('.internal-hero-media');if(!h||!m)return;
+h.classList.add('web-mobile-journey');
+let s=m.querySelector('.app-journey');
+if(!s){
+m.querySelector('img')?.remove();
+s=document.createElement('div');s.className='app-journey';
 s.innerHTML=[
 '<article class="device device--browse"><div class="device-frame"><div class="device-status">9:41 <span>●●● ◖ ▰</span></div><div class="device-island"></div><header class="app-bar"><strong>the kitchen<span>~</span></strong><button class="cart-count" data-cart>▣ <b data-count>0</b></button></header><div class="app-scroll"><div class="search-field">⌕ <span>Search something fresh</span></div><div class="quick-links">↻ &nbsp; Repeat last order<hr>✦ &nbsp; Chef’s picks</div><div class="app-section-title"><b>Today’s menu</b><span>See all →</span></div>',
 '<button class="food-card is-active" data-food="grain"><img src="assets/menu-grain-420.jpg" alt="Grain bowl"><span><b>Garden grain bowl</b><small>Fresh · 12 min</small><strong>$18</strong></span><i>+</i></button>',
@@ -12,6 +15,8 @@ s.innerHTML=[
 '<div class="journey-caption"><span>01　BROWSE</span><b></b><span>02　CHOOSE</span><b></b><span>03　ORDER</span></div>'
 ].join('');m.append(s);
 const web=document.createElement('div');web.className='desktop-store';web.setAttribute('aria-label','Desktop restaurant ordering website preview');web.innerHTML='<div class="store-top"><b>the kitchen<span>~</span></b><nav>MENU　 OUR STORY　 LOCATIONS</nav><button>ORDER ONLINE ↗</button></div><div class="store-main"><div class="store-copy"><small>GOOD FOOD, GOOD MOOD</small><h2>Fresh, made<br>for your day.</h2><p>Seasonal bowls and kitchen favourites, made fresh nearby.</p><button>EXPLORE THE MENU　↗</button><div class="store-proof"><b>4.9 ★★★★★</b><span>LOCAL INGREDIENTS · MADE DAILY</span></div></div><div class="store-food"><img data-web-photo src="assets/menu-grain-720.jpg" alt="Fresh grain bowl"><div><b data-web-name>THE GARDEN BOWL</b><span>Fresh from our kitchen</span></div></div></div><div class="store-bottom"><span>FRESH FROM OUR KITCHEN</span><div><b>GARDEN BOWL　 $18</b><b>HERB PESTO　 $16</b><b>AVOCADO CRUNCH　 $14</b></div></div>';s.prepend(web);
+}
+if(s.dataset.heroBound)return;s.dataset.heroBound='true';
 const data={grain:['Garden grain bowl','Warm grains, crisp greens, avocado and lemon herb dressing',18,'assets/menu-grain-720.jpg'],pasta:['Herb pesto pasta','Hand-tossed pasta, basil pesto, roasted tomato and parmesan',16,'assets/menu-pasta-720.jpg'],salad:['Avocado crunch','Avocado, crisp leaves, toasted seeds and citrus dressing',14,'assets/menu-salad-720.jpg']};
 let selected='grain',bag=[],autoTimer;const q=x=>s.querySelector(x);
 function choose(k){selected=k;const d=data[k],wf=q('.store-food');q('[data-name]').textContent=d[0];q('[data-desc]').textContent=d[1];q('[data-price]').textContent='$'+d[2];q('[data-photo]').src=d[3];q('[data-photo]').style.objectPosition=d[4]+' center';q('[data-web-photo]').src=d[3];q('[data-web-photo]').style.objectPosition=d[4]+' center';q('[data-web-name]').textContent=d[0].toUpperCase();s.querySelectorAll('[data-food]').forEach(b=>b.classList.toggle('is-active',b.dataset.food===k));wf.classList.remove('is-sync');void wf.offsetWidth;wf.classList.add('is-sync');setTimeout(()=>wf.classList.remove('is-sync'),500)}

@@ -1,11 +1,13 @@
 (()=>{
   const hero=document.querySelector('.about-hero.ai-general-hero');
   const media=hero?.querySelector('.internal-hero-media');
-  if(!hero||!media||media.querySelector('.support-scene'))return;
+  if(!hero||!media)return;
+  let scene = media.querySelector('.support-scene');
+  if (!scene) {
   hero.classList.add('support-live-hero');
   media.querySelector('img')?.remove();
 
-  const scene=document.createElement('div');scene.className='support-scene';
+  scene=document.createElement('div');scene.className='support-scene';
   scene.innerHTML=`
     <div class="support-photo" aria-hidden="true"><img src="../../public/homepage/team.webp" alt=""></div>
     <div class="support-stripe" aria-hidden="true"></div>
@@ -44,6 +46,9 @@
     <div class="support-live-tag"><span>LIVE SUPPORT FLOW</span><b>ISSUE　→　 CHECK　→　 RECOVERY</b></div>
     <button type="button" class="support-replay" aria-label="Replay the support diagnosis">↻ <span>REPLAY</span></button>`;
   media.append(scene);
+  }
+  if (scene.dataset.heroBound) return;
+  scene.dataset.heroBound = 'true';
 
   const checks=[...scene.querySelectorAll('[data-check]')];
   const reduce=matchMedia('(prefers-reduced-motion: reduce)');

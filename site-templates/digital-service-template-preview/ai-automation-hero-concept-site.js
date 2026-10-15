@@ -1,11 +1,13 @@
 (()=>{
   const hero=document.querySelector('.about-hero.ai-general-hero');
   const media=hero?.querySelector('.internal-hero-media');
-  if(!hero||!media||media.querySelector('.automation-scene'))return;
+  if(!hero||!media)return;
+  let scene = media.querySelector('.automation-scene');
+  if (!scene) {
   hero.classList.add('automation-live-hero');
   media.querySelector('img')?.remove();
 
-  const scene=document.createElement('div');scene.className='automation-scene';
+  scene=document.createElement('div');scene.className='automation-scene';
   scene.innerHTML=`
     <div class="automation-orbit" aria-hidden="true"></div>
     <div class="automation-inbound" aria-label="Incoming sample customer request">
@@ -39,6 +41,9 @@
     </div>
     <div class="automation-caption">REAL WORKFLOWS　 /　 CLEAR HANDOFFS　 /　 HUMAN CONTROL</div>`;
   media.append(scene);
+  }
+  if (scene.dataset.heroBound) return;
+  scene.dataset.heroBound = 'true';
 
   const steps=[...scene.querySelectorAll('[data-step]')];
   const results=[...scene.querySelectorAll('[data-result]')];

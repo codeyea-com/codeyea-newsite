@@ -1,11 +1,13 @@
 (()=>{
   const hero=document.querySelector('main .about-hero');
   const media=hero?.querySelector('.internal-hero-media');
-  if(!hero||!media||media.querySelector('.cloud-scene'))return;
+  if(!hero||!media)return;
+  let scene = media.querySelector('.cloud-scene');
+  if (!scene) {
   hero.classList.add('cloud-live-hero');
   media.querySelector('img')?.remove();
 
-  const scene=document.createElement('div');scene.className='cloud-scene';
+  scene=document.createElement('div');scene.className='cloud-scene';
   scene.innerHTML=`
     <div class="cloud-field" aria-hidden="true"></div>
     <div class="cloud-index">01 / CLOUD HOSTING <span>THREE SITES / ONE FOUNDATION</span></div>
@@ -23,6 +25,9 @@
     <div class="cloud-site cloud-site-main" aria-label="Cafe website preview"><div class="main-chrome"><span class="main-dots"><i></i><i></i><i></i></span><span>daybreak.example</span><b>↗</b></div><div class="main-site"><nav><strong>daybreak<span>✳</span></strong><span>MENU　 STORY　 VISIT</span><em>ORDER ↗</em></nav><div class="main-copy"><small>GOOD THINGS, FRESH DAILY / 001</small><h2>A little brighter.<br>A lot more flavour<span>.</span></h2><p>Made fresh for the moments that matter.</p><b>EXPLORE THE MENU ↗</b></div><div class="main-photo"><img src="../../public/homepage/small-business.webp" alt=""><span>OPEN TODAY / 08:00—18:00</span></div><div class="main-foot">SITE 02 <i></i> READY TO GROW</div></div></div>
     <div class="cloud-bottom">GIVE YOUR NEXT STAGE <span>ROOM TO GROW ↗</span></div>`;
   media.append(scene);
+  }
+  if (scene.dataset.heroBound) return;
+  scene.dataset.heroBound = 'true';
 
   const plans=[{name:'LiteSky',cpu:2,ram:3,storage:50},{name:'TurboSky',cpu:4,ram:6,storage:150},{name:'TurboTrade',cpu:6,ram:12,storage:300}];
   const buttons=[...scene.querySelectorAll('[data-plan]')];

@@ -1,10 +1,12 @@
 (() => {
   const hero = document.querySelector('.ai-general-hero');
   const media = hero?.querySelector('.internal-hero-media');
-  if (!hero || !media || media.querySelector('.campaign-scene')) return;
+  if (!hero || !media) return;
 
+  let scene = media.querySelector('.campaign-scene');
+  if (!scene) {
   hero.classList.add('digital-live-hero');
-  const scene = document.createElement('div');
+  scene=document.createElement('div');
   scene.className = 'campaign-scene';
   scene.setAttribute('aria-label', 'Interactive digital marketing campaign preview');
   scene.innerHTML = `
@@ -28,6 +30,9 @@
     <div class="campaign-order" role="status"><i aria-hidden="true"></i><span>NEW ORDER<b>Campaign conversion</b></span></div>
     <div class="campaign-stamp">CONTENT → CONVERSATION<b>→ SALE</b></div>`;
   media.append(scene);
+  }
+  if (scene.dataset.heroBound) return;
+  scene.dataset.heroBound = 'true';
 
   const like = scene.querySelector('[data-like]');
   const count = scene.querySelector('[data-likes]');

@@ -1,7 +1,7 @@
 (() => {
   const privatePreview = location.pathname.startsWith('/preview/');
 
-  document.querySelectorAll('.internal-hero-media > :is(.app-journey,.seo-scene,.campaign-scene,.automation-scene,.support-scene,.hosting-scene,.wp-scene,.cloud-scene,.mail-scene)').forEach(art=>{const box=document.createElement('div');box.className='hero-art-box';art.before(box);box.append(art)});
+  document.querySelectorAll('.internal-hero-media > :is(.app-journey,.seo-scene,.campaign-scene,.automation-scene,.support-scene,.hosting-scene,.wp-scene,.cloud-scene,.mail-scene)').forEach(art=>{if(art.closest('[data-hero-rendered]'))return;const box=document.createElement('div');box.className='hero-art-box';art.before(box);box.append(art)});
   // Standalone document previews render the same shell views as React pages.
   const header=document.querySelector('.hp-header');
   let active=null,timer;

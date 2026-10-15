@@ -1,10 +1,12 @@
 (()=>{
   const hero=document.querySelector('main .about-hero');
   const media=hero?.querySelector('.internal-hero-media');
-  if(!hero||!media||media.querySelector('.mail-scene'))return;
+  if(!hero||!media)return;
+  let scene = media.querySelector('.mail-scene');
+  if (!scene) {
   hero.classList.add('mail-live-hero');
   media.querySelector('img')?.remove();
-  const scene=document.createElement('div');scene.className='mail-scene';
+  scene=document.createElement('div');scene.className='mail-scene';
   scene.innerHTML=`
     <div class="mail-back-shape" aria-hidden="true"></div>
     <div class="mail-index">01 / EMAIL HOSTING <span>YOUR BUSINESS NAME. EVERY CONVERSATION.</span></div>
@@ -29,6 +31,9 @@
     <div class="mail-domain"><small>YOUR DOMAIN</small><strong>hello@yourbrand.example</strong><span>ONE NAME / EVERY MESSAGE ↗</span></div>
     <button type="button" class="mail-replay" aria-label="Replay the email conversation">↻ REPLAY</button>`;
   media.append(scene);
+  }
+  if (scene.dataset.heroBound) return;
+  scene.dataset.heroBound = 'true';
   const reduce=matchMedia('(prefers-reduced-motion: reduce)');
   let stage=0,timer;
   function render(n){stage=n;scene.dataset.stage=String(n);scene.querySelector('[data-unread]').textContent=n>=2?'0':'1'}
