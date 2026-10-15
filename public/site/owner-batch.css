@@ -1,0 +1,70 @@
+/* Owner's collected corrections: retain the approved components and motion. */
+.hp .cy-language-mobile{display:none}
+.hp .hp-utility a{position:relative;isolation:isolate;overflow:hidden;padding:10px 15px;transition:color .35s,translate .35s}
+.hp .hp-utility a:before{content:"";position:absolute;inset:0;z-index:-1;background:#fff;transform:translateX(-110%) skewX(-18deg);transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.hp .hp-utility a:is(:hover,:focus-visible){color:#121212;translate:3px 0;text-shadow:none}
+.hp .hp-utility a:is(:hover,:focus-visible):before{transform:translateX(0) skewX(0)}
+[dir=rtl] .hp-utility a:before{transform:translateX(110%) skewX(18deg)}
+[dir=rtl] .hp-utility a:is(:hover,:focus-visible){translate:-3px 0}
+.hp.public-surface .rp-cards{width:100%;max-width:none;margin-inline:0}
+.hp.public-surface .rp-card-hit{position:absolute;inset:0;z-index:3}
+.hp.public-surface .rp-card-hit:focus-visible{outline:3px solid #e0144c;outline-offset:-3px}
+.hp.public-surface .rp-card-detail .rp-link{position:relative;z-index:4}
+.hp.public-surface .industry-sections,.hp.public-surface .industry-section{width:100%;max-width:none;margin-inline:0}
+.hp.public-surface .industries-introduction{width:var(--page-content-width);padding-inline:0!important;grid-template-columns:minmax(0,44fr) minmax(0,56fr);gap:5%}
+.hp.public-surface .industry-inner-parallax .industry-images img{top:0;transform:translate3d(0,var(--industry-image-y,0px),0) scale(1.2)}
+.hp.public-surface .rp-dark-layout{align-items:start}
+@media(min-width:801px){.hp.public-surface .rp-dark-layout>header{position:sticky;top:130px;align-self:start}}
+
+/* The source reference uses an edge-aligned half-width image and generous copy. */
+@media(min-width:1200px){
+ .hp.public-surface .hp-about{display:grid;width:100%;max-width:none;margin-inline:0;padding-inline:0;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:0;align-items:start}
+ .hp.public-surface .hp-about-media{width:100%;height:clamp(520px,43vw,850px);aspect-ratio:auto;object-fit:cover;position:sticky;top:120px}
+ .hp.public-surface .hp-about-copy{padding:8px 10% 0 16%;min-width:0}
+ .hp.public-surface .hp-about-copy h2{max-width:none;font-size:clamp(30px,2.5vw,48px)}
+ .hp.public-surface .hp-about-copy .hp-editorial-copy{max-width:none}
+ html[lang=ar] .hp.public-surface .hp-about-copy{padding:8px 16% 0 10%}
+}
+.hp.public-surface .general-brand-plaque{box-shadow:0 22px 48px #071b3952,0 6px 14px #071b3924;transform:translateY(var(--plaque-y,0px));will-change:transform}
+
+/* Text flow is separate from the coordinate system used by animated artwork. */
+html[lang=ar] .hp.public-surface :is(h1,h2,h3,h4,h5,h6,p,li,summary,label){direction:rtl;unicode-bidi:isolate}
+html[lang=ar] .hp.public-surface :is(.industries-introduction-heading,.industries-introduction-copy){min-width:0;padding-inline:0}
+html[lang=ar] .hp.public-surface .industries-introduction h2{max-width:100%;white-space:normal;overflow-wrap:normal}
+html[lang=ar] .hp.public-surface :is(code,pre,.browser-address,.site-url,.d-address,.art-code code){direction:ltr;unicode-bidi:isolate;text-align:left}
+html[lang=ar] .hp.public-surface :is(.hero-art,.automation-scene,.support-scene,.hosting-scene,.wp-scene,.cloud-scene,.mail-scene,.domain-scene,.app-journey,.brand-stage,.ecom-stage,.seo-scene,.campaign-scene){direction:ltr;unicode-bidi:isolate}
+html[lang=ar] .hp.public-surface .hero-concept-copy{padding-inline:7vw 2vw!important}
+html[lang=ar] .hp.public-surface .hero-concept-copy h1{letter-spacing:0!important;line-height:1.3!important}
+html[lang=ar] .hp.public-surface .hero-concept-copy .b-hero-number{direction:ltr;unicode-bidi:isolate}
+html[lang=ar] .hp.public-surface .b-proof{border-left:0;border-right:1px solid #ffffff22;padding-left:0;padding-right:50px}
+html[lang=ar] .hp.public-surface .industry-action{text-align:start}
+
+/* Fill photographic frames, retaining separate treatment for actual logos/cutouts. */
+.hp.public-surface :is(.about-project-field,.b-collage,.b-images,.v-images,.rf-needs-media,.rp-card-frame,.industry-images,.case-index-grid) img{width:100%;height:100%;object-fit:cover}
+.hp.public-surface img[data-generated-frame="boxed"]{object-fit:cover!important}
+.hp.public-surface :is(.b-image-layer,.b-work-image,.rf-image-zoom,.rp-card-frame,.about-project-image) img{width:100%;height:100%;object-fit:cover!important}
+.hp.public-surface .about-showcase-media .about-image{width:100%;height:100%;max-height:none;object-fit:cover}
+@media(max-width:1199px){
+ .hp .hp-header-row{gap:12px}
+ .hp .cy-language-mobile{display:flex;align-items:center;justify-content:center;margin-inline-start:auto;min-width:56px;min-height:44px;flex:none}
+ .hp .cy-language-mobile a{color:#072448;font-size:14px;font-weight:600;text-decoration:none}
+ .hp .hp-mobile-trigger{margin-inline-start:0;flex:none}
+ .cy-language-float{display:none!important}
+}
+@media(max-width:480px){
+ .hp .hp-header-row{gap:8px}
+ .hp .hp-header-row .hp-logo{width:clamp(110px,36vw,150px);flex:none}
+ .hp .cy-language-mobile{min-width:44px}
+ .hp .cy-language-mobile a{font-size:13px}
+ .hp .hp-mobile-trigger{font-size:12px;gap:6px;padding:8px}
+}
+@media(max-width:767px){
+ .hp.public-surface .industries-introduction{grid-template-columns:1fr;gap:36px}
+ html[lang=ar] .hp.public-surface .b-proof{border-right:0;padding-right:0}
+ .hp.public-surface .hp-about{width:100%;max-width:none;margin-inline:0;padding-inline:0}
+ .hp.public-surface .hp-about-media{width:100%;object-fit:cover}
+ .hp.public-surface .hp-about-copy{padding-inline:20px}
+ html[lang=ar] .hp.public-surface .hero-concept-copy{padding-inline:22px!important}
+}
+@media(prefers-reduced-motion:reduce){.general-brand-plaque{transform:none;will-change:auto}.hp .hp-utility a,.hp .hp-utility a:before{transition:none;translate:none}}
+@media(prefers-reduced-motion:reduce),(max-width:1199px),(max-height:699px),(hover:none),(pointer:coarse){.hp.public-surface .industry-inner-parallax .industry-images img{transform:none}}

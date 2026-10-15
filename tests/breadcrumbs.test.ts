@@ -29,7 +29,7 @@ test('all 76 internal public routes have unique canonical localized breadcrumb p
  }
 });
 test('services, hosting and sectors use real parent sections and catalogue names',()=>{
- assert.deepEqual(breadcrumbSchema('/ar/website-design/','ignored')!.itemListElement.map(x=>x.name),['الرئيسية','الخدمات','تصميم وتطوير المواقع']);
+ assert.deepEqual(breadcrumbSchema('/ar/services/website-design/','ignored')!.itemListElement.map(x=>x.name),['الرئيسية','الخدمات','تصميم وتطوير المواقع']);
  assert.deepEqual(breadcrumbSchema('/wordpress-hosting/','ignored')!.itemListElement.map(x=>x.name),['Home','Website Hosting','WordPress Hosting']);
  assert.deepEqual(breadcrumbSchema('/ar/industries/solar-energy/','ignored')!.itemListElement.map(x=>x.name),['الرئيسية','القطاعات','الطاقة الشمسية']);
  assert.deepEqual(breadcrumbSchema('/industries/beauty-skincare-med-spa/','ignored')!.itemListElement.map(x=>x.name),['Home','Industries','Beauty, Skincare & Med Spa']);

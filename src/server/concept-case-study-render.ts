@@ -1,3 +1,5 @@
+import { conceptDetailMain, iraqHomeExpoMain } from "./approved-case-detail";
+import {caseIndexMain} from './case-index';
 import {
   conceptCaseStudies,
   conceptDisclosure,
@@ -69,11 +71,6 @@ export const privateCaseLinks: CaseRenderLinks = {
   index: (locale) => `/preview/case-studies?locale=${locale}`,
   detail: (slug, locale) => `/preview/case-studies/${slug}?locale=${locale}`,
 };
-function figure(item: ConceptCaseStudy, i: number, locale: CaseLocale) {
-  const img = item.images[i],
-    caption = i ? item[locale].stages[i - 1][0] : item[locale].name;
-  return `<figure><img src="${escape(img.src)}" width="${img.width}" height="${img.height}" alt="${escape(caption)}" loading="${i ? "lazy" : "eager"}" decoding="async"${i ? "" : ' fetchpriority="high"'}><figcaption>${escape(caption)}</figcaption></figure>`;
-}
 function cta(locale: CaseLocale) {
   const t = words[locale];
   return `<section class="b-contact"><div><span>${t.ready}</span><h2>${t.closing}</h2></div><a class="b-btn" data-quote-open href="${locale === "ar" ? "/ar" : ""}/contact/#quote-form">${t.cta}<span aria-hidden="true">↗</span></a></section>`;
@@ -84,6 +81,7 @@ export async function caseStudyShell(
   main: string,
   locale: CaseLocale,
   title: string,
+  options: { detail?: boolean; description?: string } = {},
 ) {
   const source = await templateContent("website-design");
   const draft = templatePageDraft("website-design", source);
@@ -123,7 +121,7 @@ export async function caseStudyShell(
   });
   html = html.replace(
     /<main\b[^>]*>[\s\S]*?<\/main>/,
-    `<main id="main" class="b case-study">${main}</main>`,
+    `<main id="main" class="${options.detail ? "case-detail" : "b case-study"}">${main}</main>`,
   );
   // Remove only scripts tied to Website Design sections absent from the case-study page.
   html = html.replace(
@@ -150,8 +148,21 @@ export async function caseStudyShell(
   html = html.replace(/<meta\b[^>]*name="description"[^>]*>/g, "");
   html = html.replace(
     "</head>",
-    `<meta name="robots" content="noindex,nofollow"><meta name="description" content="${escape(conceptDisclosure[locale])}"><link rel="stylesheet" href="/site/concept-case-studies.css"></head>`,
+    `<meta name="robots" content="noindex,nofollow"><meta name="description" content="${escape(options.description ?? conceptDisclosure[locale])}"><link rel="stylesheet" href="/site/concept-case-studies.css"></head>`,
   );
+  if (options.detail) {
+    html = html.replace(
+      "</head>",
+      '<link rel="stylesheet" href="/site/case-detail.css"></head>',
+    );
+    html = html.replace(
+      "</body>",
+      '<script src="/site/case-detail.js" defer></script></body>',
+    );
+  } else {
+    html = html.replace('</head>', '<link rel="stylesheet" href="/site/case-index.css"></head>')
+      .replace('</body>', '<script src="/site/case-index.js" defer></script></body>');
+  }
   // Local review of a concept must not submit an actual lead.
   return html.replace(
     "window.CODEYEA_LEADS_ENABLED=true",
@@ -164,30 +175,29 @@ export async function renderConceptCaseStudy(
   locale: CaseLocale,
   links = privateCaseLinks,
 ) {
-  const c = item[locale],
-    t = words[locale];
-  const top = `<section class="cy-custom-cms" id="requirements"><div class="b-wrap">
-    <nav class="case-navigation" aria-label="${t.all}"><a href="${escape(links.index(locale))}">← ${t.all}</a></nav>
-    <header class="ccms-heading"><div><span class="b-eyebrow">${t.label} / ${escape(c.name)}</span><h1>${escape(c.title)}</h1></div><div><p>${escape(c.intro)}</p><p class="case-disclosure">${conceptDisclosure[locale]}</p></div></header>
-    <div class="ccms-overview">${figure(item, 0, locale)}<div class="ccms-benefits"><h2 class="case-subtitle">${t.requirements}</h2><ul>${c.requirements.map((x) => `<li><span class="ccms-tick" aria-hidden="true">↗</span><div><p>${escape(x)}</p></div></li>`).join("")}</ul></div></div>
-    <div class="ccms-closing"><div><h3>${t.scope}</h3><p>${escape(c.services)}</p></div><div><h3>${t.timeline}</h3><p>${escape(c.timeline)}</p></div></div>
-  </div></section>`;
-  const stages = c.stages
-    .map(
-      ([title, work], i) =>
-        `<section class="cy-custom-cms case-stage" id="stage-${i + 1}" aria-labelledby="stage-${i + 1}-title"><div class="b-wrap"><div class="ccms-overview">${figure(item, i + 1, locale)}<div class="ccms-benefits"><span class="b-eyebrow">${t.stage} ${String(i + 1).padStart(2, "0")} / 05</span><h2 id="stage-${i + 1}-title">${escape(title)}</h2><p>${escape(work)}</p></div></div></div></section>`,
-    )
-    .join("");
-  const results = `<section class="e-operations b-wrap b-section" id="results"><header><span class="b-eyebrow">${t.results}</span><h2>${t.resultTitle}</h2><p>${escape(c.timeline)}</p></header><div class="e-management-grid">${c.metrics.map(([metric, before, after, definition], i) => `<article><span>${String(i + 1).padStart(2, "0")} / ${t.results}</span><h3>${escape(metric)}</h3><p class="case-metric"><span>${t.before}: <bdi>${escape(before)}</bdi></span><strong>${t.after}: <bdi>${escape(after)}</bdi></strong></p><p>${escape(definition)}</p></article>`).join("")}</div><p class="case-outcome">${escape(c.outcome)}</p><p class="case-disclosure">${conceptDisclosure[locale]}</p></section>`;
-  const next =
-    conceptCaseStudies[
-      (conceptCaseStudies.indexOf(item) + 1) % conceptCaseStudies.length
-    ];
-  const nav = `<div class="b-wrap case-navigation"><a href="${escape(links.index(locale))}">${t.all}</a><a href="${escape(links.detail(next.slug, locale))}">${t.next}: ${escape(next[locale].name)} ↗</a></div>`;
   return caseStudyShell(
-    top + stages + results + nav + cta(locale),
+    conceptDetailMain(item, locale, links),
     locale,
-    c.name + " — " + t.label,
+    item[locale].name + " | " + words[locale].label,
+    { detail: true },
+  );
+}
+
+export async function renderIraqHomeExpo(
+  locale: CaseLocale,
+  links = privateCaseLinks,
+) {
+  return caseStudyShell(
+    await iraqHomeExpoMain(locale, links),
+    locale,
+    "Iraq Home Expo",
+    {
+      detail: true,
+      description:
+        locale === "ar"
+          ? "رحلة هوية معرض عراق هوم إكسبو وموقعه التفاعلي ونظام إدارة المحتوى الخاص."
+          : "The Iraq Home Expo identity, interactive website and Custom CMS project journey.",
+    },
   );
 }
 
@@ -196,6 +206,5 @@ export async function renderConceptCaseIndex(
   links = privateCaseLinks,
 ) {
   const t = words[locale];
-  const main = `<section class="b-wrap b-section b-work"><nav class="case-navigation"><span>${t.all}</span></nav><header><h1>${t.index}</h1><p>${t.indexIntro} ${conceptDisclosure[locale]}</p></header><div class="case-index-grid">${conceptCaseStudies.map((item) => `<article><a class="case-index-link" href="${escape(links.detail(item.slug, locale))}"><figure><img src="${item.images[0].src}" width="1440" height="1080" alt="${escape(item[locale].name)}" loading="lazy"></figure><span class="b-eyebrow">${t.label}</span><h2>${escape(item[locale].name)} ↗</h2><p>${escape(item[locale].title)}</p></a></article>`).join("")}</div></section>`;
-  return caseStudyShell(main + cta(locale), locale, t.all);
+  return caseStudyShell(caseIndexMain(locale, links) + cta(locale), locale, t.all);
 }

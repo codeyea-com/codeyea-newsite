@@ -58,6 +58,14 @@
       );
       if (!response.ok) return;
       const data = await response.json();
+      document.querySelectorAll('.hp-header-row').forEach(row => {
+        if (row.querySelector('.cy-language-mobile')) return;
+        const trigger = row.querySelector('.hp-mobile-trigger');
+        if (!trigger) return;
+        const slot = document.createElement('span');
+        slot.className = 'cy-language-slot cy-language-mobile';
+        trigger.before(slot);
+      });
       document.querySelectorAll(".cy-language-slot").forEach((slot) => {
         slot.replaceChildren();
         if (!data.enabled) return;
@@ -77,17 +85,35 @@
           floating.className = "cy-language-float";
           document.body.append(floating);
           const update = () => {
-            const visible = scrollY > 160;
+            const visible = scrollY > 160 && matchMedia('(min-width:1200px)').matches;
             floating.classList.toggle("is-visible", visible);
             floating.tabIndex = visible ? 0 : -1;
             floating.setAttribute("aria-hidden", String(!visible));
           };
           addEventListener("scroll", update, { passive: true });
+          addEventListener("resize", update, { passive: true });
           update();
         }
       });
     } catch {}
   }
+  // Foreground plaques move only inside the image that owns them.
+  let plaqueFrame = 0;
+  const movePlaques = () => {
+    plaqueFrame = 0;
+    document.querySelectorAll('.general-brand-plaque').forEach(plaque => {
+      const frame = plaque.parentElement;
+      const box = frame.getBoundingClientRect();
+      const max = Math.min(70, Math.max(0, (box.height - plaque.offsetHeight) * .12));
+      const progress = Math.max(-1, Math.min(1, (innerHeight / 2 - (box.top + box.height / 2)) / (innerHeight / 2 + box.height / 2)));
+      plaque.style.setProperty('--plaque-y', reduced.matches ? '0px' : `${-max * (progress + 1) / 2}px`);
+    });
+  };
+  const schedulePlaques = () => { if (!plaqueFrame) plaqueFrame = requestAnimationFrame(movePlaques); };
+  addEventListener('scroll', schedulePlaques, {passive:true});
+  addEventListener('resize', schedulePlaques);
+  reduced.addEventListener('change', schedulePlaques);
+  schedulePlaques();
   const arabicUI = {
     "عن CODEYEA": "عن كوديا",
     "Explore Details": "اكتشف التفاصيل",
@@ -223,7 +249,7 @@
             ".hp-carousel-buttons, .about-reference-pagination, .hp-desktop-nav",
           ) ||
           control.classList.contains("cy-back-top") ||
-          control.matches("[data-slide], [data-period]") ||
+          control.matches("[data-slide], [data-period], .case-detail .gallery-prev, .case-detail .gallery-next, .case-detail .project-nav a") ||
           control.closest(".v-plan-controls")
         )
           return;

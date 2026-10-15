@@ -22,3 +22,15 @@ const data = JSON.parse(document.getElementById('review-data')!.textContent!) as
 const s = data.snapshot;
 const page = s.industryDetail ? <IndustryDetailPage content={s.industryDetail}/> : s.about ? <AboutPage content={s.about}/> : s.servicesPage ? <ServicesPage content={s.servicesPage}/> : s.industriesPage ? <IndustriesPage content={s.industriesPage}/> : null;
 createRoot(document.getElementById('root')!).render(data.locale === 'ar' ? <ArabicSurface>{page}</ArabicSurface> : page);
+// Review-only deep links and language control, after React mounts the real page.
+const reviewRoot=document.getElementById('root')!;
+const mounted=new MutationObserver(()=>{
+ if(!reviewRoot.querySelector('.hp-header'))return;
+ mounted.disconnect();
+ const counterpart=location.pathname.replace(/-(ar|en)\.html$/,data.locale==='ar'?'-en.html':'-ar.html');
+ reviewRoot.querySelectorAll('.cy-language-slot').forEach(slot=>{
+  const link=document.createElement('a');link.href=location.origin+counterpart;link.lang=data.locale==='ar'?'en':'ar';link.textContent=data.locale==='ar'?'English':'العربية';slot.replaceChildren(link);
+ });
+ if(location.hash)void document.fonts.ready.then(()=>requestAnimationFrame(()=>document.getElementById(location.hash.slice(1))?.scrollIntoView()));
+});
+mounted.observe(reviewRoot,{childList:true});

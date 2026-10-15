@@ -52,7 +52,8 @@ export function SharedHeaderView({
             ? "أطلب التسعيرة المجانية الآن"
             : "Get Your Free Quote"}
         </a>
-        {mobile ?? <SharedMobileView content={content} />}
+        <span className="cy-language-slot cy-language-mobile" />
+      {mobile ?? <SharedMobileView content={content} />}
       </div>
       {panels}
       {quote}

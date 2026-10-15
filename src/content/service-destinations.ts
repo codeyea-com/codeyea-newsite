@@ -1,38 +1,38 @@
 import {industryNames,industrySlugs} from './industry-registry';
 import {serviceCatalog} from './service-catalog';
 const homepageServiceDestinations:Readonly<Record<string,string>>={
- 'service-1':'/web-mobile-apps/','service-2':'/ecommerce/','service-3':'/ai-automation/','service-4':'/website-hosting/',
- 'service-5':'/seo-geo/','service-6':'/brand-design/','service-7':'/technical-support/','service-8':'/services/',
+ 'service-1':'/services/web-mobile-apps/','service-2':'/services/ecommerce/','service-3':'/services/ai-automation/','service-4':'/website-hosting/',
+ 'service-5':'/services/seo-geo/','service-6':'/services/brand-design/','service-7':'/services/technical-support/','service-8':'/services/',
 };
 export function homepageServiceDestination(id:string){return homepageServiceDestinations[id]}
 const approvedServiceDestinations:Readonly<Record<string,string>>={
- 'sv-priority-ai':'/ai-automation/',
- 'sv-priority-seo':'/seo-geo/',
- 'sv-priority-development':'/web-mobile-apps/',
- 'sv-priority-commerce':'/ecommerce/',
- 'sv-service-ai':'/ai-automation/',
- 'sv-service-seo':'/seo-geo/',
- 'sv-service-app':'/web-mobile-apps/',
- 'sv-service-commerce':'/ecommerce/',
- 'sv-service-website':'/website-design/',
- 'sv-service-marketing':'/digital-marketing/',
- 'sv-service-brand':'/brand-design/',
- 'sv-service-graphic':'/brand-design/',
+ 'sv-priority-ai':'/services/ai-automation/',
+ 'sv-priority-seo':'/services/seo-geo/',
+ 'sv-priority-development':'/services/web-mobile-apps/',
+ 'sv-priority-commerce':'/services/ecommerce/',
+ 'sv-service-ai':'/services/ai-automation/',
+ 'sv-service-seo':'/services/seo-geo/',
+ 'sv-service-app':'/services/web-mobile-apps/',
+ 'sv-service-commerce':'/services/ecommerce/',
+ 'sv-service-website':'/services/website-design/',
+ 'sv-service-marketing':'/services/digital-marketing/',
+ 'sv-service-brand':'/services/brand-design/',
+ 'sv-service-graphic':'/services/brand-design/',
 };
-export function servicePageDestination(id:string){const service=serviceCatalog.find(item=>item.id===id);return service?`/${service.slug}/`:approvedServiceDestinations[id]}
+export function servicePageDestination(id:string){const service=serviceCatalog.find(item=>item.id===id);return service?`/services/${service.slug}/`:approvedServiceDestinations[id]}
 const serviceTextRoutes:Array<[RegExp,string]>=[
  [/wordpress/, '/wordpress-hosting/'],
  [/email\s+hosting/, '/email-hosting/'],
  [/cloud\s+hosting/, '/cloud-hosting/'],
- [/technical\s+support|troubleshoot|maintenance\s+support/, '/technical-support/'],
+ [/technical\s+support|troubleshoot|maintenance\s+support/, '/services/technical-support/'],
  [/domain/, '/domains/'],
- [/e-?commerce|online\s+store|digital\s+commerce/, '/ecommerce/'],
- [/seo|geo|search\s+(?:visibility|optimization|growth)/, '/seo-geo/'],
- [/brand|creative|visual\s+identity/, '/brand-design/'],
- [/campaign|digital\s+market|marketing|digital\s+strategy/, '/digital-marketing/'],
- [/website\s+design|web\s+design/, '/website-design/'],
- [/web\s*(?:&|and|\/)\s*(?:app|mobile)|application\s+development|web\s+development/, '/web-mobile-apps/'],
- [/ai|automation|workflow/, '/ai-automation/'],
+ [/e-?commerce|online\s+store|digital\s+commerce/, '/services/ecommerce/'],
+ [/seo|geo|search\s+(?:visibility|optimization|growth)/, '/services/seo-geo/'],
+ [/brand|creative|visual\s+identity/, '/services/brand-design/'],
+ [/campaign|digital\s+market|marketing|digital\s+strategy/, '/services/digital-marketing/'],
+ [/website\s+design|web\s+design/, '/services/website-design/'],
+ [/web\s*(?:&|and|\/)\s*(?:app|mobile)|application\s+development|web\s+development/, '/services/web-mobile-apps/'],
+ [/ai|automation|workflow/, '/services/ai-automation/'],
  [/hosting|server|migration/, '/website-hosting/'],
 ];
 export function servicePageDestinationForText(id:string,title:string,actionLabel=''){

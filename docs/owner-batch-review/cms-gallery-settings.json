@@ -1,0 +1,170 @@
+[
+  {
+    "id": "beauty-skincare-med-spa",
+    "section": "beauty-skincare-med-spa-strip",
+    "enabled": false,
+    "version": 9
+  },
+  {
+    "id": "roofing",
+    "section": "roofing-strip",
+    "enabled": false,
+    "version": 11
+  },
+  {
+    "id": "restaurants-cafes-bakeries",
+    "section": "restaurants-cafes-bakeries-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "solar-energy",
+    "section": "solar-energy-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "ar-online-magazine",
+    "section": "online-magazine-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "ar-construction",
+    "section": "construction-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "legal",
+    "section": "legal-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "ar-small-business",
+    "section": "small-business-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "ar-event-coordinators",
+    "section": "event-coordinators-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "ar-real-estate",
+    "section": "real-estate-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "construction",
+    "section": "construction-strip",
+    "enabled": false,
+    "version": 8
+  },
+  {
+    "id": "event-coordinators",
+    "section": "event-coordinators-strip",
+    "enabled": false,
+    "version": 8
+  },
+  {
+    "id": "ar-e-commerce",
+    "section": "e-commerce-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "ar-fashion-and-lifestyle",
+    "section": "fashion-and-lifestyle-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "small-business",
+    "section": "small-business-strip",
+    "enabled": false,
+    "version": 8
+  },
+  {
+    "id": "ar-oil-and-gas",
+    "section": "oil-and-gas-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "real-estate",
+    "section": "real-estate-strip",
+    "enabled": false,
+    "version": 8
+  },
+  {
+    "id": "ar-legal",
+    "section": "legal-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "fashion-and-lifestyle",
+    "section": "fashion-and-lifestyle-strip",
+    "enabled": false,
+    "version": 8
+  },
+  {
+    "id": "e-commerce",
+    "section": "e-commerce-strip",
+    "enabled": false,
+    "version": 9
+  },
+  {
+    "id": "oil-and-gas",
+    "section": "oil-and-gas-strip",
+    "enabled": false,
+    "version": 9
+  },
+  {
+    "id": "healthcare",
+    "section": "healthcare-strip",
+    "enabled": false,
+    "version": 9
+  },
+  {
+    "id": "online-magazine",
+    "section": "online-magazine-strip",
+    "enabled": false,
+    "version": 9
+  },
+  {
+    "id": "ar-healthcare",
+    "section": "healthcare-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "ar-roofing",
+    "section": "roofing-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "ar-restaurants-cafes-bakeries",
+    "section": "restaurants-cafes-bakeries-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "ar-solar-energy",
+    "section": "solar-energy-strip",
+    "enabled": false,
+    "version": 7
+  },
+  {
+    "id": "ar-beauty-skincare-med-spa",
+    "section": "beauty-skincare-med-spa-strip",
+    "enabled": false,
+    "version": 7
+  }
+]

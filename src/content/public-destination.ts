@@ -1,3 +1,4 @@
+import { canonicalSiteHref } from "./url-hierarchy";
 /** Keep calls to contact on the live site attached to the working inquiry form. */
 export function publicDestination(value: string) {
   const path = value.trim();
@@ -9,5 +10,5 @@ export function publicDestination(value: string) {
   ) {
     return "/contact/#contact-form";
   }
-  return path;
+  return canonicalSiteHref(path);
 }

@@ -120,12 +120,6 @@ export function ServicesPage({
               return {
                 ...current,
                 ...item,
-                ...(content.localeId === "ar" && current
-                  ? {
-                      body: current.body,
-                      actionLabel: current.actionLabel,
-                    }
-                  : {}),
                 ...(current?.enabled === false ? { enabled: false } : {}),
               };
             }),
@@ -136,10 +130,11 @@ export function ServicesPage({
   const active = (items: ServiceItem[]) =>
     items.filter((i) => i.enabled !== false);
   const target = (path: string | null, id?: string) => {
-    const destination = (id ? servicePageDestination(id) : undefined) || path;
+    const known = id ? servicePageDestination(id) : undefined;
+    const destination = known || path;
     if (!destination) return undefined;
     const normalized = content.localeId === 'ar' ? localizedHref(publicDestination(destination)) : publicDestination(destination);
-    return normalized.replace(/^\/ar\//, '/') === "/contact/#contact-form" ||
+    return known || normalized.replace(/^\/ar\//, '/') === "/contact/#contact-form" ||
       availablePaths.includes(normalized)
       ? normalized
       : undefined;
@@ -211,9 +206,9 @@ export function ServicesPage({
             {active(priority.items).map((i, n) => (
               <article
                 key={i.id}
-                tabIndex={0}
                 aria-labelledby={i.id + "-title"}
               >
+                {target(i.destination,i.id) && <a className="rp-card-hit" href={target(i.destination,i.id)} aria-label={i.title} />}
                 <div className="rp-card-perspective">
                   <div className="rp-card-surface">
                     <div className="rp-card-frame">

@@ -1,11 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {caseStudyResponse} from '../src/server/public-case-study';
-import {conceptCaseStudies} from '../src/content/concept-case-studies';
+import {detailSlugs} from '../src/server/approved-case-detail';
 import {GET} from '../src/app/api/site-language/route';
 
-test('all 14 public case pages emit one breadcrumb, retain noindex, and use only the shared language slot',async()=>{
- for(const locale of ['en','ar'] as const)for(const slug of ['',...conceptCaseStudies.map(c=>c.slug)]){
+test('all 16 public case pages emit one breadcrumb, retain noindex, and use only the shared language slot',async()=>{
+ for(const locale of ['en','ar'] as const)for(const slug of ['',...detailSlugs]){
   const response=await caseStudyResponse(slug?[slug]:[],locale);
   const html=await response.text();
   const scripts=[...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g)].map(m=>JSON.parse(m[1]));
@@ -19,7 +19,7 @@ test('all 14 public case pages emit one breadcrumb, retain noindex, and use only
  }
 });
 test('shared language switch resolves the matching case and keeps the existing country rule',async()=>{
- for(const locale of ['en','ar'])for(const slug of ['',...conceptCaseStudies.map(c=>c.slug)]){
+ for(const locale of ['en','ar'])for(const slug of ['',...detailSlugs]){
   const suffix='/case-studies/'+(slug?slug+'/':'');
   const path=(locale==='ar'?'/ar':'')+suffix;
   const data=await (await GET(new Request('https://codeyea.com/api/site-language?path='+encodeURIComponent(path),{headers:{'x-vercel-ip-country':'IQ'}}))).json();

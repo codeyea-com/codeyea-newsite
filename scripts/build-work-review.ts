@@ -43,6 +43,7 @@ for (const slug of ["seo-geo", "brand-design", "ai-automation", "website-design"
     // Resolve those images against the local app, just like the exported markup.
     html = html.replace('</head>', `<script>(function(){function fix(){document.querySelectorAll('img[src^="/homepage/"],img[src^="/site/"],img[src^="/brand/"],img[src^="/api/site-assets/"]').forEach(function(img){img.src='${origin}'+img.getAttribute('src')})}new MutationObserver(fix).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['src']});document.addEventListener('DOMContentLoaded',fix)})();</script></head>`);
     const file = slug + "-" + locale + ".html";
+    html = html.replace(/<span class="cy-language-slot( cy-language-mobile)?"><\/span>/g,(_match,mobile='')=>`<span class="cy-language-slot${mobile}"><a href="http://127.0.0.1:3011/application-concepts/${slug}-${locale==='ar'?'en':'ar'}.html" lang="${locale==='ar'?'en':'ar'}">${locale==='ar'?'English':'العربية'}</a></span>`);
     await fs.writeFile(path.join(root, file), html);
     links.push(
       `<a href="${file}">${slug} · ${locale === "ar" ? "العربية" : "English"}</a>`,

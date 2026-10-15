@@ -1,4 +1,5 @@
 import 'server-only';
+import { canonicalSiteHref } from '@/content/url-hierarchy';
 import { db } from '@/server/db';
 import { documentPath } from '@/content/site-routes';
 import { siteOrigin } from '@/content/seo';
@@ -17,7 +18,7 @@ export async function documentAlternates(slug: string): Promise<Partial<Record<'
     const path = documentPath(slug, document.locale);
     const parsed = publication.safeParse(document.published);
     if (!path || !parsed.success || documentRobots(parsed.data.content, true).startsWith('noindex')) continue;
-    links[document.locale] = new URL(parsed.data.content.seo?.canonicalPath || path, siteOrigin).href;
+    links[document.locale] = new URL(canonicalSiteHref(parsed.data.content.seo?.canonicalPath || path), siteOrigin).href;
   }
   return links;
 }

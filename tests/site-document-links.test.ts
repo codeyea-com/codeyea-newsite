@@ -79,7 +79,7 @@ test('approved template initialization creates a private, noindex draft with edi
   const draft = templatePageDraft('ecommerce', html);
   assert.equal(draft.title, 'eCommerce');
   assert.equal(draft.content.seo?.index, false);
-  assert.equal(draft.content.seo?.canonicalPath, '/ecommerce/');
+  assert.equal(draft.content.seo?.canonicalPath, '/services/ecommerce/');
   assert.equal(draft.content.fields.some(field => field.value.includes('Launch a clearer online store')), true);
   assert.deepEqual(draft.content.images, [{ key: 'image-0', mediaId: '', alt: 'Product display', decorative: false }]);
 });

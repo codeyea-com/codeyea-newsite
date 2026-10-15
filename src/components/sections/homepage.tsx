@@ -317,9 +317,9 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
                   str(item.ctaHref) ||
                     (
                       {
-                        "technical-support": "/technical-support/",
-                        branding: "/brand-design/",
-                        ecommerce: "/ecommerce/",
+                        "technical-support": "/services/technical-support/",
+                        branding: "/services/brand-design/",
+                        ecommerce: "/services/ecommerce/",
                       } as Record<string, string>
                     )[str(item.id)] ||
                     "/services/",

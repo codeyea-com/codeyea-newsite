@@ -1,4 +1,5 @@
 import { industrySlugs, isIndustrySlug, cmsPageIds } from "./industry-registry";
+import { canonicalSiteHref } from "./url-hierarchy";
 export const documentSlugs = [
   "website-design",
   "brand-design",
@@ -48,7 +49,7 @@ export function documentPath(slug: string, locale = "en") {
     !["en", "ar"].includes(locale)
   )
     return null;
-  return `${locale === "ar" ? "/ar" : ""}/${slug}/`;
+  return canonicalSiteHref(`${locale === "ar" ? "/ar" : ""}/${slug}/`);
 }
 export const existingPageIds = cmsPageIds;
 /** Publicly available pages that editors may safely use as internal-link destinations. */

@@ -162,7 +162,7 @@ export function AboutShowcase({ section }: { section: AboutSection }) {
         media: item.media,
         destination:
           (/\p{Script=Arabic}/u.test(item.title) ? "/ar" : "") +
-          (["/seo-geo/", "/web-mobile-apps/", "/ecommerce/", "/ai-automation/"][
+          (["/services/seo-geo/", "/services/web-mobile-apps/", "/services/ecommerce/", "/services/ai-automation/"][
             item.position
           ] ?? "/services/"),
       }))
@@ -187,22 +187,7 @@ export function AboutShowcase({ section }: { section: AboutSection }) {
       if (!direction || !matchMedia("(min-width:1200px)").matches) return false;
       if (locked) return true;
       if (next < 0) return false;
-      if (next >= slides.length) {
-        const section = node.closest(".about-showcase"),
-          following = section?.nextElementSibling;
-        if (following) {
-          locked = true;
-          window.scrollTo({
-            top: window.scrollY + following.getBoundingClientRect().top - 96,
-            behavior: reduced.matches ? "instant" : "smooth",
-          });
-          timer = setTimeout(() => {
-            locked = false;
-          }, 1000);
-          return true;
-        }
-        return false;
-      }
+      if (next >= slides.length) return false;
       if (lastDirection !== direction) accumulated = 0;
       lastDirection = direction;
       accumulated += Math.abs(delta);

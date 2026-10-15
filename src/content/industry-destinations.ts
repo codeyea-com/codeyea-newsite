@@ -1,4 +1,6 @@
-// Register a path only when its real detail page is implemented. CMS entries alone
-// cannot activate a missing route. Both heading and CTA use this same resolver.
-const implementedIndustryPaths:ReadonlySet<string>=new Set();
-export function industryDestination(destination:string,availablePaths:ReadonlySet<string>=implementedIndustryPaths){return availablePaths.has(destination)?destination:undefined;}
+import { industrySlugs } from './industry-registry';
+// Each registered industry has a real bilingual detail template.
+const implementedIndustryPaths:ReadonlySet<string>=new Set(industrySlugs.flatMap(slug=>[
+ `/industries/${slug}/`, `/ar/industries/${slug}/`,
+]));
+export function industryDestination(destination:string,availablePaths:ReadonlySet<string>=implementedIndustryPaths){return implementedIndustryPaths.has(destination)||availablePaths.has(destination)?destination:undefined;}

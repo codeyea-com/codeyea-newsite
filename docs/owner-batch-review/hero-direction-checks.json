@@ -1,0 +1,194 @@
+[
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/website-design-ar.html",
+    "textDir": "rtl",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/brand-design-ar.html",
+    "textDir": "rtl",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/ecommerce-ar.html",
+    "textDir": "rtl",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/seo-geo-ar.html",
+    "textDir": "rtl",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/digital-marketing-ar.html",
+    "textDir": "rtl",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/web-mobile-apps-ar.html",
+    "textDir": "rtl",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/ai-automation-ar.html",
+    "textDir": "rtl",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/technical-support-ar.html",
+    "textDir": "rtl",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/website-hosting-ar.html",
+    "textDir": "rtl",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/wordpress-hosting-ar.html",
+    "textDir": "rtl",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/cloud-hosting-ar.html",
+    "textDir": "rtl",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/email-hosting-ar.html",
+    "textDir": "rtl",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/website-design-en.html",
+    "textDir": "ltr",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/brand-design-en.html",
+    "textDir": "ltr",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/ecommerce-en.html",
+    "textDir": "ltr",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/seo-geo-en.html",
+    "textDir": "ltr",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/digital-marketing-en.html",
+    "textDir": "ltr",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/web-mobile-apps-en.html",
+    "textDir": "ltr",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/ai-automation-en.html",
+    "textDir": "ltr",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/technical-support-en.html",
+    "textDir": "ltr",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/website-hosting-en.html",
+    "textDir": "ltr",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/wordpress-hosting-en.html",
+    "textDir": "ltr",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/cloud-hosting-en.html",
+    "textDir": "ltr",
+    "transform": "none",
+    "width": 1422
+  },
+  {
+    "dir": "ltr",
+    "overflow": 1405,
+    "page": "http://127.0.0.1:3011/application-concepts/email-hosting-en.html",
+    "textDir": "ltr",
+    "transform": "none",
+    "width": 1422
+  }
+]

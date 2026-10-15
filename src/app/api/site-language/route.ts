@@ -1,22 +1,23 @@
 import { db } from "@/server/db";
+import { canonicalSiteHref } from "@/content/url-hierarchy";
 import { documentSlugs } from "@/content/site-routes";
 import { languageSwitchAllowed } from "@/content/site-language";
 import { snapshotSchema } from "@/schemas/content";
 import { noStore } from "@/server/http";
-import { conceptCaseStudy } from "@/content/concept-case-studies";
+import { isCaseDetail } from "@/server/approved-case-detail";
 export async function GET(request: Request) {
   const country = request.headers.get("x-vercel-ip-country");
   if (!languageSwitchAllowed(country))
     return Response.json({ enabled: false }, { headers: noStore });
-  const path = new URL(request.url).searchParams.get("path") || "/";
+  const path = canonicalSiteHref(new URL(request.url).searchParams.get("path") || "/");
   const english = path.replace(/^\/ar(?=\/|$)/, "") || "/";
   const target = "/ar" + (english.startsWith("/") ? english : "/" + english);
-  const slug = english.replace(/^\/+|\/+$/g, "");
+  const slug = english.replace(/^\/+|\/+$/g, "").replace(/^services\//, "");
   let available = false;
   if (slug === 'case-studies' || /^case-studies\/[^/]+$/.test(slug)) {
     // These bilingual pages are rendered from the public case catalogue, not CMS publications.
     return Response.json({
-      enabled: slug === 'case-studies' || !!conceptCaseStudy(slug.slice('case-studies/'.length)),
+      enabled: slug === 'case-studies' || isCaseDetail(slug.slice('case-studies/'.length)),
       href: /^\/ar(?:\/|$)/.test(path) ? english : target,
       label: /^\/ar(?:\/|$)/.test(path) ? 'English' : 'العربية',
     }, {headers:noStore});

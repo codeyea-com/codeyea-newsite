@@ -28,9 +28,10 @@ export function IndustriesMotion(){
     active.forEach(section=>{
      const media=section.querySelector<HTMLElement>('.industry-images')!;
      const box=media.getBoundingClientRect();
-     const progress=Math.max(0,Math.min(1,(innerHeight-box.top)/(innerHeight+box.height)));
-     // Scroll down moves the photograph up within its stationary clipping frame.
-     media.querySelector('img')?.style.setProperty('--industry-image-y',`${scrollImageOffset(box.top,box.height,innerHeight)}px`);
+     // Preserve the reference's 1.2 scale and upward-to-downward movement.
+     // Travel stays within the image's overscan so no empty edge can appear.
+     const travel=Math.min(120,Math.max(0,box.height*.1-1));
+     media.querySelector('img')?.style.setProperty('--industry-image-y',`${-scrollImageOffset(box.top,box.height,innerHeight,travel)}px`);
     });
    };
    const schedule=()=>{if(!frame&&!document.hidden&&active.size)frame=requestAnimationFrame(paint)};

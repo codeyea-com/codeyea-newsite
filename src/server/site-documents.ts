@@ -1,6 +1,7 @@
 import { serviceArtwork, serviceArtworkTag } from '../content/generated-service-artwork';
 import {generalArtwork} from '../content/generated-general-artwork';
-import { contextualLink } from "@/content/contextual-links";
+import { canonicalHtmlLinks } from "@/content/url-hierarchy";
+import { contextualLinks } from "@/content/contextual-links";
 import { renderIllustrativeWork } from './illustrative-work-render';
 import { renderWebsiteCustomCms } from './website-custom-cms-render';
 import arabicTemplateCopy from "@/content/arabic-template-copy.json";
@@ -956,7 +957,7 @@ export async function renderDocument(
     html = html.replace("</head>", revealStyle + "</head>");
   }
   html = html
-    .replaceAll("/brand/logo-dark.png", "/brand/logo-animated-dark.svg")
+    .replaceAll("/brand/logo-animated-dark.svg", "/brand/logo-animated-dark.svg")
     .replaceAll("/brand/logo-light.png", "/brand/logo-animated-light.svg");
   html = html.replace(
     "</head>",
@@ -1017,25 +1018,16 @@ export async function renderDocument(
   html = html
     .replace(
       "</head>",
-      '<link rel="stylesheet" href="/site/post-launch.css"><link rel="stylesheet" href="/site/owner-review.css"><link rel="stylesheet" href="/api/site-typography"></head>',
+      '<link rel="stylesheet" href="/site/post-launch.css"><link rel="stylesheet" href="/site/owner-review.css"><link rel="stylesheet" href="/api/site-typography"><link rel="stylesheet" href="/site/owner-batch.css"></head>',
     )
     .replace("</body>", '<script src="/site/post-launch.js"></script></body>');
   html = html.replace(
     /(<(?:script|style)\b[^>]*>[\s\S]*?<\/(?:script|style)>)|(<p\b[^>]*>)([^<>]+)(<\/p>)/gi,
     (all, protectedBlock, start, text, end) => {
       if (protectedBlock) return all;
-      const link = contextualLink(text);
-      return link
-        ? start +
-            link.before +
-            '<a class="cy-context-link" href="' +
-            link.href +
-            '">' +
-            link.label +
-            "</a>" +
-            link.after +
-            end
-        : all;
+      return start + contextualLinks(text).map(part => part.href
+        ? '<a class="cy-context-link" href="' + part.href + '">' + part.text + '</a>'
+        : part.text).join('') + end;
     },
   );
   html = applyAssetControls(html, content.controls);
@@ -1179,7 +1171,7 @@ export async function renderDocument(
   if (html.includes('data-generated-desktop=')) {
       const contactArt=slug==='contact'?generalArtwork('contact/hero'):undefined;
       if(contactArt&&html.includes('data-generated-desktop="'+contactArt.src+'"')){
-        html=html.replace('<div class="ct-hero-image">','<div class="ct-hero-image"><span class="general-brand-plaque"><img src="/brand/logo-dark.png" alt="CODEYEA" width="1204" height="274"></span>');
+        html=html.replace('<div class="ct-hero-image">','<div class="ct-hero-image"><span class="general-brand-plaque"><img src="/brand/logo-animated-dark.svg" alt="CODEYEA" width="1204" height="274"></span>');
         html=html.replace('</head>','<link rel="stylesheet" href="/site/general-artwork.css"><style>.ct-hero-image{position:relative}</style></head>');
       }
     html = html.replace('</head>', '<style>img[data-generated-open]{object-fit:contain!important;box-shadow:none!important}</style></head>');
@@ -1191,7 +1183,7 @@ export async function renderDocument(
       protectedBlock ? all : (text || tag).replaceAll("\u2014", ", "),
   );
   html = renderWebsiteCustomCms(html, slug, locale, contactHref);
-  return html;
+  return canonicalHtmlLinks(html);
 }
 function slugTitle(slug: string) {
   return slug

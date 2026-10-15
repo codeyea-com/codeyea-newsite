@@ -1,3 +1,4 @@
+import { canonicalSiteHref } from "./url-hierarchy";
 export const arabicNavigation: Record<string, string> = {
   "About Us": "عن كوديا",
   Services: "الخدمات",
@@ -67,7 +68,7 @@ export const arabicNavigation: Record<string, string> = {
 };
 export function localizedHref(href: string, preview = false): string {
   if (!href.startsWith("/") || href.startsWith("//")) return href;
-  const url = new URL(href, "https://local.invalid");
+  const url = new URL(canonicalSiteHref(href), "https://local.invalid");
   if (/^\/(?:ar\/|preview\/)?case-studies(?:\/|$)/.test(url.pathname)) {
     const suffix = url.pathname.replace(
       /^\/(?:ar\/|preview\/)?case-studies/,
@@ -85,9 +86,12 @@ export function localizedHref(href: string, preview = false): string {
   )
     return href;
   if (/^\/ar(?:\/|$)/.test(url.pathname)) {
-    if (!preview) return href;
+    if (!preview) return url.pathname + url.search + url.hash;
     const slug = url.pathname.replace(/^\/ar\/?/, "").replace(/\/$/, "");
-    if (!slug || /^(about|services|industries)(?:\/|$)/.test(slug))
+    if (slug.startsWith("services/")) {
+      url.pathname = "/preview/pages/" + slug.slice(9);
+      url.searchParams.set("locale", "ar");
+    } else if (!slug || /^(about|services|industries)(?:\/|$)/.test(slug))
       url.pathname = "/preview/ar/" + slug;
     else {
       url.pathname = "/preview/pages/" + slug;

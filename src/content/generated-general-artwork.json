@@ -141,12 +141,14 @@
     }
   },
   "industries/industry-small-business": {
-    "src": "/site/generated/general/industries/industry-small-business-v2-desktop.webp",
+    "src": "/site/generated/general/industries/industry-small-business-v3-desktop.webp",
     "expectedMediaId": "media_7744f88d-d486-443f-80bf-713dd21e0234",
     "alt": {
-      "en": "Independent bicycle workshop owner repairing a customer's bicycle",
-      "ar": "صاحب ورشة صغيرة يعمل على إصلاح دراجة أحد العملاء"
-    }
+      "en": "Small-business owner pouring scented candles in her workshop",
+      "ar": "صاحبة مشروع صغير تصنع شموعاً معطّرة داخل ورشتها"
+    },
+    "tabletSrc": "/site/generated/general/industries/industry-small-business-v3-tablet.webp",
+    "mobileSrc": "/site/generated/general/industries/industry-small-business-v3-mobile.webp"
   },
   "industries/industry-event-coordinators": {
     "src": "/site/generated/general/industries/industry-event-coordinators-v1-desktop.webp",

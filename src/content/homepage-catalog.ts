@@ -54,7 +54,7 @@ export function homepageCatalog(locale: CaseLocale, projects: EditorObject) {
       body: ar ? service.bodyAr : service.body,
       icon: service.label,
       ctaLabel: ar ? "اعرف المزيد" : "Learn More",
-      ctaHref: `${prefix}/${slug}/`,
+      ctaHref: `${prefix}/services/${slug}/`,
     };
   });
   const industries = industryOrder.map((slug) => {

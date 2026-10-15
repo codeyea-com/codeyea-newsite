@@ -27,10 +27,10 @@ export function AboutProjectField({ section }: { section: AboutSection }) {
   const arabic = /\p{Script=Arabic}/u.test(section.heading);
   const descriptions = aboutCapabilityDescriptions(arabic);
   const destinations = [
-    "/digital-marketing/",
-    "/web-mobile-apps/",
-    "/ecommerce/",
-    "/ai-automation/",
+    "/services/digital-marketing/",
+    "/services/web-mobile-apps/",
+    "/services/ecommerce/",
+    "/services/ai-automation/",
   ];
   const itemCopy = (index: number) => ({
     title: items[index]?.title ?? section.heading,

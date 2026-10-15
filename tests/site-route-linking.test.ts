@@ -19,11 +19,11 @@ test('published CMS template pages join main pages as eligible internal-link tar
     ],
   });
   for (const route of [
-    '/', '/industries/roofing/', '/website-design/', '/website-hosting/',
-    '/contact/', '/technical-support/', '/industries/healthcare/',
+    '/', '/industries/roofing/', '/services/website-design/', '/website-hosting/',
+    '/contact/', '/services/technical-support/', '/industries/healthcare/',
     '/industries/construction/',
   ]) assert.ok(routes.includes(route), `expected ${route} to be linkable`);
-  assert.ok(routes.includes('/ar/website-design/'));
+  assert.ok(routes.includes('/ar/services/website-design/'));
   assert.ok(!routes.includes('/private-post/'));
 });
 

@@ -8,6 +8,7 @@ import {
 import {
   renderConceptCaseStudy,
   renderConceptCaseIndex,
+  renderIraqHomeExpo,
 } from "../src/server/concept-case-study-render";
 
 test("all six scenarios retain five stages, three comparable outcomes and 36 distinct images", async () => {
@@ -56,6 +57,10 @@ test("each locale renders ordered stages, concept disclosures, localised navigat
         "no service schema or invented client reviews",
       );
       assert.ok(html.includes("window.CODEYEA_LEADS_ENABLED=false"));
+      assert.ok(html.includes('class="case-detail"'));
+      assert.ok(html.includes('/site/case-detail.js'));
+      assert.doesNotMatch(html, /<dl class="metadata"/);
+      assert.ok(html.includes('single-image'), 'owner chose one cover for illustrative projects');
       assert.ok(html.includes("function commerceMotion()"));
       assert.ok(html.includes("duration:1300,delay:i*130"));
       assert.ok(
@@ -85,6 +90,19 @@ test("each locale renders ordered stages, concept disclosures, localised navigat
         assert.ok(!html.includes("Have a project in mind?"));
       }
     }
+});
+
+test('Iraq Home Expo alone retains real-project metadata and its three-image gallery',async()=>{
+  for(const locale of ['ar','en'] as const){
+    const html=await renderIraqHomeExpo(locale);
+    assert.ok(html.includes('<dl class="metadata">'));
+    assert.ok(html.includes('https://iraqhomeexpo.com'));
+    assert.equal((html.match(/class="slide"/g)||[]).length,3);
+    assert.ok(!html.includes(conceptDisclosure[locale]));
+    assert.ok(html.includes('class="case-cta"'));
+    assert.ok(html.includes('data-quote-open'));
+    assert.ok(html.includes(locale==='ar'?'كوديا: الفكرة والإشراف الإبداعي':'CODEYEA: concept and creative supervision'));
+  }
 });
 
 test("private index links to all six scenarios in each locale", async () => {
