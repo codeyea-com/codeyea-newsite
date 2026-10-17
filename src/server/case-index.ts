@@ -1,11 +1,11 @@
-import {conceptCaseStudies, type CaseLocale} from '../content/concept-case-studies';
+import type {CaseLocale} from '../content/concept-case-studies';
+import {caseStudyCards} from '../content/case-study-catalog';
 import {completeServiceOrder, serviceBySlug} from '../content/service-catalog';
 import type {CaseRenderLinks} from './concept-case-study-render';
 const esc = (s:string) => s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]!));
 export function caseIndexMain(locale:CaseLocale, links:CaseRenderLinks) {
  const ar=locale==='ar', prefix=ar?'/ar':'';
- const cards=[{slug:'iraq-home-expo',name:'Iraq Home Expo',title:ar?'هوية المعرض وبوابته الرقمية':'Exhibition identity & digital gateway',image:'/site/generated/case-studies/iraq-home-expo/hero-wide.png',category:'branding web',concept:false},
- ...conceptCaseStudies.map(c=>({slug:c.slug,name:c[locale].name,title:c[locale].title,image:c.images[0].src,category:[/brand/i.test(c.en.services)?'branding':'',/website|web app|portal|mobile|SaaS/i.test(c.en.services)?'web':'',/automat/i.test(c.en.services)?'automation':''].filter(Boolean).join(' '),concept:true}))];
+ const cards=caseStudyCards(locale);
  const filters=[['all',ar?'الكل':'All'],['branding',ar?'الهوية والتصميم':'Branding'],['web',ar?'المواقع والتطبيقات':'Web & Apps'],['automation',ar?'الذكاء الاصطناعي والأتمتة':'AI & Automation']];
  return `<section class="case-index-head"><p class="b-eyebrow">${ar?'مشاريع مختارة':'Selected projects'}</p><h1>${ar?'أفكار تتحوّل إلى<br>تجارب رقمية.':'Ideas become<br>digital experiences.'}</h1><p>${ar?'اكتشف رحلة عراق هوم إكسبو، وست دراسات توضيحية تعرض مراحل العمل والنتائج الافتراضية.':'Explore Iraq Home Expo and six illustrative studies of the design process and simulated outcomes.'}</p></section>
  <section class="case-index-work"><div class="case-filter" role="group" aria-label="${ar?'تصنيف المشاريع':'Project categories'}">${filters.map(([id,label])=>`<button type="button" data-filter="${id}" aria-pressed="${id==='all'}">${label}</button>`).join('')}</div><div class="case-index-grid">${cards.map(c=>`<article data-category="${c.category}"><a class="case-index-link" href="${esc(links.detail(c.slug,locale))}" aria-label="${esc(c.name)}"><figure><img src="${c.image}" alt="${esc(c.title)}" width="1440" height="1080" loading="lazy"></figure><div class="case-card-caption"><span>${c.concept?(ar?'دراسة توضيحية':'Illustrative concept'):(ar?'مشروع عميل':'Client project')}</span><h2>${esc(c.name)}</h2><p>${esc(c.title)}</p></div><span class="case-card-arrow" aria-hidden="true">${ar?"معاينة ↗":"View ↗"}</span></a></article>`).join('')}</div><p class="case-index-note">${ar?'دراسات المشاريع التوضيحية افتراضية، والمقارنات فيها محاكاة وليست نتائج موثقة لعملاء.':'Illustrative projects are fictional; their comparisons are simulated rather than verified client results.'}</p></section>

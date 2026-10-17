@@ -25,7 +25,7 @@ export const arabicTypographySchema = z.object({
 });
 export type ArabicTypography = z.infer<typeof arabicTypographySchema>;
 export function arabicTypographyCss(value: ArabicTypography) {
-  const pageText = ":not(:where(.internal-hero-media *, .internal-hero-brand))";
+  const pageText = ":not(:where(.internal-hero-media *, .internal-hero-brand, .hp-services-hero *))";
   const root = 'html[lang="ar"] .hp.public-surface';
   return `${root}{--ar-h1:${value.h1};--ar-h2:${value.h2};--ar-h3:${value.h3};--ar-body:${value.body};--ar-navigation:${value.navigation};--ar-buttons:${value.buttons};}
  ${root} h1${pageText}{font-weight:var(--ar-h1)!important}

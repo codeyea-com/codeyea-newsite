@@ -13,6 +13,8 @@ import { serviceCatalog } from "../src/content/service-catalog";
 import { industrySlugs } from "../src/content/industry-registry";
 import { generalArtwork } from "../src/content/generated-general-artwork";
 import { conceptCaseStudies } from "../src/content/concept-case-studies";
+import { caseStudyCards } from "../src/content/case-study-catalog";
+import { caseIndexMain } from "../src/server/case-index";
 import { homepageEditorSchema } from "../src/schemas/homepage-editor";
 import { caseStudyResponse } from "../src/server/public-case-study";
 import { localizedHref } from "../src/content/arabic-navigation";
@@ -63,21 +65,33 @@ test("homepage lists match the canonical services, industries and new images in 
   }
 });
 
-test("six concept cards link to their corresponding illustrated article and keep the existing intro", () => {
+test("Iraq Home Expo leads the Homepage and directory, followed by the six concept cards", () => {
   for (const locale of ["en", "ar"] as const) {
     const home = resolveHomepage(defaultHomepage(locale)),
       catalog = homepageCatalog(locale, home.projects);
-    assert.equal(catalog.projects.length, 6);
+    const cards = caseStudyCards(locale);
+    assert.equal(catalog.projects.length, 7);
+    assert.equal(catalog.projects[0].id, "iraq-home-expo");
+    assert.equal(cards[0].concept, false);
+    assert.deepEqual(catalog.projects.map((item) => item.id), cards.map((item) => item.slug));
+    assert.equal(catalog.projects[0].href, caseStudyHref(locale, "iraq-home-expo"));
+    assert.ok(fs.existsSync("public" + catalog.projects[0].image));
+    const directory = caseIndexMain(locale, {
+      detail: (slug, language) => caseStudyHref(language, slug),
+      index: (language) => caseStudyHref(language),
+    });
+    const directoryLinks = [...directory.matchAll(/class="case-index-link" href="([^"]+)"/g)].map((match) => match[1]);
+    assert.deepEqual(directoryLinks, catalog.projects.map((item) => item.href));
     conceptCaseStudies.forEach((item, i) => {
-      assert.equal(catalog.projects[i].href, caseStudyHref(locale, item.slug));
-      assert.equal(catalog.projects[i].image, item.images[0].src);
-      assert.equal(catalog.projects[i].title, item[locale].name);
+      assert.equal(catalog.projects[i + 1].href, caseStudyHref(locale, item.slug));
+      assert.equal(catalog.projects[i + 1].image, item.images[0].src);
+      assert.equal(catalog.projects[i + 1].title, item[locale].name);
     });
     assert.equal(catalog.projectIntro.heading, home.projects.heading);
     assert.equal(catalog.projectIntro.eyebrow, home.projects.eyebrow);
     assert.match(
       String(catalog.projectIntro.disclosure),
-      locale === "ar" ? /افتراضية/ : /Concept/,
+      locale === "ar" ? /افتراضية/ : /concept/i,
     );
     assert.equal(catalog.projectIntro.ctaHref, caseStudyHref(locale));
     assert.ok(

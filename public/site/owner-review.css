@@ -95,7 +95,7 @@ html[lang="ar"] .cy-arrow-control:is(:hover, :focus-visible) .cy-button-arrow {
 }
 .hp.public-surface
   :is(input, textarea, select):not(
-    :where(.internal-hero-media *, .internal-hero-brand)
+    :where(.internal-hero-media *, .internal-hero-brand, .hp-services-hero *)
   ) {
   transition:
     color 0.25s,
@@ -103,7 +103,7 @@ html[lang="ar"] .cy-arrow-control:is(:hover, :focus-visible) .cy-button-arrow {
 }
 .hp.public-surface
   :is(input, textarea, select):is(:hover, :focus):not(
-    :where(.internal-hero-media *, .internal-hero-brand)
+    :where(.internal-hero-media *, .internal-hero-brand, .hp-services-hero *)
   ) {
   color: #e0144c !important;
   border-color: #e0144c !important;
@@ -152,7 +152,7 @@ html[lang="ar"] .hp.public-surface {
 html[lang="ar"]
   .hp.public-surface
   :is(p, li, input, textarea, select):not(
-    :where(.internal-hero-media *, .internal-hero-brand)
+    :where(.internal-hero-media *, .internal-hero-brand, .hp-services-hero *)
   ) {
   font-weight: 400;
   line-height: 1.85;
@@ -161,7 +161,7 @@ html[lang="ar"]
 }
 html[lang="ar"]
   .hp.public-surface
-  :is(h1, h2):not(:where(.internal-hero-media *, .internal-hero-brand)) {
+  :is(h1, h2):not(:where(.internal-hero-media *, .internal-hero-brand, .hp-services-hero *)) {
   font-weight: 600;
   line-height: 1.45;
   letter-spacing: 0 !important;
@@ -169,17 +169,17 @@ html[lang="ar"]
 }
 html[lang="ar"]
   .hp.public-surface
-  h1:not(:where(.internal-hero-media *, .internal-hero-brand)) {
+  h1:not(:where(.internal-hero-media *, .internal-hero-brand, .hp-services-hero *)) {
   font-size: clamp(34px, 4.2vw, 58px);
 }
 html[lang="ar"]
   .hp.public-surface
-  h2:not(:where(.internal-hero-media *, .internal-hero-brand)) {
+  h2:not(:where(.internal-hero-media *, .internal-hero-brand, .hp-services-hero *)) {
   font-size: clamp(27px, 3vw, 40px);
 }
 html[lang="ar"]
   .hp.public-surface
-  h3:not(:where(.internal-hero-media *, .internal-hero-brand)) {
+  h3:not(:where(.internal-hero-media *, .internal-hero-brand, .hp-services-hero *)) {
   font-size: 22px;
   font-weight: 500;
   line-height: 1.55;
@@ -187,7 +187,7 @@ html[lang="ar"]
 html[lang="ar"]
   .hp.public-surface
   :is(.hp-eyebrow, .about-label, .rf-kicker, .v-label):not(
-    :where(.internal-hero-media *, .internal-hero-brand)
+    :where(.internal-hero-media *, .internal-hero-brand, .hp-services-hero *)
   ) {
   font-size: 12px;
   font-weight: 500;
@@ -555,7 +555,7 @@ html[lang="ar"]
     textarea,
     select,
     .hp-positioning-body
-  ):not(:where(.internal-hero-media *, .internal-hero-brand)) {
+  ):not(:where(.internal-hero-media *, .internal-hero-brand, .hp-services-hero *)) {
   direction: rtl;
   text-align: right;
   letter-spacing: 0 !important;
@@ -567,7 +567,7 @@ html[lang="ar"]
     input[type="email"],
     input[type="url"],
     input[type="number"]
-  ):not(:where(.internal-hero-media *, .internal-hero-brand)) {
+  ):not(:where(.internal-hero-media *, .internal-hero-brand, .hp-services-hero *)) {
   direction: ltr;
   text-align: right;
   unicode-bidi: plaintext;

@@ -11,11 +11,11 @@ import "@/styles/homepage-editorial.css";
 import { HomepageHeader } from "./homepage-header";
 import { SiteUtility } from "./site-utility";
 import { HomepageHosting } from "./homepage-hosting";
+import { HomepageServicesHero } from "./homepage-services-hero";
 import {
   Carousel,
   ServiceFlow,
   HomepageMotion,
-  WordRotator,
 } from "./homepage-interactions";
 import type { Snapshot } from "@/schemas/content";
 import { publicDestination } from "@/content/public-destination";
@@ -74,40 +74,7 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
       <SiteUtility />
       <HomepageHeader content={home.header} />
       <main id="main">
-        {hero.enabled !== false && (
-          <section id="top" className="hp-hero">
-            <div className="hp-container hp-hero-inner">
-              <div className="hp-hero-copy">
-                <p className="hp-eyebrow">
-                  CODEYEA · DIGITAL INNOVATION AGENCY
-                </p>
-                <h1>
-                  {str(hero.prefix)}{" "}
-                  <WordRotator
-                    words={enabledItems(hero.words).map((word) =>
-                      str(word.title),
-                    )}
-                  />
-                </h1>
-                <p>{str(hero.body)}</p>
-                <a
-                  className="hp-button hp-button-light"
-                  href={destination(str(hero.ctaHref))}
-                >
-                  {str(hero.ctaLabel)} <span aria-hidden="true">→</span>
-                </a>
-              </div>
-              <div className="hp-hero-art">
-                <img
-                  {...mediaProps(hero.media)}
-                  width="1600"
-                  height="750"
-                  fetchPriority="high"
-                />
-              </div>
-            </div>
-          </section>
-        )}
+        {hero.enabled !== false && <HomepageServicesHero arabic={arabic} />}
         {home.logos.enabled !== false && (
           <section
             className="hp-clients hp-container"
@@ -249,10 +216,13 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
         )}
         {experience.enabled !== false && experience.approved === true && (
           <section
+            id="experience"
             className="hp-experience"
             aria-labelledby="experience-title"
             style={{
               backgroundImage: `url("${mediaProps(experience.media).src}")`,
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
               backgroundPosition: mediaProps(experience.media).style
                 .objectPosition,
             }}
@@ -329,7 +299,7 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
           </section>
         )}
         {home.hosting.enabled !== false && home.hosting.approved === true && (
-          <HomepageHosting content={home.hosting} />
+          <HomepageHosting content={home.hosting} arabic={arabic} />
         )}
         {home.projects.enabled !== false && catalog.projects.length > 0 && (
           <section

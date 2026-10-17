@@ -211,7 +211,7 @@ export function ServiceFlow({ panels }: { panels: FlowPanel[] }) {
 export function HomepageMotion() {
   useEffect(() => {
     const root = document.querySelector<HTMLElement>(".hp");
-    const hero = document.querySelector(".hp-hero, .hp-morph-hero");
+    const hero = document.querySelector(".hp-services-hero");
     const header = document.querySelector(".hp-header");
     if (!root || !hero) return;
     const reduce = matchMedia("(prefers-reduced-motion: reduce)");

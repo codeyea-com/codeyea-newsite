@@ -28,7 +28,7 @@
 .hp.public-surface .general-brand-plaque{box-shadow:0 22px 48px #071b3952,0 6px 14px #071b3924;transform:translateY(var(--plaque-y,0px));will-change:transform}
 
 /* Text flow is separate from the coordinate system used by animated artwork. */
-html[lang=ar] .hp.public-surface :is(h1,h2,h3,h4,h5,h6,p,li,summary,label){direction:rtl;unicode-bidi:isolate}
+html[lang=ar] .hp.public-surface :is(h1,h2,h3,h4,h5,h6,p,li,summary,label):not(:where(.hp-services-hero *)){direction:rtl;unicode-bidi:isolate}
 html[lang=ar] .hp.public-surface :is(.industries-introduction-heading,.industries-introduction-copy){min-width:0;padding-inline:0}
 html[lang=ar] .hp.public-surface .industries-introduction h2{max-width:100%;white-space:normal;overflow-wrap:normal}
 html[lang=ar] .hp.public-surface :is(code,pre,.browser-address,.site-url,.d-address,.art-code code){direction:ltr;unicode-bidi:isolate;text-align:left}

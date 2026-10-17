@@ -1,6 +1,7 @@
 import { arabicNavigation } from "./arabic-navigation";
 import { arabicIndustryProfiles } from "./arabic-industry-profiles";
-import { conceptCaseStudies, type CaseLocale } from "./concept-case-studies";
+import type { CaseLocale } from "./concept-case-studies";
+import { caseStudyCards } from "./case-study-catalog";
 import { generalArtwork } from "./generated-general-artwork";
 import { defaultIndustries } from "./industries-defaults";
 import {
@@ -77,6 +78,7 @@ export function homepageCatalog(locale: CaseLocale, projects: EditorObject) {
   });
   const categories: Record<string, string> = ar
     ? {
+        "iraq-home-expo": "التصميم,التطوير",
         "velora-skin-clinic": "التصميم",
         "madar-solar": "التطوير",
         "tradebridge-expo": "التطوير",
@@ -85,6 +87,7 @@ export function homepageCatalog(locale: CaseLocale, projects: EditorObject) {
         "mada-developments": "التصميم,التطوير",
       }
     : {
+        "iraq-home-expo": "Design,Development",
         "velora-skin-clinic": "Design",
         "madar-solar": "Development",
         "tradebridge-expo": "Development",
@@ -92,13 +95,13 @@ export function homepageCatalog(locale: CaseLocale, projects: EditorObject) {
         "safa-clinics": "Development,Automation",
         "mada-developments": "Design,Development",
       };
-  const cases = conceptCaseStudies.map((item) => ({
+  const cases = caseStudyCards(locale).map((item) => ({
     id: item.slug,
-    title: item[locale].name,
-    body: item[locale].title,
+    title: item.name,
+    body: item.title,
     category: categories[item.slug],
-    image: item.images[0].src,
-    alt: `${item[locale].name}: ${item[locale].title}`,
+    image: item.image,
+    alt: `${item.name}: ${item.title}`,
     focal: "50% 50%",
     href: caseStudyHref(locale, item.slug),
   }));
@@ -121,8 +124,8 @@ export function homepageCatalog(locale: CaseLocale, projects: EditorObject) {
     ...projects,
     ctaHref: caseStudyHref(locale),
     disclosure: ar
-      ? "دراسات حالة افتراضية بمراحل مصوّرة ونتائج محاكاة."
-      : "Concept case studies with illustrated stages and simulated results.",
+      ? "مشروع عراق هوم إكسبو، إلى جانب دراسات حالة افتراضية بمراحل مصوّرة ونتائج محاكاة."
+      : "Iraq Home Expo, alongside concept case studies with illustrated stages and simulated results.",
   };
   return {
     services,

@@ -50,7 +50,7 @@
     strong,
     small,
     em
-  ) {
+  ):not(:where(.hp-services-hero *)) {
   font-family: var(--font-body);
 }
 .hp.public-surface .hp-header.is-scrolled {
@@ -507,7 +507,7 @@
   direction: rtl;
   text-align: right;
 }
-.cy-arabic-surface .hp :is(p, h1, h2, h3, h4, h5, h6, summary) {
+.cy-arabic-surface .hp :is(p, h1, h2, h3, h4, h5, h6, summary):not(:where(.hp-services-hero *)) {
   letter-spacing: normal !important;
 }
 .cy-arabic-surface
@@ -531,7 +531,7 @@
 .cy-arabic-surface .hp-word-window {
   direction: rtl;
 }
-html[lang="ar"] .hp :is(p, h1, h2, h3, h4, h5, h6, summary) {
+html[lang="ar"] .hp :is(p, h1, h2, h3, h4, h5, h6, summary):not(:where(.hp-services-hero *)) {
   letter-spacing: normal !important;
 }
 html[lang="ar"] .hp .cy-faq-question {
@@ -559,8 +559,8 @@ html[lang="ar"] .hp.public-surface,
   --font-body: "Readex Pro", sans-serif;
   font-family: var(--font-body);
 }
-html[lang="ar"] .hp :is(h1,h2,h3,h4,h5,h6,p,a,button,input,textarea,select,summary,table,label,legend,span,strong,small,em),
-.cy-arabic-surface .hp :is(h1,h2,h3,h4,h5,h6,p,a,button,input,textarea,select,summary,table,label,legend,span,strong,small,em),
+html[lang="ar"] .hp :is(h1,h2,h3,h4,h5,h6,p,a,button,input,textarea,select,summary,table,label,legend,span,strong,small,em):not(:where(.hp-services-hero *)),
+.cy-arabic-surface .hp :is(h1,h2,h3,h4,h5,h6,p,a,button,input,textarea,select,summary,table,label,legend,span,strong,small,em):not(:where(.hp-services-hero *)),
 html[lang="ar"] #cq-dialog,
 html[lang="ar"] #cq-dialog :is(h2,h3,p,a,label,legend,input,textarea,select,button,span,strong,small,em) {
   font-family: "Readex Pro", sans-serif !important;
