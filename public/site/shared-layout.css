@@ -27,7 +27,7 @@
 .hp.public-surface .hero-art-box { height: 100%; position: relative; overflow: hidden; }
 .hp.public-surface .internal-hero-media > img { display: block; width: 100%; }
 /* New photographs compose a naturally light upper area for the overlapping title. */
-.hp.public-surface .internal-hero-media img[src*="/hero-light-"] { object-position: 50% 0% !important; }
+.hp.public-surface .internal-hero-media img[src*="/hero-light-"] { object-position: 50% 50% !important; }
 .hp.public-surface :is(.brand-concept, .ecom-concept) { padding-inline: calc((100% - var(--page-content-width)) / 2) !important; }
 .hp.public-surface :is(.brand-stage, .ecom-stage) { max-width: 100%; }
 .hp.public-surface .industry-section, .hp.public-surface .industries-final { width: var(--page-content-width); margin-inline: auto; }

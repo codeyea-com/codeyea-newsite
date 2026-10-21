@@ -1,3 +1,4 @@
+import {refineArabicIndustryCopy} from '@/content/arabic-industry-refinements';
 import { ContextualCopy } from "./contextual-copy";
 import {withGeneratedIndustryMedia} from '@/content/generated-industry-media';
 import {synchronizeIndustryServices} from '@/content/synchronized-service-lists';
@@ -78,7 +79,7 @@ export function IndustryDetailPage({
   availablePaths?: string[];
 }) {
   const home = resolveHomepage(shared);
-  content = withGeneratedIndustryMedia(synchronizeIndustryServices(content));
+  content = withGeneratedIndustryMedia(synchronizeIndustryServices(refineArabicIndustryCopy(content)));
   function href(destination: string) {
     const normalized = publicDestination(destination);
     if (

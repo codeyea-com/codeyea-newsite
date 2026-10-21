@@ -1,3 +1,4 @@
+import { domainVisitorCountry } from "@/server/domain-refinements";
 import { snapshotSchema } from '@/schemas/content';
 import { db } from '@/server/db';
 import { documentPath } from '@/content/site-routes';
@@ -20,7 +21,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ slu
   const doc = await db.siteDocument.findUnique({ where: { slug_locale: { slug, locale: 'en' } } });
   if (!doc || doc.kind !== 'page' || !doc.template || !doc.published) {
     const {title,content}=templatePageDraft(slug,await templateContent(slug));
-    return new Response(await renderDocument(slug,content,'en',title,{public:true,shared}),{
+    return new Response(await renderDocument(slug,content,'en',title,{public:true,shared,country:domainVisitorCountry(_request)}),{
       headers:{...noStore,'Content-Type':'text/html; charset=utf-8','X-Robots-Tag':documentRobots(content,true),'X-Content-Type-Options':'nosniff'},
     });
   }
@@ -28,7 +29,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ slu
   if (!published.success) return new Response('Page is temporarily unavailable', { status: 503, headers: { ...noStore, 'Retry-After': '60', 'X-Robots-Tag': 'noindex, nofollow' } });
   const { title, content } = published.data;
   const alternates = await documentAlternates(slug);
-  return new Response(await renderDocument(doc.template, content, 'en', title, { public: true, alternates, shared }), {
+  return new Response(await renderDocument(doc.template, content, 'en', title, { public: true, alternates, shared, country:domainVisitorCountry(_request) }), {
     headers: { ...noStore, 'Content-Type': 'text/html; charset=utf-8', 'X-Robots-Tag': documentRobots(content, true), 'X-Content-Type-Options': 'nosniff' },
   });
 }

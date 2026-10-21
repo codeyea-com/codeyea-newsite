@@ -68,6 +68,10 @@ export function ArabicSurface({ children }: { children: React.ReactNode }) {
               : "/ar/contact/#contact-form",
           );
       });
+      target.querySelectorAll("span,small,p").forEach(label => {
+        if (!label.closest("h1,h2,h3,summary,a") && /^(الأسئلة الشائعة|FAQ)$/.test(label.textContent?.trim() || ""))
+          label.textContent = "FAQs";
+      });
       const walker = document.createTreeWalker(target, NodeFilter.SHOW_TEXT);
       let node;
       while ((node = walker.nextNode())) {

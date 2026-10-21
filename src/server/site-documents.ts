@@ -1,3 +1,5 @@
+import { integrateHostingPlans } from "./hosting-plan-cards";
+import { refineDomains } from "./domain-refinements";
 import { serviceArtwork, serviceArtworkTag } from '../content/generated-service-artwork';
 import {generalArtwork} from '../content/generated-general-artwork';
 import { canonicalHtmlLinks } from "@/content/url-hierarchy";
@@ -518,6 +520,7 @@ export async function renderDocument(
     public?: boolean;
     alternates?: Partial<Record<"en" | "ar", string>>;
     shared?: unknown;
+    country?: string | null;
   } = {},
 ) {
   let html = await templateContent(slug);
@@ -992,9 +995,9 @@ export async function renderDocument(
   html = html
     .replace(
       "</head>",
-      '<link rel="stylesheet" href="/site/post-launch.css"><link rel="stylesheet" href="/site/owner-review.css"><link rel="stylesheet" href="/api/site-typography"><link rel="stylesheet" href="/site/owner-batch.css"></head>',
+      '<link rel="stylesheet" href="/site/post-launch.css"><link rel="stylesheet" href="/site/owner-review.css"><link rel="stylesheet" href="/api/site-typography"><link rel="stylesheet" href="/site/owner-batch.css?v=20261021-review3"></head>',
     )
-    .replace("</body>", '<script src="/site/post-launch.js"></script></body>');
+    .replace("</body>", '<script src="/site/post-launch.js?v=20261021-review3"></script></body>');
   html = html.replace(
     /(<(?:script|style)\b[^>]*>[\s\S]*?<\/(?:script|style)>|<h1\b[^>]*>[\s\S]*?<\/h1>|<p\b[^>]*class="[^"]*\binternal-hero-brand\b[^"]*"[^>]*>[\s\S]*?<\/p>)|(<p\b[^>]*>)([^<>]+)(<\/p>)/gi,
     (all, protectedBlock, start, text, end) => {
@@ -1175,6 +1178,10 @@ export async function renderDocument(
     ), content.controls), heroScript);
     html = renderIntegratedHero(html, slug, artwork);
   }
+  if (["website-hosting","wordpress-hosting","cloud-hosting","email-hosting"].includes(slug)) html = integrateHostingPlans(html, locale);
+  if (slug === "contact" && locale === "ar") html = html.replace(/<address>[\s\S]*?<\/address>/g, address => /بانتظار التأكيد/.test(address) ? '' : address);
+  if (slug === "domains") html = refineDomains(html, locale, options.country);
+  if (locale === "ar") html = html.replace(/(<(?:span|small|p)\b[^>]*>)(?:الأسئلة الشائعة|FAQ)(<\/(?:span|small|p)>)/g, '$1FAQs$2');
   return canonicalHtmlLinks(html);
 }
 function slugTitle(slug: string) {

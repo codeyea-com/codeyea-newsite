@@ -86,9 +86,10 @@ export function SharedMobileView({
         className="hp-mobile-trigger"
         aria-haspopup="dialog"
         aria-controls="mobile-navigation"
+        aria-label={content.language === "ar" ? "فتح القائمة" : "Open menu"}
         onClick={show}
       >
-        Menu <span aria-hidden="true">☰</span>
+        <span aria-hidden="true">☰</span>
       </button>
       <dialog
         ref={dialog}
@@ -130,7 +131,7 @@ export function SharedMobileView({
             height="50"
             alt="CODEYEA"
           />
-          <button type="button" aria-label="Close navigation" onClick={close}>
+          <button type="button" aria-label={content.language === 'ar' ? 'أغلق القائمة' : 'Close navigation'} onClick={close}>
             ×
           </button>
         </div>
@@ -168,7 +169,7 @@ export function SharedMobileView({
                     </svg>
                   </summary>
                   <div className="hp-mobile-submenu">
-                    <a href={str(item.href)}>Explore {str(item.title)}</a>
+                    <a href={str(item.href)}>{content.language === 'ar' ? 'استكشف' : 'Explore'} {str(item.title)}</a>
                     {items
                       .filter((child) => child.parentId === item.id)
                       .map((child) => (
@@ -188,8 +189,8 @@ export function SharedMobileView({
                 </a>
               ),
             )}
-          {!items.some((i) => !i.parentId && str(i.title) === "Contact") && (
-            <a href="#contact">Contact</a>
+          {!items.some((i) => !i.parentId && (str(i.title) === "Contact" || str(i.title) === 'تواصل معنا' || /\/contact\/?(?:[?#]|$)/.test(str(i.href)))) && (
+            <a href="#contact">{content.language === 'ar' ? 'تواصل معنا' : 'Contact'}</a>
           )}
         </nav>
         <div className="hp-mobile-actions">

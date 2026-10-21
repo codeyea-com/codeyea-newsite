@@ -72,7 +72,13 @@ const industryIconPaths: Record<string, string[]> = {
     "M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z",
   ],
 };
-export function IndustryIcon({ title }: { title: string }) {
+const industryKeys: Record<string,string> = {
+ healthcare:'healthcare and aesthetic clinics', 'e-commerce':'ecommerce', 'small-business':'small business',
+ 'event-coordinators':'event coordinators','online-magazine':'online magazine','oil-and-gas':'oil and gas',
+ 'real-estate':'real estate','fashion-and-lifestyle':'fashion and lifestyle',
+ 'beauty-skincare-med-spa':'beauty skincare and med spa','restaurants-cafes-bakeries':'restaurants cafes and bakeries','solar-energy':'solar energy'
+};
+export function IndustryIcon({ title, href = '' }: { title: string; href?: string }) {
   const key = title
     .toLowerCase()
     .normalize("NFKD")
@@ -80,7 +86,8 @@ export function IndustryIcon({ title }: { title: string }) {
     .replace(/&/g, "and")
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
-  const paths = industryIconPaths[key] ?? [
+  const slug = href.match(/\/industries\/([^/?#]+)/)?.[1];
+  const paths = industryIconPaths[slug ? (industryKeys[slug] ?? slug) : key] ?? [
     "M4 20h16M5 20V9l7-6 7 6v11",
     "M9 20v-6h6v6",
   ];
@@ -215,6 +222,7 @@ export function approvedNavigationView(
           className={
             "cy-host-panel" +
             (host ? " cy-hosting-panel" : "") +
+            (service ? " cy-services-panel" : "") +
             (industry ? " cy-industry-panel" : "") +
             (current ? " cy-link-active" : "")
           }
@@ -252,7 +260,7 @@ export function approvedNavigationView(
               >
                 <span className="cy-host-line">
                   {industry ? (
-                    <IndustryIcon title={str(child.title)} />
+                    <IndustryIcon title={str(child.title)} href={str(child.href)} />
                   ) : (
                     <i aria-hidden="true">{str(child.icon)}</i>
                   )}
@@ -264,29 +272,31 @@ export function approvedNavigationView(
           </div>
           <aside className="cy-host-feature">
             <span>
-              {menu.language === "ar" ? (host ? "استضافة تحافظ على استمرارية أعمالك" : service ? "من الفكرة إلى تجربة متكاملة" : "حلول تناسب قطاع أعمالك") : host
+              {menu.language === "ar" ? (host ? "استضافة تحافظ على استمرارية أعمالك" : service ? "دراسات الحالة" : "حلول تناسب قطاع أعمالك") : host
                 ? "KEEP YOUR WEBSITE MOVING"
                 : service
-                  ? "IDEAS INTO EXPERIENCES"
+                  ? "CASE STUDIES"
                   : "BUILT AROUND YOUR INDUSTRY"}
             </span>
+            {service ? <a className="cy-feature-image" href={menu.language === 'ar' ? '/ar/case-studies/' : '/case-studies/'} aria-label={menu.language === 'ar' ? 'دراسات الحالة' : 'Case studies'}>
+              <img src="/site/generated/case-studies/iraq-home-expo/hero-wide.png" alt="Iraq Home Expo" />
+            </a> : <>
             <img
               src={
-                "/homepage/" +
-                (host ? "support" : service ? "project-web" : "about") +
-                ".webp"
+                service ? "/site/generated/case-studies/iraq-home-expo/hero-wide.png" : "/homepage/" + (host ? "support" : "about") + ".webp"
               }
               alt={
                 host
                   ? "Technical support and website care"
                   : service
-                    ? "Digital design and development"
+                    ? "Iraq Home Expo case study"
                     : "Business collaboration"
               }
             />
+            </>}
             <h3>
               {menu.language === "ar" ? (
-                host ? <>استضافة تجمع احتياجاتك.<br />ودعم يرافق نموك.</> : service ? <>خدمات مترابطة.<br />واتجاه واضح لأعمالك.</> : <>نفهم نشاطك.<br />ونبني تجربة تناسبه.</>
+                host ? <>استضافة تجمع احتياجاتك.<br />ودعم يرافق نموك.</> : service ? <>من التحدّي إلى الحل.<br />اكتشف تفاصيل مشاريعنا.</> : <>نفهم نشاطك.<br />ونبني تجربة تناسبه.</>
               ) : host ? (
                 <>
                   One place for hosting.
@@ -295,9 +305,9 @@ export function approvedNavigationView(
                 </>
               ) : service ? (
                 <>
-                  The right services.
+                  From challenge to solution.
                   <br />
-                  One connected direction.
+                  Explore our projects.
                 </>
               ) : (
                 <>
@@ -307,11 +317,11 @@ export function approvedNavigationView(
               )}
             </h3>
             <a
-              href={str(item.href)}
+              href={service ? (menu.language === "ar" ? "/ar/case-studies/" : "/case-studies/") : str(item.href)}
               className={current === feature ? "cy-current" : ""}
               {...linkProps(feature)}
             >
-              {menu.language === "ar" ? "استكشف " : "Explore "}{title.toLowerCase()}{" "}
+              {service ? (menu.language === "ar" ? "استكشف دراسات الحالة" : "Explore case studies") : <>{menu.language === "ar" ? "استكشف " : "Explore "}{title.toLowerCase()}</>}{" "}
               <span aria-hidden="true">↗</span>
             </a>
           </aside>

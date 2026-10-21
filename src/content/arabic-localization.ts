@@ -132,12 +132,12 @@ export function arabicIndustrySnapshot(source: Snapshot): Snapshot {
     const header = headers[section.type];
     section.label = header[0];
     section.heading = header[1];
-    section.listLabel = "خدمات رقمية";
+    section.listLabel = "كيف نساعد نشاطك";
     section.actionLabel =
       section.type === "cta"
         ? "ناقش مشروعك معنا"
         : section.type === "services"
-          ? "خدمات رقمية"
+          ? "خدمات متكاملة"
           : "اكتشف الخدمة";
     section.destination = arabicPath(section.destination);
     section.body =

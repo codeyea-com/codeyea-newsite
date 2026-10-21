@@ -1,0 +1,60 @@
+/* Domain-only owner refinements; preserve existing imagery and all plan data. */
+.d .d-host-grid{display:flex;align-items:center;min-height:610px}
+.d .d-host-grid>div:first-child{width:46%;padding:72px 0;margin:0;text-align:start}
+.d .d-host h2{font-size:clamp(34px,3.3vw,52px);line-height:1.25}
+.d .d-host-art>img{object-position:center center;transform:translate3d(0,var(--host-parallax,0px),0)!important}
+.d .d-host .d-address{left:auto;right:5%;width:40%;direction:ltr}
+.d .d-host .d-host-mini{left:auto;right:27%;bottom:9%}
+html[lang=ar] .d .d-host-grid{justify-content:flex-end}
+html[lang=ar] .d .d-host-grid>div:first-child{margin:0 auto 0 0;text-align:right}
+.d .d-hosting-grid{gap:22px;align-items:stretch}
+.d .d-hosting-plan{padding:0 24px 28px;border:1px solid #d9e3eb;border-top:3px solid #10aabc;box-shadow:0 8px 22px #07244808;transition:transform .35s ease,box-shadow .35s ease}
+.d .d-hosting-plan:hover,.d .d-hosting-plan:focus-within{transform:translateY(-7px);box-shadow:0 20px 40px #07244820}
+.d .d-hosting-plan h3{margin:0 -24px 20px;padding:25px 24px 18px;min-height:100px;background:#eef7fa;transition:background .3s;color:#072448}
+.d .d-hosting-plan:hover h3,.d .d-hosting-plan:focus-within h3{background:#d9f2f7}
+.d .d-hosting-plan .d-plan-tagline{font-weight:700;font-size:17px;min-height:52px}
+.d .d-hosting-plan .d-plan-description{font-size:15px;min-height:98px}
+.d .d-hosting-plan .d-plan-price{border-top:1px solid #e3e8ed;padding-top:24px;margin-top:auto}
+.d .d-hosting-plan .d-plan-price strong{font-size:44px}
+.d .d-hosting-plan .d-includes{margin-top:26px;padding-top:23px;border-top:1px solid #e3e8ed;font-size:12px;letter-spacing:.06em;font-weight:700}
+.d .d-hosting-plan li span{display:inline-flex;align-items:center;justify-content:center;flex:0 0 23px;height:23px;background:#e2f5fa;color:#087f9e}
+.d .d-hosting-plan li:nth-child(2) span{background:#eee9ff;color:#7257b3}
+.d .d-hosting-plan li:nth-child(3) span{background:#fff0de;color:#ad6b1c}
+.d .d-hosting-plan li:nth-child(4) span{background:#e5f4ed;color:#27815e}
+.d .d-faq{display:grid!important;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);grid-template-rows:auto 1fr;column-gap:65px;row-gap:14px;align-items:start;text-align:start}
+.d .d-faq>.d-faq-label{grid-column:1;grid-row:1;text-align:start;margin:0!important}
+.d .d-faq>h2{grid-column:1;grid-row:2;text-align:start!important;margin:0!important;align-self:start}
+.d .d-faq>div{grid-column:2;grid-row:1 / span 2}
+.d .d-show,.d [hidden]{display:none!important}
+.d .d-tabs{flex-wrap:wrap}
+.d-domain-cta{position:relative;background:#072448 url('/site/domain-cta.svg') center/cover no-repeat;color:white;padding:110px 0;min-height:360px}
+.d .d-domain-cta h2{max-width:660px;color:white;font-size:clamp(34px,4.5vw,60px);margin:0 0 32px;line-height:1.2}
+.d-domain-cta .d-btn{background:#e0144c;color:white}
+@media(max-width:1000px){.d .d-hosting-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.d .d-hosting-plan h3{min-height:0}}
+@media(max-width:700px){.d .d-host-grid{display:block;min-height:850px}.d .d-host-grid>div:first-child{width:100%;padding:45px 0 390px}.d .d-host .d-address{top:auto;bottom:310px;right:5%;width:85%}.d .d-host .d-host-mini{left:6%;right:auto;bottom:30px}.d .d-hosting-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding:10px 0 30px;gap:16px}.d .d-hosting-plan{flex:0 0 88%;scroll-snap-align:center}.d .d-faq{grid-template-columns:1fr;gap:16px}.d .d-faq>.d-faq-label,.d .d-faq>h2,.d .d-faq>div{grid-column:1;grid-row:auto}.d .d-faq>div{margin-top:16px}.d-domain-cta{padding:75px 0;min-height:300px}}
+@media(prefers-reduced-motion:reduce){.d .d-host-art>img{transform:none!important}.d .d-hosting-plan{transition:none}.d .d-hosting-plan:hover{transform:none}}
+/* Keep the domain illustration opposite the Arabic CTA copy. */
+html[lang=ar] .d-domain-cta{background-image:none;isolation:isolate}
+html[lang=ar] .d-domain-cta:before{content:"";position:absolute;inset:0;background:url('/site/domain-cta-ar.svg?v=2') center/cover no-repeat;transform:none;z-index:-1}
+/* Owner's seven domain-page corrections. */
+.d .d-identity .d-full-domain{direction:ltr;unicode-bidi:isolate;display:block;font-size:clamp(25px,3.4vw,58px);white-space:nowrap;letter-spacing:-.02em}
+.d .d-extension strong,.d .d-tld-strip b,.d .d-address{direction:ltr;unicode-bidi:isolate}
+.d .d-extension strong{display:block;text-align:start}
+.d .d-host-art:after{background:linear-gradient(90deg,#072448b8 0%,#07244894 30%,#07244840 52%,transparent 76%)}
+@media(min-width:701px){html[lang=ar] .d .d-host-grid>div:first-child{width:49%;text-align:left!important;padding-inline-end:28px}html[lang=ar] .d .d-host-grid>div:first-child h2,html[lang=ar] .d .d-host-grid>div:first-child ul{text-align:left!important}}
+.d .d-support>a{display:inline-flex;color:#072448!important;position:relative;top:0;text-decoration:none!important;text-shadow:none!important;box-shadow:none!important;transition:color .25s ease,top .25s ease;transform:none!important;background:none!important}
+.d .d-support>a:hover,.d .d-support>a:focus-visible{color:#e0144c!important;top:-3px}
+.d .d-support>a:before,.d .d-support>a:after{display:none!important}
+.d .d-btn{position:relative;isolation:isolate;overflow:hidden;background:#e0144c!important;color:#fff!important}
+.d .d-btn:before{content:"";display:block!important;position:absolute;inset:0;background:#072448;opacity:1;z-index:-1;transform:translateX(-101%);transition:transform .45s cubic-bezier(.22,1,.36,1);pointer-events:none}
+html[lang=ar] .d .d-btn:before{transform:translateX(101%)}
+.d .d-btn:hover:before,.d .d-btn:focus-visible:before,html[lang=ar] .d .d-btn:hover:before,html[lang=ar] .d .d-btn:focus-visible:before{transform:translateX(0)}
+.d .d-all-hosting{text-align:center;margin:36px 0 24px}
+@media(max-width:700px){.d .d-host-art:after{background:linear-gradient(180deg,#072448 0%,#072448ed 34%,#07244870 51%,transparent 72%)}}
+@media(prefers-reduced-motion:reduce){.d .d-btn:before,.d .d-support>a{transition:none}}
+/* Align the Arabic feature list with the heading inside the same copy column. */
+@media(min-width:701px){
+ html[lang=ar] .hp.public-surface .d .d-host-grid>div:first-child>ul{width:100%;max-width:100%;margin:0 0 30px;padding:0;text-align:left!important}
+ html[lang=ar] .hp.public-surface .d .d-host-grid>div:first-child>ul>li{text-align:left!important}
+}
+.d .d-identity .d-full-domain{font-size:clamp(20px,2vw,30px);line-height:1.3;letter-spacing:0;margin-top:18px;font-weight:600}

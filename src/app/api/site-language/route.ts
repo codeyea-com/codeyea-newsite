@@ -7,7 +7,9 @@ import { noStore } from "@/server/http";
 import { isCaseDetail } from "@/server/approved-case-detail";
 export async function GET(request: Request) {
   const country = request.headers.get("x-vercel-ip-country");
-  if (!languageSwitchAllowed(country))
+  const localReview = process.env.NODE_ENV === 'development' &&
+    ['127.0.0.1', 'localhost'].includes(new URL(request.url).hostname);
+  if (!localReview && !languageSwitchAllowed(country))
     return Response.json({ enabled: false }, { headers: noStore });
   const path = canonicalSiteHref(new URL(request.url).searchParams.get("path") || "/");
   const english = path.replace(/^\/ar(?=\/|$)/, "") || "/";

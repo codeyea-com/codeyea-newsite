@@ -25,10 +25,14 @@ export function ServicesMotion(){
      const targets=kind==='accordion'?[...group.querySelectorAll('.sv-accordion>article')]:group.matches('h2,p,figure')?[group]:[...group.children];
      const initial=kind==='cards'?{x:60,scale:.85,rotationY:35,opacity:0}:kind==='row'?{x:30,opacity:0}:kind==='intro'?{y:60,opacity:0}:kind==='accordion'?{y:30,opacity:0}:{y:35,opacity:0};
      const delay=kind==='intro'?.8:kind==='accordion'?1.1:0;
-     timelines.set(group,gsap.timeline({paused:true}).fromTo(targets,initial,{x:0,y:0,scale:1,scaleY:1,rotationY:0,opacity:1,duration:1.8,stagger:.18,ease:'power4.out',clearProps:'transform,opacity'},delay));
+     const trigger=kind==='strategy'?group:(group.closest('section')??group);
+     const timeline=timelines.get(trigger)??gsap.timeline({paused:true});
+     const position=timeline.duration()?Math.max(0,timeline.duration()-.3):delay;
+     timeline.fromTo(targets,initial,{x:0,y:0,scale:1,scaleY:1,rotationY:0,opacity:1,duration:1.8,stagger:.18,ease:'power4.out',clearProps:'transform,opacity'},position);
+     timelines.set(trigger,timeline);
     });
    },root);
-   const observer=new IntersectionObserver(entries=>entries.forEach(e=>{const t=timelines.get(e.target);if(e.isIntersecting){visible.add(e.target);if(!document.hidden)t?.play()}else{visible.delete(e.target);if(t&&t.progress()<1)t.pause()}}),{threshold:0});const strategyObserver=new IntersectionObserver(entries=>entries.forEach(e=>{const t=timelines.get(e.target);if(e.isIntersecting){visible.add(e.target);if(!document.hidden)t?.play()}else{visible.delete(e.target);if(t&&t.progress()<1)t.pause()}}),{rootMargin:'0px 0px -30% 0px',threshold:0});timelines.forEach((_,e)=>(e.getAttribute('data-sv-reveal')==='strategy'?strategyObserver:observer).observe(e));
+   const observer=new IntersectionObserver(entries=>entries.forEach(e=>{const t=timelines.get(e.target);if(e.isIntersecting){visible.add(e.target);if(!document.hidden)t?.play()}else{visible.delete(e.target);if(t&&t.progress()<1)t.pause()}}),{threshold:0,rootMargin:'0px 0px -12% 0px'});const strategyObserver=new IntersectionObserver(entries=>entries.forEach(e=>{const t=timelines.get(e.target);if(e.isIntersecting){visible.add(e.target);if(!document.hidden)t?.play()}else{visible.delete(e.target);if(t&&t.progress()<1)t.pause()}}),{rootMargin:'0px 0px -30% 0px',threshold:0});timelines.forEach((_,e)=>(e.getAttribute('data-sv-reveal')==='strategy'?strategyObserver:observer).observe(e));
    const focus=(e:FocusEvent)=>timelines.forEach((t,el)=>{if(el.contains(e.target as Node))t.progress(1)});
    const visibility=()=>timelines.forEach((t,el)=>{if(document.hidden)t.pause();else if(visible.has(el))t.play()});root.addEventListener('focusin',focus);document.addEventListener('visibilitychange',visibility);
    if(fine.matches)root.querySelectorAll<HTMLElement>('.rp-cards article').forEach(card=>{

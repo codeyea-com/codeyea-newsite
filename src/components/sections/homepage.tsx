@@ -66,7 +66,7 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
     hero = home.hero,
     footer = home.footer;
   return (
-    <div className="public-surface hp">
+    <div className="public-surface hp hp-home">
       <HomepageMotion />
       <a className="hp-skip" href="#main">
         Skip to content

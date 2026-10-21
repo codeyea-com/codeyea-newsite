@@ -92,8 +92,9 @@
   }
   .hp .hp-header .hp-desktop-nav > .hp-nav-item:is(:hover, :focus-within) > a,
   .hp .hp-header .hp-desktop-nav > .hp-nav-item:is(:hover, :focus-within) > .cy-nav-root > a {
-    transform: translateY(-3px);
-    text-shadow: 0 3px 8px rgb(224 20 76 / 24%);
+    transform: none;
+    text-shadow: none;
+    text-decoration: none;
   }
 }
 /* Hosting's four entries form two compact rows beside the existing feature. */

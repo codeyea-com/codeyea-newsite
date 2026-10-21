@@ -81,7 +81,7 @@ export function RoofingHubBody({
       return preview
         ? "/preview/pages/contact#contact-form"
         : "/contact/#contact-form";
-    if (!availablePaths.includes(value)) return undefined;
+    if (!availablePaths.includes(value) && !/^\/(ar\/)?services\/[a-z-]+\/$/.test(value)) return undefined;
     return preview
       ? value.startsWith("/industries/") && value !== "/industries/"
         ? "/preview" + value.replace(/\/$/, "")

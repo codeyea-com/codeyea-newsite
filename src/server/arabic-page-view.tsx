@@ -1,3 +1,7 @@
+import { arabicDirectoryCopy } from "@/content/arabic-directory-copy";
+import { resolveIndustryDetail } from './industry-detail-page';
+import { withGeneratedIndustryMedia } from "@/content/generated-industry-media";
+import { synchronizeIndustryMedia } from '@/content/synchronize-industry-media';
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { db } from "./db";
@@ -10,7 +14,7 @@ import { IndustryDetailPage } from "@/components/sections/industry-detail-page";
 import { ArabicSurface } from "@/components/sections/arabic-surface";
 import { pagePath, documentSlugs } from "@/content/site-routes";
 import { englishPageIds } from "@/content/industry-registry";
-import { publicRobots, siteOrigin } from "@/content/seo";
+import { publicRobots, siteOrigin, resolveSeoText } from "@/content/seo";
 import { pageMetadata } from "@/content/structured-data";
 import { breadcrumbSchema } from "@/content/breadcrumbs";
 import { JsonLd } from "@/components/json-ld";
@@ -21,8 +25,8 @@ import "@/styles/homepage-refinements.css";
 import "@/styles/homepage-mobile.css";
 async function load(id: string, preview: boolean) {
   if (!(englishPageIds as readonly string[]).includes(id)) notFound();
-  const [page, home, directory] = await Promise.all(
-    ["ar-" + id, "ar-homepage", "ar-industries"].map((id) =>
+  const [page, home, directory, english] = await Promise.all(
+    ["ar-" + id, "ar-homepage", "ar-industries", id].map((id) =>
       db.page.findFirst({ where: { id, deletedAt: null } }),
     ),
   );
@@ -42,6 +46,23 @@ async function load(id: string, preview: boolean) {
     (!preview && (!page?.publishedAt || !home?.publishedAt))
   )
     notFound();
+  const en = snapshotSchema.safeParse(preview ? english?.draftSnapshot : english?.publishedSnapshot);
+  if(snapshot.data.industryDetail && en.success && en.data.industryDetail)
+    snapshot.data.industryDetail=synchronizeIndustryMedia(snapshot.data.industryDetail,withGeneratedIndustryMedia(resolveIndustryDetail(en.data.industryDetail.slug,en.data.industryDetail)));
+  if (snapshot.data.industriesPage && en.success && en.data.industriesPage) {
+    const arabic = snapshot.data.industriesPage;
+    const englishDirectory = en.data.industriesPage;
+    arabic.hero.media = {...englishDirectory.hero.media, alt: arabic.hero.media.alt};
+    arabic.items = arabic.items.map(item => {
+      const source = englishDirectory.items.find(candidate =>
+        candidate.destination === item.destination.replace(/^\/ar\//, '/'));
+      const slug = source?.destination.replace(/^\/industries\/|\/$/g, '') || '';
+      const copy = arabicDirectoryCopy[slug];
+      return source ? {...item, media: {...source.media, alt: item.media.alt},
+        ...(copy ? {body:copy.body,highlights:item.highlights.map((highlight,index)=>copy.highlights?.[index] ? {...highlight,title:copy.highlights[index][0],body:copy.highlights[index][1]} : highlight)} : {})
+      } : item;
+    });
+  }
   return {
     snapshot: snapshot.data,
     shared: shared.data.homepage,
@@ -53,13 +74,22 @@ async function load(id: string, preview: boolean) {
 }
 export async function arabicMetadata(id: string): Promise<Metadata> {
   const { snapshot } = await load(id, false);
-  const seo =
+  const savedSeo =
     snapshot.homepage?.seo ??
     snapshot.about?.seo ??
     snapshot.servicesPage?.seo ??
     snapshot.industriesPage?.seo ??
     snapshot.industryDetail?.seo;
-  if (!seo) notFound();
+  // Industry SEO is optional in the CMS contract. A valid page must remain
+  // available when its optional metadata has not been filled in.
+  const industry = snapshot.industryDetail;
+  const directory = snapshot.industriesPage;
+  const services = snapshot.servicesPage;
+  if (!savedSeo && !industry && !directory && !services) notFound();
+  const seo = resolveSeoText(savedSeo, {
+    title: `${industry?.hero.title ?? directory?.hero.title ?? services?.hero.title ?? ''} | CODEYEA`,
+    description: industry?.sections.find(section => section.type === 'overview')?.body || directory?.introduction.paragraphs[0]?.body || services?.sections[0]?.body || '',
+  });
   const path = pagePath("ar-" + id)!;
   const english = await db.page.findFirst({
     where: { id, deletedAt: null },

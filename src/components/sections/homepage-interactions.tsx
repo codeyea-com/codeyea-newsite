@@ -262,11 +262,23 @@ export function HomepageMotion() {
       };
       countFrame = requestAnimationFrame(tick);
     };
+    const entranceGroups = new Map<Element, HTMLElement[]>();
+    const previousDelays = new Map<HTMLElement, string>();
+    root.querySelectorAll<HTMLElement>("[data-motion-enter]").forEach(el => {
+      const section = el.closest('section') ?? el;
+      const group = entranceGroups.get(section) ?? [];
+      group.push(el); entranceGroups.set(section, group);
+    });
     const entrance = new IntersectionObserver(
       (entries) =>
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("is-inview");
+            const targets = entranceGroups.get(entry.target) ?? [entry.target as HTMLElement];
+            targets.forEach((el, index) => {
+              previousDelays.set(el, el.style.transitionDelay);
+              el.style.transitionDelay = reduce.matches ? '0s' : `${index * .18}s`;
+              el.classList.add("is-inview");
+            });
             if (
               entry.target instanceof HTMLElement &&
               entry.target.dataset.countTo
@@ -275,7 +287,7 @@ export function HomepageMotion() {
             entrance.unobserve(entry.target);
           }
         }),
-      { threshold: 0.15 },
+      { threshold: 0, rootMargin: "0px 0px -12% 0px" },
     );
     const setMotion = () => {
       root.classList.toggle("motion-enabled", !reduce.matches);
@@ -288,9 +300,8 @@ export function HomepageMotion() {
     };
     setMotion();
     reduce.addEventListener("change", setMotion);
-    root
-      .querySelectorAll("[data-motion-enter],[data-count-to]")
-      .forEach((el) => entrance.observe(el));
+    entranceGroups.forEach((_, section) => entrance.observe(section));
+    root.querySelectorAll("[data-count-to]").forEach(el => entrance.observe(el));
     const scroll = () => {
       if (scrollFrame) return;
       scrollFrame = requestAnimationFrame(() => {
@@ -310,6 +321,7 @@ export function HomepageMotion() {
       resize.disconnect();
       headerObserver.disconnect();
       entrance.disconnect();
+      previousDelays.forEach((delay, el) => { el.style.transitionDelay = delay; });
       reduce.removeEventListener("change", setMotion);
       document.removeEventListener("visibilitychange", visibility);
       window.removeEventListener("scroll", scroll);

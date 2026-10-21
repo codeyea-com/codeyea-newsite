@@ -41,14 +41,17 @@ export function RoofingReferenceMotion(){
    const service=root.querySelector<HTMLElement>('.rf-services');const visible=new Set<Element>();const timelines=new Map<Element,gsap.core.Timeline>();
    const context=gsap.context(()=>{
     if(service){
-     const heading=service.querySelector('.rf-service-heading')!;
-     const chars=[...heading.querySelectorAll('.rf-badge,.rf-char')];
-     const head=gsap.timeline({paused:true}).fromTo(chars,{rotationX:75,rotationY:10,rotationZ:10,opacity:0,transformOrigin:'0% 50%'},{rotationX:0,rotationY:0,rotationZ:0,opacity:1,transformOrigin:'50% 50%',duration:1.6,stagger:.012,ease:'power4.out',clearProps:'transform,opacity'},.4);timelines.set(heading,head);
-     service.querySelectorAll<HTMLElement>('[data-rf-paragraph]').forEach((p,n)=>timelines.set(p,gsap.timeline({paused:true}).fromTo(p,{y:30},{y:0,duration:1.6,ease:'power4.out',clearProps:'transform'},n===0?.7:.85)));
-     service.querySelectorAll<HTMLElement>('[data-rf-list]').forEach((list,n)=>{const children=[...list.querySelectorAll('h3,li')];timelines.set(list,gsap.timeline({paused:true}).fromTo(children,{y:65,rotationY:10,rotationZ:2,opacity:0,transformOrigin:'0% 50%'},{y:0,rotationY:0,rotationZ:0,opacity:1,duration:1.6,stagger:.16,ease:'power4.out',clearProps:'transform,opacity'},n===0?1:1.15))});
+     const timeline=gsap.timeline({paused:true});
+     timeline.fromTo(service.querySelectorAll('.rf-service-heading .rf-badge,.rf-service-heading h2'),
+      {y:30,opacity:0},{y:0,opacity:1,duration:.7,stagger:.16,ease:'power4.out',clearProps:'transform,opacity'});
+     timeline.fromTo(service.querySelectorAll('[data-rf-paragraph]'),
+      {y:30,opacity:0},{y:0,opacity:1,duration:.7,stagger:.16,ease:'power4.out',clearProps:'transform,opacity'},'-=.2');
+     timeline.fromTo(service.querySelectorAll('.rf-service-lists>h3,[data-rf-list] li'),
+      {y:30,opacity:0},{y:0,opacity:1,duration:.6,stagger:.1,ease:'power4.out',clearProps:'transform,opacity'},'-=.2');
+     timelines.set(service,timeline);
     }
    },root);
-   const observer=new IntersectionObserver(entries=>entries.forEach(e=>{const t=timelines.get(e.target);if(e.isIntersecting){visible.add(e.target);if(!document.hidden)t?.play()}else{visible.delete(e.target);if(t&&t.progress()<1)t.pause()}}),{threshold:0});
+   const observer=new IntersectionObserver(entries=>entries.forEach(e=>{const t=timelines.get(e.target);if(e.isIntersecting){visible.add(e.target);if(!document.hidden)t?.play()}else{visible.delete(e.target);if(t&&t.progress()<1)t.pause()}}),{threshold:0,rootMargin:'0px 0px -12% 0px'});
    timelines.forEach((_,el)=>observer.observe(el));
    const visibility=()=>{timelines.forEach((t,e)=>{if(document.hidden)t.pause();else if(visible.has(e))t.play()})};
    const focus=()=>timelines.forEach(t=>t.progress(1));

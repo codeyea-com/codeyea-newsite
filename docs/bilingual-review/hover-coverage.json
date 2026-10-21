@@ -1,0 +1,1344 @@
+[
+  {
+    "key": "about",
+    "locale": "en",
+    "path": "/about/",
+    "marked": 92,
+    "unmarked": [
+      {
+        "bg": "rgba(255, 255, 255, 0.08)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "",
+        "text": "About Us"
+      },
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "borders": [
+          "0px",
+          "0.888889px",
+          "0px"
+        ],
+        "cls": "",
+        "text": "DIGITAL STRATEGY"
+      },
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "borders": [
+          "0px",
+          "0.888889px",
+          "0px"
+        ],
+        "cls": "",
+        "text": "WEB & APPLICATIONS"
+      },
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "borders": [
+          "0px",
+          "0.888889px",
+          "0px"
+        ],
+        "cls": "",
+        "text": "ECOMMERCE & GROWTH"
+      },
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "borders": [
+          "0px",
+          "0.888889px",
+          "0px"
+        ],
+        "cls": "",
+        "text": "INFRASTRUCTURE & AUTOMATION"
+      },
+      {
+        "bg": "rgb(18, 18, 18)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "about-reference-button cy-arrow-control",
+        "text": "Explore Digital Growth ↗"
+      },
+      {
+        "bg": "rgb(18, 18, 18)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "about-reference-button cy-arrow-control",
+        "text": "Explore Web & App Development ↗"
+      },
+      {
+        "bg": "rgb(18, 18, 18)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "about-reference-button cy-arrow-control",
+        "text": "Explore eCommerce Solutions ↗"
+      },
+      {
+        "bg": "rgb(18, 18, 18)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "about-reference-button cy-arrow-control",
+        "text": "Explore AI Solutions ↗"
+      }
+    ]
+  },
+  {
+    "key": "homepage",
+    "locale": "en",
+    "path": "/",
+    "marked": 112,
+    "unmarked": []
+  },
+  {
+    "key": "services",
+    "locale": "en",
+    "path": "/services/",
+    "marked": 100,
+    "unmarked": []
+  },
+  {
+    "key": "services",
+    "locale": "ar",
+    "path": "/ar/services/",
+    "marked": 103,
+    "unmarked": []
+  },
+  {
+    "key": "about",
+    "locale": "ar",
+    "path": "/ar/about/",
+    "marked": 98,
+    "unmarked": [
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "borders": [
+          "0px",
+          "0px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": "الاستراتيجية الرقمية"
+      },
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "borders": [
+          "0px",
+          "0px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": "الويب والتطبيقات"
+      },
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "borders": [
+          "0px",
+          "0px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": "التجارة والنمو"
+      },
+      {
+        "bg": "rgba(0, 0, 0, 0)",
+        "borders": [
+          "0px",
+          "0px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": "البنية التقنية والأتمتة"
+      },
+      {
+        "bg": "rgb(18, 18, 18)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "about-reference-button cy-arrow-control",
+        "text": "اكتشف حلول النمو الرقمي ↗"
+      },
+      {
+        "bg": "rgb(18, 18, 18)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "about-reference-button cy-arrow-control",
+        "text": "اكتشف تطوير الويب والتطبيقات ↗"
+      },
+      {
+        "bg": "rgb(18, 18, 18)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "about-reference-button cy-arrow-control",
+        "text": "اكتشف حلول التجارة الإلكترونية ↗"
+      },
+      {
+        "bg": "rgb(18, 18, 18)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "about-reference-button cy-arrow-control",
+        "text": "اكتشف حلول الذكاء الاصطناعي ↗"
+      }
+    ]
+  },
+  {
+    "key": "homepage",
+    "locale": "ar",
+    "path": "/ar/",
+    "marked": 108,
+    "unmarked": []
+  },
+  {
+    "key": "industries",
+    "locale": "en",
+    "path": "/industries/",
+    "marked": 116,
+    "unmarked": []
+  },
+  {
+    "key": "roofing",
+    "locale": "en",
+    "path": "/industries/roofing/",
+    "marked": 106,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "industries",
+    "locale": "ar",
+    "path": "/ar/industries/",
+    "marked": 117,
+    "unmarked": []
+  },
+  {
+    "key": "healthcare",
+    "locale": "en",
+    "path": "/industries/healthcare/",
+    "marked": 106,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "construction",
+    "locale": "en",
+    "path": "/industries/construction/",
+    "marked": 106,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "roofing",
+    "locale": "ar",
+    "path": "/ar/industries/roofing/",
+    "marked": 108,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "healthcare",
+    "locale": "ar",
+    "path": "/ar/industries/healthcare/",
+    "marked": 107,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "construction",
+    "locale": "ar",
+    "path": "/ar/industries/construction/",
+    "marked": 107,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "e-commerce",
+    "locale": "en",
+    "path": "/industries/e-commerce/",
+    "marked": 107,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "small-business",
+    "locale": "en",
+    "path": "/industries/small-business/",
+    "marked": 108,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "event-coordinators",
+    "locale": "en",
+    "path": "/industries/event-coordinators/",
+    "marked": 105,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "e-commerce",
+    "locale": "ar",
+    "path": "/ar/industries/e-commerce/",
+    "marked": 108,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "small-business",
+    "locale": "ar",
+    "path": "/ar/industries/small-business/",
+    "marked": 108,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "event-coordinators",
+    "locale": "ar",
+    "path": "/ar/industries/event-coordinators/",
+    "marked": 107,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "legal",
+    "locale": "en",
+    "path": "/industries/legal/",
+    "marked": 106,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "online-magazine",
+    "locale": "en",
+    "path": "/industries/online-magazine/",
+    "marked": 106,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "oil-and-gas",
+    "locale": "en",
+    "path": "/industries/oil-and-gas/",
+    "marked": 106,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "legal",
+    "locale": "ar",
+    "path": "/ar/industries/legal/",
+    "marked": 107,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "online-magazine",
+    "locale": "ar",
+    "path": "/ar/industries/online-magazine/",
+    "marked": 107,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "oil-and-gas",
+    "locale": "ar",
+    "path": "/ar/industries/oil-and-gas/",
+    "marked": 107,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "real-estate",
+    "locale": "en",
+    "path": "/industries/real-estate/",
+    "marked": 106,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "fashion-and-lifestyle",
+    "locale": "en",
+    "path": "/industries/fashion-and-lifestyle/",
+    "marked": 106,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "beauty-skincare-med-spa",
+    "locale": "en",
+    "path": "/industries/beauty-skincare-med-spa/",
+    "marked": 106,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "real-estate",
+    "locale": "ar",
+    "path": "/ar/industries/real-estate/",
+    "marked": 107,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "fashion-and-lifestyle",
+    "locale": "ar",
+    "path": "/ar/industries/fashion-and-lifestyle/",
+    "marked": 108,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "beauty-skincare-med-spa",
+    "locale": "ar",
+    "path": "/ar/industries/beauty-skincare-med-spa/",
+    "marked": 107,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "restaurants-cafes-bakeries",
+    "locale": "en",
+    "path": "/industries/restaurants-cafes-bakeries/",
+    "marked": 106,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "solar-energy",
+    "locale": "en",
+    "path": "/industries/solar-energy/",
+    "marked": 106,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "Start a Conversation"
+      }
+    ]
+  },
+  {
+    "key": "restaurants-cafes-bakeries",
+    "locale": "ar",
+    "path": "/ar/industries/restaurants-cafes-bakeries/",
+    "marked": 107,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "solar-energy",
+    "locale": "ar",
+    "path": "/ar/industries/solar-energy/",
+    "marked": 107,
+    "unmarked": [
+      {
+        "bg": "rgb(255, 255, 255)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "rf-corporate-button",
+        "text": "ناقش مشروعك معنا"
+      }
+    ]
+  },
+  {
+    "key": "website-design",
+    "locale": "en",
+    "path": "/services/website-design/",
+    "marked": 83,
+    "unmarked": []
+  },
+  {
+    "key": "brand-design",
+    "locale": "en",
+    "path": "/services/brand-design/",
+    "marked": 83,
+    "unmarked": []
+  },
+  {
+    "key": "ecommerce",
+    "locale": "en",
+    "path": "/services/ecommerce/",
+    "marked": 82,
+    "unmarked": []
+  },
+  {
+    "key": "website-design",
+    "locale": "ar",
+    "path": "/ar/services/website-design/",
+    "marked": 89,
+    "unmarked": []
+  },
+  {
+    "key": "ecommerce",
+    "locale": "ar",
+    "path": "/ar/services/ecommerce/",
+    "marked": 87,
+    "unmarked": []
+  },
+  {
+    "key": "brand-design",
+    "locale": "ar",
+    "path": "/ar/services/brand-design/",
+    "marked": 90,
+    "unmarked": []
+  },
+  {
+    "key": "seo-geo",
+    "locale": "en",
+    "path": "/services/seo-geo/",
+    "marked": 87,
+    "unmarked": []
+  },
+  {
+    "key": "digital-marketing",
+    "locale": "en",
+    "path": "/services/digital-marketing/",
+    "marked": 85,
+    "unmarked": []
+  },
+  {
+    "key": "web-mobile-apps",
+    "locale": "en",
+    "path": "/services/web-mobile-apps/",
+    "marked": 85,
+    "unmarked": []
+  },
+  {
+    "key": "seo-geo",
+    "locale": "ar",
+    "path": "/ar/services/seo-geo/",
+    "marked": 90,
+    "unmarked": []
+  },
+  {
+    "key": "digital-marketing",
+    "locale": "ar",
+    "path": "/ar/services/digital-marketing/",
+    "marked": 92,
+    "unmarked": []
+  },
+  {
+    "key": "web-mobile-apps",
+    "locale": "ar",
+    "path": "/ar/services/web-mobile-apps/",
+    "marked": 90,
+    "unmarked": []
+  },
+  {
+    "key": "ai-automation",
+    "locale": "en",
+    "path": "/services/ai-automation/",
+    "marked": 86,
+    "unmarked": []
+  },
+  {
+    "key": "contact",
+    "locale": "en",
+    "path": "/contact/",
+    "marked": 81,
+    "unmarked": []
+  },
+  {
+    "key": "technical-support",
+    "locale": "en",
+    "path": "/services/technical-support/",
+    "marked": 89,
+    "unmarked": []
+  },
+  {
+    "key": "contact",
+    "locale": "ar",
+    "path": "/ar/contact/",
+    "marked": 83,
+    "unmarked": []
+  },
+  {
+    "key": "ai-automation",
+    "locale": "ar",
+    "path": "/ar/services/ai-automation/",
+    "marked": 89,
+    "unmarked": []
+  },
+  {
+    "key": "technical-support",
+    "locale": "ar",
+    "path": "/ar/services/technical-support/",
+    "marked": 92,
+    "unmarked": []
+  },
+  {
+    "key": "domains",
+    "locale": "en",
+    "path": "/domains/",
+    "marked": 87,
+    "unmarked": [
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": ".com$14/year"
+      },
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": ".org$16/year"
+      },
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": ".net$17/year"
+      },
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": ".biz$19/year"
+      },
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": ".info$20/year"
+      },
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": ".shop$29/year"
+      },
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "cy-arrow-control",
+        "text": "View all ↗"
+      },
+      {
+        "bg": "rgb(234, 245, 246)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "$14 /year.com"
+      },
+      {
+        "bg": "rgb(249, 237, 241)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "$16 /year.org"
+      },
+      {
+        "bg": "rgb(242, 244, 246)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "$17 /year.net"
+      },
+      {
+        "bg": "rgb(234, 245, 246)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "$19 /year.biz"
+      },
+      {
+        "bg": "rgb(249, 237, 241)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "$20 /year.info"
+      },
+      {
+        "bg": "rgb(242, 244, 246)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "$29 /year.shop"
+      },
+      {
+        "bg": "rgb(234, 245, 246)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "Enquire about registration.iq"
+      },
+      {
+        "bg": "rgb(249, 237, 241)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "Enquire about registration.com.iq"
+      }
+    ]
+  },
+  {
+    "key": "website-hosting",
+    "locale": "en",
+    "path": "/website-hosting/",
+    "marked": 97,
+    "unmarked": []
+  },
+  {
+    "key": "wordpress-hosting",
+    "locale": "en",
+    "path": "/wordpress-hosting/",
+    "marked": 97,
+    "unmarked": []
+  },
+  {
+    "key": "domains",
+    "locale": "ar",
+    "path": "/ar/domains/",
+    "marked": 87,
+    "unmarked": [
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": ".com$14/سنة"
+      },
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": ".org$16/سنة"
+      },
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": ".net$17/سنة"
+      },
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": ".biz$19/سنة"
+      },
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": ".info$20/سنة"
+      },
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "",
+        "text": ".shop$29/سنة"
+      },
+      {
+        "bg": "rgba(255, 255, 255, 0.05)",
+        "borders": [
+          "0.888889px",
+          "0.888889px",
+          "0.888889px"
+        ],
+        "cls": "cy-arrow-control",
+        "text": "عرض الكل ↗"
+      },
+      {
+        "bg": "rgb(234, 245, 246)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "$14/سنة.com"
+      },
+      {
+        "bg": "rgb(249, 237, 241)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "$16/سنة.org"
+      },
+      {
+        "bg": "rgb(242, 244, 246)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "$17/سنة.net"
+      },
+      {
+        "bg": "rgb(234, 245, 246)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "$19/سنة.biz"
+      },
+      {
+        "bg": "rgb(249, 237, 241)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "$20/سنة.info"
+      },
+      {
+        "bg": "rgb(242, 244, 246)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "$29/سنة.shop"
+      },
+      {
+        "bg": "rgb(234, 245, 246)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "استفسر عن التسجيل.iq"
+      },
+      {
+        "bg": "rgb(249, 237, 241)",
+        "borders": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "cls": "d-extension",
+        "text": "استفسر عن التسجيل.com.iq"
+      }
+    ]
+  },
+  {
+    "key": "website-hosting",
+    "locale": "ar",
+    "path": "/ar/website-hosting/",
+    "marked": 99,
+    "unmarked": []
+  },
+  {
+    "key": "wordpress-hosting",
+    "locale": "ar",
+    "path": "/ar/wordpress-hosting/",
+    "marked": 99,
+    "unmarked": []
+  },
+  {
+    "key": "cloud-hosting",
+    "locale": "en",
+    "path": "/cloud-hosting/",
+    "marked": 97,
+    "unmarked": []
+  },
+  {
+    "key": "email-hosting",
+    "locale": "en",
+    "path": "/email-hosting/",
+    "marked": 86,
+    "unmarked": []
+  },
+  {
+    "key": "cloud-hosting",
+    "locale": "ar",
+    "path": "/ar/cloud-hosting/",
+    "marked": 98,
+    "unmarked": []
+  },
+  {
+    "key": "email-hosting",
+    "locale": "ar",
+    "path": "/ar/email-hosting/",
+    "marked": 89,
+    "unmarked": []
+  },
+  {
+    "key": "case-studies",
+    "locale": "en",
+    "path": "/case-studies/",
+    "marked": 104,
+    "unmarked": []
+  },
+  {
+    "key": "case-velora-skin-clinic",
+    "locale": "en",
+    "path": "/case-studies/velora-skin-clinic/",
+    "marked": 100,
+    "unmarked": []
+  },
+  {
+    "key": "case-iraq-home-expo",
+    "locale": "en",
+    "path": "/case-studies/iraq-home-expo/",
+    "marked": 102,
+    "unmarked": []
+  },
+  {
+    "key": "case-studies",
+    "locale": "ar",
+    "path": "/ar/case-studies/",
+    "marked": 104,
+    "unmarked": []
+  },
+  {
+    "key": "case-velora-skin-clinic",
+    "locale": "ar",
+    "path": "/ar/case-studies/velora-skin-clinic/",
+    "marked": 100,
+    "unmarked": []
+  },
+  {
+    "key": "case-iraq-home-expo",
+    "locale": "ar",
+    "path": "/ar/case-studies/iraq-home-expo/",
+    "marked": 102,
+    "unmarked": []
+  },
+  {
+    "key": "case-madar-solar",
+    "locale": "en",
+    "path": "/case-studies/madar-solar/",
+    "marked": 100,
+    "unmarked": []
+  },
+  {
+    "key": "case-tradebridge-expo",
+    "locale": "en",
+    "path": "/case-studies/tradebridge-expo/",
+    "marked": 100,
+    "unmarked": []
+  },
+  {
+    "key": "case-atlas-supply",
+    "locale": "en",
+    "path": "/case-studies/atlas-supply/",
+    "marked": 100,
+    "unmarked": []
+  },
+  {
+    "key": "case-madar-solar",
+    "locale": "ar",
+    "path": "/ar/case-studies/madar-solar/",
+    "marked": 100,
+    "unmarked": []
+  },
+  {
+    "key": "case-tradebridge-expo",
+    "locale": "ar",
+    "path": "/ar/case-studies/tradebridge-expo/",
+    "marked": 100,
+    "unmarked": []
+  },
+  {
+    "key": "case-atlas-supply",
+    "locale": "ar",
+    "path": "/ar/case-studies/atlas-supply/",
+    "marked": 100,
+    "unmarked": []
+  },
+  {
+    "key": "case-safa-clinics",
+    "locale": "en",
+    "path": "/case-studies/safa-clinics/",
+    "marked": 100,
+    "unmarked": []
+  },
+  {
+    "key": "case-mada-developments",
+    "locale": "en",
+    "path": "/case-studies/mada-developments/",
+    "marked": 100,
+    "unmarked": []
+  },
+  {
+    "key": "case-safa-clinics",
+    "locale": "ar",
+    "path": "/ar/case-studies/safa-clinics/",
+    "marked": 100,
+    "unmarked": []
+  },
+  {
+    "key": "case-mada-developments",
+    "locale": "ar",
+    "path": "/ar/case-studies/mada-developments/",
+    "marked": 100,
+    "unmarked": []
+  }
+]

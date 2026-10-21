@@ -1,0 +1,642 @@
+[
+  {
+    "key": "homepage",
+    "path": "/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 220159,
+    "streamError": false
+  },
+  {
+    "key": "services",
+    "path": "/services/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 170356,
+    "streamError": false
+  },
+  {
+    "key": "about",
+    "path": "/about/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 93109,
+    "streamError": false
+  },
+  {
+    "key": "services",
+    "path": "/ar/services/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 161408,
+    "streamError": false
+  },
+  {
+    "key": "about",
+    "path": "/ar/about/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 85882,
+    "streamError": false
+  },
+  {
+    "key": "homepage",
+    "path": "/ar/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 204073,
+    "streamError": false
+  },
+  {
+    "key": "industries",
+    "path": "/industries/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 139536,
+    "streamError": false
+  },
+  {
+    "key": "roofing",
+    "path": "/industries/roofing/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 95588,
+    "streamError": false
+  },
+  {
+    "key": "healthcare",
+    "path": "/industries/healthcare/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 95940,
+    "streamError": false
+  },
+  {
+    "key": "industries",
+    "path": "/ar/industries/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 132071,
+    "streamError": false
+  },
+  {
+    "key": "roofing",
+    "path": "/ar/industries/roofing/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 88507,
+    "streamError": false
+  },
+  {
+    "key": "healthcare",
+    "path": "/ar/industries/healthcare/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 88834,
+    "streamError": false
+  },
+  {
+    "key": "e-commerce",
+    "path": "/industries/e-commerce/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 94862,
+    "streamError": false
+  },
+  {
+    "key": "small-business",
+    "path": "/industries/small-business/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 96010,
+    "streamError": false
+  },
+  {
+    "key": "construction",
+    "path": "/industries/construction/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 95452,
+    "streamError": false
+  },
+  {
+    "key": "construction",
+    "path": "/ar/industries/construction/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 88934,
+    "streamError": false
+  },
+  {
+    "key": "e-commerce",
+    "path": "/ar/industries/e-commerce/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 88887,
+    "streamError": false
+  },
+  {
+    "key": "small-business",
+    "path": "/ar/industries/small-business/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 88879,
+    "streamError": false
+  },
+  {
+    "key": "event-coordinators",
+    "path": "/industries/event-coordinators/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 95691,
+    "streamError": false
+  },
+  {
+    "key": "legal",
+    "path": "/industries/legal/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 94473,
+    "streamError": false
+  },
+  {
+    "key": "online-magazine",
+    "path": "/industries/online-magazine/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 95192,
+    "streamError": false
+  },
+  {
+    "key": "legal",
+    "path": "/ar/industries/legal/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 88123,
+    "streamError": false
+  },
+  {
+    "key": "event-coordinators",
+    "path": "/ar/industries/event-coordinators/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 89146,
+    "streamError": false
+  },
+  {
+    "key": "online-magazine",
+    "path": "/ar/industries/online-magazine/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 88734,
+    "streamError": false
+  },
+  {
+    "key": "oil-and-gas",
+    "path": "/industries/oil-and-gas/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 96762,
+    "streamError": false
+  },
+  {
+    "key": "real-estate",
+    "path": "/industries/real-estate/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 94497,
+    "streamError": false
+  },
+  {
+    "key": "fashion-and-lifestyle",
+    "path": "/industries/fashion-and-lifestyle/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 95709,
+    "streamError": false
+  },
+  {
+    "key": "oil-and-gas",
+    "path": "/ar/industries/oil-and-gas/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 88520,
+    "streamError": false
+  },
+  {
+    "key": "real-estate",
+    "path": "/ar/industries/real-estate/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 87957,
+    "streamError": false
+  },
+  {
+    "key": "fashion-and-lifestyle",
+    "path": "/ar/industries/fashion-and-lifestyle/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 90009,
+    "streamError": false
+  },
+  {
+    "key": "restaurants-cafes-bakeries",
+    "path": "/industries/restaurants-cafes-bakeries/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 98234,
+    "streamError": false
+  },
+  {
+    "key": "beauty-skincare-med-spa",
+    "path": "/industries/beauty-skincare-med-spa/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 99232,
+    "streamError": false
+  },
+  {
+    "key": "solar-energy",
+    "path": "/industries/solar-energy/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 95403,
+    "streamError": false
+  },
+  {
+    "key": "restaurants-cafes-bakeries",
+    "path": "/ar/industries/restaurants-cafes-bakeries/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 90125,
+    "streamError": false
+  },
+  {
+    "key": "beauty-skincare-med-spa",
+    "path": "/ar/industries/beauty-skincare-med-spa/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 91649,
+    "streamError": false
+  },
+  {
+    "key": "solar-energy",
+    "path": "/ar/industries/solar-energy/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 88275,
+    "streamError": false
+  },
+  {
+    "key": "brand-design",
+    "path": "/services/brand-design/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 545785,
+    "streamError": false
+  },
+  {
+    "key": "website-design",
+    "path": "/services/website-design/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 566522,
+    "streamError": false
+  },
+  {
+    "key": "ecommerce",
+    "path": "/services/ecommerce/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 560624,
+    "streamError": false
+  },
+  {
+    "key": "brand-design",
+    "path": "/ar/services/brand-design/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 544715,
+    "streamError": false
+  },
+  {
+    "key": "website-design",
+    "path": "/ar/services/website-design/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 562867,
+    "streamError": false
+  },
+  {
+    "key": "ecommerce",
+    "path": "/ar/services/ecommerce/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 557148,
+    "streamError": false
+  },
+  {
+    "key": "seo-geo",
+    "path": "/services/seo-geo/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 576172,
+    "streamError": false
+  },
+  {
+    "key": "digital-marketing",
+    "path": "/services/digital-marketing/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 576192,
+    "streamError": false
+  },
+  {
+    "key": "web-mobile-apps",
+    "path": "/services/web-mobile-apps/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 578402,
+    "streamError": false
+  },
+  {
+    "key": "seo-geo",
+    "path": "/ar/services/seo-geo/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 574174,
+    "streamError": false
+  },
+  {
+    "key": "digital-marketing",
+    "path": "/ar/services/digital-marketing/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 573337,
+    "streamError": false
+  },
+  {
+    "key": "web-mobile-apps",
+    "path": "/ar/services/web-mobile-apps/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 575343,
+    "streamError": false
+  },
+  {
+    "key": "ai-automation",
+    "path": "/services/ai-automation/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 575253,
+    "streamError": false
+  },
+  {
+    "key": "technical-support",
+    "path": "/services/technical-support/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 582074,
+    "streamError": false
+  },
+  {
+    "key": "contact",
+    "path": "/contact/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 540962,
+    "streamError": false
+  },
+  {
+    "key": "ai-automation",
+    "path": "/ar/services/ai-automation/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 574223,
+    "streamError": false
+  },
+  {
+    "key": "technical-support",
+    "path": "/ar/services/technical-support/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 580015,
+    "streamError": false
+  },
+  {
+    "key": "contact",
+    "path": "/ar/contact/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 541220,
+    "streamError": false
+  },
+  {
+    "key": "domains",
+    "path": "/domains/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 548339,
+    "streamError": false
+  },
+  {
+    "key": "website-hosting",
+    "path": "/website-hosting/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 696988,
+    "streamError": false
+  },
+  {
+    "key": "wordpress-hosting",
+    "path": "/wordpress-hosting/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 692247,
+    "streamError": false
+  },
+  {
+    "key": "domains",
+    "path": "/ar/domains/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 547210,
+    "streamError": false
+  },
+  {
+    "key": "website-hosting",
+    "path": "/ar/website-hosting/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 692233,
+    "streamError": false
+  },
+  {
+    "key": "wordpress-hosting",
+    "path": "/ar/wordpress-hosting/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 687321,
+    "streamError": false
+  },
+  {
+    "key": "cloud-hosting",
+    "path": "/cloud-hosting/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 693082,
+    "streamError": false
+  },
+  {
+    "key": "email-hosting",
+    "path": "/email-hosting/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 564565,
+    "streamError": false
+  },
+  {
+    "key": "case-studies",
+    "path": "/case-studies/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 535743,
+    "streamError": false
+  },
+  {
+    "key": "cloud-hosting",
+    "path": "/ar/cloud-hosting/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 688259,
+    "streamError": false
+  },
+  {
+    "key": "email-hosting",
+    "path": "/ar/email-hosting/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 560808,
+    "streamError": false
+  },
+  {
+    "key": "case-studies",
+    "path": "/ar/case-studies/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 535578,
+    "streamError": false
+  },
+  {
+    "key": "case-iraq-home-expo",
+    "path": "/case-studies/iraq-home-expo/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 544459,
+    "streamError": false
+  },
+  {
+    "key": "case-velora-skin-clinic",
+    "path": "/case-studies/velora-skin-clinic/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 539404,
+    "streamError": false
+  },
+  {
+    "key": "case-madar-solar",
+    "path": "/case-studies/madar-solar/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 538969,
+    "streamError": false
+  },
+  {
+    "key": "case-iraq-home-expo",
+    "path": "/ar/case-studies/iraq-home-expo/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 543378,
+    "streamError": false
+  },
+  {
+    "key": "case-velora-skin-clinic",
+    "path": "/ar/case-studies/velora-skin-clinic/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 538761,
+    "streamError": false
+  },
+  {
+    "key": "case-madar-solar",
+    "path": "/ar/case-studies/madar-solar/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 538286,
+    "streamError": false
+  },
+  {
+    "key": "case-tradebridge-expo",
+    "path": "/case-studies/tradebridge-expo/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 539000,
+    "streamError": false
+  },
+  {
+    "key": "case-atlas-supply",
+    "path": "/case-studies/atlas-supply/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 539115,
+    "streamError": false
+  },
+  {
+    "key": "case-safa-clinics",
+    "path": "/case-studies/safa-clinics/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 538780,
+    "streamError": false
+  },
+  {
+    "key": "case-tradebridge-expo",
+    "path": "/ar/case-studies/tradebridge-expo/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 538310,
+    "streamError": false
+  },
+  {
+    "key": "case-atlas-supply",
+    "path": "/ar/case-studies/atlas-supply/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 538446,
+    "streamError": false
+  },
+  {
+    "key": "case-safa-clinics",
+    "path": "/ar/case-studies/safa-clinics/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 538094,
+    "streamError": false
+  },
+  {
+    "key": "case-mada-developments",
+    "path": "/case-studies/mada-developments/",
+    "locale": "en",
+    "status": 200,
+    "bytes": 539534,
+    "streamError": false
+  },
+  {
+    "key": "case-mada-developments",
+    "path": "/ar/case-studies/mada-developments/",
+    "locale": "ar",
+    "status": 200,
+    "bytes": 539034,
+    "streamError": false
+  }
+]

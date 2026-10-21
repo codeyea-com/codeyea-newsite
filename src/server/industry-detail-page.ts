@@ -7,6 +7,10 @@ import {applyTemporaryIndustryFallbackMedia,attachLocalIndustryAssets} from '../
 import {defaultHomepage} from '../content/homepage-defaults';
 import {industrySlugForName} from '../content/industry-assets';
 export async function roofingPageData(preview=false){return industryPageData('roofing',preview)}
+export function resolveIndustryDetail(slug:IndustrySlug,saved?:ReturnType<typeof industryDetailSchema.parse>){
+ const approvedFallback=industryDetailSchema.parse(attachLocalIndustryAssets((fallback.details as Record<string,unknown>)[slug],slug));
+ return saved?industryDetailSchema.parse(applyTemporaryIndustryFallbackMedia(saved,approvedFallback)):approvedFallback;
+}
 export async function industryPageData(slug:IndustrySlug,preview=false){
  if(!isIndustrySlug(slug))return null;
  const page=await db.page.findFirst({where:{id:slug,deletedAt:null}});const source=preview?page?.draftSnapshot:page?.publishedSnapshot;
@@ -14,10 +18,7 @@ export async function industryPageData(slug:IndustrySlug,preview=false){
  const fallbackDetail=(fallback.details as Record<string,unknown>)[slug];
  if(preview&&!saved)return null;
  if(!saved&&!fallbackDetail)return null;
- const approvedFallback=industryDetailSchema.parse(attachLocalIndustryAssets(fallbackDetail,slug));
- const detail=saved
-  ?industryDetailSchema.parse(applyTemporaryIndustryFallbackMedia(saved,approvedFallback))
-  :approvedFallback;
+ const detail=resolveIndustryDetail(slug,saved);
  const shared=await db.page.findUnique({where:{id:'homepage'}}),sharedSource=preview?shared?.draftSnapshot:shared?.publishedSnapshot;
  const [pages,documents]=await Promise.all([db.page.findMany({where:{deletedAt:null},select:{id:true,draftSnapshot:true,publishedSnapshot:true,publishedAt:true,deletedAt:true}}),db.siteDocument.findMany({where:{kind:'page'},select:{slug:true,locale:true,kind:true,draft:true,published:true}})]);
  const industries=pages.find(p=>p.id==='industries');const industrySource=preview?industries?.draftSnapshot:industries?.publishedSnapshot;

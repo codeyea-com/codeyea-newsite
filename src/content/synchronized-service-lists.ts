@@ -1,6 +1,7 @@
 import type { IndustryDetailContent } from '../schemas/industry-detail';
 import type { ServiceItem } from '../schemas/services-page';
 import { completeServiceOrder, industryServiceOrder, serviceBySlug } from './service-catalog';
+import { arabicIndustryServiceCopy } from './arabic-industry-service-copy';
 import { servicePageDestinationForText } from './service-destinations';
 
 export function completeServiceItems(locale = 'en'): ServiceItem[] {
@@ -20,7 +21,7 @@ export function synchronizeIndustryServices(content: IndustryDetailContent): Ind
     const byPath = new Map(section.items.map(item => [
       (item.destination || servicePageDestinationForText(item.id, item.title, item.actionLabel) || '').replace(/^\/ar\//,'/').replace(/^\/services\//,'/').replace(/\/$/,''), item,
     ]));
-    return { ...section, items: industryServiceOrder.map(slug => {
+    return { ...section, ...(arabic ? {listLabel:'كيف نساعد نشاطك',actionLabel:'خدمات متكاملة',body:arabicIndustryServiceCopy[content.slug]?.join('\n\n') ?? section.body} : {}), items: industryServiceOrder.map(slug => {
       const service = serviceBySlug(slug), saved = byPath.get('/'+slug);
       return { ...saved, id: saved?.id || `${section.id}-${slug}`,
         title: arabic ? service.ar : service.title,

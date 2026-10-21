@@ -1,3 +1,4 @@
+import { domainVisitorCountry } from "@/server/domain-refinements";
 import { snapshotSchema } from "@/schemas/content";
 import { db } from "@/server/db";
 import { documentPath } from "@/content/site-routes";
@@ -52,6 +53,7 @@ export async function GET(
   return new Response(
     await renderDocument(doc.template, content, "ar", title, {
       public: true,
+      country: domainVisitorCountry(_request),
       alternates,
       shared,
     }),

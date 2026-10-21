@@ -56,7 +56,8 @@
 .cy-language-slot a:is(:hover, :focus-visible),
 .cy-language-float:is(:hover, :focus-visible) {
   color: #e0144c;
-  text-shadow: 0 3px 9px #e0144c50;
+  text-shadow: none;
+  text-decoration: none;
   translate: 0 -2px;
 }
 .hp .hp-header .hp-logo img {
@@ -142,7 +143,8 @@ html[lang="ar"] .cy-arrow-control:is(:hover, :focus-visible) .cy-button-arrow {
 .rf-service-lists a:is(:hover, :focus-visible) {
   color: #e0144c;
   transform: translateY(-3px);
-  text-shadow: 0 3px 8px #e0144c30;
+  text-shadow: none;
+  text-decoration: none;
 }
 html[lang="ar"] .hp.public-surface {
   --font-body: "Readex Pro", sans-serif;
@@ -421,9 +423,7 @@ html[lang="ar"] .hp .v-copy li::before {
 
 .cy-context-link {
   color: inherit;
-  text-decoration: underline;
-  text-decoration-color: #e0144c60;
-  text-underline-offset: 4px;
+  text-decoration: none;
 }
 .cy-context-link:is(:hover, :focus-visible) {
   color: #e0144c;

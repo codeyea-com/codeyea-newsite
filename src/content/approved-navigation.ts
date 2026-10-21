@@ -41,6 +41,11 @@ const descriptions: Record<string, string> = {
   Roofing: "Show your work and capture project enquiries.",
   "Small Business": "Build a stronger presence for your business.",
 };
+const industryDescriptionsBySlug:Record<string,string> = {
+ healthcare:descriptions['Healthcare & Aesthetic Clinics'],construction:descriptions.Construction,
+ 'real-estate':descriptions['Real Estate'],'e-commerce':descriptions.eCommerce,legal:descriptions.Legal,
+ 'oil-and-gas':descriptions['Oil & Gas'],roofing:descriptions.Roofing,'small-business':descriptions['Small Business'],
+};
 function industryHref(title: string, fallback: string) {
   if (fallback && !fallback.includes("#"))
     return fallback.startsWith("/industries/")
@@ -170,7 +175,7 @@ export function approvedMenuContent(
           ...child,
           href,
           body:
-            descriptions[str(child.title)] ||
+            industryDescriptionsBySlug[href.split('/').at(-1) || ''] || descriptions[str(child.title)] ||
             str(child.body) ||
             "Explore our approach for your industry.",
           icon: "◇",

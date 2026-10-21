@@ -1,0 +1,84 @@
+[
+  {
+    "locale": "ar",
+    "slug": "website-hosting",
+    "pricesCorrect": true,
+    "count": 5,
+    "rows": [
+      9,
+      9,
+      9,
+      9,
+      9
+    ],
+    "detailsOpened": true,
+    "next": "2 / 5"
+  },
+  {
+    "locale": "ar",
+    "slug": "wordpress-hosting",
+    "pricesCorrect": true,
+    "count": 4,
+    "rows": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "detailsOpened": false,
+    "next": "2 / 4",
+    "detailsToggle": true
+  },
+  {
+    "locale": "ar",
+    "slug": "cloud-hosting",
+    "pricesCorrect": true,
+    "count": 3,
+    "rows": [
+      13,
+      13,
+      13
+    ],
+    "detailsOpened": true,
+    "next": "2 / 3"
+  },
+  {
+    "locale": "ar",
+    "slug": "email-hosting",
+    "next": "2 / 3",
+    "pricesCorrect": true,
+    "count": 3
+  },
+  {
+    "locale": "en",
+    "slug": "website-hosting",
+    "count": 5,
+    "pricesCorrect": true,
+    "detailsToggle": true,
+    "next": "2 / 5"
+  },
+  {
+    "locale": "en",
+    "slug": "wordpress-hosting",
+    "count": 4,
+    "pricesCorrect": true,
+    "detailsToggle": true,
+    "next": "2 / 4"
+  },
+  {
+    "locale": "en",
+    "slug": "cloud-hosting",
+    "count": 3,
+    "pricesCorrect": true,
+    "detailsToggle": true,
+    "next": "2 / 3"
+  },
+  {
+    "locale": "en",
+    "slug": "email-hosting",
+    "count": 3,
+    "pricesCorrect": true,
+    "detailsToggle": true,
+    "next": "2 / 3"
+  }
+]

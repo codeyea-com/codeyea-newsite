@@ -24,6 +24,7 @@
  .hp.public-surface .hp-about-copy h2{max-width:none;font-size:clamp(30px,2.5vw,48px)}
  .hp.public-surface .hp-about-copy .hp-editorial-copy{max-width:none}
  html[lang=ar] .hp.public-surface .hp-about-copy{padding:8px 16% 0 10%}
+ html[lang=ar] .hp.public-surface .hp-about{column-gap:0}
 }
 .hp.public-surface .general-brand-plaque{box-shadow:0 22px 48px #071b3952,0 6px 14px #071b3924;transform:translateY(var(--plaque-y,0px));will-change:transform}
 
@@ -68,3 +69,85 @@ html[lang=ar] .hp.public-surface .industry-action{text-align:start}
 }
 @media(prefers-reduced-motion:reduce){.general-brand-plaque{transform:none;will-change:auto}.hp .hp-utility a,.hp .hp-utility a:before{transition:none;translate:none}}
 @media(prefers-reduced-motion:reduce),(max-width:1199px),(max-height:699px),(hover:none),(pointer:coarse){.hp.public-surface .industry-inner-parallax .industry-images img{transform:none}}
+
+/* Owner review: shared photo framing, hierarchy, menu and homepage header. */
+.hp.public-surface .internal-hero-media .about-image{object-fit:cover;object-position:50% 50%!important}
+.hp.public-surface .rf-service-lists{row-gap:16px}
+.hp.public-surface .rf-service-lists>h3{font-size:clamp(24px,2vw,30px);font-weight:700;line-height:1.4;letter-spacing:0;margin:0}
+.hp.public-surface .rf-service-lists li{font-size:clamp(18px,1.6vw,23px);font-weight:400}
+.hp.public-surface .rf-industries{background:#f3f6f8}
+.hp .hp-header .cy-services-panel .cy-host-feature{border-left:0;border-right:0;border-inline-start:1px solid #dce4e8;padding-left:0;padding-right:0;padding-inline-start:30px}
+.hp .cy-services-panel .cy-host-feature img{transition:transform .5s,box-shadow .5s;transform-origin:center}
+.hp .cy-services-panel .cy-host-feature:is(:hover,:focus-within) img{transform:scale(1.035);box-shadow:0 14px 30px #07244826}
+.hp .cy-services-panel .cy-host-feature a{display:inline-block;transition:color .3s,transform .3s}
+.hp .cy-services-panel .cy-host-feature a:is(:hover,:focus-visible){color:#e0144c;transform:translateY(-3px)}
+html[lang=ar] .hp .hp-desktop-nav{font-weight:600}
+.hp.hp-home .hp-header:not(.is-scrolled):not(.cy-sticky){background:transparent;box-shadow:none;color:white}
+.hp.hp-home .hp-header:not(.is-scrolled):not(.cy-sticky) .hp-logo-dark{opacity:0}
+.hp.hp-home .hp-header:not(.is-scrolled):not(.cy-sticky) .hp-logo-light{opacity:1}
+.hp.hp-home .hp-header:not(.is-scrolled):not(.cy-sticky) :is(.hp-desktop-nav,.hp-mobile-trigger,.cy-language-mobile){color:white;font-weight:600;text-shadow:0 2px 8px #0005}
+.hp.hp-home .hp-header:not(.is-scrolled):not(.cy-sticky) .hp-header-quote{background:#e0144c;color:white}
+.hp.hp-home .hp-header:not(.is-scrolled):not(.cy-sticky) .hp-header-quote:is(:hover,:focus-visible){background:white;color:#e0144c}
+@media(prefers-reduced-motion:reduce){.hp .cy-services-panel .cy-host-feature :is(img,a){transition:none;transform:none!important}}
+
+/* Hosting section headers keep the English alignment in both languages. */
+.hp.public-surface .v :is(.v-showcases,.v-card-section)>header,
+html[lang=ar] .hp.public-surface .v :is(.v-showcases,.v-card-section)>header :is(h2,p,.v-label){text-align:center}
+.hp.public-surface .v .v-card-section{width:100%;max-width:none;padding-inline:0;margin-inline:0}
+.hp.public-surface .v .v-card-section>header{padding-inline:24px}
+.hp.public-surface .v .v-cards{width:100%;max-width:none;margin-inline:0}
+
+html[lang=ar] .hp .hp-header :is(a,button,.cy-host-line strong){font-weight:600!important}
+
+html[lang=ar] .hp.public-surface .rf-service-lists>h3{font-size:clamp(24px,2vw,30px)!important;font-weight:700!important}
+
+html[lang=ar] .hp.public-surface .rf-service-lists>h3{--ar-h3:700}
+html[lang=ar] .hp.public-surface .hp-header{--ar-navigation:600}
+.hp.hp-home .hp-header:not(.is-scrolled):not(.cy-sticky){background:transparent!important}
+.hp.hp-home .hp-header:not(.is-scrolled):not(.cy-sticky) .hp-desktop-nav a{color:white}
+/* Homepage mobile top state follows the approved dark hero; sticky stays unchanged. */
+@media(max-width:1199px){
+ html body .hp.public-surface.hp-home header.hp-header:not(.is-scrolled):not(.cy-sticky),
+ html body .hp.public-surface.hp-home header.hp-header:not(.is-scrolled):not(.cy-sticky)::before{background:transparent!important}
+ html body .hp.public-surface.hp-home .hp-header:not(.is-scrolled):not(.cy-sticky) .hp-logo-light{opacity:1!important}
+ html body .hp.public-surface.hp-home .hp-header:not(.is-scrolled):not(.cy-sticky) .hp-logo-dark{opacity:0!important}
+ html body .hp.public-surface.hp-home .hp-header:not(.is-scrolled):not(.cy-sticky) .hp-mobile-trigger{color:white}
+}
+/* The hero extends behind the transparent header without changing its content spacing. */
+.hp.public-surface.hp-home{--home-header-overlap:95px}
+.hp.public-surface.hp-home header.hp-header{margin-bottom:calc(-1 * var(--home-header-overlap))!important}
+.hp.public-surface.hp-home .hp-services-hero{padding-top:var(--home-header-overlap)}
+html body .hp.public-surface.hp-home header.hp-header:not(.is-scrolled):not(.cy-sticky),
+html body .hp.public-surface.hp-home header.hp-header:not(.is-scrolled):not(.cy-sticky)::before{background:transparent!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;border-bottom-color:transparent;box-shadow:none}
+.hp .hp-header :is(a,button,summary):is(:hover,:focus-visible){text-decoration:none;text-shadow:none}
+.hp .cy-language-slot .hp-button{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;min-height:40px;color:white;background:var(--brand-blue,#072448);text-decoration:none;text-shadow:none}
+.hp .cy-language-slot .hp-button:is(:hover,:focus-visible){color:white;text-decoration:none;text-shadow:none}
+/* Shared text-link treatment; filled buttons and image-card motion stay separate. */
+.hp.public-surface a.cy-context-link{ text-decoration:none!important; text-shadow:none!important; }
+.hp :is(.cy-context-link,.motion-text-link,.hp-service-link,.hp-industries-intro>a,.hp-footer-grid a,.hp-footer-v2-menu a,.hp-footer-v2-portals a,.rf-service-lists a,.hp-desktop-nav>.hp-nav-item>a,.cy-host-feature a):not(.hp-button){position:relative;top:0;text-decoration:none;transition:color .3s,top .3s}
+.hp :is(.cy-context-link,.motion-text-link,.hp-service-link,.hp-industries-intro>a,.hp-footer-grid a,.hp-footer-v2-menu a,.hp-footer-v2-portals a,.rf-service-lists a,.hp-desktop-nav>.hp-nav-item>a,.cy-host-feature a):not(.hp-button):is(:hover,:focus-visible){color:#e0144c!important;text-decoration:none!important;text-shadow:none!important;top:-2px}
+.hp .rf-service-lists a:is(:hover,:focus-visible){transform:none}
+@media(prefers-reduced-motion:reduce){.hp :is(.cy-context-link,.motion-text-link,.hp-service-link,.hp-industries-intro>a,.hp-footer-grid a,.hp-footer-v2-menu a,.hp-footer-v2-portals a,.rf-service-lists a,.hp-desktop-nav>.hp-nav-item>a,.cy-host-feature a):not(.hp-button){transition:none;top:0!important}}
+@media(max-width:1199px){
+ .hp .cy-language-mobile .hp-button{background:transparent;border:1px solid #fff;color:#fff;box-shadow:none;transition:background .3s,color .3s}
+ .hp .cy-language-mobile .hp-button::before{display:none}
+ .hp .cy-language-mobile .hp-button:is(:hover,:focus-visible){background:#fff;color:#072448!important;transform:none;box-shadow:none}
+}
+@media(max-width:1199px){.hp.public-surface.hp-home{--home-header-overlap:75px}}
+/* Owner: full-width showcase backgrounds and enough space below every CTA. */
+.hp.public-surface .v .v-showcases{width:100%;max-width:none;margin-inline:0}
+.hp.public-surface .v .v-showcases .v-show{height:auto;max-height:none;padding-block:40px 56px}
+.hp.public-surface .v .v-showcases .v-copy{min-width:0}
+.hp.public-surface .v .v-showcases .v-copy>.v-editorial-link{margin-bottom:16px}
+@media(min-width:901px){
+ .hp.public-surface .v .v-showcases .v-show{min-height:calc(100svh - 96px);top:var(--showcase-top,96px)}
+}
+@media(max-width:900px){
+ .hp.public-surface .v .v-showcases .v-show{padding-block:32px 48px}
+}
+/* Owner-approved text links: red plus a small lift, with no text shadow or underline. */
+.hp.public-surface :where(a,button,summary):focus-visible{text-decoration:none!important}
+.hp.public-surface a.cy-approved-text-link{position:relative;top:0;text-decoration:none!important;text-shadow:none!important;background-image:none!important;box-shadow:none!important;transition:color .3s ease,top .3s ease}
+.hp.public-surface a.cy-approved-text-link:is(:hover,:focus-visible){color:#e0144c!important;top:-2px;transform:none!important;translate:none!important;text-decoration:none!important;text-shadow:none!important;background-color:transparent!important;background-image:none!important;box-shadow:none!important}
+.hp.public-surface .rp-link.cy-approved-text-link::after{display:none!important}
+@media(prefers-reduced-motion:reduce){.hp.public-surface a.cy-approved-text-link{transition:none}.hp.public-surface a.cy-approved-text-link:is(:hover,:focus-visible){top:0}}

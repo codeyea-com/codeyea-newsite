@@ -70,6 +70,7 @@
         slot.replaceChildren();
         if (!data.enabled) return;
         const link = document.createElement("a");
+        if (slot.classList.contains('cy-language-mobile')) link.className = "hp-button";
         link.href = data.href;
         link.lang = data.label === "English" ? "en" : "ar";
         link.textContent = data.label;
@@ -239,6 +240,18 @@
           .replace(/&(?:amp;)*nbsp;/g, " ");
     }
     void language();
+    // Apply the owner's text-link hover only to text links, preserving buttons,
+    // utility sheen, image cards, tabs and specialist hero interactions.
+    document.querySelectorAll('.hp.public-surface a[href]').forEach(link => {
+      if (link.classList.contains('cy-approved-text-link')) return;
+      if (link.closest('.hp-utility,.cy-language-slot,.home-services-hero,.hp-services-hero,.v-hosting-nav,.d-tabs,.cy-host-plans,[role="tablist"]')) return;
+      if (link.matches('.hp-button,.b-btn,.d-btn,.ct-btn,.choose,.primary,.secondary,[role="tab"],[role="button"],[download]') || link.querySelector('img,picture,video,h1,h2,h3,p')) return;
+      if (!link.textContent.trim() || link.getAttribute('aria-disabled') === 'true') return;
+      const style = getComputedStyle(link);
+      const transparent = style.backgroundColor === 'transparent' || /rgba\([^)]*,\s*0\)$/.test(style.backgroundColor);
+      const boxed = ['borderTopWidth','borderLeftWidth','borderRightWidth'].some(side => parseFloat(style[side]) > 0);
+      if (transparent && !boxed) link.classList.add('cy-approved-text-link');
+    });
     document
       .querySelectorAll(
         ".hp.public-surface a, .hp.public-surface button, #cq-dialog a, #cq-dialog button",
@@ -246,7 +259,7 @@
       .forEach((control) => {
         if (
           control.closest(
-            ".hp-carousel-buttons, .about-reference-pagination, .hp-desktop-nav",
+            ".hp-carousel-buttons, .about-reference-pagination, .hp-desktop-nav, .cy-host-plans",
           ) ||
           control.classList.contains("cy-back-top") ||
           control.matches("[data-slide], [data-period], .case-detail .gallery-prev, .case-detail .gallery-next, .case-detail .project-nav a") ||
@@ -493,6 +506,20 @@
       const anchor = document.createElement("span");
       anchor.style.cssText = "display:block;height:0;pointer-events:none";
       stack.querySelector(".v-show").before(anchor);
+      // Let long translated cards scroll far enough to reveal their CTA before pinning.
+      const showcaseCards = [...stack.querySelectorAll(".v-show")];
+      const fitShowcases = () => {
+        showcaseCards.forEach(card => {
+          const top = Math.min(96, innerHeight - card.offsetHeight - 32);
+          const value = top + "px";
+          if (card.style.getPropertyValue("--showcase-top") !== value)
+            card.style.setProperty("--showcase-top", value);
+        });
+      };
+      const showcaseResize = new ResizeObserver(fitShowcases);
+      showcaseCards.forEach(card => showcaseResize.observe(card));
+      addEventListener("resize", fitShowcases);
+      fitShowcases();
       let locked = false,
         timer,
         accumulated = 0,
@@ -510,6 +537,8 @@
             return;
           const cards = [...stack.querySelectorAll(".v-show")];
           if (cards.length < 2) return;
+          // Native scrolling keeps all content reachable when a card exceeds the viewport.
+          if (cards.some(card => card.offsetHeight > innerHeight - 96 + 2)) return;
           const top = 96,
             base = anchor.getBoundingClientRect().top + scrollY;
           let offset = 0;
