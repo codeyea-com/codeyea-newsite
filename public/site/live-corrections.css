@@ -1,0 +1,86 @@
+/* Owner's live-site notes, 2026-10-21. Shared by React and document routes. */
+.hp.public-surface .hp-header :is(a,button,summary,strong),html[lang=ar] .hp.public-surface .hp-header :is(a,button,summary,strong){font-weight:400!important;text-shadow:none!important}
+html body .hp.public-surface .hp-header nav :is(a,button,summary),html[lang=ar] body .hp.public-surface .hp-header nav :is(a,button,summary){font-weight:400!important;text-shadow:none!important}
+.hp.public-surface .hp-header>.cy-host-panel{background:rgb(255 255 255 / 86%)!important;backdrop-filter:blur(22px) saturate(115%);-webkit-backdrop-filter:blur(22px) saturate(115%)}
+.hp.public-surface .hp-header .cy-host-feature{border-left:0!important;border-right:0!important;border-inline-start:1px solid #dce4e8!important;padding-inline:28px 0!important}
+.hp.public-surface .hp-header .cy-host-line strong,html[lang=ar] .hp.public-surface .hp-header .cy-host-line strong{font-size:18px!important;line-height:1.5!important;font-weight:500!important}
+.hp.public-surface .hp-header .cy-host-desc,html[lang=ar] .hp.public-surface .hp-header .cy-host-desc{font-size:14px!important;line-height:1.7!important;font-weight:400!important}
+.hp.public-surface .hp-header .cy-host-feature h3{font-size:22px!important;line-height:1.5!important;font-weight:500!important}
+.hp.public-surface .hp-header .cy-host-line :is(i,.cy-industry-icon){width:40px;height:40px;flex-basis:40px}
+.hp.public-surface .hp-header .cy-host-line svg{width:22px;height:22px}
+.hp.public-surface :is(.hp-button,.hp-header-quote,.b-btn,.d-btn,.choose){transition-duration:.65s!important;transition-timing-function:cubic-bezier(.22,.61,.36,1)!important}
+.hp.public-surface :is(.hp-button,.hp-header-quote,.b-btn,.d-btn,.choose)::before,.hp.public-surface :is(.hp-button,.hp-header-quote,.b-btn,.d-btn,.choose)::after{transition-duration:.65s!important;transition-timing-function:cubic-bezier(.22,.61,.36,1)!important}
+.hp.public-surface .b-intro{padding-inline:max(20px,calc((100% - var(--page-content-width))/2));box-sizing:border-box}
+.hp.public-surface .b-intro>div{width:auto;min-width:0}
+.hp.public-surface .v .v-card-section .v-cards{width:var(--page-content-width)!important;max-width:100%!important;margin-inline:auto!important}
+.hp.public-surface .cy-host-plans{width:100%!important;max-width:none!important;margin-inline:0!important;box-sizing:border-box}
+.hp.public-surface .cy-host-plans>:is(.intro,.controls,.slider-controls,.disclaimer){max-width:var(--page-content-width);margin-inline:auto}
+.hp.public-surface .cy-faq-question{min-height:60px!important;padding-block:16px!important;font-size:clamp(17px,1.4vw,21px)!important;line-height:1.5!important;font-weight:400!important}
+.hp.public-surface .cy-faq-question :is(h3,span,b){font-size:inherit!important;font-weight:inherit!important;color:inherit!important}
+html[lang=ar] .hp.public-surface main .rf-body .cy-faq-question h3,html .hp.public-surface main section .cy-faq-question h3{font-size:inherit!important;font-weight:400!important;line-height:inherit!important}
+.hp.public-surface .cy-faq-question::after{width:38px;height:38px;flex-basis:38px;font-size:25px}
+.hp.public-surface .cy-faq-item{padding-block:0!important;margin-block:0!important}
+.hp.public-surface .cy-faq-heading{align-self:start;position:sticky;top:120px}
+.hp.public-surface .cy-faq-label{display:block;margin:0 0 18px;font-size:12px;font-weight:400;letter-spacing:.1em;color:#072448}
+.hp.public-surface .cy-accordion-title{transition:color .4s ease,padding-inline-start .5s ease;cursor:pointer}
+.hp.public-surface .cy-accordion-title :is(h3,b,.ai-service-title){color:inherit!important}
+.hp.public-surface .cy-accordion-title:is(:hover,:focus-visible){color:#e0144c!important;padding-inline-start:8px!important}
+.hp.public-surface .cy-text-hover{display:inline-flex;position:relative;top:0;transition:color .4s ease,top .5s ease}
+.hp.public-surface .cy-text-hover:is(:hover,:focus-visible){color:#e0144c!important;top:-3px;text-decoration:none!important}
+.hp.public-surface .ts-plan{display:flex;flex-direction:column;transition:transform .5s ease,box-shadow .5s ease,border-color .5s ease}
+.hp.public-surface .ts-plan:is(:hover,:focus-within){transform:translateY(-5px);border-color:#10aabc;box-shadow:0 25px 55px #07244814}
+.hp.public-surface .ts-plan table{margin-top:24px;width:100%;border-collapse:collapse;table-layout:fixed}
+.hp.public-surface .ts-plan :is(th,td){display:table-cell!important;padding:12px 6px;text-align:start;vertical-align:top;border-bottom:1px solid #dce4e8;font-weight:400;line-height:1.65;font-size:14px!important;overflow-wrap:anywhere}
+.hp.public-surface .ts-plan th{width:42%;color:#072448}
+.hp.public-surface .ts-plan tr{display:table-row!important;transition:background-color .4s ease}
+.hp.public-surface .ts-plan tr:hover{background:#edf6f8}
+.cy-plan-icon{display:inline-block;width:19px;height:19px;margin-inline-end:7px;vertical-align:middle;color:#10aabc;fill:none;stroke:currentColor;stroke-width:1.5}
+.hp.public-surface :is(#construction-imageBreak,#real-estate-imageBreak,#legal-imageBreak,#oil-and-gas-imageBreak,#roofing-imageBreak,#small-business-imageBreak,#restaurants-cafes-bakeries-imageBreak,#fashion-and-lifestyle-imageBreak).motion-inner-scroll img{top:0!important;height:100%!important;transform:none!important;object-position:50% 0!important;scale:1!important}
+.hp.public-surface :is(#construction-imageBreak,#real-estate-imageBreak,#legal-imageBreak,#oil-and-gas-imageBreak,#roofing-imageBreak,#small-business-imageBreak,#restaurants-cafes-bakeries-imageBreak,#fashion-and-lifestyle-imageBreak) img{object-position:50% 0!important;scale:1!important;transform:none!important}
+.hp.public-surface #main.case-detail{--ink:#072448;--muted:#535e65;--accent:#e0144c;font-family:var(--font-body)!important;color:var(--ink)}
+.hp.public-surface .case-detail :is(h1,h2,h3,h4,p,a,span,small,figcaption){font-family:inherit!important}
+.hp.public-surface #main.case-detail h2{font-size:clamp(30px,3.2vw,46px)!important;line-height:1.35!important;font-weight:500!important;color:#072448!important}
+.hp.public-surface #main.case-detail p{font-size:18px!important;line-height:1.8!important;font-weight:400!important;color:#535e65!important}
+.hp.public-surface .case-detail .image-frame{position:relative}
+.hp.public-surface #main.case-detail .image-frame figcaption{position:absolute!important;inset-inline-start:16px!important;bottom:16px!important;writing-mode:vertical-rl!important;transform:none!important;font-size:12px!important}
+.hp.public-surface .about-project-interactive .about-project-labels{z-index:4}
+.hp.public-surface .case-detail .case-cta.cy-photo-cta h2{color:white!important}
+.hp.public-surface .cy-photo-target{cursor:zoom-in}
+.cy-photo-dialog{border:0;border-radius:0;padding:48px 20px 20px;background:#072448;width:min(94vw,1500px);max-width:94vw;max-height:94svh;box-sizing:border-box}
+.cy-photo-dialog::backdrop{background:#031020df;backdrop-filter:blur(8px)}
+.cy-photo-dialog img{display:block;width:100%;height:auto;max-height:calc(94svh - 75px);object-fit:contain;border-radius:0}
+.cy-photo-close{position:absolute;inset:8px 12px auto auto;background:transparent;border:1px solid #ffffff80;color:white;font:28px/1 sans-serif;width:34px;height:34px;cursor:pointer;border-radius:0}
+.hp.public-surface .cy-photo-cta{position:relative;isolation:isolate;overflow:hidden;background:#072448;color:white!important}
+.hp.public-surface .cy-photo-cta::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#072448dc,#0724489c),var(--cta-photo) center top/cover no-repeat}
+.hp.public-surface .cy-photo-cta :is(h2,p,small,.b-eyebrow,.ds-label,.rp-eyebrow){color:white!important}
+/* Black text shadows keep every CTA readable over its photograph. */
+.hp.public-surface :is(.cy-photo-cta,.rf-cta,.rp-cta,.b-contact,.case-cta,.d-domain-cta,.hp-footer-v2-lead,.hp-footer-v2-quote) :is(h1,h2,h3,h4,p,small,span,a,button,strong,label){text-shadow:0 2px 4px #000d,0 4px 14px #0009!important}
+.hp.public-surface #main.case-detail .case-cta.cy-photo-cta h2,.hp.public-surface #main.case-detail .case-cta.cy-photo-cta>div>span{color:white!important}
+.hp.public-surface .hp-services-hero .hero-copy:lang(ar){transform:none!important}
+.hp.public-surface #restaurants-cafes-bakeries-cta .rf-cta-media img{object-position:50% 0!important;scale:1!important;transform:none!important}
+.hp.public-surface .cy-about-cta{padding:75px 0}
+.hp.public-surface .cy-about-cta::before{background-position:70% 5%}
+.hp.public-surface .cy-about-cta>.about-reference-container{display:flex;align-items:center;justify-content:space-between;gap:40px}
+.hp.public-surface .cy-about-cta h2{font-size:clamp(30px,3.4vw,48px);line-height:1.4;font-weight:500;margin:12px 0}
+html[lang=ar] .hp.public-surface :is(h1,h2,h3,h4,h5,h6,p,a,button,summary,span,strong,small,li,label,td,th):not(:where(.hp-services-hero *)){font-family:"Readex Pro",sans-serif!important}
+html[lang=ar] .hp.public-surface :is(p,li,td,th,label){font-size:17px;line-height:1.85;font-weight:400!important;letter-spacing:0!important}
+html[lang=ar] .hp.public-surface :is(h2,h3,h4){font-weight:500!important;line-height:1.55;letter-spacing:0!important}
+html[lang=ar] .hp.public-surface :is(.rf-service-lists li,.rf-industry-lists li,.industries-introduction p){font-size:18px!important;font-weight:400!important}
+html[lang=ar] .hp.public-surface :is(.rf-body h2,.about-static h2,.industries-page h2){font-size:clamp(28px,3vw,44px)!important}
+html[lang=ar] .hp.public-surface :is(.rf-body h3,.about-static h3){font-size:clamp(22px,2vw,28px)!important}
+html[lang=ar] .hp.public-surface .rf-service-lists>h3{font-weight:500!important}
+html[lang=ar] .hp.public-surface .rf-service-lists>h3{--ar-h3:500}
+html[lang=ar] .hp.public-surface .ct-hero-title h1{white-space:nowrap;font-size:clamp(28px,4.5vw,64px)!important}
+@media(min-width:901px){
+ .hp.public-surface .hp-services-hero{min-height:0}
+ .hp.public-surface .hp-services-hero .hero-inner{width:var(--page-content-width);max-width:none;min-height:0;padding:clamp(28px,4vh,48px) 0 18px;gap:36px;grid-template-columns:minmax(0,.95fr) minmax(0,1.1fr)}
+ .hp.public-surface .hp-services-hero .hero-copy h1{font-size:clamp(30px,3.2vw,54px);min-height:3.4em}
+ .hp.public-surface .hp-services-hero .hero-copy h1:lang(ar){font-size:clamp(30px,3.1vw,50px);min-height:3.6em;line-height:1.5}
+ .hp.public-surface .hp-services-hero .description{font-size:15px;margin-block:18px 24px;min-height:0}
+ .hp.public-surface .hp-services-hero .visual{width:100%;max-height:calc(100svh - 260px)}
+ .hp.public-surface .hp-services-hero .hero-bottom{width:var(--page-content-width);max-width:none;padding:4px 0 22px}
+ .hp.public-surface .hp-services-hero .eyebrow{margin-bottom:20px}
+ .hp.public-surface .hp-services-hero .actions a{padding:14px 18px}
+}
+@media(max-width:900px){.hp.public-surface .cy-faq-heading{top:90px;background:#fff;z-index:3;padding-block:10px}.hp.public-surface .cy-about-cta>.about-reference-container{display:block}.hp.public-surface .cy-about-cta .hp-button{margin-top:20px}}
+@media(prefers-reduced-motion:reduce){.hp.public-surface :is(.cy-accordion-title,.cy-text-hover,.ts-plan),.hp.public-surface :is(.hp-button,.b-btn,.d-btn,.choose)::before{transition:none!important;transform:none!important;top:0!important}}

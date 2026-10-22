@@ -162,7 +162,7 @@ export function AboutShowcase({ section }: { section: AboutSection }) {
         media: item.media,
         destination:
           (/\p{Script=Arabic}/u.test(item.title) ? "/ar" : "") +
-          (["/services/seo-geo/", "/services/web-mobile-apps/", "/services/ecommerce/", "/services/ai-automation/"][
+          (["/services/seo-geo-aeo/", "/services/web-mobile-apps/", "/services/ecommerce/", "/services/ai-automation/"][
             item.position
           ] ?? "/services/"),
       }))

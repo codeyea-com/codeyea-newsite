@@ -976,18 +976,18 @@
     "alt": "النشر والمجلات، مشهد يوضح نشاط القطاع"
   },
   "generated-online-magazine-needs-en": {
-    "src": "/site/generated/industries/online-magazine/needs-v2-desktop.webp",
-    "mobileSrc": "/site/generated/industries/online-magazine/needs-v2-mobile.webp",
-    "width": 434,
-    "height": 730,
+    "src": "/site/generated/industries/online-magazine/needs-live-review-v1.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/needs-live-review-v1.webp",
+    "width": 1122,
+    "height": 1402,
     "expectedSource": "/approved-media/image-18.webp",
     "alt": "Online Magazine: industry activity"
   },
   "generated-online-magazine-needs-ar": {
-    "src": "/site/generated/industries/online-magazine/needs-v2-desktop.webp",
-    "mobileSrc": "/site/generated/industries/online-magazine/needs-v2-mobile.webp",
-    "width": 434,
-    "height": 730,
+    "src": "/site/generated/industries/online-magazine/needs-live-review-v1.webp",
+    "mobileSrc": "/site/generated/industries/online-magazine/needs-live-review-v1.webp",
+    "width": 1122,
+    "height": 1402,
     "expectedSource": "/approved-media/image-18.webp",
     "alt": "النشر والمجلات، مشهد يوضح نشاط القطاع"
   },
@@ -1376,18 +1376,18 @@
     "alt": "أعمال الأزياء، مشهد يوضح نشاط القطاع"
   },
   "generated-fashion-and-lifestyle-image-break-en": {
-    "src": "/site/generated/industries/fashion-and-lifestyle/image-break-v3-desktop.webp",
-    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/image-break-v3-desktop.webp",
-    "width": 1265,
-    "height": 791,
+    "src": "/site/generated/industries/fashion-and-lifestyle/image-break-live-review-v1.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/image-break-live-review-v1.webp",
+    "width": 1800,
+    "height": 772,
     "expectedSource": "/approved-media/image-01.webp",
     "alt": "Fashion and Lifestyle: industry activity"
   },
   "generated-fashion-and-lifestyle-image-break-ar": {
-    "src": "/site/generated/industries/fashion-and-lifestyle/image-break-v3-desktop.webp",
-    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/image-break-v3-desktop.webp",
-    "width": 1265,
-    "height": 791,
+    "src": "/site/generated/industries/fashion-and-lifestyle/image-break-live-review-v1.webp",
+    "mobileSrc": "/site/generated/industries/fashion-and-lifestyle/image-break-live-review-v1.webp",
+    "width": 1800,
+    "height": 772,
     "expectedSource": "/approved-media/image-01.webp",
     "alt": "أعمال الأزياء، مشهد يوضح نشاط القطاع"
   },
@@ -1616,50 +1616,50 @@
     "alt": "المطاعم والمقاهي، مشهد يوضح نشاط القطاع"
   },
   "generated-restaurants-cafes-bakeries-needs-en": {
-    "src": "/site/generated/industries/restaurants-cafes-bakeries/needs-v2-desktop.webp",
-    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/needs-v2-mobile.webp",
-    "width": 434,
-    "height": 730,
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/needs-live-review-v1.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/needs-live-review-v1.webp",
+    "width": 1122,
+    "height": 1402,
     "expectedSource": "/approved-media/image-25.webp",
     "alt": "Restaurants, Cafés & Bakeries: industry activity"
   },
   "generated-restaurants-cafes-bakeries-needs-ar": {
-    "src": "/site/generated/industries/restaurants-cafes-bakeries/needs-v2-desktop.webp",
-    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/needs-v2-mobile.webp",
-    "width": 434,
-    "height": 730,
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/needs-live-review-v1.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/needs-live-review-v1.webp",
+    "width": 1122,
+    "height": 1402,
     "expectedSource": "/approved-media/image-25.webp",
     "alt": "المطاعم والمقاهي، مشهد يوضح نشاط القطاع"
   },
   "generated-restaurants-cafes-bakeries-image-break-en": {
-    "src": "/site/generated/industries/restaurants-cafes-bakeries/image-break-v3-desktop.webp",
-    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/image-break-v3-desktop.webp",
-    "width": 1265,
-    "height": 791,
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/image-break-live-review-v1.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/image-break-live-review-v1.webp",
+    "width": 1800,
+    "height": 772,
     "expectedSource": "/approved-media/image-34.webp",
     "alt": "Restaurants, Cafés & Bakeries: industry activity"
   },
   "generated-restaurants-cafes-bakeries-image-break-ar": {
-    "src": "/site/generated/industries/restaurants-cafes-bakeries/image-break-v3-desktop.webp",
-    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/image-break-v3-desktop.webp",
-    "width": 1265,
-    "height": 791,
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/image-break-live-review-v1.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/image-break-live-review-v1.webp",
+    "width": 1800,
+    "height": 772,
     "expectedSource": "/approved-media/image-34.webp",
     "alt": "المطاعم والمقاهي، مشهد يوضح نشاط القطاع"
   },
   "generated-restaurants-cafes-bakeries-cta-en": {
-    "src": "/site/generated/industries/restaurants-cafes-bakeries/cta-v2-desktop.webp",
-    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/cta-v2-mobile.webp",
-    "width": 1265,
-    "height": 475,
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/cta-live-review-v1.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/cta-live-review-v1.webp",
+    "width": 1800,
+    "height": 772,
     "expectedSource": "/approved-media/image-34.webp",
     "alt": "Restaurants, Cafés & Bakeries: industry activity"
   },
   "generated-restaurants-cafes-bakeries-cta-ar": {
-    "src": "/site/generated/industries/restaurants-cafes-bakeries/cta-v2-desktop.webp",
-    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/cta-v2-mobile.webp",
-    "width": 1265,
-    "height": 475,
+    "src": "/site/generated/industries/restaurants-cafes-bakeries/cta-live-review-v1.webp",
+    "mobileSrc": "/site/generated/industries/restaurants-cafes-bakeries/cta-live-review-v1.webp",
+    "width": 1800,
+    "height": 772,
     "expectedSource": "/approved-media/image-34.webp",
     "alt": "المطاعم والمقاهي، مشهد يوضح نشاط القطاع"
   },

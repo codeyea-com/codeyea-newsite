@@ -99,7 +99,7 @@ test('Iraq Home Expo alone retains real-project metadata and its three-image gal
     assert.ok(html.includes('https://iraqhomeexpo.com'));
     assert.equal((html.match(/class="slide"/g)||[]).length,3);
     assert.ok(!html.includes(conceptDisclosure[locale]));
-    assert.ok(html.includes('class="case-cta"'));
+    assert.match(html, /class="case-cta(?:\s+[^"]*)?"/);
     assert.ok(html.includes('data-quote-open'));
     assert.ok(html.includes(locale==='ar'?'كوديا: الفكرة والإشراف الإبداعي':'CODEYEA: concept and creative supervision'));
   }

@@ -574,18 +574,15 @@
           );
           if (sign < 0 && index === 0 && Math.abs(scrollY - stops[0]) < 5)
             return;
+          // The final panel releases to native scrolling, never jumps to the next section.
+          if(sign>0 && index===cards.length-1){accumulated=0;return;}
           if (direction !== sign) accumulated = 0;
           direction = sign;
           accumulated += Math.abs(delta);
           event.preventDefault();
           if (accumulated < 40) return;
           const next = index + sign;
-          const target =
-            next >= cards.length
-              ? base + offset - top
-              : next < 0
-                ? stops[0]
-                : stops[next];
+          const target = next < 0 ? stops[0] : stops[Math.min(next,cards.length-1)];
           accumulated = 0;
           locked = true;
           scrollTo({ top: target, behavior: "smooth" });

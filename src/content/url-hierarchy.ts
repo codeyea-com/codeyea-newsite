@@ -5,10 +5,11 @@ export const nestedServiceSlugs = [
 ] as const;
 
 export function canonicalSiteHref(href: string): string {
-  return href.replace(/^(https?:\/\/(?:www\.)?codeyea\.com)?(\/ar)?\/([^/?#]+)(\/?)([?#].*)?$/i,
+  if (!href.startsWith('/') && !/^https?:\/\/(?:www\.)?codeyea\.com(?:\/|$)/i.test(href)) return href;
+  return href.replace(/^((?:https?:\/\/(?:www\.)?codeyea\.com)?(?:\/ar)?)\/services\/seo-geo(?=\/|[?#]|$)/i,'$1/services/seo-geo-aeo').replace(/^(https?:\/\/(?:www\.)?codeyea\.com)?(\/ar)?\/([^/?#]+)(\/?)([?#].*)?$/i,
     (original, origin = '', locale = '', slug: string, _slash, suffix = '') =>
       (nestedServiceSlugs as readonly string[]).includes(slug)
-        ? `${origin}${locale}/services/${slug}/${suffix}` : original);
+        ? `${origin}${locale}/services/${slug==='seo-geo'?'seo-geo-aeo':slug}/${suffix}` : original);
 }
 
 export function canonicalHtmlLinks(html: string): string {

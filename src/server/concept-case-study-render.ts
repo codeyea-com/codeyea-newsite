@@ -81,7 +81,7 @@ export async function caseStudyShell(
   main: string,
   locale: CaseLocale,
   title: string,
-  options: { detail?: boolean; description?: string } = {},
+  options: { detail?: boolean; description?: string; ctaSlug?: string } = {},
 ) {
   const source = await templateContent("website-design");
   const draft = templatePageDraft("website-design", source);
@@ -163,6 +163,8 @@ export async function caseStudyShell(
     html = html.replace('</head>', '<link rel="stylesheet" href="/site/case-index.css"></head>')
       .replace('</body>', '<script src="/site/case-index.js" defer></script></body>');
   }
+  const ctaImage=`/site/generated/case-studies/${options.ctaSlug||'index'}/cta-live-review.webp`;
+  html=html.replace(/(<section\b[^>]*class=")([^"]*(?:case-cta|b-contact)[^"]*)(")/g,`$1$2 cy-photo-cta$3 style="--cta-photo:url(${ctaImage})"`);
   // Local review of a concept must not submit an actual lead.
   return html.replace(
     "window.CODEYEA_LEADS_ENABLED=true",
@@ -179,7 +181,7 @@ export async function renderConceptCaseStudy(
     conceptDetailMain(item, locale, links),
     locale,
     item[locale].name + " | " + words[locale].label,
-    { detail: true },
+    { detail: true, ctaSlug:item.slug },
   );
 }
 
@@ -193,6 +195,7 @@ export async function renderIraqHomeExpo(
     "Iraq Home Expo",
     {
       detail: true,
+      ctaSlug:'iraq-home-expo',
       description:
         locale === "ar"
           ? "رحلة هوية معرض عراق هوم إكسبو وموقعه التفاعلي ونظام إدارة المحتوى الخاص."

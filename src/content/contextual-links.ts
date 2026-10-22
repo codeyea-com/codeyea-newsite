@@ -22,7 +22,7 @@ const phrases: Array<[string, string]> = [
   ["eCommerce", "/services/ecommerce/"],
   ["e-commerce", "/services/ecommerce/"],
   ["hosting", "/website-hosting/"],
-  ["SEO", "/services/seo-geo/"],
+  ["SEO", "/services/seo-geo-aeo/"],
   ["تطوير الويب والتطبيقات", "/services/web-mobile-apps/"],
   ["تصميم المواقع", "/services/website-design/"],
   ["الدعم التقني", "/services/technical-support/"],

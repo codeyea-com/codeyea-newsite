@@ -57,7 +57,7 @@ export function IndustriesPage({content,shared,preview=false,availablePaths=[]}:
      </div>
     </section>;
    })}</div>
-   {content.cta.enabled&&<section className="industries-final" id={content.cta.id}><p className="industry-label">{content.cta.label}</p><div className="industries-final-columns"><h2>{content.cta.heading}</h2><div><p>{content.cta.body}</p><a className="hp-button" href={contact}>{content.cta.actionLabel}</a></div></div></section>}
+   {content.cta.enabled&&<section className="industries-final cy-photo-cta" style={{'--cta-photo':'url(/site/generated/general/industries/cta-live-review.webp)'} as import('react').CSSProperties} id={content.cta.id}><p className="industry-label">{content.cta.label}</p><div className="industries-final-columns"><h2>{content.cta.heading}</h2><div><p>{content.cta.body}</p><a className="hp-button" href={contact}>{content.cta.actionLabel}</a></div></div></section>}
   </main><HomepageFooter content={links(home.footer,preview) as EditorObject}/>
  </div>;
 }

@@ -10,7 +10,7 @@ import { industryDestination } from '../src/content/industry-destinations';
 test('all bilingual service URLs share a stable hierarchy while retaining deep links', () => {
   for (const slug of nestedServiceSlugs) for (const locale of ['en','ar']) {
     const prefix = locale === 'ar' ? '/ar' : '';
-    const destination = `${prefix}/services/${slug}/`;
+    const destination = `${prefix}/services/${slug === 'seo-geo' ? 'seo-geo-aeo' : slug}/`;
     assert.equal(documentPath(slug,locale),destination);
     assert.equal(canonicalSiteHref(`${prefix}/${slug}?source=card#details`),destination+'?source=card#details');
     assert.equal(canonicalSiteHref(destination),destination);
@@ -20,7 +20,10 @@ test('all bilingual service URLs share a stable hierarchy while retaining deep l
   assert.equal(localizedHref('/ar/services/website-design/',true),'/preview/pages/website-design?locale=ar');
 });
 test('URL normalization preserves external, asset, and unrelated URLs', () => {
-  for (const url of ['https://example.com/website-design/','/api/site-assets/website-design/','/website-hosting/','#website-design','/services/']) assert.equal(canonicalSiteHref(url),url);
+  for (const url of ['https://example.com/website-design/','https://example.com/services/seo-geo/','/api/site-assets/website-design/','/api/services/seo-geo/','/website-hosting/','#website-design','/services/']) assert.equal(canonicalSiteHref(url),url);
+  for (const prefix of ['', '/ar', 'https://codeyea.com', 'https://codeyea.com/ar']) {
+    assert.equal(canonicalSiteHref(`${prefix}/services/seo-geo/?ref=faq#answers`), `${prefix}/services/seo-geo-aeo/?ref=faq#answers`);
+  }
   assert.equal(canonicalHtmlLinks('<a href="/ai-automation/#work">AI</a>'),'<a href="/services/ai-automation/#work">AI</a>');
   assert.equal(blogPostPath('custom-cms','ar'),'/ar/blog/custom-cms/');
   assert.equal(blogPostPath('custom-cms','en'),'/blog/custom-cms/');
@@ -31,7 +34,7 @@ test('contextual linking preserves exact text, longest terms, and language', () 
   const ar = 'CODEYEA تربط الهوية والتصميم والأتمتة والاستضافة وSEO والدعم التقني.';
   const parts = contextualLinks(ar);
   assert.equal(parts.map(p=>p.text).join(''),ar);
-  assert.deepEqual(parts.filter(p=>p.href).map(p=>p.href),['/ar/about/','/ar/services/brand-design/','/ar/services/ai-automation/','/ar/website-hosting/','/ar/services/seo-geo/','/ar/services/technical-support/']);
+  assert.deepEqual(parts.filter(p=>p.href).map(p=>p.href),['/ar/about/','/ar/services/brand-design/','/ar/services/ai-automation/','/ar/website-hosting/','/ar/services/seo-geo-aeo/','/ar/services/technical-support/']);
   const en = 'Brand identity, eCommerce, SEO and technical support with CODEYEA.';
   assert.equal(contextualLinks(en).map(p=>p.text).join(''),en);
   assert.ok(contextualLinks(en).filter(p=>p.href).every(p=>!p.href!.startsWith('/ar/')));

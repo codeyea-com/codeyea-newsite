@@ -48,6 +48,7 @@ export function AboutPage({content,shared,preview=false}:{content:AboutContent;s
  s.type==="awards"?<div className="about-reference-container about-awards-layout"><header><p className="about-label">{s.label}</p><h2>{s.heading}</h2></header>{items.map(i=><ul key={i.id}><li><h3>{i.title}</h3></li>{i.body.split('\n').filter(Boolean).map((body,n)=><li key={n}>{body}</li>)}</ul>)}</div>:
  <div className="about-reference-container"><h2>{s.heading}</h2><Copy text={s.body}/></div>}
  </section>})}
+ <section className="cy-about-cta cy-photo-cta" style={{'--cta-photo':'url(/site/generated/general/about/cta-live-review.webp)'} as CSSProperties} aria-labelledby="about-cta-title"><div className="about-reference-container"><div><span>{content.localeId==='ar'?'لنبدأ الخطوة التالية':'YOUR NEXT STEP'}</span><h2 id="about-cta-title">{content.localeId==='ar'?'لنتحدث عن مشروعك.':'Let’s talk about your project.'}</h2></div><a className="hp-button" data-quote-open href={content.localeId==='ar'?'/ar/contact/#quote-form':'/contact/#quote-form'}>{content.localeId==='ar'?'أطلب التسعيرة المجانية الآن':'Get Your Free Quote'} <span aria-hidden="true">↗</span></a></div></section>
  </main><HomepageFooter content={mapSharedLinks(home.footer,preview) as EditorObject}/>
  </div>;
 }

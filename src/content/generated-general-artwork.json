@@ -76,20 +76,32 @@
     }
   },
   "services/sv-priority-ai": {
-    "src": "/site/generated/general/services/sv-priority-ai-v1-desktop.webp",
+    "src": "/site/generated/general/services/ai-live-review-v1.webp",
     "expectedMediaId": "media_65f622ab-fc90-4d6c-98c1-317a4915bf26",
     "alt": {
       "en": "Tall portrait close-up laptop in an operations workplace showing 'Kinetic / AI Assistant / DEMO' and a short workflow: New request > Draft ready > Review",
       "ar": "مساعد ذكاء اصطناعي يجهز الطلبات للمراجعة"
-    }
+    },
+    "mobileSrc": "/site/generated/general/services/ai-live-review-v1.webp",
+    "tabletSrc": "/site/generated/general/services/ai-live-review-v1.webp",
+    "expectedMediaIds": [
+      "media_65f622ab-fc90-4d6c-98c1-317a4915bf26",
+      "support"
+    ]
   },
   "services/sv-priority-development": {
-    "src": "/site/generated/general/services/sv-priority-development-v1-desktop.webp",
+    "src": "/site/generated/general/services/apps-live-review-v1.webp",
     "expectedMediaId": "media_2aee73ae-0fa2-44ac-a2d5-447cc7cbc2b3",
     "alt": {
       "en": "Tall portrait physical tablet and smartphone on a designer's desk showing same 'Nexa Desk' application, crisp appointment UI and mobile booking view",
       "ar": "تطبيق وموقع متجاوبان على التابلت والموبايل"
-    }
+    },
+    "mobileSrc": "/site/generated/general/services/apps-live-review-v1.webp",
+    "tabletSrc": "/site/generated/general/services/apps-live-review-v1.webp",
+    "expectedMediaIds": [
+      "media_2aee73ae-0fa2-44ac-a2d5-447cc7cbc2b3",
+      "project-web"
+    ]
   },
   "services/strategy": {
     "src": "/site/generated/general/services/strategy-v1-desktop.webp",
@@ -167,12 +179,17 @@
     }
   },
   "industries/industry-online-magazine": {
-    "src": "/site/generated/general/industries/industry-online-magazine-v2-desktop.webp",
+    "src": "/site/generated/general/industries/online-magazine-live-review-v1.webp",
     "expectedMediaId": "media_4af77143-5c73-486f-b6bf-ea5f0d566d5b",
     "alt": {
       "en": "Editor arranging magazine proofs and editorial photographs",
       "ar": "محرر يرتّب مسودات صفحات المجلة والصور التحريرية"
-    }
+    },
+    "mobileSrc": "/site/generated/general/industries/online-magazine-live-review-v1.webp",
+    "tabletSrc": "/site/generated/general/industries/online-magazine-live-review-v1.webp",
+    "expectedMediaIds": [
+      "media_4af77143-5c73-486f-b6bf-ea5f0d566d5b"
+    ]
   },
   "industries/industry-oil-and-gas": {
     "src": "/site/generated/general/industries/industry-oil-and-gas-v2-desktop.webp",
@@ -261,19 +278,31 @@
     "mobileSrc": "/site/generated/general/industries/hero-v2-mobile.webp"
   },
   "services/sv-priority-seo": {
-    "src": "/site/generated/general/services/sv-priority-seo-v2-desktop.webp",
+    "src": "/site/generated/general/services/seo-live-review-v1.webp",
     "expectedMediaId": "media_bcdd21d0-4cbf-4057-a144-a35c64620f8e",
     "alt": {
       "en": "Tall portrait close-up upright tablet on a desk stand showing recognizable search results titled 'Search preview / DEMO' for fictional 'Aster Care'; blue link headings and short snippets, one AI answer section within screen",
       "ar": "نتائج بحث وإجابات واضحة داخل تابلت"
-    }
+    },
+    "mobileSrc": "/site/generated/general/services/seo-live-review-v1.webp",
+    "tabletSrc": "/site/generated/general/services/seo-live-review-v1.webp",
+    "expectedMediaIds": [
+      "media_bcdd21d0-4cbf-4057-a144-a35c64620f8e",
+      "branding"
+    ]
   },
   "services/sv-priority-commerce": {
-    "src": "/site/generated/general/services/sv-priority-commerce-v2-desktop.webp",
+    "src": "/site/generated/general/services/commerce-live-review-v1.webp",
     "expectedMediaId": "media_7b0dc26c-3d67-4401-9eae-d5c311d41ed6",
     "alt": {
       "en": "Tall portrait shopping phone on a product table with a compact laptop behind, both show fictional 'Morrow Goods' store",
       "ar": "متجر إلكتروني وتجربة دفع ضمن أجهزة حقيقية"
-    }
+    },
+    "mobileSrc": "/site/generated/general/services/commerce-live-review-v1.webp",
+    "tabletSrc": "/site/generated/general/services/commerce-live-review-v1.webp",
+    "expectedMediaIds": [
+      "media_7b0dc26c-3d67-4401-9eae-d5c311d41ed6",
+      "commerce"
+    ]
   }
 }

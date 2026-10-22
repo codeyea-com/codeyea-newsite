@@ -1,0 +1,72 @@
+[
+  {
+    "key": "restaurant_needs",
+    "page": "Restaurants",
+    "target": "public/site/generated/industries/restaurants-cafes-bakeries/needs-live-review-v1.webp",
+    "prompt": "Create a photorealistic restaurant editorial photograph for CODEYEA's Restaurants, Cafes and Bakeries page, replacing the current bakery worker picture. Vertical 4:5 composition, 1280 by 1600. The actual website frame is approximately 434 by 490 desktop, a tall medium image beside copy about restaurant menus and customer journeys; mobile becomes near square portrait. Show the interior of a refined contemporary fine dining restaurant, with a beautifully set table in the immediate foreground carrying appetizing luxury plated food, crystal water glasses, fine cutlery and linen. The food and table must be prominent and believable, with enough restaurant architecture visible to clearly communicate a luxury restaurant interior. Eye level slightly above the table, layered depth, natural daylight, neutral accurate whites and materials. No people are necessary. No logos, no text, no watermark, no borders, no floating panels, no baked shadows, no artificial beige wash, no vignette. Fill the full frame with meaningful photographic content. Keep focal food and table in the middle 70% so the website's cover crop doesn't lose them.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-7a7e93d6-d249-4285-8400-b8ae4ec6160e.png"
+  },
+  {
+    "key": "restaurant_waiter",
+    "page": "Restaurants",
+    "target": "public/site/generated/industries/restaurants-cafes-bakeries/image-break-live-review-v1.webp",
+    "prompt": "Photorealistic premium restaurant interior with a professional waiter holding and using an order-entry tablet. Wide cinematic photograph, 1792x768, designed for a full-width CODEYEA website image section displayed around 1400x550 desktop and 390x320 mobile. Show the waiter's complete face and hair with generous headroom, realistic natural skin, sharp white shirt, dark waistcoat; three-quarter waist-up view, tablet visible at chest level and its angled screen showing a tasteful restaurant menu interface. Restaurant guests and beautifully set tables secondary in the background, refined contemporary architecture and natural daylight. Keep waiter and tablet together in the central third so mobile crop retains both. No cropped heads. No floating panels, no text overlay, no logos, no border, no watermark, no fake bokeh, neutral whites. This is about digital table-side ordering in a luxury restaurant, not a cafe or coffee roasting.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-7bc31299-fc07-4925-99f0-1f9d1c792ab0.png"
+  },
+  {
+    "key": "restaurant_cta",
+    "page": "Restaurants",
+    "target": "public/site/generated/industries/restaurants-cafes-bakeries/cta-live-review-v1.webp",
+    "prompt": "Photorealistic wide website CTA background 1792x768 of a bright modern fast-food restaurant, a customer standing at a tall self-order touchscreen kiosk and placing a meal order. Show the customer's complete head and face in three-quarter profile, natural hands touching a clear burger and fries menu on the kiosk, believable commercial kiosk integrated into the restaurant. Both the kiosk and person are in the central third, with restaurant counter, digital menu boards and booths forming a broad spatial background. Natural color, convincing materials and realistic food images on screen, no real brand logos, no floating graphics, no overlay text or baked gradient, no vignette, no border. Compose a wide photographic scene suitable behind white website CTA copy without losing the main subject during a central crop.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-33322999-0ef0-40d6-8376-e1d1afeb232a.png"
+  },
+  {
+    "key": "magazine_needs",
+    "page": "Online Magazine",
+    "target": "public/site/generated/industries/online-magazine/needs-live-review-v1.webp",
+    "prompt": "Photorealistic vertical 4:5 editorial photograph for a website section titled What online publications need. Close purposeful three-quarter overhead view of an editor's real desktop monitor and keyboard in a modern small editorial workspace. The prominent monitor displays a fictional online magazine publishing interface named FIELDNOTES with an article editing view, categories, headline field, story photo, readable compact publication controls and a Publish button. The digital article editing process is unmistakable, the screen is inside a real monitor, not a floating screenshot. A hand on keyboard is enough, no cropped faces, no printed magazines, no printing machinery, no piles of paper. Neutral daylight, rich natural materials, white interface without beige cast. The monitor and relevant UI fill most of the 4:5 image, usable in a 434x490 frame. No extra panels outside the display, no overlay text, no logos or watermark.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-ff177a37-2b54-4f73-bf7d-212759356cee.png"
+  },
+  {
+    "key": "magazine_cover",
+    "page": "Online Magazine",
+    "target": "public/site/generated/general/industries/online-magazine-live-review-v1.webp",
+    "prompt": "Create a photorealistic landscape 4:3 photograph expressing an online magazine, for CODEYEA's industry introduction card. A real tablet held at a gentle diagonal over a contemporary clean desk, its screen prominently showing a beautiful fictional culture and travel online magazine named WAYFARER with clear navigation categories, large editorial photography, two smaller article tiles and a reading interface. Include a phone on a stand showing the mobile version of the same editorial article. Vary device angles, tactile materials and natural window light. The screens and digital reading experience dominate, no printed magazine, no printing press, no generic laptop dashboard. Fill the full 4:3 composition, important elements in central 75% for desktop and mobile cover crop. Natural realistic hands if present, no incomplete faces. Sharp designed interface corners, no floating popups, no border, no watermark, no text over the photograph.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-129643b0-eb94-492f-aafa-8354e13d9eea.png"
+  },
+  {
+    "key": "lifestyle_break",
+    "page": "Fashion and Lifestyle",
+    "target": "public/site/generated/industries/fashion-and-lifestyle/image-break-live-review-v1.webp",
+    "prompt": "Photorealistic editorial lifestyle photograph, extra-wide 1792x768, for a fashion and lifestyle business website image section. Show a welcoming contemporary lifestyle concept shop with expressive home objects, artisan ceramics, folded natural textiles, plants and thoughtfully arranged seasonal accessories, a shop owner and a customer casually discussing a ceramic vase near a display. Not a fashion design workshop and not models posing. The two complete faces and heads appear comfortably within the central half of the wide scene with clear headroom, realistic natural people and skin. Compose meaningful shelves, natural materials, airy daylight and everyday lifestyle atmosphere across the wide frame, no blank padding, no overlay text, no real logos, no watermark, no floating interfaces, natural colors without a beige wash. This is a distinct image for a wide lifestyle banner. Do not crop heads.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-87365065-5f33-43bb-8154-9643653d0aad.png"
+  },
+  {
+    "key": "services_ai",
+    "page": "Services",
+    "target": "public/site/generated/general/services/ai-live-review-v1.webp",
+    "prompt": "Create a distinctive photorealistic portrait 2:3 image for a CODEYEA service card titled AI Solutions & Business Automation. Purpose: show an owner reviewing an AI-powered automation project. Contextual close oblique view of a large real touch display mounted in a contemporary small business studio. Its prominent screen shows a clear fictional visual workflow for a business named ROUTEWISE: enquiry arrives, AI classifies, team reviews, task scheduled, notification sent. A business owner's full face is visible in the upper part at one side, using a stylus beside the display. Meaningful workflow inside the device dominates, not generic computer on desk, no second device, no floating popups. Visual idea of a working human-machine process, elegant directional daylight, neutral whites, realistic skin and glass, clearly delineated connected steps with spare readable text. The card frame is about 300x450, so keep meaningful process in the upper 75% and leave lower portion naturally darker for an existing white website title. No overlaid website title or added logos, no watermark, no border. Sharp designed UI corners.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-a9dc4106-7eac-4cd1-9bc7-bda224faf931.png"
+  },
+  {
+    "key": "services_seo",
+    "page": "Services",
+    "target": "public/site/generated/general/services/seo-live-review-v1.webp",
+    "prompt": "Create a distinctive photorealistic vertical 2:3 editorial image for a CODEYEA SEO, GEO and AEO service card. A close angled view of a real premium smartphone propped on a small stand in a bright local independent bookstore. The phone screen prominently displays a recognizable clean search-results page for a fictional bookstore called Chapter House with a short AI answer at the top, blue search-result links, and a compact local store information card, not a generic dashboard. Include real bookshelves and the bookstore window softly in the context, with the screen very large and readable. No hands holding a phone, no front-on desktop monitor, no generic repeated laptop desk. Natural light, true whites, natural paper and metal texture. Use the upper 75% for phone and relevant search content, lower part naturally shaded for existing white card copy. No standalone naked screenshot, no floating panels, no large overlay text, no watermark, no real client or claimed verified results.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-d5710913-2f78-4bae-b286-febe53094725.png"
+  },
+  {
+    "key": "services_apps",
+    "page": "Services",
+    "target": "public/site/generated/general/services/apps-live-review-v1.webp",
+    "prompt": "Create a photorealistic portrait 2:3 image for a Web & App Development service card. Purposeful over-shoulder close view of a designer's hand using a stylus on a real tilted drawing tablet lying diagonally across a charcoal work mat. On the tablet a professional fictional mobile wellness app named PULSE is being prototyped: 3 connected mobile screen artboards, activity ring, simple weekly chart and a clear navigation bar, coherently designed. A real phone rests beside the tablet showing one finished PULSE app screen, viewed from a different angle. Devices and interface are prominent and tactile, no portrait monitor and no laptop. A few subtle sketch tools, clean modern studio context, neutral daylight with a restrained teal accent in the UI, sharp UI corners. Keep important screens in upper 75% of tall image so white website card copy overlays the lower part. No overlay title, no watermark, no floating interface panels, no cropped human faces.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-0401094b-43e5-45f2-844b-4dcf0b25e29b.png"
+  },
+  {
+    "key": "services_commerce",
+    "page": "Services",
+    "target": "public/site/generated/general/services/commerce-live-review-v1.webp",
+    "prompt": "Photorealistic portrait 2:3 service-card photograph for E-Commerce Solutions, distinctly different from a laptop product page on a desk. In a small modern artisan ceramics store, close three-quarter view of a realistic countertop touchscreen tablet POS and online shop display, positioned among beautiful sculptural ceramic products. The prominent tilted display shows a fictional ceramic shop called FORMA with a clear elegant ecommerce product collection grid, subtle category navigation and a selected ceramic bowl product, with a visible Add to cart control. A customer's natural hand is poised by the tablet edge without hiding the display. Tactile glazed ceramics and the store shelves provide meaningful context; shop screen dominates and is contained in a real device. Natural neutral daylight, true white screen, no beige wash, no generic bag or backpack store. Frame for a 300x450 website card with important display upper 75% and naturally darker lower area for existing white copy. No floating popup, no overlaid card title, no real brand logo, no watermark.",
+    "source": "C:\\Users\\grdez\\.codex\\generated_images\\01a12351-1c7e-7bf1-9ece-2faeb47b9aac\\exec-63af091b-1b3c-40e4-995d-911109115a7c.png"
+  }
+]

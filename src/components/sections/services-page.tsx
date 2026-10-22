@@ -124,7 +124,9 @@ export function ServicesPage({
               };
             }),
           }
-        : section,
+        : { ...section, items: section.items.map(item => item.id === 'sv-priority-seo'
+          ? { ...item, title: content.localeId === 'ar' ? 'SEO وGEO وAEO' : 'SEO, GEO & AEO' }
+          : item) },
     ),
     [intro, priority, strategy, complete, process, growth, faq, cta] = sections;
   const active = (items: ServiceItem[]) =>

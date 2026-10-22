@@ -1,5 +1,6 @@
 import { canonicalSiteHref } from "./url-hierarchy";
 export const arabicNavigation: Record<string, string> = {
+  "SEO, GEO & AEO": "تحسين البحث والإجابات (SEO، GEO، AEO)",
   "About Us": "عن كوديا",
   Services: "الخدمات",
   Hosting: "الاستضافة",

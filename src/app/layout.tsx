@@ -33,10 +33,12 @@ export default async function RootLayout({
         <link rel="stylesheet" href="/site/owner-review.css" />
         <link rel="stylesheet" href="/api/site-typography" />
         <link rel="stylesheet" href="/site/owner-batch.css?v=20261021-review3" />
+        <link rel="stylesheet" href="/site/live-corrections.css?v=20261021-2" />
       </head>
       <body>
         {children}
         <Script src="/site/post-launch.js?v=20261021-review3" strategy="afterInteractive" />
+        <Script src="/site/live-corrections.js?v=20261021-1" strategy="afterInteractive" />
       </body>
     </html>
   );

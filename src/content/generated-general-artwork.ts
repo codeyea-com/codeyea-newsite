@@ -6,6 +6,7 @@ export type GeneralArtwork = {
   tabletSrc?: string;
   mobileSrc?: string;
   expectedMediaId?: string;
+  expectedMediaIds?: string[];
   alt: { en: string; ar: string };
 };
 
@@ -13,5 +14,5 @@ export type GeneralArtwork = {
 export function generalArtwork(key?: string, media?: AboutMedia): GeneralArtwork | undefined {
   if (!key) return undefined;
   const art = (registry as Record<string, GeneralArtwork>)[key];
-  return art && (!media || !art.expectedMediaId || media.mediaId === art.expectedMediaId) ? art : undefined;
+  return art && (!media || !art.expectedMediaId || media.mediaId === art.expectedMediaId || art.expectedMediaIds?.includes(media.mediaId)) ? art : undefined;
 }

@@ -1,0 +1,162 @@
+{
+  "routes": [
+    {
+      "path": "/services/seo-geo/",
+      "status": 308,
+      "location": "/services/seo-geo-aeo/",
+      "faqAEO": false,
+      "oldLinks": 0
+    },
+    {
+      "path": "/ar/services/seo-geo/",
+      "status": 308,
+      "location": "/ar/services/seo-geo-aeo/",
+      "faqAEO": false,
+      "oldLinks": 0
+    },
+    {
+      "path": "/services/seo-geo-aeo/",
+      "status": 200,
+      "location": null,
+      "faqAEO": true,
+      "oldLinks": 0
+    },
+    {
+      "path": "/ar/services/seo-geo-aeo/",
+      "status": 200,
+      "location": null,
+      "faqAEO": true,
+      "oldLinks": 0
+    }
+  ],
+  "industries": [
+    {
+      "slug": "roofing",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    },
+    {
+      "slug": "healthcare",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    },
+    {
+      "slug": "construction",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    },
+    {
+      "slug": "small-business",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    },
+    {
+      "slug": "e-commerce",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    },
+    {
+      "slug": "event-coordinators",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    },
+    {
+      "slug": "legal",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    },
+    {
+      "slug": "online-magazine",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    },
+    {
+      "slug": "real-estate",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    },
+    {
+      "slug": "oil-and-gas",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    },
+    {
+      "slug": "fashion-and-lifestyle",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    },
+    {
+      "slug": "beauty-skincare-med-spa",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    },
+    {
+      "slug": "restaurants-cafes-bakeries",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    },
+    {
+      "slug": "solar-energy",
+      "imageCounts": [
+        10,
+        10
+      ],
+      "differences": 0,
+      "responsiveEqual": true
+    }
+  ],
+  "generatedAssets": 28,
+  "checkedAt": "2026-10-22T02:55:07.319Z"
+}

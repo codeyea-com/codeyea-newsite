@@ -5,10 +5,13 @@ const config: NextConfig = {
   outputFileTracingIncludes: { "/*": ["./site-templates/**/*", "./src/styles/homepage-header-final.css", "./src/styles/approved-mega.css", "./src/styles/homepage-footer.css"] },
   skipTrailingSlashRedirect: true,
   async redirects() {
-    return nestedServiceSlugs.flatMap(slug => ['', '/ar'].flatMap(prefix => [
-      {source: `${prefix}/${slug}`, destination: `${prefix}/services/${slug}/`, permanent: true},
-      {source: `${prefix}/${slug}/`, destination: `${prefix}/services/${slug}/`, permanent: true},
-    ]));
+    return [...nestedServiceSlugs.flatMap(slug => ['', '/ar'].flatMap(prefix => [
+      {source: `${prefix}/${slug}`, destination: `${prefix}/services/${slug==='seo-geo'?'seo-geo-aeo':slug}/`, permanent: true},
+      {source: `${prefix}/${slug}/`, destination: `${prefix}/services/${slug==='seo-geo'?'seo-geo-aeo':slug}/`, permanent: true},
+    ])),...['','/ar'].flatMap(prefix=>[
+      {source:`${prefix}/services/seo-geo`,destination:`${prefix}/services/seo-geo-aeo/`,permanent:true},
+      {source:`${prefix}/services/seo-geo/`,destination:`${prefix}/services/seo-geo-aeo/`,permanent:true},
+    ])];
   },
   distDir: process.env.CODEYEA_NEXT_DIST_DIR || (process.env.CODEYEA_ENV === "test" ? ".next-test" : ".next"),
   async headers() {

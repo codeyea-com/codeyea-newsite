@@ -3,6 +3,7 @@ import { str } from "@/content/homepage-render";
 import { industryNames, industrySlugs } from "@/content/industry-registry";
 import { arabicNavigation, localizedHref } from "./arabic-navigation";
 import { serviceCatalog } from './service-catalog';
+import { canonicalSiteHref } from './url-hierarchy';
 const hosting = [
   [
     "Website Hosting",
@@ -131,6 +132,7 @@ export function approvedMenuContent(
             str(item.href).replace(/\/$/, '') === href.replace(/\/$/, ''))) continue;
           items.push({
             ...child,
+            ...(defaults?.[2] === 'seo-geo' ? {title: serviceCatalog.find(service => service.slug === 'seo-geo')!.title} : {}),
             href,
             body: str(child.body) || defaults?.[1] || "",
             icon: str(child.icon) || defaults?.[3] || "◇",
@@ -251,7 +253,7 @@ function publicHref(href: string) {
     .replace("/preview/pages/", "/")
     .replace("/preview/", "/")
     .replace(/^\/preview$/, "/");
-  return value.startsWith("/") && !value.includes("#") && !value.includes("?")
+  return canonicalSiteHref(value.startsWith("/") && !value.includes("#") && !value.includes("?")
     ? value.replace(/\/$/, "") + "/"
-    : value;
+    : value);
 }
