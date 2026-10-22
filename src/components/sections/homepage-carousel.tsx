@@ -60,6 +60,7 @@ export function Carousel({
   const [hovered, setHovered] = useState(false);
   const [focused, setFocused] = useState(false);
   const [visible, setVisible] = useState(false);
+  const [prepared, setPrepared] = useState(false);
   const [selected, setSelected] = useState(0);
   const [prev, setPrev] = useState(false);
   const [next, setNext] = useState(false);
@@ -129,13 +130,19 @@ export function Carousel({
   }, [api, filter, items]);
   useEffect(() => {
     const element = root.current;
-    if (!element || !("IntersectionObserver" in window)) return;
+    if (!element) return;
+    if (!("IntersectionObserver" in window)) { setPrepared(true); return; }
+    // Keep SSR cards intact, but measure/attach the slider shortly before it is seen.
+    const prepare = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) { setPrepared(true); prepare.disconnect(); }
+    }, {rootMargin: '900px 0px'});
+    prepare.observe(element);
     const observer = new IntersectionObserver(
       ([entry]) => setVisible(entry.isIntersecting),
       { threshold: 0.15 },
     );
     observer.observe(element);
-    return () => observer.disconnect();
+    return () => { observer.disconnect(); prepare.disconnect(); };
   }, []);
   useEffect(() => {
     if (
@@ -396,7 +403,7 @@ export function Carousel({
       >
         <div
           id={id}
-          ref={viewportRef}
+          ref={prepared ? viewportRef : undefined}
           className="hp-carousel-viewport"
           tabIndex={0}
           aria-label={

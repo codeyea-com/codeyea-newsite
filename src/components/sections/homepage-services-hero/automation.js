@@ -35,14 +35,14 @@ export function automationScene({ label, icon, name }) {
       "bottom",
     ],
   ];
-  return `<article class="scene automation-scene" data-scene="3" role="tabpanel" id="panel-3" aria-label="${name}">
+  return `<div class="scene automation-scene" data-scene="3" role="tabpanel" id="panel-3" aria-label="${name}">
     <div class="layer ai-connections" aria-hidden="true"><svg viewBox="0 0 100 100" preserveAspectRatio="none">${routes.map((d, i) => `<g data-flow="${i}"><path class="ai-route-track" d="${d}"/><path class="ai-route" d="${d}" pathLength="1"/><circle class="ai-packet" r=".55"/></g>`).join("")}</svg></div>
     <div class="layer ai-core" data-motion="pop" data-start=".2" data-duration="1"><div class="ai-core-pins" aria-hidden="true">${Array.from({ length: 4 }, (_, side) => `<div class="pins pins-${side}">${"<i></i>".repeat(7)}</div>`).join("")}</div><div class="ai-chip"><span>CODEYEA</span><b>AI</b><small>${label("ذكاء يربط أعمالك", "CONNECTED INTELLIGENCE")}</small></div></div>
     ${nodes.map(([type, title, side, row], i) => `<div class="layer ai-node ai-node-${side} ai-node-${row}" data-node="${i}" data-motion="rise" data-start="${0.55 + i * 0.12}"><span class="ai-node-title">${title}</span><div class="ai-node-content">${symbol(type)}<div class="ai-node-lines" aria-hidden="true"><i></i><i></i><i></i></div><span class="ai-node-check" aria-hidden="true">${icon("check")}</span></div></div>`).join("")}
     <div class="layer automation-agent" data-motion="rise" data-start=".65"><div class="automation-agent-label">${icon("robot")}<b>AI Agent</b><span>CODEYEA</span></div><div class="automation-status" role="status" aria-live="off"><i class="automation-status-dot"></i><span class="automation-status-text">Start automation</span><span class="automation-status-tail">.....</span><span class="automation-status-check">${icon("check")}</span></div></div>
     <div class="layer ai-tools ai-tools-left"><div class="ai-tool" data-motion="pop" data-start="1.0"><img src="/homepage/services-hero/googlegemini.svg" alt="Google Gemini"><span>Gemini</span></div><div class="ai-tool" data-motion="pop" data-start="1.2"><img src="/homepage/services-hero/claude.svg" alt="Claude"><span>Claude</span></div></div>
     <div class="layer ai-tools ai-tools-right"><div class="ai-tool" data-motion="pop" data-start="1.4"><img src="/homepage/services-hero/n8n.svg" alt="n8n"><span>n8n</span></div></div>
-  </article>`;
+  </div>`;
 }
 
 const pathLengths = new WeakMap();
