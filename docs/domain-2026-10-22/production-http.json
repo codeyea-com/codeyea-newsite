@@ -1,0 +1,624 @@
+{
+  "checkedAt": "2026-10-22T17:14:53.550Z",
+  "redirects": [
+    {
+      "source": "https://www.codeyea.com/",
+      "status": 308,
+      "location": "https://codeyea.com/"
+    },
+    {
+      "source": "https://www.codeyea.com/ar/",
+      "status": 308,
+      "location": "https://codeyea.com/ar/"
+    },
+    {
+      "source": "https://www.codeyea.com/services/?utm_source=domain-check&ref=review%2Ftest",
+      "status": 308,
+      "location": "https://codeyea.com/services/?utm_source=domain-check&ref=review%2Ftest"
+    },
+    {
+      "source": "https://www.codeyea.com/ar/industries/solar-energy/?utm_source=domain-check",
+      "status": 308,
+      "location": "https://codeyea.com/ar/industries/solar-energy/?utm_source=domain-check"
+    },
+    {
+      "source": "http://codeyea.com/ar/?utm_source=domain-check",
+      "status": 308,
+      "location": "https://codeyea.com/ar/?utm_source=domain-check"
+    },
+    {
+      "source": "http://www.codeyea.com/ar/?utm_source=domain-check",
+      "status": 308,
+      "location": "https://www.codeyea.com/ar/?utm_source=domain-check"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://codeyea.com/",
+      "status": 200,
+      "canonical": "https://codeyea.com",
+      "ogUrl": "https://codeyea.com",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/#organization",
+        "https://codeyea.com/",
+        "https://codeyea.com/#website",
+        "https://codeyea.com/#webpage"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/",
+      "ogUrl": "https://codeyea.com/ar/",
+      "robots": "index, follow",
+      "languageAlternates": [
+        {
+          "language": "en",
+          "url": "https://codeyea.com"
+        },
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": []
+    },
+    {
+      "url": "https://codeyea.com/ar/about/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/about/",
+      "ogUrl": "https://codeyea.com/ar/about/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/about/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/about/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/cloud-hosting/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/cloud-hosting/",
+      "ogUrl": "https://codeyea.com/ar/cloud-hosting/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/cloud-hosting/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/cloud-hosting/#webpage",
+        "https://codeyea.com/ar/cloud-hosting/",
+        "https://codeyea.com/ar/cloud-hosting/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/website-hosting/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/contact/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/contact/",
+      "ogUrl": "https://codeyea.com/ar/contact/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/contact/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/contact/#webpage",
+        "https://codeyea.com/ar/contact/",
+        "https://codeyea.com/ar/contact/#breadcrumb",
+        "https://codeyea.com/ar/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/domains/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/domains/",
+      "ogUrl": "https://codeyea.com/ar/domains/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/domains/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/domains/#webpage",
+        "https://codeyea.com/ar/domains/",
+        "https://codeyea.com/ar/domains/#breadcrumb",
+        "https://codeyea.com/ar/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/email-hosting/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/email-hosting/",
+      "ogUrl": "https://codeyea.com/ar/email-hosting/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/email-hosting/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/email-hosting/#webpage",
+        "https://codeyea.com/ar/email-hosting/",
+        "https://codeyea.com/ar/email-hosting/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/website-hosting/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/",
+      "ogUrl": "https://codeyea.com/ar/industries/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/beauty-skincare-med-spa/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/beauty-skincare-med-spa/",
+      "ogUrl": "https://codeyea.com/ar/industries/beauty-skincare-med-spa/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/beauty-skincare-med-spa/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/beauty-skincare-med-spa/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/construction/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/construction/",
+      "ogUrl": "https://codeyea.com/ar/industries/construction/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/construction/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/construction/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/e-commerce/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/e-commerce/",
+      "ogUrl": "https://codeyea.com/ar/industries/e-commerce/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/e-commerce/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/e-commerce/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/event-coordinators/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/event-coordinators/",
+      "ogUrl": "https://codeyea.com/ar/industries/event-coordinators/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/event-coordinators/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/event-coordinators/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/fashion-and-lifestyle/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/fashion-and-lifestyle/",
+      "ogUrl": "https://codeyea.com/ar/industries/fashion-and-lifestyle/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/fashion-and-lifestyle/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/fashion-and-lifestyle/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/healthcare/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/healthcare/",
+      "ogUrl": "https://codeyea.com/ar/industries/healthcare/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/healthcare/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/healthcare/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/legal/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/legal/",
+      "ogUrl": "https://codeyea.com/ar/industries/legal/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/legal/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/legal/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/oil-and-gas/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/oil-and-gas/",
+      "ogUrl": "https://codeyea.com/ar/industries/oil-and-gas/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/oil-and-gas/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/oil-and-gas/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/online-magazine/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/online-magazine/",
+      "ogUrl": "https://codeyea.com/ar/industries/online-magazine/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/online-magazine/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/online-magazine/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/real-estate/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/real-estate/",
+      "ogUrl": "https://codeyea.com/ar/industries/real-estate/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/real-estate/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/real-estate/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/restaurants-cafes-bakeries/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/restaurants-cafes-bakeries/",
+      "ogUrl": "https://codeyea.com/ar/industries/restaurants-cafes-bakeries/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/restaurants-cafes-bakeries/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/restaurants-cafes-bakeries/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/roofing/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/roofing/",
+      "ogUrl": "https://codeyea.com/ar/industries/roofing/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/roofing/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/roofing/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/small-business/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/small-business/",
+      "ogUrl": "https://codeyea.com/ar/industries/small-business/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/small-business/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/small-business/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/industries/solar-energy/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/industries/solar-energy/",
+      "ogUrl": "https://codeyea.com/ar/industries/solar-energy/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/industries/solar-energy/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/industries/",
+        "https://codeyea.com/ar/industries/solar-energy/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/services/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/services/",
+      "ogUrl": "https://codeyea.com/ar/services/",
+      "robots": "index, follow",
+      "languageAlternates": [],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/services/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/services/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/services/ai-automation/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/services/ai-automation/",
+      "ogUrl": "https://codeyea.com/ar/services/ai-automation/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/services/ai-automation/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/services/ai-automation/#webpage",
+        "https://codeyea.com/ar/services/ai-automation/",
+        "https://codeyea.com/ar/services/ai-automation/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/services/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/services/brand-design/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/services/brand-design/",
+      "ogUrl": "https://codeyea.com/ar/services/brand-design/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/services/brand-design/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/services/brand-design/#webpage",
+        "https://codeyea.com/ar/services/brand-design/",
+        "https://codeyea.com/ar/services/brand-design/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/services/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/services/digital-marketing/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/services/digital-marketing/",
+      "ogUrl": "https://codeyea.com/ar/services/digital-marketing/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/services/digital-marketing/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/services/digital-marketing/#webpage",
+        "https://codeyea.com/ar/services/digital-marketing/",
+        "https://codeyea.com/ar/services/digital-marketing/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/services/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/services/ecommerce/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/services/ecommerce/",
+      "ogUrl": "https://codeyea.com/ar/services/ecommerce/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/services/ecommerce/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/services/ecommerce/#webpage",
+        "https://codeyea.com/ar/services/ecommerce/",
+        "https://codeyea.com/ar/services/ecommerce/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/services/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/services/seo-geo-aeo/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/services/seo-geo-aeo/",
+      "ogUrl": "https://codeyea.com/ar/services/seo-geo-aeo/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/services/seo-geo-aeo/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/services/seo-geo-aeo/#webpage",
+        "https://codeyea.com/ar/services/seo-geo-aeo/",
+        "https://codeyea.com/ar/services/seo-geo-aeo/#breadcrumb",
+        "https://codeyea.com/ar/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/services/technical-support/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/services/technical-support/",
+      "ogUrl": "https://codeyea.com/ar/services/technical-support/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/services/technical-support/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/services/technical-support/#webpage",
+        "https://codeyea.com/ar/services/technical-support/",
+        "https://codeyea.com/ar/services/technical-support/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/services/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/services/web-mobile-apps/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/services/web-mobile-apps/",
+      "ogUrl": "https://codeyea.com/ar/services/web-mobile-apps/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/services/web-mobile-apps/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/services/web-mobile-apps/#webpage",
+        "https://codeyea.com/ar/services/web-mobile-apps/",
+        "https://codeyea.com/ar/services/web-mobile-apps/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/services/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/services/website-design/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/services/website-design/",
+      "ogUrl": "https://codeyea.com/ar/services/website-design/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/services/website-design/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/services/website-design/#webpage",
+        "https://codeyea.com/ar/services/website-design/",
+        "https://codeyea.com/ar/services/website-design/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/services/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/website-hosting/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/website-hosting/",
+      "ogUrl": "https://codeyea.com/ar/website-hosting/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/website-hosting/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/website-hosting/#webpage",
+        "https://codeyea.com/ar/website-hosting/",
+        "https://codeyea.com/ar/website-hosting/#breadcrumb",
+        "https://codeyea.com/ar/"
+      ]
+    },
+    {
+      "url": "https://codeyea.com/ar/wordpress-hosting/",
+      "status": 200,
+      "canonical": "https://codeyea.com/ar/wordpress-hosting/",
+      "ogUrl": "https://codeyea.com/ar/wordpress-hosting/",
+      "robots": "index,follow",
+      "languageAlternates": [
+        {
+          "language": "ar",
+          "url": "https://codeyea.com/ar/wordpress-hosting/"
+        }
+      ],
+      "jsonLdCodeyeaUrls": [
+        "https://codeyea.com/ar/wordpress-hosting/#webpage",
+        "https://codeyea.com/ar/wordpress-hosting/",
+        "https://codeyea.com/ar/wordpress-hosting/#breadcrumb",
+        "https://codeyea.com/ar/",
+        "https://codeyea.com/ar/website-hosting/"
+      ]
+    }
+  ],
+  "sitemap": {
+    "status": 200,
+    "count": 33,
+    "unique": 33,
+    "urls": [
+      "https://codeyea.com/",
+      "https://codeyea.com/ar/",
+      "https://codeyea.com/ar/about/",
+      "https://codeyea.com/ar/industries/",
+      "https://codeyea.com/ar/industries/beauty-skincare-med-spa/",
+      "https://codeyea.com/ar/industries/construction/",
+      "https://codeyea.com/ar/industries/e-commerce/",
+      "https://codeyea.com/ar/industries/event-coordinators/",
+      "https://codeyea.com/ar/industries/fashion-and-lifestyle/",
+      "https://codeyea.com/ar/industries/healthcare/",
+      "https://codeyea.com/ar/industries/legal/",
+      "https://codeyea.com/ar/industries/oil-and-gas/",
+      "https://codeyea.com/ar/industries/online-magazine/",
+      "https://codeyea.com/ar/industries/real-estate/",
+      "https://codeyea.com/ar/industries/restaurants-cafes-bakeries/",
+      "https://codeyea.com/ar/industries/roofing/",
+      "https://codeyea.com/ar/industries/small-business/",
+      "https://codeyea.com/ar/industries/solar-energy/",
+      "https://codeyea.com/ar/services/",
+      "https://codeyea.com/ar/services/ai-automation/",
+      "https://codeyea.com/ar/services/technical-support/",
+      "https://codeyea.com/ar/domains/",
+      "https://codeyea.com/ar/website-hosting/",
+      "https://codeyea.com/ar/wordpress-hosting/",
+      "https://codeyea.com/ar/cloud-hosting/",
+      "https://codeyea.com/ar/email-hosting/",
+      "https://codeyea.com/ar/services/seo-geo-aeo/",
+      "https://codeyea.com/ar/services/digital-marketing/",
+      "https://codeyea.com/ar/services/web-mobile-apps/",
+      "https://codeyea.com/ar/contact/",
+      "https://codeyea.com/ar/services/website-design/",
+      "https://codeyea.com/ar/services/ecommerce/",
+      "https://codeyea.com/ar/services/brand-design/"
+    ]
+  },
+  "robots": {
+    "status": 200,
+    "text": "User-Agent: *\nAllow: /\nDisallow: /admin\nDisallow: /login\nDisallow: /preview\nDisallow: /api\n\nSitemap: https://codeyea.com/sitemap.xml\n"
+  }
+}

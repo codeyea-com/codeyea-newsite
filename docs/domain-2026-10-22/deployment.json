@@ -1,0 +1,17 @@
+{
+  "id": "dpl_8gFdkwfYm4eeAfE2JCB7ggrvouBW",
+  "url": "codeyea-newsite-r4ce2ur8o-codeyea.vercel.app",
+  "target": "production",
+  "readyState": "READY",
+  "alias": [
+    "www.codeyea.com",
+    "codeyea-newsite.vercel.app",
+    "codeyea.com",
+    "codeyea-newsite-codeyea.vercel.app",
+    "codeyea-newsite-git-codex-real-site-updates-codeyea.vercel.app"
+  ],
+  "buildingAt": 1792689126173,
+  "ready": 1792689171232,
+  "gitCommit": "4afde6ca23f2f7f658a37955b1ec43b9ae7c6fe4",
+  "buildDurationSeconds": 45.059
+}

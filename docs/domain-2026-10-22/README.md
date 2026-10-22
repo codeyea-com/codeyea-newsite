@@ -21,4 +21,15 @@ The earlier performance report records the previous www origin at the time it wa
 
 ## Verification
 
-Production deployment and HTTP verification are recorded in the JSON evidence alongside this file after release. Checks cover HTTPS, one-way permanent redirects, equivalent paths and query strings, Arabic and English canonical links, sitemap origins, and robots exclusions.
+Production release: `4afde6ca23f2f7f658a37955b1ec43b9ae7c6fe4`, deployment `dpl_8gFdkwfYm4eeAfE2JCB7ggrvouBW`, status `READY`. The local production build and all 23 focused tests passed. The Vercel build took 45.059 seconds.
+
+Live HTTP verification passed:
+
+- Apex pages serve HTTPS with status 200.
+- HTTPS www requests redirect with status 308 directly to the equivalent apex URL, preserving paths and query strings. English and Arabic examples were checked.
+- HTTP upgrades to HTTPS successfully; HTTP www upgrades before the domain redirect.
+- All 33 unique sitemap URLs use the apex origin and serve successfully. Each page's canonical link, Open Graph URL, and any language alternates and CODEYEA structured-data URLs use the apex origin.
+- The robots file references the apex sitemap and preserves the admin, login, preview and API exclusions.
+- Both project domains remain verified. DNS and email records were not modified.
+
+Evidence: `deployment.json`, `domains.json` and `production-http.json`. The first immediate request after clearing the old apex redirect still saw its previous 308 while the platform propagated the change. The www redirect was held until direct apex responses were confirmed as 200, so both redirect directions were never enabled together.
