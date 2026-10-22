@@ -1,6 +1,7 @@
 /* Owner's live-site notes, 2026-10-21. Shared by React and document routes. */
 .hp.public-surface .hp-header :is(a,button,summary,strong),html[lang=ar] .hp.public-surface .hp-header :is(a,button,summary,strong){font-weight:400!important;text-shadow:none!important}
 html body .hp.public-surface .hp-header nav :is(a,button,summary),html[lang=ar] body .hp.public-surface .hp-header nav :is(a,button,summary){font-weight:400!important;text-shadow:none!important}
+html[lang] body .hp.public-surface .hp-header .hp-desktop-nav .hp-nav-item :is(a,button),html[lang] body .hp.public-surface .hp-header a.hp-button{font-weight:400!important;text-shadow:none!important}
 .hp.public-surface .hp-header>.cy-host-panel{background:rgb(255 255 255 / 86%)!important;backdrop-filter:blur(22px) saturate(115%);-webkit-backdrop-filter:blur(22px) saturate(115%)}
 .hp.public-surface .hp-header .cy-host-feature{border-left:0!important;border-right:0!important;border-inline-start:1px solid #dce4e8!important;padding-inline:28px 0!important}
 .hp.public-surface .hp-header .cy-host-line strong,html[lang=ar] .hp.public-surface .hp-header .cy-host-line strong{font-size:18px!important;line-height:1.5!important;font-weight:500!important}

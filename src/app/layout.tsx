@@ -33,7 +33,7 @@ export default async function RootLayout({
         <link rel="stylesheet" href="/site/owner-review.css" />
         <link rel="stylesheet" href="/api/site-typography" />
         <link rel="stylesheet" href="/site/owner-batch.css?v=20261021-review3" />
-        <link rel="stylesheet" href="/site/live-corrections.css?v=20261021-2" />
+        <link rel="stylesheet" href="/site/live-corrections.css?v=20261021-3" />
       </head>
       <body>
         {children}

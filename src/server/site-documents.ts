@@ -996,7 +996,7 @@ export async function renderDocument(
   html = html
     .replace(
       "</head>",
-      '<link rel="stylesheet" href="/site/post-launch.css"><link rel="stylesheet" href="/site/owner-review.css"><link rel="stylesheet" href="/api/site-typography"><link rel="stylesheet" href="/site/owner-batch.css?v=20261021-review3"><link rel="stylesheet" href="/site/live-corrections.css?v=20261021-2"></head>',
+      '<link rel="stylesheet" href="/site/post-launch.css"><link rel="stylesheet" href="/site/owner-review.css"><link rel="stylesheet" href="/api/site-typography"><link rel="stylesheet" href="/site/owner-batch.css?v=20261021-review3"><link rel="stylesheet" href="/site/live-corrections.css?v=20261021-3"></head>',
     )
     .replace("</body>", '<script src="/site/post-launch.js?v=20261021-review3"></script><script src="/site/live-corrections.js?v=20261021-1"></script></body>');
   html = html.replace(
