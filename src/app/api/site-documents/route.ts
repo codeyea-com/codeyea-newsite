@@ -24,6 +24,7 @@ export async function GET(req: Request) {
           doc.template,
           html,
           bindTemplate(html, doc.draft as DocumentContent),
+          doc.locale,
         )) as typeof doc.draft;
       }
       return Response.json(

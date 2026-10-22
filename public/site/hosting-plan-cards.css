@@ -36,3 +36,12 @@ html:not([dir=rtl]) .cy-host-plans .plan-mark h2{text-align:left}
  .hp .cy-host-plans .plans{gap:16px}
  .hp .cy-host-plans .card{flex-basis:88%;max-width:88%}
 }
+/* Align the first card with the content edge, with the next plan visible. */
+.hp.public-surface .cy-host-plans{--plan-page-gutter:max(24px,calc((100vw - var(--page-content-width,1200px))/2));padding-inline:0}
+.hp.public-surface .cy-host-plans .intro,.hp.public-surface .cy-host-plans .intro :is(h2,p){text-align:center!important}
+.hp.public-surface .cy-host-plans .viewport{margin-inline:0;overflow:hidden}
+.hp.public-surface .cy-host-plans .plans{gap:24px;padding:48px var(--plan-page-gutter) 72px;scroll-padding-inline:var(--plan-page-gutter)}
+.hp.public-surface .cy-host-plans .card{flex-basis:calc((100vw - var(--plan-page-gutter) - 132px)/3);max-width:none}
+.hp.public-surface .cy-host-plans .ribbon{text-align:center}
+@media(max-width:1000px){.hp.public-surface .cy-host-plans .plans{gap:20px}.hp.public-surface .cy-host-plans .card{flex-basis:calc((100vw - 2 * var(--plan-page-gutter) - 70px)/2)}}
+@media(max-width:760px){.hp.public-surface .cy-host-plans{--plan-page-gutter:20px}.hp.public-surface .cy-host-plans .plans{gap:16px}.hp.public-surface .cy-host-plans .card{flex-basis:calc(100vw - 2 * var(--plan-page-gutter) - 34px);max-width:390px}}

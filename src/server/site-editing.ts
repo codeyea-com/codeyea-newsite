@@ -159,7 +159,7 @@ export async function saveSiteDraft(actorId: string | null, raw: unknown) {
       const html = await templateContent(doc.template);
       const previous = bindTemplate(html, documentContent.parse(doc.draft));
       input.draft = bindTemplate(html, input.draft);
-      input.draft = await bindDocumentControls(doc.template, html, input.draft);
+      input.draft = await bindDocumentControls(doc.template, html, input.draft, doc.locale);
       if (
         input.draft.fields.length !== previous.fields.length ||
         input.draft.fields.some((f, i) => f.key !== previous.fields[i].key)
@@ -232,7 +232,7 @@ export async function publishSiteDocument(
         throw new AppError(400, "This page has no registered public route.");
       const template = await templateContent(doc.template);
       bindTemplate(template, content);
-      await bindDocumentControls(doc.template, template, content);
+      await bindDocumentControls(doc.template, template, content, doc.locale);
       await assertMediaReferences(tx, content);
       const canonical = documentPath(doc.slug, doc.locale);
       if (content.seo?.canonicalPath && content.seo.canonicalPath !== canonical)
@@ -321,6 +321,7 @@ export async function restoreSiteDraft(actorId: string | null, raw: unknown) {
           doc.template,
           html,
           restored.data.draft,
+          doc.locale,
         );
     }
     const changed = await tx.siteDocument.updateMany({

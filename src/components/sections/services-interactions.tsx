@@ -24,11 +24,14 @@ export function ServicesMotion(){
      const kind=group.dataset.svReveal;
      const targets=kind==='accordion'?[...group.querySelectorAll('.sv-accordion>article')]:group.matches('h2,p,figure')?[group]:[...group.children];
      const initial=kind==='cards'?{x:60,scale:.85,rotationY:35,opacity:0}:kind==='row'?{x:30,opacity:0}:kind==='intro'?{y:60,opacity:0}:kind==='accordion'?{y:30,opacity:0}:{y:35,opacity:0};
-     const delay=kind==='intro'?.8:kind==='accordion'?1.1:0;
-     const trigger=kind==='strategy'?group:(group.closest('section')??group);
+     const later=!!group.closest('.rp-process,.rp-growth,.rp-faq,.rp-cta');
+     const quick=later||kind==='accordion';
+     const delay=quick?.08:kind==='intro'?.8:0;
+     // Each visible group starts independently; a long sibling list must not queue it.
+     const trigger=quick||kind==='strategy'?group:(group.closest('section')??group);
      const timeline=timelines.get(trigger)??gsap.timeline({paused:true});
      const position=timeline.duration()?Math.max(0,timeline.duration()-.3):delay;
-     timeline.fromTo(targets,initial,{x:0,y:0,scale:1,scaleY:1,rotationY:0,opacity:1,duration:1.8,stagger:.18,ease:'power4.out',clearProps:'transform,opacity'},position);
+     timeline.fromTo(targets,initial,{x:0,y:0,scale:1,scaleY:1,rotationY:0,opacity:1,duration:quick?1.15:1.8,stagger:quick?.09:.18,ease:'power4.out',clearProps:'transform,opacity'},position);
      timelines.set(trigger,timeline);
     });
    },root);

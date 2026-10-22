@@ -1,5 +1,6 @@
 import { integrateHostingPlans } from "./hosting-plan-cards";
 import { applyLiveReviewContent } from './live-review-content';
+import { renderReviewAdditions } from './review-additions-render';
 import { refineDomains } from "./domain-refinements";
 import { serviceArtwork, serviceArtworkTag } from '../content/generated-service-artwork';
 import {generalArtwork} from '../content/generated-general-artwork';
@@ -212,10 +213,11 @@ export async function bindDocumentControls(
   slug: string,
   html: string,
   content: DocumentContent,
+  locale: string = 'en',
 ) {
   return {
     ...content,
-    additions: resolvePageAdditions(slug, content.additions),
+    additions: resolvePageAdditions(slug, content.additions, locale),
     controls: bindControls(
       await templateControlManifest(html, approvedTemplates[slug]),
       content.controls,
@@ -531,7 +533,7 @@ export async function renderDocument(
       ? `${publicLocalePrefix}/${target.replace(/^\/+|\/+$/g, "")}/`
       : `/preview/pages/${target.replace(/^\/+|\/+$/g, "")}${locale === "ar" ? "?locale=ar" : ""}`;
   content = bindTemplate(html, content);
-  content = await bindDocumentControls(slug, html, content);
+  content = await bindDocumentControls(slug, html, content, locale);
   html = applyTemplateControls(html, content.controls);
   let inlineIndex = 0;
   html = html.replace(
@@ -996,9 +998,9 @@ export async function renderDocument(
   html = html
     .replace(
       "</head>",
-      '<link rel="stylesheet" href="/site/post-launch.css"><link rel="stylesheet" href="/site/owner-review.css"><link rel="stylesheet" href="/api/site-typography"><link rel="stylesheet" href="/site/owner-batch.css?v=20261021-review3"><link rel="stylesheet" href="/site/live-corrections.css?v=20261021-3"></head>',
+      '<link rel="stylesheet" href="/site/post-launch.css"><link rel="stylesheet" href="/site/owner-review.css"><link rel="stylesheet" href="/api/site-typography"><link rel="stylesheet" href="/site/owner-batch.css?v=20261021-review3"><link rel="stylesheet" href="/site/live-corrections.css?v=20261022-1"></head>',
     )
-    .replace("</body>", '<script src="/site/post-launch.js?v=20261021-review3"></script><script src="/site/live-corrections.js?v=20261021-1"></script></body>');
+    .replace("</body>", '<script src="/site/post-launch.js?v=20261021-review3"></script><script src="/site/live-corrections.js?v=20261022-1"></script></body>');
   html = html.replace(
     /(<(?:script|style)\b[^>]*>[\s\S]*?<\/(?:script|style)>|<h1\b[^>]*>[\s\S]*?<\/h1>|<p\b[^>]*class="[^"]*\binternal-hero-brand\b[^"]*"[^>]*>[\s\S]*?<\/p>)|(<p\b[^>]*>)([^<>]+)(<\/p>)/gi,
     (all, protectedBlock, start, text, end) => {
@@ -1183,7 +1185,7 @@ export async function renderDocument(
   if (slug === "contact" && locale === "ar") html = html.replace(/<address>[\s\S]*?<\/address>/g, address => /بانتظار التأكيد/.test(address) ? '' : address);
   if (slug === "domains") html = refineDomains(html, locale, options.country);
   if (locale === "ar") html = html.replace(/(<(?:span|small|p)\b[^>]*>)(?:الأسئلة الشائعة|FAQ)(<\/(?:span|small|p)>)/g, '$1FAQs$2');
-  return canonicalHtmlLinks(applyLiveReviewContent(html,slug,locale));
+  return canonicalHtmlLinks(renderReviewAdditions(applyLiveReviewContent(html,slug,locale),slug,locale,content.additions));
 }
 function slugTitle(slug: string) {
   return slug

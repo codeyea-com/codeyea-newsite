@@ -55,7 +55,8 @@ html[lang=ar] .hp.public-surface main .rf-body .cy-faq-question h3,html .hp.publ
 .hp.public-surface .cy-photo-cta::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#072448dc,#0724489c),var(--cta-photo) center top/cover no-repeat}
 .hp.public-surface .cy-photo-cta :is(h2,p,small,.b-eyebrow,.ds-label,.rp-eyebrow){color:white!important}
 /* Black text shadows keep every CTA readable over its photograph. */
-.hp.public-surface :is(.cy-photo-cta,.rf-cta,.rp-cta,.b-contact,.case-cta,.d-domain-cta,.hp-footer-v2-lead,.hp-footer-v2-quote) :is(h1,h2,h3,h4,p,small,span,a,button,strong,label){text-shadow:0 2px 4px #000d,0 4px 14px #0009!important}
+.hp.public-surface :is(.cy-photo-cta,.rf-cta,.rp-cta,.b-contact,.case-cta,.d-domain-cta,.hp-footer-v2-lead,.hp-footer-v2-quote) :is(h1,h2,h3,h4,p,small,span,a,button,strong,label){text-shadow:0 0 18px #0008,0 0 36px #0005!important}
+.hp.public-surface :is(.cy-photo-cta,.rf-cta,.rp-cta,.b-contact,.case-cta,.d-domain-cta,.hp-footer-v2-lead,.hp-footer-v2-quote) :is(a,button),.hp.public-surface :is(.cy-photo-cta,.rf-cta,.rp-cta,.b-contact,.case-cta,.d-domain-cta,.hp-footer-v2-lead,.hp-footer-v2-quote) :is(a,button) *{text-shadow:none!important}
 .hp.public-surface #main.case-detail .case-cta.cy-photo-cta h2,.hp.public-surface #main.case-detail .case-cta.cy-photo-cta>div>span{color:white!important}
 .hp.public-surface .hp-services-hero .hero-copy:lang(ar){transform:none!important}
 .hp.public-surface #restaurants-cafes-bakeries-cta .rf-cta-media img{object-position:50% 0!important;scale:1!important;transform:none!important}
@@ -64,7 +65,7 @@ html[lang=ar] .hp.public-surface main .rf-body .cy-faq-question h3,html .hp.publ
 .hp.public-surface .cy-about-cta>.about-reference-container{display:flex;align-items:center;justify-content:space-between;gap:40px}
 .hp.public-surface .cy-about-cta h2{font-size:clamp(30px,3.4vw,48px);line-height:1.4;font-weight:500;margin:12px 0}
 html[lang=ar] .hp.public-surface :is(h1,h2,h3,h4,h5,h6,p,a,button,summary,span,strong,small,li,label,td,th):not(:where(.hp-services-hero *)){font-family:"Readex Pro",sans-serif!important}
-html[lang=ar] .hp.public-surface :is(p,li,td,th,label){font-size:17px;line-height:1.85;font-weight:400!important;letter-spacing:0!important}
+html[lang=ar] .hp.public-surface :is(p,li,td,th,label):not(.internal-hero-brand){font-size:17px;line-height:1.85;font-weight:400!important;letter-spacing:0!important}
 html[lang=ar] .hp.public-surface :is(h2,h3,h4){font-weight:500!important;line-height:1.55;letter-spacing:0!important}
 html[lang=ar] .hp.public-surface :is(.rf-service-lists li,.rf-industry-lists li,.industries-introduction p){font-size:18px!important;font-weight:400!important}
 html[lang=ar] .hp.public-surface :is(.rf-body h2,.about-static h2,.industries-page h2){font-size:clamp(28px,3vw,44px)!important}
@@ -85,3 +86,42 @@ html[lang=ar] .hp.public-surface .ct-hero-title h1{white-space:nowrap;font-size:
 }
 @media(max-width:900px){.hp.public-surface .cy-faq-heading{top:90px;background:#fff;z-index:3;padding-block:10px}.hp.public-surface .cy-about-cta>.about-reference-container{display:block}.hp.public-surface .cy-about-cta .hp-button{margin-top:20px}}
 @media(prefers-reduced-motion:reduce){.hp.public-surface :is(.cy-accordion-title,.cy-text-hover,.ts-plan),.hp.public-surface :is(.hp-button,.b-btn,.d-btn,.choose)::before{transition:none!important;transform:none!important;top:0!important}}
+
+/* Owner review, 2026-10-22: retain hero identity, Arabic shaping and sticky FAQ. */
+html[lang=ar] body .hp.public-surface .internal-hero-brand{font-family:"Josefin Sans",sans-serif!important;font-size:90px!important;line-height:.9!important;font-weight:200!important;direction:ltr;letter-spacing:0!important}
+html[lang=ar] body .hp.public-surface :is(.b-hero-number,.b-hero .b-wordmark){font-family:"Josefin Sans",sans-serif!important;font-size:90px!important;line-height:.9!important;font-weight:200!important;letter-spacing:0!important}
+.hp.public-surface .cy-faq-scroll-ancestor{overflow-x:clip!important;overflow-y:visible!important}
+.hp.public-surface .cy-faq-heading{align-self:start!important;position:sticky!important;top:120px!important;transform:none!important}
+.hp.public-surface .cy-accordion-title,.hp.public-surface .cy-accordion-title :is(b,strong,.ai-service-title){font-weight:400!important;text-align:start;direction:inherit}
+.hp.public-surface .cy-accordion-title .ai-service-title{display:inline!important}
+html[lang=ar] .hp.public-surface .cy-accordion-title{direction:rtl!important;text-align:right!important}
+html[lang=ar] .hp.public-surface .cy-accordion-title .ai-service-title{direction:rtl!important;text-align:right!important;unicode-bidi:normal;letter-spacing:0!important}
+.hp.public-surface .hero-concept #website-hero-title{font-size:clamp(40px,4vw,58px)!important;line-height:1.2!important;max-width:none!important;width:100%!important}
+.hp.public-surface .hero-concept .w-service-name{font-size:clamp(22px,2vw,32px)!important;line-height:1.4!important;white-space:nowrap}
+.hp.public-surface .hero-concept .w-service-name br{display:none}
+html[lang=ar] .hp.public-surface .hero-concept #website-hero-title{font-size:clamp(38px,3.8vw,56px)!important;line-height:1.3!important}
+/* A light common overlay; photograph and text remain separate layers. */
+.hp.public-surface :is(.cy-photo-cta,.rp-cta,.rf-cta,.case-cta,.d-domain-cta){position:relative;isolation:isolate}
+.hp.public-surface .cy-photo-cta::before{background:var(--cta-photo) center top/cover no-repeat}
+.hp.public-surface :is(.cy-photo-cta,.rp-cta,.rf-cta,.case-cta,.d-domain-cta)::after{content:"";position:absolute;inset:0;z-index:-1;background:rgb(7 36 72 / 36%);pointer-events:none}
+.hp.public-surface .rf-cta-media{z-index:-2}
+.hp.public-surface .cy-photo-cta::before{z-index:-2}
+.hp.public-surface .cy-about-cta::before{background-position:70% 5%}
+.hp.public-surface .industries-final.cy-photo-cta{width:100%!important;max-width:none;margin-inline:0!important;padding:80px max(24px,calc((100% - var(--page-content-width))/2))!important;box-sizing:border-box}
+.hp.public-surface .industries-final .industries-final-columns{gap:6%;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}
+.hp.public-surface .industries-final .industry-label{color:white!important}
+@media(max-width:800px){html[lang=ar] body .hp.public-surface :is(.internal-hero-brand,.b-hero-number,.b-hero .b-wordmark){font-size:clamp(52px,12vw,90px)!important}.hp.public-surface .cy-faq-heading{top:90px!important}.hp.public-surface .industries-final .industries-final-columns{grid-template-columns:1fr;gap:28px}.hp.public-surface .hero-concept #website-hero-title{font-size:clamp(34px,7.5vw,52px)!important}.hp.public-surface .hero-concept .w-service-name{font-size:clamp(20px,4.7vw,30px)!important}}
+.cy-photo-dialog{padding:64px 44px 40px;background:rgb(7 36 72 / 28%);border:1px solid #ffffff40;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);color:#fff;overflow:auto}
+.cy-photo-dialog::backdrop{background:rgb(3 16 32 / 32%);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.cy-photo-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);align-items:center;gap:48px;direction:ltr}
+.cy-photo-layout>img{grid-column:2;grid-row:1;max-height:calc(90svh - 100px);width:100%;height:auto;object-fit:contain}
+.cy-photo-copy{grid-column:1;grid-row:1;text-align:start;font-family:var(--font-body,"Readex Pro",sans-serif);padding:12px 0}
+.cy-photo-copy h2{font:500 clamp(26px,2.4vw,38px)/1.4 var(--font-body,"Readex Pro",sans-serif);margin:14px 0 24px;color:#fff}
+.cy-photo-copy p{font:400 18px/1.9 var(--font-body,"Readex Pro",sans-serif);color:#fff;margin:0}
+.cy-photo-copy .cy-photo-label{font-size:12px;letter-spacing:.06em}
+.hp.public-surface .cy-brand-faq{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);align-items:start;gap:8%;padding-block:90px}
+.hp.public-surface .cy-brand-faq details{border-bottom:1px solid #dce4e8}
+.hp.public-surface .cy-brand-faq summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:24px;cursor:pointer}
+.hp.public-surface .cy-brand-faq summary::-webkit-details-marker{display:none}
+.hp.public-surface .cy-brand-faq details>p{font-size:18px;line-height:1.8;margin:12px 0 28px;color:#535e65}
+@media(max-width:760px){.cy-photo-dialog{padding:54px 20px 26px}.cy-photo-layout{grid-template-columns:minmax(0,1fr);gap:24px}.cy-photo-layout>img{grid-column:1;grid-row:1;max-height:50svh}.cy-photo-copy{grid-column:1;grid-row:2}.cy-photo-copy h2{font-size:26px;margin:8px 0 14px}.cy-photo-copy p{font-size:16px;line-height:1.8}.hp.public-surface .cy-brand-faq{grid-template-columns:1fr;gap:32px;padding-block:60px}}

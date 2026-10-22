@@ -36,6 +36,6 @@
    d.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse'&&matchMedia('(hover:hover)').matches)change(true)});
    d.addEventListener('pointerleave',e=>{if(e.pointerType==='mouse')change(false)});
  });
- const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.08});root.querySelectorAll('.reveal').forEach(el=>observer.observe(el));drawPrices();update();
+ const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:0});root.querySelectorAll('.reveal').forEach(el=>observer.observe(el));drawPrices();update();
  });
 })();

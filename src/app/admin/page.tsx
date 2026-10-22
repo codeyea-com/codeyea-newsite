@@ -434,6 +434,7 @@ export default function SiteStudio() {
               {selected.kind === "page" && (
                 <PageAdditionsEditor
                   slug={selected.slug}
+                  locale={selected.locale}
                   value={selected.draft.additions}
                   onChange={(additions) =>
                     update({

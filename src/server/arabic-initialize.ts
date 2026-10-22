@@ -82,7 +82,12 @@ export function localizeDocument(content: DocumentContent, slug: string) {
     index: false,
     follow: true,
   };
-  result.additions = resolvePageAdditions(slug, result.additions);
+  const englishAdditions = resolvePageAdditions(slug, undefined, 'en');
+  const additions = { ...result.additions };
+  for (const key of ['galleryCaptions', 'faq'] as const)
+    if (JSON.stringify(additions[key]) === JSON.stringify(englishAdditions[key]))
+      delete additions[key];
+  result.additions = resolvePageAdditions(slug, additions, 'ar');
   for (const key of ["support", "search"] as const) {
     const s = result.additions[key];
     if (!s) continue;

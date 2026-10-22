@@ -19,7 +19,7 @@ export function renderPageAdditions(
   preview: boolean,
   locale = "en",
 ) {
-  const additions = resolvePageAdditions(slug, value);
+  const additions = resolvePageAdditions(slug, value, locale);
   const destination = (href: string) => {
     if (!preview) return href;
     const url = new URL(href, "https://local.invalid");

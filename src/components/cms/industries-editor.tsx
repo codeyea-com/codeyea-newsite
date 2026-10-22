@@ -9,6 +9,7 @@ import type { Page } from "./types";
 import { MediaPicker } from "./media-picker";
 import { assetUrl } from "@/content/homepage-assets";
 import { SeoEditor } from "./seo-editor";
+import { generalArtwork } from '@/content/generated-general-artwork';
 type Props = {
   draft: Page;
   dirty: boolean;
@@ -59,15 +60,17 @@ function Text({
 function ImageField({
   value,
   onChange,
+  artworkKey,
 }: {
   value: AboutMedia;
   onChange: (v: AboutMedia) => void;
+  artworkKey?: string;
 }) {
   const [open, setOpen] = useState(false);
   return (
     <div className="cms-media">
       <img
-        src={assetUrl(value.mediaId)}
+        src={generalArtwork(artworkKey,value)?.src ?? assetUrl(value.mediaId)}
         alt="Selected image"
         style={{ maxWidth: 240 }}
       />
@@ -364,6 +367,7 @@ export function IndustriesEditor({
                 />
                 <ImageField
                   value={content.hero.media}
+                  artworkKey="industries/hero"
                   onChange={(media) =>
                     update({ ...content, hero: { ...content.hero, media } })
                   }
@@ -601,6 +605,7 @@ export function IndustriesEditor({
                   </label>
                   <ImageField
                     value={item.media}
+                    artworkKey={'industries/'+item.id}
                     onChange={(media) => change({ ...item, media })}
                   />
                   <p>

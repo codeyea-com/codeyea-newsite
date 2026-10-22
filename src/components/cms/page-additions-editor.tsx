@@ -6,14 +6,16 @@ import {
 import { TemplateImageEditor } from "./template-image-editor";
 export function PageAdditionsEditor({
   slug,
+  locale = "en",
   value,
   onChange,
 }: {
   slug: string;
+  locale?: string;
   value?: PageAdditions;
   onChange: (value: PageAdditions) => void;
 }) {
-  const data = resolvePageAdditions(slug, value);
+  const data = resolvePageAdditions(slug, value, locale);
   const rotating =
     /^(ai-automation|technical-support|web-mobile-apps|digital-marketing|seo-geo)$/.test(
       slug,
@@ -22,6 +24,98 @@ export function PageAdditionsEditor({
   return (
     <section className="cms-panel">
       <h2>Additional page sections</h2>
+      {data.galleryCaptions && (
+        <details>
+          <summary>
+            Image popup explanations · {data.galleryCaptions.length}
+          </summary>
+          {data.galleryCaptions.map((item, index) => (
+            <fieldset key={index}>
+              <legend>Image {index + 1}</legend>
+              {(["title", "body"] as const).map((field) => (
+                <label className="site-field" key={field}>
+                  {field}
+                  <textarea
+                    dir="auto"
+                    maxLength={field === "title" ? 200 : 3000}
+                    value={item[field]}
+                    onChange={(e) =>
+                      onChange({
+                        ...data,
+                        galleryCaptions: data.galleryCaptions!.map((row, i) =>
+                          i === index
+                            ? { ...row, [field]: e.target.value }
+                            : row,
+                        ),
+                      })
+                    }
+                  />
+                </label>
+              ))}
+            </fieldset>
+          ))}
+        </details>
+      )}
+      {data.faq && (
+        <details>
+          <summary>Brand design FAQs</summary>
+          <label>
+            <input
+              type="checkbox"
+              checked={data.faq.enabled}
+              onChange={(e) =>
+                onChange({
+                  ...data,
+                  faq: { ...data.faq!, enabled: e.target.checked },
+                })
+              }
+            />{" "}
+            Visible
+          </label>
+          <label className="site-field">
+            Heading
+            <textarea
+              dir="auto"
+              value={data.faq.heading}
+              maxLength={300}
+              onChange={(e) =>
+                onChange({
+                  ...data,
+                  faq: { ...data.faq!, heading: e.target.value },
+                })
+              }
+            />
+          </label>
+          {data.faq.items.map((item, index) => (
+            <fieldset key={index}>
+              <legend>Question {index + 1}</legend>
+              {(["title", "body"] as const).map((field) => (
+                <label className="site-field" key={field}>
+                  {field}
+                  <textarea
+                    dir="auto"
+                    maxLength={field === "title" ? 200 : 3000}
+                    value={item[field]}
+                    onChange={(e) =>
+                      onChange({
+                        ...data,
+                        faq: {
+                          ...data.faq!,
+                          items: data.faq!.items.map((row, i) =>
+                            i === index
+                              ? { ...row, [field]: e.target.value }
+                              : row,
+                          ),
+                        },
+                      })
+                    }
+                  />
+                </label>
+              ))}
+            </fieldset>
+          ))}
+        </details>
+      )}
       {rotating && (
         <label className="site-field">
           Rotating heading words · one per line

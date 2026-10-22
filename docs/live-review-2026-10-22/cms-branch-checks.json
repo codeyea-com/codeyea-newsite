@@ -1,0 +1,115 @@
+{
+  "project": "codeyea-production",
+  "projectId": "lively-queen-95299732",
+  "branch": "review-cms-20261022",
+  "branchId": "br-falling-term-b5w0l7dg",
+  "results": [
+    [
+      {
+        "expected_content_versions": 1
+      }
+    ],
+    [
+      {
+        "slug": "brand-design",
+        "locale": "ar",
+        "version": 3,
+        "captions": 5,
+        "faq": 6,
+        "live": true
+      },
+      {
+        "slug": "brand-design",
+        "locale": "en",
+        "version": 1,
+        "captions": 5,
+        "faq": 6,
+        "live": true
+      },
+      {
+        "slug": "ecommerce",
+        "locale": "ar",
+        "version": 2,
+        "captions": 5,
+        "faq": 0,
+        "live": true
+      },
+      {
+        "slug": "ecommerce",
+        "locale": "en",
+        "version": 1,
+        "captions": 5,
+        "faq": 0,
+        "live": true
+      },
+      {
+        "slug": "website-design",
+        "locale": "ar",
+        "version": 2,
+        "captions": 5,
+        "faq": 0,
+        "live": true
+      },
+      {
+        "slug": "website-design",
+        "locale": "en",
+        "version": 1,
+        "captions": 5,
+        "faq": 0,
+        "live": true
+      }
+    ],
+    [
+      {
+        "slug": "brand-design",
+        "locale": "ar",
+        "version": 3,
+        "captions": 5,
+        "faq": 6,
+        "field_hash": "916af88163f904e15336f3792eeaee5e"
+      },
+      {
+        "slug": "brand-design",
+        "locale": "en",
+        "version": 1,
+        "captions": 5,
+        "faq": 6,
+        "field_hash": "d7cf61b502da1cbc45f76b904b0975ce"
+      },
+      {
+        "slug": "ecommerce",
+        "locale": "ar",
+        "version": 2,
+        "captions": 5,
+        "faq": 0,
+        "field_hash": "684e51094d71650842f12e404ba38eb9"
+      },
+      {
+        "slug": "ecommerce",
+        "locale": "en",
+        "version": 1,
+        "captions": 5,
+        "faq": 0,
+        "field_hash": "36ed61f4c1a02bcbb33dd98dadf1a9c3"
+      },
+      {
+        "slug": "website-design",
+        "locale": "ar",
+        "version": 2,
+        "captions": 5,
+        "faq": 0,
+        "field_hash": "cf35202189fc86aed79234ff7a23a248"
+      },
+      {
+        "slug": "website-design",
+        "locale": "en",
+        "version": 1,
+        "captions": 5,
+        "faq": 0,
+        "field_hash": "efc729fd3fbe36d8a1d30317c794bf9a"
+      }
+    ]
+  ],
+  "unrelatedContentPreserved": true,
+  "productionDatabaseChanged": false
+}

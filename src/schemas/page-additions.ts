@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { brandFaq, galleryCaptions } from "@/content/gallery-captions";
 const href = z
   .string()
   .max(500)
@@ -25,6 +26,34 @@ const section = z
   .strict();
 export const pageAdditionsSchema = z
   .object({
+    galleryCaptions: z
+      .array(
+        z
+          .object({ title: z.string().max(200), body: z.string().max(3000) })
+          .strict(),
+      )
+      .min(1)
+      .max(12)
+      .optional(),
+    faq: z
+      .object({
+        enabled: z.boolean(),
+        label: z.string().max(100),
+        heading: z.string().max(300),
+        items: z
+          .array(
+            z
+              .object({
+                title: z.string().max(200),
+                body: z.string().max(3000),
+              })
+              .strict(),
+          )
+          .min(1)
+          .max(12),
+      })
+      .strict()
+      .optional(),
     introWords: z.array(z.string().min(1).max(120)).min(1).max(8).optional(),
     support: section.optional(),
     search: section.optional(),
@@ -110,6 +139,15 @@ export function pageAdditionsDefaults(slug: string): PageAdditions {
 export function resolvePageAdditions(
   slug: string,
   value?: PageAdditions,
+  locale: string = "en",
 ): PageAdditions {
-  return { ...pageAdditionsDefaults(slug), ...value };
+  const language = locale === "ar" ? "ar" : "en";
+  return {
+    ...pageAdditionsDefaults(slug),
+    ...(galleryCaptions[slug]
+      ? { galleryCaptions: galleryCaptions[slug][language] }
+      : {}),
+    ...(slug === "brand-design" ? { faq: brandFaq[language] } : {}),
+    ...value,
+  };
 }

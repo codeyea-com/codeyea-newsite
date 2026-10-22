@@ -182,8 +182,8 @@
     "src": "/site/generated/general/industries/online-magazine-live-review-v1.webp",
     "expectedMediaId": "media_4af77143-5c73-486f-b6bf-ea5f0d566d5b",
     "alt": {
-      "en": "Editor arranging magazine proofs and editorial photographs",
-      "ar": "محرر يرتّب مسودات صفحات المجلة والصور التحريرية"
+      "en": "Digital magazine open on a tablet and smartphone",
+      "ar": "مجلة إلكترونية معروضة على تابلت وهاتف"
     },
     "mobileSrc": "/site/generated/general/industries/online-magazine-live-review-v1.webp",
     "tabletSrc": "/site/generated/general/industries/online-magazine-live-review-v1.webp",
@@ -224,11 +224,11 @@
     }
   },
   "industries/industry-restaurants-cafes-bakeries": {
-    "src": "/site/generated/general/industries/industry-restaurants-cafes-bakeries-v2-desktop.webp",
+    "src": "/site/generated/general/industries/restaurant-directory-review-20261022.webp",
     "expectedMediaId": "industry-restaurants-cafes-bakeries-image",
     "alt": {
-      "en": "Fresh bread and pastries being prepared at a cafe bakery",
-      "ar": "خبز ومعجنات طازجة تُجهّز للتقديم داخل مقهى ومخبز"
+      "en": "Fine dining restaurant interior with a table set with luxurious plated food",
+      "ar": "مطعم فاخر من الداخل وطاولة عليها أطباق فاخرة"
     }
   },
   "industries/industry-solar-energy": {
