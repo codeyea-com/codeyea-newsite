@@ -471,7 +471,7 @@ export function Carousel({
                 </>
               );
               return (
-                <article
+                <div
                   className="hp-carousel-slide"
                   key={item.id}
                   role="group"
@@ -491,7 +491,7 @@ export function Carousel({
                       {content}
                     </div>
                   )}
-                </article>
+                </div>
               );
             })}
           </div>
