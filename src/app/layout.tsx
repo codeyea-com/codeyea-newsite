@@ -42,8 +42,8 @@ export default async function RootLayout({
       </head>
       <body>
         {children}
-        <Script src="/site/post-launch.js?v=20261021-review3" strategy="afterInteractive" />
-        <Script src="/site/live-corrections.js?v=20261022-1" strategy="afterInteractive" />
+        <Script src="/site/post-launch.js?v=20261022-perf2" strategy="afterInteractive" />
+        <Script src="/site/live-corrections.js?v=20261022-perf2" strategy="afterInteractive" />
       </body>
     </html>
   );

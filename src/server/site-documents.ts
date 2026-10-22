@@ -1000,7 +1000,7 @@ export async function renderDocument(
       "</head>",
       '<link rel="stylesheet" href="/site/post-launch.css"><link rel="stylesheet" href="/site/owner-review.css"><link rel="stylesheet" href="/api/site-typography"><link rel="stylesheet" href="/site/owner-batch.css?v=20261021-review3"><link rel="stylesheet" href="/site/live-corrections.css?v=20261022-1"></head>',
     )
-    .replace("</body>", '<script src="/site/post-launch.js?v=20261021-review3"></script><script src="/site/live-corrections.js?v=20261022-1"></script></body>');
+    .replace("</body>", '<script src="/site/post-launch.js?v=20261022-perf2"></script><script src="/site/live-corrections.js?v=20261022-perf2"></script></body>');
   html = html.replace(
     /(<(?:script|style)\b[^>]*>[\s\S]*?<\/(?:script|style)>|<h1\b[^>]*>[\s\S]*?<\/h1>|<p\b[^>]*class="[^"]*\binternal-hero-brand\b[^"]*"[^>]*>[\s\S]*?<\/p>)|(<p\b[^>]*>)([^<>]+)(<\/p>)/gi,
     (all, protectedBlock, start, text, end) => {

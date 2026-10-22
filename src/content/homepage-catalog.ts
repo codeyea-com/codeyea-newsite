@@ -101,6 +101,7 @@ export function homepageCatalog(locale: CaseLocale, projects: EditorObject) {
     body: item.title,
     category: categories[item.slug],
     image: item.image,
+    srcSet: 'srcSet' in item ? item.srcSet : undefined,
     alt: `${item.name}: ${item.title}`,
     focal: "50% 50%",
     href: caseStudyHref(locale, item.slug),

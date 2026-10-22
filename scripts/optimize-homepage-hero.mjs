@@ -27,3 +27,9 @@ for (const name of ['about', 'support', 'branding', 'ecommerce']) {
       .toFile(fileURLToPath(new URL(`../public/homepage/${name}-${width}.webp`, import.meta.url)));
   }
 }
+const project = new URL('../public/site/generated/case-studies/iraq-home-expo/', import.meta.url);
+for (const width of [640, 960, 1440]) {
+  await sharp(await fs.readFile(new URL('hero-wide.png', project)))
+    .resize({width, withoutEnlargement:true}).webp({quality:86, effort:6})
+    .toFile(fileURLToPath(new URL(`hero-wide-${width}.webp`, project)));
+}

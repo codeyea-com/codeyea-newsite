@@ -594,7 +594,16 @@
     });
   }
   let scheduled = false;
-  const observer = new MutationObserver(() => {
+  const observer = new MutationObserver((records) => {
+    // Counters and typewriters replace text each frame. They do not add controls.
+    // Rescan for new markup (navigation, dialogs, CMS inserts), never for hero ticks.
+    const addedContent = records.some(record => {
+      const element = record.target.nodeType === Node.ELEMENT_NODE ? record.target : record.target.parentElement;
+      if (element?.closest('.hp-services-hero')) return false;
+      return [...record.addedNodes].some(node => node.nodeType === Node.ELEMENT_NODE) ||
+        (element?.closest('form,#cq-dialog') && record.addedNodes.length > 0);
+    });
+    if (!addedContent) return;
     if (scheduled) return;
     scheduled = true;
     requestAnimationFrame(() => {

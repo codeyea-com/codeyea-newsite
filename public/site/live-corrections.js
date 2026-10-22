@@ -41,5 +41,11 @@
   document.querySelectorAll('.ts-plan th').forEach((th,i)=>{if(once.has(th))return;once.add(th);const icon=document.createElementNS('http://www.w3.org/2000/svg','svg');icon.setAttribute('viewBox','0 0 24 24');icon.setAttribute('class','cy-plan-icon');icon.setAttribute('aria-hidden','true');const paths=['M12 3 3 7v6c0 5 9 9 9 9s9-4 9-9V7zM8 12l3 3 5-6','M4 6h16v12H4zM7 10h10M7 14h6','M12 3v4m0 10v4M3 12h4m10 0h4M6 6l3 3m6 6 3 3M6 18l3-3m6-6 3-3'];const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d',paths[i%paths.length]);icon.append(p);th.prepend(icon);});
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',refine);else refine();
- let pending=false;new MutationObserver(()=>{if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;refine()})}).observe(document.body,{childList:true,subtree:true});
+ let pending=false;new MutationObserver(records=>{
+  if(!records.some(record=>{
+   const element=record.target.nodeType===Node.ELEMENT_NODE?record.target:record.target.parentElement;
+   return !element?.closest('.hp-services-hero')&&[...record.addedNodes].some(node=>node.nodeType===Node.ELEMENT_NODE);
+  }))return;
+  if(pending)return;pending=true;requestAnimationFrame(()=>{pending=false;refine()})
+ }).observe(document.body,{childList:true,subtree:true});
 })();

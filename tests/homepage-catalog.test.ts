@@ -42,7 +42,7 @@ test("homepage lists match the canonical services, industries and new images in 
       prefix = locale === "ar" ? "/ar" : "";
     assert.deepEqual(
       catalog.services.map((s) => s.ctaHref).sort(),
-      serviceCatalog.map((s) => `${prefix}/${s.slug}/`).sort(),
+      serviceCatalog.map((s) => `${prefix}/services/${s.slug}/`).sort(),
     );
     assert.deepEqual(
       catalog.industries.map((s) => s.href).sort(),
