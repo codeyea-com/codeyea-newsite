@@ -1181,7 +1181,7 @@ export async function renderDocument(
     ), content.controls), heroScript);
     html = renderIntegratedHero(html, slug, artwork);
   }
-  if (["website-hosting","wordpress-hosting","cloud-hosting","email-hosting"].includes(slug)) html = integrateHostingPlans(html, locale);
+  if (["website-hosting","wordpress-hosting","cloud-hosting","email-hosting"].includes(slug)) html = integrateHostingPlans(html, locale, slug);
   if (slug === "contact" && locale === "ar") html = html.replace(/<address>[\s\S]*?<\/address>/g, address => /بانتظار التأكيد/.test(address) ? '' : address);
   if (slug === "domains") html = refineDomains(html, locale, options.country);
   if (locale === "ar") html = html.replace(/(<(?:span|small|p)\b[^>]*>)(?:الأسئلة الشائعة|FAQ)(<\/(?:span|small|p)>)/g, '$1FAQs$2');

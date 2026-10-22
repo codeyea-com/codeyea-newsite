@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const origin=process.env.PLAN_FIT_ORIGIN||'http://127.0.0.1:3016';
+const pages=['website-hosting','wordpress-hosting','cloud-hosting','email-hosting'].flatMap(slug=>['en','ar'].map(locale=>({slug,locale,path:(locale==='ar'?'/ar/':'/')+slug+'/'})));
+const hash=s=>createHash('sha256').update(s.replace(/\r\n/g,'\n')).digest('hex');
+const results=await Promise.all(pages.map(async p=>{const r=await fetch(origin+p.path),html=await r.text(),expected=['cloud-hosting','email-hosting'].includes(p.slug),hasCss=html.includes('/site/three-plan-alignment.css?v=20261022-1'),hasMarker=html.includes('data-plan-page="'+p.slug+'"'),section=html.match(/<section\b[^>]*class="cy-host-plans"[\s\S]*?<\/section>/)?.[0]||'';const result={...p,status:r.status,expected,hasCss,hasMarker,cards:(section.match(/<article /g)||[]).length,streamError:/data-dgst="(?:NEXT_HTTP_ERROR|[0-9])/.test(html)};if(!expected&&origin.includes('127.0.0.1')){const baseline=await fetch('https://codeyea-newsite.vercel.app'+p.path),old=await baseline.text(),oldSection=old.match(/<section\b[^>]*class="cy-host-plans"[\s\S]*?<\/section>/)?.[0]||'';result.unaffectedSectionMatchesProduction=!!section&&hash(section)===hash(oldSection);}return result;}));
+const r=await fetch(origin+'/site/three-plan-alignment.css'),asset={status:r.status,matchesLocal:hash(await r.text())===hash(await fs.readFile('public/site/three-plan-alignment.css','utf8'))};
+const failures=results.filter(p=>p.status!==200||p.streamError||p.hasCss!==p.expected||p.hasMarker!==p.expected||(p.expected&&p.cards!==3)||p.unaffectedSectionMatchesProduction===false);
+if(asset.status!==200||!asset.matchesLocal)failures.push(asset);
+await fs.writeFile('docs/three-plan-alignment-2026-10-22/'+(origin.includes('127.0.0.1')?'local-checks.json':'production-checks.json'),JSON.stringify({origin,checkedAt:new Date().toISOString(),results,asset,failures},null,2));
+console.log(JSON.stringify({pages:results.length,affected:results.filter(p=>p.expected).map(p=>p.path),failures}));if(failures.length)process.exitCode=1;

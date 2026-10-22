@@ -1,0 +1,6 @@
+/* Only Cloud Hosting and Email Hosting: align three desktop plans to the header. */
+@media(min-width:1001px){
+ .hp.public-surface .cy-host-plans:is([data-plan-page="cloud-hosting"],[data-plan-page="email-hosting"]){--plan-page-gutter:max(24px,calc((100% - var(--page-content-width,1200px))/2))}
+ .hp.public-surface .cy-host-plans:is([data-plan-page="cloud-hosting"],[data-plan-page="email-hosting"]) .plans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+ .hp.public-surface .cy-host-plans:is([data-plan-page="cloud-hosting"],[data-plan-page="email-hosting"]) .card{width:100%;max-width:none}
+}
