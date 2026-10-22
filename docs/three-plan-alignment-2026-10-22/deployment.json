@@ -1,0 +1,77 @@
+{
+  "verifiedAt": "2026-10-22T15:00:11.791Z",
+  "state": "READY",
+  "id": "dpl_6Jk63eXDhoEfyTu2ydAA8PnLSuti",
+  "runtimeCommit": "92a22d850353fa55212080c652f9c1896c2daf40",
+  "mainUrl": "https://codeyea-newsite.vercel.app/",
+  "aliasError": null,
+  "scope": {
+    "pages": [
+      "cloud-hosting",
+      "email-hosting"
+    ],
+    "locales": [
+      "ar",
+      "en"
+    ],
+    "sharedHostingCssChanged": false,
+    "sharedHostingJsChanged": false,
+    "unaffectedSectionsMatchPreviousProduction": [
+      "/website-hosting/",
+      "/ar/website-hosting/",
+      "/wordpress-hosting/",
+      "/ar/wordpress-hosting/"
+    ]
+  },
+  "productionBrowser": {
+    "viewport": 1280,
+    "cloud": {
+      "header": [
+        56,
+        1208.800048828125
+      ],
+      "plans": [
+        56.00625228881836,
+        1208.8000183105469
+      ],
+      "cardWidth": 370.9312438964844,
+      "nameFont": "24px"
+    },
+    "email": {
+      "header": [
+        56,
+        1208.800048828125
+      ],
+      "plans": [
+        56.00625228881836,
+        1208.8000183105469
+      ],
+      "nameFont": "24px"
+    }
+  },
+  "localAdditionalWidths": [
+    {
+      "viewport": 1422,
+      "header": [
+        102.66666412353516,
+        1302.6666641235352
+      ],
+      "plans": [
+        102.66666412353516,
+        1302.6666564941406
+      ]
+    },
+    {
+      "viewport": 1100,
+      "header": [
+        32,
+        1051.1111450195312
+      ],
+      "plans": [
+        32.0069465637207,
+        1051.1111145019531
+      ]
+    }
+  ],
+  "verification": "Production build and TypeScript passed; scoped 8-route HTTP checks and asset hash passed. Plan content and pricing unchanged."
+}

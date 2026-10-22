@@ -13,4 +13,9 @@
 - [مقارنة الصورتين والتنفيذ](three-plan-alignment-2026-10-22/review.html).
 - [فحص النطاق المحلي](three-plan-alignment-2026-10-22/local-checks.json).
 
-حالة النشر: قيد الرفع والتحقق على الإنتاج.
+اكتمل النشر على [الاستضافة السحابية](https://codeyea-newsite.vercel.app/ar/cloud-hosting/#hosting-plans) و[استضافة الإيميل](https://codeyea-newsite.vercel.app/ar/email-hosting/#hosting-plans). حالة Vercel هي READY، commit التشغيل `92a22d850353fa55212080c652f9c1896c2daf40`، وdeployment `dpl_6Jk63eXDhoEfyTu2ydAA8PnLSuti`.
+
+على الإنتاج بعرض 1280px، كانت حافتا الهيدر 56px و1208.800px، وحافتا الصف 56.006px و1208.800px في كلتا الصفحتين. بقي اسم الخطة 24px. نجح فحص النطاق على المسارات الثمانية دون أخطاء.
+
+- [فحص نطاق الإنتاج](three-plan-alignment-2026-10-22/production-checks.json).
+- صور الإنتاج: [السحابية](three-plan-alignment-2026-10-22/production-cloud-ar.png)، [الإيميل](three-plan-alignment-2026-10-22/production-email-ar.png).

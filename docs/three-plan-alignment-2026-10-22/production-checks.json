@@ -1,0 +1,99 @@
+{
+  "origin": "https://codeyea-newsite.vercel.app",
+  "checkedAt": "2026-10-22T14:58:43.564Z",
+  "results": [
+    {
+      "slug": "website-hosting",
+      "locale": "en",
+      "path": "/website-hosting/",
+      "status": 200,
+      "expected": false,
+      "hasCss": false,
+      "hasMarker": false,
+      "cards": 5,
+      "streamError": false
+    },
+    {
+      "slug": "website-hosting",
+      "locale": "ar",
+      "path": "/ar/website-hosting/",
+      "status": 200,
+      "expected": false,
+      "hasCss": false,
+      "hasMarker": false,
+      "cards": 5,
+      "streamError": false
+    },
+    {
+      "slug": "wordpress-hosting",
+      "locale": "en",
+      "path": "/wordpress-hosting/",
+      "status": 200,
+      "expected": false,
+      "hasCss": false,
+      "hasMarker": false,
+      "cards": 4,
+      "streamError": false
+    },
+    {
+      "slug": "wordpress-hosting",
+      "locale": "ar",
+      "path": "/ar/wordpress-hosting/",
+      "status": 200,
+      "expected": false,
+      "hasCss": false,
+      "hasMarker": false,
+      "cards": 4,
+      "streamError": false
+    },
+    {
+      "slug": "cloud-hosting",
+      "locale": "en",
+      "path": "/cloud-hosting/",
+      "status": 200,
+      "expected": true,
+      "hasCss": true,
+      "hasMarker": true,
+      "cards": 3,
+      "streamError": false
+    },
+    {
+      "slug": "cloud-hosting",
+      "locale": "ar",
+      "path": "/ar/cloud-hosting/",
+      "status": 200,
+      "expected": true,
+      "hasCss": true,
+      "hasMarker": true,
+      "cards": 3,
+      "streamError": false
+    },
+    {
+      "slug": "email-hosting",
+      "locale": "en",
+      "path": "/email-hosting/",
+      "status": 200,
+      "expected": true,
+      "hasCss": true,
+      "hasMarker": true,
+      "cards": 3,
+      "streamError": false
+    },
+    {
+      "slug": "email-hosting",
+      "locale": "ar",
+      "path": "/ar/email-hosting/",
+      "status": 200,
+      "expected": true,
+      "hasCss": true,
+      "hasMarker": true,
+      "cards": 3,
+      "streamError": false
+    }
+  ],
+  "asset": {
+    "status": 200,
+    "matchesLocal": true
+  },
+  "failures": []
+}
