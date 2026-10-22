@@ -1,0 +1,83 @@
+{
+  "origin": "http://127.0.0.1:3016",
+  "checkedAt": "2026-10-22T14:20:28.503Z",
+  "results": [
+    {
+      "path": "/website-hosting/",
+      "status": 200,
+      "css": true,
+      "js": true,
+      "cards": 5,
+      "error": false
+    },
+    {
+      "path": "/ar/website-hosting/",
+      "status": 200,
+      "css": true,
+      "js": true,
+      "cards": 5,
+      "error": false
+    },
+    {
+      "path": "/wordpress-hosting/",
+      "status": 200,
+      "css": true,
+      "js": true,
+      "cards": 4,
+      "error": false
+    },
+    {
+      "path": "/ar/wordpress-hosting/",
+      "status": 200,
+      "css": true,
+      "js": true,
+      "cards": 4,
+      "error": false
+    },
+    {
+      "path": "/cloud-hosting/",
+      "status": 200,
+      "css": true,
+      "js": true,
+      "cards": 3,
+      "error": false
+    },
+    {
+      "path": "/ar/cloud-hosting/",
+      "status": 200,
+      "css": true,
+      "js": true,
+      "cards": 3,
+      "error": false
+    },
+    {
+      "path": "/email-hosting/",
+      "status": 200,
+      "css": true,
+      "js": true,
+      "cards": 3,
+      "error": false
+    },
+    {
+      "path": "/ar/email-hosting/",
+      "status": 200,
+      "css": true,
+      "js": true,
+      "cards": 3,
+      "error": false
+    }
+  ],
+  "assets": [
+    {
+      "path": "/site/hosting-plan-cards.css",
+      "status": 200,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/hosting-plan-cards.js",
+      "status": 200,
+      "matchesLocal": true
+    }
+  ],
+  "failures": []
+}
