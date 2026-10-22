@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-22T15:36:23.679Z",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "hero": true,
+      "tabs": 4,
+      "streamError": false
+    },
+    {
+      "path": "/ar/",
+      "status": 200,
+      "hero": true,
+      "tabs": 4,
+      "streamError": false
+    }
+  ]
+}

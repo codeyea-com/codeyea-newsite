@@ -12,4 +12,9 @@
 - [مقارنة المرجع والتنفيذ](homepage-hero-spacing-2026-10-22/review.html).
 - [نتائج الفحص المحلي](homepage-hero-spacing-2026-10-22/local-checks.json).
 
-حالة النشر: قيد الرفع والتحقق على الإنتاج.
+اكتمل النشر على [الرئيسية الإنجليزية](https://codeyea-newsite.vercel.app/) و[العربية](https://codeyea-newsite.vercel.app/ar/). حالة Vercel هي READY، commit التشغيل `ff9ddfa6dd8d3952bab616c136be2a8675f50183`، وdeployment `dpl_ARW9v4sdnBR27GZ1FqPNhYLJb71p`.
+
+أعيد فحص السلايدات الأربعة في كل لغة على الإنتاج: خط البراند حاضر في العنوان والوصف والتابات، والحشو العلوي 52.8px والسفلي 40px في نافذة الفحص. لا تجاوز أفقي. استجابت الرئيسية باللغتين HTTP 200 مع السلايدات الأربعة ودون أخطاء رندر متدفقة.
+
+- [نتائج السلايدات على الإنتاج](homepage-hero-spacing-2026-10-22/production-browser.json)، [فحص HTTP](homepage-hero-spacing-2026-10-22/production-http.json).
+- صور الإنتاج: [الإنجليزية](homepage-hero-spacing-2026-10-22/production-en.png)، [العربية](homepage-hero-spacing-2026-10-22/production-ar.png).

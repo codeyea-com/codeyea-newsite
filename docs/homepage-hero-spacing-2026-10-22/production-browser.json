@@ -1,0 +1,84 @@
+{
+  "slides": [
+    {
+      "copyFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "headingFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "locale": "en",
+      "overflow": false,
+      "paddingBottom": "40px",
+      "paddingTop": "52.8px",
+      "selected": "01Hosting & support",
+      "tabFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif"
+    },
+    {
+      "copyFont": "\"Readex Pro\", sans-serif",
+      "headingFont": "\"Readex Pro\", sans-serif",
+      "locale": "ar",
+      "overflow": false,
+      "paddingBottom": "40px",
+      "paddingTop": "52.8px",
+      "selected": "01الاستضافة والصيانة",
+      "tabFont": "\"Readex Pro\", sans-serif"
+    },
+    {
+      "copyFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "headingFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "locale": "en",
+      "overflow": false,
+      "paddingBottom": "40px",
+      "paddingTop": "52.8px",
+      "selected": "02Websites & apps",
+      "tabFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif"
+    },
+    {
+      "copyFont": "\"Readex Pro\", sans-serif",
+      "headingFont": "\"Readex Pro\", sans-serif",
+      "locale": "ar",
+      "overflow": false,
+      "paddingBottom": "40px",
+      "paddingTop": "52.8px",
+      "selected": "02الويب والتطبيقات",
+      "tabFont": "\"Readex Pro\", sans-serif"
+    },
+    {
+      "copyFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "headingFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "locale": "en",
+      "overflow": false,
+      "paddingBottom": "40px",
+      "paddingTop": "52.8px",
+      "selected": "03Marketing & SEO",
+      "tabFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif"
+    },
+    {
+      "copyFont": "\"Readex Pro\", sans-serif",
+      "headingFont": "\"Readex Pro\", sans-serif",
+      "locale": "ar",
+      "overflow": false,
+      "paddingBottom": "40px",
+      "paddingTop": "52.8px",
+      "selected": "03التسويق وSEO",
+      "tabFont": "\"Readex Pro\", sans-serif"
+    },
+    {
+      "copyFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "headingFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "locale": "en",
+      "overflow": false,
+      "paddingBottom": "40px",
+      "paddingTop": "52.8px",
+      "selected": "04AI & automation",
+      "tabFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif"
+    },
+    {
+      "copyFont": "\"Readex Pro\", sans-serif",
+      "headingFont": "\"Readex Pro\", sans-serif",
+      "locale": "ar",
+      "overflow": false,
+      "paddingBottom": "40px",
+      "paddingTop": "52.8px",
+      "selected": "04الذكاء والأتمتة",
+      "tabFont": "\"Readex Pro\", sans-serif"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "verifiedAt": "2026-10-22T15:37:37.109Z",
+  "id": "dpl_ARW9v4sdnBR27GZ1FqPNhYLJb71p",
+  "state": "READY",
+  "runtimeCommit": "ff9ddfa6dd8d3952bab616c136be2a8675f50183",
+  "url": "https://codeyea-newsite.vercel.app/",
+  "aliasError": null,
+  "scope": "Homepage hero, both languages; one CSS source file changed.",
+  "desktopPadding": {
+    "top": "52.8px in verified viewport, 24px added to previous responsive clamp",
+    "bottom": "40px"
+  },
+  "fonts": {
+    "en": "CODEYEA Josefin Sans",
+    "ar": "Readex Pro"
+  },
+  "checks": {
+    "build": "passed",
+    "typecheck": "passed",
+    "liveSlideStates": 8,
+    "horizontalOverflow": false,
+    "http": "2 pages, 200, four tabs each, no stream errors"
+  },
+  "unchanged": [
+    "Images",
+    "Slide content",
+    "Animation timeline",
+    "Other page styles",
+    "CMS content records"
+  ]
+}
