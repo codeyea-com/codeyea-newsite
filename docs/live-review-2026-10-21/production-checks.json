@@ -1,0 +1,2244 @@
+{
+  "origin": "https://codeyea-newsite.vercel.app",
+  "commit": "34f81700515214c970c1fd43d04ae75cc69a781a",
+  "deploymentId": "dpl_4rKQ6ejhEZWDVsbQZoFfmTZKFvR4",
+  "checkedAt": "2026-10-22T03:34:43.710Z",
+  "pages": [
+    {
+      "key": "about",
+      "locale": "ar",
+      "path": "/ar/about/",
+      "status": 200,
+      "bytes": 81050,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/general/about/hero-light-v1-desktop.webp",
+        "/brand/logo-animated-dark.svg",
+        "/site/generated/general/about/experience-v1-desktop.webp",
+        "/site/generated/general/about/project-0-v1-desktop.webp",
+        "/site/generated/general/about/project-1-v1-desktop.webp",
+        "/site/generated/general/about/project-2-v1-desktop.webp",
+        "/site/generated/general/about/project-3-v1-desktop.webp",
+        "/site/generated/general/about/showcase-0-v1-desktop.webp",
+        "/site/generated/general/about/showcase-1-v1-desktop.webp",
+        "/site/generated/general/about/showcase-2-v1-desktop.webp",
+        "/site/generated/general/about/showcase-3-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "services",
+      "locale": "en",
+      "path": "/services/",
+      "status": 200,
+      "bytes": 154582,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/general/services/hero-v2-desktop.webp",
+        "/brand/logo-animated-dark.svg",
+        "/site/generated/general/services/ai-live-review-v1.webp",
+        "/site/generated/general/services/seo-live-review-v1.webp",
+        "/site/generated/general/services/apps-live-review-v1.webp",
+        "/site/generated/general/services/commerce-live-review-v1.webp",
+        "/site/generated/general/services/strategy-v1-desktop.webp",
+        "/site/generated/general/services/cta-v1-desktop.webp"
+      ],
+      "priorityImages": [
+        "/site/generated/general/services/ai-live-review-v1.webp",
+        "/site/generated/general/services/seo-live-review-v1.webp",
+        "/site/generated/general/services/apps-live-review-v1.webp",
+        "/site/generated/general/services/commerce-live-review-v1.webp"
+      ]
+    },
+    {
+      "key": "homepage",
+      "locale": "ar",
+      "path": "/ar/",
+      "status": 200,
+      "bytes": 193540,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/homepage/services-hero/support-specialist.png",
+        "/homepage/services-hero/support-product.png",
+        "/homepage/services-hero/phone-frame.png",
+        "/homepage/services-hero/codeyea-mark.png",
+        "/homepage/services-hero/googleplay.svg",
+        "/homepage/services-hero/appstore.svg",
+        "/homepage/services-hero/campaign-sweatshirt.png",
+        "/homepage/services-hero/googlegemini.svg",
+        "/homepage/services-hero/claude.svg",
+        "/homepage/services-hero/n8n.svg",
+        "/homepage/about.webp",
+        "/homepage/support.webp",
+        "/homepage/branding.webp",
+        "/homepage/ecommerce.webp",
+        "/homepage/support.webp",
+        "/homepage/branding.webp",
+        "/homepage/ecommerce.webp",
+        "/site/generated/case-studies/iraq-home-expo/hero-wide.png",
+        "/site/generated/case-studies/velora-skin-clinic/cover-v1.webp",
+        "/site/generated/case-studies/madar-solar/cover-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/cover-v1.webp",
+        "/site/generated/case-studies/atlas-supply/cover-v1.webp",
+        "/site/generated/case-studies/safa-clinics/cover-v1.webp",
+        "/site/generated/case-studies/mada-developments/cover-v1.webp",
+        "/site/generated/general/industries/industry-healthcare-v2-desktop.webp",
+        "/site/generated/general/industries/industry-construction-v1-desktop.webp",
+        "/site/generated/general/industries/industry-real-estate-v2-desktop.webp",
+        "/site/generated/general/industries/industry-e-commerce-v2-desktop.webp",
+        "/site/generated/general/industries/industry-legal-v2-desktop.webp",
+        "/site/generated/general/industries/industry-oil-and-gas-v2-desktop.webp",
+        "/site/generated/general/industries/industry-roofing-v2-desktop.webp",
+        "/site/generated/general/industries/industry-small-business-v3-desktop.webp",
+        "/site/generated/general/industries/industry-event-coordinators-v1-desktop.webp",
+        "/site/generated/general/industries/online-magazine-live-review-v1.webp",
+        "/site/generated/general/industries/industry-fashion-and-lifestyle-v1-desktop.webp",
+        "/site/generated/general/industries/industry-beauty-skincare-med-spa-v2-desktop.webp",
+        "/site/generated/general/industries/industry-restaurants-cafes-bakeries-v2-desktop.webp",
+        "/site/generated/general/industries/industry-solar-energy-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "services",
+      "locale": "ar",
+      "path": "/ar/services/",
+      "status": 200,
+      "bytes": 146725,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/general/services/hero-v2-desktop.webp",
+        "/brand/logo-animated-dark.svg",
+        "/site/generated/general/services/ai-live-review-v1.webp",
+        "/site/generated/general/services/seo-live-review-v1.webp",
+        "/site/generated/general/services/apps-live-review-v1.webp",
+        "/site/generated/general/services/commerce-live-review-v1.webp",
+        "/site/generated/general/services/strategy-v1-desktop.webp",
+        "/site/generated/general/services/cta-v1-desktop.webp"
+      ],
+      "priorityImages": [
+        "/site/generated/general/services/ai-live-review-v1.webp",
+        "/site/generated/general/services/seo-live-review-v1.webp",
+        "/site/generated/general/services/apps-live-review-v1.webp",
+        "/site/generated/general/services/commerce-live-review-v1.webp"
+      ]
+    },
+    {
+      "key": "roofing",
+      "locale": "en",
+      "path": "/industries/roofing/",
+      "status": 200,
+      "bytes": 89739,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/roofing/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/roofing/strip-1-v6-desktop.webp",
+        "/site/generated/industries/roofing/strip-2-desktop.webp",
+        "/site/generated/industries/roofing/strip-3-v5-desktop.webp",
+        "/site/generated/industries/roofing/strip-4-v2-desktop.webp",
+        "/site/generated/industries/roofing/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/roofing/image-break-v3-desktop.webp",
+        "/site/generated/industries/roofing/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "healthcare",
+      "locale": "en",
+      "path": "/industries/healthcare/",
+      "status": 200,
+      "bytes": 90748,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/healthcare/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/healthcare/strip-1-v5-desktop.webp",
+        "/site/generated/industries/healthcare/strip-2-desktop.webp",
+        "/site/generated/industries/healthcare/strip-3-v5-desktop.webp",
+        "/site/generated/industries/healthcare/strip-4-v2-desktop.webp",
+        "/site/generated/industries/healthcare/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/healthcare/image-break-v5-desktop.webp",
+        "/site/generated/industries/healthcare/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "about",
+      "locale": "en",
+      "path": "/about/",
+      "status": 200,
+      "bytes": 85458,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/general/about/hero-light-v1-desktop.webp",
+        "/brand/logo-animated-dark.svg",
+        "/site/generated/general/about/experience-v1-desktop.webp",
+        "/site/generated/general/about/project-0-v1-desktop.webp",
+        "/site/generated/general/about/project-1-v1-desktop.webp",
+        "/site/generated/general/about/project-2-v1-desktop.webp",
+        "/site/generated/general/about/project-3-v1-desktop.webp",
+        "/site/generated/general/about/showcase-0-v1-desktop.webp",
+        "/site/generated/general/about/showcase-1-v1-desktop.webp",
+        "/site/generated/general/about/showcase-2-v1-desktop.webp",
+        "/site/generated/general/about/showcase-3-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "roofing",
+      "locale": "ar",
+      "path": "/ar/industries/roofing/",
+      "status": 200,
+      "bytes": 86316,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/roofing/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/roofing/strip-1-v6-desktop.webp",
+        "/site/generated/industries/roofing/strip-2-desktop.webp",
+        "/site/generated/industries/roofing/strip-3-v5-desktop.webp",
+        "/site/generated/industries/roofing/strip-4-v2-desktop.webp",
+        "/site/generated/industries/roofing/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/roofing/image-break-v3-desktop.webp",
+        "/site/generated/industries/roofing/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "industries",
+      "locale": "en",
+      "path": "/industries/",
+      "status": 200,
+      "bytes": 128513,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/general/industries/hero-v2-desktop.webp",
+        "/brand/logo-animated-dark.svg",
+        "/site/generated/general/industries/industry-roofing-v2-desktop.webp",
+        "/site/generated/general/industries/industry-healthcare-v2-desktop.webp",
+        "/site/generated/general/industries/industry-construction-v1-desktop.webp",
+        "/site/generated/general/industries/industry-e-commerce-v2-desktop.webp",
+        "/site/generated/general/industries/industry-small-business-v3-desktop.webp",
+        "/site/generated/general/industries/industry-event-coordinators-v1-desktop.webp",
+        "/site/generated/general/industries/industry-legal-v2-desktop.webp",
+        "/site/generated/general/industries/online-magazine-live-review-v1.webp",
+        "/site/generated/general/industries/industry-oil-and-gas-v2-desktop.webp",
+        "/site/generated/general/industries/industry-real-estate-v2-desktop.webp",
+        "/site/generated/general/industries/industry-fashion-and-lifestyle-v1-desktop.webp",
+        "/site/generated/general/industries/industry-beauty-skincare-med-spa-v2-desktop.webp",
+        "/site/generated/general/industries/industry-restaurants-cafes-bakeries-v2-desktop.webp",
+        "/site/generated/general/industries/industry-solar-energy-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "healthcare",
+      "locale": "ar",
+      "path": "/ar/industries/healthcare/",
+      "status": 200,
+      "bytes": 86618,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/healthcare/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/healthcare/strip-1-v5-desktop.webp",
+        "/site/generated/industries/healthcare/strip-2-desktop.webp",
+        "/site/generated/industries/healthcare/strip-3-v5-desktop.webp",
+        "/site/generated/industries/healthcare/strip-4-v2-desktop.webp",
+        "/site/generated/industries/healthcare/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/healthcare/image-break-v5-desktop.webp",
+        "/site/generated/industries/healthcare/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "industries",
+      "locale": "ar",
+      "path": "/ar/industries/",
+      "status": 200,
+      "bytes": 114578,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/general/industries/hero-v2-desktop.webp",
+        "/brand/logo-animated-dark.svg",
+        "/site/generated/general/industries/industry-roofing-v2-desktop.webp",
+        "/site/generated/general/industries/industry-healthcare-v2-desktop.webp",
+        "/site/generated/general/industries/industry-construction-v1-desktop.webp",
+        "/site/generated/general/industries/industry-e-commerce-v2-desktop.webp",
+        "/site/generated/general/industries/industry-small-business-v3-desktop.webp",
+        "/site/generated/general/industries/industry-event-coordinators-v1-desktop.webp",
+        "/site/generated/general/industries/industry-legal-v2-desktop.webp",
+        "/site/generated/general/industries/online-magazine-live-review-v1.webp",
+        "/site/generated/general/industries/industry-oil-and-gas-v2-desktop.webp",
+        "/site/generated/general/industries/industry-real-estate-v2-desktop.webp",
+        "/site/generated/general/industries/industry-fashion-and-lifestyle-v1-desktop.webp",
+        "/site/generated/general/industries/industry-beauty-skincare-med-spa-v2-desktop.webp",
+        "/site/generated/general/industries/industry-restaurants-cafes-bakeries-v2-desktop.webp",
+        "/site/generated/general/industries/industry-solar-energy-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "homepage",
+      "locale": "en",
+      "path": "/",
+      "status": 200,
+      "bytes": 205802,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/homepage/services-hero/support-specialist.png",
+        "/homepage/services-hero/support-product.png",
+        "/homepage/services-hero/phone-frame.png",
+        "/homepage/services-hero/codeyea-mark.png",
+        "/homepage/services-hero/googleplay.svg",
+        "/homepage/services-hero/appstore.svg",
+        "/homepage/services-hero/campaign-sweatshirt.png",
+        "/homepage/services-hero/googlegemini.svg",
+        "/homepage/services-hero/claude.svg",
+        "/homepage/services-hero/n8n.svg",
+        "/homepage/about.webp",
+        "/homepage/support.webp",
+        "/homepage/branding.webp",
+        "/homepage/ecommerce.webp",
+        "/homepage/support.webp",
+        "/homepage/branding.webp",
+        "/homepage/ecommerce.webp",
+        "/site/generated/case-studies/iraq-home-expo/hero-wide.png",
+        "/site/generated/case-studies/velora-skin-clinic/cover-v1.webp",
+        "/site/generated/case-studies/madar-solar/cover-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/cover-v1.webp",
+        "/site/generated/case-studies/atlas-supply/cover-v1.webp",
+        "/site/generated/case-studies/safa-clinics/cover-v1.webp",
+        "/site/generated/case-studies/mada-developments/cover-v1.webp",
+        "/site/generated/general/industries/industry-healthcare-v2-desktop.webp",
+        "/site/generated/general/industries/industry-construction-v1-desktop.webp",
+        "/site/generated/general/industries/industry-real-estate-v2-desktop.webp",
+        "/site/generated/general/industries/industry-e-commerce-v2-desktop.webp",
+        "/site/generated/general/industries/industry-legal-v2-desktop.webp",
+        "/site/generated/general/industries/industry-oil-and-gas-v2-desktop.webp",
+        "/site/generated/general/industries/industry-roofing-v2-desktop.webp",
+        "/site/generated/general/industries/industry-small-business-v3-desktop.webp",
+        "/site/generated/general/industries/industry-event-coordinators-v1-desktop.webp",
+        "/site/generated/general/industries/online-magazine-live-review-v1.webp",
+        "/site/generated/general/industries/industry-fashion-and-lifestyle-v1-desktop.webp",
+        "/site/generated/general/industries/industry-beauty-skincare-med-spa-v2-desktop.webp",
+        "/site/generated/general/industries/industry-restaurants-cafes-bakeries-v2-desktop.webp",
+        "/site/generated/general/industries/industry-solar-energy-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "construction",
+      "locale": "en",
+      "path": "/industries/construction/",
+      "status": 200,
+      "bytes": 90330,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/construction/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/construction/strip-1-v5-desktop.webp",
+        "/site/generated/industries/construction/strip-2-desktop.webp",
+        "/site/generated/industries/construction/strip-3-v5-desktop.webp",
+        "/site/generated/industries/construction/strip-4-v2-desktop.webp",
+        "/site/generated/industries/construction/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/construction/image-break-v3-desktop.webp",
+        "/site/generated/industries/construction/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "small-business",
+      "locale": "ar",
+      "path": "/ar/industries/small-business/",
+      "status": 200,
+      "bytes": 85448,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/small-business/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/small-business/strip-1-v5-desktop.webp",
+        "/site/generated/industries/small-business/strip-2-desktop.webp",
+        "/site/generated/industries/small-business/strip-3-v5-desktop.webp",
+        "/site/generated/industries/small-business/strip-4-v2-desktop.webp",
+        "/site/generated/industries/small-business/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/small-business/image-break-v3-desktop.webp",
+        "/site/generated/industries/small-business/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "small-business",
+      "locale": "en",
+      "path": "/industries/small-business/",
+      "status": 200,
+      "bytes": 90728,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/small-business/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/small-business/strip-1-v5-desktop.webp",
+        "/site/generated/industries/small-business/strip-2-desktop.webp",
+        "/site/generated/industries/small-business/strip-3-v5-desktop.webp",
+        "/site/generated/industries/small-business/strip-4-v2-desktop.webp",
+        "/site/generated/industries/small-business/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/small-business/image-break-v3-desktop.webp",
+        "/site/generated/industries/small-business/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "e-commerce",
+      "locale": "en",
+      "path": "/industries/e-commerce/",
+      "status": 200,
+      "bytes": 89678,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/e-commerce/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/e-commerce/strip-1-v5-desktop.webp",
+        "/site/generated/industries/e-commerce/strip-2-desktop.webp",
+        "/site/generated/industries/e-commerce/strip-3-v5-desktop.webp",
+        "/site/generated/industries/e-commerce/strip-4-v2-desktop.webp",
+        "/site/generated/industries/e-commerce/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/e-commerce/image-break-v5-desktop.webp",
+        "/site/generated/industries/e-commerce/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "construction",
+      "locale": "ar",
+      "path": "/ar/industries/construction/",
+      "status": 200,
+      "bytes": 86861,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/construction/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/construction/strip-1-v5-desktop.webp",
+        "/site/generated/industries/construction/strip-2-desktop.webp",
+        "/site/generated/industries/construction/strip-3-v5-desktop.webp",
+        "/site/generated/industries/construction/strip-4-v2-desktop.webp",
+        "/site/generated/industries/construction/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/construction/image-break-v3-desktop.webp",
+        "/site/generated/industries/construction/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "e-commerce",
+      "locale": "ar",
+      "path": "/ar/industries/e-commerce/",
+      "status": 200,
+      "bytes": 86714,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/e-commerce/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/e-commerce/strip-1-v5-desktop.webp",
+        "/site/generated/industries/e-commerce/strip-2-desktop.webp",
+        "/site/generated/industries/e-commerce/strip-3-v5-desktop.webp",
+        "/site/generated/industries/e-commerce/strip-4-v2-desktop.webp",
+        "/site/generated/industries/e-commerce/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/e-commerce/image-break-v5-desktop.webp",
+        "/site/generated/industries/e-commerce/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "event-coordinators",
+      "locale": "en",
+      "path": "/industries/event-coordinators/",
+      "status": 200,
+      "bytes": 90869,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/event-coordinators/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/event-coordinators/strip-1-v5-desktop.webp",
+        "/site/generated/industries/event-coordinators/strip-2-v3-desktop.webp",
+        "/site/generated/industries/event-coordinators/strip-3-v5-desktop.webp",
+        "/site/generated/industries/event-coordinators/strip-4-v3-desktop.webp",
+        "/site/generated/industries/event-coordinators/needs-v3-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/event-coordinators/image-break-v3-desktop.webp",
+        "/site/generated/industries/event-coordinators/cta-v3-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "legal",
+      "locale": "en",
+      "path": "/industries/legal/",
+      "status": 200,
+      "bytes": 88825,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/legal/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/legal/strip-1-v5-desktop.webp",
+        "/site/generated/industries/legal/strip-2-desktop.webp",
+        "/site/generated/industries/legal/strip-3-v5-desktop.webp",
+        "/site/generated/industries/legal/strip-4-v2-desktop.webp",
+        "/site/generated/industries/legal/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/legal/image-break-v3-desktop.webp",
+        "/site/generated/industries/legal/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "event-coordinators",
+      "locale": "ar",
+      "path": "/ar/industries/event-coordinators/",
+      "status": 200,
+      "bytes": 85768,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/event-coordinators/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/event-coordinators/strip-1-v5-desktop.webp",
+        "/site/generated/industries/event-coordinators/strip-2-v3-desktop.webp",
+        "/site/generated/industries/event-coordinators/strip-3-v5-desktop.webp",
+        "/site/generated/industries/event-coordinators/strip-4-v3-desktop.webp",
+        "/site/generated/industries/event-coordinators/needs-v3-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/event-coordinators/image-break-v3-desktop.webp",
+        "/site/generated/industries/event-coordinators/cta-v3-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "online-magazine",
+      "locale": "en",
+      "path": "/industries/online-magazine/",
+      "status": 200,
+      "bytes": 90188,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/online-magazine/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/online-magazine/strip-1-v5-desktop.webp",
+        "/site/generated/industries/online-magazine/strip-2-desktop.webp",
+        "/site/generated/industries/online-magazine/strip-3-v5-desktop.webp",
+        "/site/generated/industries/online-magazine/strip-4-v2-desktop.webp",
+        "/site/generated/industries/online-magazine/needs-live-review-v1.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/online-magazine/image-break-v5-desktop.webp",
+        "/site/generated/industries/online-magazine/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "online-magazine",
+      "locale": "ar",
+      "path": "/ar/industries/online-magazine/",
+      "status": 200,
+      "bytes": 85447,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/online-magazine/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/online-magazine/strip-1-v5-desktop.webp",
+        "/site/generated/industries/online-magazine/strip-2-desktop.webp",
+        "/site/generated/industries/online-magazine/strip-3-v5-desktop.webp",
+        "/site/generated/industries/online-magazine/strip-4-v2-desktop.webp",
+        "/site/generated/industries/online-magazine/needs-live-review-v1.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/online-magazine/image-break-v5-desktop.webp",
+        "/site/generated/industries/online-magazine/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "legal",
+      "locale": "ar",
+      "path": "/ar/industries/legal/",
+      "status": 200,
+      "bytes": 84676,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/legal/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/legal/strip-1-v5-desktop.webp",
+        "/site/generated/industries/legal/strip-2-desktop.webp",
+        "/site/generated/industries/legal/strip-3-v5-desktop.webp",
+        "/site/generated/industries/legal/strip-4-v2-desktop.webp",
+        "/site/generated/industries/legal/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/legal/image-break-v3-desktop.webp",
+        "/site/generated/industries/legal/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "fashion-and-lifestyle",
+      "locale": "en",
+      "path": "/industries/fashion-and-lifestyle/",
+      "status": 200,
+      "bytes": 92447,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/fashion-and-lifestyle/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/fashion-and-lifestyle/strip-1-v5-desktop.webp",
+        "/site/generated/industries/fashion-and-lifestyle/strip-2-desktop.webp",
+        "/site/generated/industries/fashion-and-lifestyle/strip-3-v5-desktop.webp",
+        "/site/generated/industries/fashion-and-lifestyle/strip-4-v2-desktop.webp",
+        "/site/generated/industries/fashion-and-lifestyle/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/fashion-and-lifestyle/image-break-live-review-v1.webp",
+        "/site/generated/industries/fashion-and-lifestyle/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "oil-and-gas",
+      "locale": "en",
+      "path": "/industries/oil-and-gas/",
+      "status": 200,
+      "bytes": 91345,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/oil-and-gas/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/oil-and-gas/strip-1-v5-desktop.webp",
+        "/site/generated/industries/oil-and-gas/strip-2-desktop.webp",
+        "/site/generated/industries/oil-and-gas/strip-3-v5-desktop.webp",
+        "/site/generated/industries/oil-and-gas/strip-4-v2-desktop.webp",
+        "/site/generated/industries/oil-and-gas/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/oil-and-gas/image-break-v3-desktop.webp",
+        "/site/generated/industries/oil-and-gas/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "oil-and-gas",
+      "locale": "ar",
+      "path": "/ar/industries/oil-and-gas/",
+      "status": 200,
+      "bytes": 86328,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/oil-and-gas/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/oil-and-gas/strip-1-v5-desktop.webp",
+        "/site/generated/industries/oil-and-gas/strip-2-desktop.webp",
+        "/site/generated/industries/oil-and-gas/strip-3-v5-desktop.webp",
+        "/site/generated/industries/oil-and-gas/strip-4-v2-desktop.webp",
+        "/site/generated/industries/oil-and-gas/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/oil-and-gas/image-break-v3-desktop.webp",
+        "/site/generated/industries/oil-and-gas/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "fashion-and-lifestyle",
+      "locale": "ar",
+      "path": "/ar/industries/fashion-and-lifestyle/",
+      "status": 200,
+      "bytes": 87997,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/fashion-and-lifestyle/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/fashion-and-lifestyle/strip-1-v5-desktop.webp",
+        "/site/generated/industries/fashion-and-lifestyle/strip-2-desktop.webp",
+        "/site/generated/industries/fashion-and-lifestyle/strip-3-v5-desktop.webp",
+        "/site/generated/industries/fashion-and-lifestyle/strip-4-v2-desktop.webp",
+        "/site/generated/industries/fashion-and-lifestyle/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/fashion-and-lifestyle/image-break-live-review-v1.webp",
+        "/site/generated/industries/fashion-and-lifestyle/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "beauty-skincare-med-spa",
+      "locale": "en",
+      "path": "/industries/beauty-skincare-med-spa/",
+      "status": 200,
+      "bytes": 94457,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/beauty-skincare-med-spa/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/strip-1-v5-desktop.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/strip-2-desktop.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/strip-3-v5-desktop.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/strip-4-v2-desktop.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/image-break-v3-desktop.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "solar-energy",
+      "locale": "en",
+      "path": "/industries/solar-energy/",
+      "status": 200,
+      "bytes": 89717,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/solar-energy/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/solar-energy/strip-1-v5-desktop.webp",
+        "/site/generated/industries/solar-energy/strip-2-v3-desktop.webp",
+        "/site/generated/industries/solar-energy/strip-3-v5-desktop.webp",
+        "/site/generated/industries/solar-energy/strip-4-v2-desktop.webp",
+        "/site/generated/industries/solar-energy/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/solar-energy/image-break-v5-desktop.webp",
+        "/site/generated/industries/solar-energy/cta-v3-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "real-estate",
+      "locale": "ar",
+      "path": "/ar/industries/real-estate/",
+      "status": 200,
+      "bytes": 84487,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/real-estate/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/real-estate/strip-1-v5-desktop.webp",
+        "/site/generated/industries/real-estate/strip-2-desktop.webp",
+        "/site/generated/industries/real-estate/strip-3-v5-desktop.webp",
+        "/site/generated/industries/real-estate/strip-4-v2-desktop.webp",
+        "/site/generated/industries/real-estate/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/real-estate/image-break-v3-desktop.webp",
+        "/site/generated/industries/real-estate/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "beauty-skincare-med-spa",
+      "locale": "ar",
+      "path": "/ar/industries/beauty-skincare-med-spa/",
+      "status": 200,
+      "bytes": 88648,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/beauty-skincare-med-spa/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/strip-1-v5-desktop.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/strip-2-desktop.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/strip-3-v5-desktop.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/strip-4-v2-desktop.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/image-break-v3-desktop.webp",
+        "/site/generated/industries/beauty-skincare-med-spa/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "restaurants-cafes-bakeries",
+      "locale": "ar",
+      "path": "/ar/industries/restaurants-cafes-bakeries/",
+      "status": 200,
+      "bytes": 88340,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/restaurants-cafes-bakeries/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/strip-1-v5-desktop.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/strip-2-desktop.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/strip-3-v5-desktop.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/strip-4-v2-desktop.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/needs-live-review-v1.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/image-break-live-review-v1.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/cta-live-review-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "solar-energy",
+      "locale": "ar",
+      "path": "/ar/industries/solar-energy/",
+      "status": 200,
+      "bytes": 86119,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/solar-energy/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/solar-energy/strip-1-v5-desktop.webp",
+        "/site/generated/industries/solar-energy/strip-2-v3-desktop.webp",
+        "/site/generated/industries/solar-energy/strip-3-v5-desktop.webp",
+        "/site/generated/industries/solar-energy/strip-4-v2-desktop.webp",
+        "/site/generated/industries/solar-energy/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/solar-energy/image-break-v5-desktop.webp",
+        "/site/generated/industries/solar-energy/cta-v3-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "real-estate",
+      "locale": "en",
+      "path": "/industries/real-estate/",
+      "status": 200,
+      "bytes": 89186,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/real-estate/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/real-estate/strip-1-v5-desktop.webp",
+        "/site/generated/industries/real-estate/strip-2-desktop.webp",
+        "/site/generated/industries/real-estate/strip-3-v5-desktop.webp",
+        "/site/generated/industries/real-estate/strip-4-v2-desktop.webp",
+        "/site/generated/industries/real-estate/needs-v2-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/real-estate/image-break-v3-desktop.webp",
+        "/site/generated/industries/real-estate/cta-v2-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "restaurants-cafes-bakeries",
+      "locale": "en",
+      "path": "/industries/restaurants-cafes-bakeries/",
+      "status": 200,
+      "bytes": 94816,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/industries/restaurants-cafes-bakeries/hero-light-v1-desktop.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/strip-1-v5-desktop.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/strip-2-desktop.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/strip-3-v5-desktop.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/strip-4-v2-desktop.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/needs-live-review-v1.webp",
+        "/approved-media/image-13.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/image-break-live-review-v1.webp",
+        "/site/generated/industries/restaurants-cafes-bakeries/cta-live-review-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "website-design",
+      "locale": "en",
+      "path": "/services/website-design/",
+      "status": 200,
+      "bytes": 564176,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/api/site-assets/website-design-review/assets/hero-portrait-close-v2.png",
+        "/api/site-assets/website-design-review/assets/hero-portrait-cutout-v3.png",
+        "/site/generated/website-design/section-collage-responsive-v1-desktop.webp",
+        "/site/generated/website-design/section-collage-client-v1-desktop.webp",
+        "/site/generated/website-design/section-collage-mobile-v1-desktop.webp",
+        "/site/generated/website-design/section-operations-v1-desktop.webp",
+        "/site/generated/website-design/custom-cms-editor-v1.webp",
+        "/site/generated/website-design/custom-cms-workflow-v1.webp",
+        "/site/generated/website-design/custom-cms-ai-en-v1.webp",
+        "/site/generated/website-design/section-enquiry-v1-desktop.webp",
+        "/site/generated/website-design/section-film-discovery-v1-desktop.webp",
+        "/site/generated/website-design/section-film-wireframe-v1-desktop.webp",
+        "/site/generated/website-design/section-film-feedback-v1-desktop.webp",
+        "/site/generated/website-design/section-film-handoff-v1-desktop.webp",
+        "/site/generated/website-design/section-capabilities-v1-desktop.webp",
+        "/site/generated/website-design/section-work-business-v1-desktop.webp",
+        "/site/generated/website-design/section-work-cms-v1-desktop.webp",
+        "/site/generated/website-design/section-work-services-v1-desktop.webp",
+        "/site/generated/website-design/section-work-mobile-v1-desktop.webp",
+        "/site/generated/website-design/section-work-content-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "brand-design",
+      "locale": "ar",
+      "path": "/ar/services/brand-design/",
+      "status": 200,
+      "bytes": 542409,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/brand-design/section-collage-logo-v1-desktop.webp",
+        "/site/generated/brand-design/section-collage-colors-v1-desktop.webp",
+        "/site/generated/brand-design/section-collage-materials-v1-desktop.webp",
+        "/site/generated/brand-design/section-film-logo-process-v1-desktop.webp",
+        "/site/generated/brand-design/section-film-print-v1-desktop.webp",
+        "/site/generated/brand-design/section-film-packaging-v1-desktop.webp",
+        "/site/generated/brand-design/section-film-typography-v1-desktop.webp",
+        "/site/generated/brand-design/section-capabilities-v1-desktop.webp",
+        "/site/generated/brand-design/section-work-identity-v1-desktop.webp",
+        "/site/generated/brand-design/section-work-applications-v1-desktop.webp",
+        "/site/generated/brand-design/section-work-campaign-v1-desktop.webp",
+        "/site/generated/brand-design/section-work-social-v1-desktop.webp",
+        "/site/generated/brand-design/section-work-direction-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "brand-design",
+      "locale": "en",
+      "path": "/services/brand-design/",
+      "status": 200,
+      "bytes": 543501,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/brand-design/section-collage-logo-v1-desktop.webp",
+        "/site/generated/brand-design/section-collage-colors-v1-desktop.webp",
+        "/site/generated/brand-design/section-collage-materials-v1-desktop.webp",
+        "/site/generated/brand-design/section-film-logo-process-v1-desktop.webp",
+        "/site/generated/brand-design/section-film-print-v1-desktop.webp",
+        "/site/generated/brand-design/section-film-packaging-v1-desktop.webp",
+        "/site/generated/brand-design/section-film-typography-v1-desktop.webp",
+        "/site/generated/brand-design/section-capabilities-v1-desktop.webp",
+        "/site/generated/brand-design/section-work-identity-v1-desktop.webp",
+        "/site/generated/brand-design/section-work-applications-v1-desktop.webp",
+        "/site/generated/brand-design/section-work-campaign-v1-desktop.webp",
+        "/site/generated/brand-design/section-work-social-v1-desktop.webp",
+        "/site/generated/brand-design/section-work-direction-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "ecommerce",
+      "locale": "en",
+      "path": "/services/ecommerce/",
+      "status": 200,
+      "bytes": 558349,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/api/site-assets/ecommerce-review/assets/catalog-bag.png",
+        "/api/site-assets/ecommerce-review/assets/catalog-dress.png",
+        "/site/generated/ecommerce/collage-storefront-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/collage-backend-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/collage-checkout-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/operations-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/payments-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/film-discover-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/film-pack-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/film-ship-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/film-deliver-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/capabilities-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/work-discovery-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/work-operations-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/work-cart-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/work-checkout-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/work-automation-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "website-design",
+      "locale": "ar",
+      "path": "/ar/services/website-design/",
+      "status": 200,
+      "bytes": 560531,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/api/site-assets/website-design-review/assets/hero-portrait-close-v2.png",
+        "/api/site-assets/website-design-review/assets/hero-portrait-cutout-v3.png",
+        "/site/generated/website-design/section-collage-responsive-v1-desktop.webp",
+        "/site/generated/website-design/section-collage-client-v1-desktop.webp",
+        "/site/generated/website-design/section-collage-mobile-v1-desktop.webp",
+        "/site/generated/website-design/section-operations-v1-desktop.webp",
+        "/site/generated/website-design/custom-cms-editor-v1.webp",
+        "/site/generated/website-design/custom-cms-workflow-v1.webp",
+        "/site/generated/website-design/custom-cms-ai-ar-v1.webp",
+        "/site/generated/website-design/section-enquiry-v1-desktop.webp",
+        "/site/generated/website-design/section-film-discovery-v1-desktop.webp",
+        "/site/generated/website-design/section-film-wireframe-v1-desktop.webp",
+        "/site/generated/website-design/section-film-feedback-v1-desktop.webp",
+        "/site/generated/website-design/section-film-handoff-v1-desktop.webp",
+        "/site/generated/website-design/section-capabilities-v1-desktop.webp",
+        "/site/generated/website-design/section-work-business-v1-desktop.webp",
+        "/site/generated/website-design/section-work-cms-v1-desktop.webp",
+        "/site/generated/website-design/section-work-services-v1-desktop.webp",
+        "/site/generated/website-design/section-work-mobile-v1-desktop.webp",
+        "/site/generated/website-design/section-work-content-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "ecommerce",
+      "locale": "ar",
+      "path": "/ar/services/ecommerce/",
+      "status": 200,
+      "bytes": 554839,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/api/site-assets/ecommerce-review/assets/catalog-bag.png",
+        "/api/site-assets/ecommerce-review/assets/catalog-dress.png",
+        "/site/generated/ecommerce/collage-storefront-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/collage-backend-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/collage-checkout-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/operations-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/payments-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/film-discover-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/film-pack-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/film-ship-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/film-deliver-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/capabilities-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/work-discovery-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/work-operations-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/work-cart-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/work-checkout-directed-v1-desktop.webp",
+        "/site/generated/ecommerce/work-automation-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "seo-geo",
+      "locale": "en",
+      "path": "/services/seo-geo-aeo/",
+      "status": 200,
+      "bytes": 574592,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/api/site-assets/seo-geo-review/assets/seo-person.png",
+        "/site/generated/seo-geo/section-overview-v1-desktop.webp",
+        "/site/generated/seo-geo/section-challenges-v1-desktop.webp",
+        "/site/generated/seo-geo/section-collage-audit-v1-desktop.webp",
+        "/site/generated/seo-geo/section-collage-content-v1-desktop.webp",
+        "/site/generated/seo-geo/section-collage-local-v1-desktop.webp",
+        "/site/generated/seo-geo/section-collage-audit-v1-desktop.webp",
+        "/site/generated/seo-geo/section-collage-content-v1-desktop.webp",
+        "/site/generated/seo-geo/work-1-context-desktop.webp",
+        "/site/generated/seo-geo/photo-2-desktop.webp",
+        "/site/generated/seo-geo/work-3-context-desktop.webp",
+        "/site/generated/seo-geo/photo-4-desktop.webp",
+        "/site/generated/seo-geo/work-5-context-desktop.webp",
+        "/site/generated/seo-geo/photo-6-desktop.webp",
+        "/site/generated/seo-geo/section-include-audit-v1-desktop.webp",
+        "/site/generated/seo-geo/section-include-pages-v1-desktop.webp",
+        "/site/generated/seo-geo/section-include-evidence-v2-desktop.webp",
+        "/site/generated/seo-geo/section-path-1-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "digital-marketing",
+      "locale": "en",
+      "path": "/services/digital-marketing/",
+      "status": 200,
+      "bytes": 574133,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/api/site-assets/digital-marketing-review/assets/campaign-post-photo.png",
+        "/site/generated/digital-marketing/overview-directed-v2-desktop.webp",
+        "/site/generated/digital-marketing/challenges-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/collage-audience-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/collage-creative-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/collage-launch-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/collage-audience-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/collage-creative-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/work-1-context-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/photo-2-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/work-3-context-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/photo-4-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/work-5-context-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/photo-6-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/include-strategy-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/include-channels-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/include-report-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/path-focus-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "web-mobile-apps",
+      "locale": "en",
+      "path": "/services/web-mobile-apps/",
+      "status": 200,
+      "bytes": 576416,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/api/site-assets/web-mobile-apps-review/assets/menu-grain-720.jpg",
+        "/api/site-assets/web-mobile-apps-review/assets/menu-grain-420.jpg",
+        "/api/site-assets/web-mobile-apps-review/assets/menu-pasta-420.jpg",
+        "/api/site-assets/web-mobile-apps-review/assets/menu-salad-420.jpg",
+        "/api/site-assets/web-mobile-apps-review/assets/menu-grain-720.jpg",
+        "/site/generated/web-mobile-apps/overview-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/challenges-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/collage-plan-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/collage-build-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/collage-test-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/collage-plan-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/collage-build-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/work-1-context-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/photo-2-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/work-3-context-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/photo-4-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/work-5-context-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/photo-6-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/include-ux-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/include-integrations-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/include-release-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/path-focus-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "seo-geo",
+      "locale": "ar",
+      "path": "/ar/services/seo-geo-aeo/",
+      "status": 200,
+      "bytes": 572098,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/api/site-assets/seo-geo-review/assets/seo-person.png",
+        "/site/generated/seo-geo/section-overview-v1-desktop.webp",
+        "/site/generated/seo-geo/section-challenges-v1-desktop.webp",
+        "/site/generated/seo-geo/section-collage-audit-v1-desktop.webp",
+        "/site/generated/seo-geo/section-collage-content-v1-desktop.webp",
+        "/site/generated/seo-geo/section-collage-local-v1-desktop.webp",
+        "/site/generated/seo-geo/section-collage-audit-v1-desktop.webp",
+        "/site/generated/seo-geo/section-collage-content-v1-desktop.webp",
+        "/site/generated/seo-geo/work-1-context-desktop.webp",
+        "/site/generated/seo-geo/photo-2-desktop.webp",
+        "/site/generated/seo-geo/work-3-context-desktop.webp",
+        "/site/generated/seo-geo/photo-4-desktop.webp",
+        "/site/generated/seo-geo/work-5-context-desktop.webp",
+        "/site/generated/seo-geo/photo-6-desktop.webp",
+        "/site/generated/seo-geo/section-include-audit-v1-desktop.webp",
+        "/site/generated/seo-geo/section-include-pages-v1-desktop.webp",
+        "/site/generated/seo-geo/section-include-evidence-v2-desktop.webp",
+        "/site/generated/seo-geo/section-path-1-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "digital-marketing",
+      "locale": "ar",
+      "path": "/ar/services/digital-marketing/",
+      "status": 200,
+      "bytes": 570984,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/api/site-assets/digital-marketing-review/assets/campaign-post-photo.png",
+        "/site/generated/digital-marketing/overview-directed-v2-desktop.webp",
+        "/site/generated/digital-marketing/challenges-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/collage-audience-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/collage-creative-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/collage-launch-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/collage-audience-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/collage-creative-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/work-1-context-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/photo-2-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/work-3-context-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/photo-4-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/work-5-context-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/photo-6-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/include-strategy-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/include-channels-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/include-report-directed-v1-desktop.webp",
+        "/site/generated/digital-marketing/path-focus-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "web-mobile-apps",
+      "locale": "ar",
+      "path": "/ar/services/web-mobile-apps/",
+      "status": 200,
+      "bytes": 573007,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/api/site-assets/web-mobile-apps-review/assets/menu-grain-720.jpg",
+        "/api/site-assets/web-mobile-apps-review/assets/menu-grain-420.jpg",
+        "/api/site-assets/web-mobile-apps-review/assets/menu-pasta-420.jpg",
+        "/api/site-assets/web-mobile-apps-review/assets/menu-salad-420.jpg",
+        "/api/site-assets/web-mobile-apps-review/assets/menu-grain-720.jpg",
+        "/site/generated/web-mobile-apps/overview-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/challenges-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/collage-plan-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/collage-build-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/collage-test-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/collage-plan-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/collage-build-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/work-1-context-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/photo-2-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/work-3-context-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/photo-4-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/work-5-context-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/photo-6-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/include-ux-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/include-integrations-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/include-release-directed-v1-desktop.webp",
+        "/site/generated/web-mobile-apps/path-focus-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "technical-support",
+      "locale": "en",
+      "path": "/services/technical-support/",
+      "status": 200,
+      "bytes": 580060,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/services/technical-support/hero-light-v1-desktop.webp",
+        "/homepage/small-business.webp",
+        "/site/generated/technical-support/overview-directed-v1-desktop.webp",
+        "/site/generated/technical-support/challenges-directed-v1-desktop.webp",
+        "/site/generated/technical-support/collage-diagnose-directed-v1-desktop.webp",
+        "/site/generated/technical-support/collage-repair-directed-v1-desktop.webp",
+        "/site/generated/technical-support/collage-email-directed-v1-desktop.webp",
+        "/site/generated/technical-support/collage-diagnose-directed-v1-desktop.webp",
+        "/site/generated/technical-support/collage-repair-directed-v1-desktop.webp",
+        "/site/generated/technical-support/include-website-directed-v1-desktop.webp",
+        "/site/generated/technical-support/include-infrastructure-directed-v1-desktop.webp",
+        "/site/generated/technical-support/include-recovery-directed-v1-desktop.webp",
+        "/site/generated/technical-support/path-focus-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "ai-automation",
+      "locale": "en",
+      "path": "/services/ai-automation/",
+      "status": 200,
+      "bytes": 572922,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/ai-automation/section-overview-v1-desktop.webp",
+        "/site/generated/ai-automation/section-challenges-v1-desktop.webp",
+        "/site/generated/ai-automation/section-collage-workflow-v1-desktop.webp",
+        "/site/generated/ai-automation/section-collage-invoice-v1-desktop.webp",
+        "/site/generated/ai-automation/section-collage-saas-v1-desktop.webp",
+        "/site/generated/ai-automation/section-collage-workflow-v1-desktop.webp",
+        "/site/generated/ai-automation/section-collage-invoice-v1-desktop.webp",
+        "/site/generated/ai-automation/work-1-context-desktop.webp",
+        "/site/generated/ai-automation/photo-2-desktop.webp",
+        "/site/generated/ai-automation/work-3-context-desktop.webp",
+        "/site/generated/ai-automation/photo-4-desktop.webp",
+        "/site/generated/ai-automation/work-5-context-desktop.webp",
+        "/site/generated/ai-automation/photo-6-desktop.webp",
+        "/site/generated/ai-automation/section-include-assistant-v2-desktop.webp",
+        "/site/generated/ai-automation/section-include-task-v1-desktop.webp",
+        "/site/generated/ai-automation/section-include-control-v1-desktop.webp",
+        "/site/generated/ai-automation/section-path-1-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "ai-automation",
+      "locale": "ar",
+      "path": "/ar/services/ai-automation/",
+      "status": 200,
+      "bytes": 571854,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/ai-automation/section-overview-v1-desktop.webp",
+        "/site/generated/ai-automation/section-challenges-v1-desktop.webp",
+        "/site/generated/ai-automation/section-collage-workflow-v1-desktop.webp",
+        "/site/generated/ai-automation/section-collage-invoice-v1-desktop.webp",
+        "/site/generated/ai-automation/section-collage-saas-v1-desktop.webp",
+        "/site/generated/ai-automation/section-collage-workflow-v1-desktop.webp",
+        "/site/generated/ai-automation/section-collage-invoice-v1-desktop.webp",
+        "/site/generated/ai-automation/work-1-context-desktop.webp",
+        "/site/generated/ai-automation/photo-2-desktop.webp",
+        "/site/generated/ai-automation/work-3-context-desktop.webp",
+        "/site/generated/ai-automation/photo-4-desktop.webp",
+        "/site/generated/ai-automation/work-5-context-desktop.webp",
+        "/site/generated/ai-automation/photo-6-desktop.webp",
+        "/site/generated/ai-automation/section-include-assistant-v2-desktop.webp",
+        "/site/generated/ai-automation/section-include-task-v1-desktop.webp",
+        "/site/generated/ai-automation/section-include-control-v1-desktop.webp",
+        "/site/generated/ai-automation/section-path-1-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "technical-support",
+      "locale": "ar",
+      "path": "/ar/services/technical-support/",
+      "status": 200,
+      "bytes": 577637,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/services/technical-support/hero-light-v1-desktop.webp",
+        "/homepage/small-business.webp",
+        "/site/generated/technical-support/overview-directed-v1-desktop.webp",
+        "/site/generated/technical-support/challenges-directed-v1-desktop.webp",
+        "/site/generated/technical-support/collage-diagnose-directed-v1-desktop.webp",
+        "/site/generated/technical-support/collage-repair-directed-v1-desktop.webp",
+        "/site/generated/technical-support/collage-email-directed-v1-desktop.webp",
+        "/site/generated/technical-support/collage-diagnose-directed-v1-desktop.webp",
+        "/site/generated/technical-support/collage-repair-directed-v1-desktop.webp",
+        "/site/generated/technical-support/include-website-directed-v1-desktop.webp",
+        "/site/generated/technical-support/include-infrastructure-directed-v1-desktop.webp",
+        "/site/generated/technical-support/include-recovery-directed-v1-desktop.webp",
+        "/site/generated/technical-support/path-focus-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "contact",
+      "locale": "en",
+      "path": "/contact/",
+      "status": 200,
+      "bytes": 538908,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/brand/logo-animated-dark.svg",
+        "/site/generated/general/contact/hero-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "website-hosting",
+      "locale": "en",
+      "path": "/website-hosting/",
+      "status": 200,
+      "bytes": 694598,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/homepage/real-estate.webp",
+        "/site/generated/website-hosting/intro-directed-v2-desktop.webp",
+        "/site/generated/website-hosting/server-directed-v1-desktop.webp",
+        "/site/generated/website-hosting/performance-directed-v2-desktop.webp",
+        "/site/generated/website-hosting/security-directed-v2-desktop.webp",
+        "/site/generated/website-hosting/manage-directed-v1-desktop.webp",
+        "/site/generated/website-hosting/builder-directed-v1-desktop.webp",
+        "/site/generated/website-hosting/migration-directed-v1-desktop.webp",
+        "/site/generated/website-hosting/support-directed-v1-desktop.webp",
+        "/site/generated/website-hosting/cta-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "contact",
+      "locale": "ar",
+      "path": "/ar/contact/",
+      "status": 200,
+      "bytes": 538820,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/brand/logo-animated-dark.svg",
+        "/site/generated/general/contact/hero-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "domains",
+      "locale": "en",
+      "path": "/domains/",
+      "status": 200,
+      "bytes": 545978,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/domains/privacy-directed-v1-desktop.webp",
+        "/site/generated/domains/identity-directed-v1-desktop.webp",
+        "/site/generated/domains/hosting-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "domains",
+      "locale": "ar",
+      "path": "/ar/domains/",
+      "status": 200,
+      "bytes": 544800,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/domains/privacy-directed-v1-desktop.webp",
+        "/site/generated/domains/identity-directed-v1-desktop.webp",
+        "/site/generated/domains/hosting-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "website-hosting",
+      "locale": "ar",
+      "path": "/ar/website-hosting/",
+      "status": 200,
+      "bytes": 689834,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/homepage/real-estate.webp",
+        "/site/generated/website-hosting/intro-directed-v2-desktop.webp",
+        "/site/generated/website-hosting/server-directed-v1-desktop.webp",
+        "/site/generated/website-hosting/performance-directed-v2-desktop.webp",
+        "/site/generated/website-hosting/security-directed-v2-desktop.webp",
+        "/site/generated/website-hosting/manage-directed-v1-desktop.webp",
+        "/site/generated/website-hosting/builder-directed-v1-desktop.webp",
+        "/site/generated/website-hosting/migration-directed-v1-desktop.webp",
+        "/site/generated/website-hosting/support-directed-v1-desktop.webp",
+        "/site/generated/website-hosting/cta-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "wordpress-hosting",
+      "locale": "en",
+      "path": "/wordpress-hosting/",
+      "status": 200,
+      "bytes": 689854,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/brand/wordpress-mark.webp",
+        "/site/brand/wordpress-mark.webp",
+        "/homepage/healthcare.webp",
+        "/homepage/healthcare.webp",
+        "/site/generated/wordpress-hosting/intro-directed-v2-desktop.webp",
+        "/site/generated/wordpress-hosting/server-directed-v1-desktop.webp",
+        "/site/generated/wordpress-hosting/performance-directed-v2-desktop.webp",
+        "/site/generated/wordpress-hosting/security-directed-v2-desktop.webp",
+        "/site/generated/wordpress-hosting/manage-directed-v1-desktop.webp",
+        "/site/generated/wordpress-hosting/builder-directed-v1-desktop.webp",
+        "/site/generated/wordpress-hosting/migration-directed-v1-desktop.webp",
+        "/site/generated/wordpress-hosting/support-directed-v1-desktop.webp",
+        "/site/generated/wordpress-hosting/cta-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "cloud-hosting",
+      "locale": "en",
+      "path": "/cloud-hosting/",
+      "status": 200,
+      "bytes": 690709,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/homepage/roofing.webp",
+        "/homepage/healthcare.webp",
+        "/homepage/small-business.webp",
+        "/site/generated/cloud-hosting/intro-directed-v2-desktop.webp",
+        "/site/generated/cloud-hosting/server-directed-v1-desktop.webp",
+        "/site/generated/cloud-hosting/performance-directed-v2-desktop.webp",
+        "/site/generated/cloud-hosting/security-directed-v2-desktop.webp",
+        "/site/generated/cloud-hosting/manage-directed-v1-desktop.webp",
+        "/site/generated/cloud-hosting/builder-directed-v1-desktop.webp",
+        "/site/generated/cloud-hosting/migration-directed-v1-desktop.webp",
+        "/site/generated/cloud-hosting/support-directed-v1-desktop.webp",
+        "/site/generated/cloud-hosting/cta-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "email-hosting",
+      "locale": "en",
+      "path": "/email-hosting/",
+      "status": 200,
+      "bytes": 562185,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/email-hosting/intro-directed-v2-desktop.webp",
+        "/site/generated/email-hosting/domain-directed-v1-desktop.webp",
+        "/site/generated/email-hosting/filter-directed-v2-desktop.webp",
+        "/site/generated/email-hosting/clients-directed-v2-desktop.webp",
+        "/site/generated/email-hosting/backup-directed-v1-desktop.webp",
+        "/site/generated/email-hosting/migration-directed-v1-desktop.webp",
+        "/site/generated/email-hosting/support-directed-v1-desktop.webp",
+        "/site/generated/email-hosting/cta-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "wordpress-hosting",
+      "locale": "ar",
+      "path": "/ar/wordpress-hosting/",
+      "status": 200,
+      "bytes": 684929,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/brand/wordpress-mark.webp",
+        "/site/brand/wordpress-mark.webp",
+        "/homepage/healthcare.webp",
+        "/homepage/healthcare.webp",
+        "/site/generated/wordpress-hosting/intro-directed-v2-desktop.webp",
+        "/site/generated/wordpress-hosting/server-directed-v1-desktop.webp",
+        "/site/generated/wordpress-hosting/performance-directed-v2-desktop.webp",
+        "/site/generated/wordpress-hosting/security-directed-v2-desktop.webp",
+        "/site/generated/wordpress-hosting/manage-directed-v1-desktop.webp",
+        "/site/generated/wordpress-hosting/builder-directed-v1-desktop.webp",
+        "/site/generated/wordpress-hosting/migration-directed-v1-desktop.webp",
+        "/site/generated/wordpress-hosting/support-directed-v1-desktop.webp",
+        "/site/generated/wordpress-hosting/cta-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "email-hosting",
+      "locale": "ar",
+      "path": "/ar/email-hosting/",
+      "status": 200,
+      "bytes": 558409,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/email-hosting/intro-directed-v2-desktop.webp",
+        "/site/generated/email-hosting/domain-directed-v1-desktop.webp",
+        "/site/generated/email-hosting/filter-directed-v2-desktop.webp",
+        "/site/generated/email-hosting/clients-directed-v2-desktop.webp",
+        "/site/generated/email-hosting/backup-directed-v1-desktop.webp",
+        "/site/generated/email-hosting/migration-directed-v1-desktop.webp",
+        "/site/generated/email-hosting/support-directed-v1-desktop.webp",
+        "/site/generated/email-hosting/cta-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-velora-skin-clinic",
+      "locale": "en",
+      "path": "/case-studies/velora-skin-clinic/",
+      "status": 200,
+      "bytes": 537129,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/velora-skin-clinic/cover-v1.webp",
+        "/site/generated/case-studies/velora-skin-clinic/stage-1-v1.webp",
+        "/site/generated/case-studies/velora-skin-clinic/stage-2-v1.webp",
+        "/site/generated/case-studies/velora-skin-clinic/stage-3-v1.webp",
+        "/site/generated/case-studies/velora-skin-clinic/stage-4-v1.webp",
+        "/site/generated/case-studies/velora-skin-clinic/stage-5-v1.webp",
+        "/site/generated/case-studies/velora-skin-clinic/stage-4-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "cloud-hosting",
+      "locale": "ar",
+      "path": "/ar/cloud-hosting/",
+      "status": 200,
+      "bytes": 685867,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/homepage/roofing.webp",
+        "/homepage/healthcare.webp",
+        "/homepage/small-business.webp",
+        "/site/generated/cloud-hosting/intro-directed-v2-desktop.webp",
+        "/site/generated/cloud-hosting/server-directed-v1-desktop.webp",
+        "/site/generated/cloud-hosting/performance-directed-v2-desktop.webp",
+        "/site/generated/cloud-hosting/security-directed-v2-desktop.webp",
+        "/site/generated/cloud-hosting/manage-directed-v1-desktop.webp",
+        "/site/generated/cloud-hosting/builder-directed-v1-desktop.webp",
+        "/site/generated/cloud-hosting/migration-directed-v1-desktop.webp",
+        "/site/generated/cloud-hosting/support-directed-v1-desktop.webp",
+        "/site/generated/cloud-hosting/cta-directed-v1-desktop.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-studies",
+      "locale": "en",
+      "path": "/case-studies/",
+      "status": 200,
+      "bytes": 533460,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/iraq-home-expo/hero-wide.png",
+        "/site/generated/case-studies/velora-skin-clinic/cover-v1.webp",
+        "/site/generated/case-studies/madar-solar/cover-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/cover-v1.webp",
+        "/site/generated/case-studies/atlas-supply/cover-v1.webp",
+        "/site/generated/case-studies/safa-clinics/cover-v1.webp",
+        "/site/generated/case-studies/mada-developments/cover-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-velora-skin-clinic",
+      "locale": "ar",
+      "path": "/ar/case-studies/velora-skin-clinic/",
+      "status": 200,
+      "bytes": 536529,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/velora-skin-clinic/cover-v1.webp",
+        "/site/generated/case-studies/velora-skin-clinic/stage-1-v1.webp",
+        "/site/generated/case-studies/velora-skin-clinic/stage-2-v1.webp",
+        "/site/generated/case-studies/velora-skin-clinic/stage-3-v1.webp",
+        "/site/generated/case-studies/velora-skin-clinic/stage-4-v1.webp",
+        "/site/generated/case-studies/velora-skin-clinic/stage-5-v1.webp",
+        "/site/generated/case-studies/velora-skin-clinic/stage-4-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-iraq-home-expo",
+      "locale": "en",
+      "path": "/case-studies/iraq-home-expo/",
+      "status": 200,
+      "bytes": 542161,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/iraq-home-expo/hero-wide.png",
+        "/site/generated/case-studies/iraq-home-expo/brand-board.png",
+        "/site/generated/case-studies/iraq-home-expo/gate-board.png",
+        "/site/generated/case-studies/iraq-home-expo/06-completed-project-preview.jpg",
+        "/site/generated/case-studies/iraq-home-expo/brand-board.png",
+        "/site/generated/case-studies/iraq-home-expo/gate-board.png",
+        "/site/generated/case-studies/iraq-home-expo/01-brand-concept-preview.jpg",
+        "/site/generated/case-studies/iraq-home-expo/02-brand-applications-preview.jpg",
+        "/site/generated/case-studies/iraq-home-expo/03-responsive-website-preview.jpg",
+        "/site/generated/case-studies/iraq-home-expo/forms-square.png",
+        "/site/generated/case-studies/iraq-home-expo/05-international-presence-preview.jpg",
+        "/site/generated/case-studies/iraq-home-expo/04-custom-registration-preview.jpg"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-studies",
+      "locale": "ar",
+      "path": "/ar/case-studies/",
+      "status": 200,
+      "bytes": 533344,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/iraq-home-expo/hero-wide.png",
+        "/site/generated/case-studies/velora-skin-clinic/cover-v1.webp",
+        "/site/generated/case-studies/madar-solar/cover-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/cover-v1.webp",
+        "/site/generated/case-studies/atlas-supply/cover-v1.webp",
+        "/site/generated/case-studies/safa-clinics/cover-v1.webp",
+        "/site/generated/case-studies/mada-developments/cover-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-iraq-home-expo",
+      "locale": "ar",
+      "path": "/ar/case-studies/iraq-home-expo/",
+      "status": 200,
+      "bytes": 541123,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/iraq-home-expo/hero-wide.png",
+        "/site/generated/case-studies/iraq-home-expo/brand-board.png",
+        "/site/generated/case-studies/iraq-home-expo/gate-board.png",
+        "/site/generated/case-studies/iraq-home-expo/06-completed-project-preview.jpg",
+        "/site/generated/case-studies/iraq-home-expo/brand-board.png",
+        "/site/generated/case-studies/iraq-home-expo/gate-board.png",
+        "/site/generated/case-studies/iraq-home-expo/01-brand-concept-preview.jpg",
+        "/site/generated/case-studies/iraq-home-expo/02-brand-applications-preview.jpg",
+        "/site/generated/case-studies/iraq-home-expo/03-responsive-website-preview.jpg",
+        "/site/generated/case-studies/iraq-home-expo/forms-square.png",
+        "/site/generated/case-studies/iraq-home-expo/05-international-presence-preview.jpg",
+        "/site/generated/case-studies/iraq-home-expo/04-custom-registration-preview.jpg"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-tradebridge-expo",
+      "locale": "en",
+      "path": "/case-studies/tradebridge-expo/",
+      "status": 200,
+      "bytes": 536723,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/tradebridge-expo/cover-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/stage-1-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/stage-2-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/stage-3-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/stage-4-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/stage-5-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/stage-4-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-madar-solar",
+      "locale": "en",
+      "path": "/case-studies/madar-solar/",
+      "status": 200,
+      "bytes": 536687,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/madar-solar/cover-v1.webp",
+        "/site/generated/case-studies/madar-solar/stage-1-v1.webp",
+        "/site/generated/case-studies/madar-solar/stage-2-v1.webp",
+        "/site/generated/case-studies/madar-solar/stage-3-v1.webp",
+        "/site/generated/case-studies/madar-solar/stage-4-v1.webp",
+        "/site/generated/case-studies/madar-solar/stage-5-v1.webp",
+        "/site/generated/case-studies/madar-solar/stage-4-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-atlas-supply",
+      "locale": "en",
+      "path": "/case-studies/atlas-supply/",
+      "status": 200,
+      "bytes": 536834,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/atlas-supply/cover-v1.webp",
+        "/site/generated/case-studies/atlas-supply/stage-1-v1.webp",
+        "/site/generated/case-studies/atlas-supply/stage-2-v1.webp",
+        "/site/generated/case-studies/atlas-supply/stage-3-v1.webp",
+        "/site/generated/case-studies/atlas-supply/stage-4-v1.webp",
+        "/site/generated/case-studies/atlas-supply/stage-5-v1.webp",
+        "/site/generated/case-studies/atlas-supply/stage-4-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-madar-solar",
+      "locale": "ar",
+      "path": "/ar/case-studies/madar-solar/",
+      "status": 200,
+      "bytes": 536047,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/madar-solar/cover-v1.webp",
+        "/site/generated/case-studies/madar-solar/stage-1-v1.webp",
+        "/site/generated/case-studies/madar-solar/stage-2-v1.webp",
+        "/site/generated/case-studies/madar-solar/stage-3-v1.webp",
+        "/site/generated/case-studies/madar-solar/stage-4-v1.webp",
+        "/site/generated/case-studies/madar-solar/stage-5-v1.webp",
+        "/site/generated/case-studies/madar-solar/stage-4-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-tradebridge-expo",
+      "locale": "ar",
+      "path": "/ar/case-studies/tradebridge-expo/",
+      "status": 200,
+      "bytes": 536076,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/tradebridge-expo/cover-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/stage-1-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/stage-2-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/stage-3-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/stage-4-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/stage-5-v1.webp",
+        "/site/generated/case-studies/tradebridge-expo/stage-4-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-atlas-supply",
+      "locale": "ar",
+      "path": "/ar/case-studies/atlas-supply/",
+      "status": 200,
+      "bytes": 536208,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/atlas-supply/cover-v1.webp",
+        "/site/generated/case-studies/atlas-supply/stage-1-v1.webp",
+        "/site/generated/case-studies/atlas-supply/stage-2-v1.webp",
+        "/site/generated/case-studies/atlas-supply/stage-3-v1.webp",
+        "/site/generated/case-studies/atlas-supply/stage-4-v1.webp",
+        "/site/generated/case-studies/atlas-supply/stage-5-v1.webp",
+        "/site/generated/case-studies/atlas-supply/stage-4-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-mada-developments",
+      "locale": "en",
+      "path": "/case-studies/mada-developments/",
+      "status": 200,
+      "bytes": 537258,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/mada-developments/cover-v1.webp",
+        "/site/generated/case-studies/mada-developments/stage-1-v1.webp",
+        "/site/generated/case-studies/mada-developments/stage-2-v1.webp",
+        "/site/generated/case-studies/mada-developments/stage-3-v1.webp",
+        "/site/generated/case-studies/mada-developments/stage-4-v1.webp",
+        "/site/generated/case-studies/mada-developments/stage-5-v1.webp",
+        "/site/generated/case-studies/mada-developments/stage-4-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-safa-clinics",
+      "locale": "en",
+      "path": "/case-studies/safa-clinics/",
+      "status": 200,
+      "bytes": 536499,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/safa-clinics/cover-v1.webp",
+        "/site/generated/case-studies/safa-clinics/stage-1-v1.webp",
+        "/site/generated/case-studies/safa-clinics/stage-2-v1.webp",
+        "/site/generated/case-studies/safa-clinics/stage-3-v1.webp",
+        "/site/generated/case-studies/safa-clinics/stage-4-v1.webp",
+        "/site/generated/case-studies/safa-clinics/stage-5-v1.webp",
+        "/site/generated/case-studies/safa-clinics/stage-4-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-safa-clinics",
+      "locale": "ar",
+      "path": "/ar/case-studies/safa-clinics/",
+      "status": 200,
+      "bytes": 535856,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/safa-clinics/cover-v1.webp",
+        "/site/generated/case-studies/safa-clinics/stage-1-v1.webp",
+        "/site/generated/case-studies/safa-clinics/stage-2-v1.webp",
+        "/site/generated/case-studies/safa-clinics/stage-3-v1.webp",
+        "/site/generated/case-studies/safa-clinics/stage-4-v1.webp",
+        "/site/generated/case-studies/safa-clinics/stage-5-v1.webp",
+        "/site/generated/case-studies/safa-clinics/stage-4-v1.webp"
+      ],
+      "priorityImages": []
+    },
+    {
+      "key": "case-mada-developments",
+      "locale": "ar",
+      "path": "/ar/case-studies/mada-developments/",
+      "status": 200,
+      "bytes": 536801,
+      "streamError": false,
+      "currentStyles": true,
+      "images": [
+        "/site/generated/case-studies/mada-developments/cover-v1.webp",
+        "/site/generated/case-studies/mada-developments/stage-1-v1.webp",
+        "/site/generated/case-studies/mada-developments/stage-2-v1.webp",
+        "/site/generated/case-studies/mada-developments/stage-3-v1.webp",
+        "/site/generated/case-studies/mada-developments/stage-4-v1.webp",
+        "/site/generated/case-studies/mada-developments/stage-5-v1.webp",
+        "/site/generated/case-studies/mada-developments/stage-4-v1.webp"
+      ],
+      "priorityImages": []
+    }
+  ],
+  "industryPairs": [
+    {
+      "key": "roofing",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    },
+    {
+      "key": "healthcare",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    },
+    {
+      "key": "construction",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    },
+    {
+      "key": "small-business",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    },
+    {
+      "key": "e-commerce",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    },
+    {
+      "key": "event-coordinators",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    },
+    {
+      "key": "legal",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    },
+    {
+      "key": "online-magazine",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    },
+    {
+      "key": "fashion-and-lifestyle",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    },
+    {
+      "key": "oil-and-gas",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    },
+    {
+      "key": "beauty-skincare-med-spa",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    },
+    {
+      "key": "solar-energy",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    },
+    {
+      "key": "real-estate",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    },
+    {
+      "key": "restaurants-cafes-bakeries",
+      "counts": [
+        10,
+        10
+      ],
+      "equal": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "/site/live-corrections.css",
+      "status": 200,
+      "bytes": 11550,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/live-corrections.js",
+      "status": 200,
+      "bytes": 3657,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/post-launch.js",
+      "status": 200,
+      "bytes": 24908,
+      "byteIdentical": false,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/industries/restaurants-cafes-bakeries/needs-live-review-v1.webp",
+      "status": 200,
+      "bytes": 286854,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/industries/restaurants-cafes-bakeries/image-break-live-review-v1.webp",
+      "status": 200,
+      "bytes": 176074,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/industries/restaurants-cafes-bakeries/cta-live-review-v1.webp",
+      "status": 200,
+      "bytes": 159712,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/industries/online-magazine/needs-live-review-v1.webp",
+      "status": 200,
+      "bytes": 193804,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/general/industries/online-magazine-live-review-v1.webp",
+      "status": 200,
+      "bytes": 298014,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/industries/fashion-and-lifestyle/image-break-live-review-v1.webp",
+      "status": 200,
+      "bytes": 352476,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/general/services/ai-live-review-v1.webp",
+      "status": 200,
+      "bytes": 164600,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/general/services/seo-live-review-v1.webp",
+      "status": 200,
+      "bytes": 204242,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/general/services/apps-live-review-v1.webp",
+      "status": 200,
+      "bytes": 224046,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/general/services/commerce-live-review-v1.webp",
+      "status": 200,
+      "bytes": 191240,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/website-design/cta-live-review.webp",
+      "status": 200,
+      "bytes": 173164,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/ecommerce/cta-live-review.webp",
+      "status": 200,
+      "bytes": 266528,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/seo-geo/cta-live-review.webp",
+      "status": 200,
+      "bytes": 254842,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/brand-design/cta-live-review.webp",
+      "status": 200,
+      "bytes": 247068,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/ai-automation/cta-live-review.webp",
+      "status": 200,
+      "bytes": 161484,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/digital-marketing/cta-live-review.webp",
+      "status": 200,
+      "bytes": 234080,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/web-mobile-apps/cta-live-review.webp",
+      "status": 200,
+      "bytes": 249336,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/technical-support/cta-live-review.webp",
+      "status": 200,
+      "bytes": 183200,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/general/about/cta-live-review.webp",
+      "status": 200,
+      "bytes": 243382,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/general/industries/cta-live-review.webp",
+      "status": 200,
+      "bytes": 251404,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/case-studies/index/cta-live-review.webp",
+      "status": 200,
+      "bytes": 290346,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/case-studies/atlas-supply/cta-live-review.webp",
+      "status": 200,
+      "bytes": 222296,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/case-studies/mada-developments/cta-live-review.webp",
+      "status": 200,
+      "bytes": 229480,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/case-studies/madar-solar/cta-live-review.webp",
+      "status": 200,
+      "bytes": 159030,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/case-studies/safa-clinics/cta-live-review.webp",
+      "status": 200,
+      "bytes": 132148,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/case-studies/velora-skin-clinic/cta-live-review.webp",
+      "status": 200,
+      "bytes": 151666,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/case-studies/tradebridge-expo/cta-live-review.webp",
+      "status": 200,
+      "bytes": 208066,
+      "byteIdentical": true,
+      "matchesLocal": true
+    },
+    {
+      "path": "/site/generated/case-studies/iraq-home-expo/cta-live-review.webp",
+      "status": 200,
+      "bytes": 286276,
+      "byteIdentical": true,
+      "matchesLocal": true
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/services/seo-geo/",
+      "status": 308,
+      "location": "/services/seo-geo-aeo/"
+    },
+    {
+      "path": "/ar/services/seo-geo/",
+      "status": 308,
+      "location": "/ar/services/seo-geo-aeo/"
+    }
+  ],
+  "failures": []
+}
