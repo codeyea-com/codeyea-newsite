@@ -67,6 +67,8 @@ type FlowPanel = {
   body: string;
   image: string;
   srcSet?: string;
+  width?: number;
+  height?: number;
   kicker: string;
   alt?: string;
   focal?: string;
@@ -167,8 +169,8 @@ export function ServiceFlow({ panels }: { panels: FlowPanel[] }) {
             sizes="(max-width: 1199px) 100vw, 50vw"
             alt={panel.alt ?? ""}
             style={{ objectPosition: panel.focal }}
-            width={1000}
-            height={1100}
+            width={panel.width}
+            height={panel.height}
             loading="lazy"
             decoding="async"
           />
@@ -187,8 +189,8 @@ export function ServiceFlow({ panels }: { panels: FlowPanel[] }) {
                 sizes="(max-width: 1199px) 100vw, 50vw"
                 alt={panel.alt ?? ""}
                 style={{ objectPosition: panel.focal }}
-                width={1000}
-                height={1100}
+                width={panel.width}
+                height={panel.height}
                 loading="lazy"
                 decoding="async"
               />

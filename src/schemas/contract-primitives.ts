@@ -1,4 +1,6 @@
 import { z } from "zod";
+// CSP forbids eval. Configure shared schemas before object validators are created.
+z.config({ jitless: true });
 export const stableId = z
   .string()
   .min(1)

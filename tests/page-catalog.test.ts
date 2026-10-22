@@ -13,7 +13,7 @@ test('page catalog includes registered routes, localized documents, and honest p
  ]);
  assert.ok(catalog.some(x=>x.id==='healthcare'&&x.path==='/industries/healthcare/'));
  assert.deepEqual(catalog.filter(x=>['doc-en','doc-ar','doc-custom'].includes(x.id)).map(x=>[x.id,x.path,x.status]),[
-  ['doc-en','/website-design/','Published'],['doc-ar','/ar/website-design/','Draft'],['doc-custom',null,'Route mapping needed'],
+  ['doc-en','/services/website-design/','Published'],['doc-ar','/ar/services/website-design/','Draft'],['doc-custom',null,'Route mapping needed'],
  ]);
  assert.equal(catalog.filter(x=>x.id.startsWith('template:')).length,26);
  assert.ok(catalog.some(x=>x.id==='template:email-hosting:en'&&x.path==='/email-hosting/'&&x.status==='Missing CMS record'));
@@ -35,5 +35,5 @@ test('only published, registered, indexable template pages enter the sitemap',()
   {slug:'unmapped',locale:'en',published:{content:{seo:{}}},updatedAt:lastModified},
   {slug:'contact',locale:'en',published:null,updatedAt:lastModified},
  ]);
- assert.deepEqual(entries.map(entry=>entry.url),['https://codeyea.com/website-design/']);
+ assert.deepEqual(entries.map(entry=>entry.url),['https://www.codeyea.com/services/website-design/']);
 });

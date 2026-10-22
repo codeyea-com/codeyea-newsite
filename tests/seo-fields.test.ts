@@ -21,9 +21,9 @@ test('SEO contract rejects unsafe canonical paths, missing descriptions, and exc
 
 test('published metadata uses safe canonical, social fields, and deliberate robots flags',()=>{
  const metadata=pageMetadata('/about/','About | CODEYEA','A useful description.',{canonicalPath:'/about/',socialTitle:'Meet CODEYEA',socialDescription:'Our story.',socialImage:{mediaId:'office',alt:'Team at work',decorative:false}});
- assert.equal(metadata.alternates?.canonical,'https://codeyea.com/about/');
+ assert.equal(metadata.alternates?.canonical,'https://www.codeyea.com/about/');
  assert.equal(metadata.openGraph?.title,'Meet CODEYEA');
- assert.deepEqual(metadata.openGraph?.images,[{url:'https://codeyea.com/homepage/office.webp',alt:'Team at work'}]);
+ assert.deepEqual(metadata.openGraph?.images,[{url:'https://www.codeyea.com/homepage/office.webp',alt:'Team at work'}]);
  const previous=process.env.SITE_INDEXING_ENABLED;
  process.env.SITE_INDEXING_ENABLED='true';
  assert.deepEqual(publicRobots(true,{index:false,follow:true}),{index:false,follow:true});

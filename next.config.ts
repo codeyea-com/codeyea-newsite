@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 import { nestedServiceSlugs } from "./src/content/url-hierarchy";
 const config: NextConfig = {
+  // Deliver complete canonical/robots/description tags before any body content.
+  htmlLimitedBots: /.*/,
   poweredByHeader: false,
   outputFileTracingIncludes: { "/*": ["./site-templates/**/*", "./src/styles/homepage-header-final.css", "./src/styles/approved-mega.css", "./src/styles/homepage-footer.css"] },
   skipTrailingSlashRedirect: true,

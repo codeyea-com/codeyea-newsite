@@ -3,7 +3,7 @@ import { resolveHomepage, iconKeys } from "@/content/homepage-defaults";
 import { homepageCatalog } from "@/content/homepage-catalog";
 import "@/styles/homepage-final.css";
 import { enabledItems } from "@/schemas/homepage-editor";
-import { str, mediaProps } from "@/content/homepage-render";
+import { str, mediaProps, mediaDimensions } from "@/content/homepage-render";
 import { ServiceWords } from "./homepage-service-words";
 import { EditorialCopy } from "./homepage-editorial-copy";
 import { HomepageFooter } from "./homepage-footer";
@@ -263,6 +263,7 @@ export function Homepage({ snapshot }: { snapshot: Snapshot | null }) {
                 title: str(item.title),
                 body: str(item.body),
                 image: mediaProps(item.media).src,
+              ...mediaDimensions(item.media),
                 srcSet: mediaProps(item.media).srcSet,
                 alt: mediaProps(item.media).alt,
                 focal: mediaProps(item.media).style.objectPosition,

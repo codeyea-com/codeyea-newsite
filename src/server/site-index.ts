@@ -1,6 +1,7 @@
 import { snapshotSchema } from "@/schemas/content";
 import { pagePath, basePageId } from "@/content/site-routes";
 import { documentPath } from "@/content/site-routes";
+import { siteOrigin } from "@/content/seo";
 type PageRecord = {
   id: string;
   publishedSnapshot: unknown;
@@ -9,7 +10,7 @@ type PageRecord = {
 };
 export function publishedSitemap(
   pages: PageRecord[],
-  origin = "https://codeyea.com",
+  origin = siteOrigin,
 ) {
   return pages.flatMap((page) => {
     if (page.deletedAt || !page.publishedAt || !page.publishedSnapshot)
@@ -54,7 +55,7 @@ type DocumentRecord = {
 };
 export function publishedDocumentSitemap(
   documents: DocumentRecord[],
-  origin = "https://codeyea.com",
+  origin = siteOrigin,
 ) {
   return documents.flatMap((document) => {
     if (

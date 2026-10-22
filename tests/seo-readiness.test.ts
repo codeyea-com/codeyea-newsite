@@ -8,15 +8,15 @@ import {extractFields,renderDocument,templateContent} from '../src/server/site-d
 import {pageMetadata,commercialProductSchema,publicPageSchema,homeSchema} from '../src/content/structured-data';
 
 test('canonical URLs use the intended public origin and one path',()=>{
- assert.equal(canonical('/'),'https://codeyea.com/');
- assert.equal(canonical('/services/'),'https://codeyea.com/services/');
- assert.equal(canonical('/industries/roofing/'),'https://codeyea.com/industries/roofing/');
+ assert.equal(canonical('/'),'https://www.codeyea.com/');
+ assert.equal(canonical('/services/'),'https://www.codeyea.com/services/');
+ assert.equal(canonical('/industries/roofing/'),'https://www.codeyea.com/industries/roofing/');
 });
 
 test('page metadata consistently emits canonical Open Graph and Twitter tags',()=>{
  const metadata=pageMetadata('/services/','Digital Services | CODEYEA','Digital services for growing businesses.');
- assert.equal(metadata.alternates?.canonical,'https://codeyea.com/services/');
- assert.equal(metadata.openGraph?.url,'https://codeyea.com/services/');
+ assert.equal(metadata.alternates?.canonical,'https://www.codeyea.com/services/');
+ assert.equal(metadata.openGraph?.url,'https://www.codeyea.com/services/');
  assert.equal(metadata.openGraph?.siteName,'CODEYEA');
  assert.deepEqual(metadata.twitter,{card:'summary',title:'Digital Services | CODEYEA',description:'Digital services for growing businesses.'});
  const schema=publicPageSchema('/about/','About CODEYEA','Our story.','AboutPage');
@@ -44,9 +44,10 @@ test('saved SEO text overrides defaults while blank values keep safe defaults',(
  assert.deepEqual(resolveSeoText({title:'  ',description:''},fallback),fallback);
 });
 
-test('industry links activate only for published destinations',()=>{
+test('registered industry templates remain available and unknown destinations stay inactive',()=>{
  const destination='/industries/roofing/';
- assert.equal(industryDestination(destination,new Set()),undefined);
+ assert.equal(industryDestination(destination,new Set()),destination);
+ assert.equal(industryDestination('/industries/not-registered/',new Set()),undefined);
  assert.equal(industryDestination(destination,new Set([destination])),destination);
 });
 

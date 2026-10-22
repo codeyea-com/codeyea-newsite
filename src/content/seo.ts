@@ -1,7 +1,7 @@
 import type {Metadata} from 'next';
 import type {SeoText} from '@/schemas/seo-text';
 
-export const siteOrigin='https://codeyea.com';
+export const siteOrigin='https://www.codeyea.com';
 
 export function resolveSeoText(value:Partial<SeoText>|undefined,fallback:SeoText):SeoText{
  return {...fallback,...value,title:value?.title?.trim()||fallback.title,description:value?.description?.trim()||fallback.description};
