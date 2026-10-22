@@ -279,12 +279,16 @@ export function approvedNavigationView(
                   : "BUILT AROUND YOUR INDUSTRY"}
             </span>
             {service ? <a className="cy-feature-image" href={menu.language === 'ar' ? '/ar/case-studies/' : '/case-studies/'} aria-label={menu.language === 'ar' ? 'دراسات الحالة' : 'Case studies'}>
-              <img src="/site/generated/case-studies/iraq-home-expo/hero-wide.png" alt="Iraq Home Expo" />
+              <img src="/site/generated/case-studies/iraq-home-expo/hero-wide-640.webp" srcSet="/site/generated/case-studies/iraq-home-expo/hero-wide-640.webp 640w, /site/generated/case-studies/iraq-home-expo/hero-wide-960.webp 960w" sizes="400px" width={1832} height={859} loading="lazy" decoding="async" alt="Iraq Home Expo" />
             </a> : <>
             <img
               src={
-                service ? "/site/generated/case-studies/iraq-home-expo/hero-wide.png" : "/homepage/" + (host ? "support" : "about") + ".webp"
+                "/homepage/" + (host ? "support" : "about") + "-640.webp"
               }
+              width={host ? 1100 : 1200}
+              height={host ? 1117 : 801}
+              loading="lazy"
+              decoding="async"
               alt={
                 host
                   ? "Technical support and website care"
