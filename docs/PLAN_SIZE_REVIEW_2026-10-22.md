@@ -12,5 +12,9 @@
 
 - [مقارنة المرجع والتنفيذ](plan-size-review-2026-10-22/review.html).
 - [الفحص المحلي](plan-size-review-2026-10-22/local-checks.json).
+- [فحص الإنتاج للصفحات الثماني والملفين المشتركين](plan-size-review-2026-10-22/production-checks.json).
+- [لقطة الموقع الحي](plan-size-review-2026-10-22/production-drag-ar.png).
 
-حالة النشر: قيد الرفع والتحقق على الإنتاج.
+اكتمل النشر على [الموقع الحي](https://codeyea-newsite.vercel.app/ar/website-hosting/#hosting-plans)، وحالة Vercel هي READY دون خطأ alias. commit التشغيل `f005704a4a81c196941a4336aa787dbec0d33e7f`، وdeployment `dpl_aQe9AhYuNi1vtdALoy2KXggvPEcZ`.
+
+الفحص الحي أكد أحجام 24px و36px و13px، ومؤشر «اسحب» بالعربي وDrag بالإنجليزي، واستقرار السحب العربي على الخطة الثانية. في نافذة بعرض 1280px نزل الكرت من عرض 364px وارتفاع 822px تقريباً إلى عرض 324px وارتفاع 598px تقريباً. اكتمل فحص المسارات الثمانية وملفي CSS وJavaScript دون أخطاء.

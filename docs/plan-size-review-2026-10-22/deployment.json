@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-22T14:28:53.049Z",
+  "state": "READY",
+  "deployment": "dpl_aQe9AhYuNi1vtdALoy2KXggvPEcZ",
+  "runtimeCommit": "f005704a4a81c196941a4336aa787dbec0d33e7f",
+  "url": "https://codeyea-newsite.vercel.app/",
+  "aliasError": null,
+  "browserChecks": {
+    "viewport": 1280,
+    "before": {
+      "width": 364,
+      "height": 822.1188,
+      "nameFont": 38.4,
+      "priceFont": 48,
+      "resourcesFont": 17
+    },
+    "after": {
+      "width": 323.6313,
+      "height": 597.7501,
+      "nameFont": 24,
+      "priceFont": 36,
+      "resourcesFont": 13
+    },
+    "arabicCursor": "اسحب",
+    "englishCursor": "Drag",
+    "rtlDragSettledCounter": "2 / 5",
+    "localLtrDragSettledCounter": "2 / 4",
+    "controls": "Keyboard, monthly/yearly toggle, and interactive cursor exclusion verified locally.",
+    "mobile": "DOM layout at effective 433px: 320px card, title fits, no horizontal page overflow."
+  },
+  "cms": "Shared presentation render path updated; no plan content or pricing records changed."
+}
