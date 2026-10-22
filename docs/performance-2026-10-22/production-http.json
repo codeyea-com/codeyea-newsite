@@ -1,0 +1,50 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "robots": "<meta name=\"robots\" content=\"index, follow\"/>",
+    "canonical": "<link rel=\"canonical\" href=\"https://www.codeyea.com\"/>",
+    "originalLargePngPresent": false,
+    "streamedRenderError": false
+  },
+  {
+    "path": "/ar/",
+    "status": 200,
+    "robots": "<meta name=\"robots\" content=\"index, follow\"/>",
+    "canonical": "<link rel=\"canonical\" href=\"https://www.codeyea.com/ar/\"/>",
+    "originalLargePngPresent": false,
+    "streamedRenderError": false
+  },
+  {
+    "path": "/services/",
+    "status": 200,
+    "robots": "<meta name=\"robots\" content=\"index, follow\"/>",
+    "canonical": "<link rel=\"canonical\" href=\"https://www.codeyea.com/services/\"/>",
+    "originalLargePngPresent": false,
+    "streamedRenderError": false
+  },
+  {
+    "path": "/ar/services/",
+    "status": 200,
+    "robots": "<meta name=\"robots\" content=\"index, follow\"/>",
+    "canonical": "<link rel=\"canonical\" href=\"https://www.codeyea.com/ar/services/\"/>",
+    "originalLargePngPresent": false,
+    "streamedRenderError": false
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "originalLargePngPresent": false,
+    "streamedRenderError": false,
+    "body": "User-Agent: *\nAllow: /\nDisallow: /admin\nDisallow: /login\nDisallow: /preview\nDisallow: /api\n\nSitemap: https://www.codeyea.com/sitemap.xml\n"
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "originalLargePngPresent": false,
+    "streamedRenderError": false,
+    "count": 33,
+    "unique": 33,
+    "allMainDomain": true
+  }
+]

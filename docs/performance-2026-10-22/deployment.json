@@ -1,0 +1,16 @@
+{
+  "id": "dpl_2fU6eBgCSnwrDBYCEDkoxPyY8aEV",
+  "url": "codeyea-newsite-jwdr2y9td-codeyea.vercel.app",
+  "target": "production",
+  "status": "READY",
+  "commit": "aaf0a3d94ddc226173626148888a0c9e81cc67bd",
+  "aliases": [
+    "www.codeyea.com",
+    "codeyea-newsite.vercel.app",
+    "codeyea.com",
+    "codeyea-newsite-codeyea.vercel.app",
+    "codeyea-newsite-git-codex-real-site-updates-codeyea.vercel.app"
+  ],
+  "buildSeconds": 88.365,
+  "framework": "Next.js 16.4.0"
+}

@@ -1,0 +1,24 @@
+{
+  "dimensions": {
+    "before-en.png": {
+      "width": 1265,
+      "height": 712
+    },
+    "production-en.png": {
+      "width": 1265,
+      "height": 712
+    },
+    "production-ar.png": {
+      "width": 1265,
+      "height": 712
+    },
+    "production-ar-mobile.png": {
+      "width": 375,
+      "height": 673
+    }
+  },
+  "composition": "Same approved hero artwork, arrangement, fonts and timing; compressed responsive assets.",
+  "mobileViewport": 390,
+  "horizontalOverflow": false,
+  "ownerApprovalClaimed": false
+}

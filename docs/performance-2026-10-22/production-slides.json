@@ -1,0 +1,58 @@
+[
+  {
+    "font": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+    "language": "en",
+    "loaded": true,
+    "overflow": false,
+    "selected": "01Hosting & support"
+  },
+  {
+    "font": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+    "language": "en",
+    "loaded": true,
+    "overflow": false,
+    "selected": "02Websites & apps"
+  },
+  {
+    "font": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+    "language": "en",
+    "loaded": true,
+    "overflow": false,
+    "selected": "03Marketing & SEO"
+  },
+  {
+    "font": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+    "language": "en",
+    "loaded": true,
+    "overflow": false,
+    "selected": "04AI & automation"
+  },
+  {
+    "font": "\"Readex Pro\", sans-serif",
+    "language": "ar",
+    "loaded": true,
+    "overflow": false,
+    "selected": "01الاستضافة والصيانة"
+  },
+  {
+    "font": "\"Readex Pro\", sans-serif",
+    "language": "ar",
+    "loaded": true,
+    "overflow": false,
+    "selected": "02الويب والتطبيقات"
+  },
+  {
+    "font": "\"Readex Pro\", sans-serif",
+    "language": "ar",
+    "loaded": true,
+    "overflow": false,
+    "selected": "03التسويق وSEO"
+  },
+  {
+    "font": "\"Readex Pro\", sans-serif",
+    "language": "ar",
+    "loaded": true,
+    "overflow": false,
+    "selected": "04الذكاء والأتمتة"
+  }
+]

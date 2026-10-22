@@ -1,0 +1,283 @@
+{
+  "source": "Lighthouse 13.5.0 lab navigation, simulated throttling, headless Chrome with GPU disabled",
+  "fieldData": {
+    "available": false,
+    "reason": "PageSpeed shared API quota returned 429; no CrUX/INP data supplied"
+  },
+  "results": {
+    "beforeMobile": {
+      "url": "https://www.codeyea.com/",
+      "fetchTime": "2026-10-22T16:04:46.019Z",
+      "lighthouseVersion": "13.5.0",
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "scores": {
+        "performance": 57,
+        "accessibility": 97,
+        "best-practices": 92,
+        "seo": 69
+      },
+      "metrics": {
+        "first-contentful-paint": 1860.9875,
+        "largest-contentful-paint": 31262.987500000003,
+        "total-blocking-time": 293.0000000000002,
+        "cumulative-layout-shift": 0.0011262688568713657,
+        "speed-index": 15967.438016663631
+      },
+      "transferBytes": 10159178,
+      "remainingInsights": {
+        "render-blocking-insight": {
+          "score": 0.5
+        },
+        "image-delivery-insight": {
+          "score": 0,
+          "display": "Est savings of 3,593 KiB"
+        },
+        "legacy-javascript-insight": {
+          "score": 0.5,
+          "display": "Est savings of 14 KiB"
+        },
+        "forced-reflow-insight": {
+          "score": 0
+        }
+      }
+    },
+    "beforeDesktop": {
+      "url": "https://www.codeyea.com/",
+      "fetchTime": "2026-10-22T16:14:12.311Z",
+      "lighthouseVersion": "13.5.0",
+      "formFactor": "desktop",
+      "throttlingMethod": "simulate",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "scores": {
+        "performance": 66,
+        "accessibility": 97,
+        "best-practices": 96,
+        "seo": 69
+      },
+      "metrics": {
+        "first-contentful-paint": 677.8675000000001,
+        "largest-contentful-paint": 6234.8675,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.00341678448198418,
+        "speed-index": 5517.556096158716
+      },
+      "transferBytes": 10230961,
+      "remainingInsights": {
+        "render-blocking-insight": {
+          "score": 0.5
+        },
+        "image-delivery-insight": {
+          "score": 0,
+          "display": "Est savings of 3,589 KiB"
+        },
+        "legacy-javascript-insight": {
+          "score": 0.5,
+          "display": "Est savings of 14 KiB"
+        },
+        "forced-reflow-insight": {
+          "score": 0
+        }
+      }
+    },
+    "mobile": {
+      "url": "https://www.codeyea.com/",
+      "fetchTime": "2026-10-22T16:55:29.001Z",
+      "lighthouseVersion": "13.5.0",
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "scores": {
+        "performance": 89,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1549.8,
+        "largest-contentful-paint": 3323.8,
+        "total-blocking-time": 132.5,
+        "cumulative-layout-shift": 0.003549540291576048,
+        "speed-index": 4057.1625508660672
+      },
+      "transferBytes": 816114,
+      "agenticApplicable": [
+        {
+          "id": "agent-accessibility-tree",
+          "score": 1
+        },
+        {
+          "id": "cumulative-layout-shift",
+          "score": 1
+        }
+      ],
+      "remainingInsights": {
+        "render-blocking-insight": {
+          "score": 0.5
+        },
+        "image-delivery-insight": {
+          "score": 0.5,
+          "display": "Est savings of 23 KiB"
+        },
+        "legacy-javascript-insight": {
+          "score": 0.5,
+          "display": "Est savings of 14 KiB"
+        },
+        "forced-reflow-insight": {
+          "score": 1
+        }
+      }
+    },
+    "desktop": {
+      "url": "https://www.codeyea.com/",
+      "fetchTime": "2026-10-22T16:56:08.572Z",
+      "lighthouseVersion": "13.5.0",
+      "formFactor": "desktop",
+      "throttlingMethod": "simulate",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 408.745,
+        "largest-contentful-paint": 731.245,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.004812439945152828,
+        "speed-index": 1283.0144505934384
+      },
+      "transferBytes": 888388,
+      "agenticApplicable": [
+        {
+          "id": "agent-accessibility-tree",
+          "score": 1
+        },
+        {
+          "id": "cumulative-layout-shift",
+          "score": 1
+        }
+      ],
+      "remainingInsights": {
+        "render-blocking-insight": {
+          "score": 0.5
+        },
+        "image-delivery-insight": {
+          "score": 1
+        },
+        "legacy-javascript-insight": {
+          "score": 0.5,
+          "display": "Est savings of 14 KiB"
+        },
+        "forced-reflow-insight": {
+          "score": 0
+        }
+      }
+    },
+    "arabicMobile": {
+      "url": "https://www.codeyea.com/ar/",
+      "fetchTime": "2026-10-22T16:56:54.215Z",
+      "lighthouseVersion": "13.5.0",
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "scores": {
+        "performance": 72,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1610.711,
+        "largest-contentful-paint": 3950.7110000000002,
+        "total-blocking-time": 508,
+        "cumulative-layout-shift": 0.0019224604259016427,
+        "speed-index": 4315.901715039028
+      },
+      "transferBytes": 877186,
+      "agenticApplicable": [
+        {
+          "id": "agent-accessibility-tree",
+          "score": 1
+        },
+        {
+          "id": "cumulative-layout-shift",
+          "score": 1
+        }
+      ],
+      "remainingInsights": {
+        "render-blocking-insight": {
+          "score": 0,
+          "display": "Est savings of 540 ms"
+        },
+        "image-delivery-insight": {
+          "score": 0.5,
+          "display": "Est savings of 23 KiB"
+        },
+        "legacy-javascript-insight": {
+          "score": 0,
+          "display": "Est savings of 14 KiB"
+        },
+        "forced-reflow-insight": {
+          "score": 1
+        }
+      }
+    }
+  },
+  "deployment": {
+    "id": "dpl_2fU6eBgCSnwrDBYCEDkoxPyY8aEV",
+    "url": "codeyea-newsite-jwdr2y9td-codeyea.vercel.app",
+    "target": "production",
+    "status": "READY",
+    "commit": "aaf0a3d94ddc226173626148888a0c9e81cc67bd",
+    "aliases": [
+      "www.codeyea.com",
+      "codeyea-newsite.vercel.app",
+      "codeyea.com",
+      "codeyea-newsite-codeyea.vercel.app",
+      "codeyea-newsite-git-codex-real-site-updates-codeyea.vercel.app"
+    ],
+    "buildSeconds": 88.365,
+    "framework": "Next.js 16.4.0"
+  }
+}
