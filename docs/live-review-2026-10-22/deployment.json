@@ -1,0 +1,59 @@
+{
+  "verifiedAt": "2026-10-22T13:48:39.788Z",
+  "state": "READY",
+  "id": "dpl_EDTkF7exJKt3V77T26sc4fzPSWKd",
+  "runtimeCommit": "0f4de6349b444fa48af1fb613e560fc3a50b166c",
+  "url": "https://codeyea-newsite.vercel.app/",
+  "deploymentUrl": "https://codeyea-newsite-1wfhqmgxz-codeyea.vercel.app/",
+  "aliasError": null,
+  "cmsProductionSync": "completed; 6 localized records; unrelated content preserved",
+  "httpAudit": "80 pages, 15 industry image pairs, 5 versioned assets; no failures",
+  "browserEvidence": {
+    "arabicBrandWordmark": {
+      "fontSize": "90px",
+      "fontWeight": 200
+    },
+    "arabicBrandFaq": {
+      "count": 6,
+      "direction": "rtl",
+      "fontWeight": 400
+    },
+    "arabicWebsiteHero": {
+      "serviceName": "تصميم المواقع وتطويرها",
+      "serviceNameHeight": 35.8375,
+      "lineHeight": 35.84
+    },
+    "arabicWebsiteFaq": {
+      "headingTopAfterScroll": 120,
+      "firstQuestionTopAfterScroll": -71.78125
+    },
+    "arabicHosting": {
+      "cardWidth": 364,
+      "fourthCardVisible": 45,
+      "middleRecommended": true,
+      "headingAlign": "center"
+    },
+    "popup": {
+      "imageRight": true,
+      "background": "rgba(7, 36, 72, 0.28)",
+      "blur": "24px",
+      "checkedLocales": [
+        "ar",
+        "en"
+      ]
+    },
+    "industryCta": {
+      "overlay": "rgba(7, 36, 72, 0.36)",
+      "textShadow": "0 0 18px #0008, 0 0 36px #0005",
+      "buttonShadow": "none"
+    },
+    "englishPageConsole": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  "limits": [
+    "Mobile layout checked via DOM measurements. Mobile screenshot output was blank, so no mobile screenshot is presented as visual proof.",
+    "Vercel build/runtime logs were not used as verification evidence."
+  ]
+}

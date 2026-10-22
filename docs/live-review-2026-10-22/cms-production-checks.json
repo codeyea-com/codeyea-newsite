@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-10-22T13:43:26.202Z",
+  "projectId": "lively-queen-95299732",
+  "branchId": "br-late-cloud-b5cj6jvj",
+  "database": "neondb",
+  "transactionSucceeded": true,
+  "pages": [
+    {
+      "slug": "brand-design",
+      "locale": "ar",
+      "version": 3,
+      "captions": 5,
+      "faq": 6,
+      "live": true
+    },
+    {
+      "slug": "brand-design",
+      "locale": "en",
+      "version": 1,
+      "captions": 5,
+      "faq": 6,
+      "live": true
+    },
+    {
+      "slug": "ecommerce",
+      "locale": "ar",
+      "version": 2,
+      "captions": 5,
+      "faq": 0,
+      "live": true
+    },
+    {
+      "slug": "ecommerce",
+      "locale": "en",
+      "version": 1,
+      "captions": 5,
+      "faq": 0,
+      "live": true
+    },
+    {
+      "slug": "website-design",
+      "locale": "ar",
+      "version": 2,
+      "captions": 5,
+      "faq": 0,
+      "live": true
+    },
+    {
+      "slug": "website-design",
+      "locale": "en",
+      "version": 1,
+      "captions": 5,
+      "faq": 0,
+      "live": true
+    }
+  ],
+  "auditEntries": 6,
+  "unrelatedContentPreserved": true,
+  "rollback": "Before/after snapshots in AuditLog and draft revisions; pre-sync branch review-cms-20261022 retained."
+}
