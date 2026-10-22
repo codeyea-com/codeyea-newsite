@@ -101,7 +101,7 @@
 .hp .hp-services-hero {
   margin: 0;
   color: var(--ink);
-  font-family: HomeHeroReadex, Arial, sans-serif;
+  font-family: var(--font-body);
 }
 .hp .hp-services-hero button,
 .hp .hp-services-hero a {
@@ -2029,7 +2029,7 @@
   letter-spacing: 0.025em;
 }
 .hp .hp-services-hero .ai-node-title:lang(ar) {
-  font-family: HomeHeroReadex, Arial, sans-serif;
+  font-family: var(--font-body);
   font-size: 1.45cqw;
   direction: rtl;
   text-align: right;
@@ -2232,5 +2232,24 @@
 @media (prefers-reduced-motion: reduce) {
   .hp .hp-services-hero .actions a:is(:hover, :focus-visible) {
     transform: none;
+  }
+}
+
+/* Homepage hero only: breathing room below the header and before slide tabs. */
+@media (min-width: 901px) {
+  .hp.public-surface .hp-services-hero .hero-inner {
+    padding-top: calc(clamp(28px, 4vh, 48px) + 24px) !important;
+    padding-bottom: 40px !important;
+  }
+}
+@media (max-width: 900px) {
+  .hp.public-surface .hp-services-hero .hero-inner {
+    padding-top: 58px !important;
+    padding-bottom: 34px !important;
+  }
+}
+@media (max-width: 520px) {
+  .hp.public-surface .hp-services-hero .hero-inner {
+    padding-top: 47px !important;
   }
 }

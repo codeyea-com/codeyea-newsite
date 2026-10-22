@@ -1,0 +1,88 @@
+{
+  "slides": [
+    {
+      "copyFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "headingFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "locale": "en",
+      "overflow": false,
+      "phrase": "hosting you can trust.",
+      "selected": "01Hosting & support",
+      "tabFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif"
+    },
+    {
+      "copyFont": "\"Readex Pro\", sans-serif",
+      "headingFont": "\"Readex Pro\", sans-serif",
+      "locale": "ar",
+      "overflow": false,
+      "phrase": "استضافة تثق بها.",
+      "selected": "01الاستضافة والصيانة",
+      "tabFont": "\"Readex Pro\", sans-serif"
+    },
+    {
+      "copyFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "headingFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "locale": "en",
+      "overflow": false,
+      "phrase": "experiences that stand out.",
+      "selected": "02Websites & apps",
+      "tabFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif"
+    },
+    {
+      "copyFont": "\"Readex Pro\", sans-serif",
+      "headingFont": "\"Readex Pro\", sans-serif",
+      "locale": "ar",
+      "overflow": false,
+      "phrase": "تجربة رقمية تميّزها.",
+      "selected": "02الويب والتطبيقات",
+      "tabFont": "\"Readex Pro\", sans-serif"
+    },
+    {
+      "copyFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "headingFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "locale": "en",
+      "overflow": false,
+      "phrase": "visibility that goes further.",
+      "selected": "03Marketing & SEO",
+      "tabFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif"
+    },
+    {
+      "copyFont": "\"Readex Pro\", sans-serif",
+      "headingFont": "\"Readex Pro\", sans-serif",
+      "locale": "ar",
+      "overflow": false,
+      "phrase": "حضورًا يصل أبعد.",
+      "selected": "03التسويق وSEO",
+      "tabFont": "\"Readex Pro\", sans-serif"
+    },
+    {
+      "copyFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "headingFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif",
+      "locale": "en",
+      "overflow": false,
+      "phrase": "smarter work, every day.",
+      "selected": "04AI & automation",
+      "tabFont": "\"CODEYEA Josefin Sans\", \"Segoe UI\", sans-serif"
+    },
+    {
+      "copyFont": "\"Readex Pro\", sans-serif",
+      "headingFont": "\"Readex Pro\", sans-serif",
+      "locale": "ar",
+      "overflow": false,
+      "phrase": "عملًا أذكى، كل يوم.",
+      "selected": "04الذكاء والأتمتة",
+      "tabFont": "\"Readex Pro\", sans-serif"
+    }
+  ],
+  "desktop": {
+    "topPadding": "56px",
+    "bottomPadding": "40px"
+  },
+  "mobile": {
+    "effectiveViewport": 433,
+    "topPadding": "47px",
+    "bottomPadding": "34px",
+    "overflow": false
+  },
+  "build": "passed",
+  "typecheck": "passed"
+}
