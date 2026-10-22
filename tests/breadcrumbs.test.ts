@@ -17,7 +17,7 @@ test('all 76 internal public routes have unique canonical localized breadcrumb p
    assert.equal(schema['@type'],'BreadcrumbList');
    assert.ok(schema.itemListElement.length>=2);
    assert.equal(schema.itemListElement[0].name,locale==='ar'?'الرئيسية':'Home');
-   assert.equal(schema.itemListElement.at(-1)!.item,'https://www.codeyea.com'+path);
+   assert.equal(schema.itemListElement.at(-1)!.item,'https://codeyea.com'+path);
    assert.equal(new Set(schema.itemListElement.map(x=>x.item)).size,schema.itemListElement.length);
    for(const [i,item] of schema.itemListElement.entries()){
     assert.equal(item.position,i+1);

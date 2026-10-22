@@ -8,7 +8,7 @@ test('sitemap includes valid published routes and excludes drafts, deleted, unkn
  const publishedSnapshot={title:'Home',sections:[{id:'intro',type:'positioning',heading:'Welcome',body:'Hello'}]};
  const home={id:'homepage',publishedAt:new Date('2026-09-27'),publishedSnapshot};
  const result=publishedSitemap([home,{...home,id:'about'},{...home,id:'contact'},{...home,publishedAt:null},{...home,deletedAt:new Date()},{...home,publishedSnapshot:{}}]);
- assert.deepEqual(result,[{url:'https://www.codeyea.com/',lastModified:home.publishedAt}]);
+ assert.deepEqual(result,[{url:'https://codeyea.com/',lastModified:home.publishedAt}]);
  assert.equal(documentPath('contact','ar'),'/ar/contact/');
  assert.equal(documentPath('missing'),null);
  assert.equal(documentPath('contact','fr'),null);

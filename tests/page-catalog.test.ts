@@ -35,5 +35,5 @@ test('only published, registered, indexable template pages enter the sitemap',()
   {slug:'unmapped',locale:'en',published:{content:{seo:{}}},updatedAt:lastModified},
   {slug:'contact',locale:'en',published:null,updatedAt:lastModified},
  ]);
- assert.deepEqual(entries.map(entry=>entry.url),['https://www.codeyea.com/services/website-design/']);
+ assert.deepEqual(entries.map(entry=>entry.url),['https://codeyea.com/services/website-design/']);
 });
