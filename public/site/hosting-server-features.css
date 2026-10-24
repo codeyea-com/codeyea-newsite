@@ -1,0 +1,80 @@
+/* Dimensions, typography and motion follow the owner's preserved Customer stories section. */
+.cy-server-specs{background:#191919;color:#fff;padding:56px 0 90px;font-family:var(--font-body,"Josefin Sans","Segoe UI",sans-serif);border-radius:0;overflow:hidden}
+.cy-server-specs *{box-sizing:border-box;border-radius:0}
+.cy-spec-wrap{width:calc(100% - 220px);max-width:1220px;margin:auto}
+.cy-server-specs header{display:flex;justify-content:flex-start;align-items:center;gap:40px}
+.cy-server-specs header h2{font-size:clamp(38px,5.4vw,76px);line-height:1.08;margin:0;color:#fff;font-weight:600;letter-spacing:-2px;transition:color .5s}
+.cy-server-specs header h2:hover{color:#e0144c}
+.cy-spec-label{display:inline-block;padding:5px 12px;background:#e6e6e6;color:#121212;margin-bottom:9px;font-size:12px;font-weight:600;letter-spacing:1px;line-height:1.7}
+.cy-spec-more{display:inline-flex;gap:12px;align-items:center;color:#fff;text-decoration:none;margin-top:25px;flex-shrink:0}
+.cy-spec-more>span{border:1px solid #fff;padding:10px 17px;font-size:13px;font-weight:600;transition:background .5s,color .5s}
+.cy-spec-more i{display:grid;place-items:center;background:#ffcb00;color:#121212;width:38px;height:38px;font-size:23px;font-style:normal;transition:transform .65s}
+.cy-spec-more:hover>span{background:#fff;color:#121212}
+.cy-spec-more:hover i{transform:translate(3px,-3px)}
+.cy-spec-rule{display:flex;align-items:center;gap:22px;margin:45px 0 38px;font-size:13px;font-weight:600;letter-spacing:.5px;line-height:1.7}
+.cy-spec-rule i{height:1px;flex:1;background:#ffffff20}
+.cy-spec-layout{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:90px;align-items:start}
+.cy-spec-symbol{display:grid;place-items:center;background:#fff;color:#191919;width:29px;height:29px;margin-bottom:25px}
+.cy-spec-symbol svg{width:21px;height:21px}
+.cy-spec-slides{position:relative;display:grid;touch-action:pan-y;min-width:0}
+.cy-spec-slide{grid-area:1/1;min-width:0}
+.cy-spec-slide[hidden]{display:none}
+.cy-server-specs .cy-spec-slide p{font-size:clamp(20px,2.1vw,29px);line-height:1.2;color:#fff;margin:0;max-width:900px}
+.cy-spec-slide small{display:block;font-size:11px;color:#9ca5a9;margin-top:16px;line-height:1.5}
+.cy-spec-slide small strong{font:inherit;color:#c1c7cb;display:block}
+.cy-spec-slide small span{display:block}
+.cy-spec-word{display:inline-block}
+.cy-spec-controls{display:flex;gap:12px;margin-top:25px}
+.cy-spec-controls button{background:#ffffff20;color:#fff;border:0;width:33px;height:33px;cursor:pointer;font-family:inherit;font-size:24px;line-height:1;display:grid;place-items:center;transition:background .4s,transform .4s;padding:0}
+.cy-spec-controls button svg{width:20px;height:20px;flex:none}
+.cy-spec-controls button:hover{background:#10aabc;transform:translateX(2px)}
+.cy-spec-controls button:first-child:hover{transform:translateX(-2px)}
+.cy-server-specs :focus-visible{outline:2px solid #10aabc;outline-offset:5px}
+.cy-server-specs .cy-spec-note{font-size:10px;color:#91999e;margin:17px 0 0;line-height:1.5}
+.cy-spec-meter{position:relative;width:210px;height:210px;align-self:center}
+.cy-spec-meter svg{width:100%;height:100%;transform:rotate(-90deg);fill:none}
+.cy-spec-meter-base{stroke:#ffffff50;stroke-width:1}
+.cy-spec-meter-progress{stroke:#fff;stroke-width:3;stroke-dasharray:100;stroke-dashoffset:83.333333;transition:stroke-dashoffset .9s cubic-bezier(.22,1,.36,1)}
+.cy-spec-meter>div{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:7px;font-size:22px}
+.cy-spec-index{font-size:52px}
+.cy-spec-logos{--logo-size:190px;--logo-gap:48px;overflow:hidden;margin-top:60px;mask-image:linear-gradient(to right,transparent,#000 10%,#000 90%,transparent);-webkit-mask-image:linear-gradient(to right,transparent,#000 10%,#000 90%,transparent);direction:ltr}
+.cy-spec-logo-track{display:flex;width:max-content;animation:cy-spec-logo-travel 32s linear infinite}
+.cy-spec-logo-set{display:flex;gap:var(--logo-gap);padding-right:var(--logo-gap);flex-shrink:0}
+.cy-spec-logo-card{width:var(--logo-size);height:var(--logo-size);border:1px solid #ffffff0d;display:grid;place-items:center;flex-shrink:0}
+.cy-spec-logo-card img{width:calc(var(--logo-size)*.68);height:65px;object-fit:contain;filter:grayscale(1) brightness(1.5);opacity:.8;transition:filter .45s,opacity .45s}
+.cy-spec-logo-card:hover img,.cy-spec-logo-card:focus-visible img{filter:grayscale(0) brightness(1);opacity:1}
+.cy-spec-logos:hover .cy-spec-logo-track,.cy-spec-logos:focus-within .cy-spec-logo-track{animation-play-state:paused}
+.cy-server-specs .cy-spec-logo-note{font-size:10px;color:#7d858a;margin:16px 0 0;line-height:1.5}
+.cy-spec-status{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.cy-server-specs[dir=rtl] header h2{font-size:clamp(32px,4.8vw,64px);letter-spacing:0;line-height:1.3}
+.cy-server-specs[dir=rtl] .cy-spec-label,.cy-server-specs[dir=rtl] .cy-spec-rule{letter-spacing:0}
+.cy-server-specs[dir=rtl] .cy-spec-slide p{font-size:clamp(18px,1.8vw,25px);line-height:1.65}
+.cy-server-specs[dir=rtl] .cy-spec-more:hover i{transform:translate(-3px,-3px)}
+/* Keep the section's reference scale when legacy Arabic page rules target every h2/p. */
+html[lang=ar] .hp.public-surface section.cy-server-specs header h2{font-size:clamp(32px,4.8vw,64px)!important;line-height:1.3!important;letter-spacing:0!important}
+html[lang=ar] .hp.public-surface section.cy-server-specs .cy-spec-slide p{font-size:clamp(18px,1.8vw,25px)!important;line-height:1.65!important}
+html[lang=ar] .hp.public-surface section.cy-server-specs .cy-spec-note,html[lang=ar] .hp.public-surface section.cy-server-specs .cy-spec-logo-note{font-size:10px!important;line-height:1.5!important}
+@keyframes cy-spec-logo-travel{to{transform:translateX(-50%)}}
+@media(max-width:800px){
+ .cy-spec-wrap{width:calc(100% - 48px)}
+ .cy-server-specs header{flex-wrap:wrap;gap:12px}
+ .cy-spec-more{margin-top:10px}
+ .cy-spec-layout{grid-template-columns:minmax(0,1fr) 100px;gap:22px}
+ .cy-spec-meter{width:100px;height:100px}
+ .cy-spec-index{font-size:32px}
+ .cy-spec-meter>div{font-size:15px;gap:3px}
+ .cy-server-specs header h2{letter-spacing:-1px}
+ .cy-spec-rule{margin-block:30px}
+ .cy-spec-logos{--logo-size:140px;--logo-gap:25px;margin-top:45px}
+ .cy-spec-logo-card img{height:50px}
+}
+@media(max-width:450px){
+ .cy-spec-layout{grid-template-columns:1fr}
+ .cy-spec-meter{grid-row:2;justify-self:end;margin-top:-55px}
+ .cy-spec-note{max-width:min(65%,calc(100% - 122px))}
+}
+@media(prefers-reduced-motion:reduce){
+ .cy-server-specs *{transition:none!important}
+ .cy-spec-logo-track{animation:none}
+ .cy-spec-logos{overflow-x:auto}
+}

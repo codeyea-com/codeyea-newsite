@@ -1,0 +1,218 @@
+[
+  {
+    "slug": "website-hosting",
+    "locale": "en",
+    "heroHeight": 292,
+    "introOrder": [
+      565,
+      675,
+      1071
+    ],
+    "mediaHeight": 192,
+    "overflow": false
+  },
+  {
+    "slug": "wordpress-hosting",
+    "locale": "en",
+    "heroHeight": 385,
+    "introOrder": [
+      657,
+      768,
+      1164
+    ],
+    "mediaHeight": 218,
+    "overflow": false
+  },
+  {
+    "slug": "cloud-hosting",
+    "locale": "en",
+    "heroHeight": 296,
+    "introOrder": [
+      569,
+      722,
+      1118
+    ],
+    "mediaHeight": 196,
+    "overflow": false
+  },
+  {
+    "slug": "email-hosting",
+    "locale": "en",
+    "heroHeight": 368,
+    "introOrder": [
+      641,
+      794,
+      1190
+    ],
+    "mediaHeight": 268,
+    "overflow": false
+  },
+  {
+    "slug": "ai-automation",
+    "locale": "en",
+    "heroHeight": 292,
+    "introOrder": [
+      497,
+      609,
+      1055
+    ],
+    "mediaHeight": 192,
+    "overflow": false
+  },
+  {
+    "slug": "seo-geo",
+    "locale": "en",
+    "heroHeight": 365,
+    "introOrder": [
+      569,
+      682,
+      1127
+    ],
+    "mediaHeight": 203,
+    "overflow": false
+  },
+  {
+    "slug": "digital-marketing",
+    "locale": "en",
+    "heroHeight": 282,
+    "introOrder": [
+      486,
+      599,
+      1045
+    ],
+    "mediaHeight": 181,
+    "overflow": false
+  },
+  {
+    "slug": "technical-support",
+    "locale": "en",
+    "heroHeight": 402,
+    "introOrder": [
+      606,
+      719,
+      1165
+    ],
+    "mediaHeight": 235,
+    "overflow": false
+  },
+  {
+    "slug": "web-mobile-apps",
+    "locale": "en",
+    "heroHeight": 636,
+    "introOrder": [
+      840,
+      1344,
+      933
+    ],
+    "mediaHeight": 384,
+    "overflow": false
+  },
+  {
+    "slug": "website-hosting",
+    "locale": "ar",
+    "heroHeight": 294,
+    "introOrder": [
+      568,
+      675,
+      1071
+    ],
+    "mediaHeight": 193,
+    "overflow": false
+  },
+  {
+    "slug": "wordpress-hosting",
+    "locale": "ar",
+    "heroHeight": 342,
+    "introOrder": [
+      616,
+      723,
+      1119
+    ],
+    "mediaHeight": 241,
+    "overflow": false
+  },
+  {
+    "slug": "cloud-hosting",
+    "locale": "ar",
+    "heroHeight": 297,
+    "introOrder": [
+      571,
+      678,
+      1074
+    ],
+    "mediaHeight": 196,
+    "overflow": false
+  },
+  {
+    "slug": "email-hosting",
+    "locale": "ar",
+    "heroHeight": 414,
+    "introOrder": [
+      688,
+      796,
+      1192
+    ],
+    "mediaHeight": 246,
+    "overflow": false
+  },
+  {
+    "slug": "ai-automation",
+    "locale": "ar",
+    "heroHeight": 338,
+    "introOrder": [
+      543,
+      671,
+      1116
+    ],
+    "mediaHeight": 170,
+    "overflow": false
+  },
+  {
+    "slug": "seo-geo",
+    "locale": "ar",
+    "heroHeight": 418,
+    "introOrder": [
+      623,
+      749,
+      1196
+    ],
+    "mediaHeight": 205,
+    "overflow": false
+  },
+  {
+    "slug": "digital-marketing",
+    "locale": "ar",
+    "heroHeight": 311,
+    "introOrder": [
+      515,
+      643,
+      1089
+    ],
+    "mediaHeight": 210,
+    "overflow": false
+  },
+  {
+    "slug": "technical-support",
+    "locale": "ar",
+    "heroHeight": 359,
+    "introOrder": [
+      563,
+      690,
+      1137
+    ],
+    "mediaHeight": 258,
+    "overflow": false
+  },
+  {
+    "slug": "web-mobile-apps",
+    "locale": "ar",
+    "heroHeight": 515,
+    "introOrder": [
+      720,
+      1225,
+      827
+    ],
+    "mediaHeight": 371,
+    "overflow": false
+  }
+]

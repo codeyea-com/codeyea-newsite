@@ -169,7 +169,6 @@ export function SharedMobileView({
                     </svg>
                   </summary>
                   <div className="hp-mobile-submenu">
-                    <a href={str(item.href)}>{content.language === 'ar' ? 'استكشف' : 'Explore'} {str(item.title)}</a>
                     {items
                       .filter((child) => child.parentId === item.id)
                       .map((child) => (

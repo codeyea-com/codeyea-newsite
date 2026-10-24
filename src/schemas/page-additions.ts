@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { brandFaq, galleryCaptions } from "@/content/gallery-captions";
+import { defaultHostingServerFeatures, hostingServerFeaturesSchema } from "./hosting-server-features";
 const href = z
   .string()
   .max(500)
@@ -26,6 +27,7 @@ const section = z
   .strict();
 export const pageAdditionsSchema = z
   .object({
+    serverFeatures: hostingServerFeaturesSchema.optional(),
     galleryCaptions: z
       .array(
         z
@@ -144,6 +146,9 @@ export function resolvePageAdditions(
   const language = locale === "ar" ? "ar" : "en";
   return {
     ...pageAdditionsDefaults(slug),
+    ...(/^(website|wordpress|cloud|email)-hosting$/.test(slug)
+      ? { serverFeatures: defaultHostingServerFeatures(language) }
+      : {}),
     ...(galleryCaptions[slug]
       ? { galleryCaptions: galleryCaptions[slug][language] }
       : {}),

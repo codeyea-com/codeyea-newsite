@@ -5,8 +5,9 @@ export function mountHero(root, ar, slides) {
   const $ = (s) => root.querySelector(s.replace(/^#/, "#home-hero-")),
     $$ = (s) => [...root.querySelectorAll(s)];
   const label = (a, e) => (ar ? a : e),
-    base = ar ? "/ar" : "",
-    duration = 10;
+    base = ar ? "/ar" : "";
+  const compact = matchMedia("(max-width:767px)");
+  let duration = compact.matches ? 8.5 : 10;
   const reduced = matchMedia("(prefers-reduced-motion: reduce)");
   const sceneEls = $$(".scene"),
     controller = new AbortController();
@@ -204,6 +205,7 @@ export function mountHero(root, ar, slides) {
     setSlide(index);
     schedule();
   });
+  on(compact, "change", () => { duration = compact.matches ? 8.5 : 10; });
   on(document, "visibilitychange", () => {
     suspend();
     schedule();

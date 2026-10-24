@@ -1,0 +1,254 @@
+[
+  {
+    "slug": "roofing",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "roofing",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  },
+  {
+    "slug": "healthcare",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "healthcare",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  },
+  {
+    "slug": "construction",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "construction",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  },
+  {
+    "slug": "e-commerce",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "e-commerce",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  },
+  {
+    "slug": "small-business",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "small-business",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  },
+  {
+    "slug": "event-coordinators",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "event-coordinators",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  },
+  {
+    "slug": "legal",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "legal",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  },
+  {
+    "slug": "online-magazine",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "online-magazine",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  },
+  {
+    "slug": "oil-and-gas",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "oil-and-gas",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  },
+  {
+    "slug": "real-estate",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "real-estate",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "fashion-and-lifestyle",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  },
+  {
+    "slug": "beauty-skincare-med-spa",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "beauty-skincare-med-spa",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  },
+  {
+    "slug": "restaurants-cafes-bakeries",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "restaurants-cafes-bakeries",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  },
+  {
+    "slug": "solar-energy",
+    "locale": "ar",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "rtl"
+  },
+  {
+    "slug": "solar-energy",
+    "locale": "en",
+    "draggable": true,
+    "enhanced": true,
+    "images": 4,
+    "overflow": false,
+    "rtl": "ltr"
+  }
+]

@@ -7,7 +7,7 @@ import {editorialEntrance as pattern,scrollImageOffset} from '../motion/approved
 export function IndustriesMotion(){
  useEffect(()=>{
   const root=document.querySelector<HTMLElement>('.industry-sections');if(!root)return;
-  const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+  const reduced=matchMedia('(prefers-reduced-motion: reduce)'),compact=matchMedia('(max-width:767px)');
   const desktop=matchMedia('(min-width:1200px) and (min-height:700px) and (hover:hover) and (pointer:fine)');
   let dispose=()=>{};
   const setup=()=>{
@@ -17,7 +17,7 @@ export function IndustriesMotion(){
    const visible=new Set<HTMLElement>();let frame=0;
    const context=gsap.context(()=>{
     sections.forEach(section=>{
-     const targets=[...section.querySelectorAll<HTMLElement>('.industry-heading > *, .industry-copy > *')];
+     const targets=[...section.querySelectorAll<HTMLElement>(compact.matches?'.industry-heading,.industry-images,.industry-copy':'.industry-heading > *, .industry-copy > *')];
      gsap.set(targets,{y:pattern.distance,opacity:0});
      const timeline=gsap.timeline({paused:true,onComplete:()=>{gsap.set(targets,{clearProps:'transform,opacity'});section.dataset.entered='true';}});
      timeline.to(targets,{y:0,opacity:1,duration:pattern.duration,stagger:pattern.stagger,ease:pattern.ease},pattern.delay);timelines.set(section,timeline);
@@ -51,8 +51,8 @@ export function IndustriesMotion(){
    document.addEventListener('visibilitychange',visibility);root.addEventListener('focusin',focus);
    dispose=()=>{observer.disconnect();cancelAnimationFrame(frame);removeEventListener('scroll',schedule);removeEventListener('resize',schedule);document.removeEventListener('visibilitychange',visibility);root.removeEventListener('focusin',focus);context.revert();root.classList.remove('industry-inner-parallax');root.querySelectorAll<HTMLElement>('.industry-images img').forEach(e=>e.style.removeProperty('--industry-image-y'));};
   };
-  setup();reduced.addEventListener('change',setup);desktop.addEventListener('change',setup);
-  return()=>{dispose();reduced.removeEventListener('change',setup);desktop.removeEventListener('change',setup)};
+  setup();reduced.addEventListener('change',setup);desktop.addEventListener('change',setup);compact.addEventListener('change',setup);
+  return()=>{dispose();reduced.removeEventListener('change',setup);desktop.removeEventListener('change',setup);compact.removeEventListener('change',setup)};
  },[]);
  return null;
 }

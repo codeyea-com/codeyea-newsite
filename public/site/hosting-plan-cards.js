@@ -16,6 +16,12 @@
  const cardResize=new ResizeObserver(()=>fitHeight());cards.forEach(card=>cardResize.observe(card));
  track.addEventListener('keydown',e=>{if(e.target!==track||!['ArrowLeft','ArrowRight'].includes(e.key))return;e.preventDefault();move((e.key==='ArrowRight'?1:-1)*(ar?-1:1))});
  let drag=null,suppressClick=false;
+ // A touch gesture is clamped to one adjacent card, including fast flicks.
+ let touch=null;
+ track.addEventListener('touchstart',e=>{if(!matchMedia('(max-width:767px)').matches||e.touches.length!==1||e.target.closest('input,select,textarea'))return;touch={x:e.touches[0].clientX,y:e.touches[0].clientY,left:track.scrollLeft,index:nearest(),horizontal:false};},{passive:true});
+ track.addEventListener('touchmove',e=>{if(!touch||e.touches.length!==1)return;const dx=e.touches[0].clientX-touch.x,dy=e.touches[0].clientY-touch.y;if(!touch.horizontal&&(Math.abs(dx)<10||Math.abs(dx)<=Math.abs(dy)))return;touch.horizontal=true;e.preventDefault();const step=cards[1]?Math.abs(cards[1].offsetLeft-cards[0].offsetLeft):track.clientWidth;track.scrollLeft=touch.left-Math.max(-step,Math.min(step,dx));},{passive:false});
+ track.addEventListener('touchend',e=>{if(!touch)return;const gesture=touch;touch=null;if(!gesture.horizontal)return;e.preventDefault();const dx=e.changedTouches[0].clientX-gesture.x;suppressClick=true;goTo(gesture.index+(Math.abs(dx)>40?(dx<0?1:-1)*(ar?-1:1):0));setTimeout(()=>suppressClick=false,300);},{passive:false});
+ track.addEventListener('touchcancel',()=>{if(touch)goTo(touch.index);touch=null;},{passive:true});
  // Match the homepage industry indicator without covering clickable controls.
  const finePointer=matchMedia('(hover:hover) and (pointer:fine)');
  const cursor=document.createElement('span'),cursorLabel=document.createElement('span');

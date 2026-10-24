@@ -4,6 +4,7 @@ import {
   type PageAdditions,
 } from "@/schemas/page-additions";
 import { TemplateImageEditor } from "./template-image-editor";
+import { HostingServerFeaturesEditor } from "./hosting-server-features-editor";
 export function PageAdditionsEditor({
   slug,
   locale = "en",
@@ -24,6 +25,7 @@ export function PageAdditionsEditor({
   return (
     <section className="cms-panel">
       <h2>Additional page sections</h2>
+      {data.serverFeatures && <HostingServerFeaturesEditor value={data.serverFeatures} onChange={serverFeatures => onChange({ ...data, serverFeatures })} />}
       {data.galleryCaptions && (
         <details>
           <summary>

@@ -1,4 +1,5 @@
 import { integrateHostingPlans } from "./hosting-plan-cards";
+import { integrateHostingServerFeatures } from "./hosting-server-features-render";
 import { applyLiveReviewContent } from './live-review-content';
 import { renderReviewAdditions } from './review-additions-render';
 import { refineDomains } from "./domain-refinements";
@@ -1182,10 +1183,15 @@ export async function renderDocument(
     html = renderIntegratedHero(html, slug, artwork);
   }
   if (["website-hosting","wordpress-hosting","cloud-hosting","email-hosting"].includes(slug)) html = integrateHostingPlans(html, locale, slug);
+  html = integrateHostingServerFeatures(html, slug, locale, resolvePageAdditions(slug, content.additions, locale).serverFeatures);
   if (slug === "contact" && locale === "ar") html = html.replace(/<address>[\s\S]*?<\/address>/g, address => /بانتظار التأكيد/.test(address) ? '' : address);
   if (slug === "domains") html = refineDomains(html, locale, options.country);
   if (locale === "ar") html = html.replace(/(<(?:span|small|p)\b[^>]*>)(?:الأسئلة الشائعة|FAQ)(<\/(?:span|small|p)>)/g, '$1FAQs$2');
-  return canonicalHtmlLinks(renderReviewAdditions(applyLiveReviewContent(html,slug,locale),slug,locale,content.additions));
+  html = renderReviewAdditions(applyLiveReviewContent(html,slug,locale),slug,locale,content.additions);
+  html = html.replace(/<body\b/, `<body data-cy-document="${slug}"`)
+    .replace('</head>', '<link rel="stylesheet" href="/site/mobile-corrections.css?v=20261023-1"></head>')
+    .replace('</body>', '<script src="/site/mobile-corrections.js?v=20261023-1"></script></body>');
+  return canonicalHtmlLinks(html);
 }
 function slugTitle(slug: string) {
   return slug

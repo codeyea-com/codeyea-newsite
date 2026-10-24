@@ -51,6 +51,7 @@ export function Carousel({
   const arabic = locale === "ar";
   const [filter, setFilter] = useState("All");
   const [expanded, setExpanded] = useState(false);
+  const [compact, setCompact] = useState(false);
   const [dragging, setDragging] = useState(false);
   const cursor = useRef<HTMLSpanElement>(null);
   const pointerFrame = useRef(0);
@@ -92,6 +93,19 @@ export function Carousel({
     containScroll: false,
     duration: 36,
   });
+  useEffect(() => {
+    const query = matchMedia('(max-width:767px)');
+    const update = () => setCompact(query.matches);
+    update(); query.addEventListener('change', update);
+    return () => query.removeEventListener('change', update);
+  }, []);
+  useEffect(() => {
+    const element = root.current, track = element?.querySelector<HTMLElement>('.hp-carousel-track');
+    if (!element || !track || variant !== 'project' || !compact) return;
+    const update = () => element.style.setProperty('--cy-work-height', Math.max(parseFloat(element.style.getPropertyValue('--cy-work-height')) || 0, track.scrollHeight) + 'px');
+    const observer = new ResizeObserver(update); observer.observe(track); update();
+    return () => observer.disconnect();
+  }, [compact, variant, filtered.length]);
   useEffect(() => {
     if (!api) return;
     const sync = () => {
@@ -227,7 +241,7 @@ export function Carousel({
           if (api.canScrollNext()) api.scrollNext();
           else void rewind();
         },
-        api.canScrollNext() ? 5000 : 6000,
+        api.canScrollNext() ? (compact ? 3500 : 5000) : (compact ? 4500 : 6000),
       );
     };
     const reinitialize = () => {
@@ -265,6 +279,7 @@ export function Carousel({
     visible,
     allowed,
     filtered.length,
+    compact,
     variant,
   ]);
   const categories = [
@@ -334,7 +349,7 @@ export function Carousel({
     >
       {variant === "project" && (
         <div className="hp-project-intro-shell">
-          <div className="hp-project-intro" inert={expanded}>
+          <div className="hp-project-intro" inert={expanded && !compact}>
             <p className="hp-eyebrow">
               {str(intro?.eyebrow) || "Latest projects"}
             </p>
@@ -548,7 +563,7 @@ export function Carousel({
               disabled={!prev}
               onClick={() => api?.scrollPrev(!allowed)}
             >
-              {arabic ? "→" : "←"}
+              {compact ? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d={arabic ? "M5 12h14m-6-6 6 6-6 6" : "M19 12H5m6-6-6 6 6 6"} /></svg> : arabic ? "→" : "←"}
             </button>
             <button
               type="button"
@@ -557,7 +572,7 @@ export function Carousel({
               disabled={!next}
               onClick={() => api?.scrollNext(!allowed)}
             >
-              {arabic ? "←" : "→"}
+              {compact ? <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d={arabic ? "M19 12H5m6-6-6 6 6 6" : "M5 12h14m-6-6 6 6-6 6"} /></svg> : arabic ? "←" : "→"}
             </button>
           </div>
         </div>
