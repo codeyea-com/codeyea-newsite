@@ -12,4 +12,8 @@
 
 التنسيق مشترك مع العرض العام ومعاينة الـCMS، وإصدار أصول التصحيح هو `20261023-4`. هذه متابعة تصحح بند AR-01 في تقرير المراجعة السابق، ولا تعيد تدقيق بقية الدفعة.
 
-الأدلة: `four-slides-local.json` و`language-comparison-local.json` و`homepage-ar-local.png`. سجل النشر والتحقق الحي يضاف بعد اكتماله. هذه مقارنة متصفح وليست اختبار هاتف فعلي.
+الأدلة: `four-slides-local.json` و`language-comparison-local.json` و`homepage-ar-local.png`. هذه مقارنة متصفح وليست اختبار هاتف فعلي.
+
+نُشر التصحيح من `f042afcb715962d30b8ea48bab6c1783238844c1` على codeyea.com. إصدار Vercel Production هو `dpl_CZitFX6ZeJY9DjbEq8pccyRZGDVk` وحالته Ready، ونجح البناء خلال النشر. تحقق `live-verification.json` من نسخة CSS الحية وتطابقها مع الملف المحفوظ، وإصدار الأصول الجديد على الرئيسية العربية والإنجليزية وصفحة استضافة مبنية من وثائق الـCMS. لا تغيير في بيانات CMS ولا حاجة إلى إعادة كتابة المحتوى.
+
+`four-slides-live.json` يؤكد أن العبارات الأربع المنشورة أصبحت 9px وبحاوية ارتفاعها 28.375px. لقطة الموقع الحي محفوظة في `homepage-ar-live.png`، والمقارنة البصرية مع صورة المالك في `comparison.html` و`comparison-local.png`.

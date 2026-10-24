@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-24T04:31:59.051Z",
+  "version": "20261023-4",
+  "pages": [
+    {
+      "path": "/ar/",
+      "status": 200,
+      "assetVersion": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "assetVersion": true
+    },
+    {
+      "path": "/ar/website-hosting/",
+      "status": 200,
+      "assetVersion": true
+    }
+  ],
+  "css": {
+    "status": 200,
+    "sha256": "5d6f52af313792f63fff3e163f23edef98f7ccc6591209741dccaa478cd52899",
+    "matchesLocal": true
+  },
+  "passed": true
+}
