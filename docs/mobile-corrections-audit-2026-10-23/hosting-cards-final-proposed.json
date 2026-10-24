@@ -1,0 +1,218 @@
+[
+  {
+    "slug": "website-hosting",
+    "locale": "en",
+    "cards": [
+      {
+        "height": 468,
+        "images": "none",
+        "scroll": 468
+      },
+      {
+        "height": 449,
+        "images": "none",
+        "scroll": 449
+      },
+      {
+        "height": 487,
+        "images": "none",
+        "scroll": 487
+      },
+      {
+        "height": 487,
+        "images": "none",
+        "scroll": 487
+      }
+    ],
+    "navRows": 1
+  },
+  {
+    "slug": "website-hosting",
+    "locale": "ar",
+    "cards": [
+      {
+        "height": 432,
+        "images": "none",
+        "scroll": 432
+      },
+      {
+        "height": 432,
+        "images": "none",
+        "scroll": 432
+      },
+      {
+        "height": 432,
+        "images": "none",
+        "scroll": 432
+      },
+      {
+        "height": 432,
+        "images": "none",
+        "scroll": 432
+      }
+    ],
+    "navRows": 1
+  },
+  {
+    "slug": "wordpress-hosting",
+    "locale": "en",
+    "cards": [
+      {
+        "height": 468,
+        "images": "none",
+        "scroll": 468
+      },
+      {
+        "height": 449,
+        "images": "none",
+        "scroll": 449
+      },
+      {
+        "height": 487,
+        "images": "none",
+        "scroll": 487
+      },
+      {
+        "height": 487,
+        "images": "none",
+        "scroll": 487
+      }
+    ],
+    "navRows": 1
+  },
+  {
+    "slug": "wordpress-hosting",
+    "locale": "ar",
+    "cards": [
+      {
+        "height": 432,
+        "images": "none",
+        "scroll": 432
+      },
+      {
+        "height": 432,
+        "images": "none",
+        "scroll": 432
+      },
+      {
+        "height": 432,
+        "images": "none",
+        "scroll": 432
+      },
+      {
+        "height": 432,
+        "images": "none",
+        "scroll": 432
+      }
+    ],
+    "navRows": 1
+  },
+  {
+    "slug": "cloud-hosting",
+    "locale": "en",
+    "cards": [
+      {
+        "height": 449,
+        "images": "none",
+        "scroll": 449
+      },
+      {
+        "height": 449,
+        "images": "none",
+        "scroll": 449
+      },
+      {
+        "height": 487,
+        "images": "none",
+        "scroll": 487
+      },
+      {
+        "height": 487,
+        "images": "none",
+        "scroll": 487
+      }
+    ],
+    "navRows": 1
+  },
+  {
+    "slug": "cloud-hosting",
+    "locale": "ar",
+    "cards": [
+      {
+        "height": 413,
+        "images": "none",
+        "scroll": 413
+      },
+      {
+        "height": 432,
+        "images": "none",
+        "scroll": 432
+      },
+      {
+        "height": 432,
+        "images": "none",
+        "scroll": 432
+      },
+      {
+        "height": 432,
+        "images": "none",
+        "scroll": 432
+      }
+    ],
+    "navRows": 1
+  },
+  {
+    "slug": "email-hosting",
+    "locale": "en",
+    "cards": [
+      {
+        "height": 349,
+        "images": "none",
+        "scroll": 349
+      },
+      {
+        "height": 387,
+        "images": "none",
+        "scroll": 387
+      },
+      {
+        "height": 395,
+        "images": "none",
+        "scroll": 395
+      },
+      {
+        "height": 387,
+        "images": "none",
+        "scroll": 387
+      }
+    ],
+    "navRows": 1
+  },
+  {
+    "slug": "email-hosting",
+    "locale": "ar",
+    "cards": [
+      {
+        "height": 332,
+        "images": "none",
+        "scroll": 332
+      },
+      {
+        "height": 370,
+        "images": "none",
+        "scroll": 370
+      },
+      {
+        "height": 378,
+        "images": "none",
+        "scroll": 378
+      },
+      {
+        "height": 370,
+        "images": "none",
+        "scroll": 370
+      }
+    ],
+    "navRows": 1
+  }
+]

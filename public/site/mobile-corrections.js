@@ -13,7 +13,7 @@
     if (!title || !copy || !media) return;
     hero.classList.add('cy-compact-hero');
     if (!mobile.matches) {
-      ['--cy-hero-overlap','--cy-hero-height','--cy-scene-left','--cy-scene-top','--cy-scene-scale'].forEach(key => hero.style.removeProperty(key));
+      ['--cy-hero-overlap','--cy-hero-height','--cy-scene-left','--cy-scene-top','--cy-scene-scale','--cy-journey-width','--cy-journey-scale'].forEach(key => hero.style.removeProperty(key));
       return;
     }
     const lines = [], walker = document.createTreeWalker(title, NodeFilter.SHOW_TEXT);
@@ -29,9 +29,15 @@
     const artTop = Math.max(18, title.getBoundingClientRect().bottom-backgroundTop+18);
     const scene = media.querySelector('.automation-scene,.support-scene,.hosting-scene,.wp-scene,.cloud-scene,.mail-scene,.seo-scene,.campaign-scene');
     if (!scene) {
-      hero.style.setProperty('--cy-hero-height', Math.ceil(artTop+330)+'px');
       const journey = media.querySelector('.app-journey');
-      if (journey) journey.style.top = artTop+'px';
+      if (journey) {
+        const frameWidth=(media.querySelector('.hero-art-box')||media).getBoundingClientRect().width;
+        const canvasWidth=Math.max(350,frameWidth),scale=frameWidth/canvasWidth;
+        hero.style.setProperty('--cy-journey-width',canvasWidth+'px');
+        hero.style.setProperty('--cy-journey-scale',String(scale));
+        hero.style.setProperty('--cy-scene-top',artTop+'px');
+        hero.style.setProperty('--cy-hero-height',Math.ceil(artTop+363*scale)+'px');
+      }
       return;
     }
     // Measure the existing scene's meaningful layers, then contain their complete footprint.
@@ -43,7 +49,7 @@
     const minY = Math.min(0,...boxes.map(r => r.top-origin.top));
     const maxY = Math.max(...boxes.map(r => r.bottom-origin.top),1);
     const frameWidth = (media.querySelector('.hero-art-box') || media).getBoundingClientRect().width;
-    const scale = Math.min(frameWidth/(maxX-minX),280/(maxY-minY));
+    const scale = Math.min(frameWidth/(maxX-minX),(hero.matches('.digital-live-hero')?360:280)/(maxY-minY));
     hero.style.setProperty('--cy-scene-scale',String(scale));
     hero.style.setProperty('--cy-scene-left',(-minX*scale)+'px');
     hero.style.setProperty('--cy-scene-top',(artTop-minY*scale)+'px');

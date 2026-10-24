@@ -1,0 +1,1150 @@
+[
+  {
+    "slug": "website-hosting",
+    "locale": "en",
+    "frame": {
+      "bottom": 389.78472900390625,
+      "left": 0,
+      "right": 303.1111145019531,
+      "top": 241.78472900390625
+    },
+    "heroHeight": 314.8958435058594,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 290.2346224784851,
+        "class": "hosting-index",
+        "inside": true,
+        "left": 18.4976749420166,
+        "right": 85.46734046936035,
+        "top": 286.5100402832031
+      },
+      {
+        "bottom": 364.834358215332,
+        "class": "server-stack",
+        "inside": true,
+        "left": 30.88844108581543,
+        "right": 91.46925926208496,
+        "top": 293.54803466796875
+      },
+      {
+        "bottom": 339.9900379180908,
+        "class": "hosting-trace",
+        "inside": true,
+        "left": 91.26136779785156,
+        "right": 107.9738712310791,
+        "top": 316.07830810546875
+      },
+      {
+        "bottom": 364.2567825317383,
+        "class": "hosting-browser",
+        "inside": true,
+        "left": 107.11636352539062,
+        "right": 267.47166442871094,
+        "top": 291.2973327636719
+      },
+      {
+        "bottom": 370.9299087524414,
+        "class": "hosting-status",
+        "inside": true,
+        "left": 237.5589141845703,
+        "right": 291.55554962158203,
+        "top": 347.1033020019531
+      },
+      {
+        "bottom": 369.558322429657,
+        "class": "hosting-note",
+        "inside": true,
+        "left": 19.783252716064453,
+        "right": 74.76133346557617,
+        "top": 365.833740234375
+      }
+    ]
+  },
+  {
+    "slug": "website-hosting",
+    "locale": "ar",
+    "frame": {
+      "bottom": 391.13194274902344,
+      "left": 16.88888931274414,
+      "right": 320.00000381469727,
+      "top": 243.13194274902344
+    },
+    "heroHeight": 316.2430725097656,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 291.81162190437317,
+        "class": "hosting-index",
+        "inside": true,
+        "left": 35.38656234741211,
+        "right": 88.90230178833008,
+        "top": 288.3155822753906
+      },
+      {
+        "bottom": 366.63993072509766,
+        "class": "server-stack",
+        "inside": true,
+        "left": 47.7773323059082,
+        "right": 108.35815048217772,
+        "top": 295.3536071777344
+      },
+      {
+        "bottom": 341.79561042785645,
+        "class": "hosting-trace",
+        "inside": true,
+        "left": 108.15025329589844,
+        "right": 124.86276435852052,
+        "top": 317.8838806152344
+      },
+      {
+        "bottom": 366.0623550415039,
+        "class": "hosting-browser",
+        "inside": true,
+        "left": 124.0052490234375,
+        "right": 284.3605499267578,
+        "top": 293.1029052734375
+      },
+      {
+        "bottom": 372.7354507446289,
+        "class": "hosting-status",
+        "inside": true,
+        "left": 254.44781494140625,
+        "right": 308.44445037841797,
+        "top": 348.9088439941406
+      },
+      {
+        "bottom": 371.3638679981232,
+        "class": "hosting-note",
+        "inside": true,
+        "left": 36.67213821411133,
+        "right": 56.33076286315918,
+        "top": 367.8678283691406
+      }
+    ]
+  },
+  {
+    "slug": "wordpress-hosting",
+    "locale": "en",
+    "frame": {
+      "bottom": 427.78472900390625,
+      "left": 0,
+      "right": 303.1111145019531,
+      "top": 241.78472900390625
+    },
+    "heroHeight": 352.8958435058594,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 409.6829299926758,
+        "class": "wp-back-swoosh",
+        "inside": true,
+        "left": 80.18670654296875,
+        "right": 268.29527282714844,
+        "top": 281.8811950683594
+      },
+      {
+        "bottom": 304.4716866016388,
+        "class": "wp-index",
+        "inside": true,
+        "left": 17.656259536743164,
+        "right": 95.90273475646973,
+        "top": 300.78936767578125
+      },
+      {
+        "bottom": 381.60784912109375,
+        "class": "wp-editor",
+        "inside": true,
+        "left": 32.4908332824707,
+        "right": 166.26971817016602,
+        "top": 307.1600646972656
+      },
+      {
+        "bottom": 362.3048095703125,
+        "class": "wp-link",
+        "inside": true,
+        "left": 149.8381805419922,
+        "right": 168.14029121398926,
+        "top": 329.7677001953125
+      },
+      {
+        "bottom": 378.3059844970703,
+        "class": "wp-site",
+        "inside": true,
+        "left": 161.69338989257812,
+        "right": 280.84112548828125,
+        "top": 308.68255615234375
+      },
+      {
+        "bottom": 385.2241916656494,
+        "class": "wp-feedback",
+        "inside": true,
+        "left": 240.2017364501953,
+        "right": 291.55554962158203,
+        "top": 366.5843811035156
+      },
+      {
+        "bottom": 384.4198372364044,
+        "class": "wp-bottom-note",
+        "inside": true,
+        "left": 18.16465187072754,
+        "right": 76.54499626159668,
+        "top": 380.7375183105469
+      }
+    ]
+  },
+  {
+    "slug": "wordpress-hosting",
+    "locale": "ar",
+    "frame": {
+      "bottom": 430.13194274902344,
+      "left": 16.88888931274414,
+      "right": 320.00000381469727,
+      "top": 243.13194274902344
+    },
+    "heroHeight": 355.2430725097656,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 411.4884719848633,
+        "class": "wp-back-swoosh",
+        "inside": true,
+        "left": 97.07559967041016,
+        "right": 285.18416595458984,
+        "top": 283.6867370605469
+      },
+      {
+        "bottom": 306.0512628555298,
+        "class": "wp-index",
+        "inside": true,
+        "left": 34.54515075683594,
+        "right": 82.21925354003906,
+        "top": 302.59490966796875
+      },
+      {
+        "bottom": 383.4134216308594,
+        "class": "wp-editor",
+        "inside": true,
+        "left": 49.37971878051758,
+        "right": 183.1586036682129,
+        "top": 308.96563720703125
+      },
+      {
+        "bottom": 364.1103515625,
+        "class": "wp-link",
+        "inside": true,
+        "left": 166.72706604003906,
+        "right": 185.02917671203613,
+        "top": 331.5732421875
+      },
+      {
+        "bottom": 380.11155700683594,
+        "class": "wp-site",
+        "inside": true,
+        "left": 178.582275390625,
+        "right": 297.7300109863281,
+        "top": 310.4881286621094
+      },
+      {
+        "bottom": 387.0297336578369,
+        "class": "wp-feedback",
+        "inside": true,
+        "left": 257.09063720703125,
+        "right": 308.44445037841797,
+        "top": 368.3899230957031
+      },
+      {
+        "bottom": 386.22539615631104,
+        "class": "wp-bottom-note",
+        "inside": true,
+        "left": 35.05354309082031,
+        "right": 60.58964920043945,
+        "top": 382.76904296875
+      }
+    ]
+  },
+  {
+    "slug": "cloud-hosting",
+    "locale": "en",
+    "frame": {
+      "bottom": 391.78472900390625,
+      "left": 0,
+      "right": 303.1111145019531,
+      "top": 241.78472900390625
+    },
+    "heroHeight": 316.8958435058594,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 373.4495315551758,
+        "class": "cloud-field",
+        "inside": true,
+        "left": 11.55555534362793,
+        "right": 291.55555534362793,
+        "top": 281.8819580078125
+      },
+      {
+        "bottom": 289.31987166404724,
+        "class": "cloud-index",
+        "inside": true,
+        "left": 17.357357025146484,
+        "right": 91.70170211791992,
+        "top": 285.66571044921875
+      },
+      {
+        "bottom": 365.27616119384766,
+        "class": "cloud-console",
+        "inside": true,
+        "left": 20.203529357910156,
+        "right": 75.80848693847656,
+        "top": 294.3435974121094
+      },
+      {
+        "bottom": 373.4495315551758,
+        "class": "cloud-connectors",
+        "inside": true,
+        "left": 11.55555534362793,
+        "right": 291.55555534362793,
+        "top": 281.8819580078125
+      },
+      {
+        "bottom": 356.3962516784668,
+        "class": "cloud-site cloud-site-left",
+        "inside": true,
+        "left": 74.63361358642578,
+        "right": 128.58559799194336,
+        "top": 309.7820739746094
+      },
+      {
+        "bottom": 352.62342834472656,
+        "class": "cloud-site cloud-site-right",
+        "inside": true,
+        "left": 226.74220275878903,
+        "right": 280.9455032348633,
+        "top": 305.9873046875
+      },
+      {
+        "bottom": 364.2398147583008,
+        "class": "cloud-site cloud-site-main",
+        "inside": true,
+        "left": 111.09110260009766,
+        "right": 242.7227249145508,
+        "top": 291.0916748046875
+      },
+      {
+        "bottom": 369.665757894516,
+        "class": "cloud-bottom",
+        "inside": true,
+        "left": 18.11411476135254,
+        "right": 72.63913917541504,
+        "top": 366.0115966796875
+      }
+    ]
+  },
+  {
+    "slug": "cloud-hosting",
+    "locale": "ar",
+    "frame": {
+      "bottom": 394.13194274902344,
+      "left": 16.88888931274414,
+      "right": 320.00000381469727,
+      "top": 243.13194274902344
+    },
+    "heroHeight": 319.2430725097656,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 375.2550735473633,
+        "class": "cloud-field",
+        "inside": true,
+        "left": 28.44444465637207,
+        "right": 308.44444465637207,
+        "top": 283.6875
+      },
+      {
+        "bottom": 290.9012145996094,
+        "class": "cloud-index",
+        "inside": true,
+        "left": 34.246246337890625,
+        "right": 80.31031036376953,
+        "top": 287.4712829589844
+      },
+      {
+        "bottom": 367.0817031860352,
+        "class": "cloud-console",
+        "inside": true,
+        "left": 37.0924186706543,
+        "right": 92.6973762512207,
+        "top": 296.1491394042969
+      },
+      {
+        "bottom": 375.2550735473633,
+        "class": "cloud-connectors",
+        "inside": true,
+        "left": 28.44444465637207,
+        "right": 308.44444465637207,
+        "top": 283.6875
+      },
+      {
+        "bottom": 358.2017936706543,
+        "class": "cloud-site cloud-site-left",
+        "inside": true,
+        "left": 91.52249908447266,
+        "right": 145.47448348999023,
+        "top": 311.5876159667969
+      },
+      {
+        "bottom": 354.4290008544922,
+        "class": "cloud-site cloud-site-right",
+        "inside": true,
+        "left": 243.63107299804688,
+        "right": 297.83438873291016,
+        "top": 307.7928771972656
+      },
+      {
+        "bottom": 366.0453567504883,
+        "class": "cloud-site cloud-site-main",
+        "inside": true,
+        "left": 127.97998046875,
+        "right": 259.6116027832031,
+        "top": 292.897216796875
+      },
+      {
+        "bottom": 371.4713101387024,
+        "class": "cloud-bottom",
+        "inside": true,
+        "left": 35.00300598144531,
+        "right": 65.23122978210449,
+        "top": 368.0413513183594
+      }
+    ]
+  },
+  {
+    "slug": "email-hosting",
+    "locale": "en",
+    "frame": {
+      "bottom": 449.78472900390625,
+      "left": 0,
+      "right": 303.1111145019531,
+      "top": 241.78472900390625
+    },
+    "heroHeight": 374.8958435058594,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 431.54103088378906,
+        "class": "mail-back-shape",
+        "inside": true,
+        "left": 176.25177001953125,
+        "right": 291.5555648803711,
+        "top": 281.87554931640625
+      },
+      {
+        "bottom": 325.4370186328888,
+        "class": "mail-index",
+        "inside": true,
+        "left": 17.989238739013672,
+        "right": 116.87317276000977,
+        "top": 321.70904541015625
+      },
+      {
+        "bottom": 401.4728164672851,
+        "class": "mail-browser",
+        "inside": true,
+        "left": 31.54142951965332,
+        "right": 267.70337104797363,
+        "top": 326.3551940917969
+      },
+      {
+        "bottom": 410.092173576355,
+        "class": "mail-domain",
+        "inside": true,
+        "left": 214.72276306152344,
+        "right": 280.62071228027344,
+        "top": 398.8002624511719
+      },
+      {
+        "bottom": 405.8616166114807,
+        "class": "mail-replay",
+        "inside": true,
+        "left": 17.73189353942871,
+        "right": 34.69358444213867,
+        "top": 398.7398986816406
+      }
+    ]
+  },
+  {
+    "slug": "email-hosting",
+    "locale": "ar",
+    "frame": {
+      "bottom": 452.13194274902344,
+      "left": 16.88888931274414,
+      "right": 320.00000381469727,
+      "top": 243.13194274902344
+    },
+    "heroHeight": 377.2430725097656,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 433.34657287597656,
+        "class": "mail-back-shape",
+        "inside": true,
+        "left": 193.14065551757812,
+        "right": 308.44445037841797,
+        "top": 283.68109130859375
+      },
+      {
+        "bottom": 327.0138008594513,
+        "class": "mail-index",
+        "inside": true,
+        "left": 34.87812805175781,
+        "right": 83.66510772705078,
+        "top": 323.51458740234375
+      },
+      {
+        "bottom": 403.2783889770508,
+        "class": "mail-browser",
+        "inside": true,
+        "left": 48.43031692504883,
+        "right": 284.59225845336914,
+        "top": 328.1607666015625
+      },
+      {
+        "bottom": 411.8977460861206,
+        "class": "mail-domain",
+        "inside": true,
+        "left": 231.6116485595703,
+        "right": 297.5095977783203,
+        "top": 400.6058349609375
+      },
+      {
+        "bottom": 407.66718912124634,
+        "class": "mail-replay",
+        "inside": true,
+        "left": 34.62078094482422,
+        "right": 53.34637451171875,
+        "top": 400.54547119140625
+      }
+    ]
+  },
+  {
+    "slug": "ai-automation",
+    "locale": "en",
+    "frame": {
+      "bottom": 389.78472900390625,
+      "left": 0,
+      "right": 303.1111145019531,
+      "top": 241.78472900390625
+    },
+    "heroHeight": 314.8958435058594,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 360.51891326904297,
+        "class": "automation-inbound",
+        "inside": true,
+        "left": 16.708616256713867,
+        "right": 78.16441535949707,
+        "top": 302.74468994140625
+      },
+      {
+        "bottom": 329.9777018427849,
+        "class": "automation-arrow automation-arrow--in",
+        "inside": true,
+        "left": 75.17428588867188,
+        "right": 82.80853605270386,
+        "top": 329.46875
+      },
+      {
+        "bottom": 364.0773391723633,
+        "class": "automation-console",
+        "inside": true,
+        "left": 80.26377868652344,
+        "right": 222.7697296142578,
+        "top": 293.0788269042969
+      },
+      {
+        "bottom": 329.9777018427849,
+        "class": "automation-arrow automation-arrow--out",
+        "inside": true,
+        "left": 220.7339324951172,
+        "right": 229.13162422180176,
+        "top": 329.46875
+      },
+      {
+        "bottom": 364.13236236572266,
+        "class": "automation-results",
+        "inside": true,
+        "left": 226.76373291015625,
+        "right": 291.5555648803711,
+        "top": 298.11334228515625
+      },
+      {
+        "bottom": 370.9481709003449,
+        "class": "automation-caption",
+        "inside": true,
+        "left": 18.68085479736328,
+        "right": 101.97721099853516,
+        "top": 367.9209899902344
+      }
+    ]
+  },
+  {
+    "slug": "ai-automation",
+    "locale": "ar",
+    "frame": {
+      "bottom": 391.13194274902344,
+      "left": 16.88888931274414,
+      "right": 320.00000381469727,
+      "top": 243.13194274902344
+    },
+    "heroHeight": 316.2430725097656,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 362.32445526123047,
+        "class": "automation-inbound",
+        "inside": true,
+        "left": 33.597503662109375,
+        "right": 95.05330276489258,
+        "top": 304.55023193359375
+      },
+      {
+        "bottom": 331.7832743525505,
+        "class": "automation-arrow automation-arrow--in",
+        "inside": true,
+        "left": 92.06317138671876,
+        "right": 99.69742155075072,
+        "top": 331.2743225097656
+      },
+      {
+        "bottom": 365.8829116821289,
+        "class": "automation-console",
+        "inside": true,
+        "left": 97.15267181396484,
+        "right": 239.65863800048828,
+        "top": 294.8843994140625
+      },
+      {
+        "bottom": 331.7832743525505,
+        "class": "automation-arrow automation-arrow--out",
+        "inside": true,
+        "left": 237.62283325195312,
+        "right": 246.0205116271973,
+        "top": 331.2743225097656
+      },
+      {
+        "bottom": 365.93790435791016,
+        "class": "automation-results",
+        "inside": true,
+        "left": 243.65261840820312,
+        "right": 308.44445037841797,
+        "top": 299.91888427734375
+      },
+      {
+        "bottom": 372.7537128925323,
+        "class": "automation-caption",
+        "inside": true,
+        "left": 35.56974411010742,
+        "right": 70.8905029296875,
+        "top": 369.7265319824219
+      }
+    ]
+  },
+  {
+    "slug": "seo-geo",
+    "locale": "en",
+    "frame": {
+      "bottom": 412.49305725097656,
+      "left": 0,
+      "right": 303.1111145019531,
+      "top": 236.49305725097656
+    },
+    "heroHeight": 337.6041564941406,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 363.34827423095703,
+        "class": "seo-globe",
+        "inside": true,
+        "left": 44.66900634765625,
+        "right": 124.43508911132812,
+        "top": 283.5821838378906
+      },
+      {
+        "bottom": 388.873420715332,
+        "class": "seo-monitor",
+        "inside": true,
+        "left": 79.76608276367188,
+        "right": 264.82337951660156,
+        "top": 294.74945068359375
+      },
+      {
+        "bottom": 378.6633758544922,
+        "class": "seo-person",
+        "inside": true,
+        "left": 82.95672607421875,
+        "right": 165.9134521484375,
+        "top": 275.2865295410156
+      },
+      {
+        "bottom": 342.7021675109863,
+        "class": "seo-answer",
+        "inside": true,
+        "left": 204.20115661621097,
+        "right": 260.0374069213867,
+        "top": 300.8116760253906
+      },
+      {
+        "bottom": 393.6593894958496,
+        "class": "seo-target",
+        "inside": true,
+        "left": 57.43157958984375,
+        "right": 94.1239776611328,
+        "top": 356.96697998046875
+      },
+      {
+        "bottom": 381.2158889770508,
+        "class": "seo-rank",
+        "inside": true,
+        "left": 87.74269104003906,
+        "right": 116.23690032958984,
+        "top": 352.5333251953125
+      },
+      {
+        "bottom": 393.9784507751465,
+        "class": "seo-lens",
+        "inside": true,
+        "left": 257.8039855957031,
+        "right": 303.1111145019531,
+        "top": 348.6712951660156
+      }
+    ]
+  },
+  {
+    "slug": "seo-geo",
+    "locale": "ar",
+    "frame": {
+      "bottom": 511.1319580078125,
+      "left": 16.88888931274414,
+      "right": 320.00000381469727,
+      "top": 333.1319580078125
+    },
+    "heroHeight": 436.2430725097656,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 461.744140625,
+        "class": "seo-globe",
+        "inside": true,
+        "left": 61.55789566040039,
+        "right": 141.3239784240723,
+        "top": 381.97802734375
+      },
+      {
+        "bottom": 487.2692642211914,
+        "class": "seo-monitor",
+        "inside": true,
+        "left": 96.65496826171876,
+        "right": 281.71226501464844,
+        "top": 393.1452941894531
+      },
+      {
+        "bottom": 477.05918884277344,
+        "class": "seo-person",
+        "inside": true,
+        "left": 99.84561920166016,
+        "right": 182.8023452758789,
+        "top": 373.6823425292969
+      },
+      {
+        "bottom": 478.3398971557617,
+        "class": "seo-answer",
+        "inside": true,
+        "left": 221.0900421142578,
+        "right": 276.9262924194336,
+        "top": 399.2074890136719
+      },
+      {
+        "bottom": 492.05523681640625,
+        "class": "seo-target",
+        "inside": true,
+        "left": 74.32047271728516,
+        "right": 111.01287078857422,
+        "top": 455.36285400390625
+      },
+      {
+        "bottom": 479.611701965332,
+        "class": "seo-rank",
+        "inside": true,
+        "left": 104.63157653808594,
+        "right": 150.02511978149414,
+        "top": 450.92913818359375
+      },
+      {
+        "bottom": 492.37429428100586,
+        "class": "seo-lens",
+        "inside": true,
+        "left": 274.69287109375,
+        "right": 320,
+        "top": 447.067138671875
+      }
+    ]
+  },
+  {
+    "slug": "digital-marketing",
+    "locale": "en",
+    "frame": {
+      "bottom": 367.5833282470703,
+      "left": 0,
+      "right": 303.1111145019531,
+      "top": 226.5833282470703
+    },
+    "heroHeight": 292.6944580078125,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 328.3347625732422,
+        "class": "campaign-channels",
+        "inside": true,
+        "left": 12.91783618927002,
+        "right": 53.51664066314697,
+        "top": 283.4952697753906
+      },
+      {
+        "bottom": 346.0210647583008,
+        "class": "campaign-post",
+        "inside": true,
+        "left": 93.9947509765625,
+        "right": 153.53964614868164,
+        "top": 266.1768493652344
+      },
+      {
+        "bottom": 321.60548210144043,
+        "class": "campaign-motion",
+        "inside": true,
+        "left": 190.2289581298828,
+        "right": 207.0080108642578,
+        "top": 312.5245361328125
+      },
+      {
+        "bottom": 318.9817695617676,
+        "class": "campaign-conversion",
+        "inside": true,
+        "left": 248.5845489501953,
+        "right": 291.5555229187012,
+        "top": 275.0653991699219
+      },
+      {
+        "bottom": 332.28454971313477,
+        "class": "campaign-order",
+        "inside": true,
+        "left": 242.11672973632812,
+        "right": 279.88227462768555,
+        "top": 318.7997131347656
+      },
+      {
+        "bottom": 349.0420913696289,
+        "class": "campaign-stamp",
+        "inside": true,
+        "left": 245.2360076904297,
+        "right": 288.6019744873047,
+        "top": 330.5563049316406
+      }
+    ]
+  },
+  {
+    "slug": "digital-marketing",
+    "locale": "ar",
+    "frame": {
+      "bottom": 358.6875,
+      "left": 16.88888931274414,
+      "right": 320.00000381469727,
+      "top": 175.6875
+    },
+    "heroHeight": 283.7986145019531,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 297.63970947265625,
+        "class": "campaign-channels",
+        "inside": true,
+        "left": 30.060293197631836,
+        "right": 70.15196418762207,
+        "top": 260.05255126953125
+      },
+      {
+        "bottom": 340.0517349243164,
+        "class": "campaign-post",
+        "inside": true,
+        "left": 110.5801010131836,
+        "right": 170.73207092285156,
+        "top": 242.82305908203125
+      },
+      {
+        "bottom": 298.60548210144043,
+        "class": "campaign-motion",
+        "inside": true,
+        "left": 207.11785888671875,
+        "right": 223.89691162109375,
+        "top": 289.5245361328125
+      },
+      {
+        "bottom": 295.8902473449707,
+        "class": "campaign-conversion",
+        "inside": true,
+        "left": 265.47344970703125,
+        "right": 308.4444236755371,
+        "top": 251.973876953125
+      },
+      {
+        "bottom": 309.28454971313477,
+        "class": "campaign-order",
+        "inside": true,
+        "left": 265.1470031738281,
+        "right": 296.77116203308105,
+        "top": 295.7997131347656
+      },
+      {
+        "bottom": 325.19109535217285,
+        "class": "campaign-stamp",
+        "inside": true,
+        "left": 281.6161193847656,
+        "right": 305.528039932251,
+        "top": 308.4073486328125
+      }
+    ]
+  },
+  {
+    "slug": "technical-support",
+    "locale": "en",
+    "frame": {
+      "bottom": 441.78472900390625,
+      "left": 0,
+      "right": 303.1111145019531,
+      "top": 241.78472900390625
+    },
+    "heroHeight": 366.8958435058594,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 398.5120315551758,
+        "class": "support-photo",
+        "inside": true,
+        "left": 208.31231689453125,
+        "right": 291.5555648803711,
+        "top": 306.9444580078125
+      },
+      {
+        "bottom": 422.8233642578125,
+        "class": "support-stripe",
+        "inside": true,
+        "left": 150.8634490966797,
+        "right": 244.3197479248047,
+        "top": 281.8763427734375
+      },
+      {
+        "bottom": 390.5590896606446,
+        "class": "support-browser",
+        "inside": true,
+        "left": 62.65201950073242,
+        "right": 193.79243087768555,
+        "top": 316.66314697265625
+      },
+      {
+        "bottom": 394.3694725036621,
+        "class": "support-ticket",
+        "inside": true,
+        "left": 14.345545768737791,
+        "right": 60.729533195495605,
+        "top": 362.54644775390625
+      },
+      {
+        "bottom": 390.2661209106446,
+        "class": "support-diagnostics",
+        "inside": true,
+        "left": 194.13607788085935,
+        "right": 245.1912422180176,
+        "top": 327.04620361328125
+      },
+      {
+        "bottom": 314.2334899902344,
+        "class": "support-live-tag",
+        "inside": true,
+        "left": 17.861862182617188,
+        "right": 88.04054260253906,
+        "top": 311.2327575683594
+      },
+      {
+        "bottom": 394.2237310409546,
+        "class": "support-replay",
+        "inside": true,
+        "left": 262.9564514160156,
+        "right": 281.96996116638184,
+        "top": 387.6651916503906
+      }
+    ]
+  },
+  {
+    "slug": "technical-support",
+    "locale": "ar",
+    "frame": {
+      "bottom": 397.6875,
+      "left": 16.88888931274414,
+      "right": 320.00000381469727,
+      "top": 175.6875
+    },
+    "heroHeight": 322.7986145019531,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 355.3175735473633,
+        "class": "support-photo",
+        "inside": true,
+        "left": 225.20120239257812,
+        "right": 308.44445037841797,
+        "top": 263.75
+      },
+      {
+        "bottom": 379.62890625,
+        "class": "support-stripe",
+        "inside": true,
+        "left": 167.75233459472656,
+        "right": 261.20863342285156,
+        "top": 238.681884765625
+      },
+      {
+        "bottom": 347.36463165283203,
+        "class": "support-browser",
+        "inside": true,
+        "left": 79.54090881347656,
+        "right": 210.6813201904297,
+        "top": 273.46868896484375
+      },
+      {
+        "bottom": 351.1750144958496,
+        "class": "support-ticket",
+        "inside": true,
+        "left": 31.23443603515625,
+        "right": 77.61842346191406,
+        "top": 319.35198974609375
+      },
+      {
+        "bottom": 347.07166290283203,
+        "class": "support-diagnostics",
+        "inside": true,
+        "left": 211.0249786376953,
+        "right": 262.0801429748535,
+        "top": 283.85174560546875
+      },
+      {
+        "bottom": 271.0390319824219,
+        "class": "support-live-tag",
+        "inside": true,
+        "left": 34.75075149536133,
+        "right": 81.0145149230957,
+        "top": 268.0382995605469
+      },
+      {
+        "bottom": 351.0292730331421,
+        "class": "support-replay",
+        "inside": true,
+        "left": 277.6539001464844,
+        "right": 298.8588695526123,
+        "top": 344.4707336425781
+      }
+    ]
+  },
+  {
+    "slug": "web-mobile-apps",
+    "locale": "en",
+    "frame": {
+      "bottom": 633.5486145019531,
+      "left": 0,
+      "right": 303.1111145019531,
+      "top": 295.5486145019531
+    },
+    "heroHeight": 558.6597290039062,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 585.5655364990234,
+        "class": "desktop-store",
+        "inside": true,
+        "left": 9.95617389678955,
+        "right": 186.7549409866333,
+        "top": 397.7638854980469
+      },
+      {
+        "bottom": 611.6863098144531,
+        "class": "device device--browse",
+        "inside": true,
+        "left": 43.08903884887695,
+        "right": 146.42207717895508,
+        "top": 405.9233093261719
+      },
+      {
+        "bottom": 608.8440704345703,
+        "class": "device device--detail",
+        "inside": true,
+        "left": 113.95556640625,
+        "right": 214.75556182861328,
+        "top": 391.2440490722656
+      },
+      {
+        "bottom": 607.8350677490234,
+        "class": "device device--checkout",
+        "inside": true,
+        "left": 195.08905029296875,
+        "right": 298.4220733642578,
+        "top": 402.0720520019531
+      }
+    ]
+  },
+  {
+    "slug": "web-mobile-apps",
+    "locale": "ar",
+    "frame": {
+      "bottom": 550.1319427490234,
+      "left": 16.88888931274414,
+      "right": 320.00000381469727,
+      "top": 219.13194274902344
+    },
+    "heroHeight": 475.2430725097656,
+    "overflow": false,
+    "parts": [
+      {
+        "bottom": 502.32640075683594,
+        "class": "desktop-store",
+        "inside": true,
+        "left": 26.845062255859375,
+        "right": 203.64382934570312,
+        "top": 314.5247497558594
+      },
+      {
+        "bottom": 528.8583068847656,
+        "class": "device device--browse",
+        "inside": true,
+        "left": 59.97793197631836,
+        "right": 163.31097030639648,
+        "top": 323.0953369140625
+      },
+      {
+        "bottom": 526.0352630615234,
+        "class": "device device--detail",
+        "inside": true,
+        "left": 130.84445190429688,
+        "right": 231.64444732666016,
+        "top": 308.435302734375
+      },
+      {
+        "bottom": 525.0796508789062,
+        "class": "device device--checkout",
+        "inside": true,
+        "left": 211.9779357910156,
+        "right": 315.3109588623047,
+        "top": 319.3166809082031
+      }
+    ]
+  }
+]

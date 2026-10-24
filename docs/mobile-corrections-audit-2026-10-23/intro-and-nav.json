@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "website-hosting",
+    "locale": "en",
+    "cards": [
+      {
+        "copyHeight": 535,
+        "copyScrollHeight": 585,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 535,
+        "copyScrollHeight": 562,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 535,
+        "copyScrollHeight": 582,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 535,
+        "copyScrollHeight": 582,
+        "height": 575,
+        "image": "none"
+      }
+    ],
+    "copyTop": 1020.3194580078124,
+    "headingTop": 513.9305419921875,
+    "imageTop": 624.3194580078125,
+    "navRows": 1,
+    "ordered": true
+  },
+  {
+    "slug": "website-hosting",
+    "locale": "ar",
+    "cards": [
+      {
+        "copyHeight": 519,
+        "copyScrollHeight": 519,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 497,
+        "copyScrollHeight": 497,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 497,
+        "copyScrollHeight": 497,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 497,
+        "copyScrollHeight": 497,
+        "height": 575,
+        "image": "none"
+      }
+    ],
+    "copyTop": 1020.763916015625,
+    "headingTop": 517.0694580078125,
+    "imageTop": 624.763916015625,
+    "navRows": 1,
+    "ordered": true
+  },
+  {
+    "slug": "wordpress-hosting",
+    "locale": "en",
+    "cards": [
+      {
+        "copyHeight": 535,
+        "copyScrollHeight": 585,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 535,
+        "copyScrollHeight": 562,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 535,
+        "copyScrollHeight": 582,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 535,
+        "copyScrollHeight": 582,
+        "height": 575,
+        "image": "none"
+      }
+    ],
+    "copyTop": 1112.8541259765625,
+    "headingTop": 606.4652709960938,
+    "imageTop": 716.8541870117188,
+    "navRows": 1,
+    "ordered": true
+  },
+  {
+    "slug": "wordpress-hosting",
+    "locale": "ar",
+    "cards": [
+      {
+        "copyHeight": 519,
+        "copyScrollHeight": 519,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 497,
+        "copyScrollHeight": 497,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 497,
+        "copyScrollHeight": 497,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 497,
+        "copyScrollHeight": 497,
+        "height": 575,
+        "image": "none"
+      }
+    ],
+    "copyTop": 1068.763916015625,
+    "headingTop": 565.0694580078125,
+    "imageTop": 672.763916015625,
+    "navRows": 1,
+    "ordered": true
+  },
+  {
+    "slug": "cloud-hosting",
+    "locale": "en",
+    "cards": [
+      {
+        "copyHeight": 535,
+        "copyScrollHeight": 562,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 535,
+        "copyScrollHeight": 562,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 535,
+        "copyScrollHeight": 582,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 535,
+        "copyScrollHeight": 582,
+        "height": 575,
+        "image": "none"
+      }
+    ],
+    "copyTop": 1067.513916015625,
+    "headingTop": 517.9305419921875,
+    "imageTop": 671.513916015625,
+    "navRows": 1,
+    "ordered": true
+  },
+  {
+    "slug": "cloud-hosting",
+    "locale": "ar",
+    "cards": [
+      {
+        "copyHeight": 497,
+        "copyScrollHeight": 497,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 497,
+        "copyScrollHeight": 497,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 497,
+        "copyScrollHeight": 497,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 497,
+        "copyScrollHeight": 497,
+        "height": 575,
+        "image": "none"
+      }
+    ],
+    "copyTop": 1023.763916015625,
+    "headingTop": 520.0694580078125,
+    "imageTop": 627.763916015625,
+    "navRows": 1,
+    "ordered": true
+  },
+  {
+    "slug": "email-hosting",
+    "locale": "en",
+    "cards": [
+      {
+        "copyHeight": 414,
+        "copyScrollHeight": 414,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 491,
+        "copyScrollHeight": 491,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 469,
+        "copyScrollHeight": 469,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 459,
+        "copyScrollHeight": 459,
+        "height": 575,
+        "image": "none"
+      }
+    ],
+    "copyTop": 1139.513916015625,
+    "headingTop": 589.9305419921875,
+    "imageTop": 743.513916015625,
+    "navRows": 1,
+    "ordered": true
+  },
+  {
+    "slug": "email-hosting",
+    "locale": "ar",
+    "cards": [
+      {
+        "copyHeight": 393,
+        "copyScrollHeight": 393,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 471,
+        "copyScrollHeight": 471,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 448,
+        "copyScrollHeight": 448,
+        "height": 575,
+        "image": "none"
+      },
+      {
+        "copyHeight": 438,
+        "copyScrollHeight": 438,
+        "height": 575,
+        "image": "none"
+      }
+    ],
+    "copyTop": 1141.2083740234375,
+    "headingTop": 637.513916015625,
+    "imageTop": 745.2083129882812,
+    "navRows": 1,
+    "ordered": true
+  },
+  {
+    "slug": "ai-automation",
+    "locale": "en",
+    "cards": [],
+    "copyTop": 1055.1180419921875,
+    "headingTop": 496.6458435058594,
+    "imageTop": 609.4180908203125,
+    "navRows": 0,
+    "ordered": true
+  },
+  {
+    "slug": "ai-automation",
+    "locale": "ar",
+    "cards": [],
+    "copyTop": 1116.2222900390625,
+    "headingTop": 542.5277709960938,
+    "imageTop": 670.5222778320312,
+    "navRows": 0,
+    "ordered": true
+  },
+  {
+    "slug": "seo-geo",
+    "locale": "en",
+    "cards": [],
+    "copyTop": 1127.361083984375,
+    "headingTop": 568.888916015625,
+    "imageTop": 681.6611328125,
+    "navRows": 0,
+    "ordered": true
+  },
+  {
+    "slug": "seo-geo",
+    "locale": "ar",
+    "cards": [],
+    "copyTop": 1196.2222900390625,
+    "headingTop": 622.5277709960938,
+    "imageTop": 750.5222778320312,
+    "navRows": 0,
+    "ordered": true
+  },
+  {
+    "slug": "digital-marketing",
+    "locale": "en",
+    "cards": [],
+    "copyTop": 1270.5625,
+    "headingTop": 712.0902709960938,
+    "imageTop": 804.5625,
+    "navRows": 0,
+    "ordered": true
+  },
+  {
+    "slug": "digital-marketing",
+    "locale": "ar",
+    "cards": [],
+    "copyTop": 1295.77783203125,
+    "headingTop": 722.0833129882812,
+    "imageTop": 829.7777709960938,
+    "navRows": 0,
+    "ordered": true
+  },
+  {
+    "slug": "technical-support",
+    "locale": "en",
+    "cards": [],
+    "copyTop": 1164.65283203125,
+    "headingTop": 606.1805419921875,
+    "imageTop": 718.9528198242188,
+    "navRows": 0,
+    "ordered": true
+  },
+  {
+    "slug": "technical-support",
+    "locale": "ar",
+    "cards": [],
+    "copyTop": 1136.77783203125,
+    "headingTop": 563.0833129882812,
+    "imageTop": 691.0778198242188,
+    "navRows": 0,
+    "ordered": true
+  }
+]

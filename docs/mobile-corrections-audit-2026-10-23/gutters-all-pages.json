@@ -1,0 +1,506 @@
+[
+  {
+    "path": "/ar/industries/solar-energy/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/solar-energy/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/restaurants-cafes-bakeries/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/restaurants-cafes-bakeries/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/beauty-skincare-med-spa/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/beauty-skincare-med-spa/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/fashion-and-lifestyle/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/fashion-and-lifestyle/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/real-estate/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/real-estate/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/oil-and-gas/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/oil-and-gas/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/online-magazine/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/online-magazine/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/legal/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/legal/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/event-coordinators/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/event-coordinators/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/small-business/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/small-business/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/e-commerce/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/e-commerce/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/construction/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/construction/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/healthcare/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/healthcare/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/roofing/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/roofing/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/industries/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/industries/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/email-hosting/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/email-hosting/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/cloud-hosting/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/cloud-hosting/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/wordpress-hosting/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/wordpress-hosting/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/website-hosting/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/website-hosting/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/contact/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/contact/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/domains/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/domains/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/services/technical-support/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/services/technical-support/",
+    "locale": "en",
+    "edgeCopy": [
+      {
+        "left": 40,
+        "parent": "",
+        "right": -11,
+        "text": "Review whether the bottleneck is in the appli"
+      },
+      {
+        "left": 40,
+        "parent": "",
+        "right": 6,
+        "text": "Assess available backups and the condition of"
+      }
+    ],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/services/ai-automation/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/services/ai-automation/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/services/web-mobile-apps/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/services/web-mobile-apps/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/services/digital-marketing/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/services/digital-marketing/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/services/seo-geo-aeo/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/services/seo-geo-aeo/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/services/ecommerce/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/services/ecommerce/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/services/brand-design/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/services/brand-design/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/services/website-design/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/services/website-design/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/services/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/services/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/about/",
+    "locale": "ar",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/about/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/ar/",
+    "locale": "ar",
+    "edgeCopy": [
+      {
+        "left": 0,
+        "parent": "hp-editorial-copy",
+        "right": 0,
+        "text": "CODEYEA وكالة ابتكار رقمي تساعد الأعمال على ب"
+      },
+      {
+        "left": 0,
+        "parent": "hp-editorial-copy",
+        "right": 0,
+        "text": "قد تحتاج إلى موقع أو متجر أو إجراءات أذكى أو "
+      },
+      {
+        "left": 0,
+        "parent": "",
+        "right": 0,
+        "text": "نراجع نشاطك وجمهورك وهويتك قبل الاتفاق على ال"
+      },
+      {
+        "left": 0,
+        "parent": "",
+        "right": 0,
+        "text": "نخطط رحلات استخدام وتوزيعًا متجاوبًا ونختبر ا"
+      },
+      {
+        "left": 0,
+        "parent": "",
+        "right": 0,
+        "text": "نراعي الصلاحيات وبيانات الدخول وإعداد SSL وال"
+      },
+      {
+        "left": 0,
+        "parent": "",
+        "right": 0,
+        "text": "يبدأ الظهور بمحتوى مفيد وأساس تقني سليم. نراج"
+      },
+      {
+        "left": 0,
+        "parent": "",
+        "right": 0,
+        "text": "نلائم الاستضافة مع الموقع ونجهز النطاق وDNS و"
+      }
+    ],
+    "overflow": false,
+    "width": 373
+  },
+  {
+    "path": "/",
+    "locale": "en",
+    "edgeCopy": [],
+    "overflow": false,
+    "width": 373
+  }
+]

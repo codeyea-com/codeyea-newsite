@@ -173,6 +173,21 @@ export function AboutShowcase({ section }: { section: AboutSection }) {
   };
   useEffect(() => {
     const node = root.current;
+    if (!node) return;
+    // Prepare all four existing images shortly before the cards enter view.
+    const observer = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) return;
+      node.querySelectorAll<HTMLImageElement>("img").forEach(image => {
+        image.loading = "eager";
+        void image.decode().catch(() => {});
+      });
+      observer.disconnect();
+    }, { rootMargin: "600px 0px" });
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [slides.length]);
+  useEffect(() => {
+    const node = root.current;
     if (!node || slides.length < 2) return;
     let accumulated = 0,
       lastDirection = 0,

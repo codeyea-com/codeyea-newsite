@@ -1,0 +1,186 @@
+[
+  {
+    "width": "320",
+    "locale": "en",
+    "media": {
+      "height": 321,
+      "width": 303.1111145019531
+    },
+    "parts": [
+      {
+        "class": "campaign-channels",
+        "h": 99.60086059570312,
+        "inside": true,
+        "w": 74.328857421875
+      },
+      {
+        "class": "campaign-post",
+        "h": 179.4633331298828,
+        "inside": true,
+        "w": 133.83712768554688
+      },
+      {
+        "class": "campaign-motion",
+        "h": 20.41091537475586,
+        "inside": true,
+        "w": 37.7137336730957
+      },
+      {
+        "class": "campaign-conversion",
+        "h": 114.15201568603516,
+        "inside": true,
+        "w": 71.72265625
+      },
+      {
+        "class": "campaign-order",
+        "h": 30.30946159362793,
+        "inside": true,
+        "w": 84.88440704345703
+      },
+      {
+        "class": "campaign-stamp",
+        "h": 46.85129165649414,
+        "inside": true,
+        "w": 71.18367767333984
+      }
+    ]
+  },
+  {
+    "width": "320",
+    "locale": "ar",
+    "media": {
+      "height": 350,
+      "width": 303.1111145019531
+    },
+    "parts": [
+      {
+        "class": "campaign-channels",
+        "h": 91.0439453125,
+        "inside": true,
+        "w": 73.78485870361328
+      },
+      {
+        "class": "campaign-post",
+        "h": 218.71408081054688,
+        "inside": true,
+        "w": 135.31076049804688
+      },
+      {
+        "class": "campaign-motion",
+        "h": 20.42735481262207,
+        "inside": true,
+        "w": 37.74415588378906
+      },
+      {
+        "class": "campaign-conversion",
+        "h": 118.60015106201172,
+        "inside": true,
+        "w": 71.93264770507812
+      },
+      {
+        "class": "campaign-order",
+        "h": 30.33387565612793,
+        "inside": true,
+        "w": 71.13797760009766
+      },
+      {
+        "class": "campaign-stamp",
+        "h": 37.7547492980957,
+        "inside": true,
+        "w": 53.78936004638672
+      }
+    ]
+  },
+  {
+    "width": "390",
+    "locale": "en",
+    "media": {
+      "height": 407,
+      "width": 373.3333435058594
+    },
+    "parts": [
+      {
+        "class": "campaign-channels",
+        "h": 124.58013153076172,
+        "inside": true,
+        "w": 92.9700698852539
+      },
+      {
+        "class": "campaign-post",
+        "h": 224.47157287597656,
+        "inside": true,
+        "w": 167.4026641845703
+      },
+      {
+        "class": "campaign-motion",
+        "h": 25.52981185913086,
+        "inside": true,
+        "w": 47.17209243774414
+      },
+      {
+        "class": "campaign-conversion",
+        "h": 142.78062438964844,
+        "inside": true,
+        "w": 89.71025848388672
+      },
+      {
+        "class": "campaign-order",
+        "h": 37.91080856323242,
+        "inside": true,
+        "w": 106.17288970947266
+      },
+      {
+        "class": "campaign-stamp",
+        "h": 58.60129165649414,
+        "inside": true,
+        "w": 89.03607940673828
+      }
+    ]
+  },
+  {
+    "width": "390",
+    "locale": "ar",
+    "media": {
+      "height": 417,
+      "width": 373.3333435058594
+    },
+    "parts": [
+      {
+        "class": "campaign-channels",
+        "h": 113.87714385986328,
+        "inside": true,
+        "w": 92.28963470458984
+      },
+      {
+        "class": "campaign-post",
+        "h": 273.5661926269531,
+        "inside": true,
+        "w": 169.245849609375
+      },
+      {
+        "class": "campaign-motion",
+        "h": 25.55040168762207,
+        "inside": true,
+        "w": 47.21015167236328
+      },
+      {
+        "class": "campaign-conversion",
+        "h": 148.3443145751953,
+        "inside": true,
+        "w": 89.9728775024414
+      },
+      {
+        "class": "campaign-order",
+        "h": 37.94140625,
+        "inside": true,
+        "w": 88.97895050048828
+      },
+      {
+        "class": "campaign-stamp",
+        "h": 47.22336196899414,
+        "inside": true,
+        "w": 67.27940368652344
+      }
+    ]
+  }
+]

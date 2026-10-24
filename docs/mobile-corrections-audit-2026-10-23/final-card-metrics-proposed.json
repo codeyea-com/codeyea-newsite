@@ -1,0 +1,90 @@
+[
+  {
+    "width": "390",
+    "locale": "en",
+    "cards": [
+      {
+        "height": 527,
+        "scroll": 527
+      },
+      {
+        "height": 487,
+        "scroll": 487
+      },
+      {
+        "height": 505,
+        "scroll": 505
+      },
+      {
+        "height": 527,
+        "scroll": 527
+      }
+    ]
+  },
+  {
+    "width": "390",
+    "locale": "ar",
+    "cards": [
+      {
+        "height": 506,
+        "scroll": 506
+      },
+      {
+        "height": 462,
+        "scroll": 462
+      },
+      {
+        "height": 484,
+        "scroll": 484
+      },
+      {
+        "height": 466,
+        "scroll": 466
+      }
+    ]
+  },
+  {
+    "width": "320",
+    "locale": "en",
+    "cards": [
+      {
+        "height": 468,
+        "scroll": 468
+      },
+      {
+        "height": 449,
+        "scroll": 449
+      },
+      {
+        "height": 487,
+        "scroll": 487
+      },
+      {
+        "height": 487,
+        "scroll": 487
+      }
+    ]
+  },
+  {
+    "width": "320",
+    "locale": "ar",
+    "cards": [
+      {
+        "height": 432,
+        "scroll": 432
+      },
+      {
+        "height": 432,
+        "scroll": 432
+      },
+      {
+        "height": 432,
+        "scroll": 432
+      },
+      {
+        "height": 432,
+        "scroll": 432
+      }
+    ]
+  }
+]
