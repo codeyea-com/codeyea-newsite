@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-23",
+  "timezone": "America/Chicago",
+  "productionBuild": { "command": "npm run build", "exitCode": 0, "typeScript": "passed" },
+  "focusedTests": {
+    "command": "node --import tsx --test tests/hosting-server-features.test.ts tests/mobile-corrections-gestures.test.ts",
+    "passed": 10,
+    "failed": 0,
+    "coverage": ["hosting feature CMS schema and rendering", "wheel burst grouping", "vertical touch", "horizontal filmstrip touch", "one adjacent plan per large swipe in RTL and LTR"]
+  },
+  "browserFrames": ["320x667", "390x667", "390x900"],
+  "physicalPhoneTouchTested": false,
+  "authenticatedCmsEditorTested": false,
+  "existingLimitations": ["Two broader integration failures reproduced on the unchanged baseline in the earlier release report.", "The installed Next.js version emitted an existing security advisory; dependencies were outside this correction scope."]
+}

@@ -1,0 +1,105 @@
+{
+  "about": {
+    "locale": "ar",
+    "images": [
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 1254
+      },
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 1254
+      },
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 1254
+      },
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 1254
+      }
+    ],
+    "slides": 4,
+    "transition": "transform 0.65s"
+  },
+  "marquee": {
+    "asset": [
+      "/site/mobile-corrections.js?v=20261023-3"
+    ],
+    "rows": [
+      {
+        "fill": "rgb(7, 36, 72)",
+        "font": "65px",
+        "line": "81.25px",
+        "paint": "normal",
+        "stroke": "0px"
+      },
+      {
+        "fill": "rgb(255, 255, 255)",
+        "font": "65px",
+        "line": "81.25px",
+        "paint": "stroke",
+        "stroke": "2px"
+      }
+    ]
+  },
+  "specifications": {
+    "index": "6",
+    "logos": [
+      {
+        "complete": true,
+        "filter": "grayscale(1) brightness(1.5)",
+        "width": 320
+      },
+      {
+        "complete": true,
+        "filter": "grayscale(1) brightness(1.5)",
+        "width": 224
+      },
+      {
+        "complete": true,
+        "filter": "grayscale(1) brightness(1.5)",
+        "width": 150
+      },
+      {
+        "complete": true,
+        "filter": "grayscale(1) brightness(1.5)",
+        "width": 160
+      },
+      {
+        "complete": true,
+        "filter": "grayscale(1) brightness(1.5)",
+        "width": 150
+      },
+      {
+        "complete": true,
+        "filter": "grayscale(1) brightness(1.5)",
+        "width": 320
+      }
+    ],
+    "now": 1792815474637,
+    "padding": "56px"
+  },
+  "autoplay": {
+    "homeHero": {
+      "before": 0,
+      "after": 1,
+      "elapsedMs": 14225
+    },
+    "industries": {
+      "before": 1,
+      "after": 5,
+      "elapsedMs": 16837
+    },
+    "serverFeatures": {
+      "before": 1,
+      "after": 6,
+      "elapsedMs": 40572
+    },
+    "note": "Observed UI progression while visible. Timing settings are 8.5s, 3.5s and 7s respectively; these observations are not exact interval measurements."
+  }
+}
