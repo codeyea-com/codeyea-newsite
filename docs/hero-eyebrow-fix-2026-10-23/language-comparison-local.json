@@ -1,0 +1,34 @@
+[
+  {
+    "width": "320",
+    "lang": "ar",
+    "font": "9px",
+    "height": 28.375,
+    "line": "12.6px",
+    "padding": "7px 9px"
+  },
+  {
+    "width": "320",
+    "lang": "en",
+    "font": "9px",
+    "height": 28.375,
+    "line": "12.6px",
+    "padding": "7px 9px"
+  },
+  {
+    "width": "390",
+    "lang": "ar",
+    "font": "9px",
+    "height": 28.375,
+    "line": "12.6px",
+    "padding": "7px 9px"
+  },
+  {
+    "width": "390",
+    "lang": "en",
+    "font": "9px",
+    "height": 28.375,
+    "line": "12.6px",
+    "padding": "7px 9px"
+  }
+]

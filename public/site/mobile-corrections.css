@@ -73,8 +73,8 @@
  [data-cy-document] .v-showcases .v-copy ul{margin-block:12px!important}
  [data-cy-document] .v-showcases .v-detail-points{margin-top:10px!important;padding-top:10px!important}
  [data-cy-document] .v-showcases .v-editorial-link{font-size:14px!important;margin-block:10px 8px!important}
- html[lang=ar] .hp.public-surface .hp-services-hero .eyebrow{font-size:13px!important;line-height:1.7!important;font-weight:400!important;padding:7px 10px!important}
- html[lang=ar] .hp.public-surface .hp-services-hero #home-hero-eyebrow{font-size:13px!important}
+ html[lang=ar] .hp.public-surface .hp-services-hero .eyebrow{font-size:11px!important;line-height:1.4!important;font-weight:400!important;padding:9px 12px!important}
+ html[lang=ar] .hp.public-surface .hp-services-hero #home-hero-eyebrow{font-size:11px!important}
  html[lang=ar] .hp.public-surface :is(.about-reference-container,.hp-container,.rp-container,.d-container,.ds-wrap,.v-wrap,.b-wrap,.b-container,.ct-container,.rf-container,.rf-service-container){width:var(--page-content-width)!important;max-width:100%!important;margin-inline:auto!important;box-sizing:border-box}
  html[lang=ar] .hp.public-surface :is(.about-intro-columns,.about-intro-body,.industries-introduction-copy,.industry-copy,.detail-copy){min-width:0;max-width:100%;overflow-wrap:anywhere}
  html[lang=ar] .hp-home .hp-about-copy{padding-inline:20px!important}
@@ -100,6 +100,9 @@
  html[lang=en] .services-page .rp-faq::before{background:#fff!important}
  html[lang=en] .services-page .rp-faq>h2{position:sticky!important;top:90px!important;align-self:start;z-index:2;background:#fff!important;padding-block:10px}
  html[lang=en] .services-page .rp-faq>.cy-faq-heading{position:sticky!important;top:90px!important;align-self:start;z-index:2;background:#fff!important;padding-block:10px}
+}
+@media(max-width:520px){
+ html[lang=ar] .hp.public-surface .hp-services-hero #home-hero-eyebrow{font-size:9px!important;padding:7px 9px!important}
 }
 @media(max-width:359px){
  [data-cy-document] .v-showcases .v-copy{padding-inline:18px!important}
