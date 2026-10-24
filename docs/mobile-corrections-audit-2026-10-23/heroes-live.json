@@ -1,0 +1,594 @@
+[
+  {
+    "slug": "ai-automation",
+    "locale": "ar",
+    "mediaHeight": 148,
+    "parts": [
+      {
+        "class": "automation-inbound",
+        "inside": true
+      },
+      {
+        "class": "automation-arrow automation-arrow--in",
+        "inside": true
+      },
+      {
+        "class": "automation-console",
+        "inside": true
+      },
+      {
+        "class": "automation-arrow automation-arrow--out",
+        "inside": true
+      },
+      {
+        "class": "automation-results",
+        "inside": true
+      },
+      {
+        "class": "automation-caption",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "ai-automation",
+    "locale": "en",
+    "mediaHeight": 148,
+    "parts": [
+      {
+        "class": "automation-inbound",
+        "inside": true
+      },
+      {
+        "class": "automation-arrow automation-arrow--in",
+        "inside": true
+      },
+      {
+        "class": "automation-console",
+        "inside": true
+      },
+      {
+        "class": "automation-arrow automation-arrow--out",
+        "inside": true
+      },
+      {
+        "class": "automation-results",
+        "inside": true
+      },
+      {
+        "class": "automation-caption",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "web-mobile-apps",
+    "locale": "ar",
+    "mediaHeight": 331,
+    "parts": [
+      {
+        "class": "desktop-store",
+        "inside": true
+      },
+      {
+        "class": "device device--browse",
+        "inside": true
+      },
+      {
+        "class": "device device--detail",
+        "inside": true
+      },
+      {
+        "class": "device device--checkout",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "web-mobile-apps",
+    "locale": "en",
+    "mediaHeight": 338,
+    "parts": [
+      {
+        "class": "desktop-store",
+        "inside": true
+      },
+      {
+        "class": "device device--browse",
+        "inside": true
+      },
+      {
+        "class": "device device--detail",
+        "inside": true
+      },
+      {
+        "class": "device device--checkout",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "seo-geo-aeo",
+    "locale": "ar",
+    "mediaHeight": 178,
+    "parts": [
+      {
+        "class": "seo-globe",
+        "inside": true
+      },
+      {
+        "class": "seo-monitor",
+        "inside": true
+      },
+      {
+        "class": "seo-person",
+        "inside": true
+      },
+      {
+        "class": "seo-answer",
+        "inside": true
+      },
+      {
+        "class": "seo-target",
+        "inside": true
+      },
+      {
+        "class": "seo-rank",
+        "inside": true
+      },
+      {
+        "class": "seo-lens",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "seo-geo-aeo",
+    "locale": "en",
+    "mediaHeight": 176,
+    "parts": [
+      {
+        "class": "seo-globe",
+        "inside": true
+      },
+      {
+        "class": "seo-monitor",
+        "inside": true
+      },
+      {
+        "class": "seo-person",
+        "inside": true
+      },
+      {
+        "class": "seo-answer",
+        "inside": true
+      },
+      {
+        "class": "seo-target",
+        "inside": true
+      },
+      {
+        "class": "seo-rank",
+        "inside": true
+      },
+      {
+        "class": "seo-lens",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "digital-marketing",
+    "locale": "ar",
+    "mediaHeight": 350,
+    "parts": [
+      {
+        "class": "campaign-channels",
+        "inside": true
+      },
+      {
+        "class": "campaign-post",
+        "inside": true
+      },
+      {
+        "class": "campaign-motion",
+        "inside": true
+      },
+      {
+        "class": "campaign-conversion",
+        "inside": true
+      },
+      {
+        "class": "campaign-order",
+        "inside": true
+      },
+      {
+        "class": "campaign-stamp",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "digital-marketing",
+    "locale": "en",
+    "mediaHeight": 321,
+    "parts": [
+      {
+        "class": "campaign-channels",
+        "inside": true
+      },
+      {
+        "class": "campaign-post",
+        "inside": true
+      },
+      {
+        "class": "campaign-motion",
+        "inside": true
+      },
+      {
+        "class": "campaign-conversion",
+        "inside": true
+      },
+      {
+        "class": "campaign-order",
+        "inside": true
+      },
+      {
+        "class": "campaign-stamp",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "technical-support",
+    "locale": "ar",
+    "mediaHeight": 222,
+    "parts": [
+      {
+        "class": "support-photo",
+        "inside": true
+      },
+      {
+        "class": "support-stripe",
+        "inside": true
+      },
+      {
+        "class": "support-browser",
+        "inside": true
+      },
+      {
+        "class": "support-ticket",
+        "inside": true
+      },
+      {
+        "class": "support-diagnostics",
+        "inside": true
+      },
+      {
+        "class": "support-live-tag",
+        "inside": true
+      },
+      {
+        "class": "support-replay",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "technical-support",
+    "locale": "en",
+    "mediaHeight": 200,
+    "parts": [
+      {
+        "class": "support-photo",
+        "inside": true
+      },
+      {
+        "class": "support-stripe",
+        "inside": true
+      },
+      {
+        "class": "support-browser",
+        "inside": true
+      },
+      {
+        "class": "support-ticket",
+        "inside": true
+      },
+      {
+        "class": "support-diagnostics",
+        "inside": true
+      },
+      {
+        "class": "support-live-tag",
+        "inside": true
+      },
+      {
+        "class": "support-replay",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "website-hosting",
+    "locale": "ar",
+    "mediaHeight": 148,
+    "parts": [
+      {
+        "class": "hosting-index",
+        "inside": true
+      },
+      {
+        "class": "server-stack",
+        "inside": true
+      },
+      {
+        "class": "hosting-trace",
+        "inside": true
+      },
+      {
+        "class": "hosting-browser",
+        "inside": true
+      },
+      {
+        "class": "hosting-status",
+        "inside": true
+      },
+      {
+        "class": "hosting-note",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "website-hosting",
+    "locale": "en",
+    "mediaHeight": 148,
+    "parts": [
+      {
+        "class": "hosting-index",
+        "inside": true
+      },
+      {
+        "class": "server-stack",
+        "inside": true
+      },
+      {
+        "class": "hosting-trace",
+        "inside": true
+      },
+      {
+        "class": "hosting-browser",
+        "inside": true
+      },
+      {
+        "class": "hosting-status",
+        "inside": true
+      },
+      {
+        "class": "hosting-note",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "wordpress-hosting",
+    "locale": "ar",
+    "mediaHeight": 187,
+    "parts": [
+      {
+        "class": "wp-back-swoosh",
+        "inside": true
+      },
+      {
+        "class": "wp-index",
+        "inside": true
+      },
+      {
+        "class": "wp-editor",
+        "inside": true
+      },
+      {
+        "class": "wp-link",
+        "inside": true
+      },
+      {
+        "class": "wp-site",
+        "inside": true
+      },
+      {
+        "class": "wp-feedback",
+        "inside": true
+      },
+      {
+        "class": "wp-bottom-note",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "wordpress-hosting",
+    "locale": "en",
+    "mediaHeight": 186,
+    "parts": [
+      {
+        "class": "wp-back-swoosh",
+        "inside": true
+      },
+      {
+        "class": "wp-index",
+        "inside": true
+      },
+      {
+        "class": "wp-editor",
+        "inside": true
+      },
+      {
+        "class": "wp-link",
+        "inside": true
+      },
+      {
+        "class": "wp-site",
+        "inside": true
+      },
+      {
+        "class": "wp-feedback",
+        "inside": true
+      },
+      {
+        "class": "wp-bottom-note",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "cloud-hosting",
+    "locale": "ar",
+    "mediaHeight": 151,
+    "parts": [
+      {
+        "class": "cloud-field",
+        "inside": true
+      },
+      {
+        "class": "cloud-index",
+        "inside": true
+      },
+      {
+        "class": "cloud-console",
+        "inside": true
+      },
+      {
+        "class": "cloud-connectors",
+        "inside": true
+      },
+      {
+        "class": "cloud-site cloud-site-left",
+        "inside": true
+      },
+      {
+        "class": "cloud-site cloud-site-right",
+        "inside": true
+      },
+      {
+        "class": "cloud-site cloud-site-main",
+        "inside": true
+      },
+      {
+        "class": "cloud-bottom",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "cloud-hosting",
+    "locale": "en",
+    "mediaHeight": 150,
+    "parts": [
+      {
+        "class": "cloud-field",
+        "inside": true
+      },
+      {
+        "class": "cloud-index",
+        "inside": true
+      },
+      {
+        "class": "cloud-console",
+        "inside": true
+      },
+      {
+        "class": "cloud-connectors",
+        "inside": true
+      },
+      {
+        "class": "cloud-site cloud-site-left",
+        "inside": true
+      },
+      {
+        "class": "cloud-site cloud-site-right",
+        "inside": true
+      },
+      {
+        "class": "cloud-site cloud-site-main",
+        "inside": true
+      },
+      {
+        "class": "cloud-bottom",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "email-hosting",
+    "locale": "ar",
+    "mediaHeight": 209,
+    "parts": [
+      {
+        "class": "mail-back-shape",
+        "inside": true
+      },
+      {
+        "class": "mail-index",
+        "inside": true
+      },
+      {
+        "class": "mail-browser",
+        "inside": true
+      },
+      {
+        "class": "mail-domain",
+        "inside": true
+      },
+      {
+        "class": "mail-replay",
+        "inside": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "slug": "email-hosting",
+    "locale": "en",
+    "mediaHeight": 208,
+    "parts": [
+      {
+        "class": "mail-back-shape",
+        "inside": true
+      },
+      {
+        "class": "mail-index",
+        "inside": true
+      },
+      {
+        "class": "mail-browser",
+        "inside": true
+      },
+      {
+        "class": "mail-domain",
+        "inside": true
+      },
+      {
+        "class": "mail-replay",
+        "inside": true
+      }
+    ],
+    "passed": true
+  }
+]

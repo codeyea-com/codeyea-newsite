@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-10-24T04:04:02.876Z",
+  "readOnly": true,
+  "project": "lively-queen-95299732",
+  "branch": "br-late-cloud-b5cj6jvj",
+  "documents": [
+    {
+      "slug": "cloud-hosting",
+      "locale": "ar",
+      "version": 2,
+      "slides": 6,
+      "draft_matches_public": true
+    },
+    {
+      "slug": "cloud-hosting",
+      "locale": "en",
+      "version": 1,
+      "slides": 6,
+      "draft_matches_public": true
+    },
+    {
+      "slug": "email-hosting",
+      "locale": "ar",
+      "version": 2,
+      "slides": 6,
+      "draft_matches_public": true
+    },
+    {
+      "slug": "email-hosting",
+      "locale": "en",
+      "version": 1,
+      "slides": 6,
+      "draft_matches_public": true
+    },
+    {
+      "slug": "website-hosting",
+      "locale": "ar",
+      "version": 2,
+      "slides": 6,
+      "draft_matches_public": true
+    },
+    {
+      "slug": "website-hosting",
+      "locale": "en",
+      "version": 1,
+      "slides": 6,
+      "draft_matches_public": true
+    },
+    {
+      "slug": "wordpress-hosting",
+      "locale": "ar",
+      "version": 2,
+      "slides": 6,
+      "draft_matches_public": true
+    },
+    {
+      "slug": "wordpress-hosting",
+      "locale": "en",
+      "version": 1,
+      "slides": 6,
+      "draft_matches_public": true
+    }
+  ],
+  "passed": true
+}

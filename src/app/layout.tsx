@@ -39,13 +39,13 @@ export default async function RootLayout({
         <style dangerouslySetInnerHTML={{ __html: typography }} />
         <link rel="stylesheet" href="/site/owner-batch.css?v=20261021-review3" />
         <link rel="stylesheet" href="/site/live-corrections.css?v=20261022-1" />
-        <link rel="stylesheet" href="/site/mobile-corrections.css?v=20261023-2" />
+        <link rel="stylesheet" href="/site/mobile-corrections.css?v=20261023-3" />
       </head>
       <body>
         {children}
         <Script src="/site/post-launch.js?v=20261022-perf2" strategy="afterInteractive" />
         <Script src="/site/live-corrections.js?v=20261022-perf2" strategy="afterInteractive" />
-        <Script src="/site/mobile-corrections.js?v=20261023-2" strategy="afterInteractive" />
+        <Script src="/site/mobile-corrections.js?v=20261023-3" strategy="afterInteractive" />
       </body>
     </html>
   );

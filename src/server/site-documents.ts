@@ -1189,8 +1189,8 @@ export async function renderDocument(
   if (locale === "ar") html = html.replace(/(<(?:span|small|p)\b[^>]*>)(?:الأسئلة الشائعة|FAQ)(<\/(?:span|small|p)>)/g, '$1FAQs$2');
   html = renderReviewAdditions(applyLiveReviewContent(html,slug,locale),slug,locale,content.additions);
   html = html.replace(/<body\b/, `<body data-cy-document="${slug}"`)
-    .replace('</head>', '<link rel="stylesheet" href="/site/mobile-corrections.css?v=20261023-2"></head>')
-    .replace('</body>', '<script src="/site/mobile-corrections.js?v=20261023-2"></script></body>');
+    .replace('</head>', '<link rel="stylesheet" href="/site/mobile-corrections.css?v=20261023-3"></head>')
+    .replace('</body>', '<script src="/site/mobile-corrections.js?v=20261023-3"></script></body>');
   return canonicalHtmlLinks(html);
 }
 function slugTitle(slug: string) {
