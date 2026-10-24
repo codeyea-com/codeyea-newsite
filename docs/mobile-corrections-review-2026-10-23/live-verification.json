@@ -1,0 +1,163 @@
+{
+  "checkedAt": "2026-10-24T03:24:00.163Z",
+  "origin": "https://codeyea.com",
+  "pages": [
+    {
+      "pathname": "/website-hosting/",
+      "status": 200,
+      "url": "https://codeyea.com/website-hosting/",
+      "features": 6,
+      "sectionCount": 1,
+      "locale": "en",
+      "mobileCorrections": true,
+      "heading": "Server features"
+    },
+    {
+      "pathname": "/ar/website-hosting/",
+      "status": 200,
+      "url": "https://codeyea.com/ar/website-hosting/",
+      "features": 6,
+      "sectionCount": 1,
+      "locale": "ar",
+      "mobileCorrections": true,
+      "heading": "مواصفات السيرفرات"
+    },
+    {
+      "pathname": "/wordpress-hosting/",
+      "status": 200,
+      "url": "https://codeyea.com/wordpress-hosting/",
+      "features": 6,
+      "sectionCount": 1,
+      "locale": "en",
+      "mobileCorrections": true,
+      "heading": "Server features"
+    },
+    {
+      "pathname": "/ar/wordpress-hosting/",
+      "status": 200,
+      "url": "https://codeyea.com/ar/wordpress-hosting/",
+      "features": 6,
+      "sectionCount": 1,
+      "locale": "ar",
+      "mobileCorrections": true,
+      "heading": "مواصفات السيرفرات"
+    },
+    {
+      "pathname": "/cloud-hosting/",
+      "status": 200,
+      "url": "https://codeyea.com/cloud-hosting/",
+      "features": 6,
+      "sectionCount": 1,
+      "locale": "en",
+      "mobileCorrections": true,
+      "heading": "Server features"
+    },
+    {
+      "pathname": "/ar/cloud-hosting/",
+      "status": 200,
+      "url": "https://codeyea.com/ar/cloud-hosting/",
+      "features": 6,
+      "sectionCount": 1,
+      "locale": "ar",
+      "mobileCorrections": true,
+      "heading": "مواصفات السيرفرات"
+    },
+    {
+      "pathname": "/email-hosting/",
+      "status": 200,
+      "url": "https://codeyea.com/email-hosting/",
+      "features": 6,
+      "sectionCount": 1,
+      "locale": "en",
+      "mobileCorrections": true,
+      "heading": "Server features"
+    },
+    {
+      "pathname": "/ar/email-hosting/",
+      "status": 200,
+      "url": "https://codeyea.com/ar/email-hosting/",
+      "features": 6,
+      "sectionCount": 1,
+      "locale": "ar",
+      "mobileCorrections": true,
+      "heading": "مواصفات السيرفرات"
+    }
+  ],
+  "assets": [
+    {
+      "name": "hosting-server-features.css",
+      "status": 200,
+      "bytes": 6699,
+      "matchesLocal": true,
+      "comparison": "UTF-8 with normalized line endings"
+    },
+    {
+      "name": "hosting-server-features.js",
+      "status": 200,
+      "bytes": 6361,
+      "matchesLocal": true,
+      "comparison": "UTF-8 with normalized line endings"
+    },
+    {
+      "name": "mobile-corrections.css",
+      "status": 200,
+      "bytes": 11314,
+      "matchesLocal": true,
+      "comparison": "UTF-8 with normalized line endings"
+    },
+    {
+      "name": "mobile-corrections.js",
+      "status": 200,
+      "bytes": 13269,
+      "matchesLocal": true,
+      "comparison": "UTF-8 with normalized line endings"
+    },
+    {
+      "name": "server-features/cpanel.webp",
+      "status": 200,
+      "bytes": 7882,
+      "matchesLocal": true,
+      "comparison": "binary"
+    },
+    {
+      "name": "server-features/backups.webp",
+      "status": 200,
+      "bytes": 10424,
+      "matchesLocal": true,
+      "comparison": "binary"
+    },
+    {
+      "name": "server-features/wordpress.webp",
+      "status": 200,
+      "bytes": 11760,
+      "matchesLocal": true,
+      "comparison": "binary"
+    },
+    {
+      "name": "server-features/imunify360.webp",
+      "status": 200,
+      "bytes": 13718,
+      "matchesLocal": true,
+      "comparison": "binary"
+    },
+    {
+      "name": "server-features/mail.svg",
+      "status": 200,
+      "bytes": 333,
+      "matchesLocal": true,
+      "comparison": "UTF-8 with normalized line endings"
+    },
+    {
+      "name": "server-features/spam.svg",
+      "status": 200,
+      "bytes": 351,
+      "matchesLocal": true,
+      "comparison": "UTF-8 with normalized line endings"
+    }
+  ],
+  "www": {
+    "status": 308,
+    "location": "https://codeyea.com/ar/website-hosting/"
+  },
+  "passed": true
+}

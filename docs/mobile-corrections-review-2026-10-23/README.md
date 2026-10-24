@@ -14,6 +14,7 @@ Owner-authorized release, 2026-10-23 (America/Chicago). Publication and CMS sync
 - Production build and TypeScript completed successfully. The pre-existing Next.js installation emitted a security advisory; no dependency changes were included in this design release.
 - Five hosting/CMS tests passed, including six distinct features in both languages, public/preview rendering, escaped CMS text, visibility and serialized validation.
 - Eighteen mobile hero/intro measurements: no document horizontal overflow. See `hero-checks.json`.
+- All 64 page/language combinations also fit a 320px browser frame without document horizontal overflow. See `width-320-checks.json`.
 - All fourteen industry galleries in both languages attach the draggable controller and translated indicator without document overflow. See `gallery-checks.json` and `industry-drag-ar.png`.
 - Native browser dragging advanced the Arabic industry gallery without opening its photo dialog; the translated indicator appeared during the drag.
 - Native wheel bursts advanced one vertical hosting card per burst. On a 390 by 667 frame, Arabic copy fits the 575px card without internal scrolling. Hosting tabs share one 55px row.
@@ -23,4 +24,8 @@ Owner-authorized release, 2026-10-23 (America/Chicago). Publication and CMS sync
 
 ## Release sequence
 
-Deploy the compatible schema and renderer first, then apply the guarded eight-document CMS transaction to production. Verify the public English and Arabic pages after the CMS write. Production deployment and synchronization identifiers are recorded separately after completion.
+Published to `https://codeyea.com` from commit `6fc20eba33fe71c316c99e6c4d2b95fa14d1a64b`. Vercel Production deployment `dpl_3c75P7kcxqhhU1w4WKhqZCXC3Z9m` is Ready. The compatible schema and renderer were deployed first; the guarded eight-document CMS transaction then completed on production. All eight public hosting pages return 200 with six features each. The ten served section/mobile assets match the release files, allowing only Windows text line-ending normalization. The existing www-to-apex 308 redirect remains correct.
+
+See `release.json` for CMS revision/preservation checks and `live-verification.json` for post-sync public checks. The authenticated editor UI was not exercised because this browser session redirects to login; data validation, preview/public render tests and production database readback passed.
+
+Live browser verification confirmed both language directions, manual feature navigation, all six loaded logos, 56px top padding and grayscale-to-color keyboard focus after its 450ms transition. `production-server-features-ar.png` shows the published section.

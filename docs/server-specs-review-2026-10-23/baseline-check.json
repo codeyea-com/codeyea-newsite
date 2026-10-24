@@ -1,0 +1,9 @@
+{
+  "baseline_source": "git HEAD:src/server/site-documents.ts",
+  "exit_code": 1,
+  "failures": [
+    "✖ integrated service heroes never flash the legacy hero and retain both animated logo variants (151.667ms)",
+    "✖ public approved navigation links point to public page routes (2.782ms)"
+  ],
+  "interpretation": "These same two existing integration checks fail without the new hosting features import or integration call."
+}

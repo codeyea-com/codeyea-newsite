@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-23",
+  "timezone": "America/Chicago",
+  "commit": "6fc20eba33fe71c316c99e6c4d2b95fa14d1a64b",
+  "origin": "https://codeyea.com",
+  "deploymentId": "dpl_3c75P7kcxqhhU1w4WKhqZCXC3Z9m",
+  "deploymentUrl": "https://codeyea-newsite-o41icpg7a-codeyea.vercel.app",
+  "environment": "Production",
+  "status": "Ready",
+  "cms": {
+    "project": "lively-queen-95299732",
+    "branch": "br-late-cloud-b5cj6jvj",
+    "documents": [
+      {
+        "slug": "cloud-hosting",
+        "locale": "ar",
+        "version": 2,
+        "slides": 6,
+        "draft_matches_public": true,
+        "other_draft_fields_preserved": true,
+        "other_additions_preserved": true,
+        "revision_saved": true
+      },
+      {
+        "slug": "cloud-hosting",
+        "locale": "en",
+        "version": 1,
+        "slides": 6,
+        "draft_matches_public": true,
+        "other_draft_fields_preserved": null,
+        "other_additions_preserved": null,
+        "revision_saved": true
+      },
+      {
+        "slug": "email-hosting",
+        "locale": "ar",
+        "version": 2,
+        "slides": 6,
+        "draft_matches_public": true,
+        "other_draft_fields_preserved": true,
+        "other_additions_preserved": true,
+        "revision_saved": true
+      },
+      {
+        "slug": "email-hosting",
+        "locale": "en",
+        "version": 1,
+        "slides": 6,
+        "draft_matches_public": true,
+        "other_draft_fields_preserved": null,
+        "other_additions_preserved": null,
+        "revision_saved": true
+      },
+      {
+        "slug": "website-hosting",
+        "locale": "ar",
+        "version": 2,
+        "slides": 6,
+        "draft_matches_public": true,
+        "other_draft_fields_preserved": true,
+        "other_additions_preserved": true,
+        "revision_saved": true
+      },
+      {
+        "slug": "website-hosting",
+        "locale": "en",
+        "version": 1,
+        "slides": 6,
+        "draft_matches_public": true,
+        "other_draft_fields_preserved": null,
+        "other_additions_preserved": null,
+        "revision_saved": true
+      },
+      {
+        "slug": "wordpress-hosting",
+        "locale": "ar",
+        "version": 2,
+        "slides": 6,
+        "draft_matches_public": true,
+        "other_draft_fields_preserved": true,
+        "other_additions_preserved": true,
+        "revision_saved": true
+      },
+      {
+        "slug": "wordpress-hosting",
+        "locale": "en",
+        "version": 1,
+        "slides": 6,
+        "draft_matches_public": true,
+        "other_draft_fields_preserved": null,
+        "other_additions_preserved": null,
+        "revision_saved": true
+      }
+    ],
+    "transaction": "Version-guarded update, immutable revisions and before/after audit records",
+    "authenticatedEditorUi": "Not exercised: the browser session redirects to login; CMS schema, public rendering, preview rendering and database readback passed."
+  },
+  "notes": [
+    "Preview build failed because required environment variables are scoped to Production. Read-only scope verification preceded the successful Production deployment. No environment values were revealed or changed.",
+    "Initial local build emitted an advisory for the existing Next.js installation. The subsequent build completed; dependencies were preserved.",
+    "Physical phone touch has not been exercised; mobile-width browser, native mouse/wheel and controller checks are supporting verification."
+  ]
+}
